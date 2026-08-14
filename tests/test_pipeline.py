@@ -27,7 +27,6 @@ def _mk(raws, commission="XX"):
         blob = f"{r.get('title','')} {r.get('description','')}"
         tk, subs = classify.match_companies(blob, commission)
         et, el, w = classify.classify_type(blob)
-        rc, sig = classify.detect_rate_case(blob)
         out.append(Event(
             commission=commission, commission_name="Test Commission", state="XX", tz=TZ,
             title=r["title"], start=r["start"], end=r.get("end"),
@@ -35,8 +34,7 @@ def _mk(raws, commission="XX"):
             description=r.get("description", ""), url=r.get("url", ""),
             dockets=extract_dockets(r.get("title"), r.get("description")),
             tickers=tk, subsidiaries=subs, event_type=et, event_type_label=el,
-            weight=w + (1 if tk else 0) + (1 if rc else 0),
-            rate_case=rc, rate_case_signals=sig,
+            weight=w + (1 if tk else 0),
         ))
     return out
 
@@ -213,12 +211,6 @@ def test_event_typing(text, expected):
     assert classify.classify_type(text)[0] == expected
 
 
-def test_rate_case_detection():
-    assert classify.detect_rate_case("application for a general rate increase")[0]
-    assert classify.detect_rate_case("integrated resource plan filing")[0]
-    assert not classify.detect_rate_case("annual staff picnic")[0]
-
-
 def test_noise_filter():
     assert classify.is_noise("Next")
     assert classify.is_noise("12")
@@ -231,10 +223,9 @@ def test_full_normalisation_from_ics():
     evs = _mk(extract.from_ics(F.ICS_TRUMBA, ZoneInfo(TZ), NOW, "u"), "IN")
     nip = evs[0]
     assert nip.tickers == ["NI"]
-    assert nip.rate_case is True
     assert nip.event_type == "evidentiary_hearing"
     assert "46150" in " ".join(nip.dockets)
-    assert nip.weight >= 4          # base 3 + ticker + rate case, capped by design
+    assert nip.weight >= 4          # base 3 + ticker attribution
     assert nip.uid.endswith("@psc-calendar")
 
 
@@ -299,7 +290,7 @@ def test_ics_all_day_event_has_date_valued_dtstart():
 def test_write_all_produces_expected_feeds(tmp_path):
     evs = _mk(extract.from_ics(F.ICS_TRUMBA, ZoneInfo(TZ), NOW, "u"), "IN")
     counts = write_all(evs, tmp_path, NOW)
-    for f in ("all.ics", "coverage.ics", "rate-cases.ics", "high-priority.ics"):
+    for f in ("all.ics", "coverage.ics", "high-priority.ics"):
         assert (tmp_path / f).exists()
     assert (tmp_path / "ticker-NI.ics").exists()
     assert (tmp_path / "commission-IN.ics").exists()

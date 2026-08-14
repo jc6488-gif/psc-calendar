@@ -49,12 +49,6 @@ def _type_rules() -> list[tuple[str, str, int, list[re.Pattern]]]:
     return rules
 
 
-@lru_cache(maxsize=1)
-def _rate_signals() -> list[tuple[str, re.Pattern]]:
-    return [(s, re.compile(re.escape(s).replace(r"\ ", r"\s+"), re.IGNORECASE))
-            for s in load_coverage()["rate_case_signals"]]
-
-
 def match_companies(
     text: str, commission_code: str, title: str | None = None
 ) -> tuple[list[str], list[str]]:
@@ -100,11 +94,6 @@ def classify_type(text: str) -> tuple[str, str, int]:
         if any(p.search(text) for p in pats):
             return tid, label, weight
     return "other", "Other", 1
-
-
-def detect_rate_case(text: str) -> tuple[bool, list[str]]:
-    hits = [s for s, p in _rate_signals() if p.search(text)]
-    return bool(hits), hits[:6]
 
 
 NOISE = [

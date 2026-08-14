@@ -55,7 +55,6 @@ def main() -> int:
             blob = f"{r.get('title','')} {r.get('description','')}"
             tk, subs = classify.match_companies(blob, code)
             et, el, w = classify.classify_type(blob)
-            rc, sig = classify.detect_rate_case(blob)
             evs.append(Event(
                 commission=code, commission_name=name, state=state, tz=tzname,
                 title=r["title"], start=shift(r["start"]), all_day=bool(r.get("all_day")),
@@ -63,8 +62,8 @@ def main() -> int:
                 url=r.get("url", ""), source_url="",
                 dockets=extract_dockets(r.get("title"), r.get("description")),
                 tickers=tk, subsidiaries=subs, event_type=et, event_type_label=el,
-                weight=w + (1 if tk else 0) + (1 if rc else 0),
-                rate_case=rc, rate_case_signals=sig, scraped_at=NOW.isoformat(),
+                weight=w + (1 if tk else 0),
+                scraped_at=NOW.isoformat(),
             ))
         events += evs
         results.append(ScrapeResult(code, name, "core", True, evs, strat, "fixture", "", 0.4))

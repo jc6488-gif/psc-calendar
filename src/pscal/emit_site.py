@@ -133,7 +133,6 @@ TEMPLATE = r"""<!DOCTYPE html>
          white-space: nowrap; }
   .tag.tk { background: var(--accent-soft); color: var(--text-primary);
             border-color: transparent; }
-  .tag.rc { color: var(--text-secondary); }
   .docket { font-variant-numeric: tabular-nums; font-size: 12px; color: var(--text-secondary);
             white-space: nowrap; }
   .type { white-space: nowrap; font-size: 12px; color: var(--text-secondary); }
@@ -201,9 +200,6 @@ TEMPLATE = r"""<!DOCTYPE html>
   <div class="card kpi"><div class="label">Names with dates</div>
     <div class="value" id="k-cov">—</div>
     <div class="foot" id="k-cov-f"></div></div>
-  <div class="card kpi"><div class="label">Rate-case relevant</div>
-    <div class="value" id="k-rate">—</div>
-    <div class="foot" id="k-rate-f"></div></div>
   <div class="card kpi"><div class="label">Next 7 days</div>
     <div class="value" id="k-week">—</div>
     <div class="foot" id="k-week-f"></div></div>
@@ -236,7 +232,6 @@ TEMPLATE = r"""<!DOCTYPE html>
     <option value="past">Past 30 days</option>
   </select>
   <button class="chip" id="f-cov" aria-pressed="false">Coverage only</button>
-  <button class="chip" id="f-rc" aria-pressed="false">Rate cases only</button>
   <button class="chip" id="reset">Reset</button>
 </div>
 
@@ -269,7 +264,6 @@ TEMPLATE = r"""<!DOCTYPE html>
     <div class="feedrow feeds">
       <a href="feeds/coverage.ics">Coverage universe (.ics)</a>
       <a href="feeds/high-priority.ics">High priority only (.ics)</a>
-      <a href="feeds/rate-cases.ics">Rate cases (.ics)</a>
       <a href="feeds/all.ics">Everything, all 50 states (.ics)</a>
       <a href="events.json">Raw JSON</a>
     </div>
@@ -335,7 +329,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   types.forEach(([id, label]) => $("f-type").add(new Option(label, id)));
 
   const state = { q:"", ticker:"", comm:"", type:"", range:"90",
-                  cov:false, rc:false, sort:"start", dir:1 };
+                  cov:false, sort:"start", dir:1 };
 
   const startOfToday = new Date(); startOfToday.setHours(0, 0, 0, 0);
 
@@ -356,7 +350,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       if (state.comm && e.commission !== state.comm) return false;
       if (state.type && e.event_type !== state.type) return false;
       if (state.cov && !e.tickers.length) return false;
-      if (state.rc && !e.rate_case) return false;
       if (q) {
         const hay = (e.title + " " + e.description + " " + e.dockets.join(" ") + " " +
                      e.tickers.join(" ") + " " + e.subsidiaries.join(" ") + " " +
@@ -401,7 +394,6 @@ TEMPLATE = r"""<!DOCTYPE html>
     lastRows = rows;
 
     const cov = rows.filter((e) => e.tickers.length).length;
-    const rc = rows.filter((e) => e.rate_case).length;
     const wk = rows.filter((e) => {
       const d = new Date(e.start);
       return d >= startOfToday && d <= new Date(startOfToday.getTime() + 7 * 864e5);
@@ -414,8 +406,6 @@ TEMPLATE = r"""<!DOCTYPE html>
     // universe is covered", which is a different and much more alarming number.
     $("k-cov").textContent = `${withDates.size}/${ROSTER.length}`;
     $("k-cov-f").textContent = `${cov} dates attributed · ${ROSTER.length - withDates.size} names quiet`;
-    $("k-rate").textContent = rc;
-    $("k-rate-f").textContent = "rate, IRP, fuel & merger proceedings";
     $("k-week").textContent = wk;
     $("k-week-f").textContent = wk ? "act on these first" : "nothing imminent";
 
@@ -431,8 +421,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       const tz = e.tz || LOCAL;
       const time = e.all_day ? "all day" : tfmt(tz).format(d);
       const tks = e.tickers.map((t) => `<span class="tag tk">${esc(t)}</span>`).join("");
-      const rcTag = e.rate_case
-        ? `<span class="tag rc" title="${esc(e.rate_case_signals.join(', '))}">rate case</span>` : "";
       const sub = e.subsidiaries.length
         ? `<div class="meta">${esc(e.subsidiaries.slice(0, 2).join(" · "))}</div>` : "";
       const link = e.url
@@ -442,7 +430,7 @@ TEMPLATE = r"""<!DOCTYPE html>
         <td class="date${soon}">${dfmt(tz).format(d)}<span class="time">${time}</span></td>
         <td class="st"><span title="${esc(e.commission_name)}">${esc(e.commission)}</span></td>
         <td class="title">${link}${sub}</td>
-        <td class="hide-sm">${tks}${rcTag}</td>
+        <td class="hide-sm">${tks}</td>
         <td class="type hide-sm"><span class="dot" style="background:${TYPE_COLOR[e.event_type] || "var(--muted)"}"></span>${esc(e.event_type_label)}</td>
         <td class="docket hide-sm">${esc(e.dockets.slice(0, 2).join(", "))}</td>
       </tr>`;
@@ -534,7 +522,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   $("csv").onclick = () => {
     const rows = sorted(filtered());
     const head = ["Date","Time","Commission","CommissionName","State","Title","Tickers",
-                  "Subsidiaries","EventType","RateCase","Dockets","Location","URL"];
+                  "Subsidiaries","EventType","Dockets","Location","URL"];
     const q = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
     const body = rows.map((e) => {
       const d = new Date(e.start);
@@ -545,7 +533,7 @@ TEMPLATE = r"""<!DOCTYPE html>
         { year:"numeric", month:"2-digit", day:"2-digit", timeZone: tz }).format(d);
       return [ymd, e.all_day ? "" : tfmt(tz).format(d),
               e.commission, e.commission_name, e.state, e.title, e.tickers.join(" "),
-              e.subsidiaries.join(" | "), e.event_type_label, e.rate_case ? "Y" : "",
+              e.subsidiaries.join(" | "), e.event_type_label,
               e.dockets.join(" "), e.location, e.url].map(q).join(",");
     });
     const blob = new Blob([head.join(",") + "\n" + body.join("\n")],
@@ -567,13 +555,11 @@ TEMPLATE = r"""<!DOCTYPE html>
   const toggle = (btn, key) => { btn.onclick = () => {
     state[key] = !state[key]; btn.setAttribute("aria-pressed", String(state[key])); render(); }; };
   toggle($("f-cov"), "cov");
-  toggle($("f-rc"), "rc");
   $("reset").onclick = () => {
-    Object.assign(state, { q:"", ticker:"", comm:"", type:"", range:"90", cov:false, rc:false });
+    Object.assign(state, { q:"", ticker:"", comm:"", type:"", range:"90", cov:false });
     $("q").value = ""; $("f-ticker").value = ""; $("f-state").value = "";
     $("f-type").value = ""; $("f-range").value = "90";
     $("f-cov").setAttribute("aria-pressed", "false");
-    $("f-rc").setAttribute("aria-pressed", "false");
     render();
   };
   document.querySelectorAll("th[data-sort]").forEach((th) => {

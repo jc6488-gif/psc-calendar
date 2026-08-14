@@ -47,8 +47,6 @@ def _build(events: list[Event], name: str, desc: str, now: datetime) -> bytes:
             body.append(f"Entity: {', '.join(e.subsidiaries)}")
         if e.dockets:
             body.append(f"Docket: {', '.join(e.dockets)}")
-        if e.rate_case:
-            body.append(f"Rate-case relevant: {', '.join(e.rate_case_signals)}")
         if e.description and e.description[:60] not in e.title:
             body.append("")
             body.append(e.description[:600])
@@ -82,10 +80,6 @@ def write_all(events: list[Event], outdir: Path, now: datetime) -> dict[str, int
     covered = [e for e in events if e.tickers]
     emit("coverage.ics", covered, "Utility Coverage — Regulatory Dates",
          "Commission dates attributed to the coverage universe.")
-
-    rate = [e for e in events if e.rate_case]
-    emit("rate-cases.ics", rate, "Utility Rate Case Dates",
-         "Events flagged as rate-case or resource-plan relevant.")
 
     high = [e for e in events if e.weight >= 4]
     emit("high-priority.ics", high, "Utility Regulatory — High Priority",

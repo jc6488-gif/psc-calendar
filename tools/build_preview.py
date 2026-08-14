@@ -212,15 +212,14 @@ def main() -> int:
         for dt, title, docket, allday in parse(block, tzname):
             tk, subs = classify.match_companies(title, code)
             et, el, w = classify.classify_type(title)
-            rc, sig = classify.detect_rate_case(title)
             dockets = extract_dockets(title) or ([docket] if docket else [])
             evs.append(Event(
                 commission=code, commission_name=name, state=state, tz=tzname,
                 title=title, start=dt, all_day=allday, location="",
                 description="", url=url, source_url=url, dockets=dockets,
                 tickers=tk, subsidiaries=subs, event_type=et, event_type_label=el,
-                weight=w + (1 if tk else 0) + (1 if rc else 0),
-                rate_case=rc, rate_case_signals=sig, scraped_at=CAPTURED.isoformat(),
+                weight=w + (1 if tk else 0),
+                scraped_at=CAPTURED.isoformat(),
             ))
         events += evs
         results.append(ScrapeResult(code, name, "core", True, evs, "webfetch", url, "", 1.0))

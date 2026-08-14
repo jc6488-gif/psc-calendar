@@ -60,7 +60,6 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
 
             tickers, subs = classify.match_companies(blob, code, title=title)
             etype, elabel, weight = classify.classify_type(blob)
-            is_rate, signals = classify.detect_rate_case(blob)
 
             # Never emit a link we can't stand behind. A relative or malformed
             # href becomes a dead "page not found" in the dashboard, which is
@@ -87,9 +86,7 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
                 subsidiaries=subs,
                 event_type=etype,
                 event_type_label=elabel,
-                weight=weight + (1 if tickers else 0) + (1 if is_rate else 0),
-                rate_case=is_rate,
-                rate_case_signals=signals,
+                weight=weight + (1 if tickers else 0),
                 scraped_at=now.isoformat(),
             ))
 

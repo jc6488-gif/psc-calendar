@@ -75,8 +75,6 @@ class Event:
     event_type: str = "other"
     event_type_label: str = "Other"
     weight: int = 1
-    rate_case: bool = False
-    rate_case_signals: list[str] = field(default_factory=list)
     scraped_at: str = ""
 
     def __post_init__(self) -> None:
