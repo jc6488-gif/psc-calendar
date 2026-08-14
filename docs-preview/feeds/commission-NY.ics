@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for New York Public Service Commission.
+X-WR-CALNAME:NY — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[NY] AUGUST 2026 Public Service Commission Session
+DTSTART;TZID=America/New_York:20260813T103000
+DTEND;TZID=America/New_York:20260813T123000
+DTSTAMP:20260814T170000Z
+UID:c1a157800017fc89efa7@psc-calendar
+CATEGORIES:NY,Decision / Order
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Dec
+ ision / Order\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:5
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Comments due on petition filed by the Rochester Gas and Elect
+ ric
+DTSTART;TZID=America/New_York:20260817T163000
+DTEND;TZID=America/New_York:20260817T183000
+DTSTAMP:20260814T170000Z
+UID:394687ebf2a06fc767ed@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Comments due joint petition between Reserve Gas Co.\, Inc. (R
+ GC)
+DTSTART;TZID=America/New_York:20260817T163000
+DTEND;TZID=America/New_York:20260817T183000
+DTSTAMP:20260814T170000Z
+UID:c3c9dff3053f75f0ed11@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Commencement of evidentiary hearing in the Universal Service 
+ Fund
+DTSTART;TZID=America/New_York:20260818T090000
+DTEND;TZID=America/New_York:20260818T110000
+DTSTAMP:20260814T170000Z
+UID:6ab1cd2e4ab37ea95885@psc-calendar
+CATEGORIES:NY,Evidentiary Hearing
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Evi
+ dentiary Hearing\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:5
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Comments sought on NYSERDA petition proposing modifications
+DTSTART;TZID=America/New_York:20260819T163000
+DTEND;TZID=America/New_York:20260819T183000
+DTSTAMP:20260814T170000Z
+UID:ecf6f2a76a4cce7324a9@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] PSC seeks comments for UTEN Pilot Proposal filings by NFG
+DTSTART;TZID=America/New_York:20260824T163000
+DTEND;TZID=America/New_York:20260824T183000
+DTSTAMP:20260814T170000Z
+UID:be196aed6ad911211c53@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] PSC seeks comments for Tracy Solar Energy Center\, LLC petiti
+ on
+DTSTART;TZID=America/New_York:20260824T163000
+DTEND;TZID=America/New_York:20260824T183000
+DTSTAMP:20260814T170000Z
+UID:f950b3bcb9d30be0c14e@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] PSC seeks comments for National Grid petition requesting appr
+ oval
+DTSTART;TZID=America/New_York:20260824T163000
+DTEND;TZID=America/New_York:20260824T183000
+DTSTAMP:20260814T170000Z
+UID:c6a12f27dc5383edcf68@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] PSC seeks comments for National Grid proposal to extend exist
+ ing
+DTSTART;TZID=America/New_York:20260824T163000
+DTEND;TZID=America/New_York:20260824T183000
+DTSTAMP:20260814T170000Z
+UID:d254f8fc139bd2c657d1@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Bliss Wind Repowering Project Public Comment Hearing
+DTSTART;TZID=America/New_York:20260826T180000
+DTEND;TZID=America/New_York:20260826T200000
+DTSTAMP:20260814T170000Z
+UID:2a954133657591d7fe3f@psc-calendar
+CATEGORIES:NY,Public Comment Hearing
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Pub
+ lic Comment Hearing\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Bliss Wind Repowering Project Comments Due
+DTSTART;TZID=America/New_York:20260828T170000
+DTEND;TZID=America/New_York:20260828T190000
+DTSTAMP:20260814T170000Z
+UID:40184906e86ec8506660@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Cayuga Lake Solar Public Comment Hearing
+DTSTART;TZID=America/New_York:20260909T180000
+DTEND;TZID=America/New_York:20260909T200000
+DTSTAMP:20260814T170000Z
+UID:8eb46b84ae78cdff56b9@psc-calendar
+CATEGORIES:NY,Public Comment Hearing
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Pub
+ lic Comment Hearing\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] SEPTEMBER 2026 Public Service Commission Session
+DTSTART;TZID=America/New_York:20260917T103000
+DTEND;TZID=America/New_York:20260917T123000
+DTSTAMP:20260814T170000Z
+UID:0c21acb9af9a310a6c07@psc-calendar
+CATEGORIES:NY,Decision / Order
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Dec
+ ision / Order\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:5
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+END:VCALENDAR

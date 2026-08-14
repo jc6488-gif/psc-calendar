@@ -1,0 +1,376 @@
+# Coverage universe: ticker -> regulated operating companies -> commissions.
+#
+# `match` strings are used to attribute a scraped calendar event to a ticker.
+# They are matched case-insensitively against the event title, description and
+# docket number. Keep them specific enough not to false-positive: "Southern"
+# alone would match "Southern California Edison", so use "Southern Company".
+#
+# `aliases` are additional name forms that appear in commission filings.
+# `dockets` optionally pins known active proceedings for tighter matching.
+
+companies:
+
+  - ticker: AEP
+    name: American Electric Power
+    sector: Electric
+    subsidiaries:
+      - { name: Appalachian Power Company, abbr: APCo, commissions: [VA, WV, TN] }
+      - { name: Wheeling Power Company, commissions: [WV] }
+      - { name: Indiana Michigan Power Company, abbr: I&M, commissions: [IN, MI] }
+      - { name: Kentucky Power Company, commissions: [KY] }
+      - { name: Ohio Power Company, abbr: AEP Ohio, commissions: [OH] }
+      - { name: Public Service Company of Oklahoma, abbr: PSO, commissions: [OK] }
+      - { name: Southwestern Electric Power Company, abbr: SWEPCO, commissions: [AR, LA, TX] }
+      - { name: AEP Texas Inc., commissions: [TX] }
+      - { name: AEP Transmission Company, commissions: [FERC] }
+    match: ["American Electric Power", "AEP Ohio", "AEP Texas", "Appalachian Power", "APCo",
+            "Wheeling Power", "Indiana Michigan Power", "Kentucky Power", "Ohio Power Company",
+            "Public Service Company of Oklahoma", "Southwestern Electric Power", "SWEPCO",
+            "AEP Transmission"]
+
+  - ticker: ATO
+    name: Atmos Energy
+    sector: Gas LDC
+    subsidiaries:
+      - { name: Atmos Energy Mid-Tex Division, commissions: [TX-RRC] }
+      - { name: Atmos Energy West Texas Division, commissions: [TX-RRC] }
+      - { name: Atmos Energy Louisiana, commissions: [LA] }
+      - { name: Atmos Energy Mississippi, commissions: [MS] }
+      - { name: Atmos Energy Tennessee, commissions: [TN] }
+      - { name: Atmos Energy Kentucky, commissions: [KY] }
+      - { name: Atmos Energy Colorado, commissions: [CO] }
+      - { name: Atmos Energy Kansas, commissions: [KS] }
+      - { name: Atmos Energy Virginia, commissions: [VA] }
+    match: ["Atmos Energy", "Atmos", "Mid-Tex"]
+    notes: >-
+      Texas gas rates are set both at the Railroad Commission and by ~440 individual
+      city rate jurisdictions under the RRM/GRIP mechanisms. City dates are not
+      centrally published; the RRC calendar catches appeals and statewide dockets only.
+
+  - ticker: BKH
+    name: Black Hills Corporation
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: Black Hills Power, commissions: [SD, WY, MT] }
+      - { name: Cheyenne Light Fuel and Power, commissions: [WY] }
+      - { name: Black Hills Colorado Electric, commissions: [CO] }
+      - { name: Black Hills Energy Colorado Gas, commissions: [CO] }
+      - { name: Black Hills Energy Iowa Gas, commissions: [IA] }
+      - { name: Black Hills Energy Kansas Gas, commissions: [KS] }
+      - { name: Black Hills Energy Nebraska Gas, commissions: [NE] }
+      - { name: Black Hills Energy Arkansas Gas, commissions: [AR] }
+      - { name: Black Hills Energy Wyoming Gas, commissions: [WY] }
+    match: ["Black Hills", "Cheyenne Light"]
+
+  - ticker: CNP
+    name: CenterPoint Energy
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: CenterPoint Energy Houston Electric, commissions: [TX] }
+      - { name: CenterPoint Energy Resources Texas Gas, commissions: [TX-RRC] }
+      - { name: CenterPoint Energy Indiana South (SIGECO), commissions: [IN] }
+      - { name: CenterPoint Energy Indiana North, commissions: [IN] }
+      - { name: CenterPoint Energy Ohio Gas, commissions: [OH] }
+      - { name: CenterPoint Energy Minnesota Gas, commissions: [MN] }
+    match: ["CenterPoint", "Houston Electric", "SIGECO", "Southern Indiana Gas", "Vectren"]
+    notes: The Louisiana and Mississippi gas LDCs were divested in 2025 - legacy dockets in those states may still surface.
+
+  - ticker: CPK
+    name: Chesapeake Utilities Corporation
+    sector: Gas + Electric
+    subsidiaries:
+      - { name: Chesapeake Utilities Delaware Division, commissions: [DE] }
+      - { name: Chesapeake Utilities Maryland Division, commissions: [MD] }
+      - { name: Chesapeake Utilities Florida, commissions: [FL] }
+      - { name: Florida Public Utilities Company, abbr: FPU, commissions: [FL] }
+      - { name: Aspire Energy of Ohio, commissions: [OH] }
+      - { name: Chesapeake Utilities Virginia, commissions: [VA] }
+    match: ["Chesapeake Utilities", "Florida Public Utilities", "Aspire Energy", "Sandpiper Energy",
+            "Peninsula Pipeline", "Eastern Shore Natural Gas"]
+
+  - ticker: DTE
+    name: DTE Energy
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: DTE Electric Company, commissions: [MI] }
+      - { name: DTE Gas Company, commissions: [MI] }
+    match: ["DTE Electric", "DTE Gas", "DTE Energy", "Detroit Edison", "Michigan Consolidated Gas"]
+
+  - ticker: ED
+    name: Consolidated Edison
+    sector: Electric + Gas + Steam
+    subsidiaries:
+      - { name: Consolidated Edison Company of New York, abbr: CECONY, commissions: [NY] }
+      - { name: Orange and Rockland Utilities, abbr: O&R, commissions: [NY] }
+      - { name: Rockland Electric Company, abbr: RECO, commissions: [NJ] }
+    match: ["Consolidated Edison", "Con Edison", "CECONY", "Orange and Rockland",
+            "Orange & Rockland", "Rockland Electric"]
+
+  - ticker: EIX
+    name: Edison International
+    sector: Electric
+    subsidiaries:
+      - { name: Southern California Edison, abbr: SCE, commissions: [CA, FERC] }
+    match: ["Southern California Edison", "SCE ", "Edison International"]
+
+  - ticker: ETR
+    name: Entergy Corporation
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: Entergy Arkansas, commissions: [AR] }
+      - { name: Entergy Louisiana, commissions: [LA] }
+      - { name: Entergy Mississippi, commissions: [MS] }
+      - { name: Entergy Texas, commissions: [TX] }
+      - { name: Entergy New Orleans, commissions: [NOLA] }
+      - { name: System Energy Resources Inc, abbr: SERI, commissions: [FERC] }
+    match: ["Entergy", "System Energy Resources", "SERI"]
+    notes: Entergy New Orleans is regulated by the New Orleans City Council, not the LPSC.
+
+  - ticker: EVRG
+    name: Evergy Inc.
+    sector: Electric
+    subsidiaries:
+      - { name: Evergy Kansas Central, commissions: [KS] }
+      - { name: Evergy Kansas South, commissions: [KS] }
+      - { name: Evergy Metro, commissions: [KS, MO] }
+      - { name: Evergy Missouri West, commissions: [MO] }
+    match: ["Evergy", "Westar", "Kansas City Power", "KCP&L", "Kansas Gas and Electric"]
+
+  - ticker: HE
+    name: Hawaiian Electric Industries
+    sector: Electric
+    subsidiaries:
+      - { name: Hawaiian Electric Company, abbr: HECO, commissions: [HI] }
+      - { name: Hawaii Electric Light Company, abbr: HELCO, commissions: [HI] }
+      - { name: Maui Electric Company, abbr: MECO, commissions: [HI] }
+    match: ["Hawaiian Electric", "Hawaii Electric Light", "Maui Electric", "HECO", "HELCO", "MECO"]
+
+  - ticker: LNT
+    name: Alliant Energy
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: Interstate Power and Light Company, abbr: IPL, commissions: [IA, MN] }
+      - { name: Wisconsin Power and Light Company, abbr: WPL, commissions: [WI] }
+    match: ["Alliant Energy", "Interstate Power and Light", "Wisconsin Power and Light",
+            "Wisconsin Power & Light"]
+
+  - ticker: MGEE
+    name: MGE Energy
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: Madison Gas and Electric Company, abbr: MGE, commissions: [WI] }
+    match: ["Madison Gas and Electric", "Madison Gas & Electric", "MGE Energy"]
+
+  - ticker: NI
+    name: NiSource Inc.
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: Northern Indiana Public Service Company, abbr: NIPSCO, commissions: [IN] }
+      - { name: Columbia Gas of Ohio, commissions: [OH] }
+      - { name: Columbia Gas of Pennsylvania, commissions: [PA] }
+      - { name: Columbia Gas of Virginia, commissions: [VA] }
+      - { name: Columbia Gas of Kentucky, commissions: [KY] }
+      - { name: Columbia Gas of Maryland, commissions: [MD] }
+    match: ["NiSource", "NIPSCO", "Northern Indiana Public Service", "Columbia Gas"]
+
+  - ticker: NWE
+    name: NorthWestern Energy Group
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: NorthWestern Energy Montana, commissions: [MT] }
+      - { name: NorthWestern Energy South Dakota, commissions: [SD] }
+      - { name: NorthWestern Energy Nebraska, commissions: [NE] }
+    match: ["NorthWestern Energy", "NorthWestern Corporation", "Northwestern Public Service"]
+
+  - ticker: OGE
+    name: OGE Energy Corp.
+    sector: Electric
+    subsidiaries:
+      - { name: Oklahoma Gas and Electric Company, abbr: OG&E, commissions: [OK, AR] }
+    match: ["Oklahoma Gas and Electric", "Oklahoma Gas & Electric", "OG&E", "OGE Energy"]
+
+  - ticker: OGS
+    name: ONE Gas Inc.
+    sector: Gas LDC
+    subsidiaries:
+      - { name: Oklahoma Natural Gas, commissions: [OK] }
+      - { name: Kansas Gas Service, commissions: [KS] }
+      - { name: Texas Gas Service, commissions: [TX-RRC] }
+    match: ["ONE Gas", "Oklahoma Natural Gas", "Kansas Gas Service", "Texas Gas Service"]
+
+  - ticker: PCG
+    name: PG&E Corporation
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: Pacific Gas and Electric Company, commissions: [CA, FERC] }
+    match: ["Pacific Gas and Electric", "Pacific Gas & Electric", "PG&E"]
+
+  - ticker: PEG
+    name: Public Service Enterprise Group
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: Public Service Electric and Gas Company, abbr: PSE&G, commissions: [NJ, FERC] }
+    match: ["Public Service Electric and Gas", "PSE&G", "PSEG", "Public Service Enterprise"]
+
+  - ticker: PNW
+    name: Pinnacle West Capital Corporation
+    sector: Electric
+    subsidiaries:
+      - { name: Arizona Public Service Company, abbr: APS, commissions: [AZ, FERC] }
+    match: ["Arizona Public Service", "Pinnacle West", "APS "]
+
+  - ticker: POR
+    name: Portland General Electric
+    sector: Electric
+    subsidiaries:
+      - { name: Portland General Electric Company, abbr: PGE, commissions: [OR, FERC] }
+    match: ["Portland General Electric", "Portland General"]
+
+  - ticker: SO
+    name: Southern Company
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: Alabama Power Company, commissions: [AL] }
+      - { name: Georgia Power Company, commissions: [GA] }
+      - { name: Mississippi Power Company, commissions: [MS] }
+      - { name: Nicor Gas, commissions: [IL] }
+      - { name: Atlanta Gas Light Company, commissions: [GA] }
+      - { name: Virginia Natural Gas, commissions: [VA] }
+      - { name: Chattanooga Gas Company, commissions: [TN] }
+      - { name: Southern Power Company, commissions: [FERC] }
+    match: ["Southern Company", "Alabama Power", "Georgia Power", "Mississippi Power",
+            "Nicor Gas", "Atlanta Gas Light", "Virginia Natural Gas", "Chattanooga Gas",
+            "Southern Power"]
+
+  - ticker: SR
+    name: Spire Inc.
+    sector: Gas LDC
+    subsidiaries:
+      - { name: Spire Missouri, commissions: [MO] }
+      - { name: Spire Alabama, commissions: [AL] }
+      - { name: Spire Gulf, commissions: [AL] }
+      - { name: Spire Mississippi, commissions: [MS] }
+    # Bare "Spire" is safe because matching is word-boundary anchored, so
+    # "Spirent" cannot hit. Commission calendars very often name the party with
+    # no corporate suffix ("Ginger v. Spire"), so omitting the bare form silently
+    # dropped real Missouri dockets.
+    match: ["Spire", "Laclede Gas", "Missouri Gas Energy", "Alabama Gas Corporation",
+            "Alagasco"]
+
+  - ticker: SRE
+    name: Sempra
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: San Diego Gas and Electric, abbr: SDG&E, commissions: [CA, FERC] }
+      - { name: Southern California Gas Company, abbr: SoCalGas, commissions: [CA] }
+      - { name: Oncor Electric Delivery Company, commissions: [TX, FERC] }
+    match: ["San Diego Gas and Electric", "San Diego Gas & Electric", "SDG&E",
+            "Southern California Gas", "SoCalGas", "Oncor", "Sempra"]
+
+  - ticker: SWX
+    name: Southwest Gas Holdings
+    sector: Gas LDC
+    subsidiaries:
+      - { name: Southwest Gas Corporation Arizona, commissions: [AZ] }
+      - { name: Southwest Gas Corporation Nevada, commissions: [NV] }
+      - { name: Southwest Gas Corporation California, commissions: [CA] }
+    match: ["Southwest Gas"]
+
+  - ticker: WEC
+    name: WEC Energy Group
+    sector: Electric + Gas
+    subsidiaries:
+      - { name: Wisconsin Electric Power Company, abbr: We Energies, commissions: [WI, MI] }
+      - { name: Wisconsin Public Service Corporation, abbr: WPS, commissions: [WI, MI] }
+      - { name: Wisconsin Gas LLC, commissions: [WI] }
+      - { name: Peoples Gas Light and Coke Company, commissions: [IL] }
+      - { name: North Shore Gas Company, commissions: [IL] }
+      - { name: Michigan Gas Utilities Corporation, commissions: [MI] }
+      - { name: Minnesota Energy Resources Corporation, abbr: MERC, commissions: [MN] }
+    match: ["WEC Energy", "We Energies", "Wisconsin Electric Power", "Wisconsin Public Service",
+            "Wisconsin Gas", "Peoples Gas", "North Shore Gas", "Michigan Gas Utilities",
+            "Minnesota Energy Resources"]
+
+
+# ---------------------------------------------------------------------------
+# Event classification. Ordered - first matching rule wins.
+# `weight` drives sort priority in the dashboard: 3 = moves the model,
+# 2 = worth watching, 1 = context.
+event_types:
+  - id: decision
+    label: Decision / Order
+    weight: 3
+    patterns: ["open meeting", "voting meeting", "agenda conference", "administrative session",
+               "business meeting", "commission meeting", "public meeting", "decision conference",
+               "deliberation", "commission conference", "executive session", "agenda meeting",
+               "public service commission session", "commission session", "work session",
+               "special open meeting", "regular meeting"]
+
+  - id: evidentiary_hearing
+    label: Evidentiary Hearing
+    weight: 3
+    patterns: ["evidentiary hearing", "formal hearing", "contested case hearing",
+               "hearing on the merits", "technical conference", "trial", "cross-examination",
+               "rate hearing", "revenue requirement hearing"]
+
+  - id: procedural
+    label: Procedural Milestone
+    weight: 3
+    patterns: ["prehearing conference", "pre-hearing conference", "scheduling conference",
+               "procedural schedule", "testimony due", "direct testimony", "rebuttal testimony",
+               "surrebuttal", "intervention deadline", "petition to intervene", "briefs due",
+               "initial brief", "reply brief", "settlement conference", "settlement discussion",
+               "statutory deadline", "suspension period", "rate effective", "true-up",
+               "comment deadline", "reply comments due"]
+
+  - id: public_comment
+    label: Public Comment Hearing
+    weight: 2
+    patterns: ["public comment", "public hearing", "public input", "listening session",
+               "public forum", "customer hearing", "local public hearing", "town hall",
+               "public witness", "community meeting"]
+
+  - id: workshop
+    label: Workshop / Conference
+    weight: 1
+    patterns: ["workshop", "roundtable", "stakeholder", "working group", "webinar",
+               "informational", "training", "symposium", "task force", "advisory"]
+
+  - id: other
+    label: Other
+    weight: 1
+    patterns: []
+
+
+# Keywords that mark an event as rate-case-relevant regardless of type.
+rate_case_signals:
+  - "rate case"
+  - "general rate"
+  - "base rate"
+  - "revenue requirement"
+  - "rate increase"
+  - "rate adjustment"
+  - "tariff"
+  - "cost of capital"
+  - "return on equity"
+  - "rate of return"
+  - "certificate of public convenience"
+  - "integrated resource plan"
+  - "resource plan"
+  - "securitization"
+  - "fuel adjustment"
+  - "purchased gas adjustment"
+  - "energy cost recovery"
+  - "formula rate"
+  - "rate review"
+  - "rate stabilization"
+  - "infrastructure surcharge"
+  - "distribution system improvement"
+  - "merger"
+  - "acquisition"
+  - "prudence"
+  - "depreciation"
+  - "test year"
+  - "decoupling"
+  - "performance-based"
+  - "multi-year rate plan"

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Commission dates for SR.
+X-WR-CALNAME:SR — Regulatory Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[SR] Ginger v. Spire - Evidentiary Hearing
+DTSTART;TZID=America/Chicago:20260827T090000
+DTEND;TZID=America/Chicago:20260827T110000
+DTSTAMP:20260814T170000Z
+UID:4ab501022e38251db471@psc-calendar
+CATEGORIES:MO,Evidentiary Hearing,SR
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Evi
+ dentiary Hearing\nTickers: SR\nEntity: Spire Missouri\nDocket: GC-2026-025
+ 0\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+PRIORITY:2
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+END:VCALENDAR

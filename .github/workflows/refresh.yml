@@ -1,0 +1,171 @@
+name: Refresh regulatory calendar
+
+on:
+  schedule:
+    # 10:00 UTC daily = 6am ET (EDT) / 5am ET (EST). Runs before the US market
+    # opens so the day's dates are current when you sit down.
+    - cron: "0 10 * * *"
+  workflow_dispatch:        # lets you trigger a run by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "data/**"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write           # commit refreshed data back
+  pages: write
+  id-token: write
+  issues: write             # open an issue when core scrapers break
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run test suite
+        run: |
+          pip install pytest
+          python -m pytest tests/ -q
+
+      - name: Scrape all commissions
+        id: scrape
+        env:
+          # Commissions are more tolerant of a scraper that identifies itself.
+          PSCAL_USER_AGENT: >-
+            psc-calendar/1.0 (regulatory calendar aggregator;
+            +https://github.com/${{ github.repository }})
+          PSCAL_CACHE_TTL: "0"
+        run: python -m src.pscal.pipeline --workers 6
+        continue-on-error: true
+
+      - name: Summarise run
+        if: always()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          p = pathlib.Path("docs/events.json")
+          if not p.exists():
+              print("## Scrape produced no output"); raise SystemExit
+          d = json.loads(p.read_text())
+          cs = d["commissions"]
+          ok = [c for c in cs if c["ok"]]
+          bad = [c for c in cs if not c["ok"]]
+          core_bad = [c for c in bad if c["tier"] == "core"]
+          print(f"## Calendar refreshed\n")
+          print(f"- **{d['event_count']}** dates tracked "
+                f"({d['covered_event_count']} attributed to coverage names)")
+          print(f"- **{len(ok)}/{len(cs)}** sources reporting")
+          if core_bad:
+              print(f"\n### Core commissions failing ({len(core_bad)})\n")
+              print("| Code | Commission | Error |")
+              print("|---|---|---|")
+              for c in core_bad:
+                  print(f"| `{c['commission']}` | {c['commission_name']} | "
+                        f"{c['error'][:160].replace('|','/')} |")
+          other = [c for c in bad if c["tier"] != "core"]
+          if other:
+              print(f"\n<details><summary>Non-core failures ({len(other)})</summary>\n")
+              for c in other:
+                  print(f"- `{c['commission']}` {c['error'][:120]}")
+              print("\n</details>")
+          PY
+
+      - name: Commit refreshed data
+        run: |
+          # Guard: if the scrape crashed before emitting, still give Pages
+          # something to publish rather than failing the deploy too.
+          mkdir -p docs/feeds
+          [ -f docs/index.html ] || echo '<!doctype html><meta charset=utf-8>
+          <title>Utility Regulatory Calendar</title>
+          <p style="font:16px system-ui;padding:40px">The scrape did not complete.
+          Check the Actions run summary.</p>' > docs/index.html
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A docs/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Refresh calendar $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Open an issue if core sources are failing
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            if (!fs.existsSync('docs/events.json')) return;
+            const d = JSON.parse(fs.readFileSync('docs/events.json', 'utf8'));
+            const coreBad = d.commissions.filter(c => !c.ok && c.tier === 'core');
+            const title = 'Scraper health: core commissions failing';
+            const existing = (await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'scraper-health',
+            })).data[0];
+
+            if (coreBad.length === 0) {
+              if (existing) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner, repo: context.repo.repo,
+                  issue_number: existing.number,
+                  body: 'All core commissions are reporting again. Closing.',
+                });
+                await github.rest.issues.update({
+                  owner: context.repo.owner, repo: context.repo.repo,
+                  issue_number: existing.number, state: 'closed',
+                });
+              }
+              return;
+            }
+
+            const body = [
+              `${coreBad.length} core commission(s) returned no events on ` +
+              `${new Date().toISOString().slice(0,10)}.`,
+              '',
+              'A failing source means those dates are **missing from the dashboard** —',
+              'not that the commission has nothing scheduled.',
+              '',
+              '| Code | Commission | Error |',
+              '|---|---|---|',
+              ...coreBad.map(c =>
+                `| \`${c.commission}\` | ${c.commission_name} | ${(c.error||'').slice(0,200).replace(/\|/g,'/')} |`),
+              '',
+              'To fix: see the "When a scraper breaks" section of `CLAUDE.md`.',
+              'Usually the calendar URL moved — check `data/commissions.yaml`.',
+            ].join('\n');
+
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['scraper-health'],
+              });
+            }

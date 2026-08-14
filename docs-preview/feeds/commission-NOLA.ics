@@ -1,0 +1,108 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for New Orleans City Council Utility Commit
+ tee.
+X-WR-CALNAME:NOLA — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[NOLA] Regular Meeting
+DTSTART;TZID=America/Chicago:20260820T100000
+DTEND;TZID=America/Chicago:20260820T120000
+DTSTAMP:20260814T170000Z
+UID:0c8200df5ebb82d9533c@psc-calendar
+CATEGORIES:NOLA,Decision / Order
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Decision / Order\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:5
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Economic Development & Special Development Projects
+DTSTART;TZID=America/Chicago:20260825T100000
+DTEND;TZID=America/Chicago:20260825T120000
+DTSTAMP:20260814T170000Z
+UID:dfc33c7e955fba8fcb0e@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Climate Change and Sustainability Committee
+DTSTART;TZID=America/Chicago:20260826T130000
+DTEND;TZID=America/Chicago:20260826T150000
+DTSTAMP:20260814T170000Z
+UID:9ba32a3ed8fe9baee171@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Transportation Committee
+DTSTART;TZID=America/Chicago:20260827T100000
+DTEND;TZID=America/Chicago:20260827T120000
+DTSTAMP:20260814T170000Z
+UID:31052c2467b0e5026acb@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Budget/Audit/Board of Review Committee Meeting
+DTSTART;TZID=America/Chicago:20260827T130000
+DTEND;TZID=America/Chicago:20260827T150000
+DTSTAMP:20260814T170000Z
+UID:88b3d110579a24b88b9c@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Criminal Justice Committee
+DTSTART;TZID=America/Chicago:20260831T100000
+DTEND;TZID=America/Chicago:20260831T120000
+DTSTAMP:20260814T170000Z
+UID:83a7e93defd5d42ab1c9@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Quality of Life Committee
+DTSTART;TZID=America/Chicago:20260831T130000
+DTEND;TZID=America/Chicago:20260831T150000
+DTSTAMP:20260814T170000Z
+UID:84eaaecb78595c9ff05a@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Regular Meeting
+DTSTART;TZID=America/Chicago:20260903T100000
+DTEND;TZID=America/Chicago:20260903T120000
+DTSTAMP:20260814T170000Z
+UID:a6bdbf28a4e505c2d02c@psc-calendar
+CATEGORIES:NOLA,Decision / Order
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Decision / Order\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:5
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Events flagged as rate-case or resource-plan relevant.
+X-WR-CALNAME:Utility Rate Case Dates
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[AEP] Verified Petition of Indiana Michigan Power Company for CPCN
+  for Acquisition of the 918 MW Sycamore Riverside Energy Center
+DTSTART;TZID=America/Indiana/Indianapolis:20260817T130000
+DTEND;TZID=America/Indiana/Indianapolis:20260817T150000
+DTSTAMP:20260814T170000Z
+UID:cc5a01025fe387c22827@psc-calendar
+CATEGORIES:IN,Other,AEP
+DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
+ Other\nTickers: AEP\nEntity: Indiana Michigan Power Company\nDocket: 46389
+ \nRate-case relevant: acquisition\n\nSource: https://www.in.gov/iurc/docke
+ ted-cases/find-a-docketed-case/weekly-hearings
+PRIORITY:5
+URL:https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hea
+ rings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Golden State Water Company Proposed Acquisition of City of No
+ rwalk's North and South Artesia System
+DTSTART;TZID=America/Los_Angeles:20260825T180000
+DTEND;TZID=America/Los_Angeles:20260825T200000
+DTSTAMP:20260814T170000Z
+UID:77a447c551154b3f8ba6@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\nRate-case relevant: acquisition\n\nSource: https://www.cpuc.ca.gov
+ /events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+END:VCALENDAR

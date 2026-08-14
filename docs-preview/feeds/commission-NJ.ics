@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for New Jersey Board of Public Utilities.
+X-WR-CALNAME:NJ — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[NJ] In The Matter of Executive Order 1 Modernization of the Tradi
+ tional Electric Distribution Utility Business Model Study
+DTSTART;TZID=America/New_York:20260819T100000
+DTEND;TZID=America/New_York:20260819T120000
+DTSTAMP:20260814T170000Z
+UID:c2cf809cecbc3ac496d7@psc-calendar
+CATEGORIES:NJ,Other
+DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
+ ther\n\nSource: https://www.nj.gov/bpu/newsroom/public/
+PRIORITY:9
+URL:https://www.nj.gov/bpu/newsroom/public/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NJ] In The Matter of Executive Order 1 Modernization of the Tradi
+ tional Electric Distribution Utility Business Model Study
+DTSTART;TZID=America/New_York:20260910T100000
+DTEND;TZID=America/New_York:20260910T120000
+DTSTAMP:20260814T170000Z
+UID:6f80461890f64c47ac6d@psc-calendar
+CATEGORIES:NJ,Other
+DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
+ ther\n\nSource: https://www.nj.gov/bpu/newsroom/public/
+PRIORITY:9
+URL:https://www.nj.gov/bpu/newsroom/public/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NJ] IN THE MATTER OF THE PROVISION OF BASIC GENERATION SERVICE (B
+ GS) FOR THE PERIOD BEGINNING JUNE 1\, 2027
+DTSTART;TZID=America/New_York:20260922T100000
+DTEND;TZID=America/New_York:20260922T120000
+DTSTAMP:20260814T170000Z
+UID:bc7eb5f7fa5987bb79ac@psc-calendar
+CATEGORIES:NJ,Other
+DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
+ ther\n\nSource: https://www.nj.gov/bpu/newsroom/public/
+PRIORITY:9
+URL:https://www.nj.gov/bpu/newsroom/public/
+END:VEVENT
+END:VCALENDAR

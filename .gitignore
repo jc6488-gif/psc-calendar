@@ -1,0 +1,10 @@
+.cache/
+docs-demo/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+node_modules/
+package-lock.json
+node_modules/
+package-lock.json

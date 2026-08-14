@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Public Utility Commission of Texas.
+X-WR-CALNAME:TX — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[TX] Open Meeting
+DTSTART;TZID=America/Chicago:20260814T093000
+DTEND;TZID=America/Chicago:20260814T113000
+DTSTAMP:20260814T170000Z
+UID:5b97a37f80a485a5dde7@psc-calendar
+CATEGORIES:TX,Decision / Order
+DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Dec
+ ision / Order\n\nSource: https://puc.texas.gov/agency/calendar/calendar.as
+ px
+PRIORITY:5
+URL:https://puc.texas.gov/agency/calendar/calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TX] Hearing on the Merits / Open Meeting
+DTSTART;TZID=America/Chicago:20260820T093000
+DTEND;TZID=America/Chicago:20260820T113000
+DTSTAMP:20260814T170000Z
+UID:e3a180512c4214ac0382@psc-calendar
+CATEGORIES:TX,Decision / Order
+DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Dec
+ ision / Order\n\nSource: https://puc.texas.gov/agency/calendar/calendar.as
+ px
+PRIORITY:5
+URL:https://puc.texas.gov/agency/calendar/calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TX] Open Meeting
+DTSTART;TZID=America/Chicago:20260821T093000
+DTEND;TZID=America/Chicago:20260821T113000
+DTSTAMP:20260814T170000Z
+UID:92da385dae5b9259b393@psc-calendar
+CATEGORIES:TX,Decision / Order
+DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Dec
+ ision / Order\n\nSource: https://puc.texas.gov/agency/calendar/calendar.as
+ px
+PRIORITY:5
+URL:https://puc.texas.gov/agency/calendar/calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TX] Open Meeting
+DTSTART;TZID=America/Chicago:20260828T093000
+DTEND;TZID=America/Chicago:20260828T113000
+DTSTAMP:20260814T170000Z
+UID:06836f49d2cf6cf894b1@psc-calendar
+CATEGORIES:TX,Decision / Order
+DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Dec
+ ision / Order\n\nSource: https://puc.texas.gov/agency/calendar/calendar.as
+ px
+PRIORITY:5
+URL:https://puc.texas.gov/agency/calendar/calendar.aspx
+END:VEVENT
+END:VCALENDAR

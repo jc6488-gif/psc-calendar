@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Missouri Public Service Commission.
+X-WR-CALNAME:MO — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[MO] Agenda Meeting
+DTSTART;TZID=America/Chicago:20260819T090000
+DTEND;TZID=America/Chicago:20260819T110000
+DTSTAMP:20260814T170000Z
+UID:503258cd086d5e74971a@psc-calendar
+CATEGORIES:MO,Decision / Order
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Dec
+ ision / Order\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearin
+ gs
+PRIORITY:5
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Public Meeting with SPP & MISO
+DTSTART;TZID=America/Chicago:20260819T093000
+DTEND;TZID=America/Chicago:20260819T113000
+DTSTAMP:20260814T170000Z
+UID:415faf15b53f3f9ee6a7@psc-calendar
+CATEGORIES:MO,Decision / Order
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Dec
+ ision / Order\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearin
+ gs
+PRIORITY:5
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Ameren Missouri - Prehearing Conference
+DTSTART;TZID=America/Chicago:20260820T090000
+DTEND;TZID=America/Chicago:20260820T110000
+DTSTAMP:20260814T170000Z
+UID:9ca1d948c96bd9e211ee@psc-calendar
+CATEGORIES:MO,Procedural Milestone
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Pro
+ cedural Milestone\nDocket: EA-2026-0226\n\nSource: https://psc.mo.gov/Cale
+ ndars.aspx?Selected=Hearings
+PRIORITY:5
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Rulemaking Hearing - Chapter 4 and Communications Rulemaking
+DTSTART;TZID=America/Chicago:20260820T100000
+DTEND;TZID=America/Chicago:20260820T120000
+DTSTAMP:20260814T170000Z
+UID:a792a54e27c8b4e526cc@psc-calendar
+CATEGORIES:MO,Other
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Oth
+ er\nDocket: OX-2026-0335\n\nSource: https://psc.mo.gov/Calendars.aspx?Sele
+ cted=Hearings
+PRIORITY:9
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Agenda Meeting
+DTSTART;TZID=America/Chicago:20260826T110000
+DTEND;TZID=America/Chicago:20260826T130000
+DTSTAMP:20260814T170000Z
+UID:6866de896e08862f4d7e@psc-calendar
+CATEGORIES:MO,Decision / Order
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Dec
+ ision / Order\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearin
+ gs
+PRIORITY:5
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Ameren Missouri - Local Public Hearing
+DTSTART;TZID=America/Chicago:20260826T180000
+DTEND;TZID=America/Chicago:20260826T200000
+DTSTAMP:20260814T170000Z
+UID:7055ad665b45b01d72ec@psc-calendar
+CATEGORIES:MO,Public Comment Hearing
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Pub
+ lic Comment Hearing\nDocket: EA-2026-0183\n\nSource: https://psc.mo.gov/Ca
+ lendars.aspx?Selected=Hearings
+PRIORITY:9
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SR] Ginger v. Spire - Evidentiary Hearing
+DTSTART;TZID=America/Chicago:20260827T090000
+DTEND;TZID=America/Chicago:20260827T110000
+DTSTAMP:20260814T170000Z
+UID:4ab501022e38251db471@psc-calendar
+CATEGORIES:MO,Evidentiary Hearing,SR
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Evi
+ dentiary Hearing\nTickers: SR\nEntity: Spire Missouri\nDocket: GC-2026-025
+ 0\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+PRIORITY:2
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+END:VCALENDAR

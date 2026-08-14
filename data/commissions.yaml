@@ -1,0 +1,1022 @@
+# Registry of US utility regulatory commissions.
+#
+# Each entry drives the scrape engine. `sources` is a list of calendar pages;
+# the engine scrapes EVERY one of them and merges the results, de-duplicating by
+# (commission, date, title). More sources is strictly better - commissions
+# routinely split open meetings, evidentiary hearings and local public hearings
+# across separate pages, and a page that adds nothing new costs one cached fetch.
+# If you find another page listing dates, add it; do not worry about overlap.
+#
+# strategy values:
+#   auto        - probe for .ics link, RSS <link rel=alternate>, Tribe/Drupal JSON API,
+#                 then fall back to HTML card/table parsing, then date-regex.
+#   ics         - the URL is (or serves) an iCalendar feed
+#   rss         - the URL is an RSS/Atom feed
+#   tribe       - WordPress "The Events Calendar" REST API
+#   drupal      - Drupal JSON:API or Views REST export
+#   html        - parse HTML with the selectors in `selectors`
+#   date_regex  - last resort: pull dates out of page text with surrounding context
+#
+# `tier: core` = a state where at least one covered ticker is regulated. These get
+# scraped every run and failures page loudly. `tier: full` states are still scraped
+# but a failure is a warning, not an error.
+
+commissions:
+
+  # ---------------------------------------------------------------- FEDERAL
+  - code: FERC
+    name: Federal Energy Regulatory Commission
+    state: US
+    type: federal
+    tier: core
+    timezone: America/New_York
+    home: https://www.ferc.gov
+    docket_search: https://elibrary.ferc.gov/eLibrary/search
+    sources:
+      - url: https://www.ferc.gov/news-events/events
+        strategy: auto
+      - url: https://www.ferc.gov/media/commission-meeting-calendar
+        strategy: auto
+    notes: >-
+      Open Commission Meetings are generally the third Thursday monthly. Matters for
+      transmission ROE, formula rate updates and merger approvals for AEP, ETR, PCG,
+      PEG, PNW, SO, SRE land here rather than at a state commission.
+
+  # ---------------------------------------------------------------- STATES
+  - code: AL
+    name: Alabama Public Service Commission
+    state: AL
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://psc.alabama.gov
+    docket_search: https://psc.alabama.gov/filings/
+    sources:
+      - url: https://psc.alabama.gov/category/events/
+        strategy: auto
+      - url: https://psc.alabama.gov/
+        strategy: date_regex
+    notes: Alabama Power (SO), Spire Alabama (SR). Rate Stabilization & Equalization (RSE) filings are the key recurring date, not classic rate cases.
+
+  - code: AK
+    name: Regulatory Commission of Alaska
+    state: AK
+    type: state_puc
+    tier: full
+    timezone: America/Anchorage
+    home: https://rca.alaska.gov
+    docket_search: https://rca.alaska.gov/RCAWeb/Dockets/DocketSearch.aspx
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://rca.alaska.gov/RCAWeb/WhatsNew/CalendarOfEvents.aspx?rm=yes
+        strategy: auto
+      - url: https://rca.alaska.gov/RCAWeb/Home/PublicMeetings.aspx
+        strategy: auto
+
+  - code: AZ
+    name: Arizona Corporation Commission
+    state: AZ
+    type: state_puc
+    tier: core
+    timezone: America/Phoenix
+    home: https://www.azcc.gov
+    docket_search: https://edocket.azcc.gov/search/docket-search
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://azcc.gov/open-meeting-schedules
+        strategy: auto
+      - url: https://www.azcc.gov/meetings
+        strategy: auto
+      - url: https://azcc.gov/events
+        strategy: auto
+      - url: https://www.azcc.gov/news
+        strategy: auto
+    notes: Arizona Public Service (PNW), Southwest Gas (SWX). Open Meetings and Staff Hearings both matter; ACC posts Open Meeting agendas ~1 week ahead.
+
+  - code: AR
+    name: Arkansas Public Service Commission
+    state: AR
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://psc.arkansas.gov
+    docket_search: https://apscservices.info/case.asp
+    sources:
+      - url: https://psc.arkansas.gov/calendar/
+        strategy: auto
+      - url: https://apscservices.info/hearing.asp
+        strategy: auto
+    notes: Entergy Arkansas (ETR), SWEPCO (AEP), OG&E (OGE), Black Hills (BKH). Formula Rate Review filings are the recurring annual date.
+
+  - code: CA
+    name: California Public Utilities Commission
+    state: CA
+    type: state_puc
+    tier: core
+    timezone: America/Los_Angeles
+    home: https://www.cpuc.ca.gov
+    docket_search: https://apps.cpuc.ca.gov/apex/f?p=401:1
+    sources:
+      - url: https://www.cpuc.ca.gov/events-and-meetings
+        strategy: auto
+      - url: https://docs.cpuc.ca.gov/cbma.htm
+        strategy: auto
+      - url: https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-voting-meetings/2026-voting-meetings
+        strategy: auto
+      - url: https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/public-participation-hearings
+        strategy: auto
+    notes: >-
+      PG&E (PCG), SCE (EIX), SDG&E + SoCalGas (SRE), Southwest Gas (SWX).
+      Voting Meetings are the decision dates. GRC cycles are 4-year; also track
+      Cost of Capital, WMCE/WEMA and wildfire fund proceedings. The main events page
+      is JS-rendered, so the daily calendar at docs.cpuc.ca.gov is the reliable source.
+
+  - code: CO
+    name: Colorado Public Utilities Commission
+    state: CO
+    type: state_puc
+    tier: core
+    timezone: America/Denver
+    home: https://puc.colorado.gov
+    docket_search: https://www.dora.state.co.us/pls/efi/EFI.Show_Home
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://puc.colorado.gov/cim
+        strategy: auto
+      # VERIFIED WORKING 2026-08-14
+      - url: https://puc.colorado.gov/puccalendar
+        strategy: auto
+      - url: https://puc.colorado.gov/puc-calendar
+        strategy: auto
+      - url: https://puc.colorado.gov/weeklycalendar
+        strategy: auto
+    notes: Black Hills Colorado Electric & Gas (BKH), Atmos Colorado (ATO).
+
+  - code: CT
+    name: Connecticut Public Utilities Regulatory Authority
+    state: CT
+    type: state_puc
+    tier: full
+    timezone: America/New_York
+    home: https://portal.ct.gov/pura
+    docket_search: https://portal.ct.gov/pura/dockets/dockets-landing-page
+    sources:
+      - url: https://portal.ct.gov/pura/events
+        strategy: auto
+
+  - code: DC
+    name: District of Columbia Public Service Commission
+    state: DC
+    type: state_puc
+    tier: full
+    timezone: America/New_York
+    home: https://dcpsc.org
+    docket_search: https://edocket.dcpsc.org/public/search
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://dcpsc.org/Schedule-of-Open-Commission-Meetings.aspx
+        strategy: auto
+      - url: https://dcpsc.org/Newsroom/Calendar.aspx
+        strategy: auto
+
+  - code: DE
+    name: Delaware Public Service Commission
+    state: DE
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://depsc.delaware.gov
+    docket_search: https://depsc.delaware.gov/dockets/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://depsc.delaware.gov/public-notices
+        strategy: auto
+      - url: https://depsc.delaware.gov/events/
+        strategy: auto
+      - url: https://publicmeetings.delaware.gov/Home/Search?agency=PublicServiceCommission
+        strategy: auto
+    notes: Chesapeake Utilities / Delmarva gas (CPK). Delaware posts to the statewide public meeting calendar, which is the more complete source.
+
+  - code: FL
+    name: Florida Public Service Commission
+    state: FL
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://www.floridapsc.com
+    docket_search: https://www.floridapsc.com/ClerkOffice/DocketFiling
+    sources:
+      - url: https://www.floridapsc.com/Conferences/CommissionConferenceAgenda
+        strategy: auto
+      - url: https://www.floridapsc.com/Conferences/HearingSchedule
+        strategy: auto
+      - url: https://www.floridapsc.com/Home/Calendar
+        strategy: auto
+    notes: Florida Public Utilities Co (CPK). Agenda Conferences are the decision dates; FPSC publishes a rolling hearing schedule separately.
+
+  - code: GA
+    name: Georgia Public Service Commission
+    state: GA
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://psc.ga.gov
+    docket_search: https://psc.ga.gov/search/facts-document/
+    sources:
+      - url: https://psc.ga.gov/calendar/
+        strategy: auto
+      - url: https://psc.ga.gov/calendar/?view=list
+        strategy: auto
+      - url: https://psc.ga.gov/news/
+        strategy: auto
+    notes: >-
+      Georgia Power + Atlanta Gas Light (SO). Track the triennial Integrated Resource
+      Plan and Rate Case cycle, plus Vogtle-related prudence proceedings. Administrative
+      Sessions are the voting dates.
+
+  - code: HI
+    name: Hawaii Public Utilities Commission
+    state: HI
+    type: state_puc
+    tier: core
+    timezone: Pacific/Honolulu
+    home: https://puc.hawaii.gov
+    docket_search: https://dms.puc.hawaii.gov/dms/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://puc.hawaii.gov/category/public-notice/
+        strategy: auto
+      - url: https://puc.hawaii.gov/events/
+        strategy: auto
+      - url: https://puc.hawaii.gov/category/public-notices/
+        strategy: auto
+    notes: Hawaiian Electric (HE). Performance-Based Regulation framework means annual PBR review dates matter more than classic rate cases.
+
+  - code: ID
+    name: Idaho Public Utilities Commission
+    state: ID
+    type: state_puc
+    tier: full
+    timezone: America/Boise
+    home: https://puc.idaho.gov
+    docket_search: https://puc.idaho.gov/case
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://puc.idaho.gov/PublicDocs/Agenda
+        strategy: auto
+      # VERIFIED WORKING 2026-08-14
+      - url: https://townhall.idaho.gov/PublicEntityHome/1138?rows=100
+        strategy: auto
+      - url: https://puc.idaho.gov/events
+        strategy: auto
+
+  - code: IL
+    name: Illinois Commerce Commission
+    state: IL
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://www.icc.illinois.gov
+    docket_search: https://www.icc.illinois.gov/docket/
+    sources:
+      - url: https://www.icc.illinois.gov/meetings
+        strategy: auto
+      - url: https://www.icc.illinois.gov/events
+        strategy: auto
+      - url: https://www.icc.illinois.gov/news
+        strategy: auto
+    notes: Nicor Gas (SO), Peoples Gas + North Shore Gas (WEC). Multi-year rate plans under CEJA changed the cadence; watch reconciliation dockets.
+
+  - code: IN
+    name: Indiana Utility Regulatory Commission
+    state: IN
+    type: state_puc
+    tier: core
+    timezone: America/Indiana/Indianapolis
+    home: https://www.in.gov/iurc/
+    docket_search: https://iurc.portal.in.gov/docketed-case-search/
+    sources:
+      # VERIFIED STALE 2026-08-14: calendar.in.gov now 302s to events.in.gov,
+      # which lists no IURC events. The weekly hearing/agenda pages on in.gov
+      # are the working sources; the Trumba URLs are kept last in case the
+      # state restores the feed.
+      - url: https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings
+        strategy: auto
+      - url: https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-agendas/
+        strategy: auto
+      - url: https://www.in.gov/iurc/news-and-notices/executive-session-minutes-and-public-notices/
+        strategy: auto
+      - url: https://events.in.gov
+        strategy: auto
+      - url: https://calendar.in.gov/site/iurc/?format=ical
+        strategy: ics
+    notes: >-
+      NIPSCO (NI), I&M (AEP), CenterPoint Indiana / SIGECO (CNP). Indiana runs on a
+      Trumba calendar which exposes an iCal export - the most reliable source in the
+      registry. Weekly hearing lists are posted as PDFs.
+
+  - code: IA
+    name: Iowa Utilities Commission
+    state: IA
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://iuc.iowa.gov
+    docket_search: https://efs.iowa.gov/efs/ShowDocketSearch.do
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://iuc.iowa.gov/commission-activity/public-meeting-documents
+        strategy: auto
+      - url: https://iuc.iowa.gov/meetings
+        strategy: auto
+      - url: https://iuc.iowa.gov/events
+        strategy: auto
+    notes: Interstate Power & Light (LNT), Black Hills Iowa Gas (BKH). Renamed from Iowa Utilities Board in 2024 - older bookmarks to iub.iowa.gov redirect.
+
+  - code: KS
+    name: Kansas Corporation Commission
+    state: KS
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://www.kcc.ks.gov
+    docket_search: https://estar.kcc.ks.gov/estar/portal/kcc/PSC/DocketFilings
+    sources:
+      - url: https://www.kcc.ks.gov/calendar
+        strategy: auto
+      - url: https://www.kcc.ks.gov/business-meetings
+        strategy: auto
+    notes: Evergy Kansas (EVRG), Kansas Gas Service (OGS), Atmos Kansas (ATO), Black Hills Kansas Gas (BKH).
+
+  - code: KY
+    name: Kentucky Public Service Commission
+    state: KY
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://psc.ky.gov
+    docket_search: https://psc.ky.gov/Case/CaseSearch
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://psc.ky.gov/Home/Hearings
+        strategy: auto
+      - url: https://psc.ky.gov/Home/Calendar
+        strategy: auto
+      - url: https://psc.ky.gov/agenda
+        strategy: auto
+    notes: Kentucky Power (AEP), Columbia Gas of Kentucky (NI), Atmos Kentucky (ATO).
+
+  - code: LA
+    name: Louisiana Public Service Commission
+    state: LA
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://www.lpsc.louisiana.gov
+    docket_search: https://lpscstar.louisiana.gov/star/portal/lpsc/page/dockets-search/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://lpsc.louisiana.gov/Agenda
+        strategy: auto
+      - url: https://www.lpsc.louisiana.gov/Calendar
+        strategy: auto
+      - url: https://www.lpsc.louisiana.gov/AgendasMinutes
+        strategy: auto
+    notes: >-
+      Entergy Louisiana (ETR), SWEPCO (AEP), Atmos Louisiana (ATO). Note Entergy New
+      Orleans is NOT regulated here - see the NOLA entry. LPSC Business & Executive
+      Sessions are monthly.
+
+  - code: ME
+    name: Maine Public Utilities Commission
+    state: ME
+    type: state_puc
+    tier: full
+    timezone: America/New_York
+    home: https://www.maine.gov/mpuc/
+    docket_search: https://mpuc-cms.maine.gov/CQM.Public.WebUI/Common/CaseMaster.aspx
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.maine.gov/mpuc/news/calendar
+        strategy: auto
+      - url: https://www.maine.gov/mpuc/about/calendar
+        strategy: auto
+
+  - code: MD
+    name: Maryland Public Service Commission
+    state: MD
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://www.psc.state.md.us
+    docket_search: https://www.psc.state.md.us/search-results/?keyword=&x.x=Search
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+        strategy: auto
+      # VERIFIED WORKING 2026-08-14
+      - url: https://webpscxb.pscmaryland.com/DMS/agendas
+        strategy: auto
+      - url: https://www.psc.state.md.us/calendar-of-events/
+        strategy: auto
+      - url: https://www.psc.state.md.us/public-utility-hearing-schedule/
+        strategy: auto
+    notes: Columbia Gas of Maryland (NI), Chesapeake Utilities Maryland (CPK).
+
+  - code: MA
+    name: Massachusetts Department of Public Utilities
+    state: MA
+    type: state_puc
+    tier: full
+    timezone: America/New_York
+    home: https://www.mass.gov/orgs/department-of-public-utilities
+    docket_search: https://eeaonline.eea.state.ma.us/DPU/Fileroom/dockets/bynumber
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.mass.gov/orgs/department-of-public-utilities/events
+        strategy: auto
+      - url: https://www.mass.gov/lists/department-of-public-utilities-hearings-and-meetings
+        strategy: auto
+
+  - code: MI
+    name: Michigan Public Service Commission
+    state: MI
+    type: state_puc
+    tier: core
+    timezone: America/Detroit
+    home: https://www.michigan.gov/mpsc
+    docket_search: https://mi-psc.my.site.com/s/case-search
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.michigan.gov/mpsc/commission
+        strategy: auto
+      - url: https://www.michigan.gov/mpsc/commission/all-events
+        strategy: auto
+      - url: https://www.michigan.gov/mpsc/commission/events
+        strategy: auto
+      - url: https://www.michigan.gov/mpsc/consumer/public-hearings
+        strategy: auto
+    notes: >-
+      DTE Electric + DTE Gas (DTE), Consumers, I&M (AEP), WEC's Michigan Gas Utilities
+      and UP operations (WEC). Michigan has a statutory 10-month rate case clock, so the
+      filing date implies the order date - the model should carry both.
+
+  - code: MN
+    name: Minnesota Public Utilities Commission
+    state: MN
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://mn.gov/puc/
+    docket_search: https://www.edockets.state.mn.us/documents/search
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://minnesotapuc.legistar.com/Calendar.aspx
+        strategy: auto
+      - url: https://mn.gov/puc/about-us/commission-calendar/
+        strategy: auto
+      - url: https://mn.gov/puc/activities/calendar/
+        strategy: auto
+    notes: CenterPoint Minnesota gas (CNP), Minnesota Energy Resources (WEC), Interstate Power & Light (LNT). Minnesota allows interim rates, so watch the interim-rate order date separately from the final order.
+
+  - code: MS
+    name: Mississippi Public Service Commission
+    state: MS
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://www.psc.ms.gov
+    docket_search: https://www.psc.ms.gov/efiling/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.psc.ms.gov/exec-sec/hearings
+        strategy: auto
+      - url: https://www.psc.ms.gov/events
+        strategy: auto
+      - url: https://www.psc.ms.gov/dockets
+        strategy: auto
+    notes: Entergy Mississippi (ETR), Mississippi Power (SO), Atmos Mississippi (ATO), Spire Mississippi (SR).
+
+  - code: MO
+    name: Missouri Public Service Commission
+    state: MO
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://psc.mo.gov
+    docket_search: https://www.efis.psc.mo.gov/mpsc/CaseFilingSearch.asp
+    sources:
+      - url: https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+        strategy: auto
+      - url: https://psc.mo.gov/Calendars.aspx
+        strategy: auto
+      - url: https://www.efis.psc.mo.gov/mpsc/agenda/viewagenda/view_newest_agenda.asp
+        strategy: auto
+      - url: https://psc.mo.gov/Calendars.aspx?Selected=Agendas
+        strategy: auto
+    notes: >-
+      Evergy Missouri (EVRG), Spire Missouri (SR). Missouri's 11-month statutory
+      suspension period from the filing date sets the order deadline - the single most
+      useful modelling date in this state.
+
+  - code: MT
+    name: Montana Public Service Commission
+    state: MT
+    type: state_puc
+    tier: core
+    timezone: America/Denver
+    home: https://psc.mt.gov
+    docket_search: https://efs.psc.mt.gov/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://psc.mt.gov/_docs/Current-Agenda.pdf
+        strategy: auto
+      - url: https://psc.mt.gov/Meetings
+        strategy: auto
+      - url: https://psc.mt.gov/Meetings/Calendar
+        strategy: auto
+    notes: NorthWestern Energy (NWE), Black Hills Montana (BKH).
+
+  - code: NE
+    name: Nebraska Public Service Commission
+    state: NE
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://psc.nebraska.gov
+    docket_search: https://www.psc.nebraska.gov/dockets
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://psc.nebraska.gov/calendar
+        strategy: auto
+      - url: https://psc.nebraska.gov/agendas-and-minutes
+        strategy: auto
+      - url: https://psc.nebraska.gov/events
+        strategy: auto
+    notes: >-
+      Black Hills Nebraska Gas (BKH), NorthWestern (NWE), SourceGas legacy. Nebraska is
+      a public-power state for electricity - only gas LDCs are rate-regulated here.
+
+  - code: NV
+    name: Public Utilities Commission of Nevada
+    state: NV
+    type: state_puc
+    tier: core
+    timezone: America/Los_Angeles
+    home: https://puc.nv.gov
+    docket_search: https://pucweb1.state.nv.us/PUC2/Dktinfo.aspx
+    sources:
+      - url: https://puc.nv.gov/Meetings/
+        strategy: auto
+      - url: https://puc.nv.gov/Meetings/Agendas/
+        strategy: auto
+    notes: Southwest Gas (SWX). Nevada requires a general rate case every 3 years for electrics and has annual deferred energy filings.
+
+  - code: NH
+    name: New Hampshire Public Utilities Commission
+    state: NH
+    type: state_puc
+    tier: full
+    timezone: America/New_York
+    home: https://www.puc.nh.gov
+    docket_search: https://www.puc.nh.gov/Regulatory/Docketbk/dockets.htm
+    sources:
+      - url: https://www.puc.nh.gov/Regulatory/Calendar.html
+        strategy: auto
+
+  - code: NJ
+    name: New Jersey Board of Public Utilities
+    state: NJ
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://www.nj.gov/bpu/
+    docket_search: https://publicaccess.bpu.state.nj.us/
+    sources:
+      - url: https://www.nj.gov/bpu/newsroom/public/
+        strategy: auto
+      - url: https://www.nj.gov/bpu/newsroom/calendar/
+        strategy: auto
+      - url: https://www.nj.gov/bpu/newsroom/announcements/
+        strategy: auto
+    notes: PSE&G (PEG), Rockland Electric (ED). Agenda Meetings are the decision dates; NJ BPU posts agendas ~3 business days ahead.
+
+  - code: NM
+    name: New Mexico Public Regulation Commission
+    state: NM
+    type: state_puc
+    tier: full
+    timezone: America/Denver
+    home: https://www.prc.nm.gov
+    docket_search: https://edocket.nmprc.state.nm.us/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.prc.nm.gov/nmprc-open-meeting-agenda/
+        strategy: auto
+      - url: https://www.prc.nm.gov/commission/meetings/
+        strategy: auto
+
+  - code: NY
+    name: New York Public Service Commission
+    state: NY
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://dps.ny.gov
+    docket_search: https://documents.dps.ny.gov/public/Common/SearchMatter.aspx
+    sources:
+      - url: https://documents.dps.ny.gov/public/Common/CalendarViewReporthtml.aspx
+        strategy: auto
+      - url: https://dps.ny.gov/calendar
+        strategy: auto
+      - url: https://dps.ny.gov/public-service-commission-sessions
+        strategy: auto
+      - url: https://dps.ny.gov/calendar?f%5B0%5D=filter_term%3A496
+        strategy: auto
+    notes: >-
+      Con Edison + O&R (ED). NY runs multi-year rate plans with joint proposals, so the
+      settlement/joint-proposal filing date and the Session adoption date are the two
+      dates that move numbers. Sessions are roughly monthly.
+
+  - code: NC
+    name: North Carolina Utilities Commission
+    state: NC
+    type: state_puc
+    tier: full
+    timezone: America/New_York
+    home: https://www.ncuc.gov
+    docket_search: https://starw1.ncuc.gov/NCUC/page/docket-search/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.ncuc.gov/hearings/hearings.html
+        strategy: auto
+      - url: https://www.ncuc.gov/hearing.html
+        strategy: auto
+      - url: https://www.ncuc.gov/calendar.html
+        strategy: auto
+
+  - code: ND
+    name: North Dakota Public Service Commission
+    state: ND
+    type: state_puc
+    tier: full
+    timezone: America/Chicago
+    home: https://psc.nd.gov
+    docket_search: https://psc.nd.gov/database/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://apps.psc.nd.gov/events/meetings
+        strategy: auto
+      - url: https://psc.nd.gov/public/calendar/
+        strategy: auto
+
+  - code: OH
+    name: Public Utilities Commission of Ohio
+    state: OH
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://puco.ohio.gov
+    docket_search: https://dis.puc.state.oh.us/
+    sources:
+      - url: https://puco.ohio.gov/events
+        strategy: auto
+      - url: https://puco.ohio.gov/agendas-and-hearings/hearing-schedule/
+        strategy: auto
+      - url: https://puco.ohio.gov/agendas-and-hearings/agenda-for-next-commission-meeting/
+        strategy: auto
+      - url: https://puco.ohio.gov/news
+        strategy: auto
+    notes: >-
+      AEP Ohio (AEP), Columbia Gas of Ohio (NI), CenterPoint Ohio (CNP), Chesapeake /
+      Aspire (CPK). Ohio's ESP vs MRO election and the rolling ESP expiry dates are the
+      structural dates to track alongside distribution rate cases.
+
+  - code: OK
+    name: Oklahoma Corporation Commission
+    state: OK
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://oklahoma.gov/occ.html
+    docket_search: https://apps.occ.ok.gov/PSTPortal/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
+        strategy: auto
+      - url: https://oklahoma.gov/occ/news-and-media/events.html
+        strategy: auto
+      - url: https://oklahoma.gov/occ/divisions/public-utility.html
+        strategy: auto
+    notes: OG&E (OGE), PSO (AEP), Oklahoma Natural Gas (OGS). Performance-Based Rate Change plans set annual filing dates.
+
+  - code: OR
+    name: Oregon Public Utility Commission
+    state: OR
+    type: state_puc
+    tier: core
+    timezone: America/Los_Angeles
+    home: https://www.oregon.gov/puc/
+    docket_search: https://apps.puc.state.or.us/edockets/docket.asp
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://apps.puc.state.or.us/edockets/hcal.asp
+        strategy: auto
+      - url: https://www.oregon.gov/puc/Pages/Calendar.aspx
+        strategy: auto
+      - url: https://www.oregon.gov/puc/Pages/Public-Meetings.aspx
+        strategy: auto
+    notes: Portland General Electric (POR). Oregon uses a 10-month statutory clock and annual Power Cost Adjustment filings each spring.
+
+  - code: PA
+    name: Pennsylvania Public Utility Commission
+    state: PA
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://www.puc.pa.gov
+    docket_search: https://www.puc.pa.gov/search/case-search/
+    sources:
+      - url: https://www.puc.pa.gov/about-the-puc/public-meetings/
+        strategy: auto
+      - url: https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/
+        strategy: auto
+      - url: https://www.puc.pa.gov/about-the-puc/press-releases/
+        strategy: auto
+    notes: >-
+      Columbia Gas of Pennsylvania (NI). PA's 9-month suspension period and the DSIC
+      surcharge quarterly filings are both worth carrying. Public Meetings are where
+      orders are adopted.
+
+  - code: RI
+    name: Rhode Island Public Utilities Commission
+    state: RI
+    type: state_puc
+    tier: full
+    timezone: America/New_York
+    home: https://ripuc.ri.gov
+    docket_search: https://ripuc.ri.gov/eventsactions/docket.html
+    sources:
+      - url: https://ripuc.ri.gov/events
+        strategy: auto
+
+  - code: SC
+    name: South Carolina Public Service Commission
+    state: SC
+    type: state_puc
+    tier: full
+    timezone: America/New_York
+    home: https://psc.sc.gov
+    docket_search: https://dms.psc.sc.gov/Web/Dockets
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://psc.sc.gov/about-us/scheduled-commission-meetings
+        strategy: auto
+      # VERIFIED WORKING 2026-08-14
+      - url: https://psc.sc.gov/about-us-0/livestream-schedule
+        strategy: auto
+      - url: https://psc.sc.gov/events
+        strategy: auto
+      - url: https://psc.sc.gov/commission-meetings-and-hearings
+        strategy: auto
+
+  - code: SD
+    name: South Dakota Public Utilities Commission
+    state: SD
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://puc.sd.gov
+    docket_search: https://puc.sd.gov/Dockets/Electric/default.aspx
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://puc.sd.gov/agendas/2026/default.aspx
+        strategy: auto
+      # VERIFIED WORKING 2026-08-14
+      - url: https://boardsandcommissions.sd.gov/Meetings.aspx?BoardID=213
+        strategy: auto
+      - url: https://puc.sd.gov/commission/calendar.aspx
+        strategy: auto
+      - url: https://puc.sd.gov/commission/meetings.aspx
+        strategy: auto
+    notes: NorthWestern Energy (NWE), Black Hills Power (BKH). Weekly ad-hoc meetings; SD posts agendas on a rolling basis.
+
+  - code: TN
+    name: Tennessee Public Utility Commission
+    state: TN
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://www.tn.gov/tpuc.html
+    docket_search: https://apps.tn.gov/tpuc-dms/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.tn.gov/tpuc/agency/calendar-of-upcoming-events.html
+        strategy: auto
+      - url: https://www.tn.gov/tpuc/tennessee-public-utility-commission-calendar.html
+        strategy: auto
+      - url: https://www.tn.gov/tpuc/news.html
+        strategy: auto
+    notes: Atmos Tennessee (ATO), Chattanooga Gas (SO), Appalachian Power's TN footprint (AEP). Tennessee uses an Annual Rate Mechanism for gas LDCs.
+
+  - code: TX
+    name: Public Utility Commission of Texas
+    state: TX
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://www.puc.texas.gov
+    docket_search: https://interchange.puc.texas.gov/search/filings
+    sources:
+      # The month grid is the RICHEST source - it carries hearings on the merits,
+      # prehearing conferences and public hearings that never reach the RSS summary.
+      - url: https://puc.texas.gov/agency/calendar/calendar.aspx?view=month
+        strategy: auto
+      - url: https://www.puc.texas.gov/agency/calendar/getcalendarrss.aspx
+        strategy: rss
+      - url: https://www.puc.texas.gov/agency/calendar/Default.aspx
+        strategy: auto
+      - url: https://www.puc.texas.gov/agency/calendar/agendas/Default.aspx
+        strategy: auto
+      - url: https://www.puc.texas.gov/Default.aspx
+        strategy: auto
+    notes: >-
+      Oncor (SRE), AEP Texas + SWEPCO (AEP), CenterPoint Houston (CNP), Entergy Texas
+      (ETR). Open Meetings are the decision dates; "Hearing on the Merits" is the
+      evidentiary phase and is the date that matters for a contested rate case.
+      IMPORTANT: the RSS feed alone is too thin - it summarises rather than lists, and
+      relying on it drops public hearings. All five sources are merged. Note also that
+      puc.texas.gov serves a restrictive robots.txt; see the robots note in CLAUDE.md.
+      ERCOT market-design proceedings also live here.
+
+  - code: TX-RRC
+    name: Railroad Commission of Texas
+    state: TX
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://www.rrc.texas.gov
+    docket_search: https://www.rrc.texas.gov/hearings/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.rrc.texas.gov/general-counsel/open-meetings/
+        strategy: auto
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.rrc.texas.gov/hearings/hearings-calendar/
+        strategy: auto
+      - url: https://www.rrc.texas.gov/about-us/commissioners/open-meetings/
+        strategy: auto
+      - url: https://www.rrc.texas.gov/hearings/hearings-schedule/
+        strategy: auto
+    notes: >-
+      Gas utility rate regulation in Texas sits at the RRC, not the PUCT. This is where
+      Atmos Mid-Tex (ATO), Texas Gas Service (OGS) and CenterPoint's Texas gas cases are
+      heard. Texas gas LDCs also negotiate with city rate jurisdictions, whose dates are
+      not centrally published - flag these manually.
+
+  - code: UT
+    name: Utah Public Service Commission
+    state: UT
+    type: state_puc
+    tier: full
+    timezone: America/Denver
+    home: https://psc.utah.gov
+    docket_search: https://psc.utah.gov/dockets/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.utah.gov/pmn/sitemap/publicbody/939.html
+        strategy: auto
+      - url: https://psc.utah.gov/events/
+        strategy: auto
+
+  - code: VT
+    name: Vermont Public Utility Commission
+    state: VT
+    type: state_puc
+    tier: full
+    timezone: America/New_York
+    home: https://puc.vermont.gov
+    docket_search: https://epuc.vermont.gov/
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://puc.vermont.gov/event-types/public-hearing
+        strategy: auto
+      # VERIFIED WORKING 2026-08-14
+      - url: https://puc.vermont.gov/
+        strategy: auto
+      - url: https://puc.vermont.gov/public-participation/hearings-and-public-meetings
+        strategy: auto
+
+  - code: VA
+    name: Virginia State Corporation Commission
+    state: VA
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://www.scc.virginia.gov
+    docket_search: https://www.scc.virginia.gov/docketsearch
+    sources:
+      - url: https://www.scc.virginia.gov/pages/Hearing-Schedule
+        strategy: auto
+      - url: https://www.scc.virginia.gov/pages/Calendar
+        strategy: auto
+      - url: https://www.scc.virginia.gov/pages/Public-Hearings
+        strategy: auto
+    notes: >-
+      Appalachian Power (AEP), Columbia Gas of Virginia (NI), Virginia Natural Gas (SO),
+      Atmos Virginia (ATO), Chesapeake Utilities (CPK). Virginia's biennial/triennial
+      review structure for electrics is statutory - the review filing dates are set by
+      code, not by the SCC calendar.
+
+  - code: WA
+    name: Washington Utilities and Transportation Commission
+    state: WA
+    type: state_puc
+    tier: full
+    timezone: America/Los_Angeles
+    home: https://www.utc.wa.gov
+    docket_search: https://www.utc.wa.gov/casedocket
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.utc.wa.gov/documents-and-proceedings/hearings
+        strategy: auto
+      # VERIFIED WORKING 2026-08-14
+      - url: https://www.utc.wa.gov/documents-and-proceedings/open-meetings/all-open-meetings
+        strategy: auto
+      - url: https://www.utc.wa.gov/events
+        strategy: auto
+      - url: https://www.utc.wa.gov/about-us/open-meetings
+        strategy: auto
+
+  - code: WV
+    name: West Virginia Public Service Commission
+    state: WV
+    type: state_puc
+    tier: core
+    timezone: America/New_York
+    home: https://www.psc.state.wv.us
+    docket_search: https://www.psc.state.wv.us/scripts/WebDocket/
+    sources:
+      - url: https://www.psc.state.wv.us/calendar/
+        strategy: auto
+      - url: https://www.psc.state.wv.us/HearingSchedule/
+        strategy: auto
+    notes: Appalachian Power + Wheeling Power (AEP). ENEC (Expanded Net Energy Cost) annual filings are the recurring date.
+
+  - code: WI
+    name: Public Service Commission of Wisconsin
+    state: WI
+    type: state_puc
+    tier: core
+    timezone: America/Chicago
+    home: https://psc.wi.gov
+    docket_search: https://apps.psc.wi.gov/vs2015/ERF_search/content/default.aspx
+    sources:
+      - url: https://apps.psc.wi.gov/apps/calendar/External
+        strategy: auto
+      - url: https://psc.wi.gov/Pages/NewsEvents/StayInformed.aspx
+        strategy: auto
+      - url: https://apps.psc.wi.gov/apps/calendar/External/HearingDetails
+        strategy: auto
+    notes: >-
+      We Energies + WPS (WEC), Wisconsin Power & Light (LNT), Madison Gas & Electric
+      (MGEE). Wisconsin runs biennial rate cases on a fixed cycle - test-year filings
+      land in spring of odd years for rates effective the following January.
+
+  - code: WY
+    name: Wyoming Public Service Commission
+    state: WY
+    type: state_puc
+    tier: core
+    timezone: America/Denver
+    home: https://psc.wyo.gov
+    docket_search: https://dms.wyo.gov/external/publicusers.aspx
+    sources:
+      # VERIFIED WORKING 2026-08-14
+      - url: https://psc.wyo.gov/calendar/agendas-and-minutes
+        strategy: auto
+      - url: https://psc.wyo.gov/hearings-and-events
+        strategy: auto
+      - url: https://psc.wyo.gov/home/hearing-calendar
+        strategy: auto
+    notes: Black Hills Wyoming Gas + Cheyenne Light Fuel & Power (BKH).
+
+  # ------------------------------------------------------- MUNICIPAL / SPECIAL
+  - code: NOLA
+    name: New Orleans City Council Utility Committee
+    state: LA
+    type: municipal
+    tier: core
+    timezone: America/Chicago
+    home: https://council.nola.gov
+    docket_search: https://cityofno.granicus.com/ViewPublisher.php?view_id=42
+    sources:
+      - url: https://council.nola.gov/meetings/
+        strategy: auto
+      - url: https://cityofno.granicus.com/ViewPublisher.php?view_id=42
+        strategy: auto
+    notes: >-
+      Entergy New Orleans (ETR) is regulated by the New Orleans City Council, NOT the
+      Louisiana PSC. This is the single most commonly missed jurisdiction in utility
+      coverage. The Utility, Cable, Telecommunications and Technology Committee is the
+      relevant body.

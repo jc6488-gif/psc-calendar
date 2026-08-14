@@ -1,0 +1,136 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for California Public Utilities Commission.
+X-WR-CALNAME:CA — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC to Hold In-Person Public Workshop on Video Franchise Rul
+ es
+DTSTART;TZID=America/Los_Angeles:20260817T100000
+DTEND;TZID=America/Los_Angeles:20260817T120000
+DTSTAMP:20260814T170000Z
+UID:724e68050e1345c21c7e@psc-calendar
+CATEGORIES:CA,Workshop / Conference
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Workshop / Conference\n\nSource: https://www.cpuc.ca.gov/events-and-meeti
+ ngs
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Low Income Energy Assistance Programs Subcommittee Meeting
+DTSTART;TZID=America/Los_Angeles:20260817T150000
+DTEND;TZID=America/Los_Angeles:20260817T170000
+DTSTAMP:20260814T170000Z
+UID:27fb8545235f46375c44@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Interagency Public Briefing on Electric Utilities' Safety Cul
+ ture and Public Safety Power Shutoff Updates
+DTSTART;TZID=America/Los_Angeles:20260820T090000
+DTEND;TZID=America/Los_Angeles:20260820T110000
+DTSTAMP:20260814T170000Z
+UID:4ec2576b6c33b76057e0@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] DACAG Meeting 8-21-26
+DTSTART;TZID=America/Los_Angeles:20260821T130000
+DTEND;TZID=America/Los_Angeles:20260821T150000
+DTSTAMP:20260814T170000Z
+UID:212c50467bef62d429e7@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Golden State Water Company Proposed Acquisition of City of No
+ rwalk's North and South Artesia System
+DTSTART;TZID=America/Los_Angeles:20260825T180000
+DTEND;TZID=America/Los_Angeles:20260825T200000
+DTSTAMP:20260814T170000Z
+UID:77a447c551154b3f8ba6@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\nRate-case relevant: acquisition\n\nSource: https://www.cpuc.ca.gov
+ /events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Voting Meeting 09-03-26
+DTSTART;TZID=America/Los_Angeles:20260903T110000
+DTEND;TZID=America/Los_Angeles:20260903T130000
+DTSTAMP:20260814T170000Z
+UID:f358cf5975ce3ff47343@psc-calendar
+CATEGORIES:CA,Decision / Order
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Decision / Order\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:5
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Low Income Oversight Board Quarterly Meeting
+DTSTART;TZID=America/Los_Angeles:20260916T090000
+DTEND;TZID=America/Los_Angeles:20260916T110000
+DTSTAMP:20260814T170000Z
+UID:1ea454a773a083ecf970@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Voting Meeting 09-17-26
+DTSTART;TZID=America/Los_Angeles:20260917T110000
+DTEND;TZID=America/Los_Angeles:20260917T130000
+DTSTAMP:20260814T170000Z
+UID:1288d0a9a4927023861a@psc-calendar
+CATEGORIES:CA,Decision / Order
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Decision / Order\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:5
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Energy Division Open House
+DTSTART;TZID=America/Los_Angeles:20260917T120000
+DTEND;TZID=America/Los_Angeles:20260917T140000
+DTSTAMP:20260814T170000Z
+UID:188b3fe96c3e242e4588@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Small and Diverse Business Expo
+DTSTART;TZID=America/Los_Angeles:20260930T090000
+DTEND;TZID=America/Los_Angeles:20260930T110000
+DTSTAMP:20260814T170000Z
+UID:95e7cacc688db5e61596@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+END:VCALENDAR

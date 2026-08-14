@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Georgia Public Service Commission.
+X-WR-CALNAME:GA — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[GA] Administrative Session
+DTSTART;TZID=America/New_York:20260818T093000
+DTEND;TZID=America/New_York:20260818T113000
+DTSTAMP:20260814T170000Z
+UID:c4cf8932795d8af2db39@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:5
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SO] Docket No. 56181 GEORGIA POWER COMPANY'S APPLICATION FOR THE 
+ CERTIFICATION OF THE CARES 2023 UTILITY SCALE RENEWABLE POWER PURCHASE AGR
+ EEMENTS
+DTSTART;TZID=America/New_York:20260818T093500
+DTEND;TZID=America/New_York:20260818T113500
+DTSTAMP:20260814T170000Z
+UID:cf337c325f6d83b8a001@psc-calendar
+CATEGORIES:GA,Other,SO
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\nTickers: SO\nEntity: Georgia Power Company\nDocket: 56181\n\nSource: ht
+ tps://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] GUFPA Hearing
+DTSTART;TZID=America/New_York:20260819T100000
+DTEND;TZID=America/New_York:20260819T120000
+DTSTAMP:20260814T170000Z
+UID:d2817bc8332958a94962@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
+ tive Affairs Committees
+DTSTART;TZID=America/New_York:20260827T093000
+DTEND;TZID=America/New_York:20260827T113000
+DTSTAMP:20260814T170000Z
+UID:d77889c67c1fd90525cf@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Administrative Session
+DTSTART;TZID=America/New_York:20260901T093000
+DTEND;TZID=America/New_York:20260901T113000
+DTSTAMP:20260814T170000Z
+UID:cff55072cf1bb3bdb817@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:5
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Docket No. 57171 RTP Revenue Credit and Allocation Methodolog
+ y Hearing
+DTSTART;TZID=America/New_York:20260901T093500
+DTEND;TZID=America/New_York:20260901T113500
+DTSTAMP:20260814T170000Z
+UID:365c7986a1c1ca615201@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\nDocket: 57171\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
+ tive Affairs Committees
+DTSTART;TZID=America/New_York:20260910T093000
+DTEND;TZID=America/New_York:20260910T113000
+DTSTAMP:20260814T170000Z
+UID:ed02b97c87049b1051ba@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Docket # 57062 Hearing for the Liberty Utilities 2026-2027 Ga
+ s Supply Plan
+DTSTART;TZID=America/New_York:20260910T093500
+DTEND;TZID=America/New_York:20260910T113500
+DTSTAMP:20260814T170000Z
+UID:5ff1c0166e8f91a14595@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\nDocket: 57062\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+END:VCALENDAR

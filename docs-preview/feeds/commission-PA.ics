@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Pennsylvania Public Utility Commission.
+X-WR-CALNAME:PA — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[PA] Public Meeting\, Hearing Room 1\, Commonwealth Keystone Build
+ ing
+DTSTART;TZID=America/New_York:20260827T100000
+DTEND;TZID=America/New_York:20260827T120000
+DTSTAMP:20260814T170000Z
+UID:55aadc288f4a24cd4cdc@psc-calendar
+CATEGORIES:PA,Decision / Order
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Decision / Order\n\nSource: https://www.puc.pa.gov/about-the-puc/public-m
+ eetings/public-meeting-schedule/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] 2026 Safety Conference\, State College
+DTSTART;TZID=America/New_York:20260909T090000
+DTEND;TZID=America/New_York:20260909T110000
+DTSTAMP:20260814T170000Z
+UID:100432efc8e0555e7f1d@psc-calendar
+CATEGORIES:PA,Other
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Other\n\nSource: https://www.puc.pa.gov/about-the-puc/public-meetings/pub
+ lic-meeting-schedule/
+PRIORITY:9
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Be Utility Wise Event\, Erie
+DTSTART;TZID=America/New_York:20260917T090000
+DTEND;TZID=America/New_York:20260917T110000
+DTSTAMP:20260814T170000Z
+UID:d3b525abb7737f615313@psc-calendar
+CATEGORIES:PA,Other
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Other\n\nSource: https://www.puc.pa.gov/about-the-puc/public-meetings/pub
+ lic-meeting-schedule/
+PRIORITY:9
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Be Utility Wise Event\, Pittsburgh
+DTSTART;TZID=America/New_York:20261007T090000
+DTEND;TZID=America/New_York:20261007T110000
+DTSTAMP:20260814T170000Z
+UID:be8d7e51a5ac0abe81c6@psc-calendar
+CATEGORIES:PA,Other
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Other\n\nSource: https://www.puc.pa.gov/about-the-puc/public-meetings/pub
+ lic-meeting-schedule/
+PRIORITY:9
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Be Utility Wise Event\, Berks
+DTSTART;TZID=America/New_York:20261028T090000
+DTEND;TZID=America/New_York:20261028T110000
+DTSTAMP:20260814T170000Z
+UID:4ac78856b7063748c80b@psc-calendar
+CATEGORIES:PA,Other
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Other\n\nSource: https://www.puc.pa.gov/about-the-puc/public-meetings/pub
+ lic-meeting-schedule/
+PRIORITY:9
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+END:VCALENDAR

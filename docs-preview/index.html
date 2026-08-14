@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Utility Regulatory Calendar</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --plane: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --accent: #2a78d6;
+    --accent-soft: #cde2fb;
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300;
+    --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+    --hover: rgba(11,11,11,0.04);
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --plane: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255,255,255,0.10);
+    --accent: #3987e5;
+    --accent-soft: #184f95;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300;
+    --hover: rgba(255,255,255,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --surface-1: #1a1a19; --plane: #0d0d0d; --text-primary: #ffffff;
+      --text-secondary: #c3c2b7; --grid: #2c2c2a; --baseline: #383835;
+      --border: rgba(255,255,255,0.10); --accent: #3987e5; --accent-soft: #184f95;
+      --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300;
+      --hover: rgba(255,255,255,0.06);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--plane); color: var(--text-primary);
+    font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1500px; margin: 0 auto; padding: 24px 20px 64px; }
+  header { display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap;
+           justify-content: space-between; margin-bottom: 20px; }
+  h1 { font-size: 21px; font-weight: 650; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--text-secondary); font-size: 13px; }
+  .card { background: var(--surface-1); border: 1px solid var(--border);
+          border-radius: 10px; padding: 16px; }
+
+  /* ---- KPI row: stat tiles, not a chart ---- */
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px,1fr));
+          gap: 12px; margin-bottom: 12px; }
+  .kpi .label { font-size: 11px; text-transform: uppercase; letter-spacing: .07em;
+                color: var(--muted); font-weight: 600; }
+  .kpi .value { font-size: 34px; font-weight: 640; margin-top: 6px; letter-spacing: -0.02em; }
+  .kpi .foot { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+
+  /* ---- column chart: one hue, single series, no legend ---- */
+  .chartwrap { margin-bottom: 12px; }
+  .chart-title { font-size: 13px; font-weight: 620; margin-bottom: 2px; }
+  .chart-sub { font-size: 12px; color: var(--text-secondary); margin-bottom: 14px; }
+  #weeks { display: block; width: 100%; height: 150px; overflow: visible; }
+  #weeks .bar { fill: var(--accent); }
+  #weeks .bar:hover { fill: var(--text-primary); }
+  #weeks .tick { fill: var(--muted); font-size: 10px; }
+  #weeks .vlabel { fill: var(--text-secondary); font-size: 10px; font-weight: 600; }
+  #weeks .base { stroke: var(--baseline); stroke-width: 1; }
+
+  /* ---- filters: one row above the content ---- */
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+             margin: 16px 0 12px; }
+  input[type=search], select {
+    font: inherit; padding: 7px 10px; border-radius: 7px; background: var(--surface-1);
+    border: 1px solid var(--border); color: var(--text-primary); min-height: 34px;
+  }
+  input[type=search] { min-width: 240px; flex: 1 1 240px; }
+  .chip { font: inherit; font-size: 13px; padding: 7px 12px; border-radius: 7px;
+          border: 1px solid var(--border); background: var(--surface-1);
+          color: var(--text-secondary); cursor: pointer; min-height: 34px; }
+  .chip:hover { background: var(--hover); }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent);
+                               color: #fff; font-weight: 600; }
+  :root[data-theme="dark"] .chip[aria-pressed="true"] { color: #0d0d0d; }
+
+  /* ---- table: the primary view ---- */
+  table { width: 100%; border-collapse: collapse; }
+  thead th { text-align: left; font-size: 11px; text-transform: uppercase;
+             letter-spacing: .06em; color: var(--muted); font-weight: 650;
+             padding: 8px 10px; border-bottom: 1px solid var(--baseline);
+             position: sticky; top: 0; background: var(--surface-1); z-index: 2;
+             cursor: pointer; white-space: nowrap; }
+  thead th:hover { color: var(--text-primary); }
+  tbody td { padding: 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  tbody tr:hover { background: var(--hover); }
+  .date { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600; }
+  .time { color: var(--muted); font-weight: 400; font-size: 12px; display: block; }
+  .soon { color: var(--critical); }
+  td.title a { color: var(--text-primary); text-decoration: none; }
+  td.title a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+  .meta { color: var(--muted); font-size: 12px; margin-top: 3px; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+         margin-right: 6px; vertical-align: 1px; }
+  .tag { display: inline-block; font-size: 11px; font-weight: 650; padding: 2px 7px;
+         border-radius: 5px; border: 1px solid var(--border); margin: 0 4px 3px 0;
+         white-space: nowrap; }
+  .tag.tk { background: var(--accent-soft); color: var(--text-primary);
+            border-color: transparent; }
+  .tag.rc { color: var(--text-secondary); }
+  .docket { font-variant-numeric: tabular-nums; font-size: 12px; color: var(--text-secondary);
+            white-space: nowrap; }
+  .type { white-space: nowrap; font-size: 12px; color: var(--text-secondary); }
+  .st { font-size: 12px; color: var(--text-secondary); white-space: nowrap; }
+
+  /* ---- coverage roster: all 26, always ---- */
+  .roster { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px,1fr));
+            gap: 6px; }
+  .rchip { border: 1px solid var(--border); border-radius: 7px; padding: 6px 8px;
+           cursor: pointer; background: var(--surface-1); text-align: left;
+           font: inherit; color: var(--text-primary); }
+  .rchip:hover { background: var(--hover); }
+  .rchip[aria-pressed="true"] { border-color: var(--accent);
+                                box-shadow: inset 0 0 0 1px var(--accent); }
+  .rchip .t { font-weight: 680; font-size: 12px; letter-spacing: .01em; }
+  .rchip .n { font-size: 17px; font-weight: 640; font-variant-numeric: tabular-nums;
+              line-height: 1.2; }
+  .rchip.zero { opacity: .55; }
+  .rchip.zero .n { color: var(--muted); }
+  .rchip.blocked .n { color: var(--critical); }
+
+  /* ---- health ---- */
+  .health { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px,1fr));
+            gap: 6px; margin-top: 12px; }
+  .hcell { font-size: 11px; padding: 6px 8px; border-radius: 6px;
+           border: 1px solid var(--border); display: flex; align-items: center; gap: 5px; }
+  .hcell b { font-weight: 650; }
+  .hcell .n { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  details.about { margin-top: 20px; }
+  summary { cursor: pointer; font-weight: 620; font-size: 13px; padding: 6px 0; }
+  .feeds a { color: var(--accent); text-decoration: none; font-size: 13px; }
+  .feeds a:hover { text-decoration: underline; }
+  .feedrow { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
+  code { background: var(--hover); padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+  .empty { padding: 48px 16px; text-align: center; color: var(--muted); }
+  .count { color: var(--text-secondary); font-size: 13px; margin: 4px 2px 10px; }
+  @media (max-width: 760px) {
+    .hide-sm { display: none; }
+    .kpi .value { font-size: 27px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div>
+    <h1>Utility Regulatory Calendar</h1>
+    <div class="sub">
+      State commission meetings, hearings and procedural dates &middot;
+      <span id="genstamp"></span>
+    </div>
+  </div>
+  <div style="display:flex;gap:8px">
+    <button class="chip" id="csv">Export CSV</button>
+    <button class="chip" id="theme" aria-pressed="false">Dark</button>
+  </div>
+</header>
+
+<div class="kpis">
+  <div class="card kpi"><div class="label">Tracked dates</div>
+    <div class="value" id="k-total">—</div>
+    <div class="foot" id="k-total-f"></div></div>
+  <div class="card kpi"><div class="label">Names with dates</div>
+    <div class="value" id="k-cov">—</div>
+    <div class="foot" id="k-cov-f"></div></div>
+  <div class="card kpi"><div class="label">Rate-case relevant</div>
+    <div class="value" id="k-rate">—</div>
+    <div class="foot" id="k-rate-f"></div></div>
+  <div class="card kpi"><div class="label">Next 7 days</div>
+    <div class="value" id="k-week">—</div>
+    <div class="foot" id="k-week-f"></div></div>
+</div>
+
+<div class="card chartwrap">
+  <div class="chart-title">Coverage universe — all 26 names</div>
+  <div class="chart-sub">Click a ticker to filter. A name showing 0 has no scheduled
+    dates in the current range; check its commission's health below before reading
+    that as a quiet docket.</div>
+  <div class="roster" id="roster"></div>
+</div>
+
+<div class="card chartwrap">
+  <div class="chart-title">Scheduled dates per week</div>
+  <div class="chart-sub" id="chart-sub">Next 12 weeks, matching current filters</div>
+  <svg id="weeks" role="img" aria-label="Column chart of scheduled dates per week"></svg>
+</div>
+
+<div class="filters">
+  <input type="search" id="q" placeholder="Search title, docket, company…" aria-label="Search">
+  <select id="f-ticker" aria-label="Filter by ticker"><option value="">All tickers</option></select>
+  <select id="f-state" aria-label="Filter by commission"><option value="">All commissions</option></select>
+  <select id="f-type" aria-label="Filter by event type"><option value="">All event types</option></select>
+  <select id="f-range" aria-label="Date range">
+    <option value="30">Next 30 days</option>
+    <option value="90" selected>Next 90 days</option>
+    <option value="180">Next 6 months</option>
+    <option value="9999">Everything</option>
+    <option value="past">Past 30 days</option>
+  </select>
+  <button class="chip" id="f-cov" aria-pressed="false">Coverage only</button>
+  <button class="chip" id="f-rc" aria-pressed="false">Rate cases only</button>
+  <button class="chip" id="reset">Reset</button>
+</div>
+
+<div class="count" id="count"></div>
+
+<div class="card" style="padding:0;overflow:hidden">
+  <table>
+    <thead><tr>
+      <th data-sort="start">Date</th>
+      <th data-sort="commission">Comm.</th>
+      <th data-sort="title">Event</th>
+      <th data-sort="tickers" class="hide-sm">Coverage</th>
+      <th data-sort="event_type" class="hide-sm">Type</th>
+      <th data-sort="dockets" class="hide-sm">Docket</th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="empty" id="empty" hidden>No dates match these filters.</div>
+</div>
+
+<details class="about" open>
+  <summary>Subscribe in Outlook / Google Calendar</summary>
+  <div class="card" style="margin-top:8px">
+    <p style="margin:0 0 6px;color:var(--text-secondary)">
+      These feeds refresh daily. Subscribe once by URL — do not download and import,
+      or updates and cancellations will not reach you.
+      In Outlook: <em>Add calendar &rarr; Subscribe from web</em>.
+      In Google Calendar: <em>Other calendars &rarr; From URL</em>.
+    </p>
+    <div class="feedrow feeds">
+      <a href="feeds/coverage.ics">Coverage universe (.ics)</a>
+      <a href="feeds/high-priority.ics">High priority only (.ics)</a>
+      <a href="feeds/rate-cases.ics">Rate cases (.ics)</a>
+      <a href="feeds/all.ics">Everything, all 50 states (.ics)</a>
+      <a href="events.json">Raw JSON</a>
+    </div>
+    <p style="margin:10px 0 0;color:var(--muted);font-size:12px">
+      Per-ticker feeds: <code>feeds/ticker-AEP.ics</code> &middot;
+      per-commission feeds: <code>feeds/commission-OH.ics</code>
+    </p>
+  </div>
+</details>
+
+<details class="about">
+  <summary>Source health — which commissions scraped cleanly</summary>
+  <div class="card" style="margin-top:8px">
+    <p style="margin:0 0 4px;color:var(--text-secondary);font-size:13px">
+      A failing source means that commission's dates are missing from the table below —
+      not that it has none scheduled. Check the source site directly before concluding
+      a docket is quiet.
+    </p>
+    <div class="health" id="health"></div>
+  </div>
+</details>
+
+</div>
+
+<script id="payload" type="application/json">{"roster":[{"ticker":"AEP","name":"American Electric Power","sector":"Electric","commissions":["AR","FERC","IN","KY","LA","MI","OH","OK","TN","TX","VA","WV"]},{"ticker":"ATO","name":"Atmos Energy","sector":"Gas LDC","commissions":["CO","KS","KY","LA","MS","TN","TX-RRC","VA"]},{"ticker":"BKH","name":"Black Hills Corporation","sector":"Electric + Gas","commissions":["AR","CO","IA","KS","MT","NE","SD","WY"]},{"ticker":"CNP","name":"CenterPoint Energy","sector":"Electric + Gas","commissions":["IN","MN","OH","TX","TX-RRC"]},{"ticker":"CPK","name":"Chesapeake Utilities Corporation","sector":"Gas + Electric","commissions":["DE","FL","MD","OH","VA"]},{"ticker":"DTE","name":"DTE Energy","sector":"Electric + Gas","commissions":["MI"]},{"ticker":"ED","name":"Consolidated Edison","sector":"Electric + Gas + Steam","commissions":["NJ","NY"]},{"ticker":"EIX","name":"Edison International","sector":"Electric","commissions":["CA","FERC"]},{"ticker":"ETR","name":"Entergy Corporation","sector":"Electric + Gas","commissions":["AR","FERC","LA","MS","NOLA","TX"]},{"ticker":"EVRG","name":"Evergy Inc.","sector":"Electric","commissions":["KS","MO"]},{"ticker":"HE","name":"Hawaiian Electric Industries","sector":"Electric","commissions":["HI"]},{"ticker":"LNT","name":"Alliant Energy","sector":"Electric + Gas","commissions":["IA","MN","WI"]},{"ticker":"MGEE","name":"MGE Energy","sector":"Electric + Gas","commissions":["WI"]},{"ticker":"NI","name":"NiSource Inc.","sector":"Electric + Gas","commissions":["IN","KY","MD","OH","PA","VA"]},{"ticker":"NWE","name":"NorthWestern Energy Group","sector":"Electric + Gas","commissions":["MT","NE","SD"]},{"ticker":"OGE","name":"OGE Energy Corp.","sector":"Electric","commissions":["AR","OK"]},{"ticker":"OGS","name":"ONE Gas Inc.","sector":"Gas LDC","commissions":["KS","OK","TX-RRC"]},{"ticker":"PCG","name":"PG&E Corporation","sector":"Electric + Gas","commissions":["CA","FERC"]},{"ticker":"PEG","name":"Public Service Enterprise Group","sector":"Electric + Gas","commissions":["FERC","NJ"]},{"ticker":"PNW","name":"Pinnacle West Capital Corporation","sector":"Electric","commissions":["AZ","FERC"]},{"ticker":"POR","name":"Portland General Electric","sector":"Electric","commissions":["FERC","OR"]},{"ticker":"SO","name":"Southern Company","sector":"Electric + Gas","commissions":["AL","FERC","GA","IL","MS","TN","VA"]},{"ticker":"SR","name":"Spire Inc.","sector":"Gas LDC","commissions":["AL","MO","MS"]},{"ticker":"SRE","name":"Sempra","sector":"Electric + Gas","commissions":["CA","FERC","TX"]},{"ticker":"SWX","name":"Southwest Gas Holdings","sector":"Gas LDC","commissions":["AZ","CA","NV"]},{"ticker":"WEC","name":"WEC Energy Group","sector":"Electric + Gas","commissions":["IL","MI","MN","WI"]}],"generated_at":"2026-08-14T13:00:00-04:00","generated_at_utc":"2026-08-14T13:00:00-04:00","event_count":70,"covered_event_count":4,"commissions":[{"commission":"AK","commission_name":"Regulatory Commission of Alaska","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"RCA 'Page Not Found'","duration_s":0.0},{"commission":"AL","commission_name":"Alabama Public Service Commission","tier":"core","ok":true,"event_count":2,"strategy_used":"webfetch","source_url":"https://psc.alabama.gov/category/events/","error":"","duration_s":1.0},{"commission":"AR","commission_name":"Arkansas Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"robots.txt fetch failed (DNS) \u2014 treated as disallowed","duration_s":0.0},{"commission":"AZ","commission_name":"Arizona Corporation Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"CA","commission_name":"California Public Utilities Commission","tier":"core","ok":true,"event_count":10,"strategy_used":"webfetch","source_url":"https://www.cpuc.ca.gov/events-and-meetings","error":"","duration_s":1.0},{"commission":"CO","commission_name":"Colorado Public Utilities Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"CT","commission_name":"Connecticut Public Utilities Regulatory Authority","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"DC","commission_name":"District of Columbia Public Service Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"DE","commission_name":"Delaware Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"events page empty; statewide portal 500 error","duration_s":0.0},{"commission":"FERC","commission_name":"Federal Energy Regulatory Commission","tier":"core","ok":true,"event_count":5,"strategy_used":"webfetch","source_url":"https://www.ferc.gov/news-events/events","error":"","duration_s":1.0},{"commission":"FL","commission_name":"Florida Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"robots.txt fetch failed (ConnectTimeout/SSL) \u2014 treated as disallowed","duration_s":0.0},{"commission":"GA","commission_name":"Georgia Public Service Commission","tier":"core","ok":true,"event_count":8,"strategy_used":"webfetch","source_url":"https://psc.ga.gov/calendar/","error":"","duration_s":1.0},{"commission":"HI","commission_name":"Hawaii Public Utilities Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 on both URLs","duration_s":0.0},{"commission":"IA","commission_name":"Iowa Utilities Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"ID","commission_name":"Idaho Public Utilities Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"IL","commission_name":"Illinois Commerce Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"robots.txt disallowed \u2014 not worked around","duration_s":0.0},{"commission":"IN","commission_name":"Indiana Utility Regulatory Commission","tier":"core","ok":true,"event_count":4,"strategy_used":"webfetch","source_url":"https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings","error":"","duration_s":1.0},{"commission":"KS","commission_name":"Kansas Corporation Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"robots.txt fetch failed (SSL cert verify) \u2014 treated as disallowed","duration_s":0.0},{"commission":"KY","commission_name":"Kentucky Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"site error page, no calendar content","duration_s":0.0},{"commission":"LA","commission_name":"Louisiana Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"MA","commission_name":"Massachusetts Department of Public Utilities","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"MD","commission_name":"Maryland Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"ME","commission_name":"Maine Public Utilities Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"MI","commission_name":"Michigan Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"all-events and events show 'No Results Found'; /consumer/public-hearings 404","duration_s":0.0},{"commission":"MN","commission_name":"Minnesota Public Utilities Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"MO","commission_name":"Missouri Public Service Commission","tier":"core","ok":true,"event_count":7,"strategy_used":"webfetch","source_url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","error":"","duration_s":1.0},{"commission":"MS","commission_name":"Mississippi Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"MT","commission_name":"Montana Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"NC","commission_name":"North Carolina Utilities Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"ND","commission_name":"North Dakota Public Service Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"NE","commission_name":"Nebraska Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"NH","commission_name":"New Hampshire Public Utilities Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 403","duration_s":0.0},{"commission":"NJ","commission_name":"New Jersey Board of Public Utilities","tier":"core","ok":true,"event_count":3,"strategy_used":"webfetch","source_url":"https://www.nj.gov/bpu/newsroom/public/","error":"","duration_s":1.0},{"commission":"NM","commission_name":"New Mexico Public Regulation Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"NOLA","commission_name":"New Orleans City Council Utility Committee","tier":"core","ok":true,"event_count":8,"strategy_used":"webfetch","source_url":"https://council.nola.gov/meetings/","error":"","duration_s":1.0},{"commission":"NV","commission_name":"Public Utilities Commission of Nevada","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"robots.txt disallowed \u2014 not worked around","duration_s":0.0},{"commission":"NY","commission_name":"New York Public Service Commission","tier":"core","ok":true,"event_count":13,"strategy_used":"webfetch","source_url":"https://dps.ny.gov/calendar","error":"","duration_s":1.0},{"commission":"OH","commission_name":"Public Utilities Commission of Ohio","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"puco.ohio.gov/events returns portal-encoded CDATA; hearing-schedule + agenda URLs resolve to homepage","duration_s":0.0},{"commission":"OK","commission_name":"Oklahoma Corporation Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"OR","commission_name":"Oregon Public Utility Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"PA","commission_name":"Pennsylvania Public Utility Commission","tier":"core","ok":true,"event_count":5,"strategy_used":"webfetch","source_url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","error":"","duration_s":1.0},{"commission":"RI","commission_name":"Rhode Island Public Utilities Commission","tier":"core","ok":true,"event_count":1,"strategy_used":"webfetch","source_url":"https://ripuc.ri.gov/events","error":"","duration_s":1.0},{"commission":"SC","commission_name":"South Carolina Public Service Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"SD","commission_name":"South Dakota Public Utilities Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"TN","commission_name":"Tennessee Public Utility Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"TX","commission_name":"Public Utility Commission of Texas","tier":"core","ok":true,"event_count":4,"strategy_used":"webfetch","source_url":"https://puc.texas.gov/agency/calendar/calendar.aspx","error":"","duration_s":1.0},{"commission":"TX-RRC","commission_name":"Railroad Commission of Texas","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"UT","commission_name":"Utah Public Service Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"VA","commission_name":"Virginia State Corporation Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"robots.txt disallowed \u2014 not worked around","duration_s":0.0},{"commission":"VT","commission_name":"Vermont Public Utility Commission","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"WA","commission_name":"Washington UTC","tier":"full","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0},{"commission":"WI","commission_name":"Public Service Commission of Wisconsin","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"apps.psc.wi.gov calendar returned no parseable rows","duration_s":0.0},{"commission":"WV","commission_name":"West Virginia Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 403 on both URLs","duration_s":0.0},{"commission":"WY","commission_name":"Wyoming Public Service Commission","tier":"core","ok":false,"event_count":0,"strategy_used":"","source_url":"","error":"HTTP 404 \u2014 registry URL unverified","duration_s":0.0}],"events":[{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"AUGUST 2026 Public Service Commission Session","start":"2026-08-13T10:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"c1a157800017fc89efa7@psc-calendar","start_date":"2026-08-13"},{"commission":"IN","commission_name":"Indiana Utility Regulatory Commission","state":"IN","tz":"America/Indiana/Indianapolis","title":"Verified Petition of Southern Indiana Gas and Electric Company d/b/a CenterPoint Energy Indiana South","start":"2026-08-14T10:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings","source_url":"https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings","dockets":["45894-TDSIC2"],"tickers":["CNP"],"subsidiaries":["CenterPoint Energy Indiana South (SIGECO)"],"event_type":"other","event_type_label":"Other","weight":2,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"a92663a1758d1831da89@psc-calendar","start_date":"2026-08-14"},{"commission":"TX","commission_name":"Public Utility Commission of Texas","state":"TX","tz":"America/Chicago","title":"Open Meeting","start":"2026-08-14T09:30:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://puc.texas.gov/agency/calendar/calendar.aspx","source_url":"https://puc.texas.gov/agency/calendar/calendar.aspx","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"5b97a37f80a485a5dde7@psc-calendar","start_date":"2026-08-14"},{"commission":"IN","commission_name":"Indiana Utility Regulatory Commission","state":"IN","tz":"America/Indiana/Indianapolis","title":"Application of Westfield Gas LLC d/b/a Citizens Gas of Westfield for a Change in its Gas Cost Adjustment Charge","start":"2026-08-17T09:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings","source_url":"https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings","dockets":["37389-GCA147"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"d212bd8949dea6e3fed2@psc-calendar","start_date":"2026-08-17"},{"commission":"IN","commission_name":"Indiana Utility Regulatory Commission","state":"IN","tz":"America/Indiana/Indianapolis","title":"Petition of the Board of Directors for Utilities of the Dept. of Public Utilities of the City of Indianapolis for Approval of Gas Cost Adjustments","start":"2026-08-17T10:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings","source_url":"https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings","dockets":["37399-GCA171"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"95ff9d0232192a9c51eb@psc-calendar","start_date":"2026-08-17"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"CPUC to Hold In-Person Public Workshop on Video Franchise Rules","start":"2026-08-17T10:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"workshop","event_type_label":"Workshop / Conference","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"724e68050e1345c21c7e@psc-calendar","start_date":"2026-08-17"},{"commission":"IN","commission_name":"Indiana Utility Regulatory Commission","state":"IN","tz":"America/Indiana/Indianapolis","title":"Verified Petition of Indiana Michigan Power Company for CPCN for Acquisition of the 918 MW Sycamore Riverside Energy Center","start":"2026-08-17T13:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings","source_url":"https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings","dockets":["46389"],"tickers":["AEP"],"subsidiaries":["Indiana Michigan Power Company"],"event_type":"other","event_type_label":"Other","weight":3,"rate_case":true,"rate_case_signals":["acquisition"],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"cc5a01025fe387c22827@psc-calendar","start_date":"2026-08-17"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"Comments due on petition filed by the Rochester Gas and Electric","start":"2026-08-17T16:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"394687ebf2a06fc767ed@psc-calendar","start_date":"2026-08-17"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"Comments due joint petition between Reserve Gas Co., Inc. (RGC)","start":"2026-08-17T16:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"c3c9dff3053f75f0ed11@psc-calendar","start_date":"2026-08-17"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"Low Income Energy Assistance Programs Subcommittee Meeting","start":"2026-08-17T15:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"27fb8545235f46375c44@psc-calendar","start_date":"2026-08-17"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"Commencement of evidentiary hearing in the Universal Service Fund","start":"2026-08-18T09:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"evidentiary_hearing","event_type_label":"Evidentiary Hearing","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"6ab1cd2e4ab37ea95885@psc-calendar","start_date":"2026-08-18"},{"commission":"GA","commission_name":"Georgia Public Service Commission","state":"GA","tz":"America/New_York","title":"Administrative Session","start":"2026-08-18T09:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.ga.gov/calendar/","source_url":"https://psc.ga.gov/calendar/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"c4cf8932795d8af2db39@psc-calendar","start_date":"2026-08-18"},{"commission":"GA","commission_name":"Georgia Public Service Commission","state":"GA","tz":"America/New_York","title":"Docket No. 56181 GEORGIA POWER COMPANY'S APPLICATION FOR THE CERTIFICATION OF THE CARES 2023 UTILITY SCALE RENEWABLE POWER PURCHASE AGREEMENTS","start":"2026-08-18T09:35:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.ga.gov/calendar/","source_url":"https://psc.ga.gov/calendar/","dockets":["56181"],"tickers":["SO"],"subsidiaries":["Georgia Power Company"],"event_type":"other","event_type_label":"Other","weight":2,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"cf337c325f6d83b8a001@psc-calendar","start_date":"2026-08-18"},{"commission":"RI","commission_name":"Rhode Island Public Utilities Commission","state":"RI","tz":"America/New_York","title":"Notice of Open Meetings (continued)","start":"2026-08-18T10:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://ripuc.ri.gov/events","source_url":"https://ripuc.ri.gov/events","dockets":["25-45-GE"],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"0d39f997954f558069a7@psc-calendar","start_date":"2026-08-18"},{"commission":"GA","commission_name":"Georgia Public Service Commission","state":"GA","tz":"America/New_York","title":"GUFPA Hearing","start":"2026-08-19T10:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.ga.gov/calendar/","source_url":"https://psc.ga.gov/calendar/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"d2817bc8332958a94962@psc-calendar","start_date":"2026-08-19"},{"commission":"MO","commission_name":"Missouri Public Service Commission","state":"MO","tz":"America/Chicago","title":"Agenda Meeting","start":"2026-08-19T09:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","source_url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"503258cd086d5e74971a@psc-calendar","start_date":"2026-08-19"},{"commission":"NJ","commission_name":"New Jersey Board of Public Utilities","state":"NJ","tz":"America/New_York","title":"In The Matter of Executive Order 1 Modernization of the Traditional Electric Distribution Utility Business Model Study","start":"2026-08-19T10:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.nj.gov/bpu/newsroom/public/","source_url":"https://www.nj.gov/bpu/newsroom/public/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"c2cf809cecbc3ac496d7@psc-calendar","start_date":"2026-08-19"},{"commission":"MO","commission_name":"Missouri Public Service Commission","state":"MO","tz":"America/Chicago","title":"Public Meeting with SPP & MISO","start":"2026-08-19T09:30:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","source_url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"415faf15b53f3f9ee6a7@psc-calendar","start_date":"2026-08-19"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"Comments sought on NYSERDA petition proposing modifications","start":"2026-08-19T16:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"ecf6f2a76a4cce7324a9@psc-calendar","start_date":"2026-08-19"},{"commission":"FERC","commission_name":"Federal Energy Regulatory Commission","state":"US","tz":"America/New_York","title":"Virtual Public Scoping Session for the Rio Grande LNG Expansion Project","start":"2026-08-19T19:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.ferc.gov/news-events/events","source_url":"https://www.ferc.gov/news-events/events","dockets":["CP26-532-000"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"dda5dfc309198cc1f9d8@psc-calendar","start_date":"2026-08-19"},{"commission":"MO","commission_name":"Missouri Public Service Commission","state":"MO","tz":"America/Chicago","title":"Ameren Missouri - Prehearing Conference","start":"2026-08-20T09:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","source_url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","dockets":["EA-2026-0226"],"tickers":[],"subsidiaries":[],"event_type":"procedural","event_type_label":"Procedural Milestone","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"9ca1d948c96bd9e211ee@psc-calendar","start_date":"2026-08-20"},{"commission":"TX","commission_name":"Public Utility Commission of Texas","state":"TX","tz":"America/Chicago","title":"Hearing on the Merits / Open Meeting","start":"2026-08-20T09:30:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://puc.texas.gov/agency/calendar/calendar.aspx","source_url":"https://puc.texas.gov/agency/calendar/calendar.aspx","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"e3a180512c4214ac0382@psc-calendar","start_date":"2026-08-20"},{"commission":"MO","commission_name":"Missouri Public Service Commission","state":"MO","tz":"America/Chicago","title":"Rulemaking Hearing - Chapter 4 and Communications Rulemaking","start":"2026-08-20T10:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","source_url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","dockets":["OX-2026-0335"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"a792a54e27c8b4e526cc@psc-calendar","start_date":"2026-08-20"},{"commission":"NOLA","commission_name":"New Orleans City Council Utility Committee","state":"LA","tz":"America/Chicago","title":"Regular Meeting","start":"2026-08-20T10:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://council.nola.gov/meetings/","source_url":"https://council.nola.gov/meetings/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"0c8200df5ebb82d9533c@psc-calendar","start_date":"2026-08-20"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"Interagency Public Briefing on Electric Utilities' Safety Culture and Public Safety Power Shutoff Updates","start":"2026-08-20T09:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"4ec2576b6c33b76057e0@psc-calendar","start_date":"2026-08-20"},{"commission":"TX","commission_name":"Public Utility Commission of Texas","state":"TX","tz":"America/Chicago","title":"Open Meeting","start":"2026-08-21T09:30:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://puc.texas.gov/agency/calendar/calendar.aspx","source_url":"https://puc.texas.gov/agency/calendar/calendar.aspx","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"92da385dae5b9259b393@psc-calendar","start_date":"2026-08-21"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"DACAG Meeting 8-21-26","start":"2026-08-21T13:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"212c50467bef62d429e7@psc-calendar","start_date":"2026-08-21"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"PSC seeks comments for UTEN Pilot Proposal filings by NFG","start":"2026-08-24T16:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"be196aed6ad911211c53@psc-calendar","start_date":"2026-08-24"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"PSC seeks comments for Tracy Solar Energy Center, LLC petition","start":"2026-08-24T16:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"f950b3bcb9d30be0c14e@psc-calendar","start_date":"2026-08-24"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"PSC seeks comments for National Grid petition requesting approval","start":"2026-08-24T16:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"c6a12f27dc5383edcf68@psc-calendar","start_date":"2026-08-24"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"PSC seeks comments for National Grid proposal to extend existing","start":"2026-08-24T16:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"d254f8fc139bd2c657d1@psc-calendar","start_date":"2026-08-24"},{"commission":"NOLA","commission_name":"New Orleans City Council Utility Committee","state":"LA","tz":"America/Chicago","title":"Economic Development & Special Development Projects","start":"2026-08-25T10:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://council.nola.gov/meetings/","source_url":"https://council.nola.gov/meetings/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"dfc33c7e955fba8fcb0e@psc-calendar","start_date":"2026-08-25"},{"commission":"FERC","commission_name":"Federal Energy Regulatory Commission","state":"US","tz":"America/New_York","title":"Public Scoping Session for the CP2 LNG Expansion Project","start":"2026-08-25T17:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.ferc.gov/news-events/events","source_url":"https://www.ferc.gov/news-events/events","dockets":["CP26-530-000"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"72eed8e4b7f0b98fad4e@psc-calendar","start_date":"2026-08-25"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"Golden State Water Company Proposed Acquisition of City of Norwalk's North and South Artesia System","start":"2026-08-25T18:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":2,"rate_case":true,"rate_case_signals":["acquisition"],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"77a447c551154b3f8ba6@psc-calendar","start_date":"2026-08-25"},{"commission":"MO","commission_name":"Missouri Public Service Commission","state":"MO","tz":"America/Chicago","title":"Agenda Meeting","start":"2026-08-26T11:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","source_url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"6866de896e08862f4d7e@psc-calendar","start_date":"2026-08-26"},{"commission":"NOLA","commission_name":"New Orleans City Council Utility Committee","state":"LA","tz":"America/Chicago","title":"Climate Change and Sustainability Committee","start":"2026-08-26T13:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://council.nola.gov/meetings/","source_url":"https://council.nola.gov/meetings/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"9ba32a3ed8fe9baee171@psc-calendar","start_date":"2026-08-26"},{"commission":"FERC","commission_name":"Federal Energy Regulatory Commission","state":"US","tz":"America/New_York","title":"Public Scoping Session for the CP2 LNG Expansion Project","start":"2026-08-26T17:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.ferc.gov/news-events/events","source_url":"https://www.ferc.gov/news-events/events","dockets":["CP26-533-000"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"56f1a2e1ddb247271e0f@psc-calendar","start_date":"2026-08-26"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"Bliss Wind Repowering Project Public Comment Hearing","start":"2026-08-26T18:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"public_comment","event_type_label":"Public Comment Hearing","weight":2,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"2a954133657591d7fe3f@psc-calendar","start_date":"2026-08-26"},{"commission":"MO","commission_name":"Missouri Public Service Commission","state":"MO","tz":"America/Chicago","title":"Ameren Missouri - Local Public Hearing","start":"2026-08-26T18:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","source_url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","dockets":["EA-2026-0183"],"tickers":[],"subsidiaries":[],"event_type":"public_comment","event_type_label":"Public Comment Hearing","weight":2,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"7055ad665b45b01d72ec@psc-calendar","start_date":"2026-08-26"},{"commission":"GA","commission_name":"Georgia Public Service Commission","state":"GA","tz":"America/New_York","title":"Facilities Protection/Telecommunication/Energy And Administrative Affairs Committees","start":"2026-08-27T09:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.ga.gov/calendar/","source_url":"https://psc.ga.gov/calendar/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"d77889c67c1fd90525cf@psc-calendar","start_date":"2026-08-27"},{"commission":"MO","commission_name":"Missouri Public Service Commission","state":"MO","tz":"America/Chicago","title":"Ginger v. Spire - Evidentiary Hearing","start":"2026-08-27T09:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","source_url":"https://psc.mo.gov/Calendars.aspx?Selected=Hearings","dockets":["GC-2026-0250"],"tickers":["SR"],"subsidiaries":["Spire Missouri"],"event_type":"evidentiary_hearing","event_type_label":"Evidentiary Hearing","weight":4,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"4ab501022e38251db471@psc-calendar","start_date":"2026-08-27"},{"commission":"PA","commission_name":"Pennsylvania Public Utility Commission","state":"PA","tz":"America/New_York","title":"Public Meeting, Hearing Room 1, Commonwealth Keystone Building","start":"2026-08-27T10:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","source_url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"55aadc288f4a24cd4cdc@psc-calendar","start_date":"2026-08-27"},{"commission":"NOLA","commission_name":"New Orleans City Council Utility Committee","state":"LA","tz":"America/Chicago","title":"Transportation Committee","start":"2026-08-27T10:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://council.nola.gov/meetings/","source_url":"https://council.nola.gov/meetings/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"31052c2467b0e5026acb@psc-calendar","start_date":"2026-08-27"},{"commission":"NOLA","commission_name":"New Orleans City Council Utility Committee","state":"LA","tz":"America/Chicago","title":"Budget/Audit/Board of Review Committee Meeting","start":"2026-08-27T13:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://council.nola.gov/meetings/","source_url":"https://council.nola.gov/meetings/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"88b3d110579a24b88b9c@psc-calendar","start_date":"2026-08-27"},{"commission":"TX","commission_name":"Public Utility Commission of Texas","state":"TX","tz":"America/Chicago","title":"Open Meeting","start":"2026-08-28T09:30:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://puc.texas.gov/agency/calendar/calendar.aspx","source_url":"https://puc.texas.gov/agency/calendar/calendar.aspx","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"06836f49d2cf6cf894b1@psc-calendar","start_date":"2026-08-28"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"Bliss Wind Repowering Project Comments Due","start":"2026-08-28T17:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"40184906e86ec8506660@psc-calendar","start_date":"2026-08-28"},{"commission":"NOLA","commission_name":"New Orleans City Council Utility Committee","state":"LA","tz":"America/Chicago","title":"Criminal Justice Committee","start":"2026-08-31T10:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://council.nola.gov/meetings/","source_url":"https://council.nola.gov/meetings/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"83a7e93defd5d42ab1c9@psc-calendar","start_date":"2026-08-31"},{"commission":"NOLA","commission_name":"New Orleans City Council Utility Committee","state":"LA","tz":"America/Chicago","title":"Quality of Life Committee","start":"2026-08-31T13:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://council.nola.gov/meetings/","source_url":"https://council.nola.gov/meetings/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"84eaaecb78595c9ff05a@psc-calendar","start_date":"2026-08-31"},{"commission":"GA","commission_name":"Georgia Public Service Commission","state":"GA","tz":"America/New_York","title":"Administrative Session","start":"2026-09-01T09:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.ga.gov/calendar/","source_url":"https://psc.ga.gov/calendar/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"cff55072cf1bb3bdb817@psc-calendar","start_date":"2026-09-01"},{"commission":"GA","commission_name":"Georgia Public Service Commission","state":"GA","tz":"America/New_York","title":"Docket No. 57171 RTP Revenue Credit and Allocation Methodology Hearing","start":"2026-09-01T09:35:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.ga.gov/calendar/","source_url":"https://psc.ga.gov/calendar/","dockets":["57171"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"365c7986a1c1ca615201@psc-calendar","start_date":"2026-09-01"},{"commission":"AL","commission_name":"Alabama Public Service Commission","state":"AL","tz":"America/Chicago","title":"Commission Meeting, RSA Union Building, Montgomery","start":"2026-09-01T10:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.alabama.gov/category/events/","source_url":"https://psc.alabama.gov/category/events/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"daef0514089fbed5caec@psc-calendar","start_date":"2026-09-01"},{"commission":"FERC","commission_name":"Federal Energy Regulatory Commission","state":"US","tz":"America/New_York","title":"Evening Scoping Session for the Terror Lake Hydroelectric Project","start":"2026-09-01T21:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.ferc.gov/news-events/events","source_url":"https://www.ferc.gov/news-events/events","dockets":["P-2743-112"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"5cee18d5a8333b10d614@psc-calendar","start_date":"2026-09-01"},{"commission":"FERC","commission_name":"Federal Energy Regulatory Commission","state":"US","tz":"America/New_York","title":"Daytime Scoping Session for the Terror Lake Hydroelectric Project","start":"2026-09-02T14:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.ferc.gov/news-events/events","source_url":"https://www.ferc.gov/news-events/events","dockets":["P-2743-112"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"d30999c0cb0a064090d3@psc-calendar","start_date":"2026-09-02"},{"commission":"NOLA","commission_name":"New Orleans City Council Utility Committee","state":"LA","tz":"America/Chicago","title":"Regular Meeting","start":"2026-09-03T10:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://council.nola.gov/meetings/","source_url":"https://council.nola.gov/meetings/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"a6bdbf28a4e505c2d02c@psc-calendar","start_date":"2026-09-03"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"CPUC Voting Meeting 09-03-26","start":"2026-09-03T11:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"f358cf5975ce3ff47343@psc-calendar","start_date":"2026-09-03"},{"commission":"PA","commission_name":"Pennsylvania Public Utility Commission","state":"PA","tz":"America/New_York","title":"2026 Safety Conference, State College","start":"2026-09-09T09:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","source_url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"100432efc8e0555e7f1d@psc-calendar","start_date":"2026-09-09"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"Cayuga Lake Solar Public Comment Hearing","start":"2026-09-09T18:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"public_comment","event_type_label":"Public Comment Hearing","weight":2,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"8eb46b84ae78cdff56b9@psc-calendar","start_date":"2026-09-09"},{"commission":"GA","commission_name":"Georgia Public Service Commission","state":"GA","tz":"America/New_York","title":"Facilities Protection/Telecommunication/Energy And Administrative Affairs Committees","start":"2026-09-10T09:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.ga.gov/calendar/","source_url":"https://psc.ga.gov/calendar/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"ed02b97c87049b1051ba@psc-calendar","start_date":"2026-09-10"},{"commission":"GA","commission_name":"Georgia Public Service Commission","state":"GA","tz":"America/New_York","title":"Docket # 57062 Hearing for the Liberty Utilities 2026-2027 Gas Supply Plan","start":"2026-09-10T09:35:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.ga.gov/calendar/","source_url":"https://psc.ga.gov/calendar/","dockets":["57062"],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"5ff1c0166e8f91a14595@psc-calendar","start_date":"2026-09-10"},{"commission":"NJ","commission_name":"New Jersey Board of Public Utilities","state":"NJ","tz":"America/New_York","title":"In The Matter of Executive Order 1 Modernization of the Traditional Electric Distribution Utility Business Model Study","start":"2026-09-10T10:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.nj.gov/bpu/newsroom/public/","source_url":"https://www.nj.gov/bpu/newsroom/public/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"6f80461890f64c47ac6d@psc-calendar","start_date":"2026-09-10"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"Low Income Oversight Board Quarterly Meeting","start":"2026-09-16T09:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"1ea454a773a083ecf970@psc-calendar","start_date":"2026-09-16"},{"commission":"PA","commission_name":"Pennsylvania Public Utility Commission","state":"PA","tz":"America/New_York","title":"Be Utility Wise Event, Erie","start":"2026-09-17T09:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","source_url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"d3b525abb7737f615313@psc-calendar","start_date":"2026-09-17"},{"commission":"NY","commission_name":"New York Public Service Commission","state":"NY","tz":"America/New_York","title":"SEPTEMBER 2026 Public Service Commission Session","start":"2026-09-17T10:30:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://dps.ny.gov/calendar","source_url":"https://dps.ny.gov/calendar","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"0c21acb9af9a310a6c07@psc-calendar","start_date":"2026-09-17"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"CPUC Voting Meeting 09-17-26","start":"2026-09-17T11:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"1288d0a9a4927023861a@psc-calendar","start_date":"2026-09-17"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"CPUC Energy Division Open House","start":"2026-09-17T12:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"188b3fe96c3e242e4588@psc-calendar","start_date":"2026-09-17"},{"commission":"NJ","commission_name":"New Jersey Board of Public Utilities","state":"NJ","tz":"America/New_York","title":"IN THE MATTER OF THE PROVISION OF BASIC GENERATION SERVICE (BGS) FOR THE PERIOD BEGINNING JUNE 1, 2027","start":"2026-09-22T10:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.nj.gov/bpu/newsroom/public/","source_url":"https://www.nj.gov/bpu/newsroom/public/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"bc7eb5f7fa5987bb79ac@psc-calendar","start_date":"2026-09-22"},{"commission":"CA","commission_name":"California Public Utilities Commission","state":"CA","tz":"America/Los_Angeles","title":"CPUC Small and Diverse Business Expo","start":"2026-09-30T09:00:00-07:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.cpuc.ca.gov/events-and-meetings","source_url":"https://www.cpuc.ca.gov/events-and-meetings","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"95e7cacc688db5e61596@psc-calendar","start_date":"2026-09-30"},{"commission":"AL","commission_name":"Alabama Public Service Commission","state":"AL","tz":"America/Chicago","title":"Tentative Commission Meeting","start":"2026-10-06T10:00:00-05:00","end":null,"all_day":false,"location":"","description":"","url":"https://psc.alabama.gov/category/events/","source_url":"https://psc.alabama.gov/category/events/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"decision","event_type_label":"Decision / Order","weight":3,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"67d26da264e1412d927d@psc-calendar","start_date":"2026-10-06"},{"commission":"PA","commission_name":"Pennsylvania Public Utility Commission","state":"PA","tz":"America/New_York","title":"Be Utility Wise Event, Pittsburgh","start":"2026-10-07T09:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","source_url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"be8d7e51a5ac0abe81c6@psc-calendar","start_date":"2026-10-07"},{"commission":"PA","commission_name":"Pennsylvania Public Utility Commission","state":"PA","tz":"America/New_York","title":"Be Utility Wise Event, Berks","start":"2026-10-28T09:00:00-04:00","end":null,"all_day":false,"location":"","description":"","url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","source_url":"https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/","dockets":[],"tickers":[],"subsidiaries":[],"event_type":"other","event_type_label":"Other","weight":1,"rate_case":false,"rate_case_signals":[],"scraped_at":"2026-08-14T13:00:00-04:00","uid":"4ac78856b7063748c80b@psc-calendar","start_date":"2026-10-28"}]}</script>
+<script>
+(function () {
+  "use strict";
+  const DATA = JSON.parse(document.getElementById("payload").textContent);
+  const EV = DATA.events;
+  // Full coverage roster. Falls back to whatever appears in the events if an
+  // older payload has no roster, so the file still renders.
+  const ROSTER = DATA.roster && DATA.roster.length ? DATA.roster
+    : [...new Set(EV.flatMap((e) => e.tickers))].sort().map((t) => ({ticker:t, name:t, commissions:[]}));
+  const BAD_COMMS = new Set(DATA.commissions.filter((c) => !c.ok).map((c) => c.commission));
+  const TYPE_COLOR = { decision:"var(--s1)", evidentiary_hearing:"var(--s2)",
+    procedural:"var(--s3)", public_comment:"var(--s4)", workshop:"var(--s5)", other:"var(--s6)" };
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g,
+    (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+
+  // ---- theme -------------------------------------------------------------
+  const themeBtn = $("theme");
+  function setTheme(dark) {
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+    themeBtn.setAttribute("aria-pressed", String(dark));
+    themeBtn.textContent = dark ? "Light" : "Dark";
+    drawChart(lastRows);
+  }
+  themeBtn.onclick = () =>
+    setTheme(document.documentElement.getAttribute("data-theme") !== "dark");
+
+  // ---- populate filter options ------------------------------------------
+  const tickers = ROSTER.map((r) => r.ticker).sort();
+  const comms = [...new Set(EV.map((e) => e.commission))].sort();
+  const commName = {};
+  EV.forEach((e) => { commName[e.commission] = e.commission_name; });
+  const types = [...new Map(EV.map((e) => [e.event_type, e.event_type_label])).entries()];
+
+  tickers.forEach((t) => $("f-ticker").add(new Option(t, t)));
+  comms.forEach((c) => $("f-ticker") && $("f-state").add(new Option(`${c} — ${commName[c]}`, c)));
+  types.forEach(([id, label]) => $("f-type").add(new Option(label, id)));
+
+  const state = { q:"", ticker:"", comm:"", type:"", range:"90",
+                  cov:false, rc:false, sort:"start", dir:1 };
+
+  const startOfToday = new Date(); startOfToday.setHours(0, 0, 0, 0);
+
+  function filtered() {
+    const q = state.q.trim().toLowerCase();
+    let lo = startOfToday, hi = null;
+    if (state.range === "past") {
+      lo = new Date(startOfToday.getTime() - 30 * 864e5);
+      hi = startOfToday;
+    } else if (state.range !== "9999") {
+      hi = new Date(startOfToday.getTime() + Number(state.range) * 864e5);
+    }
+    return EV.filter((e) => {
+      const d = new Date(e.start);
+      if (d < lo) return false;
+      if (hi && d > hi) return false;
+      if (state.ticker && !e.tickers.includes(state.ticker)) return false;
+      if (state.comm && e.commission !== state.comm) return false;
+      if (state.type && e.event_type !== state.type) return false;
+      if (state.cov && !e.tickers.length) return false;
+      if (state.rc && !e.rate_case) return false;
+      if (q) {
+        const hay = (e.title + " " + e.description + " " + e.dockets.join(" ") + " " +
+                     e.tickers.join(" ") + " " + e.subsidiaries.join(" ") + " " +
+                     e.commission + " " + e.commission_name).toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+  }
+
+  function sorted(rows) {
+    const k = state.sort, dir = state.dir;
+    return rows.slice().sort((a, b) => {
+      let x = a[k], y = b[k];
+      if (Array.isArray(x)) { x = x.join(","); y = y.join(","); }
+      if (k === "start") { x = a.start; y = b.start; }
+      if (x < y) return -1 * dir;
+      if (x > y) return 1 * dir;
+      return a.start < b.start ? -1 : 1;
+    });
+  }
+
+  // Times are rendered in the commission's OWN timezone, not the viewer's.
+  // A 9am Honolulu hearing is a 9am Honolulu hearing whether you read this
+  // from New York or not; the tz label makes that explicit.
+  const _dcache = {}, _tcache = {};
+  function dfmt(tz) {
+    return _dcache[tz] || (_dcache[tz] = new Intl.DateTimeFormat("en-US",
+      { weekday:"short", month:"short", day:"numeric", year:"numeric", timeZone: tz }));
+  }
+  function tfmt(tz) {
+    return _tcache[tz] || (_tcache[tz] = new Intl.DateTimeFormat("en-US",
+      { hour:"numeric", minute:"2-digit", timeZone: tz, timeZoneName: "short" }));
+  }
+  const LOCAL = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const DFMT = new Intl.DateTimeFormat("en-US",
+    { weekday:"short", month:"short", day:"numeric", year:"numeric" });
+  const TFMT = new Intl.DateTimeFormat("en-US", { hour:"numeric", minute:"2-digit" });
+
+  function render() {
+    const rows = sorted(filtered());
+    lastRows = rows;
+
+    const cov = rows.filter((e) => e.tickers.length).length;
+    const rc = rows.filter((e) => e.rate_case).length;
+    const wk = rows.filter((e) => {
+      const d = new Date(e.start);
+      return d >= startOfToday && d <= new Date(startOfToday.getTime() + 7 * 864e5);
+    }).length;
+
+    const withDates = new Set(rows.flatMap((e) => e.tickers));
+    $("k-total").textContent = rows.length;
+    $("k-total-f").textContent = `${DATA.commissions.filter((c) => c.ok).length} of ${DATA.commissions.length} sources reporting`;
+    // This counts NAMES, not events - the old label read as "how much of my
+    // universe is covered", which is a different and much more alarming number.
+    $("k-cov").textContent = `${withDates.size}/${ROSTER.length}`;
+    $("k-cov-f").textContent = `${cov} dates attributed · ${ROSTER.length - withDates.size} names quiet`;
+    $("k-rate").textContent = rc;
+    $("k-rate-f").textContent = "rate, IRP, fuel & merger proceedings";
+    $("k-week").textContent = wk;
+    $("k-week-f").textContent = wk ? "act on these first" : "nothing imminent";
+
+    $("count").textContent =
+      `${rows.length} date${rows.length === 1 ? "" : "s"}` +
+      (cov ? ` · ${cov} attributed to coverage` : "");
+
+    const tb = $("rows");
+    tb.innerHTML = rows.slice(0, 1200).map((e) => {
+      const d = new Date(e.start);
+      const days = Math.round((d - startOfToday) / 864e5);
+      const soon = days >= 0 && days <= 7 ? " soon" : "";
+      const tz = e.tz || LOCAL;
+      const time = e.all_day ? "all day" : tfmt(tz).format(d);
+      const tks = e.tickers.map((t) => `<span class="tag tk">${esc(t)}</span>`).join("");
+      const rcTag = e.rate_case
+        ? `<span class="tag rc" title="${esc(e.rate_case_signals.join(', '))}">rate case</span>` : "";
+      const sub = e.subsidiaries.length
+        ? `<div class="meta">${esc(e.subsidiaries.slice(0, 2).join(" · "))}</div>` : "";
+      const link = e.url
+        ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`
+        : esc(e.title);
+      return `<tr>
+        <td class="date${soon}">${dfmt(tz).format(d)}<span class="time">${time}</span></td>
+        <td class="st"><span title="${esc(e.commission_name)}">${esc(e.commission)}</span></td>
+        <td class="title">${link}${sub}</td>
+        <td class="hide-sm">${tks}${rcTag}</td>
+        <td class="type hide-sm"><span class="dot" style="background:${TYPE_COLOR[e.event_type] || "var(--muted)"}"></span>${esc(e.event_type_label)}</td>
+        <td class="docket hide-sm">${esc(e.dockets.slice(0, 2).join(", "))}</td>
+      </tr>`;
+    }).join("");
+
+    $("empty").hidden = rows.length > 0;
+    drawRoster(rows);
+    drawChart(rows);
+  }
+
+  // ---- roster: every covered name, including the quiet ones ---------------
+  function drawRoster(rows) {
+    const counts = {};
+    rows.forEach((e) => e.tickers.forEach((t) => { counts[t] = (counts[t] || 0) + 1; }));
+    $("roster").innerHTML = ROSTER.map((r) => {
+      const n = counts[r.ticker] || 0;
+      // A zero next to a failing commission is unknown, not quiet - flag it.
+      const blocked = n === 0 && (r.commissions || []).some((c) => BAD_COMMS.has(c));
+      const cls = "rchip" + (n === 0 ? " zero" : "") + (blocked ? " blocked" : "");
+      const tip = blocked
+        ? `${r.name} — no dates, but ${(r.commissions||[]).filter((c)=>BAD_COMMS.has(c)).join(", ")} failed to scrape`
+        : `${r.name}${r.commissions && r.commissions.length ? " · " + r.commissions.join(", ") : ""}`;
+      return `<button class="${cls}" data-t="${esc(r.ticker)}" title="${esc(tip)}"
+        aria-pressed="${state.ticker === r.ticker}">
+        <div class="t">${esc(r.ticker)}${blocked ? " ⚠" : ""}</div>
+        <div class="n">${n}</div></button>`;
+    }).join("");
+    $("roster").querySelectorAll(".rchip").forEach((b) => {
+      b.onclick = () => {
+        state.ticker = state.ticker === b.dataset.t ? "" : b.dataset.t;
+        $("f-ticker").value = state.ticker;
+        render();
+      };
+    });
+  }
+
+  // ---- column chart: single series, one hue, no legend --------------------
+  let lastRows = [];
+  function drawChart(rows) {
+    const svg = $("weeks");
+    const W = svg.clientWidth || 900, H = 150;
+    const padB = 22, padT = 18, padL = 4;
+    const weeks = 12;
+    const monday = new Date(startOfToday);
+    monday.setDate(monday.getDate() - ((monday.getDay() + 6) % 7));
+
+    const buckets = new Array(weeks).fill(0);
+    rows.forEach((e) => {
+      const i = Math.floor((new Date(e.start) - monday) / (7 * 864e5));
+      if (i >= 0 && i < weeks) buckets[i]++;
+    });
+    const max = Math.max(1, ...buckets);
+    const bw = (W - padL * 2) / weeks;
+    const barW = Math.max(6, bw - 6);   // 2px+ surface gap between adjacent bars
+    const plotH = H - padB - padT;
+
+    const parts = [`<line class="base" x1="0" y1="${H - padB}" x2="${W}" y2="${H - padB}"/>`];
+    buckets.forEach((n, i) => {
+      const h = Math.max(n > 0 ? 3 : 0, (n / max) * plotH);
+      const x = padL + i * bw + (bw - barW) / 2;
+      const y = H - padB - h;
+      const wd = new Date(monday.getTime() + i * 7 * 864e5);
+      const label = wd.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+      if (n > 0) {
+        parts.push(`<rect class="bar" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${barW.toFixed(1)}" height="${h.toFixed(1)}" rx="4"><title>Week of ${label}: ${n} date${n === 1 ? "" : "s"}</title></rect>`);
+        if (n === max || n >= max * 0.62) {
+          parts.push(`<text class="vlabel" x="${(x + barW / 2).toFixed(1)}" y="${(y - 5).toFixed(1)}" text-anchor="middle">${n}</text>`);
+        }
+      }
+      if (i % 2 === 0) {
+        parts.push(`<text class="tick" x="${(x + barW / 2).toFixed(1)}" y="${H - 7}" text-anchor="middle">${label}</text>`);
+      }
+    });
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    svg.innerHTML = parts.join("");
+  }
+
+  // ---- health ------------------------------------------------------------
+  $("health").innerHTML = DATA.commissions.map((c) => {
+    const color = c.ok ? "var(--good)" : (c.tier === "core" ? "var(--critical)" : "var(--warning)");
+    const mark = c.ok ? "✓" : (c.tier === "core" ? "✕" : "!");
+    const tip = c.ok ? `${c.strategy_used} · ${c.source_url}` : c.error;
+    return `<div class="hcell" title="${esc(tip)}">
+      <span style="color:${color};font-weight:700">${mark}</span>
+      <b>${esc(c.commission)}</b><span class="n">${c.event_count}</span></div>`;
+  }).join("");
+
+  // ---- CSV ---------------------------------------------------------------
+  $("csv").onclick = () => {
+    const rows = sorted(filtered());
+    const head = ["Date","Time","Commission","CommissionName","State","Title","Tickers",
+                  "Subsidiaries","EventType","RateCase","Dockets","Location","URL"];
+    const q = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
+    const body = rows.map((e) => {
+      const d = new Date(e.start);
+      const tz = e.tz || LOCAL;
+      // en-CA gives ISO-ordered Y-M-D; toISOString would report the UTC date,
+      // which is a day late for evening hearings out west.
+      const ymd = new Intl.DateTimeFormat("en-CA",
+        { year:"numeric", month:"2-digit", day:"2-digit", timeZone: tz }).format(d);
+      return [ymd, e.all_day ? "" : tfmt(tz).format(d),
+              e.commission, e.commission_name, e.state, e.title, e.tickers.join(" "),
+              e.subsidiaries.join(" | "), e.event_type_label, e.rate_case ? "Y" : "",
+              e.dockets.join(" "), e.location, e.url].map(q).join(",");
+    });
+    const blob = new Blob([head.join(",") + "\n" + body.join("\n")],
+                          { type: "text/csv;charset=utf-8" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `regulatory-calendar-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  };
+
+  // ---- wiring ------------------------------------------------------------
+  let t;
+  $("q").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value; render(); }, 140); };
+  $("f-ticker").onchange = (e) => { state.ticker = e.target.value; render(); };
+  $("f-state").onchange = (e) => { state.comm = e.target.value; render(); };
+  $("f-type").onchange = (e) => { state.type = e.target.value; render(); };
+  $("f-range").onchange = (e) => { state.range = e.target.value; render(); };
+  const toggle = (btn, key) => { btn.onclick = () => {
+    state[key] = !state[key]; btn.setAttribute("aria-pressed", String(state[key])); render(); }; };
+  toggle($("f-cov"), "cov");
+  toggle($("f-rc"), "rc");
+  $("reset").onclick = () => {
+    Object.assign(state, { q:"", ticker:"", comm:"", type:"", range:"90", cov:false, rc:false });
+    $("q").value = ""; $("f-ticker").value = ""; $("f-state").value = "";
+    $("f-type").value = ""; $("f-range").value = "90";
+    $("f-cov").setAttribute("aria-pressed", "false");
+    $("f-rc").setAttribute("aria-pressed", "false");
+    render();
+  };
+  document.querySelectorAll("th[data-sort]").forEach((th) => {
+    th.onclick = () => {
+      const k = th.dataset.sort;
+      state.dir = state.sort === k ? -state.dir : 1;
+      state.sort = k;
+      render();
+    };
+  });
+  window.addEventListener("resize", () => drawChart(lastRows));
+
+  $("genstamp").textContent = "refreshed " + new Date(DATA.generated_at)
+    .toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" });
+
+  render();
+})();
+</script>
+</body>
+</html>

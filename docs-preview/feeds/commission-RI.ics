@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Rhode Island Public Utilities Commissio
+ n.
+X-WR-CALNAME:RI — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[RI] Notice of Open Meetings (continued)
+DTSTART;TZID=America/New_York:20260818T100000
+DTEND;TZID=America/New_York:20260818T120000
+DTSTAMP:20260814T170000Z
+UID:0d39f997954f558069a7@psc-calendar
+CATEGORIES:RI,Decision / Order
+DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
+ e: Decision / Order\nDocket: 25-45-GE\n\nSource: https://ripuc.ri.gov/even
+ ts
+PRIORITY:5
+URL:https://ripuc.ri.gov/events
+END:VEVENT
+END:VCALENDAR

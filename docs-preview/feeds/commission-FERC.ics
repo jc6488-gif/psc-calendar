@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Federal Energy Regulatory Commission.
+X-WR-CALNAME:FERC — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[FERC] Virtual Public Scoping Session for the Rio Grande LNG Expan
+ sion Project
+DTSTART;TZID=America/New_York:20260819T190000
+DTEND;TZID=America/New_York:20260819T210000
+DTSTAMP:20260814T170000Z
+UID:dda5dfc309198cc1f9d8@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: CP26-532-000\n\nSource: https://www.ferc.gov/news-events/e
+ vents
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FERC] Public Scoping Session for the CP2 LNG Expansion Project
+DTSTART;TZID=America/New_York:20260825T173000
+DTEND;TZID=America/New_York:20260825T193000
+DTSTAMP:20260814T170000Z
+UID:72eed8e4b7f0b98fad4e@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: CP26-530-000\n\nSource: https://www.ferc.gov/news-events/e
+ vents
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FERC] Public Scoping Session for the CP2 LNG Expansion Project
+DTSTART;TZID=America/New_York:20260826T173000
+DTEND;TZID=America/New_York:20260826T193000
+DTSTAMP:20260814T170000Z
+UID:56f1a2e1ddb247271e0f@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: CP26-533-000\n\nSource: https://www.ferc.gov/news-events/e
+ vents
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FERC] Evening Scoping Session for the Terror Lake Hydroelectric P
+ roject
+DTSTART;TZID=America/New_York:20260901T213000
+DTEND;TZID=America/New_York:20260901T233000
+DTSTAMP:20260814T170000Z
+UID:5cee18d5a8333b10d614@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: P-2743-112\n\nSource: https://www.ferc.gov/news-events/eve
+ nts
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FERC] Daytime Scoping Session for the Terror Lake Hydroelectric P
+ roject
+DTSTART;TZID=America/New_York:20260902T140000
+DTEND;TZID=America/New_York:20260902T160000
+DTSTAMP:20260814T170000Z
+UID:d30999c0cb0a064090d3@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: P-2743-112\n\nSource: https://www.ferc.gov/news-events/eve
+ nts
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+END:VCALENDAR

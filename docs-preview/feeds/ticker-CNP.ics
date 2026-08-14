@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Commission dates for CNP.
+X-WR-CALNAME:CNP — Regulatory Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[CNP] Verified Petition of Southern Indiana Gas and Electric Compa
+ ny d/b/a CenterPoint Energy Indiana South
+DTSTART;TZID=America/Indiana/Indianapolis:20260814T100000
+DTEND;TZID=America/Indiana/Indianapolis:20260814T120000
+DTSTAMP:20260814T170000Z
+UID:a92663a1758d1831da89@psc-calendar
+CATEGORIES:IN,Other,CNP
+DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
+ Other\nTickers: CNP\nEntity: CenterPoint Energy Indiana South (SIGECO)\nDo
+ cket: 45894-TDSIC2\n\nSource: https://www.in.gov/iurc/docketed-cases/find-
+ a-docketed-case/weekly-hearings
+PRIORITY:9
+URL:https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hea
+ rings
+END:VEVENT
+END:VCALENDAR

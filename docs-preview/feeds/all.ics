@@ -1,0 +1,919 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked commission meetings\, hearings and procedural dat
+ es.
+X-WR-CALNAME:US Utility Regulatory Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[NY] AUGUST 2026 Public Service Commission Session
+DTSTART;TZID=America/New_York:20260813T103000
+DTEND;TZID=America/New_York:20260813T123000
+DTSTAMP:20260814T170000Z
+UID:c1a157800017fc89efa7@psc-calendar
+CATEGORIES:NY,Decision / Order
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Dec
+ ision / Order\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:5
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CNP] Verified Petition of Southern Indiana Gas and Electric Compa
+ ny d/b/a CenterPoint Energy Indiana South
+DTSTART;TZID=America/Indiana/Indianapolis:20260814T100000
+DTEND;TZID=America/Indiana/Indianapolis:20260814T120000
+DTSTAMP:20260814T170000Z
+UID:a92663a1758d1831da89@psc-calendar
+CATEGORIES:IN,Other,CNP
+DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
+ Other\nTickers: CNP\nEntity: CenterPoint Energy Indiana South (SIGECO)\nDo
+ cket: 45894-TDSIC2\n\nSource: https://www.in.gov/iurc/docketed-cases/find-
+ a-docketed-case/weekly-hearings
+PRIORITY:9
+URL:https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hea
+ rings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TX] Open Meeting
+DTSTART;TZID=America/Chicago:20260814T093000
+DTEND;TZID=America/Chicago:20260814T113000
+DTSTAMP:20260814T170000Z
+UID:5b97a37f80a485a5dde7@psc-calendar
+CATEGORIES:TX,Decision / Order
+DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Dec
+ ision / Order\n\nSource: https://puc.texas.gov/agency/calendar/calendar.as
+ px
+PRIORITY:5
+URL:https://puc.texas.gov/agency/calendar/calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IN] Application of Westfield Gas LLC d/b/a Citizens Gas of Westfi
+ eld for a Change in its Gas Cost Adjustment Charge
+DTSTART;TZID=America/Indiana/Indianapolis:20260817T093000
+DTEND;TZID=America/Indiana/Indianapolis:20260817T113000
+DTSTAMP:20260814T170000Z
+UID:d212bd8949dea6e3fed2@psc-calendar
+CATEGORIES:IN,Other
+DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
+ Other\nDocket: 37389-GCA147\n\nSource: https://www.in.gov/iurc/docketed-ca
+ ses/find-a-docketed-case/weekly-hearings
+PRIORITY:9
+URL:https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hea
+ rings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IN] Petition of the Board of Directors for Utilities of the Dept.
+  of Public Utilities of the City of Indianapolis for Approval of Gas Cost 
+ Adjustments
+DTSTART;TZID=America/Indiana/Indianapolis:20260817T100000
+DTEND;TZID=America/Indiana/Indianapolis:20260817T120000
+DTSTAMP:20260814T170000Z
+UID:95ff9d0232192a9c51eb@psc-calendar
+CATEGORIES:IN,Other
+DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
+ Other\nDocket: 37399-GCA171\n\nSource: https://www.in.gov/iurc/docketed-ca
+ ses/find-a-docketed-case/weekly-hearings
+PRIORITY:9
+URL:https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hea
+ rings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC to Hold In-Person Public Workshop on Video Franchise Rul
+ es
+DTSTART;TZID=America/Los_Angeles:20260817T100000
+DTEND;TZID=America/Los_Angeles:20260817T120000
+DTSTAMP:20260814T170000Z
+UID:724e68050e1345c21c7e@psc-calendar
+CATEGORIES:CA,Workshop / Conference
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Workshop / Conference\n\nSource: https://www.cpuc.ca.gov/events-and-meeti
+ ngs
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[AEP] Verified Petition of Indiana Michigan Power Company for CPCN
+  for Acquisition of the 918 MW Sycamore Riverside Energy Center
+DTSTART;TZID=America/Indiana/Indianapolis:20260817T130000
+DTEND;TZID=America/Indiana/Indianapolis:20260817T150000
+DTSTAMP:20260814T170000Z
+UID:cc5a01025fe387c22827@psc-calendar
+CATEGORIES:IN,Other,AEP
+DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
+ Other\nTickers: AEP\nEntity: Indiana Michigan Power Company\nDocket: 46389
+ \nRate-case relevant: acquisition\n\nSource: https://www.in.gov/iurc/docke
+ ted-cases/find-a-docketed-case/weekly-hearings
+PRIORITY:5
+URL:https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hea
+ rings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Comments due on petition filed by the Rochester Gas and Elect
+ ric
+DTSTART;TZID=America/New_York:20260817T163000
+DTEND;TZID=America/New_York:20260817T183000
+DTSTAMP:20260814T170000Z
+UID:394687ebf2a06fc767ed@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Comments due joint petition between Reserve Gas Co.\, Inc. (R
+ GC)
+DTSTART;TZID=America/New_York:20260817T163000
+DTEND;TZID=America/New_York:20260817T183000
+DTSTAMP:20260814T170000Z
+UID:c3c9dff3053f75f0ed11@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Low Income Energy Assistance Programs Subcommittee Meeting
+DTSTART;TZID=America/Los_Angeles:20260817T150000
+DTEND;TZID=America/Los_Angeles:20260817T170000
+DTSTAMP:20260814T170000Z
+UID:27fb8545235f46375c44@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Commencement of evidentiary hearing in the Universal Service 
+ Fund
+DTSTART;TZID=America/New_York:20260818T090000
+DTEND;TZID=America/New_York:20260818T110000
+DTSTAMP:20260814T170000Z
+UID:6ab1cd2e4ab37ea95885@psc-calendar
+CATEGORIES:NY,Evidentiary Hearing
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Evi
+ dentiary Hearing\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:5
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Administrative Session
+DTSTART;TZID=America/New_York:20260818T093000
+DTEND;TZID=America/New_York:20260818T113000
+DTSTAMP:20260814T170000Z
+UID:c4cf8932795d8af2db39@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:5
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SO] Docket No. 56181 GEORGIA POWER COMPANY'S APPLICATION FOR THE 
+ CERTIFICATION OF THE CARES 2023 UTILITY SCALE RENEWABLE POWER PURCHASE AGR
+ EEMENTS
+DTSTART;TZID=America/New_York:20260818T093500
+DTEND;TZID=America/New_York:20260818T113500
+DTSTAMP:20260814T170000Z
+UID:cf337c325f6d83b8a001@psc-calendar
+CATEGORIES:GA,Other,SO
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\nTickers: SO\nEntity: Georgia Power Company\nDocket: 56181\n\nSource: ht
+ tps://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RI] Notice of Open Meetings (continued)
+DTSTART;TZID=America/New_York:20260818T100000
+DTEND;TZID=America/New_York:20260818T120000
+DTSTAMP:20260814T170000Z
+UID:0d39f997954f558069a7@psc-calendar
+CATEGORIES:RI,Decision / Order
+DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
+ e: Decision / Order\nDocket: 25-45-GE\n\nSource: https://ripuc.ri.gov/even
+ ts
+PRIORITY:5
+URL:https://ripuc.ri.gov/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] GUFPA Hearing
+DTSTART;TZID=America/New_York:20260819T100000
+DTEND;TZID=America/New_York:20260819T120000
+DTSTAMP:20260814T170000Z
+UID:d2817bc8332958a94962@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Agenda Meeting
+DTSTART;TZID=America/Chicago:20260819T090000
+DTEND;TZID=America/Chicago:20260819T110000
+DTSTAMP:20260814T170000Z
+UID:503258cd086d5e74971a@psc-calendar
+CATEGORIES:MO,Decision / Order
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Dec
+ ision / Order\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearin
+ gs
+PRIORITY:5
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NJ] In The Matter of Executive Order 1 Modernization of the Tradi
+ tional Electric Distribution Utility Business Model Study
+DTSTART;TZID=America/New_York:20260819T100000
+DTEND;TZID=America/New_York:20260819T120000
+DTSTAMP:20260814T170000Z
+UID:c2cf809cecbc3ac496d7@psc-calendar
+CATEGORIES:NJ,Other
+DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
+ ther\n\nSource: https://www.nj.gov/bpu/newsroom/public/
+PRIORITY:9
+URL:https://www.nj.gov/bpu/newsroom/public/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Public Meeting with SPP & MISO
+DTSTART;TZID=America/Chicago:20260819T093000
+DTEND;TZID=America/Chicago:20260819T113000
+DTSTAMP:20260814T170000Z
+UID:415faf15b53f3f9ee6a7@psc-calendar
+CATEGORIES:MO,Decision / Order
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Dec
+ ision / Order\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearin
+ gs
+PRIORITY:5
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Comments sought on NYSERDA petition proposing modifications
+DTSTART;TZID=America/New_York:20260819T163000
+DTEND;TZID=America/New_York:20260819T183000
+DTSTAMP:20260814T170000Z
+UID:ecf6f2a76a4cce7324a9@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FERC] Virtual Public Scoping Session for the Rio Grande LNG Expan
+ sion Project
+DTSTART;TZID=America/New_York:20260819T190000
+DTEND;TZID=America/New_York:20260819T210000
+DTSTAMP:20260814T170000Z
+UID:dda5dfc309198cc1f9d8@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: CP26-532-000\n\nSource: https://www.ferc.gov/news-events/e
+ vents
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Ameren Missouri - Prehearing Conference
+DTSTART;TZID=America/Chicago:20260820T090000
+DTEND;TZID=America/Chicago:20260820T110000
+DTSTAMP:20260814T170000Z
+UID:9ca1d948c96bd9e211ee@psc-calendar
+CATEGORIES:MO,Procedural Milestone
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Pro
+ cedural Milestone\nDocket: EA-2026-0226\n\nSource: https://psc.mo.gov/Cale
+ ndars.aspx?Selected=Hearings
+PRIORITY:5
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TX] Hearing on the Merits / Open Meeting
+DTSTART;TZID=America/Chicago:20260820T093000
+DTEND;TZID=America/Chicago:20260820T113000
+DTSTAMP:20260814T170000Z
+UID:e3a180512c4214ac0382@psc-calendar
+CATEGORIES:TX,Decision / Order
+DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Dec
+ ision / Order\n\nSource: https://puc.texas.gov/agency/calendar/calendar.as
+ px
+PRIORITY:5
+URL:https://puc.texas.gov/agency/calendar/calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Rulemaking Hearing - Chapter 4 and Communications Rulemaking
+DTSTART;TZID=America/Chicago:20260820T100000
+DTEND;TZID=America/Chicago:20260820T120000
+DTSTAMP:20260814T170000Z
+UID:a792a54e27c8b4e526cc@psc-calendar
+CATEGORIES:MO,Other
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Oth
+ er\nDocket: OX-2026-0335\n\nSource: https://psc.mo.gov/Calendars.aspx?Sele
+ cted=Hearings
+PRIORITY:9
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Regular Meeting
+DTSTART;TZID=America/Chicago:20260820T100000
+DTEND;TZID=America/Chicago:20260820T120000
+DTSTAMP:20260814T170000Z
+UID:0c8200df5ebb82d9533c@psc-calendar
+CATEGORIES:NOLA,Decision / Order
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Decision / Order\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:5
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Interagency Public Briefing on Electric Utilities' Safety Cul
+ ture and Public Safety Power Shutoff Updates
+DTSTART;TZID=America/Los_Angeles:20260820T090000
+DTEND;TZID=America/Los_Angeles:20260820T110000
+DTSTAMP:20260814T170000Z
+UID:4ec2576b6c33b76057e0@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TX] Open Meeting
+DTSTART;TZID=America/Chicago:20260821T093000
+DTEND;TZID=America/Chicago:20260821T113000
+DTSTAMP:20260814T170000Z
+UID:92da385dae5b9259b393@psc-calendar
+CATEGORIES:TX,Decision / Order
+DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Dec
+ ision / Order\n\nSource: https://puc.texas.gov/agency/calendar/calendar.as
+ px
+PRIORITY:5
+URL:https://puc.texas.gov/agency/calendar/calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] DACAG Meeting 8-21-26
+DTSTART;TZID=America/Los_Angeles:20260821T130000
+DTEND;TZID=America/Los_Angeles:20260821T150000
+DTSTAMP:20260814T170000Z
+UID:212c50467bef62d429e7@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] PSC seeks comments for UTEN Pilot Proposal filings by NFG
+DTSTART;TZID=America/New_York:20260824T163000
+DTEND;TZID=America/New_York:20260824T183000
+DTSTAMP:20260814T170000Z
+UID:be196aed6ad911211c53@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] PSC seeks comments for Tracy Solar Energy Center\, LLC petiti
+ on
+DTSTART;TZID=America/New_York:20260824T163000
+DTEND;TZID=America/New_York:20260824T183000
+DTSTAMP:20260814T170000Z
+UID:f950b3bcb9d30be0c14e@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] PSC seeks comments for National Grid petition requesting appr
+ oval
+DTSTART;TZID=America/New_York:20260824T163000
+DTEND;TZID=America/New_York:20260824T183000
+DTSTAMP:20260814T170000Z
+UID:c6a12f27dc5383edcf68@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] PSC seeks comments for National Grid proposal to extend exist
+ ing
+DTSTART;TZID=America/New_York:20260824T163000
+DTEND;TZID=America/New_York:20260824T183000
+DTSTAMP:20260814T170000Z
+UID:d254f8fc139bd2c657d1@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Economic Development & Special Development Projects
+DTSTART;TZID=America/Chicago:20260825T100000
+DTEND;TZID=America/Chicago:20260825T120000
+DTSTAMP:20260814T170000Z
+UID:dfc33c7e955fba8fcb0e@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FERC] Public Scoping Session for the CP2 LNG Expansion Project
+DTSTART;TZID=America/New_York:20260825T173000
+DTEND;TZID=America/New_York:20260825T193000
+DTSTAMP:20260814T170000Z
+UID:72eed8e4b7f0b98fad4e@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: CP26-530-000\n\nSource: https://www.ferc.gov/news-events/e
+ vents
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Golden State Water Company Proposed Acquisition of City of No
+ rwalk's North and South Artesia System
+DTSTART;TZID=America/Los_Angeles:20260825T180000
+DTEND;TZID=America/Los_Angeles:20260825T200000
+DTSTAMP:20260814T170000Z
+UID:77a447c551154b3f8ba6@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\nRate-case relevant: acquisition\n\nSource: https://www.cpuc.ca.gov
+ /events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Agenda Meeting
+DTSTART;TZID=America/Chicago:20260826T110000
+DTEND;TZID=America/Chicago:20260826T130000
+DTSTAMP:20260814T170000Z
+UID:6866de896e08862f4d7e@psc-calendar
+CATEGORIES:MO,Decision / Order
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Dec
+ ision / Order\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearin
+ gs
+PRIORITY:5
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Climate Change and Sustainability Committee
+DTSTART;TZID=America/Chicago:20260826T130000
+DTEND;TZID=America/Chicago:20260826T150000
+DTSTAMP:20260814T170000Z
+UID:9ba32a3ed8fe9baee171@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FERC] Public Scoping Session for the CP2 LNG Expansion Project
+DTSTART;TZID=America/New_York:20260826T173000
+DTEND;TZID=America/New_York:20260826T193000
+DTSTAMP:20260814T170000Z
+UID:56f1a2e1ddb247271e0f@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: CP26-533-000\n\nSource: https://www.ferc.gov/news-events/e
+ vents
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Bliss Wind Repowering Project Public Comment Hearing
+DTSTART;TZID=America/New_York:20260826T180000
+DTEND;TZID=America/New_York:20260826T200000
+DTSTAMP:20260814T170000Z
+UID:2a954133657591d7fe3f@psc-calendar
+CATEGORIES:NY,Public Comment Hearing
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Pub
+ lic Comment Hearing\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Ameren Missouri - Local Public Hearing
+DTSTART;TZID=America/Chicago:20260826T180000
+DTEND;TZID=America/Chicago:20260826T200000
+DTSTAMP:20260814T170000Z
+UID:7055ad665b45b01d72ec@psc-calendar
+CATEGORIES:MO,Public Comment Hearing
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Pub
+ lic Comment Hearing\nDocket: EA-2026-0183\n\nSource: https://psc.mo.gov/Ca
+ lendars.aspx?Selected=Hearings
+PRIORITY:9
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
+ tive Affairs Committees
+DTSTART;TZID=America/New_York:20260827T093000
+DTEND;TZID=America/New_York:20260827T113000
+DTSTAMP:20260814T170000Z
+UID:d77889c67c1fd90525cf@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SR] Ginger v. Spire - Evidentiary Hearing
+DTSTART;TZID=America/Chicago:20260827T090000
+DTEND;TZID=America/Chicago:20260827T110000
+DTSTAMP:20260814T170000Z
+UID:4ab501022e38251db471@psc-calendar
+CATEGORIES:MO,Evidentiary Hearing,SR
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Evi
+ dentiary Hearing\nTickers: SR\nEntity: Spire Missouri\nDocket: GC-2026-025
+ 0\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+PRIORITY:2
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Public Meeting\, Hearing Room 1\, Commonwealth Keystone Build
+ ing
+DTSTART;TZID=America/New_York:20260827T100000
+DTEND;TZID=America/New_York:20260827T120000
+DTSTAMP:20260814T170000Z
+UID:55aadc288f4a24cd4cdc@psc-calendar
+CATEGORIES:PA,Decision / Order
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Decision / Order\n\nSource: https://www.puc.pa.gov/about-the-puc/public-m
+ eetings/public-meeting-schedule/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Transportation Committee
+DTSTART;TZID=America/Chicago:20260827T100000
+DTEND;TZID=America/Chicago:20260827T120000
+DTSTAMP:20260814T170000Z
+UID:31052c2467b0e5026acb@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Budget/Audit/Board of Review Committee Meeting
+DTSTART;TZID=America/Chicago:20260827T130000
+DTEND;TZID=America/Chicago:20260827T150000
+DTSTAMP:20260814T170000Z
+UID:88b3d110579a24b88b9c@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TX] Open Meeting
+DTSTART;TZID=America/Chicago:20260828T093000
+DTEND;TZID=America/Chicago:20260828T113000
+DTSTAMP:20260814T170000Z
+UID:06836f49d2cf6cf894b1@psc-calendar
+CATEGORIES:TX,Decision / Order
+DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Dec
+ ision / Order\n\nSource: https://puc.texas.gov/agency/calendar/calendar.as
+ px
+PRIORITY:5
+URL:https://puc.texas.gov/agency/calendar/calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Bliss Wind Repowering Project Comments Due
+DTSTART;TZID=America/New_York:20260828T170000
+DTEND;TZID=America/New_York:20260828T190000
+DTSTAMP:20260814T170000Z
+UID:40184906e86ec8506660@psc-calendar
+CATEGORIES:NY,Other
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
+ er\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Criminal Justice Committee
+DTSTART;TZID=America/Chicago:20260831T100000
+DTEND;TZID=America/Chicago:20260831T120000
+DTSTAMP:20260814T170000Z
+UID:83a7e93defd5d42ab1c9@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Quality of Life Committee
+DTSTART;TZID=America/Chicago:20260831T130000
+DTEND;TZID=America/Chicago:20260831T150000
+DTSTAMP:20260814T170000Z
+UID:84eaaecb78595c9ff05a@psc-calendar
+CATEGORIES:NOLA,Other
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Other\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:9
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Administrative Session
+DTSTART;TZID=America/New_York:20260901T093000
+DTEND;TZID=America/New_York:20260901T113000
+DTSTAMP:20260814T170000Z
+UID:cff55072cf1bb3bdb817@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:5
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Docket No. 57171 RTP Revenue Credit and Allocation Methodolog
+ y Hearing
+DTSTART;TZID=America/New_York:20260901T093500
+DTEND;TZID=America/New_York:20260901T113500
+DTSTAMP:20260814T170000Z
+UID:365c7986a1c1ca615201@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\nDocket: 57171\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[AL] Commission Meeting\, RSA Union Building\, Montgomery
+DTSTART;TZID=America/Chicago:20260901T100000
+DTEND;TZID=America/Chicago:20260901T120000
+DTSTAMP:20260814T170000Z
+UID:daef0514089fbed5caec@psc-calendar
+CATEGORIES:AL,Decision / Order
+DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Deci
+ sion / Order\n\nSource: https://psc.alabama.gov/category/events/
+PRIORITY:5
+URL:https://psc.alabama.gov/category/events/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FERC] Evening Scoping Session for the Terror Lake Hydroelectric P
+ roject
+DTSTART;TZID=America/New_York:20260901T213000
+DTEND;TZID=America/New_York:20260901T233000
+DTSTAMP:20260814T170000Z
+UID:5cee18d5a8333b10d614@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: P-2743-112\n\nSource: https://www.ferc.gov/news-events/eve
+ nts
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FERC] Daytime Scoping Session for the Terror Lake Hydroelectric P
+ roject
+DTSTART;TZID=America/New_York:20260902T140000
+DTEND;TZID=America/New_York:20260902T160000
+DTSTAMP:20260814T170000Z
+UID:d30999c0cb0a064090d3@psc-calendar
+CATEGORIES:FERC,Other
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Other\nDocket: P-2743-112\n\nSource: https://www.ferc.gov/news-events/eve
+ nts
+PRIORITY:9
+URL:https://www.ferc.gov/news-events/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Regular Meeting
+DTSTART;TZID=America/Chicago:20260903T100000
+DTEND;TZID=America/Chicago:20260903T120000
+DTSTAMP:20260814T170000Z
+UID:a6bdbf28a4e505c2d02c@psc-calendar
+CATEGORIES:NOLA,Decision / Order
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Decision / Order\n\nSource: https://council.nola.gov/meetings/
+PRIORITY:5
+URL:https://council.nola.gov/meetings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Voting Meeting 09-03-26
+DTSTART;TZID=America/Los_Angeles:20260903T110000
+DTEND;TZID=America/Los_Angeles:20260903T130000
+DTSTAMP:20260814T170000Z
+UID:f358cf5975ce3ff47343@psc-calendar
+CATEGORIES:CA,Decision / Order
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Decision / Order\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:5
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] 2026 Safety Conference\, State College
+DTSTART;TZID=America/New_York:20260909T090000
+DTEND;TZID=America/New_York:20260909T110000
+DTSTAMP:20260814T170000Z
+UID:100432efc8e0555e7f1d@psc-calendar
+CATEGORIES:PA,Other
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Other\n\nSource: https://www.puc.pa.gov/about-the-puc/public-meetings/pub
+ lic-meeting-schedule/
+PRIORITY:9
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] Cayuga Lake Solar Public Comment Hearing
+DTSTART;TZID=America/New_York:20260909T180000
+DTEND;TZID=America/New_York:20260909T200000
+DTSTAMP:20260814T170000Z
+UID:8eb46b84ae78cdff56b9@psc-calendar
+CATEGORIES:NY,Public Comment Hearing
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Pub
+ lic Comment Hearing\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:9
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
+ tive Affairs Committees
+DTSTART;TZID=America/New_York:20260910T093000
+DTEND;TZID=America/New_York:20260910T113000
+DTSTAMP:20260814T170000Z
+UID:ed02b97c87049b1051ba@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Docket # 57062 Hearing for the Liberty Utilities 2026-2027 Ga
+ s Supply Plan
+DTSTART;TZID=America/New_York:20260910T093500
+DTEND;TZID=America/New_York:20260910T113500
+DTSTAMP:20260814T170000Z
+UID:5ff1c0166e8f91a14595@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\nDocket: 57062\n\nSource: https://psc.ga.gov/calendar/
+PRIORITY:9
+URL:https://psc.ga.gov/calendar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NJ] In The Matter of Executive Order 1 Modernization of the Tradi
+ tional Electric Distribution Utility Business Model Study
+DTSTART;TZID=America/New_York:20260910T100000
+DTEND;TZID=America/New_York:20260910T120000
+DTSTAMP:20260814T170000Z
+UID:6f80461890f64c47ac6d@psc-calendar
+CATEGORIES:NJ,Other
+DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
+ ther\n\nSource: https://www.nj.gov/bpu/newsroom/public/
+PRIORITY:9
+URL:https://www.nj.gov/bpu/newsroom/public/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Low Income Oversight Board Quarterly Meeting
+DTSTART;TZID=America/Los_Angeles:20260916T090000
+DTEND;TZID=America/Los_Angeles:20260916T110000
+DTSTAMP:20260814T170000Z
+UID:1ea454a773a083ecf970@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Be Utility Wise Event\, Erie
+DTSTART;TZID=America/New_York:20260917T090000
+DTEND;TZID=America/New_York:20260917T110000
+DTSTAMP:20260814T170000Z
+UID:d3b525abb7737f615313@psc-calendar
+CATEGORIES:PA,Other
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Other\n\nSource: https://www.puc.pa.gov/about-the-puc/public-meetings/pub
+ lic-meeting-schedule/
+PRIORITY:9
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] SEPTEMBER 2026 Public Service Commission Session
+DTSTART;TZID=America/New_York:20260917T103000
+DTEND;TZID=America/New_York:20260917T123000
+DTSTAMP:20260814T170000Z
+UID:0c21acb9af9a310a6c07@psc-calendar
+CATEGORIES:NY,Decision / Order
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Dec
+ ision / Order\n\nSource: https://dps.ny.gov/calendar
+PRIORITY:5
+URL:https://dps.ny.gov/calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Voting Meeting 09-17-26
+DTSTART;TZID=America/Los_Angeles:20260917T110000
+DTEND;TZID=America/Los_Angeles:20260917T130000
+DTSTAMP:20260814T170000Z
+UID:1288d0a9a4927023861a@psc-calendar
+CATEGORIES:CA,Decision / Order
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Decision / Order\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:5
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Energy Division Open House
+DTSTART;TZID=America/Los_Angeles:20260917T120000
+DTEND;TZID=America/Los_Angeles:20260917T140000
+DTSTAMP:20260814T170000Z
+UID:188b3fe96c3e242e4588@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NJ] IN THE MATTER OF THE PROVISION OF BASIC GENERATION SERVICE (B
+ GS) FOR THE PERIOD BEGINNING JUNE 1\, 2027
+DTSTART;TZID=America/New_York:20260922T100000
+DTEND;TZID=America/New_York:20260922T120000
+DTSTAMP:20260814T170000Z
+UID:bc7eb5f7fa5987bb79ac@psc-calendar
+CATEGORIES:NJ,Other
+DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
+ ther\n\nSource: https://www.nj.gov/bpu/newsroom/public/
+PRIORITY:9
+URL:https://www.nj.gov/bpu/newsroom/public/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Small and Diverse Business Expo
+DTSTART;TZID=America/Los_Angeles:20260930T090000
+DTEND;TZID=America/Los_Angeles:20260930T110000
+DTSTAMP:20260814T170000Z
+UID:95e7cacc688db5e61596@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[AL] Tentative Commission Meeting
+DTSTART;TZID=America/Chicago:20261006T100000
+DTEND;TZID=America/Chicago:20261006T120000
+DTSTAMP:20260814T170000Z
+UID:67d26da264e1412d927d@psc-calendar
+CATEGORIES:AL,Decision / Order
+DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Deci
+ sion / Order\n\nSource: https://psc.alabama.gov/category/events/
+PRIORITY:5
+URL:https://psc.alabama.gov/category/events/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Be Utility Wise Event\, Pittsburgh
+DTSTART;TZID=America/New_York:20261007T090000
+DTEND;TZID=America/New_York:20261007T110000
+DTSTAMP:20260814T170000Z
+UID:be8d7e51a5ac0abe81c6@psc-calendar
+CATEGORIES:PA,Other
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Other\n\nSource: https://www.puc.pa.gov/about-the-puc/public-meetings/pub
+ lic-meeting-schedule/
+PRIORITY:9
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Be Utility Wise Event\, Berks
+DTSTART;TZID=America/New_York:20261028T090000
+DTEND;TZID=America/New_York:20261028T110000
+DTSTAMP:20260814T170000Z
+UID:4ac78856b7063748c80b@psc-calendar
+CATEGORIES:PA,Other
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Other\n\nSource: https://www.puc.pa.gov/about-the-puc/public-meetings/pub
+ lic-meeting-schedule/
+PRIORITY:9
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-sc
+ hedule/
+END:VEVENT
+END:VCALENDAR
