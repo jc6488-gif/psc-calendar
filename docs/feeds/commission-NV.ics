@@ -15,11 +15,7 @@ SUMMARY:[NV] Click on an event to view details of that event and to listen
  date and time of that specific proce
 DTSTART;TZID=America/Los_Angeles:20260820T000000
 DTEND;TZID=America/Los_Angeles:20260820T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:22088338671379342fd4@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -41,11 +37,7 @@ SUMMARY:[NV] 28 10:00AM - Regular Agenda/13-26 - 10:30AM - Continued Prehe
  0PM - Consumer Session - 26-03021
 DTSTART;TZID=America/Los_Angeles:20260820T000000
 DTEND;TZID=America/Los_Angeles:20260820T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:13338ac32c0b06175e76@psc-calendar
 CATEGORIES:NV,Procedural Milestone
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -66,11 +58,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Previous Month
 DTSTART;TZID=America/Los_Angeles:20260820T000000
 DTEND;TZID=America/Los_Angeles:20260820T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:70c608bf25045e0597a5@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -84,11 +72,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Scheduled Commission Utility Agendas
 DTSTART;TZID=America/Los_Angeles:20260825T100000
 DTEND;TZID=America/Los_Angeles:20260825T120000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:6b5774acbdbc1f9e8fd1@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -108,11 +92,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/15-26
 DTSTART;TZID=America/Los_Angeles:20260825T100000
 DTEND;TZID=America/Los_Angeles:20260825T120000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:4befa5f6da7a876884dc@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -132,11 +112,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/16-26
 DTSTART;TZID=America/Los_Angeles:20260908T000000
 DTEND;TZID=America/Los_Angeles:20260908T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:67d01047d81e6b61912c@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -149,11 +125,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/17-26
 DTSTART;TZID=America/Los_Angeles:20260929T000000
 DTEND;TZID=America/Los_Angeles:20260929T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:cbc9b4d04fb6b2a2f9fc@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -166,11 +138,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/18-26
 DTSTART;TZID=America/Los_Angeles:20261013T000000
 DTEND;TZID=America/Los_Angeles:20261013T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:c600b60e0d1f7ce6a59a@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -184,11 +152,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/19-26
 DTSTART;TZID=America/Los_Angeles:20261027T000000
 DTEND;TZID=America/Los_Angeles:20261027T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:bed9588de04949e37d10@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -202,11 +166,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/20-26
 DTSTART;TZID=America/Los_Angeles:20261110T000000
 DTEND;TZID=America/Los_Angeles:20261110T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:485223fbe73805a89b9d@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -220,11 +180,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/21-26
 DTSTART;TZID=America/Los_Angeles:20261124T000000
 DTEND;TZID=America/Los_Angeles:20261124T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:9343abbc0bb693b5c028@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -238,11 +194,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/22-26
 DTSTART;TZID=America/Los_Angeles:20261208T000000
 DTEND;TZID=America/Los_Angeles:20261208T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:a3a0ea621a8ff4a641b2@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -255,11 +207,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/23-26
 DTSTART;TZID=America/Los_Angeles:20261229T000000
 DTEND;TZID=America/Los_Angeles:20261229T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:c773d22da4527250691f@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 

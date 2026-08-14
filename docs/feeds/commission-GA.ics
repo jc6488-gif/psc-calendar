@@ -12,11 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 8-4-2026
 DTSTART;TZID=America/New_York:20260804T000000
 DTEND;TZID=America/New_York:20260804T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:fc54f633d27aa83596c9@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -32,11 +28,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 8-13-2026
 DTSTART;TZID=America/New_York:20260813T000000
 DTEND;TZID=America/New_York:20260813T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:ea5cccda4f4b825eac97@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -54,11 +46,7 @@ SUMMARY:[GA] Docket # 55973 City of Cartersville v. Georgia Power Company
  (Hearing Officer) 8-14-2026
 DTSTART;TZID=America/New_York:20260814T000000
 DTEND;TZID=America/New_York:20260814T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:479400e35ea19504c722@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -74,11 +62,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 8-18-2026
 DTSTART;TZID=America/New_York:20260818T000000
 DTEND;TZID=America/New_York:20260818T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:736467aec83877cca68f@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -93,11 +77,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] GUFPA Hearing 8-19-2026
 DTSTART;TZID=America/New_York:20260819T000000
 DTEND;TZID=America/New_York:20260819T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:b7efb5d506b35c39b812@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -112,11 +92,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 8-27-2026
 DTSTART;TZID=America/New_York:20260827T000000
 DTEND;TZID=America/New_York:20260827T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:a35a24814b3c6913c039@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe

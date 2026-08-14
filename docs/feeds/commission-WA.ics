@@ -10,38 +10,18 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-<<<<<<< HEAD
-SUMMARY:[WA] 25 Dockets for this meeting Docket: 260508 Case Type: Tariff 
- Revision Docket: 260337 Case Type: Petition Docket: 150189 Case Type: Peti
- tion Docket: 260481 Case Type: Petition for Accounting Order Docket: 26052
- 6 Case Type: Tariff Revision Docket:
-DTSTART;TZID=America/Los_Angeles:20260730T000000
-DTEND;TZID=America/Los_Angeles:20260730T020000
-DTSTAMP:20260814T185708Z
-UID:ef5d63738c3b831953ec@psc-calendar
-=======
 SUMMARY:[WA] 25 Dockets for this meeting Docket: 260460 Case Type: Tariff 
  Revision Docket: 260484 Case Type: Securities Docket: 260524 Case Type: Ta
  riff Revision Docket: 260529 Case Type: Tariff Revision Docket: 260465 Cas
  e Type: Tariff Revision Docket: 2605
 DTSTART;TZID=America/Los_Angeles:20260730T000000
 DTEND;TZID=America/Los_Angeles:20260730T020000
-DTSTAMP:20260814T200423Z
+DTSTAMP:20260814T201706Z
 UID:e21bc51e631e3699b4b6@psc-calendar
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
 CATEGORIES:WA,Decision / Order
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
   (WA)\nType: Decision / Order\n\nJuly 30\, 2026 - 9:30am | Addendum for Ju
  ly 30\, 2026\, Open Meeting.pdf Public Agenda for 07-30-2026.pdf | 25 Dock
-<<<<<<< HEAD
- ets for this meeting Docket: 260508 Case Type: Tariff Revision Docket: 260
- 337 Case Type: Petition Docket: 150189 Case Type: Petition Docket: 260481 
- Case Type: Petition for Accounting Order Docket: 260526 Case Type: Tariff 
- Revision Docket: 260438 Case Type: Tariff Revision Docket: 190730 Case Typ
- e: Staff Investigation Docket: 260491 Case Type: Tariff Revision Docket: 2
- 60527 Case Type: Tariff Revision Docket: 260448 Case Type: Tariff Revision
-  Docket: 250403 Case Type: Plan Docket: 2605\n\nSource: https://www.utc.wa
-=======
  ets for this meeting Docket: 260460 Case Type: Tariff Revision Docket: 260
  484 Case Type: Securities Docket: 260524 Case Type: Tariff Revision Docket
  : 260529 Case Type: Tariff Revision Docket: 260465 Case Type: Tariff Revis
@@ -49,62 +29,51 @@ DESCRIPTION:Commission: Washington Utilities and Transportation Commission
  vision Docket: 260533 Case Type: Tariff Revision Docket: 260270 Case Type:
   Fuel Surcharge Tariff Docket: 260505 Case Type: Tariff Revision Docket: 2
  60639 Case Type: Tariff Revision Docket: 260\n\nSource: https://www.utc.wa
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
  .gov/event/88301
 PRIORITY:5
 URL:https://www.utc.wa.gov/event/88301
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WA] 6 Dockets for this meeting Docket: 250931 Case Type: Tariff R
- evision Docket: 260134 Case Type: Petition for Accounting Order Docket: 26
- 0400 Case Type: Certificate Docket: 260464 Case Type: Staff Investigation 
- Docket: 260468 Case Type: Staff Inve
+SUMMARY:[WA] 6 Dockets for this meeting Docket: 260464 Case Type: Staff In
+ vestigation Docket: 260468 Case Type: Staff Investigation Docket: 260556 C
+ ase Type: Petition Docket: 250931 Case Type: Tariff Revision Docket: 26013
+ 4 Case Type: Petition for Accounting
 DTSTART;TZID=America/Los_Angeles:20260813T000000
 DTEND;TZID=America/Los_Angeles:20260813T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-UID:3ead3e650d56b9481062@psc-calendar
-=======
-DTSTAMP:20260814T200423Z
+DTSTAMP:20260814T201706Z
 UID:5c4b7e44ad99766b5e1e@psc-calendar
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
 CATEGORIES:WA,Other
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
   (WA)\nType: Other\n\nAugust 13\, 2026 - 9:30am | Minutes for 07-30-2026.p
  df Public Agenda for 08-13-2026.pdf | 6 Dockets for this meeting Docket: 2
- 50931 Case Type: Tariff Revision Docket: 260134 Case Type: Petition for Ac
- counting Order Docket: 260400 Case Type: Certificate Docket: 260464 Case T
- ype: Staff Investigation Docket: 260468 Case Type: Staff Investigation Doc
- ket: 260556 Case Type: Petition\n\nSource: https://www.utc.wa.gov/event/88
+ 60464 Case Type: Staff Investigation Docket: 260468 Case Type: Staff Inves
+ tigation Docket: 260556 Case Type: Petition Docket: 250931 Case Type: Tari
+ ff Revision Docket: 260134 Case Type: Petition for Accounting Order Docket
+ : 260400 Case Type: Certificate\n\nSource: https://www.utc.wa.gov/event/88
  302
 PRIORITY:9
 URL:https://www.utc.wa.gov/event/88302
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WA] 19 Dockets for this meeting Docket: 230893 Case Type: Staff I
- nvestigation Docket: 260638 Case Type: Tariff Revision Docket: 260645 Case
-  Type: Plan Docket: 230897 Case Type: Staff Investigation Docket: 260647 C
- ase Type: Tariff Revision Docket: 26
+SUMMARY:[WA] 19 Dockets for this meeting Docket: 260221 Case Type: Tariff 
+ Revision Docket: 230898 Case Type: Staff Investigation Docket: 260512 Case
+  Type: Tariff Revision Docket: 260354 Case Type: Petition Docket: 230904 C
+ ase Type: Staff Investigation Docket
 DTSTART;TZID=America/Los_Angeles:20260827T000000
 DTEND;TZID=America/Los_Angeles:20260827T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-UID:e79cd0ef65f21b00d8b0@psc-calendar
-=======
-DTSTAMP:20260814T200423Z
+DTSTAMP:20260814T201706Z
 UID:6ab017b569e014489df3@psc-calendar
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
 CATEGORIES:WA,Other
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
   (WA)\nType: Other\n\nAugust 27\, 2026 - 9:30am | Virtual\; Room 110 | | 1
- 9 Dockets for this meeting Docket: 230893 Case Type: Staff Investigation D
- ocket: 260638 Case Type: Tariff Revision Docket: 260645 Case Type: Plan Do
- cket: 230897 Case Type: Staff Investigation Docket: 260647 Case Type: Tari
- ff Revision Docket: 260221 Case Type: Tariff Revision Docket: 230898 Case 
- Type: Staff Investigation Docket: 260512 Case Type: Tariff Revision Docket
- : 260354 Case Type: Petition Docket: 230904 Case Type: Staff Investigation
-  Docket: 260610 Case Type: Tariff Revision Docket: 260561 Case Type: Tarif
- f Revision Docket: 230937 Case T\n\nSource: https://www.utc.wa.gov/event/8
+ 9 Dockets for this meeting Docket: 260221 Case Type: Tariff Revision Docke
+ t: 230898 Case Type: Staff Investigation Docket: 260512 Case Type: Tariff 
+ Revision Docket: 260354 Case Type: Petition Docket: 230904 Case Type: Staf
+ f Investigation Docket: 260610 Case Type: Tariff Revision Docket: 260561 C
+ ase Type: Tariff Revision Docket: 230937 Case Type: Staff Investigation Do
+ cket: 260623 Case Type: Tariff Revision Docket: 260562 Case Type: Tariff R
+ evision Docket: 230944 Case Type: Staff Investigation Docket: 230892 Case 
+ Type: Staff Investigation Docket\n\nSource: https://www.utc.wa.gov/event/8
  8303
 PRIORITY:9
 URL:https://www.utc.wa.gov/event/88303
@@ -114,11 +83,7 @@ SUMMARY:[WA] UE-260007 & UG-260008 Avista GRC - Virtual Public Comment Hea
  ring
 DTSTART;TZID=America/Los_Angeles:20260827T183000
 DTEND;TZID=America/Los_Angeles:20260827T203000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:c6faa2e47154f47aae05@psc-calendar
 CATEGORIES:WA,Public Comment Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -133,11 +98,7 @@ SUMMARY:[WA] 3 Dockets for this meeting Docket: 260003 Case Type: Eligible
  et: 260618 Case Type: Tariff Revision
 DTSTART;TZID=America/Los_Angeles:20260910T000000
 DTEND;TZID=America/Los_Angeles:20260910T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:2ebcea51e6331a19dbb8@psc-calendar
 CATEGORIES:WA,Other
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -153,11 +114,7 @@ SUMMARY:[WA] UE-260007 & UG-260008 Avista GRC - Hybrid Evidentiary Hearing
   (Day 1)
 DTSTART;TZID=America/Los_Angeles:20260917T090000
 DTEND;TZID=America/Los_Angeles:20260917T110000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:3d917659475f6b313f5f@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -171,11 +128,7 @@ SUMMARY:[WA] Join Zoom Meeting https://utc-wa-gov.zoom.us/j/81193869284?pw
  d=NpGE4NnPDJdbSUOgjIbJheGFLjshaL.1…
 DTSTART;TZID=America/Los_Angeles:20260918T090000
 DTEND;TZID=America/Los_Angeles:20260918T110000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:bcd1e3baf4a0ac55d4c4@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -187,32 +140,13 @@ PRIORITY:5
 URL:https://www.utc.wa.gov/event/88766
 END:VEVENT
 BEGIN:VEVENT
-<<<<<<< HEAD
-SUMMARY:[WA] 10 Dockets for this meeting Docket: 260248 Case Type: Tariff 
- Revision Docket: 260481 Case Type: Petition for Accounting Order Docket: 2
- 60516 Case Type: Tariff Revision Docket: 260491 Case Type: Tariff Revision
-  Docket: 260568 Case Type: Tariff Re
-DTSTART;TZID=America/Los_Angeles:20260924T000000
-DTEND;TZID=America/Los_Angeles:20260924T020000
-DTSTAMP:20260814T185708Z
-UID:629b4336f67ad7d798af@psc-calendar
-CATEGORIES:WA,Other
-DESCRIPTION:Commission: Washington Utilities and Transportation Commission
-  (WA)\nType: Other\n\nSeptember 24\, 2026 - 9:30am | Virtual\; Room 110 | 
- | 10 Dockets for this meeting Docket: 260248 Case Type: Tariff Revision Do
- cket: 260481 Case Type: Petition for Accounting Order Docket: 260516 Case 
- Type: Tariff Revision Docket: 260491 Case Type: Tariff Revision Docket: 26
- 0568 Case Type: Tariff Revision Docket: 260625 Case Type: Tariff Revision 
- Docket: 260632 Case Type: Tariff Revision Docket: 260653 Case Type: Tariff
-  Revision Docket: 260661 Case Type: Tariff Revision Docket: 260671 Case Ty
-=======
 SUMMARY:[WA] 10 Dockets for this meeting Docket: 260661 Case Type: Tariff 
  Revision Docket: 260671 Case Type: Tariff Revision Docket: 260248 Case Typ
  e: Tariff Revision Docket: 260481 Case Type: Petition for Accounting Order
   Docket: 260516 Case Type: Tariff Re
 DTSTART;TZID=America/Los_Angeles:20260924T000000
 DTEND;TZID=America/Los_Angeles:20260924T020000
-DTSTAMP:20260814T200423Z
+DTSTAMP:20260814T201706Z
 UID:7f211ab16bec766766f7@psc-calendar
 CATEGORIES:WA,Other
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -223,7 +157,6 @@ DESCRIPTION:Commission: Washington Utilities and Transportation Commission
  0516 Case Type: Tariff Revision Docket: 260491 Case Type: Tariff Revision 
  Docket: 260568 Case Type: Tariff Revision Docket: 260625 Case Type: Tariff
   Revision Docket: 260632 Case Type: Tariff Revision Docket: 260653 Case Ty
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
  pe: Tariff Revision\n\nSource: https://www.utc.wa.gov/event/88305
 PRIORITY:9
 URL:https://www.utc.wa.gov/event/88305
@@ -234,11 +167,7 @@ SUMMARY:[WA] Participants may attend the hearing in person at the Commissi
  hington 98503\, or the hearing may be attended…
 DTSTART;TZID=America/Los_Angeles:20260928T133000
 DTEND;TZID=America/Los_Angeles:20260928T153000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:69ec37a7e99d43edbca0@psc-calendar
 CATEGORIES:WA,Other
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -254,11 +183,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] UE-260005 et al PSE - In-Person Public Comment Hearing
 DTSTART;TZID=America/Los_Angeles:20260929T180000
 DTEND;TZID=America/Los_Angeles:20260929T200000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:818e80534a4fe5e1f9fc@psc-calendar
 CATEGORIES:WA,Public Comment Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -274,11 +199,7 @@ SUMMARY:[WA] To appear by phone\, please call (253) 215-8782 and enter Mee
  ting ID: 864 6962 3611# and Passcode: 906704#. To appear via Zoom\, …
 DTSTART;TZID=America/Los_Angeles:20261007T133000
 DTEND;TZID=America/Los_Angeles:20261007T153000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:427bdebac7f414b63c9b@psc-calendar
 CATEGORIES:WA,Other
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -293,11 +214,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] UE-260005 et al PSE - Virtual Public Comment Hearing
 DTSTART;TZID=America/Los_Angeles:20261007T180000
 DTEND;TZID=America/Los_Angeles:20261007T200000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:70a61be80c59a0fdcc7c@psc-calendar
 CATEGORIES:WA,Public Comment Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -315,11 +232,7 @@ SUMMARY:[WA] To participate in the hearing by phone\, call (253) 215-8782
  pate via Zoom\,…
 DTSTART;TZID=America/Los_Angeles:20261104T090000
 DTEND;TZID=America/Los_Angeles:20261104T110000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:5870bc9eeea597e97075@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -337,11 +250,7 @@ SUMMARY:[WA] To participate in the hearing by phone\, call (253) 215-8782
  pate via Zoom\,…
 DTSTART;TZID=America/Los_Angeles:20261105T090000
 DTEND;TZID=America/Los_Angeles:20261105T110000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:7de261af9b90a51e67e0@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -358,11 +267,7 @@ SUMMARY:[WA] To attend the hearing via Zoom\, join the virtual evidentiary
   hearing \, or call (253) 215-8782 and enter…
 DTSTART;TZID=America/Los_Angeles:20261207T090000
 DTEND;TZID=America/Los_Angeles:20261207T110000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:277cfce11b5eb6eb6e9d@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission

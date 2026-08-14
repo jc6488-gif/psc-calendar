@@ -13,11 +13,7 @@ SUMMARY:[NE] 18 Aug Commission Meeting Location: Commission Hearing Room 1
  0:00am
 DTSTART:20260818T150000Z
 DTEND:20260818T170000Z
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:478f561b6f035d01e220@psc-calendar
 CATEGORIES:NE,Decision / Order
 DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Dec
@@ -30,11 +26,7 @@ SUMMARY:[NE] 19 Aug 911 Service System Advisory Committee Meeting Location
  : Commission Hearing Room 1:00pm
 DTSTART:20260819T180000Z
 DTEND:20260819T200000Z
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:1a35de9c6fe08cd1a9e9@psc-calendar
 CATEGORIES:NE,Workshop / Conference
 DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Wor
@@ -49,11 +41,7 @@ SUMMARY:[NE] 25 Aug Commission Meeting Location: Commission Hearing Room 1
  0:00am
 DTSTART:20260825T150000Z
 DTEND:20260825T170000Z
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:17b6685859923a699fd4@psc-calendar
 CATEGORIES:NE,Decision / Order
 DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Dec
@@ -66,11 +54,7 @@ SUMMARY:[NE] 01 Sep Commission Meeting Location: Commission Hearing Room 1
  0:00am
 DTSTART:20260901T150000Z
 DTEND:20260901T170000Z
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:c2e9b6e48c2955612d4a@psc-calendar
 CATEGORIES:NE,Decision / Order
 DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Dec

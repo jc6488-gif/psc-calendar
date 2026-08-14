@@ -13,11 +13,7 @@ BEGIN:VEVENT
 SUMMARY:[SD] Agenda of Commission Meeting
 DTSTART;TZID=America/Chicago:20260728T000000
 DTEND;TZID=America/Chicago:20260728T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:28d62f66049f0a5b82b4@psc-calendar
 CATEGORIES:SD,Decision / Order
 DESCRIPTION:Commission: South Dakota Public Utilities Commission (SD)\nTyp
@@ -30,11 +26,7 @@ BEGIN:VEVENT
 SUMMARY:[SD] South Dakota Public Utilities Commission Meeting
 DTSTART;TZID=America/Chicago:20260728T000000
 DTEND;TZID=America/Chicago:20260728T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:8e2bc9e4ecaf717b7457@psc-calendar
 CATEGORIES:SD,Decision / Order
 DESCRIPTION:Commission: South Dakota Public Utilities Commission (SD)\nTyp
@@ -48,11 +40,7 @@ BEGIN:VEVENT
 SUMMARY:[SD] Agenda of Commission Meeting
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:7f294553e07063eb2937@psc-calendar
 CATEGORIES:SD,Decision / Order
 DESCRIPTION:Commission: South Dakota Public Utilities Commission (SD)\nTyp
@@ -65,11 +53,7 @@ BEGIN:VEVENT
 SUMMARY:[SD] South Dakota Public Utilities Commission
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:4d8686adbac94dee528b@psc-calendar
 CATEGORIES:SD,Other
 DESCRIPTION:Commission: South Dakota Public Utilities Commission (SD)\nTyp

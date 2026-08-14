@@ -12,11 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] 20 Hearing on the Merits/Open Meeting 9:30 AM-5:00 PM delete
 DTSTART;TZID=America/Chicago:20260802T000000
 DTEND;TZID=America/Chicago:20260802T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:134bb692e6429dc7de18@psc-calendar
 CATEGORIES:TX,Decision / Order
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Dec

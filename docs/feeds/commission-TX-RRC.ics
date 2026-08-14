@@ -12,11 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] (Tuesday)
 DTSTART;TZID=America/Chicago:20260818T000000
 DTEND;TZID=America/Chicago:20260818T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:c3f8b67ea0df5164f92d@psc-calendar
 CATEGORIES:TX-RRC,Other
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Other
@@ -29,11 +25,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] (Tuesday)
 DTSTART;TZID=America/Chicago:20260915T000000
 DTEND;TZID=America/Chicago:20260915T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:d3b15084ea179c05aa77@psc-calendar
 CATEGORIES:TX-RRC,Other
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Other
@@ -46,11 +38,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] (Tuesday)
 DTSTART;TZID=America/Chicago:20261006T000000
 DTEND;TZID=America/Chicago:20261006T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:413a5ecf245af39bd8e6@psc-calendar
 CATEGORIES:TX-RRC,Other
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Other
@@ -63,11 +51,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] (Tuesday)
 DTSTART;TZID=America/Chicago:20261117T000000
 DTEND;TZID=America/Chicago:20261117T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:0671059e4afe35a841c0@psc-calendar
 CATEGORIES:TX-RRC,Other
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Other
@@ -80,11 +64,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] (Tuesday)
 DTSTART;TZID=America/Chicago:20261215T000000
 DTEND;TZID=America/Chicago:20261215T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:1f068b9764abfad19dd6@psc-calendar
 CATEGORIES:TX-RRC,Other
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Other
@@ -99,11 +79,7 @@ SUMMARY:[TX-RRC] Beginning January 2026 \, all Railroad Commission open me
  vis Building in Austin until further notice
 DTSTART;TZID=America/Chicago:20270120T000000
 DTEND;TZID=America/Chicago:20270120T020000
-<<<<<<< HEAD
-DTSTAMP:20260814T185708Z
-=======
-DTSTAMP:20260814T200423Z
->>>>>>> bb56003 (Remove ticker attribution layer entirely)
+DTSTAMP:20260814T201706Z
 UID:c472656e438076f744f2@psc-calendar
 CATEGORIES:TX-RRC,Decision / Order
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Decis
