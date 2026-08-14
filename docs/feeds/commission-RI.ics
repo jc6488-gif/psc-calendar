@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Rhode Island Public Utilities Commissio
+ n.
+X-WR-CALNAME:RI — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[RI] PUC - Notice of Open Meetings - Commencing August 12 & August
+  13\, 2026 at 1:00pm at the PUC Hearing Room A\, 89 Jefferson Blvd\, Warwi
+ ck\, Rhode Island
+DTSTART;TZID=America/New_York:20260812T000000
+DTEND;TZID=America/New_York:20260812T020000
+DTSTAMP:20260814T181729Z
+UID:b27bc6b6a6193b066838@psc-calendar
+CATEGORIES:RI,Decision / Order
+DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
+ e: Decision / Order\n\nSource: https://ripuc.ri.gov/sites/g/files/xkgbur84
+ 1/files/2026-08/Open%20Meeting%20Notice%20%2825-45-GE%2025-33-GE%2025-19-E
+ L%29%20August%2012-13%202026.pdf
+PRIORITY:5
+URL:https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Open%20Meet
+ ing%20Notice%20%2825-45-GE%2025-33-GE%2025-19-EL%29%20August%2012-13%20202
+ 6.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RI] PUC - Notice of Open Meetings - Continuing Tuesday August 18\
+ , 2026 at 10:00am at the PUC Hearing Room A\, 89 Jefferson Blvd\, Warwick\
+ , Rhode Island
+DTSTART;TZID=America/New_York:20260818T100000
+DTEND;TZID=America/New_York:20260818T120000
+DTSTAMP:20260814T181729Z
+UID:0f223451db8f8edd4e80@psc-calendar
+CATEGORIES:RI,Decision / Order
+DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
+ e: Decision / Order\n\nSource: https://ripuc.ri.gov/sites/g/files/xkgbur84
+ 1/files/2026-08/Open%20Meeting%20Notice%20%2825-45-GE%2025-33-GE%2025-19-E
+ L%29%20August%2018-20%202026.pdf
+PRIORITY:5
+URL:https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Open%20Meet
+ ing%20Notice%20%2825-45-GE%2025-33-GE%2025-19-EL%29%20August%2018-20%20202
+ 6.pdf
+END:VEVENT
+END:VCALENDAR

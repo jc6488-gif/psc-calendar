@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Alabama Public Service Commission.
+X-WR-CALNAME:AL — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[AL] Before You Dig\, Contact 811: August 11 (8/11) Serves as an A
+ nnual Reminder for Alabamians
+DTSTART;TZID=America/Chicago:20260811T000000
+DTEND;TZID=America/Chicago:20260811T020000
+DTSTAMP:20260814T181729Z
+UID:d7dfe684c9956dec52ec@psc-calendar
+CATEGORIES:AL,Other
+DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Othe
+ r\n\nSource: https://psc.alabama.gov/wp-content/uploads/2026/08/811-Day-Pr
+ ess-Release-2026-APSC.pdf
+PRIORITY:9
+URL:https://psc.alabama.gov/wp-content/uploads/2026/08/811-Day-Press-Relea
+ se-2026-APSC.pdf
+END:VEVENT
+END:VCALENDAR

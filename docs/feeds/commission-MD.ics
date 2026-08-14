@@ -1,0 +1,391 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Maryland Public Service Commission.
+X-WR-CALNAME:MD — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[MD] Official Filings for the period through
+DTSTART;TZID=America/New_York:20260720T000000
+DTEND;TZID=America/New_York:20260720T020000
+DTSTAMP:20260814T181729Z
+UID:013b91ad222d455b5910@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nOfficial Filings for the period 07/20/2026 through 07/24/2026\n\nSou
+ rce: https://webpscxb.pscmaryland.com/DMS/filingsreport/4
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/filingsreport/4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Official Filings for the period through
+DTSTART;TZID=America/New_York:20260727T000000
+DTEND;TZID=America/New_York:20260727T020000
+DTSTAMP:20260814T181729Z
+UID:f0ae17f4344ff42ca0b3@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nOfficial Filings for the period 07/27/2026 through 07/31/2026\n\nSou
+ rce: https://webpscxb.pscmaryland.com/DMS/filingsreport/3
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/filingsreport/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Official Filings for the period through
+DTSTART;TZID=America/New_York:20260803T000000
+DTEND;TZID=America/New_York:20260803T020000
+DTSTAMP:20260814T181729Z
+UID:bbce4a32d3481e6c148e@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nOfficial Filings for the period 08/03/2026 through 08/07/2026\n\nSou
+ rce: https://webpscxb.pscmaryland.com/DMS/filingsreport/2
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/filingsreport/2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Official Filings for the period through
+DTSTART;TZID=America/New_York:20260810T000000
+DTEND;TZID=America/New_York:20260810T020000
+DTSTAMP:20260814T181729Z
+UID:867a2d8b05d1e66b47fa@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nOfficial Filings for the period 08/10/2026 through 08/14/2026\n\nSou
+ rce: https://webpscxb.pscmaryland.com/DMS/filingsreport/1
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/filingsreport/1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Hearing Schedule as of
+DTSTART;TZID=America/New_York:20260814T000000
+DTEND;TZID=America/New_York:20260814T020000
+DTSTAMP:20260814T181729Z
+UID:9106d9eab89b16678083@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nHearing Schedule as of August 14\, 2026\n\nSource: https://webpscxb.
+ pscmaryland.com/DMS/hearing
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/hearing
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Final Agenda for
+DTSTART;TZID=America/New_York:20260819T000000
+DTEND;TZID=America/New_York:20260819T020000
+DTSTAMP:20260814T181729Z
+UID:bccbe3f5c1cab3072b5e@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nFinal Agenda for August 19\, 2026\n\nSource: https://webpscxb.pscmar
+ yland.com/DMS/adminagendabydate/56E101
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/adminagendabydate/56E101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Draft Agenda for
+DTSTART;TZID=America/New_York:20260826T000000
+DTEND;TZID=America/New_York:20260826T020000
+DTSTAMP:20260814T181729Z
+UID:c7054698f475a65ab4e7@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDraft Agenda for August 26\, 2026\n\nSource: https://webpscxb.pscmar
+ yland.com/DMS/adminagendabydate/7EF260
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/adminagendabydate/7EF260
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Date and time
+DTSTART;TZID=America/New_York:20260827T183000
+DTEND;TZID=America/New_York:20260827T203000
+DTSTAMP:20260814T181729Z
+UID:cb16f523acf020436626@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDate and time: Thursday\, August 27\, 2026 at 6:30 p.m.\n\nSource: h
+ ttps://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Deadline for written comments
+DTSTART;TZID=America/New_York:20260828T000000
+DTEND;TZID=America/New_York:20260828T020000
+DTSTAMP:20260814T181729Z
+UID:c97b988b4c29e58a8674@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDeadline for written comments: August 28\, 2026\n\nSource: https://p
+ sc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Public comment hearing
+DTSTART;TZID=America/New_York:20260831T180000
+DTEND;TZID=America/New_York:20260831T200000
+DTSTAMP:20260814T181729Z
+UID:c71b44434a213903cf04@psc-calendar
+CATEGORIES:MD,Public Comment Hearing
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
+ lic Comment Hearing\n\nPublic comment hearing : Monday\, August 31\, 2026 
+ at 6 p.m.\n\nSource: https://psc.maryland.gov/news-events/upcoming-public-
+ comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Draft Agenda for
+DTSTART;TZID=America/New_York:20260902T000000
+DTEND;TZID=America/New_York:20260902T020000
+DTSTAMP:20260814T181729Z
+UID:64aef0c324d1fdf6fca4@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDraft Agenda for September 02\, 2026\n\nSource: https://webpscxb.psc
+ maryland.com/DMS/adminagendabydate/E2120A
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/adminagendabydate/E2120A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Date and time
+DTSTART;TZID=America/New_York:20260908T183000
+DTEND;TZID=America/New_York:20260908T203000
+DTSTAMP:20260814T181729Z
+UID:7aa6b7fd92c5bd99fd6c@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDate and time: Tuesday\, September 8\, 2026 at 6:30 p.m.\n\nSource: 
+ https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Draft Agenda for
+DTSTART;TZID=America/New_York:20260909T000000
+DTEND;TZID=America/New_York:20260909T020000
+DTSTAMP:20260814T181729Z
+UID:b041c2ebf2404020f575@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDraft Agenda for September 09\, 2026\n\nSource: https://webpscxb.psc
+ maryland.com/DMS/adminagendabydate/BCA3AA
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/adminagendabydate/BCA3AA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Date and time
+DTSTART;TZID=America/New_York:20260909T180000
+DTEND;TZID=America/New_York:20260909T200000
+DTSTAMP:20260814T181729Z
+UID:6c26195cea449d4c923a@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDate and time: Wednesday\, September 9\, 2026 at 6:00 p.m.\n\nSource
+ : https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Date and time
+DTSTART;TZID=America/New_York:20260910T183000
+DTEND;TZID=America/New_York:20260910T203000
+DTSTAMP:20260814T181729Z
+UID:911e7e78272ca238bc90@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDate and time : Thursday\, September 10\, 2026 at 6:30 p.m.\n\nSourc
+ e: https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Deadline to send in written comments
+DTSTART;TZID=America/New_York:20260911T000000
+DTEND;TZID=America/New_York:20260911T020000
+DTSTAMP:20260814T181729Z
+UID:e287f1cc4117d89b5831@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDeadline to send in written comments : September 11\, 2026\n\nSource
+ : https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Deadline to submit written comments
+DTSTART;TZID=America/New_York:20260917T000000
+DTEND;TZID=America/New_York:20260917T020000
+DTSTAMP:20260814T181729Z
+UID:0b97bc2bcb7fe99459be@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDeadline to submit written comments: September 17\, 2026\n\nSource: 
+ https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Date and Time
+DTSTART;TZID=America/New_York:20260917T180000
+DTEND;TZID=America/New_York:20260917T200000
+DTSTAMP:20260814T181729Z
+UID:bdceee09232d521e9bbd@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDate and Time: Thursday\, September 17\, 2026 at 6:00 p.m.\n\nSource
+ : https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Date and Time
+DTSTART;TZID=America/New_York:20260921T183000
+DTEND;TZID=America/New_York:20260921T203000
+DTSTAMP:20260814T181729Z
+UID:71f10bf6c2bebc50b656@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDate and Time: Monday\, September 21\, 2026 at 6:30 p.m.\n\nSource: 
+ https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Deadline to send in written comments
+DTSTART;TZID=America/New_York:20260930T000000
+DTEND;TZID=America/New_York:20260930T020000
+DTSTAMP:20260814T181729Z
+UID:d4e082dc68156a8f08db@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDeadline to send in written comments : September 30\, 2026\n\nSource
+ : https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Deadline for written comments
+DTSTART;TZID=America/New_York:20260930T000000
+DTEND;TZID=America/New_York:20260930T020000
+DTSTAMP:20260814T181729Z
+UID:bfdb372ca9b240d00aea@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDeadline for written comments: September 30\, 2026\n\nSource: https:
+ //psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Deadline to submit written comments
+DTSTART;TZID=America/New_York:20261002T000000
+DTEND;TZID=America/New_York:20261002T020000
+DTSTAMP:20260814T181729Z
+UID:ee6569b62bb519855fac@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDeadline to submit written comments: October 2\, 2026\n\nSource: htt
+ ps://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Deadline for written comments
+DTSTART;TZID=America/New_York:20261015T000000
+DTEND;TZID=America/New_York:20261015T020000
+DTSTAMP:20260814T181729Z
+UID:222d111effffdc004d58@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDeadline for written comments: October 15\, 2026\n\nSource: https://
+ psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Date and Time
+DTSTART;TZID=America/New_York:20261015T183000
+DTEND;TZID=America/New_York:20261015T203000
+DTSTAMP:20260814T181729Z
+UID:65035a99e6fe8b4d1a84@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDate and Time: Thursday\, October 15\, 2026 at 6:30 p.m.\n\nSource: 
+ https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Deadline to submit written comments
+DTSTART;TZID=America/New_York:20261019T000000
+DTEND;TZID=America/New_York:20261019T020000
+DTSTAMP:20260814T181729Z
+UID:3c7b3f26449ece35a8b1@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDeadline to submit written comments: October 19\, 2026\n\nSource: ht
+ tps://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Virtual public comment hearing . To participate\, email kimbe
+ rly.schock@maryland.gov by 12 noon on
+DTSTART;TZID=America/New_York:20261019T000000
+DTEND;TZID=America/New_York:20261019T020000
+DTSTAMP:20260814T181729Z
+UID:fe8559b17db688ac7fae@psc-calendar
+CATEGORIES:MD,Public Comment Hearing
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
+ lic Comment Hearing\n\nSource: https://psc.maryland.gov/news-events/upcomi
+ ng-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Date and time
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+DTSTAMP:20260814T181729Z
+UID:23df1a5ca5f455424d9a@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDate and time : Thursday\, October 22\, 2026 at 6 p.m.\n\nSource: ht
+ tps://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Virtual public comment hearing
+DTSTART;TZID=America/New_York:20261029T183000
+DTEND;TZID=America/New_York:20261029T203000
+DTSTAMP:20260814T181729Z
+UID:029f7ec310ccd5bfa7e9@psc-calendar
+CATEGORIES:MD,Public Comment Hearing
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
+ lic Comment Hearing\n\nVirtual public comment hearing: Thursday\, October 
+ 29\, 2026 at 6:30 p.m.\n\nSource: https://psc.maryland.gov/news-events/upc
+ oming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MD] Deadline for written comments
+DTSTART;TZID=America/New_York:20261106T000000
+DTEND;TZID=America/New_York:20261106T020000
+DTSTAMP:20260814T181729Z
+UID:bfcb0dd91611f2a710ec@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDeadline for written comments: November 6\, 2026\n\nSource: https://
+ psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+PRIORITY:9
+URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,165 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for California Public Utilities Commission.
+X-WR-CALNAME:CA — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC to Hold In-Person Public Workshop on Video Franchise Rul
+ es
+DTSTART;TZID=America/Los_Angeles:20260817T100000
+DTEND;TZID=America/Los_Angeles:20260817T120000
+DTSTAMP:20260814T181729Z
+UID:724e68050e1345c21c7e@psc-calendar
+CATEGORIES:CA,Workshop / Conference
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Workshop / Conference\n\nSource: https://www.cpuc.ca.gov/events-and-meeti
+ ngs/cpuc-to-hold-in-person-public-workshop-on-video-franchise-rules
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings/cpuc-to-hold-in-person-pub
+ lic-workshop-on-video-franchise-rules
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Low Income Energy Assistance Programs Subcommittee Meeting 8-
+ 17-26
+DTSTART;TZID=America/Los_Angeles:20260817T150000
+DTEND;TZID=America/Los_Angeles:20260817T170000
+DTSTAMP:20260814T181729Z
+UID:f70d58f73e87c1d075ac@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings/low-income-e
+ nergy-assistance-programs-subcommittee-meeting--8-17-26
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings/low-income-energy-assistan
+ ce-programs-subcommittee-meeting--8-17-26
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Interagency Public Briefing on Electric Utilities' Safety Cul
+ ture and Public Safety Power Shutoff Updates
+DTSTART;TZID=America/Los_Angeles:20260820T090000
+DTEND;TZID=America/Los_Angeles:20260820T110000
+DTSTAMP:20260814T181729Z
+UID:4ec2576b6c33b76057e0@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings/interagency-
+ public-briefing-on-electric-utilities-safety-culture
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings/interagency-public-briefin
+ g-on-electric-utilities-safety-culture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] DACAG Meeting 8-21-26
+DTSTART;TZID=America/Los_Angeles:20260821T130000
+DTEND;TZID=America/Los_Angeles:20260821T150000
+DTSTAMP:20260814T181729Z
+UID:212c50467bef62d429e7@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nDACAG Meeting 8-21-26 August 21\, 2026 at 01:00pm\n\nSource: htt
+ ps://www.cpuc.ca.gov/events-and-meetings/dacag-meeting-8-21-26
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings/dacag-meeting-8-21-26
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Golden State Water Company Proposed Acquisition of City of No
+ rwalk's North and South Artesia System
+DTSTART;TZID=America/Los_Angeles:20260825T180000
+DTEND;TZID=America/Los_Angeles:20260825T200000
+DTSTAMP:20260814T181729Z
+UID:77a447c551154b3f8ba6@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nSource: https://www.cpuc.ca.gov/events-and-meetings/golden-state
+ -water-company-of-proposed-acquisition-of-city-of-norwalk
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings/golden-state-water-company
+ -of-proposed-acquisition-of-city-of-norwalk
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Voting Meeting 09-03-26
+DTSTART;TZID=America/Los_Angeles:20260903T110000
+DTEND;TZID=America/Los_Angeles:20260903T130000
+DTSTAMP:20260814T181729Z
+UID:f358cf5975ce3ff47343@psc-calendar
+CATEGORIES:CA,Decision / Order
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Decision / Order\n\nCPUC Voting Meeting 09-03-26 September 03\, 2026 at 1
+ 1:00am California State Personnel Board’s Auditorium\, 801 Capitol Mall\
+ , Sacramento\, CA 95814\n\nSource: https://www.cpuc.ca.gov/events-and-meet
+ ings/cpuc-voting-meeting-09-03-26
+PRIORITY:5
+URL:https://www.cpuc.ca.gov/events-and-meetings/cpuc-voting-meeting-09-03-
+ 26
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] Low Income Oversight Board Quarterly Meeting 9-16-26
+DTSTART;TZID=America/Los_Angeles:20260916T090000
+DTEND;TZID=America/Los_Angeles:20260916T110000
+DTSTAMP:20260814T181729Z
+UID:c3a9ea2ad0c2ca51a978@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nLow Income Oversight Board Quarterly Meeting 9-16-26 September 1
+ 6\, 2026 at 09:00am Hybrid via Webex. In-Person Location: San Joaquin Coun
+ ty Administration Building 44 North San Joaquin Street 6th Floor\, Board o
+ f Supervisors Chambers Stockton\, CA 95202\n\nSource: https://www.cpuc.ca.
+ gov/events-and-meetings/low-income-oversight-board-quarterly-meeting-9-16-
+ 26
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings/low-income-oversight-board
+ -quarterly-meeting-9-16-26
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Voting Meeting 09-17-26
+DTSTART;TZID=America/Los_Angeles:20260917T110000
+DTEND;TZID=America/Los_Angeles:20260917T130000
+DTSTAMP:20260814T181729Z
+UID:1288d0a9a4927023861a@psc-calendar
+CATEGORIES:CA,Decision / Order
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Decision / Order\n\nCPUC Voting Meeting 09-17-26 September 17\, 2026 at 1
+ 1:00am San Marcos City Council Chambers\, 1 Civic Center Dr.\, San Marcos\
+ , CA\n\nSource: https://www.cpuc.ca.gov/events-and-meetings/cpuc-voting-me
+ eting-09-17-26
+PRIORITY:5
+URL:https://www.cpuc.ca.gov/events-and-meetings/cpuc-voting-meeting-09-17-
+ 26
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Energy Division Open House 9-17-26
+DTSTART;TZID=America/Los_Angeles:20260917T120000
+DTEND;TZID=America/Los_Angeles:20260917T140000
+DTSTAMP:20260814T181729Z
+UID:3103b223434db16ab098@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nCPUC Energy Division Open House 9-17-26 September 17\, 2026 at 1
+ 2:00pm Virtual via Webex\n\nSource: https://www.cpuc.ca.gov/events-and-mee
+ tings/cpuc-energy-division-open-house-9-17-26
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings/cpuc-energy-division-open-
+ house-9-17-26
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CA] CPUC Small and Diverse Business Expo 9-30-26
+DTSTART;TZID=America/Los_Angeles:20260930T090000
+DTEND;TZID=America/Los_Angeles:20260930T110000
+DTSTAMP:20260814T181729Z
+UID:c65daa3b03200ee37099@psc-calendar
+CATEGORIES:CA,Other
+DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
+  Other\n\nCPUC Small and Diverse Business Expo 9-30-26 September 30\, 2026
+  at 09:00am South San Francisco Conference Center\, 255 S. Airport Blvd.\,
+  South San Francisco\, CA 94080 (in-person only)\n\nSource: https://www.cp
+ uc.ca.gov/events-and-meetings/cpuc-small-and-diverse-business-expo-9-30-26
+PRIORITY:9
+URL:https://www.cpuc.ca.gov/events-and-meetings/cpuc-small-and-diverse-bus
+ iness-expo-9-30-26
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Nebraska Public Service Commission.
+X-WR-CALNAME:NE — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[NE] 18 Aug Commission Meeting Location: Commission Hearing Room 1
+ 0:00am
+DTSTART:20260818T150000Z
+DTEND:20260818T170000Z
+DTSTAMP:20260814T181729Z
+UID:478f561b6f035d01e220@psc-calendar
+CATEGORIES:NE,Decision / Order
+DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Dec
+ ision / Order\n\nSource: https://psc.nebraska.gov/commission-meeting-255
+PRIORITY:5
+URL:https://psc.nebraska.gov/commission-meeting-255
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NE] 19 Aug 911 Service System Advisory Committee Meeting Location
+ : Commission Hearing Room 1:00pm
+DTSTART:20260819T180000Z
+DTEND:20260819T200000Z
+DTSTAMP:20260814T181729Z
+UID:1a35de9c6fe08cd1a9e9@psc-calendar
+CATEGORIES:NE,Workshop / Conference
+DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Wor
+ kshop / Conference\n\nSource: https://psc.nebraska.gov/911-service-system-
+ advisory-committee-meeting-16
+PRIORITY:9
+URL:https://psc.nebraska.gov/911-service-system-advisory-committee-meeting
+ -16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NE] 25 Aug Commission Meeting Location: Commission Hearing Room 1
+ 0:00am
+DTSTART:20260825T150000Z
+DTEND:20260825T170000Z
+DTSTAMP:20260814T181729Z
+UID:17b6685859923a699fd4@psc-calendar
+CATEGORIES:NE,Decision / Order
+DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Dec
+ ision / Order\n\nSource: https://psc.nebraska.gov/commission-meeting-256
+PRIORITY:5
+URL:https://psc.nebraska.gov/commission-meeting-256
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NE] 01 Sep Commission Meeting Location: Commission Hearing Room 1
+ 0:00am
+DTSTART:20260901T150000Z
+DTEND:20260901T170000Z
+DTSTAMP:20260814T181729Z
+UID:c2e9b6e48c2955612d4a@psc-calendar
+CATEGORIES:NE,Decision / Order
+DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Dec
+ ision / Order\n\nSource: https://psc.nebraska.gov/commission-meeting-257
+PRIORITY:5
+URL:https://psc.nebraska.gov/commission-meeting-257
+END:VEVENT
+END:VCALENDAR

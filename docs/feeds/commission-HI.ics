@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Hawaii Public Utilities Commission.
+X-WR-CALNAME:HI — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[HI] Notice to Interested Persons July 24\, 2026 – Motor Carrier
+  Applications
+DTSTART;TZID=Pacific/Honolulu:20260724T000000
+DTEND;TZID=Pacific/Honolulu:20260724T020000
+DTSTAMP:20260814T181729Z
+UID:fdf59da89abb5ca9289c@psc-calendar
+CATEGORIES:HI,Other
+DESCRIPTION:Commission: Hawaii Public Utilities Commission (HI)\nType: Oth
+ er\n\nNOTICE IS HEREBY GIVEN TO interested persons that the applications l
+ isted have been filed with the HAWAII PUBLIC UTILITIES COMMISSION.\n\nSour
+ ce: https://puc.hawaii.gov/public-notice/notice-to-interested-persons-july
+ -24-2026-motor-carrier-applications/?utm_source=rss&utm_medium=rss&utm_cam
+ paign=notice-to-interested-persons-july-24-2026-motor-carrier-applications
+PRIORITY:9
+URL:https://puc.hawaii.gov/public-notice/notice-to-interested-persons-july
+ -24-2026-motor-carrier-applications/?utm_source=rss&utm_medium=rss&utm_cam
+ paign=notice-to-interested-persons-july-24-2026-motor-carrier-applications
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HI] Notice to Interested Persons July 31\, 2026 – Motor Carrier
+  Applications
+DTSTART;TZID=Pacific/Honolulu:20260731T000000
+DTEND;TZID=Pacific/Honolulu:20260731T020000
+DTSTAMP:20260814T181729Z
+UID:cf53e5cd59a809044206@psc-calendar
+CATEGORIES:HI,Other
+DESCRIPTION:Commission: Hawaii Public Utilities Commission (HI)\nType: Oth
+ er\n\nNOTICE IS HEREBY GIVEN TO interested persons that the applications l
+ isted have been filed with the HAWAII PUBLIC UTILITIES COMMISSION.\n\nSour
+ ce: https://puc.hawaii.gov/public-notice/notice-to-interested-persons-july
+ -31-2026-motor-carrier-applications/?utm_source=rss&utm_medium=rss&utm_cam
+ paign=notice-to-interested-persons-july-31-2026-motor-carrier-applications
+PRIORITY:9
+URL:https://puc.hawaii.gov/public-notice/notice-to-interested-persons-july
+ -31-2026-motor-carrier-applications/?utm_source=rss&utm_medium=rss&utm_cam
+ paign=notice-to-interested-persons-july-31-2026-motor-carrier-applications
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HI] Notice to Interested Persons August 7\, 2026 – Motor Carrie
+ r Applications
+DTSTART;TZID=Pacific/Honolulu:20260807T000000
+DTEND;TZID=Pacific/Honolulu:20260807T020000
+DTSTAMP:20260814T181729Z
+UID:4b80eea3645606f604db@psc-calendar
+CATEGORIES:HI,Other
+DESCRIPTION:Commission: Hawaii Public Utilities Commission (HI)\nType: Oth
+ er\n\nNOTICE IS HEREBY GIVEN TO interested persons that the applications l
+ isted have been filed with the HAWAII PUBLIC UTILITIES COMMISSION.\n\nSour
+ ce: https://puc.hawaii.gov/public-notice/notice-to-interested-persons-augu
+ st-7-2026-motor-carrier-applications/?utm_source=rss&utm_medium=rss&utm_ca
+ mpaign=notice-to-interested-persons-august-7-2026-motor-carrier-applicatio
+ ns
+PRIORITY:9
+URL:https://puc.hawaii.gov/public-notice/notice-to-interested-persons-augu
+ st-7-2026-motor-carrier-applications/?utm_source=rss&utm_medium=rss&utm_ca
+ mpaign=notice-to-interested-persons-august-7-2026-motor-carrier-applicatio
+ ns
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,188 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Oregon Public Utility Commission.
+X-WR-CALNAME:OR — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
+  General Information Administrative Rules Consumer Information Electricity
+ /Natural Gas Careers at PUC Oregon Telephone Assistance Programs Safety Te
+ lecommunications Water Filing Center
+DTSTART;TZID=America/Los_Angeles:20260810T000000
+DTEND;TZID=America/Los_Angeles:20260810T020000
+DTSTAMP:20260814T181729Z
+UID:6103146e4cbb0e6aa7f4@psc-calendar
+CATEGORIES:OR,Workshop / Conference
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Works
+ hop / Conference\n\nSource: https://apps.puc.state.or.us/edocketsSearch/eD
+ ocketsSearch/
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edocketsSearch/eDocketsSearch/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] The Hearings and Events calendar list includes details about 
+ upcoming hearings\, conferences\, and workshops for the current week\, or 
+ any of the next seven weeks. Select the individual event to see more infor
+ mation.
+DTSTART;TZID=America/Los_Angeles:20260810T000000
+DTEND;TZID=America/Los_Angeles:20260810T020000
+DTSTAMP:20260814T181729Z
+UID:4ad2be84d8f4a17b7312@psc-calendar
+CATEGORIES:OR,Decision / Order
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Decis
+ ion / Order\n\neDockets Hearing/Meeting Calendar The Hearings and Events c
+ alendar list includes details about upcoming hearings\, conferences\, and 
+ workshops for the current week\, or any of the next seven weeks. Select th
+ e individual event to see more information. View Hearings and Meetings* fo
+ r Weeks of: August 10 to August 16\, 2026 August 17 to August 23\, 2026 Au
+ gust 24 to August 30\, 2026 August 31 to September 6\, 2026 September 7 to
+  September 13\, 2026 September 14 to September 20\, 2026 September 21 to S
+ eptember 27\, 2026 September 28 to October 4\, 2026 *For Commission Public
+  Meetings\, visit the Public Meetin\n\nSource: https://apps.puc.state.or.u
+ s/edockets/hcallist.asp?StartDate=8%2F10%2F2026+10%3A27%3A53+AM&EndDate=8%
+ 2F16%2F2026+10%3A27%3A53+AM
+PRIORITY:5
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8%2F10%2F
+ 2026+10%3A27%3A53+AM&EndDate=8%2F16%2F2026+10%3A27%3A53+AM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] View Hearings and Meetings* for Weeks of:
+DTSTART;TZID=America/Los_Angeles:20260810T000000
+DTEND;TZID=America/Los_Angeles:20260810T020000
+DTSTAMP:20260814T181729Z
+UID:df87791170975f51d846@psc-calendar
+CATEGORIES:OR,Other
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Other
+ \n\nView Hearings and Meetings* for Weeks of: August 10 to August 16\, 202
+ 6 August 17 to August 23\, 2026 August 24 to August 30\, 2026 August 31 to
+  September 6\, 2026 September 7 to September 13\, 2026 September 14 to Sep
+ tember 20\, 2026 September 21 to September 27\, 2026 September 28 to Octob
+ er 4\, 2026 | View Hearings and Meetings* for Weeks of: August 10 to Augus
+ t 16\, 2026 August 17 to August 23\, 2026 August 24 to August 30\, 2026 Au
+ gust 31 to September 6\, 2026 September 7 to September 13\, 2026 September
+  14 to September 20\, 2026 September 21 to September 27\, 2026 September 2
+ 8 to October 4\, 2026 | | Vi\n\nSource: https://apps.puc.state.or.us/edock
+ ets/hcallist.asp?StartDate=8%2F10%2F2026+10%3A27%3A53+AM&EndDate=8%2F16%2F
+ 2026+10%3A27%3A53+AM
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8%2F10%2F
+ 2026+10%3A27%3A53+AM&EndDate=8%2F16%2F2026+10%3A27%3A53+AM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] August 10 to August 16\, 2026
+DTSTART;TZID=America/Los_Angeles:20260810T000000
+DTEND;TZID=America/Los_Angeles:20260810T020000
+DTSTAMP:20260814T181729Z
+UID:438572b05a1edaa4cad0@psc-calendar
+CATEGORIES:OR,Other
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Other
+ \n\nSource: https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8
+ %2F10%2F2026+10%3A27%3A53+AM&EndDate=8%2F16%2F2026+10%3A27%3A53+AM
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8%2F10%2F
+ 2026+10%3A27%3A53+AM&EndDate=8%2F16%2F2026+10%3A27%3A53+AM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] August 17 to August 23\, 2026
+DTSTART;TZID=America/Los_Angeles:20260817T000000
+DTEND;TZID=America/Los_Angeles:20260817T020000
+DTSTAMP:20260814T181729Z
+UID:eea1476e8bddbf3d7fe6@psc-calendar
+CATEGORIES:OR,Other
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Other
+ \n\nSource: https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8
+ %2F17%2F2026+10%3A27%3A53+AM&EndDate=8%2F23%2F2026+10%3A27%3A53+AM
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8%2F17%2F
+ 2026+10%3A27%3A53+AM&EndDate=8%2F23%2F2026+10%3A27%3A53+AM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] August 24 to August 30\, 2026
+DTSTART;TZID=America/Los_Angeles:20260824T000000
+DTEND;TZID=America/Los_Angeles:20260824T020000
+DTSTAMP:20260814T181729Z
+UID:1e6b8ca746472256b546@psc-calendar
+CATEGORIES:OR,Other
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Other
+ \n\nSource: https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8
+ %2F24%2F2026+10%3A27%3A53+AM&EndDate=8%2F30%2F2026+10%3A27%3A53+AM
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8%2F24%2F
+ 2026+10%3A27%3A53+AM&EndDate=8%2F30%2F2026+10%3A27%3A53+AM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] August 31 to September 6\, 2026
+DTSTART;TZID=America/Los_Angeles:20260831T000000
+DTEND;TZID=America/Los_Angeles:20260831T020000
+DTSTAMP:20260814T181729Z
+UID:1ba4f2c2eb8646bc3af5@psc-calendar
+CATEGORIES:OR,Other
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Other
+ \n\nSource: https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8
+ %2F31%2F2026+10%3A27%3A53+AM&EndDate=9%2F6%2F2026+10%3A27%3A53+AM
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8%2F31%2F
+ 2026+10%3A27%3A53+AM&EndDate=9%2F6%2F2026+10%3A27%3A53+AM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] September 7 to September 13\, 2026
+DTSTART;TZID=America/Los_Angeles:20260907T000000
+DTEND;TZID=America/Los_Angeles:20260907T020000
+DTSTAMP:20260814T181729Z
+UID:efe74cef20a8bf50254a@psc-calendar
+CATEGORIES:OR,Other
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Other
+ \n\nSource: https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9
+ %2F7%2F2026+10%3A27%3A53+AM&EndDate=9%2F13%2F2026+10%3A27%3A53+AM
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9%2F7%2F2
+ 026+10%3A27%3A53+AM&EndDate=9%2F13%2F2026+10%3A27%3A53+AM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] September 14 to September 20\, 2026
+DTSTART;TZID=America/Los_Angeles:20260914T000000
+DTEND;TZID=America/Los_Angeles:20260914T020000
+DTSTAMP:20260814T181729Z
+UID:cd36770ecbaa0a7d68fb@psc-calendar
+CATEGORIES:OR,Other
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Other
+ \n\nSource: https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9
+ %2F14%2F2026+10%3A27%3A53+AM&EndDate=9%2F20%2F2026+10%3A27%3A53+AM
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9%2F14%2F
+ 2026+10%3A27%3A53+AM&EndDate=9%2F20%2F2026+10%3A27%3A53+AM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] September 21 to September 27\, 2026
+DTSTART;TZID=America/Los_Angeles:20260921T000000
+DTEND;TZID=America/Los_Angeles:20260921T020000
+DTSTAMP:20260814T181729Z
+UID:eadc96417282b19f8c34@psc-calendar
+CATEGORIES:OR,Other
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Other
+ \n\nSource: https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9
+ %2F21%2F2026+10%3A27%3A53+AM&EndDate=9%2F27%2F2026+10%3A27%3A53+AM
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9%2F21%2F
+ 2026+10%3A27%3A53+AM&EndDate=9%2F27%2F2026+10%3A27%3A53+AM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OR] September 28 to October 4\, 2026
+DTSTART;TZID=America/Los_Angeles:20260928T000000
+DTEND;TZID=America/Los_Angeles:20260928T020000
+DTSTAMP:20260814T181729Z
+UID:c1ff72ee213738d760ef@psc-calendar
+CATEGORIES:OR,Other
+DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Other
+ \n\nSource: https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9
+ %2F28%2F2026+10%3A27%3A53+AM&EndDate=10%2F4%2F2026+10%3A27%3A53+AM
+PRIORITY:9
+URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9%2F28%2F
+ 2026+10%3A27%3A53+AM&EndDate=10%2F4%2F2026+10%3A27%3A53+AM
+END:VEVENT
+END:VCALENDAR

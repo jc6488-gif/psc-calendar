@@ -1,0 +1,108 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Georgia Public Service Commission.
+X-WR-CALNAME:GA — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[GA] Administrative Session 8-4-2026
+DTSTART;TZID=America/New_York:20260804T000000
+DTEND;TZID=America/New_York:20260804T020000
+DTSTAMP:20260814T181729Z
+UID:fc54f633d27aa83596c9@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\n9:30 am Administrative Session 8-4-2026\n\nSource: https:/
+ /psc.ga.gov/agendas-calendars/commission-calendar/administrative-session-8
+ -4-2026/
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-8-4-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
+ tive Affairs Committees 8-13-2026
+DTSTART;TZID=America/New_York:20260813T000000
+DTEND;TZID=America/New_York:20260813T020000
+DTSTAMP:20260814T181729Z
+UID:ea5cccda4f4b825eac97@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\n\n9:30 am Facilities Protection/Telecommunication/Energy And Administra
+ tive Affairs Committees 8-13-2026\n\nSource: https://psc.ga.gov/agendas-ca
+ lendars/commission-calendar/facilities-protection-telecommunication-energy
+ -and-administrative-affairs-committees-8-13-2026/
+PRIORITY:9
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-8-
+ 13-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SO] Docket # 55973 City of Cartersville v. Georgia Power Company 
+ (Hearing Officer) 8-14-2026
+DTSTART;TZID=America/New_York:20260814T000000
+DTEND;TZID=America/New_York:20260814T020000
+DTSTAMP:20260814T181729Z
+UID:479400e35ea19504c722@psc-calendar
+CATEGORIES:GA,Other,SO
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\nTickers: SO\nEntity: Georgia Power Company\n\n9:30 am Docket # 55973 Ci
+ ty of Cartersville v. Georgia Power Company (Hearing Officer) 8-14-2026\n\
+ nSource: https://psc.ga.gov/agendas-calendars/commission-calendar/docket-5
+ 5973-city-of-cartersville-v-georgia-power-company-hearing-officer-1/
+PRIORITY:9
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-55973-
+ city-of-cartersville-v-georgia-power-company-hearing-officer-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Administrative Session 8-18-2026
+DTSTART;TZID=America/New_York:20260818T000000
+DTEND;TZID=America/New_York:20260818T020000
+DTSTAMP:20260814T181729Z
+UID:736467aec83877cca68f@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\n9:30 am Administrative Session 8-18-2026\n\nSource: https:
+ //psc.ga.gov/agendas-calendars/commission-calendar/administrative-session-
+ 8-18-2026/
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-8-18-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] GUFPA Hearing 8-19-2026
+DTSTART;TZID=America/New_York:20260819T000000
+DTEND;TZID=America/New_York:20260819T020000
+DTSTAMP:20260814T181729Z
+UID:b7efb5d506b35c39b812@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\n\n10:00 am GUFPA Hearing 8-19-2026\n\nSource: https://psc.ga.gov/agenda
+ s-calendars/commission-calendar/gufpa-hearing-8-19-2026/
+PRIORITY:9
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/gufpa-hearing
+ -8-19-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
+ tive Affairs Committees 8-27-2026
+DTSTART;TZID=America/New_York:20260827T000000
+DTEND;TZID=America/New_York:20260827T020000
+DTSTAMP:20260814T181729Z
+UID:a35a24814b3c6913c039@psc-calendar
+CATEGORIES:GA,Other
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
+ r\n\n9:30 am Facilities Protection/Telecommunication/Energy And Administra
+ tive Affairs Committees 8-27-2026\n\nSource: https://psc.ga.gov/agendas-ca
+ lendars/commission-calendar/facilities-protection-telecommunication-energy
+ -and-administrative-affairs-committees-8-27-2026/
+PRIORITY:9
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-8-
+ 27-2026/
+END:VEVENT
+END:VCALENDAR

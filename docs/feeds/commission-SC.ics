@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for South Carolina Public Service Commissio
+ n.
+X-WR-CALNAME:SC — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: Au
+ gust 6\, 13\, 20
+DTSTART;TZID=America/New_York:20260806T000000
+DTEND;TZID=America/New_York:20260806T020000
+DTSTAMP:20260814T181729Z
+UID:1a8fda851b7253dc4666@psc-calendar
+CATEGORIES:SC,Decision / Order
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Decision / Order\n\nAugust | 6\, 13\, 20\n\nSource: https://psc.sc.gov/
+ about-us/scheduled-commission-meetings
+PRIORITY:5
+URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Hearing in Docket No. 2026-61-G
+DTSTART;TZID=America/New_York:20260820T100000
+DTEND;TZID=America/New_York:20260820T120000
+DTSTAMP:20260814T181729Z
+UID:ba03b77ab23a36592823@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\nDocket: 2026-61-G\n\nHearing in Docket No. 2026-61-G | August 20
+ th\, 2026 10:00 a.m. Watch Live\n\nSource: https://dms.psc.sc.gov/Web/Dock
+ ets/Detail/119642
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119642
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Commission Business Meeting
+DTSTART;TZID=America/New_York:20260820T130000
+DTEND;TZID=America/New_York:20260820T150000
+DTSTAMP:20260814T181729Z
+UID:262c5fe811aac2404e6e@psc-calendar
+CATEGORIES:SC,Decision / Order
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Decision / Order\n\nCommission Business Meeting | August 20th\, 2026 1:
+ 00 p.m. Watch Live\n\nSource: https://dms.psc.sc.gov/Web/Calendar/Detail/8
+ 4813
+PRIORITY:5
+URL:https://dms.psc.sc.gov/Web/Calendar/Detail/84813
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Hearing in Docket No. 2026-61-G
+DTSTART;TZID=America/New_York:20260821T100000
+DTEND;TZID=America/New_York:20260821T120000
+DTSTAMP:20260814T181729Z
+UID:7562c01e39483903e8bc@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\nDocket: 2026-61-G\n\nHearing in Docket No. 2026-61-G | August 21
+ st\, 2026 10:00 a.m. Watch Live\n\nSource: https://dms.psc.sc.gov/Web/Dock
+ ets/Detail/119642
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119642
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: Se
+ ptember 3\, 17\, 24
+DTSTART;TZID=America/New_York:20260903T000000
+DTEND;TZID=America/New_York:20260903T020000
+DTSTAMP:20260814T181729Z
+UID:d1728c94dee4c3033a85@psc-calendar
+CATEGORIES:SC,Decision / Order
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Decision / Order\n\nSeptember | 3\, 17\, 24\n\nSource: https://psc.sc.g
+ ov/about-us/scheduled-commission-meetings
+PRIORITY:5
+URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: Oc
+ tober 1\, 8\, 22
+DTSTART;TZID=America/New_York:20261001T000000
+DTEND;TZID=America/New_York:20261001T020000
+DTSTAMP:20260814T181729Z
+UID:f9add8908f282d9253c5@psc-calendar
+CATEGORIES:SC,Decision / Order
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Decision / Order\n\nOctober | 1\, 8\, 22\n\nSource: https://psc.sc.gov/
+ about-us/scheduled-commission-meetings
+PRIORITY:5
+URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: No
+ vember 5\, 19
+DTSTART;TZID=America/New_York:20261105T000000
+DTEND;TZID=America/New_York:20261105T020000
+DTSTAMP:20260814T181729Z
+UID:5ca7a7e11e4de43e0b4a@psc-calendar
+CATEGORIES:SC,Decision / Order
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Decision / Order\n\nNovember | 5\, 19\n\nSource: https://psc.sc.gov/abo
+ ut-us/scheduled-commission-meetings
+PRIORITY:5
+URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: De
+ cember 3\, 10\, 17
+DTSTART;TZID=America/New_York:20261203T000000
+DTEND;TZID=America/New_York:20261203T020000
+DTSTAMP:20260814T181729Z
+UID:70d27e2ac3965c684c1f@psc-calendar
+CATEGORIES:SC,Decision / Order
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Decision / Order\n\nDecember | 3\, 10\, 17\n\nSource: https://psc.sc.go
+ v/about-us/scheduled-commission-meetings
+PRIORITY:5
+URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
+END:VEVENT
+END:VCALENDAR

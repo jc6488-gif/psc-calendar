@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Vermont Public Utility Commission.
+X-WR-CALNAME:VT — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[VT] PUC Case No. 26-1130-TF-Public Hearing-Tariff filing of Town 
+ of Stowe Electric Department requesting an overall rate increase of 14.6% 
+ effective on service rendered on or after August 1\, 2026
+DTSTART;TZID=America/New_York:20260801T000000
+DTEND;TZID=America/New_York:20260801T020000
+DTSTAMP:20260814T181729Z
+UID:be29d4aca9e626548306@psc-calendar
+CATEGORIES:VT,Public Comment Hearing
+DESCRIPTION:Commission: Vermont Public Utility Commission (VT)\nType: Publ
+ ic Comment Hearing\nDocket: 26-1130-TF-PUBLIC\, 26-1130-TF\n\nSource: http
+ s://puc.vermont.gov/event/puc-case-no-26-1130-tf-public-hearing-tariff-fil
+ ing-town-stowe-electric-department-requesting
+PRIORITY:9
+URL:https://puc.vermont.gov/event/puc-case-no-26-1130-tf-public-hearing-ta
+ riff-filing-town-stowe-electric-department-requesting
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[VT] PUC Case No. 26-0096-TF-Public Hearing-Tariff filing of Green
+  Mountain Power Corporation for a 7.5% rate increase effective with bills 
+ rendered on or after October 1\, 2026
+DTSTART;TZID=America/New_York:20261001T000000
+DTEND;TZID=America/New_York:20261001T020000
+DTSTAMP:20260814T181729Z
+UID:22587a3da6dfbe04f588@psc-calendar
+CATEGORIES:VT,Public Comment Hearing
+DESCRIPTION:Commission: Vermont Public Utility Commission (VT)\nType: Publ
+ ic Comment Hearing\nDocket: 26-0096-TF-PUBLIC\, 26-0096-TF\n\nSource: http
+ s://puc.vermont.gov/event/puc-case-no-26-0096-tf-public-hearing-tariff-fil
+ ing-green-mountain-power-corporation-75-rate
+PRIORITY:9
+URL:https://puc.vermont.gov/event/puc-case-no-26-0096-tf-public-hearing-ta
+ riff-filing-green-mountain-power-corporation-75-rate
+END:VEVENT
+END:VCALENDAR

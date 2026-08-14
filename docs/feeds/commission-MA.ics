@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Massachusetts Department of Public Util
+ ities.
+X-WR-CALNAME:MA — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[MA] Notice of Hearings: DPU Transportation Oversight Division
+DTSTART;TZID=America/New_York:20260820T000000
+DTEND;TZID=America/New_York:20260820T020000
+DTSTAMP:20260814T181729Z
+UID:87c3f9d873e7e00868b3@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nShowing 1-1 of 1 results Aug 20 Notice of Hearings: DPU Tr
+ ansportation Oversight Division One South Station\, 3rd floor\, Boston\, M
+ A 02110 Thursday\, August 20\, 2026 9 a.m. - 10 a.m.\n\nSource: https://ww
+ w.mass.gov/event/notice-of-hearings-dpu-transportation-oversight-division-
+ 08-20-2026
+PRIORITY:9
+URL:https://www.mass.gov/event/notice-of-hearings-dpu-transportation-overs
+ ight-division-08-20-2026
+END:VEVENT
+END:VCALENDAR

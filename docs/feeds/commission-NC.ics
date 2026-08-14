@@ -1,0 +1,467 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for North Carolina Utilities Commission.
+X-WR-CALNAME:NC — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[NC] Remote Public Witness Hearing - Joint Application of Aqua Nor
+ th Carolina\, Inc. and C & P Enterprises for Transfer of Public Utility Fr
+ anchise and for Approval of Rates
+DTSTART;TZID=America/New_York:20260817T000000
+DTEND;TZID=America/New_York:20260817T020000
+DTSTAMP:20260814T181729Z
+UID:e5fdd2793a1f9fede007@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n8/17/2026 | 6:30pm | WebEx | W-218 Sub 645 W-1063 
+ Sub 6 | Remote Public Witness Hearing - Joint Application of Aqua North Ca
+ rolina\, Inc. and C & P Enterprises for Transfer of Public Utility Franchi
+ se and for Approval of Rates |\n\nSource: https://starw1.ncuc.gov/NCUC/PSC
+ /DocketDetails.aspx?DocketId=99904b2b-cd4a-4d69-b529-ade11cc5fcb7
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/PSC/DocketDetails.aspx?DocketId=99904b2b-
+ cd4a-4d69-b529-ade11cc5fcb7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Oral Argument Hearing - Application of Water Quality Utilitie
+ s\, Inc\,. for a Certificate of Public Convenience and Necessity and for A
+ pproval of Rates to provide Wastewater Utility Service to Phase 5 Legacy R
+ idge at Echota in Watauga County\, Nort
+DTSTART;TZID=America/New_York:20260903T000000
+DTEND;TZID=America/New_York:20260903T020000
+DTSTAMP:20260814T181729Z
+UID:02ef42b8f3de364832e3@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n9/03/2026 | 10:00am | Hearing Room 2115\, Dobbs Building\, 430 N Sa
+ lisbury St. Raleigh | W-1264 Sub 9 | Oral Argument Hearing - Application o
+ f Water Quality Utilities\, Inc\,. for a Certificate of Public Convenience
+  and Necessity and for Approval of Rates to provide Wastewater Utility Ser
+ vice to Phase 5 Legacy Ridge at Echota in Watauga County\, North Carolina 
+ |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetai
+ ls.aspx?DocketId=33f91fd7-99fa-4b3d-9eb6-2f049642bb7d
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=33f91fd7-99fa-4b3d-9eb6-2f049642bb7d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing: Joint Application of Duke Energy Prog
+ ress\, LLC and North Carolina Electric Membership Corporation for a Certif
+ icate of Public Convenience and Necessity to Construct a 1\,360 MW Natural
+  Gas-Fueled Combined Cycle Electric Ge
+DTSTART;TZID=America/New_York:20260904T100000
+DTEND;TZID=America/New_York:20260904T120000
+DTSTAMP:20260814T181729Z
+UID:5af9ee5483626ff762f8@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n9/04/2026 10:00am Canceled | Hearing Room 2115\, Dobbs Building\, 4
+ 30 N Salisbury St. Raleigh | E-2 Sub 1318 | Expert Witness Hearing: Joint 
+ Application of Duke Energy Progress\, LLC and North Carolina Electric Memb
+ ership Corporation for a Certificate of Public Convenience and Necessity t
+ o Construct a 1\,360 MW Natural Gas-Fueled Combined Cycle Electric Generat
+ ing Facility in Person County\, North Carolina |\n\nSource: https://starw1
+ .ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?DocketId=832d5fd7-b
+ d96-42aa-b8c7-6833532ecc6a
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=832d5fd7-bd96-42aa-b8c7-6833532ecc6a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing - Application by William E. Cook\, Jr.
+ \, for Authority to Adjust and Increase Rates for Water Utility Service in
+  Green Oaks Subdivision in Cabarrus County\, North Carolina
+DTSTART;TZID=America/New_York:20260908T000000
+DTEND;TZID=America/New_York:20260908T020000
+DTSTAMP:20260814T181729Z
+UID:df3ae607879c96ac52d4@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n9/08/2026 | 7:00pm | Cabarrus County Courthouse 61
+  Union Street South Concord | W-1262 Sub 2 | Public Witness Hearing - Appl
+ ication by William E. Cook\, Jr.\, for Authority to Adjust and Increase Ra
+ tes for Water Utility Service in Green Oaks Subdivision in Cabarrus County
+ \, North Carolina |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-do
+ cs/PSC/DocketDetails.aspx?DocketId=b6d52eb1-2ce0-487a-a8f3-0d4f7d03d077
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=b6d52eb1-2ce0-487a-a8f3-0d4f7d03d077
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing - Application of Duke Energy Carolinas
+ \, LLC for a Certificate of Public Convenience and Necessity to Construct 
+ an 850 MW Natural Gas-Fueled Simple-Cycle Combustion Turbine Electric Gene
+ rating Facility in Rowan County\, Nort
+DTSTART;TZID=America/New_York:20260909T000000
+DTEND;TZID=America/New_York:20260909T020000
+DTSTAMP:20260814T181729Z
+UID:8d7eab84772585d602e3@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n9/09/2026 | 10:00am | Hearing Room 2115\, Dobbs Building\, 430 N Sa
+ lisbury St. Raleigh | E-7 Sub 1330 | Expert Witness Hearing - Application 
+ of Duke Energy Carolinas\, LLC for a Certificate of Public Convenience and
+  Necessity to Construct an 850 MW Natural Gas-Fueled Simple-Cycle Combusti
+ on Turbine Electric Generating Facility in Rowan County\, North Carolina |
+ \n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetail
+ s.aspx?DocketId=4ba67bc7-7c30-4a5c-be26-93777ac63431
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=4ba67bc7-7c30-4a5c-be26-93777ac63431
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing - Application of Duke Energy Progress\
+ , LLC\, for Approval of Joint Agency Asset Rider for Recovery of Costs Rel
+ ated to Facilities Purchased from Joint Power Agency
+DTSTART;TZID=America/New_York:20260915T000000
+DTEND;TZID=America/New_York:20260915T020000
+DTSTAMP:20260814T181729Z
+UID:e17c2176c032541cd110@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n9/15/2026 | 10:00am | Hearing Room 2115\, Dobbs Bu
+ ilding\, 430 N Salisbury St. Raleigh | E-2 Sub 1397 | Public Witness Heari
+ ng - Application of Duke Energy Progress\, LLC\, for Approval of Joint Age
+ ncy Asset Rider for Recovery of Costs Related to Facilities Purchased from
+  Joint Power Agency |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-
+ docs/PSC/DocketDetails.aspx?DocketId=6e4f2ae3-2861-42b3-8c68-f6a081d3fc7c
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=6e4f2ae3-2861-42b3-8c68-f6a081d3fc7c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing - Application of Duke Energy Progress\
+ , LLC\, Pursuant to N.C.G.S. § 62-133.2 and NCUC Rule R8-55 Relating to F
+ uel and Fuel-Related Charge Adjustments for Electric Utilities
+DTSTART;TZID=America/New_York:20260915T000000
+DTEND;TZID=America/New_York:20260915T020000
+DTSTAMP:20260814T181729Z
+UID:5b4cd2809f1526960a41@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n9/15/2026 | 10:00am | Hearing Room 2115\, Dobbs Bu
+ ilding\, 430 N Salisbury St. Raleigh | E-2 Sub 1398 | Public Witness Heari
+ ng - Application of Duke Energy Progress\, LLC\, Pursuant to N.C.G.S. § 6
+ 2-133.2 and NCUC Rule R8-55 Relating to Fuel and Fuel-Related Charge Adjus
+ tments for Electric Utilities |\n\nSource: https://starw1.ncuc.gov/NCUC/pa
+ ge/docket-docs/PSC/DocketDetails.aspx?DocketId=5e8b6aeb-aeea-44b8-b01c-30b
+ 6f7176a7d
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=5e8b6aeb-aeea-44b8-b01c-30b6f7176a7d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing: Application of Old North State Water 
+ Company\, Inc.\, for Authority to Adjust and Increase Rates for Water and 
+ Sewer Utility Services in Authorized North Carolina Service Areas
+DTSTART;TZID=America/New_York:20260917T000000
+DTEND;TZID=America/New_York:20260917T020000
+DTSTAMP:20260814T181729Z
+UID:c2e8653902f750c929c4@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n9/17/2026 | 7:00pm | Onslow County Courthouse 625 
+ Court Street\, Jacksonville | W-1300 Sub 118 | Public Witness Hearing: App
+ lication of Old North State Water Company\, Inc.\, for Authority to Adjust
+  and Increase Rates for Water and Sewer Utility Services in Authorized Nor
+ th Carolina Service Areas |\n\nSource: https://starw1.ncuc.gov/NCUC/page/d
+ ocket-docs/PSC/DocketDetails.aspx?DocketId=7217a5ef-a744-4f8a-ad8d-6db1079
+ 56203
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=7217a5ef-a744-4f8a-ad8d-6db107956203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing: Joint Application of Essential Utilit
+ ies\, Inc.\, Aqua North Carolina\, Inc.\, and Alpha Merger Sub\, Inc. for 
+ Authorization to Engage in a Business Combination and Request by American 
+ Water Works Company\, Inc. for Approval of
+DTSTART;TZID=America/New_York:20260921T000000
+DTEND;TZID=America/New_York:20260921T020000
+DTSTAMP:20260814T181729Z
+UID:75a5effa9921d2ef85f4@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n9/21/2026 | 2:00pm | Hearing Room 2115\, Dobbs Building\, 430 N Sal
+ isbury St. Raleigh | W-218 Sub 643 | Expert Witness Hearing: Joint Applica
+ tion of Essential Utilities\, Inc.\, Aqua North Carolina\, Inc.\, and Alph
+ a Merger Sub\, Inc. for Authorization to Engage in a Business Combination 
+ and Request by American Water Works Company\, Inc. for Approval of Affilia
+ te Agreements |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-docs/P
+ SC/DocketDetails.aspx?DocketId=5694b7e3-b2d4-47e5-9833-6670cd02928a
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=5694b7e3-b2d4-47e5-9833-6670cd02928a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing - Application of Virginia Electric and
+  Power Company\, d/b/a Dominion Energy North Carolina for Adjustment of Ra
+ tes and Charges Applicable to Electric Service in North Carolina
+DTSTART;TZID=America/New_York:20260928T000000
+DTEND;TZID=America/New_York:20260928T020000
+DTSTAMP:20260814T181729Z
+UID:6e1c1bd729f99b016339@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n9/28/2026 | 7:00pm | Halifax County Courthouse\, D
+ istrict Courtroom\, 357 Ferrell Lane\, Halifax | E-22 Sub 765 | Public Wit
+ ness Hearing - Application of Virginia Electric and Power Company\, d/b/a 
+ Dominion Energy North Carolina for Adjustment of Rates and Charges Applica
+ ble to Electric Service in North Carolina |\n\nSource: https://starw1.ncuc
+ .gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?DocketId=0cbd3ac5-0feb-4
+ 1da-8c6e-7bf3e7ddc3d2
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=0cbd3ac5-0feb-41da-8c6e-7bf3e7ddc3d2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing - Application of Cardinal Pipeline Com
+ pany\, LLC\, for an Adjustment in Its Rates and Charges
+DTSTART;TZID=America/New_York:20260929T000000
+DTEND;TZID=America/New_York:20260929T020000
+DTSTAMP:20260814T181729Z
+UID:664d0ac359c8c8927bb1@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n9/29/2026 | 10:00am | Hearing Room 2115\, Dobbs Building\, 430 N Sa
+ lisbury St. Raleigh | G-39 Sub 52 | Expert Witness Hearing - Application o
+ f Cardinal Pipeline Company\, LLC\, for an Adjustment in Its Rates and Cha
+ rges |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/Docket
+ Details.aspx?DocketId=6b586b0e-59a2-4587-a40a-a15e29d26656
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=6b586b0e-59a2-4587-a40a-a15e29d26656
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing - Application of Royal Gorge Water Uti
+ lity\, LLC for Authority to Adjust and Increase Rates for Water and Sewer 
+ Utility Service
+DTSTART;TZID=America/New_York:20261001T000000
+DTEND;TZID=America/New_York:20261001T020000
+DTSTAMP:20260814T181729Z
+UID:9e34a5fbfd4dd71e89c7@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n10/01/2026 | 7:00pm | Buncombe County Courthouse 6
+ 0 Court Plaza 1A Asheville | W-1331 Sub 6 | Public Witness Hearing - Appli
+ cation of Royal Gorge Water Utility\, LLC for Authority to Adjust and Incr
+ ease Rates for Water and Sewer Utility Service |\n\nSource: https://starw1
+ .ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?DocketId=c0ecc489-0
+ 97f-4f03-a9e2-4bf358b48956
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=c0ecc489-097f-4f03-a9e2-4bf358b48956
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing - Application of Virginia Electric and
+  Power Company\, d/b/a Dominion Energy North Carolina for Adjustment of Ra
+ tes and Charges Applicable to Electric Service in North Carolina
+DTSTART;TZID=America/New_York:20261005T000000
+DTEND;TZID=America/New_York:20261005T020000
+DTSTAMP:20260814T181729Z
+UID:c236a80cb0ca69b694c9@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n10/05/2026 | 7:00pm | Webex | E-22 Sub 765 | Publi
+ c Witness Hearing - Application of Virginia Electric and Power Company\, d
+ /b/a Dominion Energy North Carolina for Adjustment of Rates and Charges Ap
+ plicable to Electric Service in North Carolina |\n\nSource: https://starw1
+ .ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?DocketId=0cbd3ac5-0
+ feb-41da-8c6e-7bf3e7ddc3d2
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=0cbd3ac5-0feb-41da-8c6e-7bf3e7ddc3d2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing: Application of Old North State Water 
+ Company\, Inc.\, for Authority to Adjust and Increase Rates for Water and 
+ Sewer Utility Services in Authorized North Carolina Service Areas
+DTSTART;TZID=America/New_York:20261008T000000
+DTEND;TZID=America/New_York:20261008T020000
+DTSTAMP:20260814T181729Z
+UID:9fa50234d46131dea6cf@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n10/08/2026 | 7:00pm | Chatham County Justice Cente
+ r 40 East Chatham Street\, Pittsboro | W-1300 Sub 118 | Public Witness Hea
+ ring: Application of Old North State Water Company\, Inc.\, for Authority 
+ to Adjust and Increase Rates for Water and Sewer Utility Services in Autho
+ rized North Carolina Service Areas |\n\nSource: https://starw1.ncuc.gov/NC
+ UC/page/docket-docs/PSC/DocketDetails.aspx?DocketId=7217a5ef-a744-4f8a-ad8
+ d-6db107956203
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=7217a5ef-a744-4f8a-ad8d-6db107956203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing - Application of Virginia Electric and
+  Power Company\, d/b/a Dominion Energy North Carolina for Adjustment of Ra
+ tes and Charges Applicable to Electric Service in North Carolina
+DTSTART;TZID=America/New_York:20261013T000000
+DTEND;TZID=America/New_York:20261013T020000
+DTSTAMP:20260814T181729Z
+UID:427fc8d7da89953441f8@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n10/13/2026 | 7:00pm | Dare County Commissioners’
+  Meeting Room\, 954 Marshall C Collins Drive Manteo | E-22 Sub 765 | Publi
+ c Witness Hearing - Application of Virginia Electric and Power Company\, d
+ /b/a Dominion Energy North Carolina for Adjustment of Rates and Charges Ap
+ plicable to Electric Service in North Carolina |\n\nSource: https://starw1
+ .ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?DocketId=0cbd3ac5-0
+ feb-41da-8c6e-7bf3e7ddc3d2
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=0cbd3ac5-0feb-41da-8c6e-7bf3e7ddc3d2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing - Application of Virginia Electric and
+  Power Company\, d/b/a Dominion Energy North Carolina for Adjustment of Ra
+ tes and Charges Applicable to Electric Service in North Carolina
+DTSTART;TZID=America/New_York:20261014T000000
+DTEND;TZID=America/New_York:20261014T020000
+DTSTAMP:20260814T181729Z
+UID:0156c85420cbc1934631@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n10/14/2026 | 7:00pm | Martin County Courthouse 305
+  East Main Street Williamston | E-22 Sub 765 | Public Witness Hearing - Ap
+ plication of Virginia Electric and Power Company\, d/b/a Dominion Energy N
+ orth Carolina for Adjustment of Rates and Charges Applicable to Electric S
+ ervice in North Carolina |\n\nSource: https://starw1.ncuc.gov/NCUC/page/do
+ cket-docs/PSC/DocketDetails.aspx?DocketId=0cbd3ac5-0feb-41da-8c6e-7bf3e7dd
+ c3d2
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=0cbd3ac5-0feb-41da-8c6e-7bf3e7ddc3d2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Public Witness Hearing: Application of Rock Creek Environment
+ al Company\, Inc.\, for Authority to Adjust and Increase Rates for Wastewa
+ ter Utility Service in Rock Creek Subdivision and Preps\, Inc\, in Onslow 
+ County\, North Carolina
+DTSTART;TZID=America/New_York:20261020T000000
+DTEND;TZID=America/New_York:20261020T020000
+DTSTAMP:20260814T181729Z
+UID:651f86e76c0d3ad1f08b@psc-calendar
+CATEGORIES:NC,Public Comment Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
+ blic Comment Hearing\n\n10/20/2026 | 7:00pm | Onslow County Courthouse 625
+  Court Street\, Superior Courtroom\, Jacksonville | W-830 Sub 7 | Public W
+ itness Hearing: Application of Rock Creek Environmental Company\, Inc.\, f
+ or Authority to Adjust and Increase Rates for Wastewater Utility Service i
+ n Rock Creek Subdivision and Preps\, Inc\, in Onslow County\, North Caroli
+ na |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDe
+ tails.aspx?DocketId=af3f6001-a732-49de-886b-c70a1cac7258
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=af3f6001-a732-49de-886b-c70a1cac7258
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing: Application of Old North State Water 
+ Company\, Inc.\, for Authority to Adjust and Increase Rates for Water and 
+ Sewer Utility Services in Authorized North Carolina Service Areas
+DTSTART;TZID=America/New_York:20261110T000000
+DTEND;TZID=America/New_York:20261110T020000
+DTSTAMP:20260814T181729Z
+UID:179271f3d267d4b6ccf6@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n11/10/2026 | 10:00am | Hearing Room 2115\, Dobbs Building\, 430 N S
+ alisbury St. Raleigh | W-1300 Sub 118 | Expert Witness Hearing: Applicatio
+ n of Old North State Water Company\, Inc.\, for Authority to Adjust and In
+ crease Rates for Water and Sewer Utility Services in Authorized North Caro
+ lina Service Areas |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-d
+ ocs/PSC/DocketDetails.aspx?DocketId=7217a5ef-a744-4f8a-ad8d-6db107956203
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=7217a5ef-a744-4f8a-ad8d-6db107956203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing - Application by William E. Cook\, Jr.
+ \, for Authority to Adjust and Increase Rates for Water Utility Service in
+  Green Oaks Subdivision in Cabarrus County\, North Carolina
+DTSTART;TZID=America/New_York:20261118T000000
+DTEND;TZID=America/New_York:20261118T020000
+DTSTAMP:20260814T181729Z
+UID:45584a7d6a0511b758a1@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n11/18/2026 | 10:00am | Hearing Room 2160\, Dobbs Building\, 430 N S
+ alisbury St. Raleigh | W-1262 Sub 2 | Expert Witness Hearing - Application
+  by William E. Cook\, Jr.\, for Authority to Adjust and Increase Rates for
+  Water Utility Service in Green Oaks Subdivision in Cabarrus County\, Nort
+ h Carolina |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/
+ DocketDetails.aspx?DocketId=b6d52eb1-2ce0-487a-a8f3-0d4f7d03d077
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=b6d52eb1-2ce0-487a-a8f3-0d4f7d03d077
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing: Application of Virginia Electric and 
+ Power Company\, d/b/a Dominion Energy North Carolina for Adjustment of Rat
+ es and Charges Applicable to Electric Service In North Carolina
+DTSTART;TZID=America/New_York:20261118T000000
+DTEND;TZID=America/New_York:20261118T020000
+DTSTAMP:20260814T181729Z
+UID:5e0cb70fe2d21131dce5@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n11/18/2026 | 10:00am | Hearing Room 2115\, Dobbs Building\, 430 N S
+ alisbury St. Raleigh | E-22 Sub 765 | Expert Witness Hearing: Application 
+ of Virginia Electric and Power Company\, d/b/a Dominion Energy North Carol
+ ina for Adjustment of Rates and Charges Applicable to Electric Service In 
+ North Carolina |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-docs/
+ PSC/DocketDetails.aspx?DocketId=0cbd3ac5-0feb-41da-8c6e-7bf3e7ddc3d2
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=0cbd3ac5-0feb-41da-8c6e-7bf3e7ddc3d2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing - Application of Rock Creek Environmen
+ tal Company\, Inc.\, for Authority to Adjust and Increase Rates for Wastew
+ ater Utility Service in Rock Creek Subdivision and Preps\, Inc\, in Onslow
+  County\, North Carolina
+DTSTART;TZID=America/New_York:20261201T000000
+DTEND;TZID=America/New_York:20261201T020000
+DTSTAMP:20260814T181729Z
+UID:a49736e51014d5ffc76c@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n12/01/2026 | 10:00am | Hearing Room 2115\, Dobbs Building\, 430 N S
+ alisbury St. Raleigh | W-830 Sub 7 | Expert Witness Hearing - Application 
+ of Rock Creek Environmental Company\, Inc.\, for Authority to Adjust and I
+ ncrease Rates for Wastewater Utility Service in Rock Creek Subdivision and
+  Preps\, Inc\, in Onslow County\, North Carolina |\n\nSource: https://star
+ w1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?DocketId=af3f6001
+ -a732-49de-886b-c70a1cac7258
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=af3f6001-a732-49de-886b-c70a1cac7258
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing - Application of Royal Gorge Water Uti
+ lity\, LLC for Authority to Adjust and Increase Rates for Water and Sewer 
+ Utility Service
+DTSTART;TZID=America/New_York:20270112T000000
+DTEND;TZID=America/New_York:20270112T020000
+DTSTAMP:20260814T181729Z
+UID:090b656e9cee5daa5aba@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n01/12/2027 | 10:00am | Commission Hearing Room 2115 Dobbs Building 
+ 430 North Salisbury Street Raleigh | W-1331 Sub 6 | Expert Witness Hearing
+  - Application of Royal Gorge Water Utility\, LLC for Authority to Adjust 
+ and Increase Rates for Water and Sewer Utility Service |\n\nSource: https:
+ //starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?DocketId=c0
+ ecc489-097f-4f03-a9e2-4bf358b48956
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=c0ecc489-097f-4f03-a9e2-4bf358b48956
+END:VEVENT
+END:VCALENDAR

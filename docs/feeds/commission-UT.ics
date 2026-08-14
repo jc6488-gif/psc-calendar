@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Utah Public Service Commission.
+X-WR-CALNAME:UT — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[UT] 3454632603501soanoh5-19-2026.pdf (Public Information Handout)
+DTSTART;TZID=America/Denver:20270127T090000
+DTEND;TZID=America/Denver:20270127T110000
+DTSTAMP:20260814T155459Z
+UID:3a9a8fb7006b5aaa20b4@psc-calendar
+CATEGORIES:UT,Other
+DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Other\n
+ \nHearing (26-035-01\, RMP's 2026 EBA) | 2027/01/26 09:00 AM | 34546326035
+ 01soanoh5-19-2026.pdf (Public Information Handout)\n\nSource: https://www.
+ utah.gov/pmn/sitemap/notice/1074775.html
+PRIORITY:9
+URL:https://www.utah.gov/pmn/sitemap/notice/1074775.html
+END:VEVENT
+END:VCALENDAR

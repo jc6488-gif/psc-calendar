@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Pennsylvania Public Utility Commission.
+X-WR-CALNAME:PA — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[PA] Next Public Meeting: Thursday\, August 27\, 2026 View 2026-20
+ 27 Meeting Schedule (PDF)
+DTSTART;TZID=America/New_York:20260827T000000
+DTEND;TZID=America/New_York:20260827T020000
+DTSTAMP:20260814T181729Z
+UID:2ed365151e78d6b390c3@psc-calendar
+CATEGORIES:PA,Decision / Order
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Decision / Order\n\nSource: https://www.puc.pa.gov/media/3926/2026-2027-p
+ m-schedule.pdf
+PRIORITY:5
+URL:https://www.puc.pa.gov/media/3926/2026-2027-pm-schedule.pdf
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Oklahoma Corporation Commission.
+X-WR-CALNAME:OK — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[OK] 2026 Commission Meetings: July 29\, 2026
+DTSTART;TZID=America/Chicago:20260729T000000
+DTEND;TZID=America/Chicago:20260729T020000
+DTSTAMP:20260814T181729Z
+UID:5c05f4a11ae6c0336cd3@psc-calendar
+CATEGORIES:OK,Decision / Order
+DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
+ on / Order\n\nJuly 29\, 2026 | 1:30 pm | August 19\, 2026 | 1:30 pm\n\nSou
+ rce: https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.htm
+ l
+PRIORITY:5
+URL:https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OK] Agenda Recording
+DTSTART;TZID=America/Chicago:20260729T000000
+DTEND;TZID=America/Chicago:20260729T020000
+DTSTAMP:20260814T181729Z
+UID:63ca2b8fd43abfe6a934@psc-calendar
+CATEGORIES:OK,Decision / Order
+DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
+ on / Order\n\nJuly 29\, 2026 Wednesday 1:30 p.m. | Regular Meeting | Agend
+ a Recording\n\nSource: https://oklahoma.gov/content/dam/ok/en/occ/document
+ s/ajls/jls-courts/court-clerk/meetings/2026/2026-07-29-regular-meeting-age
+ nda.pdf
+PRIORITY:5
+URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
+ ourt-clerk/meetings/2026/2026-07-29-regular-meeting-agenda.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OK] 2026 Commission Meetings: August 6\, 2026
+DTSTART;TZID=America/Chicago:20260806T000000
+DTEND;TZID=America/Chicago:20260806T020000
+DTSTAMP:20260814T181729Z
+UID:4d20cd4a9cc4bdfda18d@psc-calendar
+CATEGORIES:OK,Decision / Order
+DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
+ on / Order\n\nAugust 6\, 2026 | 1:30 pm | August 27\, 2026 | 1:30 pm\n\nSo
+ urce: https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.ht
+ ml
+PRIORITY:5
+URL:https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OK] Agenda Recording
+DTSTART;TZID=America/Chicago:20260806T000000
+DTEND;TZID=America/Chicago:20260806T020000
+DTSTAMP:20260814T181729Z
+UID:29ec472f843c0f23963a@psc-calendar
+CATEGORIES:OK,Decision / Order
+DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
+ on / Order\n\nAugust 6\, 2026 Thursday 1:30 p.m. | Regular Meeting | Agend
+ a Recording\n\nSource: https://oklahoma.gov/content/dam/ok/en/occ/document
+ s/ajls/jls-courts/court-clerk/meetings/2026/2026-08-06-regular-meeting-age
+ nda.pdf
+PRIORITY:5
+URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
+ ourt-clerk/meetings/2026/2026-08-06-regular-meeting-agenda.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OK] 2026 Commission Meetings: August 11\, 2026
+DTSTART;TZID=America/Chicago:20260811T000000
+DTEND;TZID=America/Chicago:20260811T020000
+DTSTAMP:20260814T181729Z
+UID:233292c1c9494f62bb9c@psc-calendar
+CATEGORIES:OK,Decision / Order
+DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
+ on / Order\n\nAugust 11\, 2026 | 1:30 pm | |\n\nSource: https://oklahoma.g
+ ov/occ/public-meetings/2026-commission-meetings.html
+PRIORITY:5
+URL:https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OK] Agenda Watch Live
+DTSTART;TZID=America/Chicago:20260811T000000
+DTEND;TZID=America/Chicago:20260811T020000
+DTSTAMP:20260814T181729Z
+UID:29ad56ffa1492611affa@psc-calendar
+CATEGORIES:OK,Decision / Order
+DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
+ on / Order\n\nAugust 11\, 2026 Tuesday 1:30 p.m. | Regular Meeting | Agend
+ a Watch Live\n\nSource: https://oklahoma.gov/content/dam/ok/en/occ/documen
+ ts/ajls/jls-courts/court-clerk/meetings/2026/2026-08-11-regular-meeting-ag
+ enda.pdf
+PRIORITY:5
+URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
+ ourt-clerk/meetings/2026/2026-08-11-regular-meeting-agenda.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OK] Agenda Watch Live
+DTSTART;TZID=America/Chicago:20260819T000000
+DTEND;TZID=America/Chicago:20260819T020000
+DTSTAMP:20260814T181729Z
+UID:a47389341835f3652807@psc-calendar
+CATEGORIES:OK,Other
+DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Other\
+ n\nAugust 19\, 2026 Wednesday 10:00 a.m. | Special Meeting | Agenda Watch 
+ Live\n\nSource: https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/
+ jls-courts/court-clerk/meetings/2026/2026-08-19-special-meeting-agenda1.pd
+ f
+PRIORITY:9
+URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
+ ourt-clerk/meetings/2026/2026-08-19-special-meeting-agenda1.pdf
+END:VEVENT
+END:VCALENDAR

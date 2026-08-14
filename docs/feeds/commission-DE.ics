@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Delaware Public Service Commission.
+X-WR-CALNAME:DE — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF ARTESIAN WATER COMPANY\, 
+ INC. FOR A CERTIFICATE OF PUBLIC CONVENIENCE AND NECESSITY TO PROVIDE WATE
+ R SERVICES PURSUANT TO 26 DEL. C. 203C (“KENT2600\, KENT0903\, KENT1602\
+ , KENT2700”)(FILED JULY 16\, 2026) – PSC DO
+DTSTART;TZID=America/New_York:20260716T000000
+DTEND;TZID=America/New_York:20260716T020000
+DTSTAMP:20260814T181729Z
+UID:403bd4cc6d356243fea0@psc-calendar
+CATEGORIES:DE,Other
+DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
+ er\nDocket: 26-0723\n\nSource: https://depsc.delaware.gov/wp-content/uploa
+ ds/sites/54/2026/07/Notice-of-Publication-26-0723_ver_1.pdf
+PRIORITY:9
+URL:https://depsc.delaware.gov/wp-content/uploads/sites/54/2026/07/Notice-
+ of-Publication-26-0723_ver_1.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF TIDEWATER UTILITIES\, INC
+ . FOR A CERTIFICATE OF PUBLIC CONVENIENCE AND NECESSITY TO PROVIDE WATER S
+ ERVICES PURSUANT TO 26 DEL. C. 203C (“NEW CASTLE 061726”)(FILED JULY 1
+ 7\, 2026) – PSC DOCKET NO. 26-0728 – Pleas
+DTSTART;TZID=America/New_York:20260717T000000
+DTEND;TZID=America/New_York:20260717T020000
+DTSTAMP:20260814T181729Z
+UID:f58a64a99bd0c63ec654@psc-calendar
+CATEGORIES:DE,Other
+DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
+ er\nDocket: 26-0728\n\nSource: https://depsc.delaware.gov/wp-content/uploa
+ ds/sites/54/2026/08/26-0728-Legal-Notice-Affidavit-1.pdf
+PRIORITY:9
+URL:https://depsc.delaware.gov/wp-content/uploads/sites/54/2026/08/26-0728
+ -Legal-Notice-Affidavit-1.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF ARTESIAN WATER COMPANY\, 
+ INC. FOR A CERTIFICATE OF PUBLIC CONVENIENCE AND NECESSITY TO PROVIDE WATE
+ R SERVICES PURSUANT TO 26 DEL. C. §203C (“SUSSEX7.00\, SUSSEX54.00”)(
+ FILED JULY 29\, 2026) – PSC DOCKET NO. 26-07
+DTSTART;TZID=America/New_York:20260729T000000
+DTEND;TZID=America/New_York:20260729T020000
+DTSTAMP:20260814T181729Z
+UID:60735ef6ad26fe77de9a@psc-calendar
+CATEGORIES:DE,Other
+DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
+ er\nDocket: 26-0763\n\nSource: https://depsc.delaware.gov/wp-content/uploa
+ ds/sites/54/2026/07/Notice-of-Publication-26-0763_ver_1.pdf
+PRIORITY:9
+URL:https://depsc.delaware.gov/wp-content/uploads/sites/54/2026/07/Notice-
+ of-Publication-26-0763_ver_1.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF ARTESIAN WASTEWATER MANAG
+ EMENT\, INC. FOR A CERTIFICATE OF PUBLIC CONVENIENCE AND NECESSITY TO PROV
+ IDE WASTEWATER SERVICE PURSUANT TO 26 DEL. C. §203D. (“SUSSEX46.05\, SU
+ SSEX67.00\, SUSSEX54.00\, SUSSEX2.00”) (FIL
+DTSTART;TZID=America/New_York:20260730T000000
+DTEND;TZID=America/New_York:20260730T020000
+DTSTAMP:20260814T181729Z
+UID:43ad8adb9786ba70dc4b@psc-calendar
+CATEGORIES:DE,Other
+DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
+ er\nDocket: 26-0765\n\nSource: https://depsc.delaware.gov/public-notices
+PRIORITY:9
+URL:https://depsc.delaware.gov/public-notices
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF TIDEWATER UTILITIES\, INC
+ . FOR A CERTIFICATE OF PUBLIC CONVENIENCE AND NECESSITY TO PROVIDE WATER S
+ ERVICES PURSUANT TO 26 DEL. C. 203C (“SUSSEX 070226 (B)”)(FILED AUGUST
+  3\, 2026) – PSC DOCKET NO. 26-0780 – Plea
+DTSTART;TZID=America/New_York:20260803T000000
+DTEND;TZID=America/New_York:20260803T020000
+DTSTAMP:20260814T181729Z
+UID:cb5ed87a4851227aea92@psc-calendar
+CATEGORIES:DE,Other
+DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
+ er\nDocket: 26-0780\n\nSource: https://depsc.delaware.gov/wp-content/uploa
+ ds/sites/54/2026/08/26-0780-Legal-Notice-Affidavit.pdf
+PRIORITY:9
+URL:https://depsc.delaware.gov/wp-content/uploads/sites/54/2026/08/26-0780
+ -Legal-Notice-Affidavit.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DE] I N THE MATTER OF THE APPLICATION OF TIDEWATER UTILITIES\, IN
+ C. FOR A CERTIFICATE OF PUBLIC CONVENIENCE AND NECESSITY TO PROVIDE WATER 
+ SERVICES PURSUANT TO 26 DEL. C. 203C (“SUSSEX 070226”) (FILED AUGUST 3
+ \, 2026) – PSC DOCKET NO. 26-0779 – Please
+DTSTART;TZID=America/New_York:20260803T000000
+DTEND;TZID=America/New_York:20260803T020000
+DTSTAMP:20260814T181729Z
+UID:78a046a9f5868cd46ab6@psc-calendar
+CATEGORIES:DE,Other
+DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
+ er\nDocket: 26-0779\n\nSource: https://depsc.delaware.gov/wp-content/uploa
+ ds/sites/54/2026/08/26-0779-TUI-Public-Notice-003.pdf
+PRIORITY:9
+URL:https://depsc.delaware.gov/wp-content/uploads/sites/54/2026/08/26-0779
+ -TUI-Public-Notice-003.pdf
+END:VEVENT
+END:VCALENDAR

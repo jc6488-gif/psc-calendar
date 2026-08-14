@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Tennessee Public Utility Commission.
+X-WR-CALNAME:TN — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[TN] TPUC Commission Conference
+DTSTART;TZID=America/Chicago:20260817T000000
+DTEND;TZID=America/Chicago:20260817T020000
+DTSTAMP:20260814T181729Z
+UID:f95ac731b42af4c19bda@psc-calendar
+CATEGORIES:TN,Decision / Order
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
+ cision / Order\n\nTPUC Commission Conference August 17\, 2026\n\nSource: h
+ ttps://www.tn.gov/tpuc/agency/calendar-of-upcoming-events/2026/8/17/tpuc-c
+ ommission-conference-august-17--2026.html
+PRIORITY:5
+URL:https://www.tn.gov/tpuc/agency/calendar-of-upcoming-events/2026/8/17/t
+ puc-commission-conference-august-17--2026.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] U.S. Small Business Administration January 22-27\, 2026 Sever
+ e Storm Disaster Support Information
+DTSTART;TZID=America/Chicago:20270122T000000
+DTEND;TZID=America/Chicago:20270122T020000
+DTSTAMP:20260814T181729Z
+UID:835f1e0921b3e0f76683@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSource: https://www.tn.gov/tpuc/divisions/consumer-services-divisio
+ n-csd/small-business-administration-disaster-relief-information.html
+PRIORITY:9
+URL:https://www.tn.gov/tpuc/divisions/consumer-services-division-csd/small
+ -business-administration-disaster-relief-information.html
+END:VEVENT
+END:VCALENDAR

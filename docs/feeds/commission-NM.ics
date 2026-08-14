@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for New Mexico Public Regulation Commission
+ .
+X-WR-CALNAME:NM — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[NM] New Mexico Public Regulation Commission Named a 2026 Top Work
+ place by the Albuquerque Journal
+DTSTART;TZID=America/Denver:20260729T204452
+DTEND;TZID=America/Denver:20260729T224452
+DTSTAMP:20260814T181729Z
+UID:fff84c35d1a6f942c19f@psc-calendar
+CATEGORIES:NM,Other
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Other\n\nThe post New Mexico Public Regulation Commission Named a 2026 T
+ op Workplace by the Albuquerque Journal appeared first on NM PRC .\n\nSour
+ ce: https://www.prc.nm.gov/2026/07/29/33384/
+PRIORITY:9
+URL:https://www.prc.nm.gov/2026/07/29/33384/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Commission approves sale of New Mexico Gas Company
+DTSTART;TZID=America/Denver:20260730T202214
+DTEND;TZID=America/Denver:20260730T222214
+DTSTAMP:20260814T181729Z
+UID:8302acbf8d0d427674a2@psc-calendar
+CATEGORIES:NM,Other
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Other\n\nThe post Commission approves sale of New Mexico Gas Company app
+ eared first on NM PRC .\n\nSource: https://www.prc.nm.gov/2026/07/30/33409
+ /
+PRIORITY:9
+URL:https://www.prc.nm.gov/2026/07/30/33409/
+END:VEVENT
+END:VCALENDAR

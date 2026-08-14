@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Federal Energy Regulatory Commission.
+X-WR-CALNAME:FERC — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[FERC] Sunshine Act Meetings
+DTSTART;TZID=America/New_York:20260716T100000
+DTEND;TZID=America/New_York:20260716T120000
+DTSTAMP:20260814T181729Z
+UID:1c29e592d287aa12d755@psc-calendar
+CATEGORIES:FERC,Decision / Order
+DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
+  Decision / Order\n\nSource: https://www.federalregister.gov/documents/202
+ 6/07/14/2026-14125/sunshine-act-meetings
+PRIORITY:5
+URL:https://www.federalregister.gov/documents/2026/07/14/2026-14125/sunshi
+ ne-act-meetings
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Public Service Commission of Wisconsin.
+X-WR-CALNAME:WI — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[WI] View Details of Open Meeting
+DTSTART;TZID=America/Chicago:20260806T000000
+DTEND;TZID=America/Chicago:20260806T020000
+DTSTAMP:20260814T181729Z
+UID:6e46f935c67a79cfb770@psc-calendar
+CATEGORIES:WI,Decision / Order
+DESCRIPTION:Commission: Public Service Commission of Wisconsin (WI)\nType:
+  Decision / Order\n\nView Details of Thursday\, August 6\, 2026 Open Meeti
+ ng\n\nSource: https://apps.psc.wi.gov/apps/calendar/External/OpenMeetingDe
+ tails/61
+PRIORITY:5
+URL:https://apps.psc.wi.gov/apps/calendar/External/OpenMeetingDetails/61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[WI] Open Meetings for the Week of
+DTSTART;TZID=America/Chicago:20260810T000000
+DTEND;TZID=America/Chicago:20260810T020000
+DTSTAMP:20260814T181729Z
+UID:ae5439c264e31536b33c@psc-calendar
+CATEGORIES:WI,Decision / Order
+DESCRIPTION:Commission: Public Service Commission of Wisconsin (WI)\nType:
+  Decision / Order\n\nOpen Meetings for the Week of Monday\, August 10\, 20
+ 26\n\nSource: https://apps.psc.wi.gov/apps/calendar/External
+PRIORITY:5
+URL:https://apps.psc.wi.gov/apps/calendar/External
+END:VEVENT
+END:VCALENDAR

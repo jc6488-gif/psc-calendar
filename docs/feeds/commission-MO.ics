@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Missouri Public Service Commission.
+X-WR-CALNAME:MO — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[MO] 8/12/2026 11:00 AM AGND-2027-0007
+DTSTART;TZID=America/Chicago:20260812T110000
+DTEND;TZID=America/Chicago:20260812T130000
+DTSTAMP:20260814T181729Z
+UID:e5cbe7b88bedb267e558@psc-calendar
+CATEGORIES:MO,Other
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Oth
+ er\n\nSource: https://www.efis.psc.mo.gov/Agenda/Display/107309
+PRIORITY:9
+URL:https://www.efis.psc.mo.gov/Agenda/Display/107309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MO] Generated On Aug 14\, 2026 11:31 AM
+DTSTART;TZID=America/Chicago:20260814T113100
+DTEND;TZID=America/Chicago:20260814T133100
+DTSTAMP:20260814T181729Z
+UID:be5526abf623fc0290cd@psc-calendar
+CATEGORIES:MO,Other
+DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Oth
+ er\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+PRIORITY:9
+URL:https://psc.mo.gov/Calendars.aspx?Selected=Hearings
+END:VEVENT
+END:VCALENDAR

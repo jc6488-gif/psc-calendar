@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for South Dakota Public Utilities Commissio
+ n.
+X-WR-CALNAME:SD — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[SD] Agenda of Commission Meeting
+DTSTART;TZID=America/Chicago:20260728T000000
+DTEND;TZID=America/Chicago:20260728T020000
+DTSTAMP:20260814T181729Z
+UID:28d62f66049f0a5b82b4@psc-calendar
+CATEGORIES:SD,Decision / Order
+DESCRIPTION:Commission: South Dakota Public Utilities Commission (SD)\nTyp
+ e: Decision / Order\n\nJuly 28\, 2026\, Agenda of Commission Meeting\n\nSo
+ urce: https://puc.sd.gov/agendas/2026/0728.aspx
+PRIORITY:5
+URL:https://puc.sd.gov/agendas/2026/0728.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SD] South Dakota Public Utilities Commission Meeting
+DTSTART;TZID=America/Chicago:20260728T000000
+DTEND;TZID=America/Chicago:20260728T020000
+DTSTAMP:20260814T181729Z
+UID:8e2bc9e4ecaf717b7457@psc-calendar
+CATEGORIES:SD,Decision / Order
+DESCRIPTION:Commission: South Dakota Public Utilities Commission (SD)\nTyp
+ e: Decision / Order\n\n07/28/2026 | South Dakota Public Utilities Commissi
+ on Meeting\n\nSource: https://boardsandcommissions.sd.gov/Meetings.aspx?Bo
+ ardID=213
+PRIORITY:5
+URL:https://boardsandcommissions.sd.gov/Meetings.aspx?BoardID=213
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SD] Agenda of Commission Meeting
+DTSTART;TZID=America/Chicago:20260811T000000
+DTEND;TZID=America/Chicago:20260811T020000
+DTSTAMP:20260814T181729Z
+UID:7f294553e07063eb2937@psc-calendar
+CATEGORIES:SD,Decision / Order
+DESCRIPTION:Commission: South Dakota Public Utilities Commission (SD)\nTyp
+ e: Decision / Order\n\nAugust 11\, 2026\, Agenda of Commission Meeting\n\n
+ Source: https://puc.sd.gov/agendas/2026/0811.aspx
+PRIORITY:5
+URL:https://puc.sd.gov/agendas/2026/0811.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SD] South Dakota Public Utilities Commission
+DTSTART;TZID=America/Chicago:20260811T000000
+DTEND;TZID=America/Chicago:20260811T020000
+DTSTAMP:20260814T181729Z
+UID:4d8686adbac94dee528b@psc-calendar
+CATEGORIES:SD,Other
+DESCRIPTION:Commission: South Dakota Public Utilities Commission (SD)\nTyp
+ e: Other\n\n08/11/2026 | South Dakota Public Utilities Commission\n\nSourc
+ e: https://boardsandcommissions.sd.gov/Meetings.aspx?BoardID=213
+PRIORITY:9
+URL:https://boardsandcommissions.sd.gov/Meetings.aspx?BoardID=213
+END:VEVENT
+END:VCALENDAR

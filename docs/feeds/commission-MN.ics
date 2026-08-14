@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Minnesota Public Utilities Commission.
+X-WR-CALNAME:MN — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[MN] PUC Agenda Meeting
+DTSTART;TZID=America/Chicago:20260806T000000
+DTEND;TZID=America/Chicago:20260806T020000
+DTSTAMP:20260814T181729Z
+UID:daafe80a7f346eae2fae@psc-calendar
+CATEGORIES:MN,Decision / Order
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Decision / Order\n\nPUC Agenda Meeting | 8/6/2026 | | 10:00 AM | | Meeting
+  details | Agenda | Not available | Not available | Video | Audio Download
+ \n\nSource: https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1428564&GU
+ ID=640CDCA1-B5AE-4028-B40C-6081B7BD8BEA
+PRIORITY:5
+URL:https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1428564&GUID=640CD
+ CA1-B5AE-4028-B40C-6081B7BD8BEA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] Meeting details
+DTSTART;TZID=America/Chicago:20260806T000000
+DTEND;TZID=America/Chicago:20260806T020000
+DTSTAMP:20260814T181729Z
+UID:b6f8b2e8c24cc6e0fd7b@psc-calendar
+CATEGORIES:MN,Other
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Other\n\nConsent Items | 8/6/2026 | | | | Meeting details | Not available 
+ | Not available | Not available | Not available | Not available\n\nSource:
+  https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1432716&GUID=235EDCD1
+ -AD9A-45D5-BB5D-FCF79A01C373
+PRIORITY:9
+URL:https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1432716&GUID=235ED
+ CD1-AD9A-45D5-BB5D-FCF79A01C373
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] PUC Agenda Meeting
+DTSTART;TZID=America/Chicago:20260813T000000
+DTEND;TZID=America/Chicago:20260813T020000
+DTSTAMP:20260814T181729Z
+UID:dcdaa9cc4a2b7a92c803@psc-calendar
+CATEGORIES:MN,Decision / Order
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Decision / Order\n\nPUC Agenda Meeting | 8/13/2026 | | 10:00 AM | | Meetin
+ g details | Agenda | Not available | Not available | Video | Audio Downloa
+ d\n\nSource: https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1429740&G
+ UID=5D39B476-52F0-4F3E-AD32-9F91A804F888
+PRIORITY:5
+URL:https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1429740&GUID=5D39B
+ 476-52F0-4F3E-AD32-9F91A804F888
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] Meeting details
+DTSTART;TZID=America/Chicago:20260813T000000
+DTEND;TZID=America/Chicago:20260813T020000
+DTSTAMP:20260814T181729Z
+UID:b3931e37b2f55f8df2d1@psc-calendar
+CATEGORIES:MN,Other
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Other\n\nConsent Items | 8/13/2026 | | | | Meeting details | Not available
+  | Not available | Not available | Not available | Not available\n\nSource
+ : https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1436286&GUID=D2C36A9
+ B-16D4-4CCF-9408-9EFB7D2D4089
+PRIORITY:9
+URL:https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1436286&GUID=D2C36
+ A9B-16D4-4CCF-9408-9EFB7D2D4089
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] PUC Agenda Meeting
+DTSTART;TZID=America/Chicago:20260820T000000
+DTEND;TZID=America/Chicago:20260820T020000
+DTSTAMP:20260814T181729Z
+UID:22be094f4449bf389c6e@psc-calendar
+CATEGORIES:MN,Decision / Order
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Decision / Order\n\nPUC Agenda Meeting | 8/20/2026 | | 10:00 AM | | Meetin
+ g details | Agenda | Not available | Not available | Not available | Not a
+ vailable\n\nSource: https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=14
+ 31779&GUID=EA84B88C-2142-4225-A0DF-420F2FBBF0FB
+PRIORITY:5
+URL:https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1431779&GUID=EA84B
+ 88C-2142-4225-A0DF-420F2FBBF0FB
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] Title and navigation
+DTSTART;TZID=America/Chicago:20260820T000000
+DTEND;TZID=America/Chicago:20260820T020000
+DTSTAMP:20260814T181729Z
+UID:3b86f9d14c1afba40082@psc-calendar
+CATEGORIES:MN,Other
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Other\n\n| Open the calendar popup. Calendar Title and navigation Title an
+ d navigation << < August 2026 > << August 2026 S M T W T F S 31 26 27 28 2
+ 9 30 31 1 32 2 3 4 5 6 7 8 33 9 10 11 12 13 14 15 34 16 17 18 19 20 21 22 
+ 35 23 24 25 26 27 28 29 36 30 31 1 2 3 4 5 | Title and navigation Title an
+ d navigation << < August 2026 > << | Title and navigation | << | < | Augus
+ t 2026 | > | << | August 2026 S M T W T F S 31 26 27 28 29 30 31 1 32 2 3 
+ 4 5 6 7 8 33 9 10 11 12 13 14 15 34 16 17 18 19 20 21 22 35 23 24 25 26 27
+  28 29 36 30 31 1 2 3 4 5 | | S | M | T | W | T | F | S | 31 | 26 | 27 | 2
+ 8 | 29 | 30 | 31 \n\nSource: https://minnesotapuc.legistar.com/Calendar.as
+ px
+PRIORITY:9
+URL:https://minnesotapuc.legistar.com/Calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] RadDatePicker: August 2026
+DTSTART;TZID=America/Chicago:20260820T000000
+DTEND;TZID=America/Chicago:20260820T020000
+DTSTAMP:20260814T181729Z
+UID:52d2fb1fc76189e3952a@psc-calendar
+CATEGORIES:MN,Other
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Other\n\n<< | < | August 2026 | > | <<\n\nSource: https://minnesotapuc.leg
+ istar.com/Calendar.aspx
+PRIORITY:9
+URL:https://minnesotapuc.legistar.com/Calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] RadDatePicker: August 2026 S M T W T F S 31 26 27 28 29 30 31
+  1 32 2 3 4 5 6 7 8 33 9 10 11 12 13 14 15 34 16 17 18 19 20 21 22 35 23 2
+ 4 25 26 27 28 29 36 30 31 1 2 3 4 5
+DTSTART;TZID=America/Chicago:20260820T000000
+DTEND;TZID=America/Chicago:20260820T020000
+DTSTAMP:20260814T181729Z
+UID:819a508a9ec74d2ff161@psc-calendar
+CATEGORIES:MN,Other
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Other\n\nSource: https://minnesotapuc.legistar.com/Calendar.aspx
+PRIORITY:9
+URL:https://minnesotapuc.legistar.com/Calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] Calendar: August 2026
+DTSTART;TZID=America/Chicago:20260820T000000
+DTEND;TZID=America/Chicago:20260820T020000
+DTSTAMP:20260814T181729Z
+UID:6a32ab9d5bc8d40bd737@psc-calendar
+CATEGORIES:MN,Other
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Other\n\n<< | < | August 2026 | > | <<\n\nSource: https://minnesotapuc.leg
+ istar.com/Calendar.aspx
+PRIORITY:9
+URL:https://minnesotapuc.legistar.com/Calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] Calendar: August 2026 S M T W T F S 31 26 27 28 29 30 31 1 32
+  2 3 4 5 6 7 8 33 9 10 11 12 13 14 15 34 16 17 18 19 20 21 22 35 23 24 25 
+ 26 27 28 29 36 30 31 1 2 3 4 5
+DTSTART;TZID=America/Chicago:20260820T000000
+DTEND;TZID=America/Chicago:20260820T020000
+DTSTAMP:20260814T181729Z
+UID:17ba49e7cfbbbdc89fc8@psc-calendar
+CATEGORIES:MN,Other
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Other\n\nSource: https://minnesotapuc.legistar.com/Calendar.aspx
+PRIORITY:9
+URL:https://minnesotapuc.legistar.com/Calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] Title and navigation: August 2026
+DTSTART;TZID=America/Chicago:20260820T000000
+DTEND;TZID=America/Chicago:20260820T020000
+DTSTAMP:20260814T181729Z
+UID:92263d9ee4b7c317e6ec@psc-calendar
+CATEGORIES:MN,Other
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Other\n\n<< | < | August 2026 | > | <<\n\nSource: https://minnesotapuc.leg
+ istar.com/Calendar.aspx
+PRIORITY:9
+URL:https://minnesotapuc.legistar.com/Calendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] Cancelled - Consent Items Only
+DTSTART;TZID=America/Chicago:20260827T000000
+DTEND;TZID=America/Chicago:20260827T020000
+DTSTAMP:20260814T181729Z
+UID:a4b3f435ae525bf97478@psc-calendar
+CATEGORIES:MN,Decision / Order
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Decision / Order\n\nPUC Agenda Meeting | 8/27/2026 | | 10:00 AM | Cancelle
+ d - Consent Items Only | Meeting details | Not available | Not available |
+  Not available | Not available | Not available\n\nSource: https://minnesot
+ apuc.legistar.com/View.ashx?M=IC&ID=1432554&GUID=E5A3BB40-60BD-4BF1-AB55-C
+ 57383FB8D7D
+PRIORITY:5
+URL:https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1432554&GUID=E5A3B
+ B40-60BD-4BF1-AB55-C57383FB8D7D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MN] Aug\, 2026: 27 28 29 30 31 3 4 5 6 7 10 11 12 13 14 17 18 19 
+ 20 21 24 25 26 27 28 31 1 Sep 2 3 4
+DTSTART;TZID=America/Chicago:20260902T000000
+DTEND;TZID=America/Chicago:20260902T020000
+DTSTAMP:20260814T181729Z
+UID:9571418ed4d941a29724@psc-calendar
+CATEGORIES:MN,Other
+DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
+ Other\n\nSource: https://minnesotapuc.legistar.com/Calendar.aspx#2026-07-2
+ 7
+PRIORITY:9
+URL:https://minnesotapuc.legistar.com/Calendar.aspx#2026-07-27
+END:VEVENT
+END:VCALENDAR
