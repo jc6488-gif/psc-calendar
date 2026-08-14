@@ -422,8 +422,10 @@ def _first_date_in(text: str, tz: ZoneInfo, now: datetime) -> Optional[datetime]
         return None
     # A bare "March 4" with no year defaults to the current year; if that lands
     # well in the past on a page of upcoming events, it almost certainly means
-    # next year.
-    if not re.search(r"\d{4}", m.group(0)) and dt < now - timedelta(days=120):
+    # next year. A two-digit slash year ("4/6/26") IS a year - rolling those
+    # forward silently shifted real dates into the wrong year.
+    has_year = re.search(r"\d{4}|\d{1,2}/\d{1,2}/\d{2,4}", m.group(0))
+    if not has_year and dt < now - timedelta(days=120):
         dt = dt + relativedelta(years=1)
     return dt
 

@@ -58,7 +58,7 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             desc = r.get("description", "") or ""
             blob = f"{title} {desc}"
 
-            tickers, subs = classify.match_companies(blob, code)
+            tickers, subs = classify.match_companies(blob, code, title=title)
             etype, elabel, weight = classify.classify_type(blob)
             is_rate, signals = classify.detect_rate_case(blob)
 

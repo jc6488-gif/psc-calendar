@@ -55,16 +55,27 @@ def _rate_signals() -> list[tuple[str, re.Pattern]]:
             for s in load_coverage()["rate_case_signals"]]
 
 
-def match_companies(text: str, commission_code: str) -> tuple[list[str], list[str]]:
+def match_companies(
+    text: str, commission_code: str, title: str | None = None
+) -> tuple[list[str], list[str]]:
     """Return (tickers, subsidiary_names) mentioned in the text.
 
     The commission code is used as a tiebreaker, not a filter: a Georgia Power
     item on the FERC calendar should still tag SO.
+
+    Evidence rule: when the event's commission is NOT one the company appears
+    before, a match must occur in the title, not merely the description. A
+    company name buried in body text on a foreign state's calendar is usually
+    a coincidence - a community event at a venue called "Pinnacle West" in
+    Indianapolis tagged PNW (Arizona) on the first live run. Callers that pass
+    only a blob (title is None) keep the old whole-text behaviour.
     """
     tickers: list[str] = []
     subs: list[str] = []
     for ticker, pats, comms, sub_defs in _company_matchers():
-        hit = any(p.search(text) for p in pats)
+        in_jurisdiction = commission_code in comms
+        haystack = text if (in_jurisdiction or title is None) else title
+        hit = any(p.search(haystack) for p in pats)
         if not hit:
             continue
         tickers.append(ticker)

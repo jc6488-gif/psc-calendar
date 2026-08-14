@@ -156,6 +156,42 @@ def test_no_false_positive_matches(text):
     assert tickers == [], f"false positive: {tickers} for {text!r}"
 
 
+def test_two_digit_slash_year_not_rolled_forward():
+    """'4/6/26' carries a real year. The roll-forward heuristic for yearless
+    dates ("March 4") must not fire on it - it shifted IURC weekly-hearing
+    rows into 2027 on the first live run."""
+    dt = extract._first_date_in("4/6/26 to 4/10/26", ZoneInfo(TZ), NOW)
+    assert dt is not None and (dt.year, dt.month, dt.day) == (2026, 4, 6)
+
+
+def test_bare_date_in_past_still_rolls_forward():
+    """A truly yearless date well in the past on an upcoming-events page
+    still means next year."""
+    dt = extract._first_date_in("Hearing scheduled for March 4", ZoneInfo(TZ), NOW)
+    assert dt is not None and (dt.year, dt.month, dt.day) == (2027, 3, 4)
+
+
+def test_description_only_match_needs_matching_jurisdiction():
+    """'Pinnacle West' in the body of an Indiana community event is a venue,
+    not the Arizona utility. Description-only evidence counts only on a
+    commission the company actually appears before."""
+    title = "Indy Vet To Vet Terrific Tuesday"
+    blob = f"{title} Come be part of our family in the ballroom at Pinnacle West."
+    tickers, _ = classify.match_companies(blob, "IN", title=title)
+    assert tickers == []
+    # Same text on the company's own commission still attributes.
+    tickers, _ = classify.match_companies(blob, "AZ", title=title)
+    assert tickers == ["PNW"]
+
+
+def test_title_match_attributes_across_jurisdictions():
+    """A title naming the utility is strong evidence anywhere - the
+    Georgia-Power-on-the-FERC-calendar rule."""
+    title = "Arizona Public Service Company transmission formula rate"
+    tickers, _ = classify.match_companies(title, "XX", title=title)
+    assert tickers == ["PNW"]
+
+
 def test_entergy_new_orleans_routes_to_nola():
     """Entergy New Orleans is regulated by the City Council, not the LPSC.
     Getting this wrong is the classic utility-coverage mistake."""

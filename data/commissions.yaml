@@ -298,15 +298,18 @@ commissions:
     sources:
       # VERIFIED STALE 2026-08-14: calendar.in.gov now 302s to events.in.gov,
       # which lists no IURC events. The weekly hearing/agenda pages on in.gov
-      # are the working sources; the Trumba URLs are kept last in case the
+      # are the working sources; the Trumba URL is kept last in case the
       # state restores the feed.
+      # REMOVED 2026-08-14: https://events.in.gov - it is the STATEWIDE
+      # community calendar, and auto-discovery followed its RSS feed
+      # (events.in.gov/calendar/1.xml), injecting ~2,500 non-IURC events
+      # (charity drives, county events) in the first live run. Never re-add
+      # without an IURC-scoped filter.
       - url: https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings
         strategy: auto
       - url: https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-agendas/
         strategy: auto
       - url: https://www.in.gov/iurc/news-and-notices/executive-session-minutes-and-public-notices/
-        strategy: auto
-      - url: https://events.in.gov
         strategy: auto
       - url: https://calendar.in.gov/site/iurc/?format=ical
         strategy: ics
