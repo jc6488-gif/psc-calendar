@@ -391,8 +391,11 @@ TEMPLATE = r"""<!DOCTYPE html>
   function drawChart(rows) {
     const svg = $("weeks");
     const W = svg.clientWidth || 900, H = 150;
-    const padB = 22, padT = 18, padL = 4;
     const weeks = 12;
+    // Narrow viewports: short "8/10" labels on two staggered rows, so every
+    // bar stays labeled without collisions.
+    const compact = (W - 8) / weeks < 64;
+    const padB = compact ? 32 : 22, padT = 18, padL = 4;
     const monday = new Date(startOfToday);
     monday.setDate(monday.getDate() - ((monday.getDay() + 6) % 7));
 
@@ -406,22 +409,23 @@ TEMPLATE = r"""<!DOCTYPE html>
     const barW = Math.max(6, bw - 6);   // 2px+ surface gap between adjacent bars
     const plotH = H - padB - padT;
 
+    // Every bar carries its own week label and its own count - a bar the
+    // reader cannot name or quantify is decoration, not information. Empty
+    // weeks show an explicit 0 so "quiet" is stated rather than implied.
     const parts = [`<line class="base" x1="0" y1="${H - padB}" x2="${W}" y2="${H - padB}"/>`];
     buckets.forEach((n, i) => {
       const h = Math.max(n > 0 ? 3 : 0, (n / max) * plotH);
       const x = padL + i * bw + (bw - barW) / 2;
       const y = H - padB - h;
       const wd = new Date(monday.getTime() + i * 7 * 864e5);
-      const label = wd.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+      const long = wd.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+      const label = compact ? `${wd.getMonth() + 1}/${wd.getDate()}` : long;
       if (n > 0) {
-        parts.push(`<rect class="bar" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${barW.toFixed(1)}" height="${h.toFixed(1)}" rx="4"><title>Week of ${label}: ${n} date${n === 1 ? "" : "s"}</title></rect>`);
-        if (n === max || n >= max * 0.62) {
-          parts.push(`<text class="vlabel" x="${(x + barW / 2).toFixed(1)}" y="${(y - 5).toFixed(1)}" text-anchor="middle">${n}</text>`);
-        }
+        parts.push(`<rect class="bar" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${barW.toFixed(1)}" height="${h.toFixed(1)}" rx="4"><title>Week of ${long}: ${n} date${n === 1 ? "" : "s"}</title></rect>`);
       }
-      if (i % 2 === 0) {
-        parts.push(`<text class="tick" x="${(x + barW / 2).toFixed(1)}" y="${H - 7}" text-anchor="middle">${label}</text>`);
-      }
+      parts.push(`<text class="vlabel" x="${(x + barW / 2).toFixed(1)}" y="${(y - 5).toFixed(1)}" text-anchor="middle">${n}</text>`);
+      const tickY = compact ? (i % 2 ? H - 4 : H - 16) : H - 7;
+      parts.push(`<text class="tick" x="${(x + barW / 2).toFixed(1)}" y="${tickY}" text-anchor="middle">${label}</text>`);
     });
     svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
     svg.innerHTML = parts.join("");
