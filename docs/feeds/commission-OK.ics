@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: July 29\, 2026
 DTSTART;TZID=America/Chicago:20260729T000000
 DTEND;TZID=America/Chicago:20260729T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:5c05f4a11ae6c0336cd3@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
@@ -23,11 +23,11 @@ PRIORITY:5
 URL:https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OK] Agenda Recording
+SUMMARY:[OK] Commission meeting
 DTSTART;TZID=America/Chicago:20260729T000000
 DTEND;TZID=America/Chicago:20260729T020000
-DTSTAMP:20260814T212118Z
-UID:63ca2b8fd43abfe6a934@psc-calendar
+DTSTAMP:20260814T213843Z
+UID:80113807f393d2ed04a8@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
  on / Order\n\nJuly 29\, 2026 Wednesday 1:30 p.m. | Regular Meeting | Agend
@@ -42,7 +42,7 @@ BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: August 6\, 2026
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:4d20cd4a9cc4bdfda18d@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
@@ -53,11 +53,11 @@ PRIORITY:5
 URL:https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OK] Agenda Recording
+SUMMARY:[OK] Commission meeting
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260814T212118Z
-UID:29ec472f843c0f23963a@psc-calendar
+DTSTAMP:20260814T213843Z
+UID:06ad5fe93d36996fb5e9@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
  on / Order\n\nAugust 6\, 2026 Thursday 1:30 p.m. | Regular Meeting | Agend
@@ -72,7 +72,7 @@ BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: August 11\, 2026
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:233292c1c9494f62bb9c@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
@@ -82,11 +82,11 @@ PRIORITY:5
 URL:https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OK] Agenda Recording (pt 1) Recordding (pt 2)
+SUMMARY:[OK] Commission meeting
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
-DTSTAMP:20260814T212118Z
-UID:1e9d9dd9a763cbe151de@psc-calendar
+DTSTAMP:20260814T213843Z
+UID:d507e71551ce47ce1869@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
  on / Order\n\nAugust 11\, 2026 Tuesday 1:30 p.m. | Regular Meeting | Agend
@@ -98,18 +98,18 @@ URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
  ourt-clerk/meetings/2026/2026-08-11-regular-meeting-agenda.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OK] Agenda Watch Live
+SUMMARY:[OK] Commission meeting
 DTSTART;TZID=America/Chicago:20260819T000000
 DTEND;TZID=America/Chicago:20260819T020000
-DTSTAMP:20260814T212118Z
-UID:a47389341835f3652807@psc-calendar
-CATEGORIES:OK,Other
-DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Other\
- n\nAugust 19\, 2026 Wednesday 10:00 a.m. | Special Meeting | Agenda Watch 
- Live\n\nSource: https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/
- jls-courts/court-clerk/meetings/2026/2026-08-19-special-meeting-agenda1.pd
- f
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:7ec43744e0463ae0102f@psc-calendar
+CATEGORIES:OK,Decision / Order
+DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
+ on / Order\n\nAugust 19\, 2026 Wednesday 10:00 a.m. | Special Meeting | Ag
+ enda Watch Live\n\nSource: https://oklahoma.gov/content/dam/ok/en/occ/docu
+ ments/ajls/jls-courts/court-clerk/meetings/2026/2026-08-19-special-meeting
+ -agenda1.pdf
+PRIORITY:5
 URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
  ourt-clerk/meetings/2026/2026-08-19-special-meeting-agenda1.pdf
 END:VEVENT

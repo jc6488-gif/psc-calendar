@@ -321,8 +321,10 @@ commissions:
       # without an IURC-scoped filter.
       - url: https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings
         strategy: auto
+        label: IURC weekly hearing schedule (PDF)
       - url: https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-agendas/
         strategy: auto
+        label: IURC weekly conference agenda (PDF)
       - url: https://www.in.gov/iurc/news-and-notices/executive-session-minutes-and-public-notices/
         strategy: auto
       - url: https://calendar.in.gov/site/iurc/?format=ical
@@ -343,6 +345,7 @@ commissions:
     sources:
       # VERIFIED WORKING 2026-08-14
       - url: https://iuc.iowa.gov/commission-activity/public-meeting-documents
+        label: Commission meeting agenda (PDF)
         strategy: auto
       - url: https://iuc.iowa.gov/meetings
         strategy: auto
@@ -394,6 +397,7 @@ commissions:
     sources:
       # VERIFIED WORKING 2026-08-14
       - url: https://lpsc.louisiana.gov/Agenda
+        label: LPSC business and executive session agenda
         strategy: auto
       - url: https://www.lpsc.louisiana.gov/Calendar
         strategy: auto
@@ -731,6 +735,7 @@ commissions:
     sources:
       # VERIFIED WORKING 2026-08-14
       - url: https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
+        label: Commission meeting
         strategy: auto
       - url: https://oklahoma.gov/occ/news-and-media/events.html
         strategy: auto
@@ -824,6 +829,7 @@ commissions:
     sources:
       # VERIFIED WORKING 2026-08-14
       - url: https://puc.sd.gov/agendas/2026/default.aspx
+        label: Commission meeting agenda
         strategy: auto
       # VERIFIED WORKING 2026-08-14
       - url: https://boardsandcommissions.sd.gov/Meetings.aspx?BoardID=213
@@ -898,6 +904,7 @@ commissions:
     sources:
       # VERIFIED WORKING 2026-08-14
       - url: https://www.rrc.texas.gov/general-counsel/open-meetings/
+        label: RRC open meeting (conference)
         strategy: auto
       # VERIFIED WORKING 2026-08-14
       - url: https://www.rrc.texas.gov/hearings/hearings-calendar/
@@ -1036,6 +1043,7 @@ commissions:
     sources:
       # VERIFIED WORKING 2026-08-14
       - url: https://psc.wyo.gov/calendar/agendas-and-minutes
+        label: Open meeting (agenda/minutes posted)
         strategy: auto
       - url: https://psc.wyo.gov/hearings-and-events
         strategy: auto

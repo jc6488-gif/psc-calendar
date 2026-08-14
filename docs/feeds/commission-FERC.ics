@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[FERC] Sunshine Act Meetings
 DTSTART;TZID=America/New_York:20260716T100000
 DTEND;TZID=America/New_York:20260716T120000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:1c29e592d287aa12d755@psc-calendar
 CATEGORIES:FERC,Decision / Order
 DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
@@ -21,58 +21,5 @@ DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
 PRIORITY:5
 URL:https://www.federalregister.gov/documents/2026/07/14/2026-14125/sunshi
  ne-act-meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FERC] August 2026: 27 Notational Orders 2026-07-27 All day
-DTSTART;TZID=America/New_York:20260727T000000
-DTEND;TZID=America/New_York:20260727T020000
-DTSTAMP:20260814T212118Z
-UID:36fc06bd095c92f7ead6@psc-calendar
-CATEGORIES:FERC,Other
-DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
-  Other\n\n26 | 27 Notational Orders 2026-07-27 All day | 28 Notational Ord
- ers 2026-07-28 All day Public Scoping Session for the Desert Southwest Exp
- ansion Project (PF26-9-000) (Willcox\, AZ) 8:00 - 10:00pm | 29 Notational 
- Order 2026-07-29 All day Public Scoping Session for the Desert Southwest E
- xpansion Project (PF26-9-000) (Deming\, NM) 7:00 - 9:00pm | 30 Notational 
- Orders 2026-07-30 All day Public Scoping Session for the Desert Southwest 
- Expansion Project (PF26-9-000) (Chaparral\, NM) 7:00 - 9:00pm | 31 Notatio
- nal Orders 2026-07-31 All day | 1\n\nSource: https://www.ferc.gov/news-eve
- nts/events/notational-orders-2026-07-27-07272026
-PRIORITY:9
-URL:https://www.ferc.gov/news-events/events/notational-orders-2026-07-27-0
- 7272026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FERC] August 2026: 3 Notational Orders 2026-08-03 All day
-DTSTART;TZID=America/New_York:20260803T000000
-DTEND;TZID=America/New_York:20260803T020000
-DTSTAMP:20260814T212118Z
-UID:c8b2e5082750f1e49220@psc-calendar
-CATEGORIES:FERC,Other
-DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
-  Other\n\n2 | 3 Notational Orders 2026-08-03 All day | 4 Notational Orders
-  2026-08-04 All day | 5 Notational Orders 2026-08-05 All day | 6 Notationa
- l Orders 2026-08-06 All day | 7 Notational Orders 2026-08-07 All day | 8\n
- \nSource: https://www.ferc.gov/news-events/events/notational-orders-2026-0
- 8-03-08032026
-PRIORITY:9
-URL:https://www.ferc.gov/news-events/events/notational-orders-2026-08-03-0
- 8032026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FERC] August 2026: 10 Notational Orders 2026-08-10 All day
-DTSTART;TZID=America/New_York:20260810T000000
-DTEND;TZID=America/New_York:20260810T020000
-DTSTAMP:20260814T212118Z
-UID:8146abe96ec00b98a18a@psc-calendar
-CATEGORIES:FERC,Other
-DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
-  Other\n\n9 | 10 Notational Orders 2026-08-10 All day | 11 | 12 | 13 Notat
- ional Orders 2026-08-13 All day | 14 | 15\n\nSource: https://www.ferc.gov/
- news-events/events/notational-orders-2026-08-10-08102026
-PRIORITY:9
-URL:https://www.ferc.gov/news-events/events/notational-orders-2026-08-10-0
- 8102026
 END:VEVENT
 END:VCALENDAR

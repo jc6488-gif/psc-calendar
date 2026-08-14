@@ -9,871 +9,135 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[WY] 26 Agendas and Attachments
+SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20260720T000000
 DTEND;TZID=America/Denver:20260720T020000
-DTSTAMP:20260814T212118Z
-UID:f0cc9539fc94a3b00a30@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJuly 2026 Agendas and Attachments\n\nSource: https://drive.google.com
- /file/d/1ihzf5HxMXgAWYPiELedHcaKRePQoY7_U/view?usp=drive_link
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:6072e5b6f27ac1dc4d63@psc-calendar
+CATEGORIES:WY,Decision / Order
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
+ sion / Order\n\nJuly 2026 Agendas and Attachments\n\nSource: https://drive
+ .google.com/file/d/1ihzf5HxMXgAWYPiELedHcaKRePQoY7_U/view?usp=drive_link
+PRIORITY:5
 URL:https://drive.google.com/file/d/1ihzf5HxMXgAWYPiELedHcaKRePQoY7_U/view
  ?usp=drive_link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] 25 Agendas and Attachments
-DTSTART;TZID=America/Denver:20260720T000000
-DTEND;TZID=America/Denver:20260720T020000
-DTSTAMP:20260814T212118Z
-UID:96e4ecedcc4e0b09a40a@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJuly 2025 Agendas and Attachments\n\nSource: https://drive.google.com
- /file/d/1bQCMFFiXDufVvEThRrWl_37gXz4IoAWk/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1bQCMFFiXDufVvEThRrWl_37gXz4IoAWk/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Minutes
-DTSTART;TZID=America/Denver:20260720T000000
-DTEND;TZID=America/Denver:20260720T020000
-DTSTAMP:20260814T212118Z
-UID:29cc1be8b4130de141c1@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJuly 2025 Minutes\n\nSource: https://drive.google.com/file/d/199TCyaj
- je3Syq8r56orI89c4mF_GMXM3/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/199TCyajje3Syq8r56orI89c4mF_GMXM3/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Agendas and Attachments
-DTSTART;TZID=America/Denver:20260720T000000
-DTEND;TZID=America/Denver:20260720T020000
-DTSTAMP:20260814T212118Z
-UID:f903d42222c9ed3a93f2@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJuly 2024 Agendas and Attachments\n\nSource: https://drive.google.com
- /file/d/1wcSIue7ijcz6Pqt1X333cKwOGwV0sAJL/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1wcSIue7ijcz6Pqt1X333cKwOGwV0sAJL/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Minutes
-DTSTART;TZID=America/Denver:20260720T000000
-DTEND;TZID=America/Denver:20260720T020000
-DTSTAMP:20260814T212118Z
-UID:57ee2a3fe7397e9acfd7@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJuly 2024 Minutes\n\nSource: https://drive.google.com/file/d/1NVLGt-K
- sLCK0Fhv1dRIY1ZBKCNJCPPHg/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1NVLGt-KsLCK0Fhv1dRIY1ZBKCNJCPPHg/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Agendas and Attachments
-DTSTART;TZID=America/Denver:20260720T000000
-DTEND;TZID=America/Denver:20260720T020000
-DTSTAMP:20260814T212118Z
-UID:6d55da77490f86e68067@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJuly 2023 Agendas and Attachments\n\nSource: https://drive.google.com
- /file/d/148BM7hkJ2Kbl0xfXA4FnCv8bDG4DvKCb/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/148BM7hkJ2Kbl0xfXA4FnCv8bDG4DvKCb/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Minutes
-DTSTART;TZID=America/Denver:20260720T000000
-DTEND;TZID=America/Denver:20260720T020000
-DTSTAMP:20260814T212118Z
-UID:59cd552685d25aead8d1@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJuly 2023 Minutes\n\nSource: https://drive.google.com/file/d/1dfDWQ0E
- qtKFpjmENYBLCAulXUEj9xKl7/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1dfDWQ0EqtKFpjmENYBLCAulXUEj9xKl7/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 26 Agendas and Attachments
+SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20260820T000000
 DTEND;TZID=America/Denver:20260820T020000
-DTSTAMP:20260814T212118Z
-UID:8931aa156948da631a54@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nAugust 2026 Agendas and Attachments\n\nSource: https://drive.google.c
- om/file/d/1RCGKfQ4lzAohdBDOmisceqztxZL-1Kiz/view?usp=drive_link
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:e8b1a3df38817c4480cd@psc-calendar
+CATEGORIES:WY,Decision / Order
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
+ sion / Order\n\nAugust 2026 Agendas and Attachments\n\nSource: https://dri
+ ve.google.com/file/d/1RCGKfQ4lzAohdBDOmisceqztxZL-1Kiz/view?usp=drive_link
+PRIORITY:5
 URL:https://drive.google.com/file/d/1RCGKfQ4lzAohdBDOmisceqztxZL-1Kiz/view
  ?usp=drive_link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] 25 Agendas and Attachments
-DTSTART;TZID=America/Denver:20260820T000000
-DTEND;TZID=America/Denver:20260820T020000
-DTSTAMP:20260814T212118Z
-UID:8119e876f07f512d27ff@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nAugust 2025 Agendas and Attachments\n\nSource: https://drive.google.c
- om/file/d/1tZxA0wIXRaSpgEpfxT4phg4PgC6vCGD4/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1tZxA0wIXRaSpgEpfxT4phg4PgC6vCGD4/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Minutes
-DTSTART;TZID=America/Denver:20260820T000000
-DTEND;TZID=America/Denver:20260820T020000
-DTSTAMP:20260814T212118Z
-UID:bc639639bdbcf85805b4@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nAugust 2025 Minutes\n\nSource: https://drive.google.com/file/d/10hsl3
- OuX1nDo_o51Vw4yCJznnTyTHv8u/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/10hsl3OuX1nDo_o51Vw4yCJznnTyTHv8u/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Agendas and Attachments
-DTSTART;TZID=America/Denver:20260820T000000
-DTEND;TZID=America/Denver:20260820T020000
-DTSTAMP:20260814T212118Z
-UID:9deef6519242f87c5def@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nAugust 2024 Agendas and Attachments\n\nSource: https://drive.google.c
- om/file/d/1Q0QE-M2G2gidth1IjeGTKKZa_j_a6ksB/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1Q0QE-M2G2gidth1IjeGTKKZa_j_a6ksB/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Minutes
-DTSTART;TZID=America/Denver:20260820T000000
-DTEND;TZID=America/Denver:20260820T020000
-DTSTAMP:20260814T212118Z
-UID:0b136d933058f53d2f7d@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nAugust 2024 Minutes\n\nSource: https://drive.google.com/file/d/1jnAl4
- aRgKWh0qnx0wly44-BoHcxJKCqE/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1jnAl4aRgKWh0qnx0wly44-BoHcxJKCqE/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Agendas and Attachments
-DTSTART;TZID=America/Denver:20260820T000000
-DTEND;TZID=America/Denver:20260820T020000
-DTSTAMP:20260814T212118Z
-UID:5fb3e75b0756ea64e1a9@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nAugust 2023 Agendas and Attachments\n\nSource: https://drive.google.c
- om/file/d/1Y_GJzCE1r8X9odzjOD8fP6cEWcUVw5U7/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1Y_GJzCE1r8X9odzjOD8fP6cEWcUVw5U7/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Minutes
-DTSTART;TZID=America/Denver:20260820T000000
-DTEND;TZID=America/Denver:20260820T020000
-DTSTAMP:20260814T212118Z
-UID:008cf96de2013da2c9b5@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nAugust 2023 Minutes\n\nSource: https://drive.google.com/file/d/1T602B
- _D0TUhJn3JOoOlqy0f3uxMd208s/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1T602B_D0TUhJn3JOoOlqy0f3uxMd208s/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Agendas and Attachments
+SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20260920T000000
 DTEND;TZID=America/Denver:20260920T020000
-DTSTAMP:20260814T212118Z
-UID:cb8fe888920de2d746bc@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nSeptember 2025 Agendas and Attachments\n\nSource: https://drive.googl
- e.com/file/d/1M_KiCi9TEmHTFmT8AsL-vXh_VGVm1z_3/view?usp=drive_link
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:2e4cd8091e077f56f8cc@psc-calendar
+CATEGORIES:WY,Decision / Order
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
+ sion / Order\n\nSeptember 2025 Agendas and Attachments\n\nSource: https://
+ drive.google.com/file/d/1M_KiCi9TEmHTFmT8AsL-vXh_VGVm1z_3/view?usp=drive_l
+ ink
+PRIORITY:5
 URL:https://drive.google.com/file/d/1M_KiCi9TEmHTFmT8AsL-vXh_VGVm1z_3/view
  ?usp=drive_link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] 25 Minutes
-DTSTART;TZID=America/Denver:20260920T000000
-DTEND;TZID=America/Denver:20260920T020000
-DTSTAMP:20260814T212118Z
-UID:f2d87847a2752cbafe11@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nSeptember 2025 Minutes\n\nSource: https://drive.google.com/file/d/1TX
- 8tulo98XqJRAwg8e9AsJ5t4Cl2XMIp/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1TX8tulo98XqJRAwg8e9AsJ5t4Cl2XMIp/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Agendas and Attachments
-DTSTART;TZID=America/Denver:20260920T000000
-DTEND;TZID=America/Denver:20260920T020000
-DTSTAMP:20260814T212118Z
-UID:0d5f112195f4b2c1f68c@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nSeptember 2024 Agendas and Attachments\n\nSource: https://drive.googl
- e.com/file/d/1fjbEXtjG0mgQynumYETiWIVweiid4Nhr/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1fjbEXtjG0mgQynumYETiWIVweiid4Nhr/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Minutes
-DTSTART;TZID=America/Denver:20260920T000000
-DTEND;TZID=America/Denver:20260920T020000
-DTSTAMP:20260814T212118Z
-UID:2e949073b9c37afe3465@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nSeptember 2024 Minutes\n\nSource: https://drive.google.com/file/d/1MC
- gcUJEI9eRP-tXw0X1Me4Kes4Kxgikf/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1MCgcUJEI9eRP-tXw0X1Me4Kes4Kxgikf/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Agendas and Attachments
-DTSTART;TZID=America/Denver:20260920T000000
-DTEND;TZID=America/Denver:20260920T020000
-DTSTAMP:20260814T212118Z
-UID:ba8be92ccdcc801fee0b@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nSeptember 2023 Agendas and Attachments\n\nSource: https://drive.googl
- e.com/file/d/19kKLSYKQ9s1pzPinCdDS7ejLDhOuopa0/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/19kKLSYKQ9s1pzPinCdDS7ejLDhOuopa0/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Minutes
-DTSTART;TZID=America/Denver:20260920T000000
-DTEND;TZID=America/Denver:20260920T020000
-DTSTAMP:20260814T212118Z
-UID:5773db835537f34f83a7@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nSeptember 2023 Minutes\n\nSource: https://drive.google.com/file/d/1Dm
- ytNxsWsWjOCXttav_SWCUlrx2A0rvC/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1DmytNxsWsWjOCXttav_SWCUlrx2A0rvC/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Agendas and Attachments
+SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20261020T000000
 DTEND;TZID=America/Denver:20261020T020000
-DTSTAMP:20260814T212118Z
-UID:f2a9fdde630af35bc26d@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nOctober 2025 Agendas and Attachments\n\nSource: https://drive.google.
- com/file/d/1nLP9DEFC2P9Xpatb2h7XhVThLpxnBq-p/view?usp=drive_link
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:5775ec97f0d6cbffe47b@psc-calendar
+CATEGORIES:WY,Decision / Order
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
+ sion / Order\n\nOctober 2025 Agendas and Attachments\n\nSource: https://dr
+ ive.google.com/file/d/1nLP9DEFC2P9Xpatb2h7XhVThLpxnBq-p/view?usp=drive_lin
+ k
+PRIORITY:5
 URL:https://drive.google.com/file/d/1nLP9DEFC2P9Xpatb2h7XhVThLpxnBq-p/view
  ?usp=drive_link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] 25 Minutes
-DTSTART;TZID=America/Denver:20261020T000000
-DTEND;TZID=America/Denver:20261020T020000
-DTSTAMP:20260814T212118Z
-UID:373f3fb5d57073f5832a@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nOctober 2025 Minutes\n\nSource: https://drive.google.com/file/d/1Zrk6
- cw1wy_zd5t6EDi4Zl78RjLlWlXZ8/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1Zrk6cw1wy_zd5t6EDi4Zl78RjLlWlXZ8/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Agendas and Attachments
-DTSTART;TZID=America/Denver:20261020T000000
-DTEND;TZID=America/Denver:20261020T020000
-DTSTAMP:20260814T212118Z
-UID:aa9c3a4af56d7556db39@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nOctober 2024 Agendas and Attachments\n\nSource: https://drive.google.
- com/file/d/1GpOEt-5Mh9q_HOWNuxqZsVTfry6WSOTZ/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1GpOEt-5Mh9q_HOWNuxqZsVTfry6WSOTZ/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Minutes
-DTSTART;TZID=America/Denver:20261020T000000
-DTEND;TZID=America/Denver:20261020T020000
-DTSTAMP:20260814T212118Z
-UID:29f2daedb98b9a963d65@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nOctober 2024 Minutes\n\nSource: https://drive.google.com/file/d/1bciz
- UkPWYZvhxUPUfDDYnU2Mi7fpoUlk/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1bcizUkPWYZvhxUPUfDDYnU2Mi7fpoUlk/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Agendas and Attachments
-DTSTART;TZID=America/Denver:20261020T000000
-DTEND;TZID=America/Denver:20261020T020000
-DTSTAMP:20260814T212118Z
-UID:7c2860c10304cc192e3d@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nOctober 2023 Agendas and Attachments\n\nSource: https://drive.google.
- com/file/d/13igJxKywthTW1OgHLzedwCPEB4rI-0BU/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/13igJxKywthTW1OgHLzedwCPEB4rI-0BU/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Minutes
-DTSTART;TZID=America/Denver:20261020T000000
-DTEND;TZID=America/Denver:20261020T020000
-DTSTAMP:20260814T212118Z
-UID:1d4dfb461e15eee0a567@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nOctober 2023 Minutes\n\nSource: https://drive.google.com/file/d/1_nKU
- yvYIisU1iUOpg1aSl4sojBmZm28-/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1_nKUyvYIisU1iUOpg1aSl4sojBmZm28-/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Agendas and Attachments
+SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20261120T000000
 DTEND;TZID=America/Denver:20261120T020000
-DTSTAMP:20260814T212118Z
-UID:d6cddadc327d5e01aaec@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nNovember 2025 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/1vgYXFhBNg65L1cy9cBSuz35c0iw-Dhqe/view?usp=drive_link
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:9bfa820e228dbb4caf0c@psc-calendar
+CATEGORIES:WY,Decision / Order
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
+ sion / Order\n\nNovember 2025 Agendas and Attachments\n\nSource: https://d
+ rive.google.com/file/d/1vgYXFhBNg65L1cy9cBSuz35c0iw-Dhqe/view?usp=drive_li
+ nk
+PRIORITY:5
 URL:https://drive.google.com/file/d/1vgYXFhBNg65L1cy9cBSuz35c0iw-Dhqe/view
  ?usp=drive_link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] 25 Minutes
-DTSTART;TZID=America/Denver:20261120T000000
-DTEND;TZID=America/Denver:20261120T020000
-DTSTAMP:20260814T212118Z
-UID:bbac265ece789375e377@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nNovember 2025 Minutes\n\nSource: https://drive.google.com/file/d/1rYZ
- Ubtg7bCGla-Xc0JFNjXvCiRXxMTg8/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1rYZUbtg7bCGla-Xc0JFNjXvCiRXxMTg8/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Agendas and Attachments
-DTSTART;TZID=America/Denver:20261120T000000
-DTEND;TZID=America/Denver:20261120T020000
-DTSTAMP:20260814T212118Z
-UID:d56868d9ffc215e0028b@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nNovember 2024 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/17K9WuYbVV67QytKNbvXRcLAEAueD5vOC/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/17K9WuYbVV67QytKNbvXRcLAEAueD5vOC/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Minutes
-DTSTART;TZID=America/Denver:20261120T000000
-DTEND;TZID=America/Denver:20261120T020000
-DTSTAMP:20260814T212118Z
-UID:832c5e3d9198fa45ba8b@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nNovember 2024 Minutes\n\nSource: https://drive.google.com/file/d/16oT
- 5qjktkBsQ3diB-XRumiWgC0jrtBH1/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/16oT5qjktkBsQ3diB-XRumiWgC0jrtBH1/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Agendas and Attachments
-DTSTART;TZID=America/Denver:20261120T000000
-DTEND;TZID=America/Denver:20261120T020000
-DTSTAMP:20260814T212118Z
-UID:5896833721b9b0fdd82e@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nNovember 2023 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/1sb9VK8VRQqTo9Snd0inp3jqii3uQSCjK/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1sb9VK8VRQqTo9Snd0inp3jqii3uQSCjK/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Minutes
-DTSTART;TZID=America/Denver:20261120T000000
-DTEND;TZID=America/Denver:20261120T020000
-DTSTAMP:20260814T212118Z
-UID:ad953566efaee8b36b66@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nNovember 2023 Minutes\n\nSource: https://drive.google.com/file/d/18zB
- 4foIhd3SPuH-bfyIXkeKTIVNclxvS/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/18zB4foIhd3SPuH-bfyIXkeKTIVNclxvS/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Agendas and Attachments
+SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20261220T000000
 DTEND;TZID=America/Denver:20261220T020000
-DTSTAMP:20260814T212118Z
-UID:1bd642b4669536421da6@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nDecember 2025 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/1ujFDHj9IDd7prHxx95H16AklOiWNiB0U/view?usp=drive_link
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:e592dbab09373e3b4959@psc-calendar
+CATEGORIES:WY,Decision / Order
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
+ sion / Order\n\nDecember 2025 Agendas and Attachments\n\nSource: https://d
+ rive.google.com/file/d/1ujFDHj9IDd7prHxx95H16AklOiWNiB0U/view?usp=drive_li
+ nk
+PRIORITY:5
 URL:https://drive.google.com/file/d/1ujFDHj9IDd7prHxx95H16AklOiWNiB0U/view
  ?usp=drive_link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] 25 Minutes
-DTSTART;TZID=America/Denver:20261220T000000
-DTEND;TZID=America/Denver:20261220T020000
-DTSTAMP:20260814T212118Z
-UID:4ad92e9d7fb41787373a@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nDecember 2025 Minutes\n\nSource: https://drive.google.com/file/d/1DlU
- 0NVydIptGKFhrHb5BhMgW_EtKvEPS/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1DlU0NVydIptGKFhrHb5BhMgW_EtKvEPS/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Agendas and Attachments
-DTSTART;TZID=America/Denver:20261220T000000
-DTEND;TZID=America/Denver:20261220T020000
-DTSTAMP:20260814T212118Z
-UID:fdf7c8155e91433f9eca@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nDecember 2024 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/18v2O0Q2AF55Fx5ChNBHLBfLpQ41kkJOV/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/18v2O0Q2AF55Fx5ChNBHLBfLpQ41kkJOV/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Minutes
-DTSTART;TZID=America/Denver:20261220T000000
-DTEND;TZID=America/Denver:20261220T020000
-DTSTAMP:20260814T212118Z
-UID:fddef5a17160a5d6fcda@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nDecember 2024 Minutes\n\nSource: https://drive.google.com/file/d/1KR0
- 9S8pjvn1DO7WXrPqloENTiTAC6n7G/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1KR09S8pjvn1DO7WXrPqloENTiTAC6n7G/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Agendas and Attachments
-DTSTART;TZID=America/Denver:20261220T000000
-DTEND;TZID=America/Denver:20261220T020000
-DTSTAMP:20260814T212118Z
-UID:db3f62262b2082074e95@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nDecember 2023 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/1fURoJffTLkWSxqz4ENJZgaTRlulf3a5i/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1fURoJffTLkWSxqz4ENJZgaTRlulf3a5i/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Minutes
-DTSTART;TZID=America/Denver:20261220T000000
-DTEND;TZID=America/Denver:20261220T020000
-DTSTAMP:20260814T212118Z
-UID:2ebfcb06a49c74820379@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nDecember 2023 Minutes\n\nSource: https://drive.google.com/file/d/1cmS
- 7kf_HGph6n8FdCCGWOd6q7mABK6t8/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1cmS7kf_HGph6n8FdCCGWOd6q7mABK6t8/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 26 Agendas and Attachments
+SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T212118Z
-UID:5d7ad4bbb9f1bd383699@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJanuary 2026 Agendas and Attachments\n\nSource: https://drive.google.
- com/file/d/19GsJ8X7ZUdwYR_bE1XWmqsBnRgkYBbTb/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/19GsJ8X7ZUdwYR_bE1XWmqsBnRgkYBbTb/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 26 Minutes
-DTSTART;TZID=America/Denver:20270120T000000
-DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T212118Z
-UID:a9acb03fe7a7accab98a@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJanuary 2026 Minutes\n\nSource: https://drive.google.com/file/d/1tJn9
- pHBeohgzfYUgtGUy_j_qv1zlFcry/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1tJn9pHBeohgzfYUgtGUy_j_qv1zlFcry/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 2 5 Agendas and Attachments
-DTSTART;TZID=America/Denver:20270120T000000
-DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T212118Z
-UID:2acbbecd01d26730a775@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJanuary 202 5 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/1A41pg8eSLrou8CBrDhv8LRAV_EnWXxqc/view?usp=drive_link
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:789fd236074cc2803f08@psc-calendar
+CATEGORIES:WY,Decision / Order
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
+ sion / Order\n\nJanuary 202 5 Agendas and Attachments\n\nSource: https://d
+ rive.google.com/file/d/1A41pg8eSLrou8CBrDhv8LRAV_EnWXxqc/view?usp=drive_li
+ nk
+PRIORITY:5
 URL:https://drive.google.com/file/d/1A41pg8eSLrou8CBrDhv8LRAV_EnWXxqc/view
  ?usp=drive_link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] 25 Minutes
-DTSTART;TZID=America/Denver:20270120T000000
-DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T212118Z
-UID:b4a5c07f4f341183c153@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJanuary 2025 Minutes\n\nSource: https://drive.google.com/file/d/1-tVP
- oFPStQGM4WObslWYjsChtSc0pr2e/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1-tVPoFPStQGM4WObslWYjsChtSc0pr2e/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Agendas and Attachments
-DTSTART;TZID=America/Denver:20270120T000000
-DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T212118Z
-UID:3d916cec63ee252528e9@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJanuary 2024 Agendas and Attachments\n\nSource: https://drive.google.
- com/file/d/1yHWnE05jGYjQS__Fl26aX_eqTgaXiUoG/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1yHWnE05jGYjQS__Fl26aX_eqTgaXiUoG/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Minutes
-DTSTART;TZID=America/Denver:20270120T000000
-DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T212118Z
-UID:cb1a50055010996f69f1@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJanuary 2024 Minutes\n\nSource: https://drive.google.com/file/d/1_xTC
- 3krTUtpE4lYiWWooG-W60gpSdQ44/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1_xTC3krTUtpE4lYiWWooG-W60gpSdQ44/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Agendas and Attachments
-DTSTART;TZID=America/Denver:20270120T000000
-DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T212118Z
-UID:56624ae76502cdedef70@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJanuary 2023 Agendas and Attachments\n\nSource: https://drive.google.
- com/file/d/1C8zH3usH5vJrRubavKPb615Vo6FZwu97/view?usp=share_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1C8zH3usH5vJrRubavKPb615Vo6FZwu97/view
- ?usp=share_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Minutes
-DTSTART;TZID=America/Denver:20270120T000000
-DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T212118Z
-UID:ae5fcf973a20be0cd410@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nJanuary 2023 Minutes\n\nSource: https://drive.google.com/file/d/1jRLf
- OON8yyyXTYnK4k0qN_lihgLl1wtZ/view?usp=share_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1jRLfOON8yyyXTYnK4k0qN_lihgLl1wtZ/view
- ?usp=share_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 26 Agendas and Attachments
+SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T212118Z
-UID:fcef5d4777ef64b696a3@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nFebruary 2026 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/1lLG3HgTpfJb87yNgeemuHVtNxZzSUA4H/view?usp=drive_link
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:8ab89b0b6ec55ccceae7@psc-calendar
+CATEGORIES:WY,Decision / Order
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
+ sion / Order\n\nFebruary 2026 Agendas and Attachments\n\nSource: https://d
+ rive.google.com/file/d/1lLG3HgTpfJb87yNgeemuHVtNxZzSUA4H/view?usp=drive_li
+ nk
+PRIORITY:5
 URL:https://drive.google.com/file/d/1lLG3HgTpfJb87yNgeemuHVtNxZzSUA4H/view
  ?usp=drive_link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] 26 Minutes
-DTSTART;TZID=America/Denver:20270220T000000
-DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T212118Z
-UID:ca36680950ae3046f567@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nFebruary 2026 Minutes\n\nSource: https://drive.google.com/file/d/1PuH
- EceHSokpB-XsJo7NDC6J8aeh2Cirr/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1PuHEceHSokpB-XsJo7NDC6J8aeh2Cirr/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Agendas and Attachments
-DTSTART;TZID=America/Denver:20270220T000000
-DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T212118Z
-UID:29c926b47747a4f37ea7@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nFebruary 2025 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/11-i_V1vjtVCPE1lorc0Gr0LZH2XCl3D4/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/11-i_V1vjtVCPE1lorc0Gr0LZH2XCl3D4/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Minutes
-DTSTART;TZID=America/Denver:20270220T000000
-DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T212118Z
-UID:86fe5942f038c89726ce@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nFebruary 2025 Minutes\n\nSource: https://drive.google.com/file/d/17Qp
- mZz7jwOhZ7wYFdcqw06ob8B37g5q3/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/17QpmZz7jwOhZ7wYFdcqw06ob8B37g5q3/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Agendas and Attachments
-DTSTART;TZID=America/Denver:20270220T000000
-DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T212118Z
-UID:8ea854dcf55b635cd74e@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nFebruary 2024 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/1AojYJFGnPNo-0-iFjfV8hjHiH4Dj9PAw/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1AojYJFGnPNo-0-iFjfV8hjHiH4Dj9PAw/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Minutes
-DTSTART;TZID=America/Denver:20270220T000000
-DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T212118Z
-UID:c571aa0316ee97323113@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nFebruary 2024 Minutes\n\nSource: https://drive.google.com/file/d/1krD
- dKWUk30Q8JJL7tMpBUqcfFTIe775_/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1krDdKWUk30Q8JJL7tMpBUqcfFTIe775_/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Agendas and Attachments
-DTSTART;TZID=America/Denver:20270220T000000
-DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T212118Z
-UID:baf38881087554497b77@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nFebruary 2023 Agendas and Attachments\n\nSource: https://drive.google
- .com/file/d/18cX9eOm_9TeQyYqe-XnKy9VhxbwM5uu2/view?usp=share_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/18cX9eOm_9TeQyYqe-XnKy9VhxbwM5uu2/view
- ?usp=share_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Minutes
-DTSTART;TZID=America/Denver:20270220T000000
-DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T212118Z
-UID:6450d16b55b18e772546@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nFebruary 2023 Minutes\n\nSource: https://drive.google.com/file/d/1aqs
- k_2UuZFJlC7e5aDqwLwvre-iNuYSt/view?usp=share_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1aqsk_2UuZFJlC7e5aDqwLwvre-iNuYSt/view
- ?usp=share_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 26 Agendas and Attachments
+SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T212118Z
-UID:39bb80448e2b3f59ad3d@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nMarch 2026 Agendas and Attachments\n\nSource: https://drive.google.co
- m/file/d/1qxlrQYppgVGmN-CtK2MskpG8SPr17wxr/view?usp=drive_link
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:31a126410b2dfb9f1704@psc-calendar
+CATEGORIES:WY,Decision / Order
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
+ sion / Order\n\nMarch 2026 Agendas and Attachments\n\nSource: https://driv
+ e.google.com/file/d/1qxlrQYppgVGmN-CtK2MskpG8SPr17wxr/view?usp=drive_link
+PRIORITY:5
 URL:https://drive.google.com/file/d/1qxlrQYppgVGmN-CtK2MskpG8SPr17wxr/view
  ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 26 Minutes
-DTSTART;TZID=America/Denver:20270320T000000
-DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T212118Z
-UID:af4d0358a8210ff79a5a@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nMarch 2026 Minutes\n\nSource: https://drive.google.com/file/d/12_bdvM
- 3LJBBXyYFmtJMra4_mnJxIDPt7/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/12_bdvM3LJBBXyYFmtJMra4_mnJxIDPt7/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Agendas and Attachments
-DTSTART;TZID=America/Denver:20270320T000000
-DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T212118Z
-UID:ab913fe2babf3c8c38c4@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nMarch 2025 Agendas and Attachments\n\nSource: https://drive.google.co
- m/file/d/1GSDHI9IFARh-TkTlLAIP4iOyLy7KSPXg/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1GSDHI9IFARh-TkTlLAIP4iOyLy7KSPXg/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 25 Minutes
-DTSTART;TZID=America/Denver:20270320T000000
-DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T212118Z
-UID:a6a32522ec9a80e80a7a@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nMarch 2025 Minutes\n\nSource: https://drive.google.com/file/d/1z9oCuO
- uMdSGAzAkO5Lq5700t-IRWMYYE/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1z9oCuOuMdSGAzAkO5Lq5700t-IRWMYYE/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Agendas and Attachments
-DTSTART;TZID=America/Denver:20270320T000000
-DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T212118Z
-UID:65a505c850da8fae5ed2@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nMarch 2024 Agendas and Attachments\n\nSource: https://drive.google.co
- m/file/d/16VIXUm6v4RuHz1QO4J5h7_RyRkdfjc0q/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/16VIXUm6v4RuHz1QO4J5h7_RyRkdfjc0q/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 24 Minutes
-DTSTART;TZID=America/Denver:20270320T000000
-DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T212118Z
-UID:89c99cc9a5948833701c@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nMarch 2024 Minutes\n\nSource: https://drive.google.com/file/d/1gnHmGz
- D5vKEs1ev0-wZbMadveE3RIhvp/view?usp=drive_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1gnHmGzD5vKEs1ev0-wZbMadveE3RIhvp/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Agendas and Attachments
-DTSTART;TZID=America/Denver:20270320T000000
-DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T212118Z
-UID:2cc2a9b6c3d094461482@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nMarch 2023 Agendas and Attachments\n\nSource: https://drive.google.co
- m/file/d/1_ZWWOtIqjf8XizL5PxeqaRCQmWVpdATw/view?usp=share_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1_ZWWOtIqjf8XizL5PxeqaRCQmWVpdATw/view
- ?usp=share_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] 23 Minutes
-DTSTART;TZID=America/Denver:20270320T000000
-DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T212118Z
-UID:8c4c6acdf368d6643bfd@psc-calendar
-CATEGORIES:WY,Other
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
- r\n\nMarch 2023 Minutes\n\nSource: https://drive.google.com/file/d/1uwI3GG
- AwN54g23XIBcPlp8metgs7Cbwh/view?usp=share_link
-PRIORITY:9
-URL:https://drive.google.com/file/d/1uwI3GGAwN54g23XIBcPlp8metgs7Cbwh/view
- ?usp=share_link
 END:VEVENT
 END:VCALENDAR

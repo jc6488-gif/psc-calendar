@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import json
 import logging
 import sys
@@ -50,9 +51,17 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             log.debug("%s: %s failed: %s", code, url, e)
             continue
 
+        label = source.get("label", "")
         events: list[Event] = []
         for r in raws:
-            title = (r.get("title") or "").strip()
+            title = classify.clean_title((r.get("title") or "").strip())
+            if classify.is_uninformative(title):
+                # Keep a date fragment when there is one - "Weekly hearing
+                # schedule (PDF): 8/17/26 to 8/21/26" - but a bare day number
+                # ("23 Minutes") adds nothing; the event date already shows.
+                fallback = label or "Open meeting"
+                has_date = re.search(r"\d{1,2}[/.-]\d{1,2}|\b20\d\d\b", title)
+                title = f"{fallback}: {title}" if has_date else fallback
             if classify.is_noise(title):
                 continue
             desc = r.get("description", "") or ""

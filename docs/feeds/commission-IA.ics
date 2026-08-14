@@ -9,94 +9,81 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[IA] Agenda (242.59 KB) .pdf
+SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260804T000000
 DTEND;TZID=America/Chicago:20260804T020000
-DTSTAMP:20260814T212118Z
-UID:0c9060c086f6fbcc3712@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nAug
- ust 4\, 2026 | Agenda (242.59 KB) .pdf | Minutes\n\nSource: https://iuc.io
- wa.gov/media/2211/download?inline
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:c5420e4756ba400b3a5a@psc-calendar
+CATEGORIES:IA,Decision / Order
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
+ rder\n\nAugust 4\, 2026 | Agenda (242.59 KB) .pdf | Minutes\n\nSource: htt
+ ps://iuc.iowa.gov/media/2211/download?inline
+PRIORITY:5
 URL:https://iuc.iowa.gov/media/2211/download?inline
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[IA] Agenda (132.51 KB) .pdf (Amended)
+SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260805T000000
 DTEND;TZID=America/Chicago:20260805T020000
-DTSTAMP:20260814T212118Z
-UID:8cf935706451d4d114cb@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nAug
- ust 5\, 2026 | Agenda (132.51 KB) .pdf (Amended) | Minutes\n\nSource: http
- s://iuc.iowa.gov/media/2214/download?inline
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:cafa94052c2b025edfc3@psc-calendar
+CATEGORIES:IA,Decision / Order
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
+ rder\n\nAugust 5\, 2026 | Agenda (132.51 KB) .pdf (Amended) | Minutes\n\nS
+ ource: https://iuc.iowa.gov/media/2214/download?inline
+PRIORITY:5
 URL:https://iuc.iowa.gov/media/2214/download?inline
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[IA] Agenda (152.01 KB) .pdf
-DTSTART;TZID=America/Chicago:20260805T000000
-DTEND;TZID=America/Chicago:20260805T020000
-DTSTAMP:20260814T212118Z
-UID:24b46a810864b917c5a0@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nAug
- ust 5\, 2026 | E-22555 | Nevada | Agenda (152.01 KB) .pdf\n\nSource: https
- ://iuc.iowa.gov/media/2190/download?inline
-PRIORITY:9
-URL:https://iuc.iowa.gov/media/2190/download?inline
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] Agenda (121.85 KB) .pdf
+SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
-DTSTAMP:20260814T212118Z
-UID:c3d00f3d3701252bed8c@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nAug
- ust 11\, 2026 | E-22543 | Clarion | Agenda (121.85 KB) .pdf\n\nSource: htt
- ps://iuc.iowa.gov/media/2192/download?inline
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:6a2e08bb5a3edc5690ad@psc-calendar
+CATEGORIES:IA,Decision / Order
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
+ rder\n\nAugust 11\, 2026 | E-22543 | Clarion | Agenda (121.85 KB) .pdf\n\n
+ Source: https://iuc.iowa.gov/media/2192/download?inline
+PRIORITY:5
 URL:https://iuc.iowa.gov/media/2192/download?inline
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[IA] Agenda (122.64 KB) .pdf
+SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T212118Z
-UID:18ed617f9681ebef8371@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nAug
- ust 17\, 2026 | Agenda (122.64 KB) .pdf | Minutes\n\nSource: https://iuc.i
- owa.gov/media/2212/download?inline
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:768de59949413fd280d4@psc-calendar
+CATEGORIES:IA,Decision / Order
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
+ rder\n\nAugust 17\, 2026 | Agenda (122.64 KB) .pdf | Minutes\n\nSource: ht
+ tps://iuc.iowa.gov/media/2212/download?inline
+PRIORITY:5
 URL:https://iuc.iowa.gov/media/2212/download?inline
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[IA] Agenda (123.01 KB) .pdf
+SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260818T000000
 DTEND;TZID=America/Chicago:20260818T020000
-DTSTAMP:20260814T212118Z
-UID:84d7f9b8152a231a7ad0@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nAug
- ust 18\, 2026 | Agenda (123.01 KB) .pdf | Minutes\n\nSource: https://iuc.i
- owa.gov/media/2213/download?inline
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:580eb49ed88c5420a0e5@psc-calendar
+CATEGORIES:IA,Decision / Order
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
+ rder\n\nAugust 18\, 2026 | Agenda (123.01 KB) .pdf | Minutes\n\nSource: ht
+ tps://iuc.iowa.gov/media/2213/download?inline
+PRIORITY:5
 URL:https://iuc.iowa.gov/media/2213/download?inline
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[IA] Agenda (274.16 KB) .pdf
+SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260826T000000
 DTEND;TZID=America/Chicago:20260826T020000
-DTSTAMP:20260814T212118Z
-UID:8d3be7c31d373f4a987e@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nAug
- ust 26\, 2026 | E-21292\, E-22550 | Council Bluffs | Agenda (274.16 KB) .p
- df\n\nSource: https://iuc.iowa.gov/media/2191/download?inline
-PRIORITY:9
+DTSTAMP:20260814T213843Z
+UID:81899f20c64ee71695f9@psc-calendar
+CATEGORIES:IA,Decision / Order
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
+ rder\n\nAugust 26\, 2026 | E-21292\, E-22550 | Council Bluffs | Agenda (27
+ 4.16 KB) .pdf\n\nSource: https://iuc.iowa.gov/media/2191/download?inline
+PRIORITY:5
 URL:https://iuc.iowa.gov/media/2191/download?inline
 END:VEVENT
 END:VCALENDAR

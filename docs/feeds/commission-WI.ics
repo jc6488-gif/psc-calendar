@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[WI] View Details of Open Meeting
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260814T200423Z
+DTSTAMP:20260814T213843Z
 UID:6e46f935c67a79cfb770@psc-calendar
 CATEGORIES:WI,Decision / Order
 DESCRIPTION:Commission: Public Service Commission of Wisconsin (WI)\nType:
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:[WI] Open Meetings for the Week of
 DTSTART;TZID=America/Chicago:20260810T000000
 DTEND;TZID=America/Chicago:20260810T020000
-DTSTAMP:20260814T200423Z
+DTSTAMP:20260814T213843Z
 UID:ae5439c264e31536b33c@psc-calendar
 CATEGORIES:WI,Decision / Order
 DESCRIPTION:Commission: Public Service Commission of Wisconsin (WI)\nType:

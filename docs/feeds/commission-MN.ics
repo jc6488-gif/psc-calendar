@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] PUC Agenda Meeting
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:daafe80a7f346eae2fae@psc-calendar
 CATEGORIES:MN,Decision / Order
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] Meeting details
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:b6f8b2e8c24cc6e0fd7b@psc-calendar
 CATEGORIES:MN,Other
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -44,7 +44,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] PUC Agenda Meeting
 DTSTART;TZID=America/Chicago:20260813T000000
 DTEND;TZID=America/Chicago:20260813T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:dcdaa9cc4a2b7a92c803@psc-calendar
 CATEGORIES:MN,Decision / Order
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -60,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] Meeting details
 DTSTART;TZID=America/Chicago:20260813T000000
 DTEND;TZID=America/Chicago:20260813T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:b3931e37b2f55f8df2d1@psc-calendar
 CATEGORIES:MN,Other
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -76,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] PUC Agenda Meeting
 DTSTART;TZID=America/Chicago:20260820T000000
 DTEND;TZID=America/Chicago:20260820T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:22be094f4449bf389c6e@psc-calendar
 CATEGORIES:MN,Decision / Order
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -92,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] Title and navigation
 DTSTART;TZID=America/Chicago:20260820T000000
 DTEND;TZID=America/Chicago:20260820T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:3b86f9d14c1afba40082@psc-calendar
 CATEGORIES:MN,Other
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -113,7 +113,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] RadDatePicker: August 2026
 DTSTART;TZID=America/Chicago:20260820T000000
 DTEND;TZID=America/Chicago:20260820T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:52d2fb1fc76189e3952a@psc-calendar
 CATEGORIES:MN,Other
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -128,7 +128,7 @@ SUMMARY:[MN] RadDatePicker: August 2026 S M T W T F S 31 26 27 28 29 30 31
  4 25 26 27 28 29 36 30 31 1 2 3 4 5
 DTSTART;TZID=America/Chicago:20260820T000000
 DTEND;TZID=America/Chicago:20260820T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:819a508a9ec74d2ff161@psc-calendar
 CATEGORIES:MN,Other
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -140,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] Calendar: August 2026
 DTSTART;TZID=America/Chicago:20260820T000000
 DTEND;TZID=America/Chicago:20260820T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:6a32ab9d5bc8d40bd737@psc-calendar
 CATEGORIES:MN,Other
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -155,7 +155,7 @@ SUMMARY:[MN] Calendar: August 2026 S M T W T F S 31 26 27 28 29 30 31 1 32
  26 27 28 29 36 30 31 1 2 3 4 5
 DTSTART;TZID=America/Chicago:20260820T000000
 DTEND;TZID=America/Chicago:20260820T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:17ba49e7cfbbbdc89fc8@psc-calendar
 CATEGORIES:MN,Other
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -167,7 +167,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] Title and navigation: August 2026
 DTSTART;TZID=America/Chicago:20260820T000000
 DTEND;TZID=America/Chicago:20260820T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:92263d9ee4b7c317e6ec@psc-calendar
 CATEGORIES:MN,Other
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -180,7 +180,7 @@ BEGIN:VEVENT
 SUMMARY:[MN] Cancelled - Consent Items Only
 DTSTART;TZID=America/Chicago:20260827T000000
 DTEND;TZID=America/Chicago:20260827T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:a4b3f435ae525bf97478@psc-calendar
 CATEGORIES:MN,Decision / Order
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
@@ -194,17 +194,17 @@ URL:https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1432554&GUID=E5A3B
  B40-60BD-4BF1-AB55-C57383FB8D7D
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[MN] Aug\, 2026: 27 28 29 30 31 3 4 5 6 7 10 11 12 13 14 17 18 19 
- 20 21 24 25 26 27 28 31 1 Sep 2 3 4
+SUMMARY:[MN] Open meeting: Aug\, 2026: 27 28 29 30 31 3 4 5 6 7 10 11 12 1
+ 3 14 17 18 19 20 21 24 25 26 27 28 31 1 Sep 2 3 4
 DTSTART;TZID=America/Chicago:20260902T000000
 DTEND;TZID=America/Chicago:20260902T020000
-DTSTAMP:20260814T212118Z
-UID:9571418ed4d941a29724@psc-calendar
-CATEGORIES:MN,Other
+DTSTAMP:20260814T213843Z
+UID:8aaf40da51cb651da049@psc-calendar
+CATEGORIES:MN,Decision / Order
 DESCRIPTION:Commission: Minnesota Public Utilities Commission (MN)\nType: 
- Other\n\nSource: https://minnesotapuc.legistar.com/Calendar.aspx#2026-07-2
- 7
-PRIORITY:9
+ Decision / Order\n\nSource: https://minnesotapuc.legistar.com/Calendar.asp
+ x#2026-07-27
+PRIORITY:5
 URL:https://minnesotapuc.legistar.com/Calendar.aspx#2026-07-27
 END:VEVENT
 END:VCALENDAR

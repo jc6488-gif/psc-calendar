@@ -9,10 +9,94 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260716T093000
+DTEND;TZID=America/New_York:20260716T113000
+DTSTAMP:20260814T213843Z
+UID:cbba39c4c12ed88ef868@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJul 16 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 7-16-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-7-16-2026/?date=1
+ 784208600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-7-
+ 16-2026/?date=1784208600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260721T093000
+DTEND;TZID=America/New_York:20260721T113000
+DTSTAMP:20260814T213843Z
+UID:7680eb4e5729365b3725@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJul 21 9:30 am Administrative Session 7-21-2026\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-7-21-2026/?date=1784640600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-7-21-2026/?date=1784640600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260722T100000
+DTEND;TZID=America/New_York:20260722T120000
+DTSTAMP:20260814T213843Z
+UID:3c2111d288f087e2b05d@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJul 22 10:00 am GUFPA Hearing for Rule Nisi & 46-2-91 July
+  22\, 2026\n\nSource: https://psc.ga.gov/agendas-calendars/commission-cale
+ ndar/hearings-for-rule-nisi-46-2-91-july-22-2026/?date=1784728800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/hearings-for-
+ rule-nisi-46-2-91-july-22-2026/?date=1784728800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260730T093000
+DTEND;TZID=America/New_York:20260730T113000
+DTSTAMP:20260814T213843Z
+UID:56d658f4ed5a9ed46f0f@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJul 30 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 7-30-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-7-30-2026/?date=1
+ 785418200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-7-
+ 30-2026/?date=1785418200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260731T093000
+DTEND;TZID=America/New_York:20260731T113000
+DTSTAMP:20260814T213843Z
+UID:c930e7bc46e5d728a818@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJul 31 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 07-31-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-07-31-2025/?date
+ =1753968600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-07
+ -31-2025/?date=1753968600
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 8-4-2026
 DTSTART;TZID=America/New_York:20260804T000000
 DTEND;TZID=America/New_York:20260804T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:fc54f633d27aa83596c9@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -24,11 +108,41 @@ URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
  e-session-8-4-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260804T093000
+DTEND;TZID=America/New_York:20260804T113000
+DTSTAMP:20260814T213843Z
+UID:e2be61699dd292c4b13d@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nAug 4 9:30 am Administrative Session 8-4-2026\n\nSource: h
+ ttps://psc.ga.gov/agendas-calendars/commission-calendar/administrative-ses
+ sion-8-4-2026/?date=1785850200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-8-4-2026/?date=1785850200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260805T093000
+DTEND;TZID=America/New_York:20260805T113000
+DTSTAMP:20260814T213843Z
+UID:a849f13bc6b6e03ff09e@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nAug 5 9:30 am Administrative Session 08-05-2025\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-08-05-2025/?date=1754400600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-08-05-2025/?date=1754400600
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 8-13-2026
 DTSTART;TZID=America/New_York:20260813T000000
 DTEND;TZID=America/New_York:20260813T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:ea5cccda4f4b825eac97@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -42,11 +156,29 @@ URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
  13-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260813T093000
+DTEND;TZID=America/New_York:20260813T113000
+DTSTAMP:20260814T213843Z
+UID:3134b6917ad21e93e353@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nAug 13 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 8-13-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-8-13-2026/?date=1
+ 786627800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-8-
+ 13-2026/?date=1786627800
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[GA] Docket # 55973 City of Cartersville v. Georgia Power Company 
  (Hearing Officer) 8-14-2026
 DTSTART;TZID=America/New_York:20260814T000000
 DTEND;TZID=America/New_York:20260814T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:479400e35ea19504c722@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -59,10 +191,29 @@ URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-55973-
  city-of-cartersville-v-georgia-power-company-hearing-officer-1/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260814T093500
+DTEND;TZID=America/New_York:20260814T113500
+DTSTAMP:20260814T213843Z
+UID:fdb4e9278925e99a6399@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 56181\, 56258\n\nAug 14 9:35 am Docket No. 56181 - G
+ EORGIA POWER COMPANY’S APPLICATION FOR THE CERTIFICATION OF THE CARES 20
+ 23 UTILITY SCALE RENEWABLE POWER PURCHASE AGREEMENTS\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/docket-no-56181-georgia-pow
+ er-companys-application-for-the-certification-of-the-cares-2023-utility-sc
+ ale-renewable-power/?date=1755178500
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-561
+ 81-georgia-power-companys-application-for-the-certification-of-the-cares-2
+ 023-utility-scale-renewable-power/?date=1755178500
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 8-18-2026
 DTSTART;TZID=America/New_York:20260818T000000
 DTEND;TZID=America/New_York:20260818T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:736467aec83877cca68f@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -74,10 +225,30 @@ URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
  e-session-8-18-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260818T093500
+DTEND;TZID=America/New_York:20260818T113500
+DTSTAMP:20260814T213843Z
+UID:643803c9855655a99fba@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 56181\, 57154\n\nAug 18 9:35 am Docket No. 56181 GEO
+ RGIA POWER COMPANY’S APPLICATION FOR THE CERTIFICATION OF THE CARES 2023
+  UTILITY SCALE RENEWABLE POWER PURCHASE AGREEMENTS and Docket No. 57154 AP
+ PLICATION FOR THE CERTIFICATION OF THE CARES 2025 UTILI 8-18-\n\nSource: h
+ ttps://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-56181-ge
+ orgia-power-companys-application-for-the-certification-of-the-cares-2023-u
+ tility-scale-renewable-power-1/?date=1787060100
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-561
+ 81-georgia-power-companys-application-for-the-certification-of-the-cares-2
+ 023-utility-scale-renewable-power-1/?date=1787060100
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[GA] GUFPA Hearing 8-19-2026
 DTSTART;TZID=America/New_York:20260819T000000
 DTEND;TZID=America/New_York:20260819T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:b7efb5d506b35c39b812@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -88,11 +259,41 @@ URL:https://psc.ga.gov/agendas-calendars/commission-calendar/gufpa-hearing
  -8-19-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260819T213000
+DTEND;TZID=America/New_York:20260819T233000
+DTSTAMP:20260814T213843Z
+UID:117638d65fedb6ded13e@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nAug 19 9:30 pm Administrative Session 08-19-2025\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-08-19-2025/?date=1755653400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-08-19-2025/?date=1755653400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260820T100000
+DTEND;TZID=America/New_York:20260820T120000
+DTSTAMP:20260814T213843Z
+UID:83168d8bf7cf203ef06f@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nAug 20 10:00 am GUFPA Hearing 8-20-2025\n\nSource: https:/
+ /psc.ga.gov/agendas-calendars/commission-calendar/gufpa-hearing-8-20-2025/
+ ?date=1755698400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/gufpa-hearing
+ -8-20-2025/?date=1755698400
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 8-27-2026
 DTSTART;TZID=America/New_York:20260827T000000
 DTEND;TZID=America/New_York:20260827T020000
-DTSTAMP:20260814T212118Z
+DTSTAMP:20260814T213843Z
 UID:a35a24814b3c6913c039@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -104,5 +305,1305 @@ PRIORITY:9
 URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
  otection-telecommunication-energy-and-administrative-affairs-committees-8-
  27-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260827T093000
+DTEND;TZID=America/New_York:20260827T113000
+DTSTAMP:20260814T213843Z
+UID:16544b000391898ab6b5@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nAug 27 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 8-27-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-8-27-2026/?date=1
+ 787837400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-8-
+ 27-2026/?date=1787837400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260828T093000
+DTEND;TZID=America/New_York:20260828T113000
+DTSTAMP:20260814T213843Z
+UID:5348ddb50757d9fbe9a3@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nAug 28 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 08-28-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-08-28-2025/?date
+ =1756387800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-08
+ -28-2025/?date=1756387800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260901T093500
+DTEND;TZID=America/New_York:20260901T113500
+DTSTAMP:20260814T213843Z
+UID:3ba2effa2485e14347aa@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 57171\n\nSep 1 9:35 am Docket No. 57171 RTP Revenue 
+ Credit and Allocation Methodology Hearing 9-1-2026\n\nSource: https://psc.
+ ga.gov/agendas-calendars/commission-calendar/docket-no-57171-rtp-revenue-c
+ redit-and-allocation-methodology-hearing-9-1-2026/?date=1788269700
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-571
+ 71-rtp-revenue-credit-and-allocation-methodology-hearing-9-1-2026/?date=17
+ 88269700
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260904T093000
+DTEND;TZID=America/New_York:20260904T113000
+DTSTAMP:20260814T213843Z
+UID:fb9c6326e4bbb683fd9b@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nSep 4 9:30 am Administrative Session 09-04-2025\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-09-02-2025/?date=1756992600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-09-02-2025/?date=1756992600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260910T093000
+DTEND;TZID=America/New_York:20260910T113000
+DTSTAMP:20260814T213843Z
+UID:89eb725c23d6adea77d2@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nSep 10 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 9-10-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-9-10-2026/?date=1
+ 789047000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-9-
+ 10-2026/?date=1789047000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260911T093500
+DTEND;TZID=America/New_York:20260911T113500
+DTSTAMP:20260814T213843Z
+UID:c3a689ec3fe4274c32fa@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 56177\, 56178\n\nSep 11 9:35 am Docket No. 56177 Atl
+ anta Gas Light's 2025 – 2028 Capacity Supply Plan\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/docket-no-56177-atlanta-gas-
+ lights-2025-2028-capacity-supply-plan/?date=1757597700
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-561
+ 77-atlanta-gas-lights-2025-2028-capacity-supply-plan/?date=1757597700
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260915T093000
+DTEND;TZID=America/New_York:20260915T113000
+DTSTAMP:20260814T213843Z
+UID:9dadb2f2c217afeb9dcf@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nSep 15 9:30 am Administrative Session 9-15-2026\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-9-15-2026/?date=1789479000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-9-15-2026/?date=1789479000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260917T093000
+DTEND;TZID=America/New_York:20260917T113000
+DTSTAMP:20260814T213843Z
+UID:373d73c3ac9cf861792b@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nSep 17 9:30 am Administrative Session 09-17-2025\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-09-16-2025/?date=1758115800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-09-16-2025/?date=1758115800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20260923T100000
+DTEND;TZID=America/New_York:20260923T120000
+DTSTAMP:20260814T213843Z
+UID:e4db6fb47a7e9b454e92@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nSep 23 10:00 am GUFPA Hearing 9-23-2026\n\nSource: https:/
+ /psc.ga.gov/agendas-calendars/commission-calendar/gufpa-hearing-9-23-2026/
+ ?date=1790172000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/gufpa-hearing
+ -9-23-2026/?date=1790172000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261001T093000
+DTEND;TZID=America/New_York:20261001T113000
+DTSTAMP:20260814T213843Z
+UID:d137a87d2085b6219326@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nOct 1 9:30 am Facilities Protection/Telecommunication/Ener
+ gy And Administrative Affairs Committees 10-1-2026\n\nSource: https://psc.
+ ga.gov/agendas-calendars/commission-calendar/facilities-protection-telecom
+ munication-energy-and-administrative-affairs-committees-10-1-2026/?date=17
+ 90861400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-10
+ -1-2026/?date=1790861400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261002T093000
+DTEND;TZID=America/New_York:20261002T113000
+DTSTAMP:20260814T213843Z
+UID:0344546920028056a13f@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nOct 2 9:30 am Facilities Protection/Telecommunication/Ener
+ gy And Administrative Affairs Committees 10-2-2025\n\nSource: https://psc.
+ ga.gov/agendas-calendars/commission-calendar/facilities-protection-telecom
+ munication-energy-and-administrative-affairs-committees-10-2-2025/?date=17
+ 59411800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-10
+ -2-2025/?date=1759411800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261006T093000
+DTEND;TZID=America/New_York:20261006T113000
+DTSTAMP:20260814T213843Z
+UID:b2f6dbb9cdc330abc6cd@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nOct 6 9:30 am Administrative Session 10-6-2026\n\nSource: 
+ https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-se
+ ssion-10-6-2026/?date=1791293400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-10-6-2026/?date=1791293400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261007T100000
+DTEND;TZID=America/New_York:20261007T120000
+DTSTAMP:20260814T213843Z
+UID:70ee31b5b718dd62f23c@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nOct 7 10:00 am 03:00 pm Distributed Generation Working Gro
+ up Meeting - Small Hearing Rm\n\nSource: https://psc.ga.gov/agendas-calend
+ ars/commission-calendar/distributed-generation-working-group-meeting/?date
+ =1759845600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/distributed-g
+ eneration-working-group-meeting/?date=1759845600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261015T093500
+DTEND;TZID=America/New_York:20261015T113500
+DTSTAMP:20260814T213843Z
+UID:9b87d37631efc3996c74@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 57171\n\nOct 15 9:35 am Docket No. 57171 RTP Revenue
+  Credit and Allocation Methodology Hearing 10-15-2026\n\nSource: https://p
+ sc.ga.gov/agendas-calendars/commission-calendar/docket-no-57171-rtp-revenu
+ e-credit-and-allocation-methodology-hearing-10-15-2026/?date=1792071300
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-571
+ 71-rtp-revenue-credit-and-allocation-methodology-hearing-10-15-2026/?date=
+ 1792071300
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261016T093000
+DTEND;TZID=America/New_York:20261016T113000
+DTSTAMP:20260814T213843Z
+UID:790ac6f137da6aab0614@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nOct 16 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 10-16-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-10-16-2025/?date
+ =1760621400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-10
+ -16-2025/?date=1760621400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261017T093000
+DTEND;TZID=America/New_York:20261017T113000
+DTSTAMP:20260814T213843Z
+UID:c098a2ca342c44e599b6@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 55973\n\nOct 17 9:30 am Docket No. 55973 Petition of
+  City of Cartersville v. Georgia Power Company\n\nSource: https://psc.ga.g
+ ov/agendas-calendars/commission-calendar/docket-no-55973-petition-of-city-
+ of-cartersville-v-georgia-power-company/?date=1760707800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-559
+ 73-petition-of-city-of-cartersville-v-georgia-power-company/?date=17607078
+ 00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261020T093000
+DTEND;TZID=America/New_York:20261020T113000
+DTSTAMP:20260814T213843Z
+UID:fe7640c195821ab5e91b@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nOct 20 9:30 am Administrative Session 10-20-2026\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-10-20-2026/?date=1792503000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-10-20-2026/?date=1792503000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261021T093500
+DTEND;TZID=America/New_York:20261021T113500
+DTSTAMP:20260814T213843Z
+UID:801e5d9aa21ba9633693@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 56298\, 56310\n\nOct 21 9:35 am Hearing for Docket N
+ o. 56298 Georgia Power Company’s Application For The Certification Of Th
+ e 2029-2031 All-Source Capacity RFP & Docket No. 56310 Georgia Power Compa
+ ny's Application for the Certification of Supplemental Resources for 2028-
+ 2031 Capacity\n\nSource: https://psc.ga.gov/agendas-calendars/commission-c
+ alendar/hearing-for-docket-no-56298-georgia-power-companys-application-for
+ -the-certification-of-the-2029-2031-all-source-capacity-rfp/?date=17610537
+ 00
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/hearing-for-d
+ ocket-no-56298-georgia-power-companys-application-for-the-certification-of
+ -the-2029-2031-all-source-capacity-rfp/?date=1761053700
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261022T093000
+DTEND;TZID=America/New_York:20261022T113000
+DTSTAMP:20260814T213843Z
+UID:df59b8bbe8738cb198a1@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 56298\, 56310\n\nOct 22 9:30 am Hearing for Docket N
+ o. 56298 Georgia Power Company’s Application For The Certification Of Th
+ e 2029-2031 All-Source Capacity RFP & Docket No. 56310 Georgia Power Compa
+ ny's Application for the Certification of Supplemental Resources for 2028-
+ 2031 Capacity\n\nSource: https://psc.ga.gov/agendas-calendars/commission-c
+ alendar/hearing-for-docket-no-56298-georgia-power-companys-application-for
+ -the-certification-of-the-2029-2031-all-source-capacity-rfp-1/?date=176113
+ 9800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/hearing-for-d
+ ocket-no-56298-georgia-power-companys-application-for-the-certification-of
+ -the-2029-2031-all-source-capacity-rfp-1/?date=1761139800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261029T093000
+DTEND;TZID=America/New_York:20261029T113000
+DTSTAMP:20260814T213843Z
+UID:cde52348ce6f58d40db2@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nOct 29 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 10-29-2026\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-10-29-2026/?date
+ =1793280600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-10
+ -29-2026/?date=1793280600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261030T093000
+DTEND;TZID=America/New_York:20261030T113000
+DTSTAMP:20260814T213843Z
+UID:88ea091033cbb6e0102b@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nOct 30 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 10-30-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-10-30-2025/?date
+ =1761831000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-10
+ -30-2025/?date=1761831000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261103T093000
+DTEND;TZID=America/New_York:20261103T113000
+DTSTAMP:20260814T213843Z
+UID:32a4376beee41bfe7e73@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nNov 3 9:30 am Administrative Session 11-3-2026\n\nSource: 
+ https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-se
+ ssion-11-3-2026/?date=1793716200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-11-3-2026/?date=1793716200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261104T093000
+DTEND;TZID=America/New_York:20261104T113000
+DTSTAMP:20260814T213843Z
+UID:49bcb6f50e253d79cb44@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nNov 4 9:30 am Administrative Session 11-04-2025\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-11-04-2025/?date=1762266600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-11-04-2025/?date=1762266600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261105T093000
+DTEND;TZID=America/New_York:20261105T113000
+DTSTAMP:20260814T213843Z
+UID:e8acd7f5453585d9f1cb@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nNov 5 9:30 am Administrative Session 11-5-2024\n\nSource: 
+ https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-se
+ ssion-11-5-2024/?date=1730817000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-11-5-2024/?date=1730817000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261112T093500
+DTEND;TZID=America/New_York:20261112T113500
+DTSTAMP:20260814T213843Z
+UID:ff16590c05b2aabeba44@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 57171\n\nNov 12 9:35 am Docket No. 57171 RTP Revenue
+  Credit and Allocation Methodology Hearing 11-12-2026\n\nSource: https://p
+ sc.ga.gov/agendas-calendars/commission-calendar/docket-no-57171-rtp-revenu
+ e-credit-and-allocation-methodology-hearing-11-12-2026/?date=1794494100
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-571
+ 71-rtp-revenue-credit-and-allocation-methodology-hearing-11-12-2026/?date=
+ 1794494100
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261113T093000
+DTEND;TZID=America/New_York:20261113T113000
+DTSTAMP:20260814T213843Z
+UID:07ef54e74fe10de0adeb@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nNov 13 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 11-13-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-11-13-2025/?date
+ =1763044200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-11
+ -13-2025/?date=1763044200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261114T093000
+DTEND;TZID=America/New_York:20261114T113000
+DTSTAMP:20260814T213843Z
+UID:cdc0b390c34feb25e9ca@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nNov 14 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 11-14-2024\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-11-14-2024/?date
+ =1731594600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-11
+ -14-2024/?date=1731594600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261117T093000
+DTEND;TZID=America/New_York:20261117T113000
+DTSTAMP:20260814T213843Z
+UID:e6bf11bfade9608a18ad@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nNov 17 9:30 am Administrative Session 11-17-2026\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-11-17-2026/?date=1794925800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-11-17-2026/?date=1794925800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261118T093000
+DTEND;TZID=America/New_York:20261118T113000
+DTSTAMP:20260814T213843Z
+UID:d7995f0c60fa8f367a7c@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nNov 18 9:30 am Administrative Session 11-18-2025\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-11-18-2025/?date=1763476200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-11-18-2025/?date=1763476200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261119T090000
+DTEND;TZID=America/New_York:20261119T110000
+DTSTAMP:20260814T213843Z
+UID:167b564bf97d4fcd79ed@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nNov 19 9:00 am Distributed Generation Working Group - Smal
+ l Hearing Room\n\nSource: https://psc.ga.gov/agendas-calendars/commission-
+ calendar/distributed-generation-working-group-small-hearing-room/?date=176
+ 3560800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/distributed-g
+ eneration-working-group-small-hearing-room/?date=1763560800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261126T093000
+DTEND;TZID=America/New_York:20261126T113000
+DTSTAMP:20260814T213843Z
+UID:929d1931e3330f6b6ded@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nNov 26 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 11-26-2024\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-11-28-2024/?date
+ =1732631400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-11
+ -28-2024/?date=1732631400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261201T093000
+DTEND;TZID=America/New_York:20261201T113000
+DTSTAMP:20260814T213843Z
+UID:5f489ea59b71796a78b7@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nDec 1 9:30 am Administrative Session 12-1-2026\n\nSource: 
+ https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-se
+ ssion-12-1-2026/?date=1796135400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-12-1-2026/?date=1796135400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261202T093000
+DTEND;TZID=America/New_York:20261202T113000
+DTSTAMP:20260814T213843Z
+UID:b39b55ab035f1c23fd1b@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nDec 2 9:30 am Administrative Session 12-02-2025\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-12-02-2025/?date=1764685800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-12-02-2025/?date=1764685800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261203T093000
+DTEND;TZID=America/New_York:20261203T113000
+DTSTAMP:20260814T213843Z
+UID:3cc5257c65b1b9d5c9ba@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nDec 3 9:30 am Administrative Session 12-3-2024\n\nSource: 
+ https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-se
+ ssion-12-3-2024/?date=1733236200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-12-3-2024/?date=1733236200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261210T093000
+DTEND;TZID=America/New_York:20261210T113000
+DTSTAMP:20260814T213843Z
+UID:bf0f40cb1456b4d2c0a2@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 56298\, 56310\n\nDec 10 9:30 am Hearing for Docket N
+ o. 56298 Georgia Power Company’s Application For The Certification Of Th
+ e 2029-2031 All-Source Capacity RFP & Docket No. 56310 Georgia Power Compa
+ ny's Application for the Certification of Supplemental Resources for 2028-
+ 2031 Capacity\n\nSource: https://psc.ga.gov/agendas-calendars/commission-c
+ alendar/hearing-for-docket-no-56298-georgia-power-companys-application-for
+ -the-certification-of-the-2029-2031-all-source-capacity-rfp-3/?date=176537
+ 7000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/hearing-for-d
+ ocket-no-56298-georgia-power-companys-application-for-the-certification-of
+ -the-2029-2031-all-source-capacity-rfp-3/?date=1765377000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261211T093000
+DTEND;TZID=America/New_York:20261211T113000
+DTSTAMP:20260814T213843Z
+UID:93e9540649dc1f38a491@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nDec 11 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 12-11-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-12-11-2025/?date
+ =1765463400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-12
+ -11-2025/?date=1765463400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261212T093000
+DTEND;TZID=America/New_York:20261212T113000
+DTSTAMP:20260814T213843Z
+UID:45ec871d23f11c63664f@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nDec 12 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 12-12-2024\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-12-12-2024/?date
+ =1734013800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-12
+ -12-2024/?date=1734013800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261215T093000
+DTEND;TZID=America/New_York:20261215T113000
+DTSTAMP:20260814T213843Z
+UID:7ec98129a7a8bec67d19@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nDec 15 9:30 am Administrative Session 12-15-2026\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-12-15-2026/?date=1797345000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-12-15-2026/?date=1797345000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261216T093500
+DTEND;TZID=America/New_York:20261216T113500
+DTSTAMP:20260814T213843Z
+UID:80a46b576f563a5ecaa0@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 43453\n\nDec 16 9:35 am Docket No. 43453 2025 Pole A
+ ttachment Case\n\nSource: https://psc.ga.gov/agendas-calendars/commission-
+ calendar/docket-no-43453-2025-pole-attachment-case/?date=1765895700
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-434
+ 53-2025-pole-attachment-case/?date=1765895700
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261217T093000
+DTEND;TZID=America/New_York:20261217T113000
+DTSTAMP:20260814T213843Z
+UID:4be1a9b9508565437645@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nDec 17 9:30 am Administrative Session 12-17-2024\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-12-17-2024/?date=1734445800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-12-17-2024/?date=1734445800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261219T093500
+DTEND;TZID=America/New_York:20261219T113500
+DTSTAMP:20260814T213843Z
+UID:be91d56d7e09d4f4ea0d@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 56298\, 56310\n\nDec 19 9:35 am Special Administrati
+ ve Session Docket No. 56298 & Docket No. 56310\n\nSource: https://psc.ga.g
+ ov/agendas-calendars/commission-calendar/special-administrative-session-do
+ cket-no-56298-docket-no-56310/?date=1766154900
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/special-admin
+ istrative-session-docket-no-56298-docket-no-56310/?date=1766154900
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20261231T093000
+DTEND;TZID=America/New_York:20261231T113000
+DTSTAMP:20260814T213843Z
+UID:306c527ee3fc2d59f079@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nDec 31 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 12-31-2026\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-12-31-2026/?date
+ =1798727400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-12
+ -31-2026/?date=1798727400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270102T093000
+DTEND;TZID=America/New_York:20270102T113000
+DTSTAMP:20260814T213843Z
+UID:f31f40b3bcda2a60b340@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJan 2 9:30 am Facilities Protection/Telecommunication/Ener
+ gy And Administrative Affairs Committees 1-2-25 (Committees have been Waiv
+ ed)\n\nSource: https://psc.ga.gov/agendas-calendars/commission-calendar/fa
+ cilities-protection-telecommunication-energy-and-administrative-affairs-co
+ mmittees-1-2-25/?date=1735828200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-1-
+ 2-25/?date=1735828200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270106T100000
+DTEND;TZID=America/New_York:20270106T120000
+DTSTAMP:20260814T213843Z
+UID:fe3156ab1b92a1f726b3@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJan 6 10:00 am 01:00 pm Distributed Generation Working Gro
+ up Meeting 1-6-2026 Small Hearing Room\n\nSource: https://psc.ga.gov/agend
+ as-calendars/commission-calendar/distributed-generation-working-group-meet
+ ing-1-6-2026/?date=1767711600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/distributed-g
+ eneration-working-group-meeting-1-6-2026/?date=1767711600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270107T093000
+DTEND;TZID=America/New_York:20270107T113000
+DTSTAMP:20260814T213843Z
+UID:31ae52ec1b6fa80bcf40@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJan 7 9:30 am Administrative Session 1-7-2025\n\nSource: h
+ ttps://psc.ga.gov/agendas-calendars/commission-calendar/administrative-ses
+ sion-1-7-2025/?date=1736260200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-1-7-2025/?date=1736260200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270115T093000
+DTEND;TZID=America/New_York:20270115T113000
+DTSTAMP:20260814T213843Z
+UID:b5d3d7a9f7e46f6608d8@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJan 15 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 1-15-2025\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-1-15-2025/?date=1
+ 768487400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-1-
+ 15-2025/?date=1768487400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270116T093000
+DTEND;TZID=America/New_York:20270116T113000
+DTSTAMP:20260814T213843Z
+UID:51a7c566edac7890a2c0@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJan 16 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 01-16-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-01-16-2025/?date
+ =1737037800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-01
+ -16-2025/?date=1737037800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270121T093000
+DTEND;TZID=America/New_York:20270121T113000
+DTSTAMP:20260814T213843Z
+UID:cc11bfc8406f6ef39f0a@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJan 21 9:30 am Administrative Session 1-21-2026\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-1-20-2026/?date=1769005800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-1-20-2026/?date=1769005800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270123T093000
+DTEND;TZID=America/New_York:20270123T113000
+DTSTAMP:20260814T213843Z
+UID:9f91e9547ac8ce05430d@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJan 23 9:30 am Administrative Session 1-23-2025\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-1-21-2025/?date=1737642600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-1-21-2025/?date=1737642600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270129T093000
+DTEND;TZID=America/New_York:20270129T113000
+DTSTAMP:20260814T213843Z
+UID:bca157483663e65094a7@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJan 29 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 1-29-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-1-29-2026/?date=1
+ 769697000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-1-
+ 29-2026/?date=1769697000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270130T093000
+DTEND;TZID=America/New_York:20270130T113000
+DTSTAMP:20260814T213843Z
+UID:aa0ca8cc237a6b2217e5@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nJan 30 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 01-30-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-01-30-2025/?date
+ =1738247400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-01
+ -30-2025/?date=1738247400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270203T094000
+DTEND;TZID=America/New_York:20270203T114000
+DTSTAMP:20260814T213843Z
+UID:0e036aa661cd7233f1b4@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 56298\, 56310\n\nFeb 3 9:40 am SPECIAL ADMINISTRATIV
+ E SESSION - Docket No. 56298 & Docket No. 56310 for GIPL and Southface Ins
+ titute Petition for Limited Hearing Concerning Stipulation(Access to Trade
+  Secret Information under an NDA)\n\nSource: https://psc.ga.gov/agendas-ca
+ lendars/commission-calendar/special-administrative-session-docket-no-56298
+ -docket-no-56310-for-gipl-and-southface-institute-petition-for-limited-hea
+ ring/?date=1770129600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/special-admin
+ istrative-session-docket-no-56298-docket-no-56310-for-gipl-and-southface-i
+ nstitute-petition-for-limited-hearing/?date=1770129600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270204T093000
+DTEND;TZID=America/New_York:20270204T113000
+DTSTAMP:20260814T213843Z
+UID:69007e1efc6f6d721317@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nFeb 4 9:30 am Administrative Session 02-04-2025\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-02-04-2025/?date=1738679400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-02-04-2025/?date=1738679400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270212T093000
+DTEND;TZID=America/New_York:20270212T113000
+DTSTAMP:20260814T213843Z
+UID:dd4a9240b6f50eb9b61c@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nFeb 12 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 2-12-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-2-12-2026/?date=1
+ 770906600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-2-
+ 12-2026/?date=1770906600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270213T093000
+DTEND;TZID=America/New_York:20270213T113000
+DTSTAMP:20260814T213843Z
+UID:77ff57fb69ee90333776@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nFeb 13 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 02-13-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-02-13-2025/?date
+ =1739457000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-02
+ -13-2025/?date=1739457000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270218T093000
+DTEND;TZID=America/New_York:20270218T113000
+DTSTAMP:20260814T213843Z
+UID:d52b82dcc21bfb95ad83@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nFeb 18 9:30 am Administrative Session 02-18-2025\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-02-18-2025/?date=1739889000
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-02-18-2025/?date=1739889000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270226T093000
+DTEND;TZID=America/New_York:20270226T113000
+DTSTAMP:20260814T213843Z
+UID:09bb70791e8bd2802b5a@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nFeb 26 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 2-26-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-2-26-2026/?date=1
+ 772116200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-2-
+ 26-2026/?date=1772116200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270227T093500
+DTEND;TZID=America/New_York:20270227T113500
+DTSTAMP:20260814T213843Z
+UID:aef670304cec455d7fb4@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 42959\n\nFeb 27 9:35 am Docket No. 42959 Special Adm
+ inistrative Session Liberty Utilities Rate Adjustment Mechanism\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-42959-
+ special-administrative-session-liberty-utilities-rate-adjustment-mechanism
+ /?date=1740666900
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-429
+ 59-special-administrative-session-liberty-utilities-rate-adjustment-mechan
+ ism/?date=1740666900
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270303T093000
+DTEND;TZID=America/New_York:20270303T113000
+DTSTAMP:20260814T213843Z
+UID:63937d66cbc68fd84008@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 3 9:30 am Administrative Session 3-3-2026\n\nSource: h
+ ttps://psc.ga.gov/agendas-calendars/commission-calendar/administrative-ses
+ sion-3-3-2026/?date=1772548200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-3-3-2026/?date=1772548200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270304T093000
+DTEND;TZID=America/New_York:20270304T113000
+DTSTAMP:20260814T213843Z
+UID:34b50f91c3f71300c9f6@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 4 9:30 am Administrative Session 03-04-2025\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-03-04-2025/?date=1741098600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-03-04-2025/?date=1741098600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270312T093000
+DTEND;TZID=America/New_York:20270312T113000
+DTSTAMP:20260814T213843Z
+UID:f8d31fe5311df5c3048f@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 12 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 3-12-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-3-12-2026/?date=1
+ 773322200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-3-
+ 12-2026/?date=1773322200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270313T093000
+DTEND;TZID=America/New_York:20270313T113000
+DTSTAMP:20260814T213843Z
+UID:d2cf1a4bbe889f220844@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 13 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 03-13-25\n\nSource: https://psc.
+ ga.gov/agendas-calendars/commission-calendar/facilities-protection-telecom
+ munication-energy-and-administrative-affairs-committees-03-13-25/?date=174
+ 1872600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-03
+ -13-25/?date=1741872600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270317T093500
+DTEND;TZID=America/New_York:20270317T113500
+DTSTAMP:20260814T213843Z
+UID:ddef5e134bd7f9218a5d@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\nDocket: 56293\n\nMar 17 9:35 am Docket No. 56293 Hearing for
+  Axpo U.S. LLC Application for Natural Gas Certificate of Authority\n\nSou
+ rce: https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-56
+ 293-hearing-for-axpo-u.s-llc-application-for-natural-gas-certificate-of-au
+ thority/?date=1773754500
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-562
+ 93-hearing-for-axpo-u.s-llc-application-for-natural-gas-certificate-of-aut
+ hority/?date=1773754500
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270318T093000
+DTEND;TZID=America/New_York:20270318T113000
+DTSTAMP:20260814T213843Z
+UID:c2cbc0ad1e3bcea5208e@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 18 9:30 am Administrative Session 03-18-2025\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-03-18-2025/?date=1742304600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-03-18-2025/?date=1742304600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270319T100000
+DTEND;TZID=America/New_York:20270319T120000
+DTSTAMP:20260814T213843Z
+UID:7c988d65667c99b66087@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 19 10:00 am GUFPA Hearing 3-19-2025\n\nSource: https:/
+ /psc.ga.gov/agendas-calendars/commission-calendar/gufpa-hearing-3-19-2025/
+ ?date=1742392800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/gufpa-hearing
+ -3-19-2025/?date=1742392800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270320T100000
+DTEND;TZID=America/New_York:20270320T120000
+DTSTAMP:20260814T213843Z
+UID:4998fae0b6f63865069c@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 20 10:00 am Docket No # 34878 Rule Nisi Hearing Office
+ r Proceeding Q Link Wireless LLC\n\nSource: https://psc.ga.gov/agendas-cal
+ endars/commission-calendar/docket-no-34878-initiation-of-rule-nisi-assignm
+ ent-of-hearing-officer-and-procedural-scheduling-order/?date=1742479200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-348
+ 78-initiation-of-rule-nisi-assignment-of-hearing-officer-and-procedural-sc
+ heduling-order/?date=1742479200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270324T090000
+DTEND;TZID=America/New_York:20270324T110000
+DTSTAMP:20260814T213843Z
+UID:48dac8970aacc7b705f7@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 24 9:00 am 01:00 pm DSM Working Group of the 2028 IRP/
+ DSM\n\nSource: https://psc.ga.gov/agendas-calendars/commission-calendar/ds
+ m-working-group-of-the-2028-irp-dsm/?date=1774357200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/dsm-working-g
+ roup-of-the-2028-irp-dsm/?date=1774357200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270325T093000
+DTEND;TZID=America/New_York:20270325T113000
+DTSTAMP:20260814T213843Z
+UID:ecb88f316734880be65d@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 25 9:30 am Hearing for Docket #56002 Georgia Power Com
+ pany's 2025 Integrated Resource Plan Docket #56003 Georgia Power Company's
+  2025 Application for the Certification\, Decertification\, and Amended De
+ mand-Side Management Plan 3-25-2025\n\nSource: https://psc.ga.gov/agendas-
+ calendars/commission-calendar/hearing-for-docket-56002-georgia-power-compa
+ nys-2025-integrated-resource-plan-docket-56003-georgia-power-companys-2025
+ /?date=1742909400
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/hearing-for-d
+ ocket-56002-georgia-power-companys-2025-integrated-resource-plan-docket-56
+ 003-georgia-power-companys-2025/?date=1742909400
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270326T093000
+DTEND;TZID=America/New_York:20270326T113000
+DTSTAMP:20260814T213843Z
+UID:e0cab70f95e47763b5f9@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 26 9:30 am Hearing for Docket #56002 Georgia Power Com
+ pany's 2025 Integrated Resource Plan Docket #56003 Georgia Power Company's
+  2025 Application for the Certification\, Decertification\, and Amended De
+ mand-Side Management Plan 3-26-2025\n\nSource: https://psc.ga.gov/agendas-
+ calendars/commission-calendar/hearing-for-docket-56002-georgia-power-compa
+ nys-2025-integrated-resource-plan-docket-56003-georgia-power-companys-2026
+ /?date=1742995800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/hearing-for-d
+ ocket-56002-georgia-power-companys-2025-integrated-resource-plan-docket-56
+ 003-georgia-power-companys-2026/?date=1742995800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270327T093500
+DTEND;TZID=America/New_York:20270327T113500
+DTSTAMP:20260814T213843Z
+UID:b12f66e48e6a8e2c7165@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 27 9:35 am Hearing for Docket #56002 Georgia Power Com
+ pany's 2025 Integrated Resource Plan Docket #56003 Georgia Power Company's
+  2025 Application for the Certification\, Decertification\, and Amended De
+ mand-Side Management Plan 3-27-2025\n\nSource: https://psc.ga.gov/agendas-
+ calendars/commission-calendar/hearing-for-docket-56002-georgia-power-compa
+ nys-2025-integrated-resource-plan-docket-56003-georgia-power-companys-2027
+ /?date=1743082500
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/hearing-for-d
+ ocket-56002-georgia-power-companys-2025-integrated-resource-plan-docket-56
+ 003-georgia-power-companys-2027/?date=1743082500
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270328T093000
+DTEND;TZID=America/New_York:20270328T113000
+DTSTAMP:20260814T213843Z
+UID:0001f3a65cbb9a99ea73@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nMar 28 9:30 am Hearing for Docket #56002 Georgia Power Com
+ pany's 2025 Integrated Resource Plan Docket #56003 Georgia Power Company's
+  2025 Application for the Certification\, Decertification\, and Amended De
+ mand-Side Management Plan 3-28-2025\n\nSource: https://psc.ga.gov/agendas-
+ calendars/commission-calendar/hearing-for-docket-56002-georgia-power-compa
+ nys-2025-integrated-resource-plan-docket-56003-georgia-power-companys-2028
+ /?date=1743168600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/hearing-for-d
+ ocket-56002-georgia-power-companys-2025-integrated-resource-plan-docket-56
+ 003-georgia-power-companys-2028/?date=1743168600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270401T093000
+DTEND;TZID=America/New_York:20270401T113000
+DTSTAMP:20260814T213843Z
+UID:cf4b4195a8700c5baa6c@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nApr 1 9:30 am Administrative Session 04-01-2025\n\nSource:
+  https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-s
+ ession-04-01-2025/?date=1743514200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-04-01-2025/?date=1743514200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270402T093000
+DTEND;TZID=America/New_York:20270402T113000
+DTSTAMP:20260814T213843Z
+UID:13fe0d97127f87f15564@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nApr 2 9:30 am Facilities Protection/Telecommunication/Ener
+ gy And Administrative Affairs Committees 4-2-2026\n\nSource: https://psc.g
+ a.gov/agendas-calendars/commission-calendar/facilities-protection-telecomm
+ unication-energy-and-administrative-affairs-committees-4-2-2026/?date=1775
+ 136600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-4-
+ 2-2026/?date=1775136600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270407T093000
+DTEND;TZID=America/New_York:20270407T113000
+DTSTAMP:20260814T213843Z
+UID:5b63ef286923626d2dc0@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nApr 7 9:30 am Administrative Session 4-7-2026\n\nSource: h
+ ttps://psc.ga.gov/agendas-calendars/commission-calendar/administrative-ses
+ sion-4-7-2026/?date=1775568600
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-4-7-2026/?date=1775568600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270410T093000
+DTEND;TZID=America/New_York:20270410T113000
+DTSTAMP:20260814T213843Z
+UID:776630594f3cd1168a23@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nApr 10 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 04-10-2025\n\nSource: https://ps
+ c.ga.gov/agendas-calendars/commission-calendar/facilities-protection-telec
+ ommunication-energy-and-administrative-affairs-committees-04-10-2025/?date
+ =1744291800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-04
+ -10-2025/?date=1744291800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270415T093000
+DTEND;TZID=America/New_York:20270415T113000
+DTSTAMP:20260814T213843Z
+UID:6ab52e06b03a89366258@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nApr 15 9:30 am Administrative Session 04-15-2025\n\nSource
+ : https://psc.ga.gov/agendas-calendars/commission-calendar/administrative-
+ session-04-15-2025/?date=1744723800
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/administrativ
+ e-session-04-15-2025/?date=1744723800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GA] Open meeting
+DTSTART;TZID=America/New_York:20270416T093000
+DTEND;TZID=America/New_York:20270416T113000
+DTSTAMP:20260814T213843Z
+UID:baaa2603129f11f695d3@psc-calendar
+CATEGORIES:GA,Decision / Order
+DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
+ sion / Order\n\nApr 16 9:30 am Facilities Protection/Telecommunication/Ene
+ rgy And Administrative Affairs Committees 4-16-2026\n\nSource: https://psc
+ .ga.gov/agendas-calendars/commission-calendar/facilities-protection-teleco
+ mmunication-energy-and-administrative-affairs-committees-4-16-2026/?date=1
+ 776346200
+PRIORITY:5
+URL:https://psc.ga.gov/agendas-calendars/commission-calendar/facilities-pr
+ otection-telecommunication-energy-and-administrative-affairs-committees-4-
+ 16-2026/?date=1776346200
 END:VEVENT
 END:VCALENDAR

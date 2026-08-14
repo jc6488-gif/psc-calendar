@@ -284,3 +284,31 @@ def test_dedupe_prefers_timed_record_over_dateline():
     assert len(merged) == 1
     assert merged[0].start.hour == 9 and merged[0].start.minute == 30
     assert "12345" in merged[0].dockets      # docket unioned from the loser
+
+
+@pytest.mark.parametrize("raw,cleaned", [
+    ("Agenda (122.64 KB) .pdf (Amended)", "Agenda (Amended)"),
+    ("Agenda (posted )", "Agenda (posted)"),
+    ("Hearing Regarding CASD No. 2025-V-00759", "Hearing Regarding CASD No. 2025-V-00759"),
+])
+def test_clean_title(raw, cleaned):
+    assert classify.clean_title(raw) == cleaned
+
+
+@pytest.mark.parametrize("title,uninformative", [
+    ("8/17/26 to 8/21/26", True),
+    ("25 Minutes", True),
+    ("(Tuesday)", True),
+    ("Agenda Watch Live", True),
+    ("Final Agenda", True),
+    ("Open Meeting", False),
+    ("Agenda of Commission Meeting", False),
+    ("Docket # 55973 City of Cartersville v. Georgia Power", False),
+])
+def test_uninformative_titles(title, uninformative):
+    assert classify.is_uninformative(title) is uninformative
+
+
+def test_generated_on_is_noise():
+    """A page's own render timestamp is not a meeting."""
+    assert classify.is_noise("Generated On Aug 14, 2026 2:48 PM")
