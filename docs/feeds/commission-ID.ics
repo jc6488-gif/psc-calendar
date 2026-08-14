@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[ID] Decision Meeting \, Meeting Occurs: $
 DTSTART;TZID=America/Boise:20260818T000000
 DTEND;TZID=America/Boise:20260818T020000
-DTSTAMP:20260814T201706Z
+DTSTAMP:20260814T212118Z
 UID:5a253d9854542c9e9cf1@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:[ID] Meeting Occurs: $
 DTSTART;TZID=America/Boise:20260818T000000
 DTEND;TZID=America/Boise:20260818T020000
-DTSTAMP:20260814T201706Z
+DTSTAMP:20260814T212118Z
 UID:36c4c9a372b45b0efd4b@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
@@ -39,7 +39,7 @@ SUMMARY:[ID] Rocky Mountain Power Asset Transfer Telephonic Hearing \, Mee
  ting Occurs: $
 DTSTART;TZID=America/Boise:20260825T000000
 DTEND;TZID=America/Boise:20260825T020000
-DTSTAMP:20260814T201706Z
+DTSTAMP:20260814T212118Z
 UID:a94758196ba98ca1ba3a@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
@@ -51,7 +51,7 @@ BEGIN:VEVENT
 SUMMARY:[ID] Meeting Occurs: $
 DTSTART;TZID=America/Boise:20260825T000000
 DTEND;TZID=America/Boise:20260825T020000
-DTSTAMP:20260814T201706Z
+DTSTAMP:20260814T212118Z
 UID:79200705a6d0625d878f@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe

@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] TPUC Commission Conference
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T201706Z
+DTSTAMP:20260814T212118Z
 UID:f95ac731b42af4c19bda@psc-calendar
 CATEGORIES:TN,Decision / Order
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
@@ -28,7 +28,7 @@ SUMMARY:[TN] U.S. Small Business Administration January 22-27\, 2026 Sever
  e Storm Disaster Support Information
 DTSTART;TZID=America/Chicago:20270122T000000
 DTEND;TZID=America/Chicago:20270122T020000
-DTSTAMP:20260814T201706Z
+DTSTAMP:20260814T212118Z
 UID:835f1e0921b3e0f76683@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot

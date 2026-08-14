@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] 8/12/2026 11:00 AM AGND-2027-0007
 DTSTART;TZID=America/Chicago:20260812T110000
 DTEND;TZID=America/Chicago:20260812T130000
-DTSTAMP:20260814T201706Z
+DTSTAMP:20260814T212118Z
 UID:e5cbe7b88bedb267e558@psc-calendar
 CATEGORIES:MO,Other
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Oth
@@ -21,11 +21,11 @@ PRIORITY:9
 URL:https://www.efis.psc.mo.gov/Agenda/Display/107309
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[MO] Generated On Aug 14\, 2026 2:48 PM
-DTSTART;TZID=America/Chicago:20260814T144800
-DTEND;TZID=America/Chicago:20260814T164800
-DTSTAMP:20260814T201706Z
-UID:f36b9db42b2ba5fd2679@psc-calendar
+SUMMARY:[MO] Generated On Aug 14\, 2026 3:56 PM
+DTSTART;TZID=America/Chicago:20260814T155600
+DTEND;TZID=America/Chicago:20260814T175600
+DTSTAMP:20260814T212118Z
+UID:3f2822c0dbdb96964421@psc-calendar
 CATEGORIES:MO,Other
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Oth
  er\n\nSource: https://psc.mo.gov/Calendars.aspx?Selected=Hearings
