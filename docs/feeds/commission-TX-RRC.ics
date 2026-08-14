@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] RRC open meeting (conference)
 DTSTART;TZID=America/Chicago:20260818T000000
 DTEND;TZID=America/Chicago:20260818T020000
-DTSTAMP:20260814T213843Z
+DTSTAMP:20260814T214054Z
 UID:a9ecdc7a63461b12c2a9@psc-calendar
 CATEGORIES:TX-RRC,Decision / Order
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Decis
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] RRC open meeting (conference)
 DTSTART;TZID=America/Chicago:20260915T000000
 DTEND;TZID=America/Chicago:20260915T020000
-DTSTAMP:20260814T213843Z
+DTSTAMP:20260814T214054Z
 UID:4ab5fa6545597fc56ab6@psc-calendar
 CATEGORIES:TX-RRC,Decision / Order
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Decis
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] RRC open meeting (conference)
 DTSTART;TZID=America/Chicago:20261006T000000
 DTEND;TZID=America/Chicago:20261006T020000
-DTSTAMP:20260814T213843Z
+DTSTAMP:20260814T214054Z
 UID:af87cd05b5a6c96d22cd@psc-calendar
 CATEGORIES:TX-RRC,Decision / Order
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Decis
@@ -51,7 +51,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] RRC open meeting (conference)
 DTSTART;TZID=America/Chicago:20261117T000000
 DTEND;TZID=America/Chicago:20261117T020000
-DTSTAMP:20260814T213843Z
+DTSTAMP:20260814T214054Z
 UID:a5c9680e68c3e865d087@psc-calendar
 CATEGORIES:TX-RRC,Decision / Order
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Decis
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:[TX-RRC] RRC open meeting (conference)
 DTSTART;TZID=America/Chicago:20261215T000000
 DTEND;TZID=America/Chicago:20261215T020000
-DTSTAMP:20260814T213843Z
+DTSTAMP:20260814T214054Z
 UID:bd5a9d09b2ea48f53802@psc-calendar
 CATEGORIES:TX-RRC,Decision / Order
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Decis
@@ -79,7 +79,7 @@ SUMMARY:[TX-RRC] Beginning January 2026 \, all Railroad Commission open me
  vis Building in Austin until further notice
 DTSTART;TZID=America/Chicago:20270120T000000
 DTEND;TZID=America/Chicago:20270120T020000
-DTSTAMP:20260814T213843Z
+DTSTAMP:20260814T214054Z
 UID:c472656e438076f744f2@psc-calendar
 CATEGORIES:TX-RRC,Decision / Order
 DESCRIPTION:Commission: Railroad Commission of Texas (TX-RRC)\nType: Decis
