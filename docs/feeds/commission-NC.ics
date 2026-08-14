@@ -14,7 +14,7 @@ SUMMARY:[NC] Remote Public Witness Hearing - Joint Application of Aqua Nor
  anchise and for Approval of Rates
 DTSTART;TZID=America/New_York:20260817T000000
 DTEND;TZID=America/New_York:20260817T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:e5fdd2793a1f9fede007@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -34,7 +34,7 @@ SUMMARY:[NC] Oral Argument Hearing - Application of Water Quality Utilitie
  idge at Echota in Watauga County\, Nort
 DTSTART;TZID=America/New_York:20260903T000000
 DTEND;TZID=America/New_York:20260903T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:02ef42b8f3de364832e3@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
@@ -56,7 +56,7 @@ SUMMARY:[NC] Expert Witness Hearing: Joint Application of Duke Energy Prog
   Gas-Fueled Combined Cycle Electric Ge
 DTSTART;TZID=America/New_York:20260904T100000
 DTEND;TZID=America/New_York:20260904T120000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:5af9ee5483626ff762f8@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
@@ -78,7 +78,7 @@ SUMMARY:[NC] Public Witness Hearing - Application by William E. Cook\, Jr.
   Green Oaks Subdivision in Cabarrus County\, North Carolina
 DTSTART;TZID=America/New_York:20260908T000000
 DTEND;TZID=America/New_York:20260908T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:df3ae607879c96ac52d4@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -99,7 +99,7 @@ SUMMARY:[NC] Expert Witness Hearing - Application of Duke Energy Carolinas
  rating Facility in Rowan County\, Nort
 DTSTART;TZID=America/New_York:20260909T000000
 DTEND;TZID=America/New_York:20260909T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:8d7eab84772585d602e3@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
@@ -115,12 +115,32 @@ URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
  ocketId=4ba67bc7-7c30-4a5c-be26-93777ac63431
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing: Joint Application of Aqua North Carol
+ ina\, Inc. and C&P Enterprises for Transfer of Public Utility Franchise an
+ d for Approval of Rates
+DTSTART;TZID=America/New_York:20260911T000000
+DTEND;TZID=America/New_York:20260911T020000
+DTSTAMP:20260814T185708Z
+UID:38df0be771817f31574d@psc-calendar
+CATEGORIES:NC,Other
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
+ her\n\n9/11/2026 | 10:00am | Hearing Room 2115\, Dobbs Building\, 430 N Sa
+ lisbury St. Raleigh | W-218 Sub 645 W-1063 Sub 6 | Expert Witness Hearing:
+  Joint Application of Aqua North Carolina\, Inc. and C&P Enterprises for T
+ ransfer of Public Utility Franchise and for Approval of Rates |\n\nSource:
+  https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?Dock
+ etId=99904b2b-cd4a-4d69-b529-ade11cc5fcb7
+PRIORITY:9
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=99904b2b-cd4a-4d69-b529-ade11cc5fcb7
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[NC] Public Witness Hearing - Application of Duke Energy Progress\
  , LLC\, for Approval of Joint Agency Asset Rider for Recovery of Costs Rel
  ated to Facilities Purchased from Joint Power Agency
 DTSTART;TZID=America/New_York:20260915T000000
 DTEND;TZID=America/New_York:20260915T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:e17c2176c032541cd110@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -140,7 +160,7 @@ SUMMARY:[NC] Public Witness Hearing - Application of Duke Energy Progress\
  uel and Fuel-Related Charge Adjustments for Electric Utilities
 DTSTART;TZID=America/New_York:20260915T000000
 DTEND;TZID=America/New_York:20260915T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:5b4cd2809f1526960a41@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -161,7 +181,7 @@ SUMMARY:[NC] Public Witness Hearing: Application of Old North State Water
  Sewer Utility Services in Authorized North Carolina Service Areas
 DTSTART;TZID=America/New_York:20260917T000000
 DTEND;TZID=America/New_York:20260917T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:c2e8653902f750c929c4@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -183,7 +203,7 @@ SUMMARY:[NC] Expert Witness Hearing: Joint Application of Essential Utilit
  Water Works Company\, Inc. for Approval of
 DTSTART;TZID=America/New_York:20260921T000000
 DTEND;TZID=America/New_York:20260921T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:75a5effa9921d2ef85f4@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
@@ -204,7 +224,7 @@ SUMMARY:[NC] Public Witness Hearing - Application of Virginia Electric and
  tes and Charges Applicable to Electric Service in North Carolina
 DTSTART;TZID=America/New_York:20260928T000000
 DTEND;TZID=America/New_York:20260928T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:6e1c1bd729f99b016339@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -224,7 +244,7 @@ SUMMARY:[NC] Expert Witness Hearing - Application of Cardinal Pipeline Com
  pany\, LLC\, for an Adjustment in Its Rates and Charges
 DTSTART;TZID=America/New_York:20260929T000000
 DTEND;TZID=America/New_York:20260929T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:664d0ac359c8c8927bb1@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
@@ -243,7 +263,7 @@ SUMMARY:[NC] Public Witness Hearing - Application of Royal Gorge Water Uti
  Utility Service
 DTSTART;TZID=America/New_York:20261001T000000
 DTEND;TZID=America/New_York:20261001T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:9e34a5fbfd4dd71e89c7@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -263,7 +283,7 @@ SUMMARY:[NC] Public Witness Hearing - Application of Virginia Electric and
  tes and Charges Applicable to Electric Service in North Carolina
 DTSTART;TZID=America/New_York:20261005T000000
 DTEND;TZID=America/New_York:20261005T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:c236a80cb0ca69b694c9@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -283,7 +303,7 @@ SUMMARY:[NC] Public Witness Hearing: Application of Old North State Water
  Sewer Utility Services in Authorized North Carolina Service Areas
 DTSTART;TZID=America/New_York:20261008T000000
 DTEND;TZID=America/New_York:20261008T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:9fa50234d46131dea6cf@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -304,7 +324,7 @@ SUMMARY:[NC] Public Witness Hearing - Application of Virginia Electric and
  tes and Charges Applicable to Electric Service in North Carolina
 DTSTART;TZID=America/New_York:20261013T000000
 DTEND;TZID=America/New_York:20261013T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:427fc8d7da89953441f8@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -325,7 +345,7 @@ SUMMARY:[NC] Public Witness Hearing - Application of Virginia Electric and
  tes and Charges Applicable to Electric Service in North Carolina
 DTSTART;TZID=America/New_York:20261014T000000
 DTEND;TZID=America/New_York:20261014T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:0156c85420cbc1934631@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -347,7 +367,7 @@ SUMMARY:[NC] Public Witness Hearing: Application of Rock Creek Environment
  County\, North Carolina
 DTSTART;TZID=America/New_York:20261020T000000
 DTEND;TZID=America/New_York:20261020T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:651f86e76c0d3ad1f08b@psc-calendar
 CATEGORIES:NC,Public Comment Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Pu
@@ -368,7 +388,7 @@ SUMMARY:[NC] Expert Witness Hearing: Application of Old North State Water
  Sewer Utility Services in Authorized North Carolina Service Areas
 DTSTART;TZID=America/New_York:20261110T000000
 DTEND;TZID=America/New_York:20261110T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:179271f3d267d4b6ccf6@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
@@ -388,7 +408,7 @@ SUMMARY:[NC] Expert Witness Hearing - Application by William E. Cook\, Jr.
   Green Oaks Subdivision in Cabarrus County\, North Carolina
 DTSTART;TZID=America/New_York:20261118T000000
 DTEND;TZID=America/New_York:20261118T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:45584a7d6a0511b758a1@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
@@ -408,7 +428,7 @@ SUMMARY:[NC] Expert Witness Hearing: Application of Virginia Electric and
  es and Charges Applicable to Electric Service In North Carolina
 DTSTART;TZID=America/New_York:20261118T000000
 DTEND;TZID=America/New_York:20261118T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:5e0cb70fe2d21131dce5@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
@@ -429,7 +449,7 @@ SUMMARY:[NC] Expert Witness Hearing - Application of Rock Creek Environmen
   County\, North Carolina
 DTSTART;TZID=America/New_York:20261201T000000
 DTEND;TZID=America/New_York:20261201T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:a49736e51014d5ffc76c@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot
@@ -450,7 +470,7 @@ SUMMARY:[NC] Expert Witness Hearing - Application of Royal Gorge Water Uti
  Utility Service
 DTSTART;TZID=America/New_York:20270112T000000
 DTEND;TZID=America/New_York:20270112T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:090b656e9cee5daa5aba@psc-calendar
 CATEGORIES:NC,Other
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ot

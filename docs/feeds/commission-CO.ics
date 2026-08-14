@@ -9,927 +9,369 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[CO] Description: Notice of intervention by right and response to 
- motion for extraordinary protection
-DTSTART;TZID=America/Denver:20260721T000000
-DTEND;TZID=America/Denver:20260721T020000
-DTSTAMP:20260814T181729Z
-UID:c416a079529610dc393f@psc-calendar
+SUMMARY:[CO] IN THE MATTER OF THE PROPOSED AMENDMENTS TO THE COMMISSION’
+ S RULES REGULATING ELECTRIC UTILITIES\, 4 CODE OF COLORADO REGULATIONS 723
+ -3\, AND ITS RULES REGULATING GAS UTILITIES\, 4 CODE OF COLORADO REGULATIO
+ NS 723-4\, TO IMPLEMENT CERTAIN PROVISIONS
+DTSTART;TZID=America/Denver:20260731T000000
+DTEND;TZID=America/Denver:20260731T020000
+DTSTAMP:20260814T185708Z
+UID:6d64c2e952494dec8dd0@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| d. Filing Date and Party: 07/21/2026 Colorado Energy Office Desc
- ription: Notice of intervention by right and response to motion for extrao
- rdinary protection Analyst(s): Alex Acerra\, Michael Mendelsohn | d. | Fil
- ing Date and Party: 07/21/2026 | Colorado Energy Office | | | Description:
-  Notice of intervention by right and response to motion for extraordinary 
- protection | | Analyst(s): Alex Acerra\, Michael Mendelsohn\n\nSource: htt
- ps://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=
- &p_document_id=4175543&p_agenda_id=1199
+ ther\nDocket: 25A-0386R\, 26A-0248CP-EXT\n\nAn Agenda is subject to change
+  until the day of the meeting All Commissioner Weekly Meetings are held re
+ motely and available through the Commission's webcasting. Consent Items TR
+ ANSPORTATION 1 . PROCEEDING NO. 25A-0386R City and County of Denver IN THE
+  MATTER OF THE APPLICATION OF CITY AND COUNTY OF DENVER FOR AUTHORITY TO M
+ ODIFY AN EXISTING BICYCLE AND PEDESTRIAN PATH UNDER THE BNSF JERSEY CUTOFF
+  BRIDGE 983722V IN THE CITY AND COUNTY OF DENVER\, STATE OF COLORADO. Fili
+ ng Date and Party: 07/31/2026 City and County of Denver Description: Motio
+ n for extension of time to complete the work approved\n\nSource: https://w
+ ww.dora.state.co.us/pls/efi/EFI_Agenda.Show_Docket?p_session_id=&p_docket_
+ id=25A-0386R
 PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4175543&p_agenda_id=1199
+URL:https://www.dora.state.co.us/pls/efi/EFI_Agenda.Show_Docket?p_session_
+ id=&p_docket_id=25A-0386R
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Colorado Energy Office
-DTSTART;TZID=America/Denver:20260721T000000
-DTEND;TZID=America/Denver:20260721T020000
-DTSTAMP:20260814T181729Z
-UID:a3e7b36886ad6c0a5fa8@psc-calendar
+SUMMARY:[CO] Description: Motion for extension of time to complete the wor
+ k approved by Commission Decision No. C25-0841
+DTSTART;TZID=America/Denver:20260731T000000
+DTEND;TZID=America/Denver:20260731T020000
+DTSTAMP:20260814T185708Z
+UID:c5eef57a1a5f2613082c@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nd. | Filing Date and Party: 07/21/2026 | Colorado Energy Office |\
+ ther\n\n| Filing Date and Party: 07/31/2026 City and County of Denver Desc
+ ription: Motion for extension of time to complete the work approved by Com
+ mission Decision No. C25-0841 Analyst(s): Alan Farrell | | Filing Date and
+  Party: 07/31/2026 | City and County of Denver | | | Description: Motion f
+ or extension of time to complete the work approved by Commission Decision 
+ No. C25-0841 | | Analyst(s): Alan Farrell\n\nSource: https://www.dora.stat
+ e.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=417
+ 6661&p_agenda_id=1200
+PRIORITY:9
+URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
+ ion_id=&p_document_id=4176661&p_agenda_id=1200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CO] City and County of Denver
+DTSTART;TZID=America/Denver:20260731T000000
+DTEND;TZID=America/Denver:20260731T020000
+DTSTAMP:20260814T185708Z
+UID:bb9a1a97676e03113cd4@psc-calendar
+CATEGORIES:CO,Other
+DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
+ ther\n\n| Filing Date and Party: 07/31/2026 | City and County of Denver |\
  n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File
- ?p_session_id=&p_document_id=4175543&p_agenda_id=1199
+ ?p_session_id=&p_document_id=4176661&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4175543&p_agenda_id=1199
+ ion_id=&p_document_id=4176661&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Description: Notice of intervention as of right by Trial Staf
- f of the Commission\, entry of appearance\, notice pursuant to rule 1007(a
- ) and rule 1401\, and request for hearing
-DTSTART;TZID=America/Denver:20260723T000000
-DTEND;TZID=America/Denver:20260723T020000
-DTSTAMP:20260814T181729Z
-UID:dc4b1a3bd5c3c17b7af1@psc-calendar
-CATEGORIES:CO,Evidentiary Hearing
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
- videntiary Hearing\n\n| b. Filing Date and Party: 07/23/2026 Colorado Publ
- ic Utilities Commission Description: Notice of intervention as of right by
-  Trial Staff of the Commission\, entry of appearance\, notice pursuant to 
- rule 1007(a) and rule 1401\, and request for hearing Analyst(s): Ronald Da
- vis\, Alex Acerra | b. | Filing Date and Party: 07/23/2026 | Colorado Publ
- ic Utilities Commission | | | Description: Notice of intervention as of ri
- ght by Trial Staff of the Commission\, entry of appearance\, notice pursua
- nt to rule 1007(a) and rule 1401\, and request for hearing | | Analyst(s):
-  Ronald Davis\, Alex Acerra\n\nSource: https://www.dora.state.co.us/pls/ef
- i/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4175826&p_agenda_
- id=1199
-PRIORITY:5
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4175826&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Colorado Public Utilities Commission
-DTSTART;TZID=America/Denver:20260723T000000
-DTEND;TZID=America/Denver:20260723T020000
-DTSTAMP:20260814T181729Z
-UID:8f4a7470db86e0261903@psc-calendar
+SUMMARY:[CO] Description: Motion to approve jointly proposed Independent E
+ valuator
+DTSTART;TZID=America/Denver:20260731T000000
+DTEND;TZID=America/Denver:20260731T020000
+DTSTAMP:20260814T185708Z
+UID:d3f20a23185b3d57db1f@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nb. | Filing Date and Party: 07/23/2026 | Colorado Public Utilities
-  Commission |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.G
- et_Agenda_File?p_session_id=&p_document_id=4175826&p_agenda_id=1199
+ ther\n\n| Filing Date and Party: 07/31/2026 Public Service Company of Colo
+ rado Description: Motion to approve jointly proposed Independent Evaluator
+  Analyst(s): Michael Eden\, Mitchell DiCenso | | Filing Date and Party: 07
+ /31/2026 | Public Service Company of Colorado | | | Description: Motion to
+  approve jointly proposed Independent Evaluator | | Analyst(s): Michael Ed
+ en\, Mitchell DiCenso\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_
+ Agenda.Get_Agenda_File?p_session_id=&p_document_id=4176623&p_agenda_id=120
+ 0
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4175826&p_agenda_id=1199
+ ion_id=&p_document_id=4176623&p_agenda_id=1200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CO] Public Service Company of Colorado
+DTSTART;TZID=America/Denver:20260731T000000
+DTEND;TZID=America/Denver:20260731T020000
+DTSTAMP:20260814T185708Z
+UID:a986d048049afa69a6f4@psc-calendar
+CATEGORIES:CO,Other
+DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
+ ther\n\n| Filing Date and Party: 07/31/2026 | Public Service Company of Co
+ lorado |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Ag
+ enda_File?p_session_id=&p_document_id=4176623&p_agenda_id=1200
+PRIORITY:9
+URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
+ ion_id=&p_document_id=4176623&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CO] Description: Notice of intervention as a matter of right and 
  request for a hearing
-DTSTART;TZID=America/Denver:20260723T000000
-DTEND;TZID=America/Denver:20260723T020000
-DTSTAMP:20260814T181729Z
-UID:db5e19f8d68dc12cbe5a@psc-calendar
+DTSTART;TZID=America/Denver:20260805T000000
+DTEND;TZID=America/Denver:20260805T020000
+DTSTAMP:20260814T185708Z
+UID:b6beaa1772ad801df906@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| c. Filing Date and Party: 07/23/2026 Office of Utility Consumer 
+ ther\n\n| b. Filing Date and Party: 08/05/2026 Office of Utility Consumer 
  Advocate Description: Notice of intervention as a matter of right and requ
- est for a hearing Analyst(s): Dan Greenberg | c. | Filing Date and Party: 
- 07/23/2026 | Office of Utility Consumer Advocate | | | Description: Notice
-  of intervention as a matter of right and request for a hearing | | Analys
- t(s): Dan Greenberg\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Ag
- enda.Get_Agenda_File?p_session_id=&p_document_id=4175812&p_agenda_id=1199
+ est for a hearing Analyst(s): Ian Fetters | b. | Filing Date and Party: 08
+ /05/2026 | Office of Utility Consumer Advocate | | | Description: Notice o
+ f intervention as a matter of right and request for a hearing | | Analyst(
+ s): Ian Fetters\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda
+ .Get_Agenda_File?p_session_id=&p_document_id=4177061&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4175812&p_agenda_id=1199
+ ion_id=&p_document_id=4177061&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CO] Office of Utility Consumer Advocate
-DTSTART;TZID=America/Denver:20260723T000000
-DTEND;TZID=America/Denver:20260723T020000
-DTSTAMP:20260814T181729Z
-UID:e23ad363b6ae5707c7a5@psc-calendar
+DTSTART;TZID=America/Denver:20260805T000000
+DTEND;TZID=America/Denver:20260805T020000
+DTSTAMP:20260814T185708Z
+UID:729607be7d208a5ed282@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nc. | Filing Date and Party: 07/23/2026 | Office of Utility Consume
+ ther\n\nb. | Filing Date and Party: 08/05/2026 | Office of Utility Consume
  r Advocate |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Ge
- t_Agenda_File?p_session_id=&p_document_id=4175812&p_agenda_id=1199
+ t_Agenda_File?p_session_id=&p_document_id=4177061&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4175812&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Unopposed motion to permissively intervene
-DTSTART;TZID=America/Denver:20260723T000000
-DTEND;TZID=America/Denver:20260723T020000
-DTSTAMP:20260814T181729Z
-UID:694680617c27da9b94d6@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| d. Filing Date and Party: 07/23/2026 Colorado Energy Consumers G
- roup Description: Unopposed motion to permissively intervene Analyst(s): D
- an Greenberg | d. | Filing Date and Party: 07/23/2026 | Colorado Energy Co
- nsumers Group | | | Description: Unopposed motion to permissively interven
- e | | Analyst(s): Dan Greenberg\n\nSource: https://www.dora.state.co.us/pl
- s/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4175899&p_age
- nda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4175899&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Colorado Energy Consumers Group
-DTSTART;TZID=America/Denver:20260723T000000
-DTEND;TZID=America/Denver:20260723T020000
-DTSTAMP:20260814T181729Z
-UID:053354feaf95beb72b20@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nd. | Filing Date and Party: 07/23/2026 | Colorado Energy Consumers
-  Group |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Ag
- enda_File?p_session_id=&p_document_id=4175899&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4175899&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Motion to intervene and entry of appearance
-DTSTART;TZID=America/Denver:20260730T000000
-DTEND;TZID=America/Denver:20260730T020000
-DTSTAMP:20260814T181729Z
-UID:65b07d70294dcebfd9ec@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| e. Filing Date and Party: 07/30/2026 Energy Efficiency Business 
- Coalition Description: Motion to intervene and entry of appearance Analyst
- (s): Alex Acerra\, Michael Mendelsohn | e. | Filing Date and Party: 07/30/
- 2026 | Energy Efficiency Business Coalition | | | Description: Motion to i
- ntervene and entry of appearance | | Analyst(s): Alex Acerra\, Michael Men
- delsohn\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Age
- nda_File?p_session_id=&p_document_id=4176538&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4176538&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Energy Efficiency Business Coalition
-DTSTART;TZID=America/Denver:20260730T000000
-DTEND;TZID=America/Denver:20260730T020000
-DTSTAMP:20260814T181729Z
-UID:ae513a01e3362d73cb16@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\ne. | Filing Date and Party: 07/30/2026 | Energy Efficiency Busines
- s Coalition |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.G
- et_Agenda_File?p_session_id=&p_document_id=4176538&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4176538&p_agenda_id=1199
+ ion_id=&p_document_id=4177061&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CO] Description: Notice of intervention as of right by Trial Staf
  f of the Commission\, entry of appearance\, notice pursuant to rule 1007(a
  ) and rule 1401\, and request for hearing
-DTSTART;TZID=America/Denver:20260731T000000
-DTEND;TZID=America/Denver:20260731T020000
-DTSTAMP:20260814T181729Z
-UID:19b9d3b204e50f6fbe50@psc-calendar
+DTSTART;TZID=America/Denver:20260805T000000
+DTEND;TZID=America/Denver:20260805T020000
+DTSTAMP:20260814T185708Z
+UID:adc156d941da698b37e1@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
- videntiary Hearing\n\n| e. Filing Date and Party: 07/31/2026 Colorado Publ
+ videntiary Hearing\n\n| c. Filing Date and Party: 08/05/2026 Colorado Publ
  ic Utilities Commission Description: Notice of intervention as of right by
   Trial Staff of the Commission\, entry of appearance\, notice pursuant to 
- rule 1007(a) and rule 1401\, and request for hearing Analyst(s): Dan Green
- berg | e. | Filing Date and Party: 07/31/2026 | Colorado Public Utilities 
- Commission | | | Description: Notice of intervention as of right by Trial 
- Staff of the Commission\, entry of appearance\, notice pursuant to rule 10
- 07(a) and rule 1401\, and request for hearing | | Analyst(s): Dan Greenber
- g\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_Fi
- le?p_session_id=&p_document_id=4176637&p_agenda_id=1199
+ rule 1007(a) and rule 1401\, and request for hearing Analyst(s): Ian Fette
+ rs | c. | Filing Date and Party: 08/05/2026 | Colorado Public Utilities Co
+ mmission | | | Description: Notice of intervention as of right by Trial St
+ aff of the Commission\, entry of appearance\, notice pursuant to rule 1007
+ (a) and rule 1401\, and request for hearing | | Analyst(s): Ian Fetters\n\
+ nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p
+ _session_id=&p_document_id=4177087&p_agenda_id=1200
 PRIORITY:5
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4176637&p_agenda_id=1199
+ ion_id=&p_document_id=4177087&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CO] Colorado Public Utilities Commission
-DTSTART;TZID=America/Denver:20260731T000000
-DTEND;TZID=America/Denver:20260731T020000
-DTSTAMP:20260814T181729Z
-UID:a2e71a345dfedcaa5b7e@psc-calendar
+DTSTART;TZID=America/Denver:20260805T000000
+DTEND;TZID=America/Denver:20260805T020000
+DTSTAMP:20260814T185708Z
+UID:c0f624967c0c083bdede@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\ne. | Filing Date and Party: 07/31/2026 | Colorado Public Utilities
+ ther\n\nc. | Filing Date and Party: 08/05/2026 | Colorado Public Utilities
   Commission |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.G
- et_Agenda_File?p_session_id=&p_document_id=4176637&p_agenda_id=1199
+ et_Agenda_File?p_session_id=&p_document_id=4177087&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4176637&p_agenda_id=1199
+ ion_id=&p_document_id=4177087&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Description: Agreement to provide financial assurance
-DTSTART;TZID=America/Denver:20260804T000000
-DTEND;TZID=America/Denver:20260804T020000
-DTSTAMP:20260814T181729Z
-UID:a425e4194e234abc8f1a@psc-calendar
+SUMMARY:[CO] Description: Notice of intervention as a matter of right and 
+ request for a hearing
+DTSTART;TZID=America/Denver:20260806T000000
+DTEND;TZID=America/Denver:20260806T020000
+DTSTAMP:20260814T185708Z
+UID:60bc58cccd71679833ad@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| b. Filing Date and Party: 08/04/2026 Endurance\, LLC Description
- : Agreement to provide financial assurance Analyst(s): Gladys Rey\, Meghan
-  Ruwet | b. | Filing Date and Party: 08/04/2026 | Endurance\, LLC | | | De
- scription: Agreement to provide financial assurance | | Analyst(s): Gladys
-  Rey\, Meghan Ruwet\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Ag
- enda.Get_Agenda_File?p_session_id=&p_document_id=4176999&p_agenda_id=1199
+ ther\n\n| b. Filing Date and Party: 08/06/2026 Office of Utility Consumer 
+ Advocate Description: Notice of intervention as a matter of right and requ
+ est for a hearing Analyst(s): Kimbra Davis | b. | Filing Date and Party: 0
+ 8/06/2026 | Office of Utility Consumer Advocate | | | Description: Notice 
+ of intervention as a matter of right and request for a hearing | | Analyst
+ (s): Kimbra Davis\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agen
+ da.Get_Agenda_File?p_session_id=&p_document_id=4177226&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4176999&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Endurance\, LLC
-DTSTART;TZID=America/Denver:20260804T000000
-DTEND;TZID=America/Denver:20260804T020000
-DTSTAMP:20260814T181729Z
-UID:6db0c283a445dfb32599@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nb. | Filing Date and Party: 08/04/2026 | Endurance\, LLC |\n\nSour
- ce: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4176999&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4176999&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Notice of intervention by right
-DTSTART;TZID=America/Denver:20260804T000000
-DTEND;TZID=America/Denver:20260804T020000
-DTSTAMP:20260814T181729Z
-UID:31dc3f317215e3951e19@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| f. Filing Date and Party: 08/04/2026 Office of Utility Consumer 
- Advocate Description: Notice of intervention by right Analyst(s): Alex Ace
- rra\, Michael Mendelsohn | f. | Filing Date and Party: 08/04/2026 | Office
-  of Utility Consumer Advocate | | | Description: Notice of intervention by
-  right | | Analyst(s): Alex Acerra\, Michael Mendelsohn\n\nSource: https:/
- /www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_d
- ocument_id=4177005&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177005&p_agenda_id=1199
+ ion_id=&p_document_id=4177226&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CO] Office of Utility Consumer Advocate
-DTSTART;TZID=America/Denver:20260804T000000
-DTEND;TZID=America/Denver:20260804T020000
-DTSTAMP:20260814T181729Z
-UID:ff92c8aa3e27e3f9ce3f@psc-calendar
+DTSTART;TZID=America/Denver:20260806T000000
+DTEND;TZID=America/Denver:20260806T020000
+DTSTAMP:20260814T185708Z
+UID:0473a511b44565540778@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nf. | Filing Date and Party: 08/04/2026 | Office of Utility Consume
+ ther\n\nb. | Filing Date and Party: 08/06/2026 | Office of Utility Consume
  r Advocate |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Ge
- t_Agenda_File?p_session_id=&p_document_id=4177005&p_agenda_id=1199
+ t_Agenda_File?p_session_id=&p_document_id=4177226&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177005&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Unopposed motion for approval of late filed perm
- issive intervention
-DTSTART;TZID=America/Denver:20260805T000000
-DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T181729Z
-UID:99b7106bb469a646fed5@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| Filing Date and Party: 08/05/2026 City of Pueblo Description: Un
- opposed motion for approval of late filed permissive intervention Analyst(
- s): Mitchell DiCenso | | Filing Date and Party: 08/05/2026 | City of Puebl
- o | | | Description: Unopposed motion for approval of late filed permissiv
- e intervention | | Analyst(s): Mitchell DiCenso\n\nSource: https://www.dor
- a.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_
- id=4177112&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177112&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] City of Pueblo
-DTSTART;TZID=America/Denver:20260805T000000
-DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T181729Z
-UID:7b45dfea47a81202caa3@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| Filing Date and Party: 08/05/2026 | City of Pueblo |\n\nSource: 
- https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_
- id=&p_document_id=4177112&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177112&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Comments and request for expedited modification 
- of 2027 Just Transition Solicitation all-resource request for proposal
-DTSTART;TZID=America/Denver:20260805T000000
-DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T181729Z
-UID:8a89ed9d4e94b8b696e7@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| Filing Date and Party: 08/05/2026 Coalition for Community Solar 
- Access\, Inc. ADDENDUM Description: Comments and request for expedited mod
- ification of 2027 Just Transition Solicitation all-resource request for pr
- oposal Analyst(s): Michael Eden\, Mitchell DiCenso | | Filing Date and Par
- ty: 08/05/2026 | Coalition for Community Solar Access\, Inc. | ADDENDUM | 
- | Description: Comments and request for expedited modification of 2027 Jus
- t Transition Solicitation all-resource request for proposal | | Analyst(s)
- : Michael Eden\, Mitchell DiCenso\n\nSource: https://www.dora.state.co.us/
- pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177156&p_a
- genda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177156&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Coalition for Community Solar Access\, Inc.
-DTSTART;TZID=America/Denver:20260805T000000
-DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T181729Z
-UID:6f5ed9bbcd347dcba7fa@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| Filing Date and Party: 08/05/2026 | Coalition for Community Sola
- r Access\, Inc. | ADDENDUM\n\nSource: https://www.dora.state.co.us/pls/efi
- /Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177156&p_agenda_i
- d=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177156&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Analyst(s): Alex Acerra\, Michael Mendelsohn
-DTSTART;TZID=America/Denver:20260805T000000
-DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T181729Z
-UID:58434c0511acb5b661e9@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| g. Filing Date and Party: 08/05/2026 City and County of Denver D
- escription: Motion to Intervene Analyst(s): Alex Acerra\, Michael Mendelso
- hn | g. | Filing Date and Party: 08/05/2026 | City and County of Denver | 
- | | Description: Motion to Intervene | | Analyst(s): Alex Acerra\, Michael
-  Mendelsohn\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get
- _Agenda_File?p_session_id=&p_document_id=4177092&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177092&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] City and County of Denver
-DTSTART;TZID=America/Denver:20260805T000000
-DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T181729Z
-UID:73832ee9fdecb33ac3b8@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\ng. | Filing Date and Party: 08/05/2026 | City and County of Denver
-  |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_F
- ile?p_session_id=&p_document_id=4177092&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177092&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Motion for permissive intervention pursuant to r
- ule 1401(a) and entry of appearance
-DTSTART;TZID=America/Denver:20260806T000000
-DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T181729Z
-UID:80365f0b3755e775de18@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| c. Filing Date and Party: 08/06/2026 City of Pueblo Description:
-  Motion for permissive intervention pursuant to rule 1401(a) and entry of 
- appearance Analyst(s): Ronald Davis\, Alex Acerra | c. | Filing Date and P
- arty: 08/06/2026 | City of Pueblo | | | Description: Motion for permissive
-  intervention pursuant to rule 1401(a) and entry of appearance | | Analyst
- (s): Ronald Davis\, Alex Acerra\n\nSource: https://www.dora.state.co.us/pl
- s/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177219&p_age
- nda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177219&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] City of Pueblo
-DTSTART;TZID=America/Denver:20260806T000000
-DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T181729Z
-UID:e9c706db9754778085ee@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nc. | Filing Date and Party: 08/06/2026 | City of Pueblo |\n\nSourc
- e: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sessi
- on_id=&p_document_id=4177219&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177219&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Joint motion to intervene\, entry of appearance\
- , and notice of financial disclosure
-DTSTART;TZID=America/Denver:20260806T000000
-DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T181729Z
-UID:316dbe926c84e2025bd9@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| h. Filing Date and Party: 08/06/2026 Southwest Energy Efficiency
-  Project Rewiring America Description: Joint motion to intervene\, entry o
- f appearance\, and notice of financial disclosure Analyst(s): Alex Acerra\
- , Michael Mendelsohn | h. | Filing Date and Party: 08/06/2026 | Southwest 
- Energy Efficiency Project Rewiring America | | | Description: Joint motion
-  to intervene\, entry of appearance\, and notice of financial disclosure |
-  | Analyst(s): Alex Acerra\, Michael Mendelsohn\n\nSource: https://www.dor
- a.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_
- id=4177215&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177215&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Southwest Energy Efficiency Project Rewiring America
-DTSTART;TZID=America/Denver:20260806T000000
-DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T181729Z
-UID:57428e4a82e92ffbe349@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nh. | Filing Date and Party: 08/06/2026 | Southwest Energy Efficien
- cy Project Rewiring America |\n\nSource: https://www.dora.state.co.us/pls/
- efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177215&p_agend
- a_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177215&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Motion for permissive intervention
-DTSTART;TZID=America/Denver:20260806T000000
-DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T181729Z
-UID:0d3c6acae54d8fe597f2@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| i. Filing Date and Party: 08/06/2026 Western Resource Advocates 
- Description: Motion for permissive intervention Analyst(s): Alex Acerra\, 
- Michael Mendelsohn | i. | Filing Date and Party: 08/06/2026 | Western Reso
- urce Advocates | | | Description: Motion for permissive intervention | | A
- nalyst(s): Alex Acerra\, Michael Mendelsohn\n\nSource: https://www.dora.st
- ate.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4
- 177241&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177241&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Western Resource Advocates
-DTSTART;TZID=America/Denver:20260806T000000
-DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T181729Z
-UID:8e3951710796a0ad2b55@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\ni. | Filing Date and Party: 08/06/2026 | Western Resource Advocate
- s |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_
- File?p_session_id=&p_document_id=4177241&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177241&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Motion to permissively intervene and request for
-  hearing
-DTSTART;TZID=America/Denver:20260806T000000
-DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T181729Z
-UID:7cd6f3fa8353d9f57e93@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| j. Filing Date and Party: 08/06/2026 Colorado Energy Consumers G
- roup Description: Motion to permissively intervene and request for hearing
-  Analyst(s): Alex Acerra\, Michael Mendelsohn | j. | Filing Date and Party
- : 08/06/2026 | Colorado Energy Consumers Group | | | Description: Motion t
- o permissively intervene and request for hearing | | Analyst(s): Alex Acer
- ra\, Michael Mendelsohn\n\nSource: https://www.dora.state.co.us/pls/efi/Ef
- i_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177255&p_agenda_id=1
- 199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177255&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Colorado Energy Consumers Group
-DTSTART;TZID=America/Denver:20260806T000000
-DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T181729Z
-UID:4089d66d9d4802acf97f@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nj. | Filing Date and Party: 08/06/2026 | Colorado Energy Consumers
-  Group |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Ag
- enda_File?p_session_id=&p_document_id=4177255&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177255&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Motion to intervene\, entry of appearance\, requ
- est for en banc hearing and at least one public comment hearing in Pueblo
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:3a2eb112030c41b9aaf4@psc-calendar
-CATEGORIES:CO,Public Comment Hearing
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: P
- ublic Comment Hearing\n\n| d. Filing Date and Party: 08/07/2026 County of 
- Pueblo ADDENDUM Description: Motion to intervene\, entry of appearance\, r
- equest for en banc hearing and at least one public comment hearing in Pueb
- lo Analyst(s): Ronald Davis\, Alex Acerra | d. | Filing Date and Party: 08
- /07/2026 | County of Pueblo | ADDENDUM | | Description: Motion to interven
- e\, entry of appearance\, request for en banc hearing and at least one pub
- lic comment hearing in Pueblo | | Analyst(s): Ronald Davis\, Alex Acerra\n
- \nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?
- p_session_id=&p_document_id=4177329&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177329&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] County of Pueblo
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:62ac6422f1c77f4953e5@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nd. | Filing Date and Party: 08/07/2026 | County of Pueblo | ADDEND
- UM\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_F
- ile?p_session_id=&p_document_id=4177329&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177329&p_agenda_id=1199
+ ion_id=&p_document_id=4177226&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CO] Description: Unopposed motion to intervene and entry of appea
  rance
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:c8b1f4443e89d9a0fdcc@psc-calendar
+DTSTART;TZID=America/Denver:20260806T000000
+DTEND;TZID=America/Denver:20260806T020000
+DTSTAMP:20260814T185708Z
+UID:977ef4d9315fc183aa80@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| s. Filing Date and Party: 08/07/2026 Energy Outreach Colorado AD
- DENDUM Description: Unopposed motion to intervene and entry of appearance 
- Analyst(s): Alex Acerra\, Michael Mendelsohn | s. | Filing Date and Party:
-  08/07/2026 | Energy Outreach Colorado | ADDENDUM | | Description: Unoppos
- ed motion to intervene and entry of appearance | | Analyst(s): Alex Acerra
- \, Michael Mendelsohn\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_
- Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177390&p_agenda_id=119
- 9
+ ther\n\n| c. Filing Date and Party: 08/06/2026 Energy Outreach Colorado De
+ scription: Unopposed motion to intervene and entry of appearance Analyst(s
+ ): Kimbra Davis | c. | Filing Date and Party: 08/06/2026 | Energy Outreach
+  Colorado | | | Description: Unopposed motion to intervene and entry of ap
+ pearance | | Analyst(s): Kimbra Davis\n\nSource: https://www.dora.state.co
+ .us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177227
+ &p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177390&p_agenda_id=1199
+ ion_id=&p_document_id=4177227&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CO] Energy Outreach Colorado
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:47844752fce2a7f444c0@psc-calendar
+DTSTART;TZID=America/Denver:20260806T000000
+DTEND;TZID=America/Denver:20260806T020000
+DTSTAMP:20260814T185708Z
+UID:01019032028aa2e145d5@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\ne. | Filing Date and Party: 08/07/2026 | Energy Outreach Colorado 
- | ADDENDUM\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_
- Agenda_File?p_session_id=&p_document_id=4177374&p_agenda_id=1199
+ ther\n\nc. | Filing Date and Party: 08/06/2026 | Energy Outreach Colorado 
+ |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_Fi
+ le?p_session_id=&p_document_id=4177227&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177374&p_agenda_id=1199
+ ion_id=&p_document_id=4177227&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Description: Unopposed motion to permissively intervene
+SUMMARY:[CO] Description: Motion to permissively intervene and request for
+  hearing
 DTSTART;TZID=America/Denver:20260807T000000
 DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:7d0cdfed3a6c68ecd054@psc-calendar
+DTSTAMP:20260814T185708Z
+UID:5956b635fb92cf3d1f08@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| f. Filing Date and Party: 08/07/2026 CRIPPLE CREEK & VICTOR GOLD
-  MINING COMPANY ADDENDUM Description: Unopposed motion to permissively int
- ervene Analyst(s): Ronald Davis\, Alex Acerra | f. | Filing Date and Party
- : 08/07/2026 | CRIPPLE CREEK & VICTOR GOLD MINING COMPANY | ADDENDUM | | D
- escription: Unopposed motion to permissively intervene | | Analyst(s): Ron
- ald Davis\, Alex Acerra\n\nSource: https://www.dora.state.co.us/pls/efi/Ef
- i_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177391&p_agenda_id=1
- 199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177391&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] CRIPPLE CREEK & VICTOR GOLD MINING COMPANY
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:fb4c8402d716ac821376@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nf. | Filing Date and Party: 08/07/2026 | CRIPPLE CREEK & VICTOR GO
- LD MINING COMPANY | ADDENDUM\n\nSource: https://www.dora.state.co.us/pls/e
- fi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177391&p_agenda
- _id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177391&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Colorado Solar and Storage Association Solar Energy Industrie
- s Association
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:2e300ca9978567122ef4@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| k. Filing Date and Party: 08/07/2026 Colorado Solar and Storage 
- Association Solar Energy Industries Association ADDENDUM Description: Join
- t motion to intervene and entry of appearance Analyst(s): Alex Acerra\, Mi
- chael Mendelsohn | k. | Filing Date and Party: 08/07/2026 | Colorado Solar
-  and Storage Association Solar Energy Industries Association | ADDENDUM | 
- | Description: Joint motion to intervene and entry of appearance | | Analy
- st(s): Alex Acerra\, Michael Mendelsohn\n\nSource: https://www.dora.state.
- co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=41772
- 87&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177287&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Motion to intervene\, request for hearing\, and 
- entry of appearance
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:9886ffbea666f2829720@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| l. Filing Date and Party: 08/07/2026 EVgo Services LLC ADDENDUM 
- Description: Motion to intervene\, request for hearing\, and entry of appe
- arance Analyst(s): Alex Acerra\, Michael Mendelsohn | l. | Filing Date and
-  Party: 08/07/2026 | EVgo Services LLC | ADDENDUM | | Description: Motion 
- to intervene\, request for hearing\, and entry of appearance | | Analyst(s
- ): Alex Acerra\, Michael Mendelsohn\n\nSource: https://www.dora.state.co.u
- s/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177319&p
- _agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177319&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] EVgo Services LLC
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:9021dcaf38185c862494@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nl. | Filing Date and Party: 08/07/2026 | EVgo Services LLC | ADDEN
- DUM\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_
- File?p_session_id=&p_document_id=4177319&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177319&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Motion to intervene and entry of appearance
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:f249763ebc43c4af6acf@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| m. Filing Date and Party: 08/07/2026 Denver Pipefitters Local 20
- 8 ADDENDUM Description: Motion to intervene and entry of appearance Analys
- t(s): Alex Acerra\, Michael Mendelsohn | m. | Filing Date and Party: 08/07
- /2026 | Denver Pipefitters Local 208 | ADDENDUM | | Description: Motion to
-  intervene and entry of appearance | | Analyst(s): Alex Acerra\, Michael M
- endelsohn\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_A
- genda_File?p_session_id=&p_document_id=4177331&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177331&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Denver Pipefitters Local 208
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:0392c3c1b5527792be3c@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nm. | Filing Date and Party: 08/07/2026 | Denver Pipefitters Local 
- 208 | ADDENDUM\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.
- Get_Agenda_File?p_session_id=&p_document_id=4177331&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177331&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Clean Energy Economy for the Region (CLEER)
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:0535c31780870f7655ba@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| n. Filing Date and Party: 08/07/2026 Clean Energy Economy for th
- e Region (CLEER) ADDENDUM Description: Motion to Intervene Analyst(s): Ale
- x Acerra\, Michael Mendelsohn | n. | Filing Date and Party: 08/07/2026 | C
- lean Energy Economy for the Region (CLEER) | ADDENDUM | | Description: Mot
- ion to Intervene | | Analyst(s): Alex Acerra\, Michael Mendelsohn\n\nSourc
- e: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sessi
- on_id=&p_document_id=4177339&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177339&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Analyst(s): Alex Acerra\, Michael Mendelsohn
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:03ae76dc98480c151288@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| o. Filing Date and Party: 08/07/2026 Colorado Communities For Cl
- imate Action ADDENDUM Description: Motion to Intervene Analyst(s): Alex Ac
- erra\, Michael Mendelsohn | o. | Filing Date and Party: 08/07/2026 | Color
- ado Communities For Climate Action | ADDENDUM | | Description: Motion to I
- ntervene | | Analyst(s): Alex Acerra\, Michael Mendelsohn\n\nSource: https
- ://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p
- _document_id=4177369&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177369&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Colorado Communities For Climate Action
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:288e4b69098d50ee6f2e@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\no. | Filing Date and Party: 08/07/2026 | Colorado Communities For 
- Climate Action | ADDENDUM\n\nSource: https://www.dora.state.co.us/pls/efi/
- Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177369&p_agenda_id
- =1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177369&p_agenda_id=1199
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CO] Description: Motion to Intervene Permissively
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:59e9acb5b75aadd4c2de@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| p. Filing Date and Party: 08/07/2026 Climax Molybdenum Company A
- DDENDUM Description: Motion to Intervene Permissively Analyst(s): Alex Ace
- rra\, Michael Mendelsohn | p. | Filing Date and Party: 08/07/2026 | Climax
-  Molybdenum Company | ADDENDUM | | Description: Motion to Intervene Permis
- sively | | Analyst(s): Alex Acerra\, Michael Mendelsohn\n\nSource: https:/
+ ther\n\n| d. Filing Date and Party: 08/07/2026 Colorado Energy Consumers G
+ roup Description: Motion to permissively intervene and request for hearing
+  Analyst(s): Ian Fetters | d. | Filing Date and Party: 08/07/2026 | Colora
+ do Energy Consumers Group | | | Description: Motion to permissively interv
+ ene and request for hearing | | Analyst(s): Ian Fetters\n\nSource: https:/
  /www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_d
- ocument_id=4177382&p_agenda_id=1199
+ ocument_id=4177395&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177382&p_agenda_id=1199
+ ion_id=&p_document_id=4177395&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Climax Molybdenum Company
+SUMMARY:[CO] Colorado Energy Consumers Group
 DTSTART;TZID=America/Denver:20260807T000000
 DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:43b7c82f0cb31c106353@psc-calendar
+DTSTAMP:20260814T185708Z
+UID:8b6a9707d9d07d84d12c@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\np. | Filing Date and Party: 08/07/2026 | Climax Molybdenum Company
-  | ADDENDUM\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get
- _Agenda_File?p_session_id=&p_document_id=4177382&p_agenda_id=1199
+ ther\n\nd. | Filing Date and Party: 08/07/2026 | Colorado Energy Consumers
+  Group |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Ag
+ enda_File?p_session_id=&p_document_id=4177395&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177382&p_agenda_id=1199
+ ion_id=&p_document_id=4177395&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Colorado Renewable Energy Society Physicians For Social Respo
- nsibility
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:94ccadb7f049553ebc45@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| q. Filing Date and Party: 08/07/2026 Colorado Renewable Energy S
- ociety Physicians For Social Responsibility ADDENDUM Description: Joint mo
- tion for leave to intervene Analyst(s): Alex Acerra\, Michael Mendelsohn |
-  q. | Filing Date and Party: 08/07/2026 | Colorado Renewable Energy Societ
- y Physicians For Social Responsibility | ADDENDUM | | Description: Joint m
- otion for leave to intervene | | Analyst(s): Alex Acerra\, Michael Mendels
- ohn\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_
- File?p_session_id=&p_document_id=4177384&p_agenda_id=1199
-PRIORITY:9
+SUMMARY:[CO] Description: Notice of intervention as of right by Trial Staf
+ f of the Commission\, entry of appearance\, notice pursuant to rule 1007(a
+ ) and rule 1401\, and request for hearing
+DTSTART;TZID=America/Denver:20260812T000000
+DTEND;TZID=America/Denver:20260812T020000
+DTSTAMP:20260814T185708Z
+UID:cd80b55920f44d276e6d@psc-calendar
+CATEGORIES:CO,Evidentiary Hearing
+DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
+ videntiary Hearing\n\n| d. Filing Date and Party: 08/12/2026 Colorado Publ
+ ic Utilities Commission Description: Notice of intervention as of right by
+  Trial Staff of the Commission\, entry of appearance\, notice pursuant to 
+ rule 1007(a) and rule 1401\, and request for hearing Analyst(s): Kimbra Da
+ vis | d. | Filing Date and Party: 08/12/2026 | Colorado Public Utilities C
+ ommission | | | Description: Notice of intervention as of right by Trial S
+ taff of the Commission\, entry of appearance\, notice pursuant to rule 100
+ 7(a) and rule 1401\, and request for hearing | | Analyst(s): Kimbra Davis\
+ n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File
+ ?p_session_id=&p_document_id=4177926&p_agenda_id=1200
+PRIORITY:5
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177384&p_agenda_id=1199
+ ion_id=&p_document_id=4177926&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Sierra Club Environmental Law Program
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:93184aa341813a9324a9@psc-calendar
+SUMMARY:[CO] Colorado Public Utilities Commission
+DTSTART;TZID=America/Denver:20260812T000000
+DTEND;TZID=America/Denver:20260812T020000
+DTSTAMP:20260814T185708Z
+UID:63fc94e5a2ec623e192e@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\nr. | Filing Date and Party: 08/07/2026 | Sierra Club Environmental
-  Law Program | ADDENDUM\n\nSource: https://www.dora.state.co.us/pls/efi/Ef
- i_Agenda.Get_Agenda_File?p_session_id=&p_document_id=4177388&p_agenda_id=1
- 199
+ ther\n\nd. | Filing Date and Party: 08/12/2026 | Colorado Public Utilities
+  Commission |\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Agenda.G
+ et_Agenda_File?p_session_id=&p_document_id=4177926&p_agenda_id=1200
 PRIORITY:9
 URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177388&p_agenda_id=1199
+ ion_id=&p_document_id=4177926&p_agenda_id=1200
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Vote Solar Grid Alternatives\, Inc GreenLatinos Womxn From Th
- e Mountain Mi Familia Vota Ebony Advocates
-DTSTART;TZID=America/Denver:20260807T000000
-DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T181729Z
-UID:b1ae486f9943c75c078f@psc-calendar
-CATEGORIES:CO,Other
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| t. Filing Date and Party: 08/07/2026 Vote Solar Grid Alternative
- s\, Inc GreenLatinos Womxn From The Mountain Mi Familia Vota Ebony Advocat
- es ADDENDUM Description: Joint motion to intervene\, entry of appearance\,
-  and notice of financial disclosure Analyst(s): Alex Acerra\, Michael Mend
- elsohn | t. | Filing Date and Party: 08/07/2026 | Vote Solar Grid Alternat
- ives\, Inc GreenLatinos Womxn From The Mountain Mi Familia Vota Ebony Advo
- cates | ADDENDUM | | Description: Joint motion to intervene\, entry of app
- earance\, and notice of financial disclosure | | Analyst(s): Alex Acerra\,
-  Michael Mendelsohn\n\nSource: https://www.dora.state.co.us/pls/efi/Efi_Ag
- enda.Get_Agenda_File?p_session_id=&p_document_id=4177405&p_agenda_id=1199
-PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177405&p_agenda_id=1199
+SUMMARY:[CO] RECOMMENDATION: Discuss results of August 17\, 2026 technical
+  conference.
+DTSTART;TZID=America/Denver:20260817T000000
+DTEND;TZID=America/Denver:20260817T020000
+DTSTAMP:20260814T185708Z
+UID:d7aa8fccee41caba556d@psc-calendar
+CATEGORIES:CO,Evidentiary Hearing
+DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
+ videntiary Hearing\n\n| RECOMMENDATION: Discuss results of August 17\, 202
+ 6 technical conference.\n\nSource: https://www.dora.state.co.us/pls/efi/EF
+ I_Agenda_UI.This_Weeks_Agenda
+PRIORITY:5
+URL:https://www.dora.state.co.us/pls/efi/EFI_Agenda_UI.This_Weeks_Agenda
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Description: Unopposed motion to substitute pro hac vice asso
- ciation for Andrew O. Schulte and Frank A. Caro and to admit Jared R. Jevo
- ns pro hac vice\, and notice of withdrawal of counsel
-DTSTART;TZID=America/Denver:20260810T000000
-DTEND;TZID=America/Denver:20260810T020000
-DTSTAMP:20260814T181729Z
-UID:3405b4d4d36f7efc44e0@psc-calendar
+SUMMARY:[CO] IN THE MATTER OF THE APPLICATION OF PUBLIC SERVICE COMPANY OF
+  COLORADO FOR AN ORDER FINDING THAT COSTS INCURRED FOR THE PERIOD OF JANUA
+ RY 2025 THROUGH DECEMBER 2025 FOR WORK COMPLETED IN 2025 UNDER T
+DTSTART;TZID=America/Denver:20270120T000000
+DTEND;TZID=America/Denver:20270120T020000
+DTSTAMP:20260814T185708Z
+UID:76e7f6cb3a4975b1d789@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| Filing Date and Party: 08/10/2026 Google LLC ADDENDUM Descriptio
- n: Unopposed motion to substitute pro hac vice association for Andrew O. S
- chulte and Frank A. Caro and to admit Jared R. Jevons pro hac vice\, and n
- otice of withdrawal of counsel Analyst(s): Alex Acerra | | Filing Date and
-  Party: 08/10/2026 | Google LLC | ADDENDUM | | Description: Unopposed moti
- on to substitute pro hac vice association for Andrew O. Schulte and Frank 
- A. Caro and to admit Jared R. Jevons pro hac vice\, and notice of withdraw
- al of counsel | | Analyst(s): Alex Acerra\n\nSource: https://www.dora.stat
- e.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_session_id=&p_document_id=417
- 7648&p_agenda_id=1199
+ ther\n\n| IN THE MATTER OF THE APPLICATION OF PUBLIC SERVICE COMPANY OF CO
+ LORADO FOR AN ORDER FINDING THAT COSTS INCURRED FOR THE PERIOD OF JANUARY 
+ 2025 THROUGH DECEMBER 2025 FOR WORK COMPLETED IN 2025 UNDER THE WILDFIRE M
+ ITIGATION PLAN WAS PRUDENT . |\n\nSource: https://www.dora.state.co.us/pls
+ /efi/EFI_Agenda_UI.This_Weeks_Agenda
 PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177648&p_agenda_id=1199
+URL:https://www.dora.state.co.us/pls/efi/EFI_Agenda_UI.This_Weeks_Agenda
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Google LLC
-DTSTART;TZID=America/Denver:20260810T000000
-DTEND;TZID=America/Denver:20260810T020000
-DTSTAMP:20260814T181729Z
-UID:a5af5d386ccdf446ac1a@psc-calendar
+SUMMARY:[CO] Description: Application for an order finding that costs incu
+ rred for the period of January 2025 through December 2025 for work complet
+ ed in 2025 under the 2025-2027 Wildfire Mitigation Plan were pru
+DTSTART;TZID=America/Denver:20270120T000000
+DTEND;TZID=America/Denver:20270120T020000
+DTSTAMP:20260814T185708Z
+UID:bda5d2d33bb9eb7ee479@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
- ther\n\n| Filing Date and Party: 08/10/2026 | Google LLC | ADDENDUM\n\nSou
- rce: https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_ses
- sion_id=&p_document_id=4177648&p_agenda_id=1199
+ ther\n\n| Description: Application for an order finding that costs incurre
+ d for the period of January 2025 through December 2025 for work completed 
+ in 2025 under the 2025-2027 Wildfire Mitigation Plan were prudent\n\nSourc
+ e: https://www.dora.state.co.us/pls/efi/EFI_Agenda_UI.This_Weeks_Agenda
 PRIORITY:9
-URL:https://www.dora.state.co.us/pls/efi/Efi_Agenda.Get_Agenda_File?p_sess
- ion_id=&p_document_id=4177648&p_agenda_id=1199
+URL:https://www.dora.state.co.us/pls/efi/EFI_Agenda_UI.This_Weeks_Agenda
 END:VEVENT
 END:VCALENDAR

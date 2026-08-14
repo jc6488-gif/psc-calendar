@@ -9,11 +9,37 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+SUMMARY:[ID] Decision Meeting \, Meeting Occurs: $
+DTSTART;TZID=America/Boise:20260818T000000
+DTEND;TZID=America/Boise:20260818T020000
+DTSTAMP:20260814T185708Z
+UID:5a253d9854542c9e9cf1@psc-calendar
+CATEGORIES:ID,Other
+DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
+ r\n\nDecision Meeting \, Meeting Occurs: $ August 18\, 2026\n\nSource: htt
+ ps://townhall.idaho.gov/PublicMeeting/8712
+PRIORITY:9
+URL:https://townhall.idaho.gov/PublicMeeting/8712
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[ID] Meeting Occurs: $
+DTSTART;TZID=America/Boise:20260818T000000
+DTEND;TZID=America/Boise:20260818T020000
+DTSTAMP:20260814T185708Z
+UID:36c4c9a372b45b0efd4b@psc-calendar
+CATEGORIES:ID,Other
+DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
+ r\n\n\, Meeting Occurs: $ August 18\, 2026\n\nSource: https://townhall.ida
+ ho.gov/PublicEntityHome/1138?rows=100
+PRIORITY:9
+URL:https://townhall.idaho.gov/PublicEntityHome/1138?rows=100
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[ID] Rocky Mountain Power Asset Transfer Telephonic Hearing \, Mee
  ting Occurs: $
 DTSTART;TZID=America/Boise:20260825T000000
 DTEND;TZID=America/Boise:20260825T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:a94758196ba98ca1ba3a@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
@@ -25,7 +51,7 @@ BEGIN:VEVENT
 SUMMARY:[ID] Meeting Occurs: $
 DTSTART;TZID=America/Boise:20260825T000000
 DTEND;TZID=America/Boise:20260825T020000
-DTSTAMP:20260814T181729Z
+DTSTAMP:20260814T185708Z
 UID:79200705a6d0625d878f@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
