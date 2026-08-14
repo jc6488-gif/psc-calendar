@@ -13,7 +13,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 7-16-2026
 DTSTART;TZID=America/New_York:20260716T093000
 DTEND;TZID=America/New_York:20260716T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:606b18bf7f419cf87fd5@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 7-21-2026
 DTSTART;TZID=America/New_York:20260721T093000
 DTEND;TZID=America/New_York:20260721T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:a90202215f2f2666042a@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] GUFPA Hearing for Rule Nisi & 46-2-91 July 22\, 2026
 DTSTART;TZID=America/New_York:20260722T100000
 DTEND;TZID=America/New_York:20260722T120000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:ed84ac18c6b144440675@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -58,7 +58,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 7-30-2026
 DTSTART;TZID=America/New_York:20260730T093000
 DTEND;TZID=America/New_York:20260730T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:1e0d23a8d5510679154b@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -74,7 +74,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 8-4-2026
 DTSTART;TZID=America/New_York:20260804T093000
 DTEND;TZID=America/New_York:20260804T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:fc54f633d27aa83596c9@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -89,7 +89,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 8-13-2026
 DTSTART;TZID=America/New_York:20260813T093000
 DTEND;TZID=America/New_York:20260813T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:ea5cccda4f4b825eac97@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -106,7 +106,7 @@ SUMMARY:[GA] Docket # 55973 City of Cartersville v. Georgia Power Company
  (Hearing Officer)
 DTSTART;TZID=America/New_York:20260813T093500
 DTEND;TZID=America/New_York:20260813T113500
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:f229e191062131096363@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -123,7 +123,7 @@ SUMMARY:[GA] Docket # 55973 City of Cartersville v. Georgia Power Company
  (Hearing Officer) 8-14-2026
 DTSTART;TZID=America/New_York:20260814T093000
 DTEND;TZID=America/New_York:20260814T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:479400e35ea19504c722@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -139,7 +139,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 8-18-2026
 DTSTART;TZID=America/New_York:20260818T093000
 DTEND;TZID=America/New_York:20260818T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:736467aec83877cca68f@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -156,7 +156,7 @@ SUMMARY:[GA] Docket No. 56181 GEORGIA POWER COMPANY’S APPLICATION FOR TH
  RES 2025 UTILI 8-18
 DTSTART;TZID=America/New_York:20260818T093500
 DTEND;TZID=America/New_York:20260818T113500
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:ce7b53c2b5f61c136743@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -173,7 +173,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] GUFPA Hearing 8-19-2026
 DTSTART;TZID=America/New_York:20260819T100000
 DTEND;TZID=America/New_York:20260819T120000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:b7efb5d506b35c39b812@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -188,7 +188,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 8-27-2026
 DTSTART;TZID=America/New_York:20260827T093000
 DTEND;TZID=America/New_York:20260827T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:a35a24814b3c6913c039@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -204,7 +204,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 9-1-2026
 DTSTART;TZID=America/New_York:20260901T093000
 DTEND;TZID=America/New_York:20260901T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:c168fe2ec6ada88ca4eb@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -219,7 +219,7 @@ SUMMARY:[GA] Docket No. 57171 RTP Revenue Credit and Allocation Methodolog
  y Hearing 9-1-2026
 DTSTART;TZID=America/New_York:20260901T093500
 DTEND;TZID=America/New_York:20260901T113500
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:6b745aa229617984b8f5@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -236,7 +236,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 9-10-2026
 DTSTART;TZID=America/New_York:20260910T093000
 DTEND;TZID=America/New_York:20260910T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:f6d1ce54a4ddfc6e827f@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -253,7 +253,7 @@ SUMMARY:[GA] Docket # 57062 Hearing for the Liberty Utilities 2026-2027 Ga
  s Supply Plan 9-10-2026
 DTSTART;TZID=America/New_York:20260910T093500
 DTEND;TZID=America/New_York:20260910T113500
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:a1acea1a515be16afff6@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -269,7 +269,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 9-15-2026
 DTSTART;TZID=America/New_York:20260915T093000
 DTEND;TZID=America/New_York:20260915T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:1742a9954268caadaf6e@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -283,7 +283,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] GUFPA Hearing 9-23-2026
 DTSTART;TZID=America/New_York:20260923T100000
 DTEND;TZID=America/New_York:20260923T120000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:d649fcd76cdae3a9017f@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -298,7 +298,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 10-1-2026
 DTSTART;TZID=America/New_York:20261001T093000
 DTEND;TZID=America/New_York:20261001T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:de23011e8266bec1204b@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -314,7 +314,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 10-6-2026
 DTSTART;TZID=America/New_York:20261006T093000
 DTEND;TZID=America/New_York:20261006T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:a8dbf32475e6502a7fb8@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -329,7 +329,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 10-15-2026
 DTSTART;TZID=America/New_York:20261015T093000
 DTEND;TZID=America/New_York:20261015T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:86e655d99c47096484f3@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -346,7 +346,7 @@ SUMMARY:[GA] Docket No. 57171 RTP Revenue Credit and Allocation Methodolog
  y Hearing 10-15-2026
 DTSTART;TZID=America/New_York:20261015T093500
 DTEND;TZID=America/New_York:20261015T113500
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:d29f15c5f06bd3a79c2d@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -362,7 +362,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 10-20-2026
 DTSTART;TZID=America/New_York:20261020T093000
 DTEND;TZID=America/New_York:20261020T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:e3ff989e9031cd943dde@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -376,7 +376,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] GUFPA Hearing 10-21-2026
 DTSTART;TZID=America/New_York:20261021T100000
 DTEND;TZID=America/New_York:20261021T120000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:a7c785c3927767a08ebe@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -391,7 +391,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 10-29-2026
 DTSTART;TZID=America/New_York:20261029T093000
 DTEND;TZID=America/New_York:20261029T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:4d3f781cd5906e8f4f4a@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -407,7 +407,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 11-3-2026
 DTSTART;TZID=America/New_York:20261103T093000
 DTEND;TZID=America/New_York:20261103T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:195fae7fe7e5cabc25e4@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -422,7 +422,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 11-12-2026
 DTSTART;TZID=America/New_York:20261112T093000
 DTEND;TZID=America/New_York:20261112T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:9b9af6521a7acc48027e@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -439,7 +439,7 @@ SUMMARY:[GA] Docket No. 57171 RTP Revenue Credit and Allocation Methodolog
  y Hearing 11-12-2026
 DTSTART;TZID=America/New_York:20261112T093500
 DTEND;TZID=America/New_York:20261112T113500
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:e905750d2031c9eddd82@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -455,7 +455,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 11-17-2026
 DTSTART;TZID=America/New_York:20261117T093000
 DTEND;TZID=America/New_York:20261117T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:db0284c301a3ab5b8469@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -470,7 +470,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 11-26-2026
 DTSTART;TZID=America/New_York:20261126T093000
 DTEND;TZID=America/New_York:20261126T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:a13399421a378f82aa87@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -486,7 +486,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 12-1-2026
 DTSTART;TZID=America/New_York:20261201T093000
 DTEND;TZID=America/New_York:20261201T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:7926cc6a5b893410d4ed@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -501,7 +501,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 12-10-2026
 DTSTART;TZID=America/New_York:20261210T093000
 DTEND;TZID=America/New_York:20261210T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:0f715ce53500a619bc11@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
@@ -517,7 +517,7 @@ BEGIN:VEVENT
 SUMMARY:[GA] Administrative Session 12-15-2026
 DTSTART;TZID=America/New_York:20261215T093000
 DTEND;TZID=America/New_York:20261215T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:8aa7737defb1970a8cb9@psc-calendar
 CATEGORIES:GA,Decision / Order
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Deci
@@ -532,7 +532,7 @@ SUMMARY:[GA] Facilities Protection/Telecommunication/Energy And Administra
  tive Affairs Committees 12-31-2026
 DTSTART;TZID=America/New_York:20261231T093000
 DTEND;TZID=America/New_York:20261231T113000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260814T225441Z
 UID:723829d95811847f2e8e@psc-calendar
 CATEGORIES:GA,Other
 DESCRIPTION:Commission: Georgia Public Service Commission (GA)\nType: Othe
