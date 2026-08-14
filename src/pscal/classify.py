@@ -71,7 +71,7 @@ def clean_title(title: str) -> str:
 _STOP = {
     "agenda", "agendas", "final", "amended", "pdf", "minutes", "minute",
     "recording", "recordding", "watch", "live", "posted", "view", "download",
-    "attachments", "attachment",
+    "attachments", "attachment", "date", "time", "times",
     "to", "through", "of", "the", "and", "a", "an", "for", "am", "pm", "pt",
     "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
     "mon", "tue", "tues", "wed", "thu", "thur", "thurs", "fri", "sat", "sun",

@@ -146,3 +146,14 @@ HTML_TELERIK = r"""<!DOCTYPE html><html><body>
 <script>
 $create(Telerik.Web.UI.RadScheduler, {"_timeZoneId":"UTC","appointments":"[{\"id\":1,\"subject\":\"Open Meeting\",\"description\":\"\",\"start\":\"2026/08/14 09:30\",\"end\":\"2026/08/14 17:00\",\"resources\":[{\"attributes\":{\"Location\":\"Commissioners Hearing Room\",\"Cancelled\":\"False\",\"NavigateUrl\":\"https://ftp.puc.texas.gov/agenda.pdf\"}}]},{\"id\":2,\"subject\":\"Comments Due – Project No. 59432\",\"description\":\"\",\"start\":\"2026/09/04 16:30\",\"end\":\"2026/09/04 17:00\",\"resources\":[{\"attributes\":{\"Location\":\"NA\",\"Cancelled\":\"False\"}}]},{\"id\":3,\"subject\":\"Cancelled Meeting\",\"description\":\"\",\"start\":\"2026/08/21 09:30\",\"end\":\"2026/08/21 17:00\",\"resources\":[{\"attributes\":{\"Cancelled\":\"True\"}}]}]", "x":1});
 </script></body></html>"""
+
+
+# FullCalendar events feed (Maryland PSC admin-ajax). Datetimes ISO; a
+# date-only start means all-day; "NO Administrative Meeting" is a notice.
+FULLCALENDAR_JSON = b"""[
+ {"id":1,"title":"Evidentiary Hearing: NGEA Transmission Storage Project Proposals (Case 9866)",
+  "start":"2026-09-04T10:00:00","end":"2026-09-04T16:00:00","extendedProps":{}},
+ {"id":2,"title":"Deadline for written comments","start":"2026-08-28"},
+ {"id":3,"title":"NO Administrative Meeting","start":"2026-08-19T00:00:00"},
+ {"id":4,"title":"Ancient meeting","start":"2020-01-01T10:00:00"}
+]"""

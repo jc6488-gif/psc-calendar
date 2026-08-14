@@ -333,6 +333,40 @@ def from_federal_register(url: str, tz: ZoneInfo, now: datetime) -> list[RawEven
     return out
 
 
+def from_fullcalendar_json(url: str, tz: ZoneInfo, now: datetime) -> list[RawEvent]:
+    """A FullCalendar events feed: a JSON array of {title, start, end, url}.
+
+    Maryland's calendar (psc.maryland.gov) renders with FullCalendar and
+    serves the complete schedule - exact datetimes, case numbers in titles -
+    from a WordPress admin-ajax action that also answers GET.
+    """
+    import json as _json
+
+    body, _ = get(url)
+    data = _json.loads(body)
+    if not isinstance(data, list):
+        raise ValueError("not a FullCalendar event array")
+    out: list[RawEvent] = []
+    for ev in data:
+        if not isinstance(ev, dict) or "start" not in ev:
+            continue
+        start = _parse_dt(ev.get("start"), tz)
+        if not start or not in_window(start, now):
+            continue
+        link = (ev.get("url") or "").strip()
+        out.append(RawEvent(
+            title=(ev.get("title") or "").strip() or "Meeting",
+            start=start,
+            end=_parse_dt(ev.get("end"), tz),
+            all_day=bool(ev.get("allDay")) or "T" not in str(ev.get("start")),
+            description="",
+            url=link if link.startswith(("http://", "https://")) else "",
+        ))
+    if not out:
+        raise ValueError("FullCalendar feed had no in-window events")
+    return out
+
+
 _TELERIK_APPTS = re.compile(r'"appointments":"((?:[^"\\]|\\.)*)"')
 
 
@@ -703,6 +737,8 @@ def extract(url: str, strategy: str, tz_name: str, now: datetime) -> tuple[list[
         return from_drupal_json(url, tz, now), "drupal"
     if strategy == "federal_register":
         return from_federal_register(url, tz, now), "federal_register"
+    if strategy == "fullcalendar":
+        return from_fullcalendar_json(url, tz, now), "fullcalendar"
     html, _ = get_text(url)
     if strategy == "jsonld":
         return from_jsonld(html, tz, now, url), "jsonld"

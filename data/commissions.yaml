@@ -432,12 +432,20 @@ commissions:
     home: https://www.psc.state.md.us
     docket_search: https://www.psc.state.md.us/search-results/?keyword=&x.x=Search
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening re-audit): the calendars page at
+      # psc.maryland.gov/news-events/calendars/ is FullCalendar rendered by
+      # JS, but its data feed answers GET with the COMPLETE schedule -
+      # 300+ events Aug 2025..Mar 2027, exact datetimes, case numbers.
+      # The user caught the old sources capturing only a fraction with
+      # "Date and time" junk titles.
+      - url: "https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_calendar_ajax"
+        strategy: fullcalendar
       - url: https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
         strategy: auto
-      # VERIFIED WORKING 2026-08-14
+        label: Public comment hearing
       - url: https://webpscxb.pscmaryland.com/DMS/agendas
         strategy: auto
+        label: Commission agenda (official filings)
       - url: https://www.psc.state.md.us/calendar-of-events/
         strategy: auto
       - url: https://www.psc.state.md.us/public-utility-hearing-schedule/

@@ -312,3 +312,15 @@ def test_uninformative_titles(title, uninformative):
 def test_generated_on_is_noise():
     """A page's own render timestamp is not a meeting."""
     assert classify.is_noise("Generated On Aug 14, 2026 2:48 PM")
+
+
+def test_fullcalendar_extractor(monkeypatch):
+    """Maryland's FullCalendar feed: ISO datetimes parse with times, date-only
+    entries become all-day, out-of-window events drop."""
+    monkeypatch.setattr(extract, "get", lambda url: (F.FULLCALENDAR_JSON, "application/json"))
+    evs = extract.from_fullcalendar_json("https://x/ajax", ZoneInfo(TZ), NOW)
+    assert len(evs) == 3          # ancient one dropped
+    hearing = next(e for e in evs if "9866" in e["title"])
+    assert hearing["start"].hour == 10 and not hearing["all_day"]
+    deadline = next(e for e in evs if "Deadline" in e["title"])
+    assert deadline["all_day"] is True
