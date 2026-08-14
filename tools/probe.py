@@ -60,7 +60,9 @@ def probe(spec: dict, raw: bool = False) -> bool:
                 print(f"       dockets: {', '.join(dk)}")
         if len(evs) > 8:
             print(f"     … {len(evs) - 8} more")
-        break   # the pipeline stops at the first working source too
+        # NOTE: no break - the pipeline scrapes and merges EVERY source, so
+        # the probe must too. An earlier break here hid dead trailing sources
+        # and under-reported per-state coverage during audits.
 
     if not any_ok:
         print(f"\n  {R}All sources failed for {code}.{D}")

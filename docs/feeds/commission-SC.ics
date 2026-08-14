@@ -10,115 +10,561 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: Au
- gust 6\, 13\, 20
-DTSTART;TZID=America/New_York:20260806T000000
-DTEND;TZID=America/New_York:20260806T020000
-DTSTAMP:20260814T222047Z
-UID:1a8fda851b7253dc4666@psc-calendar
-CATEGORIES:SC,Decision / Order
-DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
- e: Decision / Order\n\nAugust | 6\, 13\, 20\n\nSource: https://psc.sc.gov/
- about-us/scheduled-commission-meetings
-PRIORITY:5
-URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[SC] Hearing in Docket No. 2026-61-G
-DTSTART;TZID=America/New_York:20260820T100000
-DTEND;TZID=America/New_York:20260820T120000
-DTSTAMP:20260814T222047Z
-UID:ba03b77ab23a36592823@psc-calendar
+SUMMARY:[SC] Location: Hearing Room Summary: Application of Piedmont Natur
+ al Gas Company\, Inc. for an Adjustment of Rates and Charges Notes: *WebEx
+  Testing Opportunity* Applicant(s): Piedmont Natural Gas Company\, Inc.
+DTSTART;TZID=America/New_York:20260817T093000
+DTEND;TZID=America/New_York:20260817T113000
+DTSTAMP:20260814T225229Z
+UID:e9f78880492f3d8a6eb6@psc-calendar
 CATEGORIES:SC,Other
 DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
- e: Other\nDocket: 2026-61-G\n\nHearing in Docket No. 2026-61-G | August 20
- th\, 2026 10:00 a.m. Watch Live\n\nSource: https://dms.psc.sc.gov/Web/Dock
- ets/Detail/119642
+ e: Other\n\n8/17/2026 9:30 AM Scheduled | 2026-61-G | Location: Hearing Ro
+ om Summary: Application of Piedmont Natural Gas Company\, Inc. for an Adju
+ stment of Rates and Charges Notes: *WebEx Testing Opportunity* Applicant(s
+ ): Piedmont Natural Gas Company\, Inc.\n\nSource: https://dms.psc.sc.gov/W
+ eb/Dockets/Detail/119642
 PRIORITY:9
 URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119642
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Joint Petition of Dominion En
+ ergy South Carolina\, Inc.\, Dominion Energy\, Inc.\, and NextEra Energy\,
+  Inc. for Review and Approval of a Proposed Business Combination Between D
+ ominion Energy\, Inc. and NextEra Energy\, 
+DTSTART;TZID=America/New_York:20260818T100000
+DTEND;TZID=America/New_York:20260818T120000
+DTSTAMP:20260814T225229Z
+UID:d886303de7c072cf8c68@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n8/18/2026 10:00 AM Scheduled | 2026-186-EG | Location: Hearing
+  Room Summary: Joint Petition of Dominion Energy South Carolina\, Inc.\, D
+ ominion Energy\, Inc.\, and NextEra Energy\, Inc. for Review and Approval 
+ of a Proposed Business Combination Between Dominion Energy\, Inc. and Next
+ Era Energy\, Inc. Notes: *Status Conference Regarding Discovery Schedule* 
+ Applicant(s): Dominion Energy South Carolina\, Inc. NextEra Energy\, Inc. 
+ Dominion Energy\, Inc.\n\nSource: https://dms.psc.sc.gov/Web/Dockets/Detai
+ l/119767
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119767
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Application of Piedmont Natur
+ al Gas Company\, Inc. for an Adjustment of Rates and Charges Notes: Court 
+ Reporter - Southern Reporting - US Toll-free Listen Line: +1-877-309-2073 
+ Access Code: 601 673 909 Url: Public 
+DTSTART;TZID=America/New_York:20260820T100000
+DTEND;TZID=America/New_York:20260820T120000
+DTSTAMP:20260814T225229Z
+UID:3ceb920c6722d906e87d@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n8/20/2026 10:00 AM Scheduled | 2026-61-G | Location: Hearing R
+ oom Summary: Application of Piedmont Natural Gas Company\, Inc. for an Adj
+ ustment of Rates and Charges Notes: Court Reporter - Southern Reporting - 
+ US Toll-free Listen Line: +1-877-309-2073 Access Code: 601 673 909 Url: Pu
+ blic Service Commission | South Carolina ETV Applicant(s): Piedmont Natura
+ l Gas Company\, Inc.\n\nSource: https://dms.psc.sc.gov/Web/Dockets/Detail/
+ 119642
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119642
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Commission Business Meeting Url: https://www.scetv.org/live/p
+ ublic-service-commission
+DTSTART;TZID=America/New_York:20260820T130000
+DTEND;TZID=America/New_York:20260820T150000
+DTSTAMP:20260814T225229Z
+UID:6cb7a97ba07675ed92b8@psc-calendar
+CATEGORIES:SC,Decision / Order
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Decision / Order\n\n8/20/2026 1:00 PM Scheduled | N/A | Commission Busi
+ ness Meeting Url: https://www.scetv.org/live/public-service-commission\n\n
+ Source: https://dms.psc.sc.gov/Web/Calendar/Detail/84813
+PRIORITY:5
+URL:https://dms.psc.sc.gov/Web/Calendar/Detail/84813
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[SC] Commission Business Meeting
 DTSTART;TZID=America/New_York:20260820T130000
 DTEND;TZID=America/New_York:20260820T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:262c5fe811aac2404e6e@psc-calendar
 CATEGORIES:SC,Decision / Order
 DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
- e: Decision / Order\n\nCommission Business Meeting | August 20th\, 2026 1:
- 00 p.m. Watch Live\n\nSource: https://dms.psc.sc.gov/Web/Calendar/Detail/8
- 4813
+ e: Decision / Order\n\n8/20/2026 1:00 PM | Scheduled | Commission Business
+  Meeting\n\nSource: https://dms.psc.sc.gov/Web/Agendas
 PRIORITY:5
-URL:https://dms.psc.sc.gov/Web/Calendar/Detail/84813
+URL:https://dms.psc.sc.gov/Web/Agendas
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[SC] Hearing in Docket No. 2026-61-G
+SUMMARY:[SC] Location: Hearing Room Summary: Application of Piedmont Natur
+ al Gas Company\, Inc. for an Adjustment of Rates and Charges Notes: *Conti
+ nued as Necessary at the Call of the Chairman* - Court Reporter - Southern
+  Reporting - US Toll-free Listen Line
 DTSTART;TZID=America/New_York:20260821T100000
 DTEND;TZID=America/New_York:20260821T120000
-DTSTAMP:20260814T222047Z
-UID:7562c01e39483903e8bc@psc-calendar
+DTSTAMP:20260814T225229Z
+UID:4fe159a41757d6d2f459@psc-calendar
 CATEGORIES:SC,Other
 DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
- e: Other\nDocket: 2026-61-G\n\nHearing in Docket No. 2026-61-G | August 21
- st\, 2026 10:00 a.m. Watch Live\n\nSource: https://dms.psc.sc.gov/Web/Dock
- ets/Detail/119642
+ e: Other\n\n8/21/2026 10:00 AM Scheduled | 2026-61-G | Location: Hearing R
+ oom Summary: Application of Piedmont Natural Gas Company\, Inc. for an Adj
+ ustment of Rates and Charges Notes: *Continued as Necessary at the Call of
+  the Chairman* - Court Reporter - Southern Reporting - US Toll-free Listen
+  Line: +1-877-309-2073 Access Code: 601 673 909 Url: Public Service Commis
+ sion | South Carolina ETV Applicant(s): Piedmont Natural Gas Company\, Inc
+ .\n\nSource: https://dms.psc.sc.gov/Web/Dockets/Detail/119642
 PRIORITY:9
 URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119642
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: Se
- ptember 3\, 17\, 24
-DTSTART;TZID=America/New_York:20260903T000000
-DTEND;TZID=America/New_York:20260903T020000
-DTSTAMP:20260814T222047Z
-UID:d1728c94dee4c3033a85@psc-calendar
-CATEGORIES:SC,Decision / Order
+SUMMARY:[SC] Location: Hearing Room Summary: Application of Piedmont Natur
+ al Gas Company\, Inc. for an Adjustment of Rates and Charges Notes: *Conti
+ nued as Necessary at the Call of the Chairman* - Court Reporter - Southern
+  Reporting- US Toll-free Listen Line:
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+DTSTAMP:20260814T225229Z
+UID:559c4b2910983a7e0a40@psc-calendar
+CATEGORIES:SC,Other
 DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
- e: Decision / Order\n\nSeptember | 3\, 17\, 24\n\nSource: https://psc.sc.g
- ov/about-us/scheduled-commission-meetings
-PRIORITY:5
-URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
+ e: Other\n\n8/24/2026 10:00 AM Scheduled | 2026-61-G | Location: Hearing R
+ oom Summary: Application of Piedmont Natural Gas Company\, Inc. for an Adj
+ ustment of Rates and Charges Notes: *Continued as Necessary at the Call of
+  the Chairman* - Court Reporter - Southern Reporting- US Toll-free Listen 
+ Line: +1-877-309-2073 Access Code: 601 673 909 Url: Public Service Commiss
+ ion | South Carolina ETV Applicant(s): Piedmont Natural Gas Company\, Inc.
+ \n\nSource: https://dms.psc.sc.gov/Web/Dockets/Detail/119642
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119642
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: Oc
- tober 1\, 8\, 22
-DTSTART;TZID=America/New_York:20261001T000000
-DTEND;TZID=America/New_York:20261001T020000
-DTSTAMP:20260814T222047Z
-UID:f9add8908f282d9253c5@psc-calendar
-CATEGORIES:SC,Decision / Order
+SUMMARY:[SC] Location: Hearing Room Summary: Concerned Citizens of Spartan
+ burg County and Southern Alliance for Clean Energy\, Complainants/Petition
+ ers v. Valara Holdings\, LLC\, Defendant/Respondent
+DTSTART;TZID=America/New_York:20260826T100000
+DTEND;TZID=America/New_York:20260826T120000
+DTSTAMP:20260814T225229Z
+UID:aee5cabec21dc10ab9cd@psc-calendar
+CATEGORIES:SC,Other
 DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
- e: Decision / Order\n\nOctober | 1\, 8\, 22\n\nSource: https://psc.sc.gov/
- about-us/scheduled-commission-meetings
-PRIORITY:5
-URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
+ e: Other\n\n8/26/2026 10:00 AM In Abeyance | 2026-158-E | Location: Hearin
+ g Room Summary: Concerned Citizens of Spartanburg County and Southern Alli
+ ance for Clean Energy\, Complainants/Petitioners v. Valara Holdings\, LLC\
+ , Defendant/Respondent\n\nSource: https://dms.psc.sc.gov/Web/Dockets/Detai
+ l/119739
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119739
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: No
- vember 5\, 19
-DTSTART;TZID=America/New_York:20261105T000000
-DTEND;TZID=America/New_York:20261105T020000
-DTSTAMP:20260814T222047Z
-UID:5ca7a7e11e4de43e0b4a@psc-calendar
-CATEGORIES:SC,Decision / Order
+SUMMARY:[SC] Location: Hearing Room Summary: Public Service Commission Rev
+ iew of South Carolina Code of Regulations Chapter 103 Pursuant to S.C. Cod
+ e Ann. Section 1-23-120(J) - Article 6\, Telecommunications Utilities Note
+ s: *Follow-Up Workshop* - Court Repor
+DTSTART;TZID=America/New_York:20260827T090000
+DTEND;TZID=America/New_York:20260827T110000
+DTSTAMP:20260814T225229Z
+UID:8b1aa64f9aba0c688869@psc-calendar
+CATEGORIES:SC,Workshop / Conference
 DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
- e: Decision / Order\n\nNovember | 5\, 19\n\nSource: https://psc.sc.gov/abo
- ut-us/scheduled-commission-meetings
-PRIORITY:5
-URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
+ e: Workshop / Conference\n\n8/27/2026 9:00 AM Scheduled | 2025-306-C | Loc
+ ation: Hearing Room Summary: Public Service Commission Review of South Car
+ olina Code of Regulations Chapter 103 Pursuant to S.C. Code Ann. Section 1
+ -23-120(J) - Article 6\, Telecommunications Utilities Notes: *Follow-Up Wo
+ rkshop* - Court Reporter - Jo M. Wheat\, CVR-CM/M - US Toll-free Listen Li
+ ne: +1-877-309-2073 Access Code: 601 673 909 Url: Public Service Commissio
+ n | South Carolina ETV Applicant(s): Public Service Commission of South Ca
+ rolina\n\nSource: https://dms.psc.sc.gov/Web/Dockets/Detail/119547
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119547
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[SC] REGULARLY SCHEDULED COMMISSION BUSINESS MEETINGS FOR 2026: De
- cember 3\, 10\, 17
-DTSTART;TZID=America/New_York:20261203T000000
-DTEND;TZID=America/New_York:20261203T020000
-DTSTAMP:20260814T222047Z
-UID:70d27e2ac3965c684c1f@psc-calendar
-CATEGORIES:SC,Decision / Order
+SUMMARY:[SC] Location: Hearing Room Summary: Identification of Regulatory 
+ Challenges and Opportunities Associated with Electrification of Transporta
+ tion Sector Pursuant to S.C. Code Ann. Section 58-27-265 Notes: Court Repo
+ rter - Jo M. Wheat\, CVR-CM/M - US To
+DTSTART;TZID=America/New_York:20260901T100000
+DTEND;TZID=America/New_York:20260901T120000
+DTSTAMP:20260814T225229Z
+UID:a9944442054b30dc2575@psc-calendar
+CATEGORIES:SC,Other
 DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
- e: Decision / Order\n\nDecember | 3\, 10\, 17\n\nSource: https://psc.sc.go
- v/about-us/scheduled-commission-meetings
-PRIORITY:5
-URL:https://psc.sc.gov/about-us/scheduled-commission-meetings
+ e: Other\n\n9/1/2026 10:00 AM Scheduled | 2026-77-E | Location: Hearing Ro
+ om Summary: Identification of Regulatory Challenges and Opportunities Asso
+ ciated with Electrification of Transportation Sector Pursuant to S.C. Code
+  Ann. Section 58-27-265 Notes: Court Reporter - Jo M. Wheat\, CVR-CM/M - U
+ S Toll-free Listen Line: +1-877-309-2073 Access Code: 601 673 909 Url: Pub
+ lic Service Commission | South Carolina ETV\n\nSource: https://dms.psc.sc.
+ gov/Web/Dockets/Detail/119658
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119658
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Annual Review of Base Rates f
+ or Fuel Costs of Duke Energy Carolinas\, LLC (For Potential Increase or De
+ crease in Fuel Adjustment) Notes: Court Reporter - Jo M. Wheat\, CVR-CM/M 
+ - US Toll-free Listen Line: +1-877-309
+DTSTART;TZID=America/New_York:20260924T100000
+DTEND;TZID=America/New_York:20260924T120000
+DTSTAMP:20260814T225229Z
+UID:76b6f625ca04eca7a163@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n9/24/2026 10:00 AM Scheduled | 2026-3-E | Location: Hearing Ro
+ om Summary: Annual Review of Base Rates for Fuel Costs of Duke Energy Caro
+ linas\, LLC (For Potential Increase or Decrease in Fuel Adjustment) Notes:
+  Court Reporter - Jo M. Wheat\, CVR-CM/M - US Toll-free Listen Line: +1-87
+ 7-309-2073 Access Code: 601 673 909 Url: Public Service Commission | South
+  Carolina ETV Applicant(s): Duke Energy Carolinas\, LLC\n\nSource: https:/
+ /dms.psc.sc.gov/Web/Dockets/Detail/119492
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119492
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] PSC Ethics and Administrative Law Class
+DTSTART;TZID=America/New_York:20261005T090000
+DTEND;TZID=America/New_York:20261005T110000
+DTSTAMP:20260814T225229Z
+UID:12e8351ff07f2325dbc8@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n10/5/2026 9:00 AM Scheduled | N/A | PSC Ethics and Administrat
+ ive Law Class\n\nSource: https://dms.psc.sc.gov/Web/Calendar/Detail/84792
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Calendar/Detail/84792
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Application of Vero Networks 
+ ABS\, LLC for Certificate of Public Convenience and Necessity to Provide R
+ esold and Facilities-Based Local Exchange and Interexchange (Including Exc
+ hange Access) Telecommunications Serv
+DTSTART;TZID=America/New_York:20261006T100000
+DTEND;TZID=America/New_York:20261006T120000
+DTSTAMP:20260814T225229Z
+UID:f11f4a6b6a8c3cdf88c8@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n10/6/2026 10:00 AM Scheduled | 2026-185-C | Location: Hearing 
+ Room Summary: Application of Vero Networks ABS\, LLC for Certificate of Pu
+ blic Convenience and Necessity to Provide Resold and Facilities-Based Loca
+ l Exchange and Interexchange (Including Exchange Access) Telecommunication
+ s Services in the State of South Carolina\, and for Alternative and Flexib
+ le Regulation\; and Joint Application of Vero Fiber Networks\, LLC and Ver
+ o Networks ABS\, LLC for Approval of Transfer of Assets Notes: *Hearing Ex
+ aminer* - Court Reporter - Jo M. Wheat\, CVR-CM/M Applicant(s): Vero Netwo
+ rks ABS\, LLC Vero Fiber Ne\n\nSource: https://dms.psc.sc.gov/Web/Dockets/
+ Detail/119766
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119766
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] PSC Ethics and Administrative Law Class
+DTSTART;TZID=America/New_York:20261009T090000
+DTEND;TZID=America/New_York:20261009T110000
+DTSTAMP:20260814T225229Z
+UID:c565facd87fdffc5b342@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n10/9/2026 9:00 AM Scheduled | N/A | PSC Ethics and Administrat
+ ive Law Class\n\nSource: https://dms.psc.sc.gov/Web/Calendar/Detail/84793
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Calendar/Detail/84793
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Petition to Establish a Gener
+ ic Docket for the Purpose of Receiving Comments Addressing Large Load Addi
+ tions Notes: *Workshop per Directive Order No. 2026-362* - Court Reporter 
+ - Jo M. Wheat\, CVR-CM/M - US Toll-fr
+DTSTART;TZID=America/New_York:20261026T100000
+DTEND;TZID=America/New_York:20261026T120000
+DTSTAMP:20260814T225229Z
+UID:739cbfa548d26826d18b@psc-calendar
+CATEGORIES:SC,Workshop / Conference
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Workshop / Conference\n\n10/26/2026 10:00 AM Scheduled | 2026-138-E | L
+ ocation: Hearing Room Summary: Petition to Establish a Generic Docket for 
+ the Purpose of Receiving Comments Addressing Large Load Additions Notes: *
+ Workshop per Directive Order No. 2026-362* - Court Reporter - Jo M. Wheat\
+ , CVR-CM/M - US Toll-free Listen Line: +1-877-309-2073 Access Code: 601 67
+ 3 909 Url: Public Service Commission | South Carolina ETV Applicant(s): Du
+ ke Energy Carolinas\, LLC and Duke Energy Progress\, LLC\n\nSource: https:
+ //dms.psc.sc.gov/Web/Dockets/Detail/119719
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119719
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Petition to Establish a Gener
+ ic Docket for the Purpose of Receiving Comments Addressing Large Load Addi
+ tions Notes: *Workshop per Directive Order No. 2026-362* - Court Reporter 
+ - Jo M. Wheat\, CVR-CM/M - US Toll-fr
+DTSTART;TZID=America/New_York:20261027T100000
+DTEND;TZID=America/New_York:20261027T120000
+DTSTAMP:20260814T225229Z
+UID:3f45fcb8f1c931a806db@psc-calendar
+CATEGORIES:SC,Workshop / Conference
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Workshop / Conference\n\n10/27/2026 10:00 AM Scheduled | 2026-138-E | L
+ ocation: Hearing Room Summary: Petition to Establish a Generic Docket for 
+ the Purpose of Receiving Comments Addressing Large Load Additions Notes: *
+ Workshop per Directive Order No. 2026-362* - Court Reporter - Jo M. Wheat\
+ , CVR-CM/M - US Toll-free Listen Line: +1-877-309-2073 Access Code: 601 67
+ 3 909 Url: Public Service Commission | South Carolina ETV Applicant(s): Du
+ ke Energy Carolinas\, LLC and Duke Energy Progress\, LLC\n\nSource: https:
+ //dms.psc.sc.gov/Web/Dockets/Detail/119719
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119719
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Duke Energy Progress\, LLC's 
+ Application for Certificates of Public Convenience and Necessity Pursuant 
+ to S.C. Code Ann. § 58-33-110(10) for Four Major Utility Facilities Locat
+ ed in North Carolina Notes: *Attorney 
+DTSTART;TZID=America/New_York:20261029T100000
+DTEND;TZID=America/New_York:20261029T120000
+DTSTAMP:20260814T225229Z
+UID:32ea6c9f0e496272d8b4@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n10/29/2026 10:00 AM Scheduled | 2026-192-E | Location: Hearing
+  Room Summary: Duke Energy Progress\, LLC's Application for Certificates o
+ f Public Convenience and Necessity Pursuant to S.C. Code Ann. § 58-33-110
+ (10) for Four Major Utility Facilities Located in North Carolina Notes: *A
+ ttorney Appearances Only* - Court Reporter - Jo M. Wheat\, CVR-CM/M - US T
+ oll-free Listen Line: +1-877-309-2073 Access Code: 601 673 909 Url: Public
+  Service Commission | South Carolina ETV Applicant(s): Duke Energy Progres
+ s\, LLC\n\nSource: https://dms.psc.sc.gov/Web/Dockets/Detail/119773
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119773
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Annual Review of Purchased Ga
+ s Adjustment and Gas Purchasing Policies of Dominion Energy South Carolina
+ \, Inc. (For Potential Increase or Decrease in Gas Adjustment) Notes: Cour
+ t Reporter - Jo M. Wheat\, CVR-CM/M - 
+DTSTART;TZID=America/New_York:20261104T100000
+DTEND;TZID=America/New_York:20261104T120000
+DTSTAMP:20260814T225229Z
+UID:4a6e0f94da1df5a8ba30@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n11/4/2026 10:00 AM Scheduled | 2026-5-G | Location: Hearing Ro
+ om Summary: Annual Review of Purchased Gas Adjustment and Gas Purchasing P
+ olicies of Dominion Energy South Carolina\, Inc. (For Potential Increase o
+ r Decrease in Gas Adjustment) Notes: Court Reporter - Jo M. Wheat\, CVR-CM
+ /M - US Toll-free Listen Line: +1-877-309-2073 Access Code: 601 673 909 Ur
+ l: Public Service Commission | South Carolina ETV Applicant(s): Dominion E
+ nergy South Carolina\, Inc.\n\nSource: https://dms.psc.sc.gov/Web/Dockets/
+ Detail/119494
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119494
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Aiken County Government Center - County Council Cha
+ mbers Summary: Joint Petition of Dominion Energy South Carolina\, Inc.\, D
+ ominion Energy\, Inc.\, and NextEra Energy\, Inc. for Review and Approval 
+ of a Proposed Business Combination Betwee
+DTSTART;TZID=America/New_York:20261105T180000
+DTEND;TZID=America/New_York:20261105T200000
+DTSTAMP:20260814T225229Z
+UID:a0cdcef8a44f0d409346@psc-calendar
+CATEGORIES:SC,Public Comment Hearing
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Public Comment Hearing\n\n11/5/2026 6:00 PM Scheduled | 2026-186-EG | L
+ ocation: Aiken County Government Center - County Council Chambers Summary:
+  Joint Petition of Dominion Energy South Carolina\, Inc.\, Dominion Energy
+ \, Inc.\, and NextEra Energy\, Inc. for Review and Approval of a Proposed 
+ Business Combination Between Dominion Energy\, Inc. and NextEra Energy\, I
+ nc. Notes: *Customer Public Hearing* - Court Reporter - Jo M. Wheat\, CVR-
+ CM/M - Aiken County Government Center - County Council Chambers - 1930 Uni
+ versity Parkway\, 3rd Floor - Aiken\, SC 29801 Applicant(s): Dominion Ener
+ gy South Carolina\, Inc. NextEra Energy\, Inc. Do\n\nSource: https://dms.p
+ sc.sc.gov/Web/Dockets/Detail/119767
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119767
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Dominion Energy South Carolin
+ a\, Inc.'s 2026 Integrated Resource Plan (IRP) Notes: Court Reporter - Jo 
+ M. Wheat\, CVR-CM/M - US Toll-free Listen Line: +1-877-309-2073 Access Cod
+ e: 601 673 909 Url: Public Service Com
+DTSTART;TZID=America/New_York:20261109T100000
+DTEND;TZID=America/New_York:20261109T120000
+DTSTAMP:20260814T225229Z
+UID:d3a9caa2ac9ecd094c6a@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n11/9/2026 10:00 AM Scheduled | 2026-9-E | Location: Hearing Ro
+ om Summary: Dominion Energy South Carolina\, Inc.'s 2026 Integrated Resour
+ ce Plan (IRP) Notes: Court Reporter - Jo M. Wheat\, CVR-CM/M - US Toll-fre
+ e Listen Line: +1-877-309-2073 Access Code: 601 673 909 Url: Public Servic
+ e Commission | South Carolina ETV Applicant(s): Dominion Energy South Caro
+ lina\, Inc.\n\nSource: https://dms.psc.sc.gov/Web/Dockets/Detail/119499
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119499
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Charleston County Council Chambers Summary: Joint P
+ etition of Dominion Energy South Carolina\, Inc.\, Dominion Energy\, Inc.\
+ , and NextEra Energy\, Inc. for Review and Approval of a Proposed Business
+  Combination Between Dominion Energy\, Inc
+DTSTART;TZID=America/New_York:20261112T180000
+DTEND;TZID=America/New_York:20261112T200000
+DTSTAMP:20260814T225229Z
+UID:cb5e8785ae5ccb788a90@psc-calendar
+CATEGORIES:SC,Public Comment Hearing
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Public Comment Hearing\n\n11/12/2026 6:00 PM Scheduled | 2026-186-EG | 
+ Location: Charleston County Council Chambers Summary: Joint Petition of Do
+ minion Energy South Carolina\, Inc.\, Dominion Energy\, Inc.\, and NextEra
+  Energy\, Inc. for Review and Approval of a Proposed Business Combination 
+ Between Dominion Energy\, Inc. and NextEra Energy\, Inc. Notes: *Customer 
+ Public Hearing* - Court Reporter - Jo M. Wheat\, CVR-CM/M - Lonnie Hamilto
+ n III\, Public Services Building - 4045 Bridgeview Drive\, 2nd Floor - Nor
+ th Charleston\, SC 29405 Applicant(s): Dominion Energy South Carolina\, In
+ c. NextEra Energy\, Inc. Dominion Energy\, Inc.\n\nSource: https://dms.psc
+ .sc.gov/Web/Dockets/Detail/119767
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119767
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: Hearing Room Summary: Request That the Public Servi
+ ce Commission of South Carolina Open a Generic Docket to Consider and Dete
+ rmine How Cash Working Capital Should Be Calculated in Future Ratemaking P
+ roceedings Notes: Notes: Court Repor
+DTSTART;TZID=America/New_York:20261117T100000
+DTEND;TZID=America/New_York:20261117T120000
+DTSTAMP:20260814T225229Z
+UID:0e19534ad858cf21930e@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n11/17/2026 10:00 AM Scheduled | 2026-167-EGWS | Location: Hear
+ ing Room Summary: Request That the Public Service Commission of South Caro
+ lina Open a Generic Docket to Consider and Determine How Cash Working Capi
+ tal Should Be Calculated in Future Ratemaking Proceedings Notes: Notes: Co
+ urt Reporter - Jo M. Wheat\, CVR-CM/M - US Toll-free Listen Line: +1-877-3
+ 09-2073 Access Code: 601 673 909 Url: Public Service Commission | South Ca
+ rolina ETV Applicant(s): South Carolina Office of Regulatory Staff\n\nSour
+ ce: https://dms.psc.sc.gov/Web/Dockets/Detail/119748
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119748
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: South Carolina Department of Archives and History -
+  Columbia Summary: Joint Petition of Dominion Energy South Carolina\, Inc.
+ \, Dominion Energy\, Inc.\, and NextEra Energy\, Inc. for Review and Appro
+ val of a Proposed Business Combination Be
+DTSTART;TZID=America/New_York:20261117T180000
+DTEND;TZID=America/New_York:20261117T200000
+DTSTAMP:20260814T225229Z
+UID:94e0bebf2f96ff39a3ef@psc-calendar
+CATEGORIES:SC,Public Comment Hearing
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Public Comment Hearing\n\n11/17/2026 6:00 PM Scheduled | 2026-186-EG | 
+ Location: South Carolina Department of Archives and History - Columbia Sum
+ mary: Joint Petition of Dominion Energy South Carolina\, Inc.\, Dominion E
+ nergy\, Inc.\, and NextEra Energy\, Inc. for Review and Approval of a Prop
+ osed Business Combination Between Dominion Energy\, Inc. and NextEra Energ
+ y\, Inc. Notes: *Customer Public Hearing* - Court Reporter - Jo M. Wheat\,
+  CVR-CM/M - South Carolina Department of Archives and History\, Auditorium
+  - 8301 Parklane Road - Columbia\, SC 29223 Applicant(s): Dominion Energy 
+ South Carolina\, Inc. NextEra Energy\, Inc. Domin\n\nSource: https://dms.p
+ sc.sc.gov/Web/Dockets/Detail/119767
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119767
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: PSC Hearing Room Summary: Joint Petition of Dominio
+ n Energy South Carolina\, Inc.\, Dominion Energy\, Inc.\, and NextEra Ener
+ gy\, Inc. for Review and Approval of a Proposed Business Combination Betwe
+ en Dominion Energy\, Inc. and NextEra Ener
+DTSTART;TZID=America/New_York:20261208T090000
+DTEND;TZID=America/New_York:20261208T110000
+DTSTAMP:20260814T225229Z
+UID:66c7616090d4c3ffc857@psc-calendar
+CATEGORIES:SC,Public Comment Hearing
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Public Comment Hearing\n\n12/8/2026 9:00 AM Scheduled | 2026-186-EG | L
+ ocation: PSC Hearing Room Summary: Joint Petition of Dominion Energy South
+  Carolina\, Inc.\, Dominion Energy\, Inc.\, and NextEra Energy\, Inc. for 
+ Review and Approval of a Proposed Business Combination Between Dominion En
+ ergy\, Inc. and NextEra Energy\, Inc. Notes: *Merits Hearing to Begin at t
+ he Conclusion of the 9:00 AM Customer Public Hearing* - Court Reporter - J
+ o M. Wheat\, CVR-CM/M Url: Public Service Commission | South Carolina ETV 
+ Applicant(s): Dominion Energy South Carolina\, Inc. NextEra Energy\, Inc. 
+ Dominion Energy\, Inc.\n\nSource: https://dms.psc.sc.gov/Web/Dockets/Detai
+ l/119767
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119767
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: PSC Hearing Room Summary: Joint Petition of Dominio
+ n Energy South Carolina\, Inc.\, Dominion Energy\, Inc.\, and NextEra Ener
+ gy\, Inc. for Review and Approval of a Proposed Business Combination Betwe
+ en Dominion Energy\, Inc. and NextEra Ener
+DTSTART;TZID=America/New_York:20261209T090000
+DTEND;TZID=America/New_York:20261209T110000
+DTSTAMP:20260814T225229Z
+UID:d14f3c705b4ed092a3c4@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n12/9/2026 9:00 AM Scheduled | 2026-186-EG | Location: PSC Hear
+ ing Room Summary: Joint Petition of Dominion Energy South Carolina\, Inc.\
+ , Dominion Energy\, Inc.\, and NextEra Energy\, Inc. for Review and Approv
+ al of a Proposed Business Combination Between Dominion Energy\, Inc. and N
+ extEra Energy\, Inc. Notes: *Continued as Necessary at the Call of the Cha
+ irman* - Court Reporter - Jo M. Wheat\, CVR-CM/M Url: Public Service Commi
+ ssion | South Carolina ETV Applicant(s): Dominion Energy South Carolina\, 
+ Inc. NextEra Energy\, Inc. Dominion Energy\, Inc.\n\nSource: https://dms.p
+ sc.sc.gov/Web/Dockets/Detail/119767
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119767
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: PSC Hearing Room Summary: Joint Petition of Dominio
+ n Energy South Carolina\, Inc.\, Dominion Energy\, Inc.\, and NextEra Ener
+ gy\, Inc. for Review and Approval of a Proposed Business Combination Betwe
+ en Dominion Energy\, Inc. and NextEra Ener
+DTSTART;TZID=America/New_York:20261210T090000
+DTEND;TZID=America/New_York:20261210T110000
+DTSTAMP:20260814T225229Z
+UID:92032700965c79d0b433@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n12/10/2026 9:00 AM Scheduled | 2026-186-EG | Location: PSC Hea
+ ring Room Summary: Joint Petition of Dominion Energy South Carolina\, Inc.
+ \, Dominion Energy\, Inc.\, and NextEra Energy\, Inc. for Review and Appro
+ val of a Proposed Business Combination Between Dominion Energy\, Inc. and 
+ NextEra Energy\, Inc. Notes: *Continued as Necessary at the Call of the Ch
+ airman* - Court Reporter - Jo M. Wheat\, CVR-CM/M Url: Public Service Comm
+ ission | South Carolina ETV Applicant(s): Dominion Energy South Carolina\,
+  Inc. NextEra Energy\, Inc. Dominion Energy\, Inc.\n\nSource: https://dms.
+ psc.sc.gov/Web/Dockets/Detail/119767
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119767
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[SC] Location: PSC Hearing Room Summary: Joint Petition of Dominio
+ n Energy South Carolina\, Inc.\, Dominion Energy\, Inc.\, and NextEra Ener
+ gy\, Inc. for Review and Approval of a Proposed Business Combination Betwe
+ en Dominion Energy\, Inc. and NextEra Ener
+DTSTART;TZID=America/New_York:20261211T090000
+DTEND;TZID=America/New_York:20261211T110000
+DTSTAMP:20260814T225229Z
+UID:2cb3dc5ee4ea2b0ce9c1@psc-calendar
+CATEGORIES:SC,Other
+DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
+ e: Other\n\n12/11/2026 9:00 AM Scheduled | 2026-186-EG | Location: PSC Hea
+ ring Room Summary: Joint Petition of Dominion Energy South Carolina\, Inc.
+ \, Dominion Energy\, Inc.\, and NextEra Energy\, Inc. for Review and Appro
+ val of a Proposed Business Combination Between Dominion Energy\, Inc. and 
+ NextEra Energy\, Inc. Notes: *Continued as Necessary at the Call of the Ch
+ airman* - Court Reporter - Jo M. Wheat\, CVR-CM/M Url: Public Service Comm
+ ission | South Carolina ETV Applicant(s): Dominion Energy South Carolina\,
+  Inc. NextEra Energy\, Inc. Dominion Energy\, Inc.\n\nSource: https://dms.
+ psc.sc.gov/Web/Dockets/Detail/119767
+PRIORITY:9
+URL:https://dms.psc.sc.gov/Web/Dockets/Detail/119767
 END:VEVENT
 END:VCALENDAR

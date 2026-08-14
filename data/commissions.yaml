@@ -62,7 +62,12 @@ commissions:
     home: https://psc.alabama.gov
     docket_search: https://psc.alabama.gov/filings/
     sources:
-      - url: https://psc.alabama.gov/category/events/
+      # VERIFIED WORKING 2026-08-14 (evening audit): the PSC Public Access portal
+      # server-renders the rolling hearings grid with dockets and companies;
+      # /category/events/ 404ed and left AL contributing one press release.
+      # Monthly Commission Meeting notices are PDF-only (known PDF work);
+      # the portal's RSS endpoint 500s server-side.
+      - url: "https://www.pscpublicaccess.alabama.gov/pscpublicaccess/page/default/portal.aspx"
         strategy: auto
       - url: https://psc.alabama.gov/
         strategy: date_regex
@@ -92,12 +97,12 @@ commissions:
     home: https://www.azcc.gov
     docket_search: https://edocket.azcc.gov/search/docket-search
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): struck-through reschedule marks
+      # are now dropped before parsing (Sep 16 -> Sep 10, Oct 14 -> Oct 7).
+      # The per-event calendar (edocket.azcc.gov/calendar) is an Angular SPA
+      # whose API host does not resolve publicly - needs headless browser.
+      # /meetings and /events 404.
       - url: https://azcc.gov/open-meeting-schedules
-        strategy: auto
-      - url: https://www.azcc.gov/meetings
-        strategy: auto
-      - url: https://azcc.gov/events
         strategy: auto
       - url: https://www.azcc.gov/news
         strategy: auto
@@ -127,14 +132,16 @@ commissions:
     home: https://www.cpuc.ca.gov
     docket_search: https://apps.cpuc.ca.gov/apex/f?p=401:1
     sources:
+      # VERIFIED WORKING 2026-08-14 (evening audit): the voting-meetings page's real
+      # payload is its 18-row table (every 2026 decision date); auto matched
+      # a 3-card news widget first, silently dropping Oct-Dec voting dates -
+      # forced html_table. The Daily Calendar is now a .docx (known future
+      # work); cbma.htm is a dateless landing page now;
+      # public-participation-hearings 404ed.
       - url: https://www.cpuc.ca.gov/events-and-meetings
         strategy: auto
-      - url: https://docs.cpuc.ca.gov/cbma.htm
-        strategy: auto
       - url: https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-voting-meetings/2026-voting-meetings
-        strategy: auto
-      - url: https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/public-participation-hearings
-        strategy: auto
+        strategy: html_table
     notes: >-
       PG&E (PCG), SCE (EIX), SDG&E + SoCalGas (SRE), Southwest Gas (SWX).
       Voting Meetings are the decision dates. GRC cycles are 4-year; also track
@@ -150,14 +157,12 @@ commissions:
     home: https://puc.colorado.gov
     docket_search: https://www.dora.state.co.us/pls/efi/EFI.Show_Home
     sources:
-      # RE-AUDITED 2026-08-14: /cim and /puccalendar return 200 but serve
-      # 2021/2009 archive content - the earlier VERIFIED marks were wrong
-      # (a 200 is not success). The live source is the DORA e-filings weekly
-      # agenda (50 current dates visible). Site also requires the
-      # Mozilla-prefixed compat User-Agent (plain tool UA gets 403).
-      # VERIFIED WORKING 2026-08-14
-      - url: https://www.dora.state.co.us/pls/efi/EFI_Agenda_UI.This_Weeks_Agenda
-        strategy: auto
+      # VERIFIED WORKING 2026-08-14 (evening audit): the PUC's own Google Calendar
+      # (public iCal, 4,650 events, 42 upcoming) carries docketed hearings
+      # incl. PSCo/Xcel comment hearings. The DORA weekly agenda page was
+      # emitting party names and filing dates as junk events - replaced.
+      - url: "https://calendar.google.com/calendar/ical/state.co.us_mie9aqkvh15rk34shmhs6mnfq8%40group.calendar.google.com/public/basic.ics"
+        strategy: ics
     notes: Black Hills Colorado Electric & Gas (BKH), Atmos Colorado (ATO).
 
   - code: CT
@@ -186,12 +191,13 @@ commissions:
     home: https://dcpsc.org
     docket_search: https://edocket.dcpsc.org/public/search
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): /Newsroom/Calendar.aspx 404ed; the
+      # calendar moved to /Calendar and carries docketed working-group and
+      # technical-conference events the open-meetings page lacks.
       - url: https://dcpsc.org/Schedule-of-Open-Commission-Meetings.aspx
         strategy: auto
-      - url: https://dcpsc.org/Newsroom/Calendar.aspx
+      - url: https://dcpsc.org/Calendar
         strategy: auto
-
   - code: DE
     name: Delaware Public Service Commission
     state: DE
@@ -201,12 +207,13 @@ commissions:
     home: https://depsc.delaware.gov
     docket_search: https://depsc.delaware.gov/dockets/
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): notice blobs open with filing
+      # dates; the parser now prefers "scheduled for <date>" so the Delmarva
+      # rate-case comment session (8/19) dates correctly. /events/ is an
+      # empty plugin placeholder - removed. publicmeetings.delaware.gov
+      # became an SPA (old URL 500s); its JSON API currently lists zero PSC
+      # meetings - statewide feed cross-checked, genuinely empty.
       - url: https://depsc.delaware.gov/public-notices
-        strategy: auto
-      - url: https://depsc.delaware.gov/events/
-        strategy: auto
-      - url: https://publicmeetings.delaware.gov/Home/Search?agency=PublicServiceCommission
         strategy: auto
     notes: Chesapeake Utilities / Delmarva gas (CPK). Delaware posts to the statewide public meeting calendar, which is the more complete source.
 
@@ -236,12 +243,13 @@ commissions:
     home: https://psc.ga.gov
     docket_search: https://psc.ga.gov/search/facts-document/
     sources:
-      # VERIFIED WORKING 2026-08-14: /calendar/ went 404 in a site
-      # reorganisation; the calendar now lives under /agendas-calendars/
-      # (server-rendered, docket-named entries, 200+ dates visible).
+      # VERIFIED WORKING 2026-08-14 (evening audit): the calendar page's epoch-dated
+      # anchors (?date=) carry the full forward schedule with real titles;
+      # the archive fragments that fabricated future dates are now bypassed
+      # by the epoch_links extractor. /news/ moved to /newsroom/.
       - url: https://psc.ga.gov/agendas-calendars/commission-calendar/
         strategy: auto
-      - url: https://psc.ga.gov/news/
+      - url: https://psc.ga.gov/newsroom/
         strategy: auto
     notes: >-
       Georgia Power + Atlanta Gas Light (SO). Track the triennial Integrated Resource
@@ -257,12 +265,12 @@ commissions:
     home: https://puc.hawaii.gov
     docket_search: https://dms.puc.hawaii.gov/dms/
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # RE-AUDITED 2026-08-14: the commission's real calendar is a Salesforce
+      # SPA (hpuc.my.site.com/cdms/s/calendar) - needs the headless-browser
+      # strategy. The WP public-notice feed below is mostly motor-carrier
+      # noise and stamps posting dates, but it is the only fetchable source.
+      # /events/ and /category/public-notices/ 404.
       - url: https://puc.hawaii.gov/category/public-notice/
-        strategy: auto
-      - url: https://puc.hawaii.gov/events/
-        strategy: auto
-      - url: https://puc.hawaii.gov/category/public-notices/
         strategy: auto
     notes: Hawaiian Electric (HE). Performance-Based Regulation framework means annual PBR review dates matter more than classic rate cases.
 
@@ -275,15 +283,15 @@ commissions:
     home: https://puc.idaho.gov
     docket_search: https://puc.idaho.gov/case
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): agenda PDFs carry their dates only
+      # in YYYYMMDD filenames - dated_links parses them. townhall.idaho.gov
+      # is the live notice portal. IPUC's Google Calendar is stale (no
+      # future events) - do not add. /events 404.
       - url: https://puc.idaho.gov/PublicDocs/Agenda
+        strategy: dated_links
+        label: Decision meeting agenda (PDF)
+      - url: https://townhall.idaho.gov/agency/126/
         strategy: auto
-      # VERIFIED WORKING 2026-08-14
-      - url: https://townhall.idaho.gov/PublicEntityHome/1138?rows=100
-        strategy: auto
-      - url: https://puc.idaho.gov/events
-        strategy: auto
-
   - code: IL
     name: Illinois Commerce Commission
     state: IL
@@ -293,11 +301,15 @@ commissions:
     home: https://www.icc.illinois.gov
     docket_search: https://www.icc.illinois.gov/docket/
     sources:
+      # VERIFIED WORKING 2026-08-14 (evening audit): /meetings shows a rolling one-week
+      # window only; the list views carry Regular Open Meetings through
+      # December. ALJ docket hearings have no list view (site limitation) -
+      # the weekly page catches them ~1 week out. /events and /news 500.
       - url: https://www.icc.illinois.gov/meetings
         strategy: auto
-      - url: https://www.icc.illinois.gov/events
+      - url: https://www.icc.illinois.gov/meetings/list/commission-meeting
         strategy: auto
-      - url: https://www.icc.illinois.gov/news
+      - url: https://www.icc.illinois.gov/meetings/list/policy-session
         strategy: auto
     notes: Nicor Gas (SO), Peoples Gas + North Shore Gas (WEC). Multi-year rate plans under CEJA changed the cadence; watch reconciliation dockets.
 
@@ -343,13 +355,15 @@ commissions:
     home: https://iuc.iowa.gov
     docket_search: https://efs.iowa.gov/efs/ShowDocketSearch.do
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): the IUC publishes a public Google
+      # Calendar (1,100+ events; hearings, MidAmerican consumer comment
+      # meetings, monthly Commission Meetings). /meetings and /events 404.
+      - url: "https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics"
+        strategy: ics
+      - url: https://iuc.iowa.gov/commission-activity/hearing-meeting-calendar
+        strategy: auto
       - url: https://iuc.iowa.gov/commission-activity/public-meeting-documents
         label: Commission meeting agenda (PDF)
-        strategy: auto
-      - url: https://iuc.iowa.gov/meetings
-        strategy: auto
-      - url: https://iuc.iowa.gov/events
         strategy: auto
     notes: Interstate Power & Light (LNT), Black Hills Iowa Gas (BKH). Renamed from Iowa Utilities Board in 2024 - older bookmarks to iub.iowa.gov redirect.
 
@@ -395,14 +409,15 @@ commissions:
     home: https://www.lpsc.louisiana.gov
     docket_search: https://lpscstar.louisiana.gov/star/portal/lpsc/page/dockets-search/
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): the portal scheduler endpoint
+      # answers a cookie-primed form POST with every hearing and B&E session
+      # (85 events Aug-Dec incl. docket hearings). /Calendar and
+      # /AgendasMinutes 404. Agenda PDFs remain known PDF work.
+      - url: "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/ReadScheduledEvents"
+        strategy: la_portal
       - url: https://lpsc.louisiana.gov/Agenda
+        strategy: auto
         label: LPSC business and executive session agenda
-        strategy: auto
-      - url: https://www.lpsc.louisiana.gov/Calendar
-        strategy: auto
-      - url: https://www.lpsc.louisiana.gov/AgendasMinutes
-        strategy: auto
     notes: >-
       Entergy Louisiana (ETR), SWEPCO (AEP), Atmos Louisiana (ATO). Note Entergy New
       Orleans is NOT regulated here - see the NOLA entry. LPSC Business & Executive
@@ -461,12 +476,14 @@ commissions:
     home: https://www.mass.gov/orgs/department-of-public-utilities
     docket_search: https://eeaonline.eea.state.ma.us/DPU/Fileroom/dockets/bynumber
     sources:
-      # VERIFIED WORKING 2026-08-14
-      - url: https://www.mass.gov/orgs/department-of-public-utilities/events
+      # VERIFIED WORKING 2026-08-14 (evening audit): the DPU File Room hearings API
+      # (POST) returns months of hearings with dockets, petitioners and
+      # exact times; the public page is an Angular shell. mass.gov list
+      # page 404.
+      - url: "https://eeaonline.eea.state.ma.us/dpu/fileroom/api/search/hearings/"
+        strategy: ma_fileroom
+      - url: https://www.mass.gov/orgs/department-of-public-utilities
         strategy: auto
-      - url: https://www.mass.gov/lists/department-of-public-utilities-hearings-and-meetings
-        strategy: auto
-
   - code: MI
     name: Michigan Public Service Commission
     state: MI
@@ -503,12 +520,14 @@ commissions:
     home: https://mn.gov/puc/
     docket_search: https://www.edockets.state.mn.us/documents/search
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): Legistar Web API serves agenda
+      # meetings with times. CAVEAT: mn.gov's fuller calendar (which carried
+      # public hearings) is behind a Radware bot-manager CAPTCHA - MN
+      # hearings are INVISIBLE pending a browser strategy or contact;
+      # do not read this state's green as complete.
+      - url: "https://webapi.legistar.com/v1/minnesotapuc/events?$orderby=EventDate"
+        strategy: legistar
       - url: https://minnesotapuc.legistar.com/Calendar.aspx
-        strategy: auto
-      - url: https://mn.gov/puc/about-us/commission-calendar/
-        strategy: auto
-      - url: https://mn.gov/puc/activities/calendar/
         strategy: auto
     notes: CenterPoint Minnesota gas (CNP), Minnesota Energy Resources (WEC), Interstate Power & Light (LNT). Minnesota allows interim rates, so watch the interim-rate order date separately from the final order.
 
@@ -521,13 +540,14 @@ commissions:
     home: https://www.psc.ms.gov
     docket_search: https://www.psc.ms.gov/efiling/
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): hearings page phantom dates fixed
+      # in DATE_RE; the substantive monthly Utility Docket lives in PDFs
+      # under /exec-sec/dockets (known PDF work). /events and /dockets 404.
       - url: https://www.psc.ms.gov/exec-sec/hearings
         strategy: auto
-      - url: https://www.psc.ms.gov/events
+      - url: https://www.psc.ms.gov/exec-sec/dockets
         strategy: auto
-      - url: https://www.psc.ms.gov/dockets
-        strategy: auto
+        label: Monthly utility docket (PDF)
     notes: Entergy Mississippi (ETR), Mississippi Power (SO), Atmos Mississippi (ATO), Spire Mississippi (SR).
 
   - code: MO
@@ -539,13 +559,15 @@ commissions:
     home: https://psc.mo.gov
     docket_search: https://www.efis.psc.mo.gov/mpsc/CaseFilingSearch.asp
     sources:
-      - url: https://psc.mo.gov/Calendars.aspx?Selected=Hearings
-        strategy: auto
-      - url: https://psc.mo.gov/Calendars.aspx
-        strategy: auto
+      # VERIFIED WORKING 2026-08-14 (evening audit): Calendars.aspx server-renders day
+      # modals (AppointmentItem divs) with time, docket and location -
+      # mo_modals parses them; the generic chain saw only grid noise while
+      # Spire/Ameren hearings sat in plain HTML.
+      - url: "https://psc.mo.gov/Calendars.aspx?Selected=Hearings"
+        strategy: mo_modals
+      - url: "https://psc.mo.gov/Calendars.aspx?Selected=Agendas"
+        strategy: mo_modals
       - url: https://www.efis.psc.mo.gov/mpsc/agenda/viewagenda/view_newest_agenda.asp
-        strategy: auto
-      - url: https://psc.mo.gov/Calendars.aspx?Selected=Agendas
         strategy: auto
     notes: >-
       Evergy Missouri (EVRG), Spire Missouri (SR). Missouri's 11-month statutory
@@ -648,12 +670,15 @@ commissions:
     home: https://www.prc.nm.gov
     docket_search: https://edocket.nmprc.state.nm.us/
     sources:
-      # VERIFIED WORKING 2026-08-14
-      - url: https://www.prc.nm.gov/nmprc-open-meeting-agenda/
-        strategy: auto
-      - url: https://www.prc.nm.gov/commission/meetings/
-        strategy: auto
-
+      # VERIFIED WORKING 2026-08-14 (evening audit): public-hearings lists evidentiary
+      # hearings with dockets; the 2026 schedule post carries Regular Open
+      # Meetings (table context supplies the year). Homepage removed - its
+      # news RSS was hijacking auto-discovery with press releases.
+      - url: https://www.prc.nm.gov/public-hearings/
+        strategy: date_regex
+      - url: https://www.prc.nm.gov/2026/06/26/33071/
+        strategy: html_table
+        label: Regular Open Meeting
   - code: NY
     name: New York Public Service Commission
     state: NY
@@ -663,13 +688,19 @@ commissions:
     home: https://dps.ny.gov
     docket_search: https://documents.dps.ny.gov/public/Common/SearchMatter.aspx
     sources:
-      - url: https://documents.dps.ny.gov/public/Common/CalendarViewReporthtml.aspx
-        strategy: auto
+      # VERIFIED WORKING 2026-08-14 (evening audit): the calendar paginates ?page=0-4;
+      # only page 0 was fetched, dropping ~35 events incl. Con Edison
+      # comment deadlines. DMM's per-matter calendar needs an ASP.NET POST -
+      # not yet covered.
       - url: https://dps.ny.gov/calendar
         strategy: auto
-      - url: https://dps.ny.gov/public-service-commission-sessions
+      - url: "https://dps.ny.gov/calendar?page=1"
         strategy: auto
-      - url: https://dps.ny.gov/calendar?f%5B0%5D=filter_term%3A496
+      - url: "https://dps.ny.gov/calendar?page=2"
+        strategy: auto
+      - url: "https://dps.ny.gov/calendar?page=3"
+        strategy: auto
+      - url: https://dps.ny.gov/commission-agendas-webcasts
         strategy: auto
     notes: >-
       Con Edison + O&R (ED). NY runs multi-year rate plans with joint proposals, so the
@@ -760,13 +791,13 @@ commissions:
     home: https://www.oregon.gov/puc/
     docket_search: https://apps.puc.state.or.us/edockets/docket.asp
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): hcal.asp is only a week index;
+      # or_hearings generates hcallist.asp date-range URLs for the next 8
+      # weeks (PGE/PacifiCorp docket events with times). oregon.gov pages
+      # are SharePoint shells (200, zero dates); RPM schedules are PDFs -
+      # known PDF work.
       - url: https://apps.puc.state.or.us/edockets/hcal.asp
-        strategy: auto
-      - url: https://www.oregon.gov/puc/Pages/Calendar.aspx
-        strategy: auto
-      - url: https://www.oregon.gov/puc/Pages/Public-Meetings.aspx
-        strategy: auto
+        strategy: or_hearings
     notes: Portland General Electric (POR). Oregon uses a 10-month statutory clock and annual Power Cost Adjustment filings each spring.
 
   - code: PA
@@ -778,13 +809,12 @@ commissions:
     home: https://www.puc.pa.gov
     docket_search: https://www.puc.pa.gov/search/case-search/
     sources:
-      # VERIFIED WORKING 2026-08-14: /public-meetings/ renamed to
-      # /public-meetings-hearings/ (next public meeting date visible; the
-      # full-year schedule is a linked PDF - needs PDF extraction).
+      # VERIFIED WORKING 2026-08-14 (evening audit): the page's search forms are GET
+      # behind a ufprt token - pa_umbraco fetches the token then pulls the
+      # complete meeting schedule (18 meetings into Jun 2027) and the ALJ
+      # hearing calendar. No PDF needed after all.
       - url: https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
-        strategy: auto
-      - url: https://www.puc.pa.gov/about-the-puc/press-releases/
-        strategy: auto
+        strategy: pa_umbraco
     notes: >-
       Columbia Gas of Pennsylvania (NI). PA's 9-month suspension period and the DSIC
       surcharge quarterly filings are both worth carrying. Public Meetings are where
@@ -799,13 +829,14 @@ commissions:
     home: https://ripuc.ri.gov
     docket_search: https://ripuc.ri.gov/eventsactions/docket.html
     sources:
-      # VERIFIED WORKING 2026-08-14: /events plus the public-hearings list
-      # (dated hearings visible; events.xml is an empty feed - skipped).
+      # VERIFIED WORKING 2026-08-14 (evening audit): the RI SOS Open Meetings portal
+      # RSS lists every noticed PUC meeting (the tool had 1 of 3 upcoming).
+      - url: "https://opengov.sos.ri.gov/RSSFeed/Rss?feedType=1&entityID=0&filter1=&filter2=&Keywords=&FromDate=08/14/2026&ToDate=12/31/2027&RefineSearch=&PublicBodies=Public+Utilities+Commission"
+        strategy: rss
       - url: https://ripuc.ri.gov/events
         strategy: auto
       - url: https://ripuc.ri.gov/events-and-actions/public-hearings
         strategy: auto
-
   - code: SC
     name: South Carolina Public Service Commission
     state: SC
@@ -815,17 +846,16 @@ commissions:
     home: https://psc.sc.gov
     docket_search: https://dms.psc.sc.gov/Web/Dockets
     sources:
-      # VERIFIED WORKING 2026-08-14
-      - url: https://psc.sc.gov/about-us/scheduled-commission-meetings
+      # VERIFIED WORKING 2026-08-14 (evening audit): the DMS calendar server-renders
+      # 34 dated hearings with dockets (Dominion/NextEra status conference,
+      # Piedmont rate hearing) the old pages never showed. Multi-date rows
+      # ("August 6, 13, 20") now emit every date. Two old URLs 404ed.
+      - url: https://dms.psc.sc.gov/Web/Calendar
         strategy: auto
-      # VERIFIED WORKING 2026-08-14
-      - url: https://psc.sc.gov/about-us-0/livestream-schedule
+      - url: https://dms.psc.sc.gov/Web/Agendas
         strategy: auto
-      - url: https://psc.sc.gov/events
+      - url: https://psc.sc.gov/
         strategy: auto
-      - url: https://psc.sc.gov/commission-meetings-and-hearings
-        strategy: auto
-
   - code: SD
     name: South Dakota Public Utilities Commission
     state: SD
@@ -857,12 +887,16 @@ commissions:
     home: https://www.tn.gov/tpuc.html
     docket_search: https://apps.tn.gov/tpuc-dms/
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): three conference-meetings pages
+      # carry dated notices the calendar page lacks; the Jun-Dec conference
+      # schedule PDF remains known PDF work. Old calendar URL 404.
       - url: https://www.tn.gov/tpuc/agency/calendar-of-upcoming-events.html
         strategy: auto
-      - url: https://www.tn.gov/tpuc/tennessee-public-utility-commission-calendar.html
+      - url: https://www.tn.gov/tpuc/conference-meetings/tra-conference-agendas.html
         strategy: auto
-      - url: https://www.tn.gov/tpuc/news.html
+      - url: https://www.tn.gov/tpuc/conference-meetings/other-public-meetings.html
+        strategy: auto
+      - url: https://www.tn.gov/tpuc/conference-meetings/commissioner-meetings.html
         strategy: auto
     notes: Atmos Tennessee (ATO), Chattanooga Gas (SO), Appalachian Power's TN footprint (AEP). Tennessee uses an Annual Rate Mechanism for gas LDCs.
 
@@ -910,16 +944,17 @@ commissions:
     home: https://www.rrc.texas.gov
     docket_search: https://www.rrc.texas.gov/hearings/
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): the Hearings Division
+      # publishes an Outlook calendar; its /owa/calendar/ ICS serves 465
+      # events (75 future) with dockets, times and hearing rooms. The
+      # /calendar/published/ URL form 417s - must use /owa/calendar/. Two
+      # old open-meetings URLs 404ed.
+      - url: "https://outlook.office365.com/owa/calendar/12df60392a5b4b46896cb5140c9bd191@rrc.texas.gov/811655264c4c474e8f9a144c8d0c56172702639553116114065/calendar.ics"
+        strategy: ics
       - url: https://www.rrc.texas.gov/general-counsel/open-meetings/
+        strategy: auto
         label: RRC open meeting (conference)
-        strategy: auto
-      # VERIFIED WORKING 2026-08-14
       - url: https://www.rrc.texas.gov/hearings/hearings-calendar/
-        strategy: auto
-      - url: https://www.rrc.texas.gov/about-us/commissioners/open-meetings/
-        strategy: auto
-      - url: https://www.rrc.texas.gov/hearings/hearings-schedule/
         strategy: auto
     notes: >-
       Gas utility rate regulation in Texas sits at the RRC, not the PUCT. This is where
@@ -936,12 +971,13 @@ commissions:
     home: https://psc.utah.gov
     docket_search: https://psc.utah.gov/dockets/
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): the PSC's public Google Calendar
+      # (17 future events, dockets in titles, CANCELED flagged) plus the PMN
+      # sitemap - its YYYY/MM/DD dates are now parseable. /events/ 404ed.
+      - url: "https://calendar.google.com/calendar/ical/utah.gov_t5o5rhseg6ce20bke58ok6bmd8%40group.calendar.google.com/public/basic.ics"
+        strategy: ics
       - url: https://www.utah.gov/pmn/sitemap/publicbody/939.html
         strategy: auto
-      - url: https://psc.utah.gov/events/
-        strategy: auto
-
   - code: VT
     name: Vermont Public Utility Commission
     state: VT
@@ -951,15 +987,14 @@ commissions:
     home: https://puc.vermont.gov
     docket_search: https://epuc.vermont.gov/
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): /calendar/month server-renders all
+      # event types (evidentiary hearings, scheduling conferences) that the
+      # taxonomy RSS lacks; RSS titles carry rate-effective dates, not
+      # hearing dates - calendar wins. Old hearings page 404.
+      - url: https://puc.vermont.gov/calendar/month
+        strategy: auto
       - url: https://puc.vermont.gov/event-types/public-hearing
         strategy: auto
-      # VERIFIED WORKING 2026-08-14
-      - url: https://puc.vermont.gov/
-        strategy: auto
-      - url: https://puc.vermont.gov/public-participation/hearings-and-public-meetings
-        strategy: auto
-
   - code: VA
     name: Virginia State Corporation Commission
     state: VA
@@ -994,17 +1029,17 @@ commissions:
     home: https://www.utc.wa.gov
     docket_search: https://www.utc.wa.gov/casedocket
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): /documents-and-proceedings/events
+      # embeds the complete FullCalendar dataset in drupal-settings-json
+      # (1,300+ events: GRC workshops, testimony deadlines, settlement
+      # conferences) while rendering zero rows - drupal_settings reads it.
+      # Old /events and /about-us/open-meetings 404.
+      - url: https://www.utc.wa.gov/documents-and-proceedings/events
+        strategy: auto
+      - url: https://www.utc.wa.gov/documents-and-proceedings/open-meetings
+        strategy: auto
       - url: https://www.utc.wa.gov/documents-and-proceedings/hearings
         strategy: auto
-      # VERIFIED WORKING 2026-08-14
-      - url: https://www.utc.wa.gov/documents-and-proceedings/open-meetings/all-open-meetings
-        strategy: auto
-      - url: https://www.utc.wa.gov/events
-        strategy: auto
-      - url: https://www.utc.wa.gov/about-us/open-meetings
-        strategy: auto
-
   - code: WV
     name: West Virginia Public Service Commission
     state: WV
@@ -1049,14 +1084,16 @@ commissions:
     home: https://psc.wyo.gov
     docket_search: https://dms.wyo.gov/external/publicusers.aspx
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-14 (evening audit): /home/public-notices carries docket
+      # hearing datetimes in prose ("commence on Tuesday, August 25, 2026
+      # at 9:00 a.m." - RMP IRP, Cheyenne Light/BKH TCAM). The agendas page
+      # dates now parse correctly (month-year bug fixed); its monthly agenda
+      # PDFs are known PDF work. Two old URLs 404.
+      - url: https://psc.wyo.gov/home/public-notices
+        strategy: auto
       - url: https://psc.wyo.gov/calendar/agendas-and-minutes
+        strategy: auto
         label: Open meeting (agenda/minutes posted)
-        strategy: auto
-      - url: https://psc.wyo.gov/hearings-and-events
-        strategy: auto
-      - url: https://psc.wyo.gov/home/hearing-calendar
-        strategy: auto
     notes: Black Hills Wyoming Gas + Cheyenne Light Fuel & Power (BKH).
 
   # ------------------------------------------------------- MUNICIPAL / SPECIAL

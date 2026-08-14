@@ -10,20 +10,309 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+SUMMARY:[MA] 26-50 - Boston Gas Company d/b/a National Grid - Rates
+DTSTART;TZID=America/New_York:20260716T100000
+DTEND;TZID=America/New_York:20260716T170000
+DTSTAMP:20260814T225229Z
+UID:4fec219239eafeec23a5@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/84301612860 or Dial 1
+  301 715 8592 Webinar ID: 843 0161 2860
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-50 - Boston Gas Company d/b/a National Grid - Rates
+DTSTART;TZID=America/New_York:20260717T100000
+DTEND;TZID=America/New_York:20260717T170000
+DTSTAMP:20260814T225229Z
+UID:fea4238742b546d71a83@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/84301612860 or Dial 1
+  301 715 8592 Webinar ID: 843 0161 2860
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-50 - Boston Gas Company d/b/a National Grid - Rates
+DTSTART;TZID=America/New_York:20260722T100000
+DTEND;TZID=America/New_York:20260722T170000
+DTSTAMP:20260814T225229Z
+UID:9cfc3b81f2ce0ce79650@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/84301612860 or Dial 1
+  301 715 8592 Webinar ID: 843 0161 2860
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-50 - Boston Gas Company d/b/a National Grid - Rates
+DTSTART;TZID=America/New_York:20260723T100000
+DTEND;TZID=America/New_York:20260723T170000
+DTSTAMP:20260814T225229Z
+UID:3c544da49b6a17245bbb@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/84301612860 or Dial 1
+  301 715 8592 Webinar ID: 843 0161 2860
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-50 - Boston Gas Company d/b/a National Grid - Rates
+DTSTART;TZID=America/New_York:20260724T100000
+DTEND;TZID=America/New_York:20260724T170000
+DTSTAMP:20260814T225229Z
+UID:d8ab256c4e078609de9b@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/84301612860 or Dial 1
+  301 715 8592 Webinar ID: 843 0161 2860
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-50 - Boston Gas Company d/b/a National Grid - Rates
+DTSTART;TZID=America/New_York:20260727T100000
+DTEND;TZID=America/New_York:20260727T170000
+DTSTAMP:20260814T225229Z
+UID:0a50f8c97718298ef0d3@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/84301612860 or Dial 1
+  301 715 8592 Webinar ID: 843 0161 2860
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-50 - Boston Gas Company d/b/a National Grid - Rates
+DTSTART;TZID=America/New_York:20260728T100000
+DTEND;TZID=America/New_York:20260728T170000
+DTSTAMP:20260814T225229Z
+UID:6e165d59f1f49555f7e5@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/84301612860 or Dial 1
+  301 715 8592 Webinar ID: 843 0161 2860
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] efsb25-03 - NSTAR Electric Company d/b/a Eversource Energy - 
+ Siting/DPU
+DTSTART;TZID=America/New_York:20260729T090000
+DTEND;TZID=America/New_York:20260729T130000
+DTSTAMP:20260814T225229Z
+UID:63fffc2f928d65bc02e7@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:DPU-SS-3W-HR-3104 (DPU)
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-50 - Boston Gas Company d/b/a National Grid - Rates
+DTSTART;TZID=America/New_York:20260729T100000
+DTEND;TZID=America/New_York:20260729T170000
+DTSTAMP:20260814T225229Z
+UID:9d92dc420b1959ac8ffd@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/84301612860 or Dial 1
+  301 715 8592 Webinar ID: 843 0161 2860
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 25-20 - Local Distribution Companies - Investigation
+DTSTART;TZID=America/New_York:20260730T100000
+DTEND;TZID=America/New_York:20260730T170000
+DTSTAMP:20260814T225229Z
+UID:19845f1f58f995d5f497@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/89186368789 or Dial 1
+  305-224-1968 Webinar ID: 891 8636 8789
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-GC-18 - The Berkshire Gas Company - Contract
+DTSTART;TZID=America/New_York:20260804T140000
+DTEND;TZID=America/New_York:20260804T150000
+DTSTAMP:20260814T225229Z
+UID:3975771a4cb2ed3ac090@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\nDocket: 26-GC-18\n\nSource: https://eeaonline.eea.state.ma.u
+ s/dpu/fileroom/#/hearings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/87121108426 or Dial 1
+  309 205 3325 Webinar ID: 871 2110 8426
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-GC-17 - Boston Gas Company d/b/a National Grid - Contract
+DTSTART;TZID=America/New_York:20260804T140000
+DTEND;TZID=America/New_York:20260804T150000
+DTSTAMP:20260814T225229Z
+UID:c5893eaab68fc0be7c09@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\nDocket: 26-GC-17\n\nSource: https://eeaonline.eea.state.ma.u
+ s/dpu/fileroom/#/hearings
+LOCATION:Public Zoom link: https://us06web.zoom.us/j/87121108426 or Dial 1
+  309 205 3325 Webinar ID: 871 2110 8426
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-89 - Fitchburg Gas and Electric Light Company d/b/a Unitil
+  - Contract
+DTSTART;TZID=America/New_York:20260810T140000
+DTEND;TZID=America/New_York:20260810T150000
+DTSTAMP:20260814T225229Z
+UID:13a1482ecf452e3d4267@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/86374805662 or Dial 1
+  646 558 8656 Webinar ID: 863 7480 5662
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-88 - Massachusetts Electric Company and Nantucket Electric
+  Company\, each d/b/a National Grid - Contract
+DTSTART;TZID=America/New_York:20260810T140000
+DTEND;TZID=America/New_York:20260810T150000
+DTSTAMP:20260814T225229Z
+UID:3fef5121cdbf918c38b1@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/86374805662 or Dial 1
+  646 558 8656 Webinar ID: 863 7480 5662
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-87 - NSTAR Electric Company d/b/a Eversource Energy - Cont
+ ract
+DTSTART;TZID=America/New_York:20260810T140000
+DTEND;TZID=America/New_York:20260810T150000
+DTSTAMP:20260814T225229Z
+UID:0fcef3f5e7762fadb18e@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/86374805662 or Dial 1
+  646 558 8656 Webinar ID: 863 7480 5662
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MA] Notice of Hearings: DPU Transportation Oversight Division
 DTSTART;TZID=America/New_York:20260820T000000
 DTEND;TZID=America/New_York:20260820T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:87c3f9d873e7e00868b3@psc-calendar
 CATEGORIES:MA,Other
 DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
- nType: Other\n\nShowing 1-1 of 1 results Aug 20 Notice of Hearings: DPU Tr
- ansportation Oversight Division One South Station\, 3rd floor\, Boston\, M
- A 02110 Thursday\, August 20\, 2026 9 a.m. - 10 a.m.\n\nSource: https://ww
- w.mass.gov/event/notice-of-hearings-dpu-transportation-oversight-division-
- 08-20-2026
+ nType: Other\n\nAug 20 Notice of Hearings: DPU Transportation Oversight Di
+ vision One South Station\, 3rd floor\, Boston\, MA 02110 Thursday\, August
+  20\, 2026 9 a.m. - 10 a.m. See all events for the Department of Public Ut
+ ilities\n\nSource: https://www.mass.gov/event/notice-of-hearings-dpu-trans
+ portation-oversight-division-08-20-2026
 PRIORITY:9
 URL:https://www.mass.gov/event/notice-of-hearings-dpu-transportation-overs
  ight-division-08-20-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-69 - Town of Bernardston - Municipal Aggregation
+DTSTART;TZID=America/New_York:20260824T140000
+DTEND;TZID=America/New_York:20260824T150000
+DTSTAMP:20260814T225229Z
+UID:33c51069e8412961d427@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/89837609385 or Dial 1
+  646 558 8656 Webinar ID: 898 3760 9385
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-GC-19 - Boston Gas Company d/b/a National Grid - Contract
+DTSTART;TZID=America/New_York:20260904T140000
+DTEND;TZID=America/New_York:20260904T150000
+DTSTAMP:20260814T225229Z
+UID:d79dbf7d06e332a8b5d9@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\nDocket: 26-GC-19\n\nSource: https://eeaonline.eea.state.ma.u
+ s/dpu/fileroom/#/hearings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/87195480396 or Dial 1
+  646 558 8656 Webinar ID: 871 9548 0396
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-AD-01 - DPU - Adjudicatory
+DTSTART;TZID=America/New_York:20260911T110000
+DTEND;TZID=America/New_York:20260911T120000
+DTSTAMP:20260814T225229Z
+UID:416ab7b39a0b4ff96d03@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\nDocket: 26-AD-01\n\nSource: https://eeaonline.eea.state.ma.u
+ s/dpu/fileroom/#/hearings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/83426706241 or Dial 1
+  646 931 3860 Webinar ID: 834 2670 6241
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MA] 26-94 - NSTAR Gas Company d/b/a Eversource Energy - Forecast 
+ And Supply Plan
+DTSTART;TZID=America/New_York:20261006T140000
+DTEND;TZID=America/New_York:20261006T150000
+DTSTAMP:20260814T225229Z
+UID:9e998ff03afa5a24d827@psc-calendar
+CATEGORIES:MA,Other
+DESCRIPTION:Commission: Massachusetts Department of Public Utilities (MA)\
+ nType: Other\n\nSource: https://eeaonline.eea.state.ma.us/dpu/fileroom/#/h
+ earings
+LOCATION:Public Zoom Link: https://us06web.zoom.us/j/83610641558 or Dial 1
+  646 558 8656 Webinar ID: 836 1064 1558
+PRIORITY:9
+URL:https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings
 END:VEVENT
 END:VCALENDAR

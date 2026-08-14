@@ -91,31 +91,47 @@ telling you not to come. JavaScript rendering is a site happy to serve you but n
 in a form a simple fetch can read. They need different responses — the first is a
 policy call for the user, the second is an engineering fix.
 
-## Current status (live full run, 2026-08-14 afternoon)
+## Current status (post-audit full run, 2026-08-14 evening)
 
-- **41 of 54 commissions returned dated events end-to-end; 537 real events.**
-  (The morning's first-ever live run scored 34/54 and 3,013 events, of which
-  2,505 were junk from Indiana's statewide community calendar — since fixed.)
-- **FERC is covered via the Federal Register API** (`federal_register`
-  strategy): Sunshine Act notices carry the meeting datetime. Notices post ~2
-  days ahead, so only the next Open Commission Meeting is ever visible.
-- **The default User-Agent is now the crawler compat form**
-  (`Mozilla/5.0 (compatible; psc-calendar/1.0; ...)`) — still names the tool
-  and contact, but passes the OH/CO/VT WAFs that reject non-Mozilla UAs.
+- **42 of 54 commissions returned dated events end-to-end; 1,253 real events**
+  (afternoon baseline was 41/54 and 537). A six-agent completeness audit of
+  every delivering state found and fixed ~15 silent under-delivery cases.
+- **New strategies added by the audit:** `telerik` (TX RadScheduler JSON),
+  `fullcalendar` (MD admin-ajax), `federal_register` (FERC), `la_portal`
+  (LA Kendo POST), `ma_fileroom` (MA DPU POST API), `legistar` (MN),
+  `mo_modals` (MO day modals), `or_hearings` (OR week ranges), `pa_umbraco`
+  (PA token-gated GET search), `epoch_links` (GA ?date= anchors),
+  `drupal_settings` (WA embedded FullCalendar blob), `dated_links` (ID
+  YYYYMMDD filenames), plus ICS swaps for IA/UT/CO (Google Calendars) and
+  TX-RRC (Outlook /owa/calendar ICS).
+- **Parser rules learned the hard way (do not regress):** struck-through
+  (`<s>/<del>`) content is dropped before parsing (AZ publishes reschedules
+  that way); "scheduled for <date>" beats a notice's FILED date (DE);
+  a month name followed by a 4-digit year is NOT month+day (WY/MS phantom
+  events); RSS yearless dates default to the entry's pubDate year (NOLA
+  archives); Time columns join their date column (ME/NC); multi-date cells
+  emit every date (SC "August 6, 13, 20"; OK paired columns); cancelled
+  rows keep a [CANCELED] prefix.
+- **Known partial-visibility caveats (state these when asked):** MN public
+  hearings sit behind a Radware CAPTCHA (agenda meetings only until a
+  browser strategy); TX hearings appear only ~5 weeks out (Telerik window);
+  NV's docket calendar and NE/VT month grids parse partially; WI works from
+  a residential IP but 403s GitHub's cloud runners, so the daily run shows
+  WI red even though local probes succeed; CA's hearing-level Daily
+  Calendar is a .docx (unimplemented); AL commission-meeting notices and
+  monthly MS utility dockets are PDF-only.
 - **Still failing, with the specific reason:**
 
 | Code | Blocker | What would fix it |
 |---|---|---|
-| OH | Server-side pages carry only news teasers; hearing schedule is JS-rendered | Headless browser |
-| CT | `portal.ct.gov/pura/events` gone; official dpuc calendar reachable again but JS-only | Headless browser |
-| FL KY | JS-rendered (SPA) calendar pages | Headless browser |
-| VA | Site redesign 404'd every calendar page; schedules live in the JS DocketSearch app | Headless browser |
-| MT | Publishes only `Current-Agenda.pdf` | PDF extraction |
-| MI | 403s any UA naming a tool; only full browser impersonation passes — declined as dishonest | Headless browser (a real browser identifying as itself), or contact commission |
-| WV NH AK | 403 to all automated clients incl. browser UAs | Contact the commission; no technical workaround |
-| AR | `psc.arkansas.gov` DNS does not resolve; `apscservices.info` also dead | Their outage — retry later |
-| KS | Broken TLS certificate chain on `kcc.ks.gov` | Cert workaround or their fix |
-| UT | Public-notice page serves inconsistent content run-to-run | Investigate portal query params |
+| OH FL KY CT VA | JS-rendered calendars | Headless browser |
+| MT | PDF-only agenda | PDF extraction |
+| MI | 403s any UA naming a tool | Headless browser or contact |
+| WV NH AK | 403 to all automated clients | Contact the commission |
+| AR | DNS dead (their outage) | Retry daily (automatic) |
+| KS | Broken TLS chain | Cert workaround or their fix |
+| WI (cloud only) | 403s data-center IPs | Browser strategy, proxy, or contact |
+
 
 ## robots.txt
 

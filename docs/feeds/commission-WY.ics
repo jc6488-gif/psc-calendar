@@ -9,135 +9,129 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[WY] Open meeting (agenda/minutes posted)
-DTSTART;TZID=America/Denver:20260720T000000
-DTEND;TZID=America/Denver:20260720T020000
-DTSTAMP:20260814T222047Z
-UID:6072e5b6f27ac1dc4d63@psc-calendar
-CATEGORIES:WY,Decision / Order
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
- sion / Order\n\nJuly 2026 Agendas and Attachments\n\nSource: https://drive
- .google.com/file/d/1ihzf5HxMXgAWYPiELedHcaKRePQoY7_U/view?usp=drive_link
-PRIORITY:5
-URL:https://drive.google.com/file/d/1ihzf5HxMXgAWYPiELedHcaKRePQoY7_U/view
- ?usp=drive_link
+SUMMARY:[WY] 30010-242-GR-26 (Record No. 18098) - Pursuant to the Wyoming 
+ Administrative Procedure Act and the Wyoming Public Service Commission’s
+  (Commission) Rules\, notice is hereby given that a public comment hearing
+  is scheduled regarding Enbridge Gas Wy
+DTSTART;TZID=America/Denver:20260717T000000
+DTEND;TZID=America/Denver:20260717T020000
+DTSTAMP:20260814T225229Z
+UID:deab1c3300dd03f82b9b@psc-calendar
+CATEGORIES:WY,Public Comment Hearing
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Publ
+ ic Comment Hearing\n\nJuly 17\, 2026 – 30010-242-GR-26 (Record No. 18098
+ ) - Pursuant to the Wyoming Administrative Procedure Act and the Wyoming P
+ ublic Service Commission’s (Commission) Rules\, notice is hereby given t
+ hat a public comment hearing is scheduled regarding Enbridge Gas Wyoming
+ ’s (Enbridge or the Company) Application for approval of a general retai
+ l electric rate increase of $2.49 million per annum.\n\nSource: https://dr
+ ive.google.com/file/d/1LEm-AdGAQGFTdF4gaxQoidbG8bGjUBOQ/view
+PRIORITY:9
+URL:https://drive.google.com/file/d/1LEm-AdGAQGFTdF4gaxQoidbG8bGjUBOQ/view
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] Open meeting (agenda/minutes posted)
-DTSTART;TZID=America/Denver:20260820T000000
-DTEND;TZID=America/Denver:20260820T020000
-DTSTAMP:20260814T222047Z
-UID:e8b1a3df38817c4480cd@psc-calendar
-CATEGORIES:WY,Decision / Order
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
- sion / Order\n\nAugust 2026 Agendas and Attachments\n\nSource: https://dri
- ve.google.com/file/d/1RCGKfQ4lzAohdBDOmisceqztxZL-1Kiz/view?usp=drive_link
-PRIORITY:5
-URL:https://drive.google.com/file/d/1RCGKfQ4lzAohdBDOmisceqztxZL-1Kiz/view
- ?usp=drive_link
+SUMMARY:[WY] 20000-716-EA-26 (Record No. 18211) - Pursuant to the Wyoming 
+ Administrative Procedure Act and the Wyoming Public Service Commission’s
+  (Commission) Rules and Regulations\, notice is hereby given of Rocky Moun
+ tain Power’s (RMP or the Company) Appli
+DTSTART;TZID=America/Denver:20260721T000000
+DTEND;TZID=America/Denver:20260721T020000
+DTSTAMP:20260814T225229Z
+UID:568f841b04c9852eadf6@psc-calendar
+CATEGORIES:WY,Other
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
+ r\n\nJuly 21\, 2026 – 20000-716-EA-26 (Record No. 18211) - Pursuant to t
+ he Wyoming Administrative Procedure Act and the Wyoming Public Service Com
+ mission’s (Commission) Rules and Regulations\, notice is hereby given of
+  Rocky Mountain Power’s (RMP or the Company) Application for Commission 
+ review and approval of its 2026-2028 Wildfire Mitigation Plan (WMP).\n\nSo
+ urce: https://drive.google.com/file/d/1yNLzWHbvkGnD8WnEozs70JG2_A5wS9hE/vi
+ ew
+PRIORITY:9
+URL:https://drive.google.com/file/d/1yNLzWHbvkGnD8WnEozs70JG2_A5wS9hE/view
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] Open meeting (agenda/minutes posted)
-DTSTART;TZID=America/Denver:20260920T000000
-DTEND;TZID=America/Denver:20260920T020000
-DTSTAMP:20260814T222047Z
-UID:2e4cd8091e077f56f8cc@psc-calendar
-CATEGORIES:WY,Decision / Order
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
- sion / Order\n\nSeptember 2025 Agendas and Attachments\n\nSource: https://
- drive.google.com/file/d/1M_KiCi9TEmHTFmT8AsL-vXh_VGVm1z_3/view?usp=drive_l
- ink
-PRIORITY:5
-URL:https://drive.google.com/file/d/1M_KiCi9TEmHTFmT8AsL-vXh_VGVm1z_3/view
- ?usp=drive_link
+SUMMARY:[WY] 10003-57-CT-26 (Record No. 18180) – Pursuant to the Wyoming
+  Administrative Procedure Act and the Wyoming Public Service Commission’
+ s (Commission) Rules and Regulations\, notice is hereby given of the Appli
+ cation of Garland Light and Power Company
+DTSTART;TZID=America/Denver:20260805T000000
+DTEND;TZID=America/Denver:20260805T020000
+DTSTAMP:20260814T225229Z
+UID:3ab01d84f467f5b63c11@psc-calendar
+CATEGORIES:WY,Other
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
+ r\nDocket: 57-CT-26\n\nAugust 5\, 2026 – 10003-57-CT-26 (Record No. 1818
+ 0) – Pursuant to the Wyoming Administrative Procedure Act and the Wyomin
+ g Public Service Commission’s (Commission) Rules and Regulations\, notic
+ e is hereby given of the Application of Garland Light and Power Company (G
+ arland)\, for authority to revise its rules and regulations regarding the 
+ pricing of security lights.\n\nSource: https://drive.google.com/file/d/1fS
+ jh3Znes5bNzZ9edK4tz6Yv4dFCOZKz/view
+PRIORITY:9
+URL:https://drive.google.com/file/d/1fSjh3Znes5bNzZ9edK4tz6Yv4dFCOZKz/view
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] Open meeting (agenda/minutes posted)
-DTSTART;TZID=America/Denver:20261020T000000
-DTEND;TZID=America/Denver:20261020T020000
-DTSTAMP:20260814T222047Z
-UID:5775ec97f0d6cbffe47b@psc-calendar
-CATEGORIES:WY,Decision / Order
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
- sion / Order\n\nOctober 2025 Agendas and Attachments\n\nSource: https://dr
- ive.google.com/file/d/1nLP9DEFC2P9Xpatb2h7XhVThLpxnBq-p/view?usp=drive_lin
- k
-PRIORITY:5
-URL:https://drive.google.com/file/d/1nLP9DEFC2P9Xpatb2h7XhVThLpxnBq-p/view
- ?usp=drive_link
+SUMMARY:[WY] 10015-106-CT-26 (Record No. 18187) - The Wyoming Public Servi
+ ce Commission (Commission) hereby gives notice of the Application of High 
+ West Energy\, Inc. (High West or the Cooperative) for authority to revise 
+ its standard line extension policy in
+DTSTART;TZID=America/Denver:20260805T000000
+DTEND;TZID=America/Denver:20260805T020000
+DTSTAMP:20260814T225229Z
+UID:6434980bcdcd1a9285be@psc-calendar
+CATEGORIES:WY,Other
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
+ r\n\nAugust 5\, 2026 – 10015-106-CT-26 (Record No. 18187) - The Wyoming 
+ Public Service Commission (Commission) hereby gives notice of the Applicat
+ ion of High West Energy\, Inc. (High West or the Cooperative) for authorit
+ y to revise its standard line extension policy in Wyoming Tariff No. 5.\n\
+ nSource: https://drive.google.com/file/d/1ImAwvwItxWMwWlmjD9yAEnvpZGQlyzSU
+ /view
+PRIORITY:9
+URL:https://drive.google.com/file/d/1ImAwvwItxWMwWlmjD9yAEnvpZGQlyzSU/view
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] Open meeting (agenda/minutes posted)
-DTSTART;TZID=America/Denver:20261120T000000
-DTEND;TZID=America/Denver:20261120T020000
-DTSTAMP:20260814T222047Z
-UID:9bfa820e228dbb4caf0c@psc-calendar
-CATEGORIES:WY,Decision / Order
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
- sion / Order\n\nNovember 2025 Agendas and Attachments\n\nSource: https://d
- rive.google.com/file/d/1vgYXFhBNg65L1cy9cBSuz35c0iw-Dhqe/view?usp=drive_li
- nk
-PRIORITY:5
-URL:https://drive.google.com/file/d/1vgYXFhBNg65L1cy9cBSuz35c0iw-Dhqe/view
- ?usp=drive_link
+SUMMARY:[WY] mence on
+DTSTART;TZID=America/Denver:20260806T133000
+DTEND;TZID=America/Denver:20260806T153000
+DTSTAMP:20260814T225229Z
+UID:fee3b9ba58e724734ebe@psc-calendar
+CATEGORIES:WY,Other
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
+ r\n\nmence on Thursday\, August 6\, 2026\, at 1:30 p.m.\n\nSource: https:/
+ /psc.wyo.gov/home/public-notices
+PRIORITY:9
+URL:https://psc.wyo.gov/home/public-notices
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] Open meeting (agenda/minutes posted)
-DTSTART;TZID=America/Denver:20261220T000000
-DTEND;TZID=America/Denver:20261220T020000
-DTSTAMP:20260814T222047Z
-UID:e592dbab09373e3b4959@psc-calendar
-CATEGORIES:WY,Decision / Order
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
- sion / Order\n\nDecember 2025 Agendas and Attachments\n\nSource: https://d
- rive.google.com/file/d/1ujFDHj9IDd7prHxx95H16AklOiWNiB0U/view?usp=drive_li
- nk
-PRIORITY:5
-URL:https://drive.google.com/file/d/1ujFDHj9IDd7prHxx95H16AklOiWNiB0U/view
- ?usp=drive_link
+SUMMARY:[WY] The public comment hearing is set to commence on Tuesday\, Au
+ gust 11\, 2026\, at 4:30 p.m.\, in the Weston County Senior Citizen Center
+  located at 627 Pine St.\, Newcastle\, Wyoming
+DTSTART;TZID=America/Denver:20260811T163000
+DTEND;TZID=America/Denver:20260811T183000
+DTSTAMP:20260814T225229Z
+UID:45eb752a407dafd729e3@psc-calendar
+CATEGORIES:WY,Public Comment Hearing
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Publ
+ ic Comment Hearing\n\nSource: https://drive.google.com/file/d/1OUPtOWwRtTI
+ 7SjcP-waqAHzg7T9aMq6Y/view
+PRIORITY:9
+URL:https://drive.google.com/file/d/1OUPtOWwRtTI7SjcP-waqAHzg7T9aMq6Y/view
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WY] Open meeting (agenda/minutes posted)
-DTSTART;TZID=America/Denver:20270120T000000
-DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T222047Z
-UID:789fd236074cc2803f08@psc-calendar
-CATEGORIES:WY,Decision / Order
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
- sion / Order\n\nJanuary 202 5 Agendas and Attachments\n\nSource: https://d
- rive.google.com/file/d/1A41pg8eSLrou8CBrDhv8LRAV_EnWXxqc/view?usp=drive_li
- nk
-PRIORITY:5
-URL:https://drive.google.com/file/d/1A41pg8eSLrou8CBrDhv8LRAV_EnWXxqc/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] Open meeting (agenda/minutes posted)
-DTSTART;TZID=America/Denver:20270220T000000
-DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T222047Z
-UID:8ab89b0b6ec55ccceae7@psc-calendar
-CATEGORIES:WY,Decision / Order
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
- sion / Order\n\nFebruary 2026 Agendas and Attachments\n\nSource: https://d
- rive.google.com/file/d/1lLG3HgTpfJb87yNgeemuHVtNxZzSUA4H/view?usp=drive_li
- nk
-PRIORITY:5
-URL:https://drive.google.com/file/d/1lLG3HgTpfJb87yNgeemuHVtNxZzSUA4H/view
- ?usp=drive_link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WY] Open meeting (agenda/minutes posted)
-DTSTART;TZID=America/Denver:20270320T000000
-DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T222047Z
-UID:31a126410b2dfb9f1704@psc-calendar
-CATEGORIES:WY,Decision / Order
-DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
- sion / Order\n\nMarch 2026 Agendas and Attachments\n\nSource: https://driv
- e.google.com/file/d/1qxlrQYppgVGmN-CtK2MskpG8SPr17wxr/view?usp=drive_link
-PRIORITY:5
-URL:https://drive.google.com/file/d/1qxlrQYppgVGmN-CtK2MskpG8SPr17wxr/view
- ?usp=drive_link
+SUMMARY:[WY] The public hearing is set to commence on Tuesday\, August 25\
+ , 2026\, at 9:00 a.m.\, in the Commission’s hearing room located at 2515
+  Warren Avenue\, Suite 300\, in Cheyenne\, Wyoming
+DTSTART;TZID=America/Denver:20260825T090000
+DTEND;TZID=America/Denver:20260825T110000
+DTSTAMP:20260814T225229Z
+UID:79d284a27dedb014706c@psc-calendar
+CATEGORIES:WY,Public Comment Hearing
+DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Publ
+ ic Comment Hearing\n\nSource: https://drive.google.com/file/d/1F2gApUok4w2
+ wdvjAHfQiP2rlU9Azxz6H/view
+PRIORITY:9
+URL:https://drive.google.com/file/d/1F2gApUok4w2wdvjAHfQiP2rlU9Azxz6H/view
 END:VEVENT
 END:VCALENDAR

@@ -9,70 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[NV] Click on an event to view details of that event and to listen
-  to the proceeding LIVE. On the details screen click the "Listen Live" lin
- k at the top of the page. The "Listen Live" link is only available on the 
- date and time of that specific proce
-DTSTART;TZID=America/Los_Angeles:20260820T000000
-DTEND;TZID=America/Los_Angeles:20260820T020000
-DTSTAMP:20260814T222047Z
-UID:22088338671379342fd4@psc-calendar
-CATEGORIES:NV,Other
-DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
- Other\n\n| Return to PUCN home page Commission Calendar Petitions for Leav
- e To Intervene - due in August The Tentative Schedule can be viewed at PUC
- N Document Search Click on an event to view details for the event All even
- ts may be continued\, rescheduled\, or cancelled at the discretion of the 
- Presiding Officer. Please call (775) 684-6101 if you have questions about 
- an event on this calendar. Click on an event to view details of that event
-  and to listen to the proceeding LIVE. On the details screen click the "Li
- sten Live" link at the top of the page. The "Listen Live" link is only ava
- ilable on the date \n\nSource: http://puc.nv.gov
-PRIORITY:9
-URL:http://puc.nv.gov
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NV] 28 10:00AM - Regular Agenda/13-26 - 10:30AM - Continued Prehe
- aring Conference - 26-02034 11:00AM - Prehearing Conference - 26-06023 1:0
- 0PM - Consumer Session - 26-03021
-DTSTART;TZID=America/Los_Angeles:20260820T000000
-DTEND;TZID=America/Los_Angeles:20260820T020000
-DTSTAMP:20260814T222047Z
-UID:13338ac32c0b06175e76@psc-calendar
-CATEGORIES:NV,Procedural Milestone
-DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
- Procedural Milestone\n\nPrevious Month August 2026 Next Month Sun Mon Tue 
- Wed Thu Fri Sat 26 27 10:30AM - Continued Prehearing Conference - 26-04013
-  12:00PM - Due - Answers to Exceptions - 26-01021 1:00PM - Consumer Sessio
- n - 26-02035 28 10:00AM - Regular Agenda/13-26 - 10:30AM - Continued Prehe
- aring Conference - 26-02034 11:00AM - Prehearing Conference - 26-06023 1:0
- 0PM - Consumer Session - 26-03021 29 9:30AM - Continued Prehearing Confere
- nce - 26-02035 5:00PM - Comments Due - 25-07003 5:00PM - Direct Testimony 
- Due - 26-03021 30 9:30AM - Continued Prehearing Conference - 26-03021 10:0
- 0AM - Hearing - 26-04026 31 12:0\n\nSource: https://pucweb1.state.nv.us/pu
- c2/PUCCalendar.aspx
-PRIORITY:5
-URL:https://pucweb1.state.nv.us/puc2/PUCCalendar.aspx
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NV] Previous Month
-DTSTART;TZID=America/Los_Angeles:20260820T000000
-DTEND;TZID=America/Los_Angeles:20260820T020000
-DTSTAMP:20260814T222047Z
-UID:70c608bf25045e0597a5@psc-calendar
-CATEGORIES:NV,Other
-DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
- Other\n\nPrevious Month August 2026 Next Month | Previous Month | August 2
- 026 | Next Month\n\nSource: https://pucweb1.state.nv.us/puc2/PUCCalendar.a
- spx
-PRIORITY:9
-URL:https://pucweb1.state.nv.us/puc2/PUCCalendar.aspx
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NV] Scheduled Commission Utility Agendas
 DTSTART;TZID=America/Los_Angeles:20260825T100000
 DTEND;TZID=America/Los_Angeles:20260825T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:6b5774acbdbc1f9e8fd1@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -92,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/15-26
 DTSTART;TZID=America/Los_Angeles:20260825T100000
 DTEND;TZID=America/Los_Angeles:20260825T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:4befa5f6da7a876884dc@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -110,9 +50,9 @@ URL:https://ecms.nv.gov/puc/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/16-26
-DTSTART;TZID=America/Los_Angeles:20260908T000000
-DTEND;TZID=America/Los_Angeles:20260908T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/Los_Angeles:20260908T100000
+DTEND;TZID=America/Los_Angeles:20260908T120000
+DTSTAMP:20260814T225229Z
 UID:67d01047d81e6b61912c@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -123,9 +63,9 @@ URL:https://pucweb1.state.nv.us/PUC2/AgendaCalendar.aspx?Util=Agenda
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/17-26
-DTSTART;TZID=America/Los_Angeles:20260929T000000
-DTEND;TZID=America/Los_Angeles:20260929T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/Los_Angeles:20260929T100000
+DTEND;TZID=America/Los_Angeles:20260929T120000
+DTSTAMP:20260814T225229Z
 UID:cbc9b4d04fb6b2a2f9fc@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -136,9 +76,9 @@ URL:https://pucweb1.state.nv.us/PUC2/AgendaCalendar.aspx?Util=Agenda
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/18-26
-DTSTART;TZID=America/Los_Angeles:20261013T000000
-DTEND;TZID=America/Los_Angeles:20261013T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/Los_Angeles:20261013T100000
+DTEND;TZID=America/Los_Angeles:20261013T120000
+DTSTAMP:20260814T225229Z
 UID:c600b60e0d1f7ce6a59a@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -150,9 +90,9 @@ URL:https://pucweb1.state.nv.us/PUC2/AgendaCalendar.aspx?Util=Agenda
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/19-26
-DTSTART;TZID=America/Los_Angeles:20261027T000000
-DTEND;TZID=America/Los_Angeles:20261027T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/Los_Angeles:20261027T100000
+DTEND;TZID=America/Los_Angeles:20261027T120000
+DTSTAMP:20260814T225229Z
 UID:bed9588de04949e37d10@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -164,9 +104,9 @@ URL:https://pucweb1.state.nv.us/PUC2/AgendaCalendar.aspx?Util=Agenda
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/20-26
-DTSTART;TZID=America/Los_Angeles:20261110T000000
-DTEND;TZID=America/Los_Angeles:20261110T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/Los_Angeles:20261110T100000
+DTEND;TZID=America/Los_Angeles:20261110T120000
+DTSTAMP:20260814T225229Z
 UID:485223fbe73805a89b9d@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -178,9 +118,9 @@ URL:https://pucweb1.state.nv.us/PUC2/AgendaCalendar.aspx?Util=Agenda
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/21-26
-DTSTART;TZID=America/Los_Angeles:20261124T000000
-DTEND;TZID=America/Los_Angeles:20261124T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/Los_Angeles:20261124T100000
+DTEND;TZID=America/Los_Angeles:20261124T120000
+DTSTAMP:20260814T225229Z
 UID:9343abbc0bb693b5c028@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -192,9 +132,9 @@ URL:https://pucweb1.state.nv.us/PUC2/AgendaCalendar.aspx?Util=Agenda
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/22-26
-DTSTART;TZID=America/Los_Angeles:20261208T000000
-DTEND;TZID=America/Los_Angeles:20261208T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/Los_Angeles:20261208T100000
+DTEND;TZID=America/Los_Angeles:20261208T120000
+DTSTAMP:20260814T225229Z
 UID:a3a0ea621a8ff4a641b2@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 
@@ -205,9 +145,9 @@ URL:https://pucweb1.state.nv.us/PUC2/AgendaCalendar.aspx?Util=Agenda
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NV] Regular Agenda/23-26
-DTSTART;TZID=America/Los_Angeles:20261229T000000
-DTEND;TZID=America/Los_Angeles:20261229T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/Los_Angeles:20261229T100000
+DTEND;TZID=America/Los_Angeles:20261229T120000
+DTSTAMP:20260814T225229Z
 UID:c773d22da4527250691f@psc-calendar
 CATEGORIES:NV,Other
 DESCRIPTION:Commission: Public Utilities Commission of Nevada (NV)\nType: 

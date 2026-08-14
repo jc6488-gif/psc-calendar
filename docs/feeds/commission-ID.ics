@@ -9,55 +9,68 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[ID] Decision Meeting \, Meeting Occurs: $
-DTSTART;TZID=America/Boise:20260818T000000
-DTEND;TZID=America/Boise:20260818T020000
-DTSTAMP:20260814T222047Z
-UID:5a253d9854542c9e9cf1@psc-calendar
+SUMMARY:[ID] 20260723MIN
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+DTSTAMP:20260814T225229Z
+UID:f39fbdce0135498f2bad@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
- r\n\nDecision Meeting \, Meeting Occurs: $ August 18\, 2026\n\nSource: htt
- ps://townhall.idaho.gov/PublicMeeting/8712
+ r\n\nSource: https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/202607
+ 23MIN.pdf
 PRIORITY:9
-URL:https://townhall.idaho.gov/PublicMeeting/8712
+URL:https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/20260723MIN.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[ID] Meeting Occurs: $
-DTSTART;TZID=America/Boise:20260818T000000
-DTEND;TZID=America/Boise:20260818T020000
-DTSTAMP:20260814T222047Z
-UID:36c4c9a372b45b0efd4b@psc-calendar
+SUMMARY:[ID] 20260728MIN
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+DTSTAMP:20260814T225229Z
+UID:5e5e5da838b6fc8930d2@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
- r\n\n\, Meeting Occurs: $ August 18\, 2026\n\nSource: https://townhall.ida
- ho.gov/PublicEntityHome/1138?rows=100
+ r\n\nSource: https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/202607
+ 28MIN.pdf
 PRIORITY:9
-URL:https://townhall.idaho.gov/PublicEntityHome/1138?rows=100
+URL:https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/20260728MIN.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[ID] Rocky Mountain Power Asset Transfer Telephonic Hearing \, Mee
- ting Occurs: $
-DTSTART;TZID=America/Boise:20260825T000000
-DTEND;TZID=America/Boise:20260825T020000
-DTSTAMP:20260814T222047Z
-UID:a94758196ba98ca1ba3a@psc-calendar
+SUMMARY:[ID] 20260804MIN
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+DTSTAMP:20260814T225229Z
+UID:dea2909f28e19b363f32@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
- r\n\nSource: https://townhall.idaho.gov/PublicMeeting/8590
+ r\n\nSource: https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/202608
+ 04MIN.pdf
 PRIORITY:9
-URL:https://townhall.idaho.gov/PublicMeeting/8590
+URL:https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/20260804MIN.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[ID] Meeting Occurs: $
-DTSTART;TZID=America/Boise:20260825T000000
-DTEND;TZID=America/Boise:20260825T020000
-DTSTAMP:20260814T222047Z
-UID:79200705a6d0625d878f@psc-calendar
+SUMMARY:[ID] 20260811AGE
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+DTSTAMP:20260814T225229Z
+UID:84d84f2878bba626a01a@psc-calendar
 CATEGORIES:ID,Other
 DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
- r\n\n\, Meeting Occurs: $ August 25\, 2026\n\nSource: https://townhall.ida
- ho.gov/PublicEntityHome/1138?rows=100
+ r\n\nSource: https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/202608
+ 11AGE.pdf
 PRIORITY:9
-URL:https://townhall.idaho.gov/PublicEntityHome/1138?rows=100
+URL:https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/20260811AGE.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[ID] 20260818AGE
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+DTSTAMP:20260814T225229Z
+UID:9eba86eef3d6c2dae5fe@psc-calendar
+CATEGORIES:ID,Other
+DESCRIPTION:Commission: Idaho Public Utilities Commission (ID)\nType: Othe
+ r\n\nSource: https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/202608
+ 18AGE.pdf
+PRIORITY:9
+URL:https://puc.idaho.gov/Fileroom/PublicFiles/Agenda/2026/20260818AGE.pdf
 END:VEVENT
 END:VCALENDAR

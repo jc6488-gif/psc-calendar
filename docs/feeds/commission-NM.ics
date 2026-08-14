@@ -10,32 +10,314 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[NM] New Mexico Public Regulation Commission Named a 2026 Top Work
- place by the Albuquerque Journal
-DTSTART;TZID=America/Denver:20260729T204452
-DTEND;TZID=America/Denver:20260729T224452
-DTSTAMP:20260814T222047Z
-UID:fff84c35d1a6f942c19f@psc-calendar
-CATEGORIES:NM,Other
+SUMMARY:[NM] State Capitol Building\, Room 309\, Santa Fe
+DTSTART;TZID=America/Denver:20260716T100000
+DTEND;TZID=America/Denver:20260716T120000
+DTSTAMP:20260814T225229Z
+UID:7aac9c10d43725cfea32@psc-calendar
+CATEGORIES:NM,Decision / Order
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
- : Other\n\nThe post New Mexico Public Regulation Commission Named a 2026 T
- op Workplace by the Albuquerque Journal appeared first on NM PRC .\n\nSour
- ce: https://www.prc.nm.gov/2026/07/29/33384/
-PRIORITY:9
-URL:https://www.prc.nm.gov/2026/07/29/33384/
+ : Decision / Order\n\nJul 16 | 10:00 AM | Regular Open Meeting | State Cap
+ itol Building\, Room 309\, Santa Fe\n\nSource: https://www.prc.nm.gov/2026
+ /06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NM] Commission approves sale of New Mexico Gas Company
-DTSTART;TZID=America/Denver:20260730T202214
-DTEND;TZID=America/Denver:20260730T222214
-DTSTAMP:20260814T222047Z
-UID:8302acbf8d0d427674a2@psc-calendar
+SUMMARY:[NM] UNM Student Union Building\, Ballroom C\, 2010 Campus Blvd. N
+ E\, Albuquerque
+DTSTART;TZID=America/Denver:20260728T000000
+DTEND;TZID=America/Denver:20260728T020000
+DTSTAMP:20260814T225229Z
+UID:9249f6939a54a16b0203@psc-calendar
+CATEGORIES:NM,Public Comment Hearing
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Public Comment Hearing\nDocket: 25-00060-UT\n\nJul 28 | 1-7 PM | Public 
+ Comment Hearing (Case no. 25-00060-UT) | UNM Student Union Building\, Ball
+ room C\, 2010 Campus Blvd. NE\, Albuquerque\n\nSource: https://www.prc.nm.
+ gov/2026/06/26/33071/
+PRIORITY:9
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] State Capitol Building\, Room 307\, Santa Fe
+DTSTART;TZID=America/Denver:20260730T100000
+DTEND;TZID=America/Denver:20260730T120000
+DTSTAMP:20260814T225229Z
+UID:c675379acefa643d9217@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nJul 30 | 10:00 AM | Regular Open Meeting | State Cap
+ itol Building\, Room 307\, Santa Fe\n\nSource: https://www.prc.nm.gov/2026
+ /06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Special Open Meeting | Small Water Utilities
+DTSTART;TZID=America/Denver:20260806T100000
+DTEND;TZID=America/Denver:20260806T120000
+DTSTAMP:20260814T225229Z
+UID:08b4d1fbef89854c7b8c@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nAug 6 | 10:00 AM | Special Open Meeting | Small Wate
+ r Utilities | State Capitol Building\, Room 309\, Santa Fe\n\nSource: http
+ s://www.prc.nm.gov/2026/06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] State Capitol Building\, Room 322\, Santa Fe
+DTSTART;TZID=America/Denver:20260813T100000
+DTEND;TZID=America/Denver:20260813T120000
+DTSTAMP:20260814T225229Z
+UID:fa3332c374953c7a3425@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nAug 13 | 10:00 AM | Regular Open Meeting | State Cap
+ itol Building\, Room 322\, Santa Fe\n\nSource: https://www.prc.nm.gov/2026
+ /06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] State Capitol Building\, Room 307\, Santa Fe
+DTSTART;TZID=America/Denver:20260827T100000
+DTEND;TZID=America/Denver:20260827T120000
+DTSTAMP:20260814T225229Z
+UID:3c2344ed93fa19478d31@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nAug 27 | 10:00 AM | Regular Open Meeting | State Cap
+ itol Building\, Room 307\, Santa Fe\n\nSource: https://www.prc.nm.gov/2026
+ /06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Docket 25-00032-UT -Kit Carson electric Cooperative\, Inc’s
+  Application for Continuation of its Fuel and Purchased Power Cost Adjustm
+ ent Clause. This hearing is set for September 7\, 2026\, at 9:00 a.m. Visi
+ t this site to watch the proceeding via l
+DTSTART;TZID=America/Denver:20260907T090000
+DTEND;TZID=America/Denver:20260907T110000
+DTSTAMP:20260814T225229Z
+UID:e79bdae3ed0365028757@psc-calendar
 CATEGORIES:NM,Other
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
- : Other\n\nThe post Commission approves sale of New Mexico Gas Company app
- eared first on NM PRC .\n\nSource: https://www.prc.nm.gov/2026/07/30/33409
- /
+ : Other\nDocket: 25-00032-UT\n\nSource: https://www.prc.nm.gov/public-hear
+ ings/
 PRIORITY:9
-URL:https://www.prc.nm.gov/2026/07/30/33409/
+URL:https://www.prc.nm.gov/public-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] State Capitol Building\, Room 309\, Santa Fe
+DTSTART;TZID=America/Denver:20260910T100000
+DTEND;TZID=America/Denver:20260910T120000
+DTSTAMP:20260814T225229Z
+UID:0241ffbd414558e3a77c@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nSep 10 | 10:00 AM | Regular Open Meeting | State Cap
+ itol Building\, Room 309\, Santa Fe\n\nSource: https://www.prc.nm.gov/2026
+ /06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Docket 26-0000132 – Southwestern Public Service Company’s
+  (SPS) annual 2027 Renewable Energy Portfolio Procurement Plan and other r
+ elief. This hearing is set to commence at 9 a.m. on September 14 and 15\, 
+ 2026\, via Zoom videoconference. Visit thi
+DTSTART;TZID=America/Denver:20260914T000000
+DTEND;TZID=America/Denver:20260914T020000
+DTSTAMP:20260814T225229Z
+UID:94eebb153bd5d291c762@psc-calendar
+CATEGORIES:NM,Other
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Other\nDocket: 26-0000132\n\nSource: https://www.prc.nm.gov/public-heari
+ ngs/
+PRIORITY:9
+URL:https://www.prc.nm.gov/public-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] State Capitol Building\, Room 307\, Santa Fe
+DTSTART;TZID=America/Denver:20260924T100000
+DTEND;TZID=America/Denver:20260924T120000
+DTSTAMP:20260814T225229Z
+UID:80a0de36237ff6d5c35b@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nSep 24 | 10:00 AM | Regular Open Meeting | State Cap
+ itol Building\, Room 307\, Santa Fe\n\nSource: https://www.prc.nm.gov/2026
+ /06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Docket 26-0000111 – Dahlia Wind LLC et al application for a
+ pproval of location of the Corona Wind North II Project and right-of-way w
+ idth. This hearing is set to commence at 9 a.m. on September 28\, 2026\, v
+ ia Zoom videoconference. Visit this site
+DTSTART;TZID=America/Denver:20260928T000000
+DTEND;TZID=America/Denver:20260928T020000
+DTSTAMP:20260814T225229Z
+UID:e03920a0d0a69db5d4c7@psc-calendar
+CATEGORIES:NM,Other
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Other\nDocket: 26-0000111\n\nSource: https://www.prc.nm.gov/public-heari
+ ngs/
+PRIORITY:9
+URL:https://www.prc.nm.gov/public-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Docket 26-0000143 – El Paso Electric request for Right-of-W
+ ay width approval. This hearing is set for October 2\, 2026\, at 9:00 a.m.
+  Visit this site to watch the proceeding via livestream or watch it on the
+  Commission’s YouTube channel. Hearings 
+DTSTART;TZID=America/Denver:20261002T090000
+DTEND;TZID=America/Denver:20261002T110000
+DTSTAMP:20260814T225229Z
+UID:296a6e5789e6337f0871@psc-calendar
+CATEGORIES:NM,Other
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Other\nDocket: 26-0000143\n\nSource: https://www.prc.nm.gov/public-heari
+ ngs/
+PRIORITY:9
+URL:https://www.prc.nm.gov/public-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] State Capitol Building\, Room 309\, Santa Fe
+DTSTART;TZID=America/Denver:20261008T100000
+DTEND;TZID=America/Denver:20261008T120000
+DTSTAMP:20260814T225229Z
+UID:c578926ef0ce0d806e18@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nOct 8 | 10:00 AM | Regular Open Meeting | State Capi
+ tol Building\, Room 309\, Santa Fe\n\nSource: https://www.prc.nm.gov/2026/
+ 06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Guthrie Hall\, 1261 International Mall\, Las Cruces\, NM 8800
+ 1
+DTSTART;TZID=America/Denver:20261022T100000
+DTEND;TZID=America/Denver:20261022T120000
+DTSTAMP:20260814T225229Z
+UID:6b386b43251f32a600a8@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nOct 22 | 10:00 AM | Regular Open Meeting | Guthrie H
+ all\, 1261 International Mall\, Las Cruces\, NM 88001\n\nSource: https://w
+ ww.prc.nm.gov/2026/06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Docket 26-0000116 – Amerimex\, d/b/a Safetynet wireless req
+ uest for designation as a eligible telecommunications carrier in New Mexic
+ o. This hearing is set for October 26 \, 2026\, at 9:00 a.m. Visit this si
+ te to watch the proceeding via livestream
+DTSTART;TZID=America/Denver:20261026T000000
+DTEND;TZID=America/Denver:20261026T020000
+DTSTAMP:20260814T225229Z
+UID:f0e25af5b53943612818@psc-calendar
+CATEGORIES:NM,Other
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Other\nDocket: 26-0000116\n\nSource: https://www.prc.nm.gov/public-heari
+ ngs/
+PRIORITY:9
+URL:https://www.prc.nm.gov/public-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] State Capitol Building\, Room 309\, Santa Fe
+DTSTART;TZID=America/Denver:20261105T100000
+DTEND;TZID=America/Denver:20261105T120000
+DTSTAMP:20260814T225229Z
+UID:97f31927b0875526f684@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nNov 5 | 10:00 AM | Regular Open Meeting | State Capi
+ tol Building\, Room 309\, Santa Fe\n\nSource: https://www.prc.nm.gov/2026/
+ 06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Docket 26-0000115 – Public Service Company of New Mexico Ap
+ plication for Approval of Its 2027-2029 Transportation Electrification Pla
+ n. This hearing is set for November 10 -12 \, 2026\, at 9:00 a.m. Visit th
+ is site to watch the proceeding via live
+DTSTART;TZID=America/Denver:20261110T000000
+DTEND;TZID=America/Denver:20261110T020000
+DTSTAMP:20260814T225229Z
+UID:1cc1148683ed778b1147@psc-calendar
+CATEGORIES:NM,Other
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Other\nDocket: 26-0000115\n\nSource: https://www.prc.nm.gov/public-heari
+ ngs/
+PRIORITY:9
+URL:https://www.prc.nm.gov/public-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Clifford Plaza\, 4100 Osuna Road NE\, Ste. 102\, Albuquerque
+DTSTART;TZID=America/Denver:20261119T100000
+DTEND;TZID=America/Denver:20261119T120000
+DTSTAMP:20260814T225229Z
+UID:700c85cb5de31db68d65@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nNov 19 | 10:00 AM | Regular Open Meeting | Clifford 
+ Plaza\, 4100 Osuna Road NE\, Ste. 102\, Albuquerque\n\nSource: https://www
+ .prc.nm.gov/2026/06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] State Capitol Building\, Room 309\, Santa Fe
+DTSTART;TZID=America/Denver:20261203T100000
+DTEND;TZID=America/Denver:20261203T120000
+DTSTAMP:20260814T225229Z
+UID:98dc0e5372d2a5701482@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nDec 3 | 10:00 AM | Regular Open Meeting | State Capi
+ tol Building\, Room 309\, Santa Fe\n\nSource: https://www.prc.nm.gov/2026/
+ 06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Docket 26-0000133 – El Paso Electric Application for Approv
+ al of a its Transportation Electrification Plan for 2027-2029. This hearin
+ g is set for December 7\, 2026\, at 9:00 a.m. Visit this site to watch the
+  proceeding via livestream or watch it o
+DTSTART;TZID=America/Denver:20261207T090000
+DTEND;TZID=America/Denver:20261207T110000
+DTSTAMP:20260814T225229Z
+UID:ed49148986df6119a90f@psc-calendar
+CATEGORIES:NM,Other
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Other\nDocket: 26-0000133\n\nSource: https://www.prc.nm.gov/public-heari
+ ngs/
+PRIORITY:9
+URL:https://www.prc.nm.gov/public-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NM] Clifford Plaza\, 4100 Osuna Road NE\, Ste. 102\, Albuquerque
+DTSTART;TZID=America/Denver:20261217T100000
+DTEND;TZID=America/Denver:20261217T120000
+DTSTAMP:20260814T225229Z
+UID:47fd6acc760aa4163c21@psc-calendar
+CATEGORIES:NM,Decision / Order
+DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
+ : Decision / Order\n\nDec 17 | 10:00 AM | Regular Open Meeting | Clifford 
+ Plaza\, 4100 Osuna Road NE\, Ste. 102\, Albuquerque\n\nSource: https://www
+ .prc.nm.gov/2026/06/26/33071/
+PRIORITY:5
+URL:https://www.prc.nm.gov/2026/06/26/33071/
 END:VEVENT
 END:VCALENDAR

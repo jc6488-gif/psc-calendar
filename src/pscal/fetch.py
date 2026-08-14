@@ -79,9 +79,10 @@ def _throttle(url: str) -> None:
     _last_hit[host] = time.monotonic()
 
 
-def get(url: str, *, use_cache: bool = True, timeout=TIMEOUT) -> tuple[bytes, str]:
+def get(url: str, *, use_cache: bool = True, timeout=TIMEOUT,
+        headers: dict | None = None) -> tuple[bytes, str]:
     """Fetch a URL. Returns (body_bytes, content_type). Raises FetchError."""
-    cp = _cache_path(url)
+    cp = _cache_path(url + ("|" + str(sorted(headers.items())) if headers else ""))
     if use_cache and cp.exists() and (time.time() - cp.stat().st_mtime) < CACHE_TTL:
         meta = cp.with_suffix(".ct")
         ct = meta.read_text().strip() if meta.exists() else ""
@@ -90,7 +91,7 @@ def get(url: str, *, use_cache: bool = True, timeout=TIMEOUT) -> tuple[bytes, st
 
     _throttle(url)
     try:
-        r = SESSION.get(url, timeout=timeout, allow_redirects=True)
+        r = SESSION.get(url, timeout=timeout, allow_redirects=True, headers=headers)
     except requests.RequestException as e:
         raise FetchError(f"{type(e).__name__}: {e}") from e
 
@@ -99,6 +100,42 @@ def get(url: str, *, use_cache: bool = True, timeout=TIMEOUT) -> tuple[bytes, st
     if not r.content:
         raise FetchError("empty response body")
 
+    ct = r.headers.get("Content-Type", "").split(";")[0].strip().lower()
+    if use_cache:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        cp.write_bytes(r.content)
+        cp.with_suffix(".ct").write_text(ct)
+    return r.content, ct
+
+
+def post(url: str, *, data=None, json=None, use_cache: bool = True,
+         timeout=TIMEOUT, prime_url: str | None = None) -> tuple[bytes, str]:
+    """POST to a URL (same throttle/UA/session as get). Some commission data
+    endpoints only answer POST (MA DPU File Room, LA portal). `prime_url`
+    optionally GETs a page first so the session collects cookies the endpoint
+    requires. Cached by URL+body like get()."""
+    import json as _json
+    body_key = url + "|" + (_json.dumps(json, sort_keys=True) if json else str(sorted((data or {}).items())))
+    cp = CACHE_DIR / (hashlib.sha1(body_key.encode()).hexdigest() + ".bin")
+    if use_cache and cp.exists() and (time.time() - cp.stat().st_mtime) < CACHE_TTL:
+        meta = cp.with_suffix(".ct")
+        return cp.read_bytes(), (meta.read_text().strip() if meta.exists() else "")
+
+    if prime_url:
+        try:
+            _throttle(prime_url)
+            SESSION.get(prime_url, timeout=timeout, allow_redirects=True)
+        except requests.RequestException:
+            pass
+    _throttle(url)
+    try:
+        r = SESSION.post(url, data=data, json=json, timeout=timeout, allow_redirects=True)
+    except requests.RequestException as e:
+        raise FetchError(f"{type(e).__name__}: {e}") from e
+    if r.status_code >= 400:
+        raise FetchError(f"HTTP {r.status_code}")
+    if not r.content:
+        raise FetchError("empty response body")
     ct = r.headers.get("Content-Type", "").split(";")[0].strip().lower()
     if use_cache:
         CACHE_DIR.mkdir(parents=True, exist_ok=True)

@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Hearing on Decommissioning Agreement Template-Case 9873
 DTSTART;TZID=America/New_York:20260716T093000
 DTEND;TZID=America/New_York:20260716T113000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:47ff463b9152f5c1b7fa@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -27,7 +27,7 @@ SUMMARY:[MD] Electric System Planning Work Group-Phase III Meeting #18\, C
  ase 9665
 DTSTART;TZID=America/New_York:20260716T103000
 DTEND;TZID=America/New_York:20260716T123000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:e664ecd1a20dbb62eb1c@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -38,10 +38,23 @@ URL:https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_
  calendar_ajax
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[MD] Official Filings for the period through
+DTSTART;TZID=America/New_York:20260720T000000
+DTEND;TZID=America/New_York:20260720T020000
+DTSTAMP:20260814T225229Z
+UID:013b91ad222d455b5910@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nOfficial Filings for the period 07/20/2026 through 07/24/2026\n\nSou
+ rce: https://webpscxb.pscmaryland.com/DMS/filingsreport/4
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/filingsreport/4
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MD] MESPWG P-II Final Meeting
 DTSTART;TZID=America/New_York:20260720T130000
 DTEND;TZID=America/New_York:20260720T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:5f81d5fcd3e6f04b6fda@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -56,7 +69,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Halo Betterton\, LLC-Case
  9786 (Kent Co)
 DTSTART;TZID=America/New_York:20260720T183000
 DTEND;TZID=America/New_York:20260720T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:15a4d2445c883bebdf9d@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -70,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20260722T153000
 DTEND;TZID=America/New_York:20260722T170000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:8f5e8948869f84409bec@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -85,7 +98,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Bessie Clemson Road Solar\
  , LLC-Case 9814 (Frederick Co)
 DTSTART;TZID=America/New_York:20260722T180000
 DTEND;TZID=America/New_York:20260722T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:555cf75b7f605ae51251@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -99,7 +112,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20260723T100000
 DTEND;TZID=America/New_York:20260723T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:02abda1535063c4f5f01@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -110,11 +123,24 @@ URL:https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_
  calendar_ajax
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[MD] Official Filings for the period through
+DTSTART;TZID=America/New_York:20260727T000000
+DTEND;TZID=America/New_York:20260727T020000
+DTSTAMP:20260814T225229Z
+UID:f0ae17f4344ff42ca0b3@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nOfficial Filings for the period 07/27/2026 through 07/31/2026\n\nSou
+ rce: https://webpscxb.pscmaryland.com/DMS/filingsreport/3
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/filingsreport/3
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MD] Solar CPCN public comment hearing: Cape Horn Road Solar\, LLC
  -Case 9815 (Carroll Co)
 DTSTART;TZID=America/New_York:20260727T180000
 DTEND;TZID=America/New_York:20260727T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:aa7f13225f123aeccfdb@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -129,7 +155,7 @@ SUMMARY:[MD] Case 9353-Review of Annual Performance Reports on Electric Se
  rvice Reliability
 DTSTART;TZID=America/New_York:20260728T100000
 DTEND;TZID=America/New_York:20260728T160000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:46c82f179faf8980cc6f@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -143,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20260729T100000
 DTEND;TZID=America/New_York:20260729T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:be47cdd448004156fc78@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -157,7 +183,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20260729T130000
 DTEND;TZID=America/New_York:20260729T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:274d8a3c0a780d65cb0d@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -172,7 +198,7 @@ SUMMARY:[MD] Electric System Planning Work Group-Phase III Meeting #19\, C
  ase 9665
 DTSTART;TZID=America/New_York:20260730T103000
 DTEND;TZID=America/New_York:20260730T123000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:1c775e9326a7fd9cf237@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -186,7 +212,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Metering Work Group-RM56 Discussion
 DTSTART;TZID=America/New_York:20260730T130000
 DTEND;TZID=America/New_York:20260730T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:5df6907e4c3930ba7371@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -201,7 +227,7 @@ SUMMARY:[MD] Virtual Public Comment Hearing: Next Gen Transmission Storage
   Proposals-Case 9866
 DTSTART;TZID=America/New_York:20260730T180000
 DTEND;TZID=America/New_York:20260730T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:778ff4f35d9916b8d57c@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -212,11 +238,24 @@ URL:https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_
  calendar_ajax
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[MD] Official Filings for the period through
+DTSTART;TZID=America/New_York:20260803T000000
+DTEND;TZID=America/New_York:20260803T020000
+DTSTAMP:20260814T225229Z
+UID:bbce4a32d3481e6c148e@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nOfficial Filings for the period 08/03/2026 through 08/07/2026\n\nSou
+ rce: https://webpscxb.pscmaryland.com/DMS/filingsreport/2
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/filingsreport/2
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MD] Virtual Pre-hearing Conference: Pepco CPCN – Dickerson H Su
  bstation to Maryland/Virginia State Line (Case 9883)
 DTSTART;TZID=America/New_York:20260803T093000
 DTEND;TZID=America/New_York:20260803T113000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:4789c9cc8bda1c565917@psc-calendar
 CATEGORIES:MD,Procedural Milestone
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pro
@@ -230,7 +269,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] RM Session on Permanent Interconnection Regulations—RM94
 DTSTART;TZID=America/New_York:20260803T130000
 DTEND;TZID=America/New_York:20260803T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:e02afea6abb65bb13a7f@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -245,7 +284,7 @@ SUMMARY:[MD] Evidentiary Hearing: NGEA Transmission Storage Project Propos
  als (Case 9866)
 DTSTART;TZID=America/New_York:20260804T100000
 DTEND;TZID=America/New_York:20260804T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:1dd30da5a4bb974608c2@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -259,7 +298,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20260805T100000
 DTEND;TZID=America/New_York:20260805T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:94b6a2fdbe56858818fc@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -274,7 +313,7 @@ SUMMARY:[MD] Evidentiary Hearing: NGEA Transmission Storage Project Propos
  als (Case 9866)
 DTSTART;TZID=America/New_York:20260805T100000
 DTEND;TZID=America/New_York:20260805T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:f27fcb89551fbe6efac1@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -288,7 +327,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20260806T100000
 DTEND;TZID=America/New_York:20260806T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:14299a2b48cc18890914@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -303,7 +342,7 @@ SUMMARY:[MD] Evidentiary Hearing: NGEA Transmission Storage Project Propos
  als (Case 9866)
 DTSTART;TZID=America/New_York:20260806T100000
 DTEND;TZID=America/New_York:20260806T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:f884beadaeeb76ec8d56@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -317,7 +356,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Metering Work Group-RM 56 Discussion
 DTSTART;TZID=America/New_York:20260806T130000
 DTEND;TZID=America/New_York:20260806T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:c96799464d96c60f3a81@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -328,10 +367,23 @@ URL:https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_
  calendar_ajax
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[MD] Official Filings for the period through
+DTSTART;TZID=America/New_York:20260810T000000
+DTEND;TZID=America/New_York:20260810T020000
+DTSTAMP:20260814T225229Z
+UID:867a2d8b05d1e66b47fa@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nOfficial Filings for the period 08/10/2026 through 08/14/2026\n\nSou
+ rce: https://webpscxb.pscmaryland.com/DMS/filingsreport/1
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/filingsreport/1
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MD] Prehearing Conference BGE Base Rate Increase —9888
 DTSTART;TZID=America/New_York:20260811T110000
 DTEND;TZID=America/New_York:20260811T130000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:f9aaa2885ed580a17e74@psc-calendar
 CATEGORIES:MD,Procedural Milestone
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pro
@@ -346,7 +398,7 @@ SUMMARY:[MD] RM 56 Rulemaking Session – Proposed Revisions to COMAR 20.5
  0 and 20.62
 DTSTART;TZID=America/New_York:20260811T130000
 DTEND;TZID=America/New_York:20260811T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:fbd9f17a93650268e28d@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -360,7 +412,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20260812T130000
 DTEND;TZID=America/New_York:20260812T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:3a022ce1f0a5cf4fcccb@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -375,7 +427,7 @@ SUMMARY:[MD] Electric System Planning Work Group-Phase III Meeting #20\, C
  ase 9665
 DTSTART;TZID=America/New_York:20260813T103000
 DTEND;TZID=America/New_York:20260813T123000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:d4add3746952eaacf373@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -390,7 +442,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Bloomington Hill 1 and 2\,
   LLC-Case 9812 (Garrett Co)
 DTSTART;TZID=America/New_York:20260813T180000
 DTEND;TZID=America/New_York:20260813T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:d4cff30173529f36c4bd@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -401,10 +453,23 @@ URL:https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_
  calendar_ajax
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[MD] Hearing Schedule as of
+DTSTART;TZID=America/New_York:20260814T000000
+DTEND;TZID=America/New_York:20260814T020000
+DTSTAMP:20260814T225229Z
+UID:9106d9eab89b16678083@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nHearing Schedule as of August 14\, 2026\n\nSource: https://webpscxb.
+ pscmaryland.com/DMS/hearing
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/hearing
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MD] Yazam/EmPOWER Virtual Hearing—9732
 DTSTART;TZID=America/New_York:20260817T100000
 DTEND;TZID=America/New_York:20260817T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:b423bed7a73ab6bcc704@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -418,7 +483,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC75 / 9866 – NGEA Technical Conference
 DTSTART;TZID=America/New_York:20260818T100000
 DTEND;TZID=America/New_York:20260818T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:5b58d2abf30d49541a9a@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -432,7 +497,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Interconnection Work Group Meeting-Case 9778
 DTSTART;TZID=America/New_York:20260818T130000
 DTEND;TZID=America/New_York:20260818T160000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:ef7f19221cd5e1665648@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -446,7 +511,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] RM 93 Rulemaking Session
 DTSTART;TZID=America/New_York:20260818T140000
 DTEND;TZID=America/New_York:20260818T160000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:77468d9ab0c8008d2dcc@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -457,10 +522,23 @@ URL:https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_
  calendar_ajax
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[MD] Commission agenda (official filings)
+DTSTART;TZID=America/New_York:20260819T000000
+DTEND;TZID=America/New_York:20260819T020000
+DTSTAMP:20260814T225229Z
+UID:bdf96d6653ee88c8b6b1@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nFinal Agenda for August 19\, 2026\n\nSource: https://webpscxb.pscmar
+ yland.com/DMS/adminagendabydate/50A186
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/adminagendabydate/50A186
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20260819T100000
 DTEND;TZID=America/New_York:20260819T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:205c347adceceb9a27b7@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -475,7 +553,7 @@ SUMMARY:[MD] RM 97 Evidentiary Hearing on PPRPs Proposed Standard DGCPCN R
  equirements and Conditions
 DTSTART;TZID=America/New_York:20260819T100000
 DTEND;TZID=America/New_York:20260819T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:0a3f8a059b9cdebefc81@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -489,7 +567,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20260820T100000
 DTEND;TZID=America/New_York:20260820T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:3890ab18b789e378ab9b@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -503,7 +581,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Case 9707-Future of Gas\, Phase II Evidentiary Hearing
 DTSTART;TZID=America/New_York:20260824T100000
 DTEND;TZID=America/New_York:20260824T160000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:b12b6eb3aa71def0d8ff@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -517,7 +595,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Case 9707-Future of Gas\, Phase II Evidentiary Hearing
 DTSTART;TZID=America/New_York:20260825T100000
 DTEND;TZID=America/New_York:20260825T160000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:97ac89175953cc598ffc@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -528,10 +606,23 @@ URL:https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_
  calendar_ajax
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[MD] Draft Agenda for
+DTSTART;TZID=America/New_York:20260826T000000
+DTEND;TZID=America/New_York:20260826T020000
+DTSTAMP:20260814T225229Z
+UID:c7054698f475a65ab4e7@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDraft Agenda for August 26\, 2026\n\nSource: https://webpscxb.pscmar
+ yland.com/DMS/adminagendabydate/768DF4
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/adminagendabydate/768DF4
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MD] Case 9707-Future of Gas\, Phase II Evidentiary Hearing
 DTSTART;TZID=America/New_York:20260826T100000
 DTEND;TZID=America/New_York:20260826T160000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:2052acc4af7009672307@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -545,7 +636,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20260826T100000
 DTEND;TZID=America/New_York:20260826T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:08b36c1c06219d8eef36@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -559,7 +650,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20260826T130000
 DTEND;TZID=America/New_York:20260826T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:ac9c1605f6d0ce2244fb@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -573,7 +664,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Case 9707-Future of Gas\, Phase II Evidentiary Hearing
 DTSTART;TZID=America/New_York:20260827T100000
 DTEND;TZID=America/New_York:20260827T160000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:11c7fa9a6c3eded36670@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -588,7 +679,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Soltage MD DevCo\, LLC and
   Berlin Living\, LLC-Case 9826 (Town of Berlin)
 DTSTART;TZID=America/New_York:20260827T183000
 DTEND;TZID=America/New_York:20260827T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:43f6994bb3e73fbf4aaa@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -602,7 +693,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20260827T183000
 DTEND;TZID=America/New_York:20260827T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:2fb7d3d023fe869a4b21@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -616,7 +707,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline for written comments
 DTSTART;TZID=America/New_York:20260828T000000
 DTEND;TZID=America/New_York:20260828T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:c97b988b4c29e58a8674@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -629,7 +720,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Case 9707-Future of Gas\, Phase II Evidentiary Hearing
 DTSTART;TZID=America/New_York:20260828T100000
 DTEND;TZID=America/New_York:20260828T160000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:0b7b0ce6f3cceed3bb25@psc-calendar
 CATEGORIES:MD,Evidentiary Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Evi
@@ -644,7 +735,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Old Princess Anne CEI\, LL
  C-Case 9822 (Somerset Co)
 DTSTART;TZID=America/New_York:20260831T180000
 DTEND;TZID=America/New_York:20260831T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:bee6476d7273fd16b48f@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -658,7 +749,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20260831T180000
 DTEND;TZID=America/New_York:20260831T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:c71b44434a213903cf04@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -669,10 +760,23 @@ PRIORITY:9
 URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[MD] Draft Agenda for
+DTSTART;TZID=America/New_York:20260902T000000
+DTEND;TZID=America/New_York:20260902T020000
+DTSTAMP:20260814T225229Z
+UID:64aef0c324d1fdf6fca4@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDraft Agenda for September 02\, 2026\n\nSource: https://webpscxb.psc
+ maryland.com/DMS/adminagendabydate/E86BB4
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/adminagendabydate/E86BB4
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20260902T100000
 DTEND;TZID=America/New_York:20260902T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:a9f92699e8ac0f4dce21@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -686,7 +790,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Rulemaking Session (RM 95)
 DTSTART;TZID=America/New_York:20260902T100000
 DTEND;TZID=America/New_York:20260902T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:f6cf0b69d84b017da7b2@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -700,7 +804,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20260903T100000
 DTEND;TZID=America/New_York:20260903T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:81de863215a6ce8b6893@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -714,7 +818,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Labor Day (State Offices CLOSED)
 DTSTART;TZID=America/New_York:20260907T000000
 DTEND;TZID=America/New_York:20260907T000000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:3283a8460d7148bc1a14@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -729,7 +833,7 @@ SUMMARY:[MD] Solar CPCN Public Comment Hearing: MD American Kestrel\, LLC
  – Case 9823 (Kent Co.)
 DTSTART;TZID=America/New_York:20260908T183000
 DTEND;TZID=America/New_York:20260908T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:3198b2a193dd78e437c3@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -743,7 +847,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20260908T183000
 DTEND;TZID=America/New_York:20260908T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:38dd5603ea315ef40f3e@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -754,10 +858,23 @@ PRIORITY:9
 URL:https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[MD] Draft Agenda for
+DTSTART;TZID=America/New_York:20260909T000000
+DTEND;TZID=America/New_York:20260909T020000
+DTSTAMP:20260814T225229Z
+UID:b041c2ebf2404020f575@psc-calendar
+CATEGORIES:MD,Other
+DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
+ er\n\nDraft Agenda for September 09\, 2026\n\nSource: https://webpscxb.psc
+ maryland.com/DMS/adminagendabydate/2A3144
+PRIORITY:9
+URL:https://webpscxb.pscmaryland.com/DMS/adminagendabydate/2A3144
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20260909T100000
 DTEND;TZID=America/New_York:20260909T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:c6ac53b7fcb147ede575@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -771,7 +888,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20260909T130000
 DTEND;TZID=America/New_York:20260909T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:d6e74607961ce1027204@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -786,7 +903,7 @@ SUMMARY:[MD] KUMQUAT & CITRON CLEANTECH 7.2 MW solar generating facility
  –Case 9694 (Wicomico Co.)
 DTSTART;TZID=America/New_York:20260909T180000
 DTEND;TZID=America/New_York:20260909T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:cdac3bdf2cdbdc3ce6a2@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -800,7 +917,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20260909T180000
 DTEND;TZID=America/New_York:20260909T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:339b4ce028766eb30e5d@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -815,7 +932,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Harford Calvary Solar 1\,
  LLC-Case 9816 (Harford Co)
 DTSTART;TZID=America/New_York:20260910T183000
 DTEND;TZID=America/New_York:20260910T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:b14b643639d9df3c4594@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -829,7 +946,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20260910T183000
 DTEND;TZID=America/New_York:20260910T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:9d0ab52d92a8ba3944a0@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -843,7 +960,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline to send in written comments
 DTSTART;TZID=America/New_York:20260911T000000
 DTEND;TZID=America/New_York:20260911T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:e287f1cc4117d89b5831@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -856,7 +973,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20260916T100000
 DTEND;TZID=America/New_York:20260916T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:720cce510abc84e93c68@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -870,7 +987,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline to submit written comments
 DTSTART;TZID=America/New_York:20260917T000000
 DTEND;TZID=America/New_York:20260917T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:0b97bc2bcb7fe99459be@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -883,7 +1000,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20260917T100000
 DTEND;TZID=America/New_York:20260917T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:a9f2f9b2afec81e3d152@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -898,7 +1015,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Woodside Solar 1\, LLC-Cas
  e 9825 (Worcester Co.)
 DTSTART;TZID=America/New_York:20260917T180000
 DTEND;TZID=America/New_York:20260917T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:5fec2e99c86587a5884d@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -912,7 +1029,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20260917T180000
 DTEND;TZID=America/New_York:20260917T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:92023f9f5e6653b694d3@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -927,7 +1044,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Halo Rock Hall LLC-Case 97
  92 (Kent Co.)
 DTSTART;TZID=America/New_York:20260921T183000
 DTEND;TZID=America/New_York:20260921T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:a06addbb1314170005a4@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -941,7 +1058,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20260921T183000
 DTEND;TZID=America/New_York:20260921T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:bafba8ccdbbd186313d0@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -955,7 +1072,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20260923T100000
 DTEND;TZID=America/New_York:20260923T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:d90ae34f615d296e4f90@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -969,7 +1086,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20260923T130000
 DTEND;TZID=America/New_York:20260923T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:cb90d9ef42f43bc28c70@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -983,7 +1100,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline to send in written comments
 DTSTART;TZID=America/New_York:20260930T000000
 DTEND;TZID=America/New_York:20260930T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:d4e082dc68156a8f08db@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -996,7 +1113,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline for written comments
 DTSTART;TZID=America/New_York:20260930T000000
 DTEND;TZID=America/New_York:20260930T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:bfdb372ca9b240d00aea@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1009,7 +1126,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20260930T100000
 DTEND;TZID=America/New_York:20260930T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:bf279511df35168bf7ed@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1023,7 +1140,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20261001T100000
 DTEND;TZID=America/New_York:20261001T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:40a49c08a6a05589c873@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -1037,7 +1154,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline to submit written comments
 DTSTART;TZID=America/New_York:20261002T000000
 DTEND;TZID=America/New_York:20261002T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:ee6569b62bb519855fac@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1050,7 +1167,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261007T100000
 DTEND;TZID=America/New_York:20261007T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:92519a9a128d20877cb4@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1064,7 +1181,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20261007T130000
 DTEND;TZID=America/New_York:20261007T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:8b85b3d2f009d69921c0@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1078,7 +1195,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Columbus Day (State Offices CLOSED)
 DTSTART;TZID=America/New_York:20261012T000000
 DTEND;TZID=America/New_York:20261012T000000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:ac76b2cd50e1793d56eb@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1092,7 +1209,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Future of Gas\, Phase II Public Comment Hearing-9707
 DTSTART;TZID=America/New_York:20261013T180000
 DTEND;TZID=America/New_York:20261013T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:df0a4a7102292b7a75bc@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -1106,7 +1223,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261014T100000
 DTEND;TZID=America/New_York:20261014T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:a91f180b66ea72d72769@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1120,7 +1237,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline for written comments
 DTSTART;TZID=America/New_York:20261015T000000
 DTEND;TZID=America/New_York:20261015T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:222d111effffdc004d58@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1133,7 +1250,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20261015T100000
 DTEND;TZID=America/New_York:20261015T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:4bf1e95f62182b5e3b99@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -1148,7 +1265,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Herman Highway Solar 1\, L
  LC-Case 9817 (Kent Co.)
 DTSTART;TZID=America/New_York:20261015T183000
 DTEND;TZID=America/New_York:20261015T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:c7638734b782d857d7d4@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -1162,7 +1279,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20261015T183000
 DTEND;TZID=America/New_York:20261015T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:18c7dc3c65490ebc9b73@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -1176,7 +1293,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline to submit written comments
 DTSTART;TZID=America/New_York:20261019T000000
 DTEND;TZID=America/New_York:20261019T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:3c7b3f26449ece35a8b1@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1190,7 +1307,7 @@ SUMMARY:[MD] Virtual public comment hearing . To participate\, email kimbe
  rly.schock@maryland.gov by 12 noon on
 DTSTART;TZID=America/New_York:20261019T000000
 DTEND;TZID=America/New_York:20261019T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:fe8559b17db688ac7fae@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -1203,7 +1320,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline to submit written comments
 DTSTART;TZID=America/New_York:20261021T000000
 DTEND;TZID=America/New_York:20261021T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:7907c3d21961faa34969@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1216,7 +1333,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261021T100000
 DTEND;TZID=America/New_York:20261021T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:8ed1a8bbce605f3d312e@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1230,7 +1347,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20261021T130000
 DTEND;TZID=America/New_York:20261021T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:0b9cbe688cbb3b6e2b31@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1245,7 +1362,7 @@ SUMMARY:[MD] Solar CPCN public comment hearing: Chaberton Solar Peters Hol
  dings LLC-Case 9847 (Harford Co.)
 DTSTART;TZID=America/New_York:20261021T180000
 DTEND;TZID=America/New_York:20261021T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:ae812e212697f386fe45@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -1259,7 +1376,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20261021T180000
 DTEND;TZID=America/New_York:20261021T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:33b43447206a93f11811@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -1274,7 +1391,7 @@ SUMMARY:[MD] CPCN public comment hearing: Case 9818-Potomac Edison Messick
   Rd-Ridgeley tx line (Allegany Co)
 DTSTART;TZID=America/New_York:20261022T180000
 DTEND;TZID=America/New_York:20261022T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:691add46cc398990ab63@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -1288,7 +1405,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Public comment hearing
 DTSTART;TZID=America/New_York:20261022T180000
 DTEND;TZID=America/New_York:20261022T200000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:6081b2468c93e6241a22@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -1302,7 +1419,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261028T100000
 DTEND;TZID=America/New_York:20261028T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:d756afb61bddd336dc51@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1316,7 +1433,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20261029T100000
 DTEND;TZID=America/New_York:20261029T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:a0775a6fdc27905fc622@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -1331,7 +1448,7 @@ SUMMARY:[MD] The Potomac Edison Company CPCN application for a 230 kV tran
  smission line in Carroll County-9803
 DTSTART;TZID=America/New_York:20261029T183000
 DTEND;TZID=America/New_York:20261029T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:d8a21f5a1c0ab722dcd2@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1345,7 +1462,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Virtual public comment hearing
 DTSTART;TZID=America/New_York:20261029T183000
 DTEND;TZID=America/New_York:20261029T203000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:029f7ec310ccd5bfa7e9@psc-calendar
 CATEGORIES:MD,Public Comment Hearing
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Pub
@@ -1359,7 +1476,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Election Day (State Offices CLOSED)
 DTSTART;TZID=America/New_York:20261103T000000
 DTEND;TZID=America/New_York:20261103T000000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:e7728b0c96e6e2449c68@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1373,7 +1490,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261104T100000
 DTEND;TZID=America/New_York:20261104T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:1315adf3938d5cf0d661@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1387,7 +1504,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20261104T130000
 DTEND;TZID=America/New_York:20261104T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:07cb69f17cdf56156e50@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1401,7 +1518,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Deadline for written comments
 DTSTART;TZID=America/New_York:20261106T000000
 DTEND;TZID=America/New_York:20261106T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:bfcb0dd91611f2a710ec@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1414,7 +1531,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Veterans’ Day (State Offices CLOSED)
 DTSTART;TZID=America/New_York:20261111T000000
 DTEND;TZID=America/New_York:20261111T000000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:c00edb3a9c553b19db03@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1428,7 +1545,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20261112T100000
 DTEND;TZID=America/New_York:20261112T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:aa756c0a1c59e480f231@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -1442,7 +1559,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261118T100000
 DTEND;TZID=America/New_York:20261118T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:707db444255208982309@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1456,7 +1573,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20261118T130000
 DTEND;TZID=America/New_York:20261118T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:0d727c314ecc507f7307@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1470,7 +1587,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261124T100000
 DTEND;TZID=America/New_York:20261124T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:71c25bee3c7947be4f4e@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1484,7 +1601,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Thanksgiving Day (State Offices CLOSED)
 DTSTART;TZID=America/New_York:20261126T000000
 DTEND;TZID=America/New_York:20261126T000000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:9470e731c1359b44526b@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1498,7 +1615,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] American Indian Heritage Day (State Offices CLOSED)
 DTSTART;TZID=America/New_York:20261127T000000
 DTEND;TZID=America/New_York:20261127T000000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:22f6fc53cd8d17ad9f3a@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1512,7 +1629,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261202T100000
 DTEND;TZID=America/New_York:20261202T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:9ec5ffd85ba3cefeec2a@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1526,7 +1643,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20261202T130000
 DTEND;TZID=America/New_York:20261202T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:c8ab9220a162238f9f69@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1540,7 +1657,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261209T100000
 DTEND;TZID=America/New_York:20261209T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:635b3357ec7b5d630459@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1554,7 +1671,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20261210T100000
 DTEND;TZID=America/New_York:20261210T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:fe9f217e0d17d5046b9b@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -1568,7 +1685,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261216T100000
 DTEND;TZID=America/New_York:20261216T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:27b28c3e4c71d1c86c7f@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1582,7 +1699,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20261216T130000
 DTEND;TZID=America/New_York:20261216T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:7428ba53b6ce0d0a689f@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1596,7 +1713,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Administrative Meeting
 DTSTART;TZID=America/New_York:20261222T100000
 DTEND;TZID=America/New_York:20261222T120000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:58788573cb06651a8587@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1610,7 +1727,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20261224T100000
 DTEND;TZID=America/New_York:20261224T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:97d6f72ab1b64c351a99@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -1624,7 +1741,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Christmas Day (State Offices CLOSED)
 DTSTART;TZID=America/New_York:20261225T000000
 DTEND;TZID=America/New_York:20261225T000000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:56340a2066743f8b2fbe@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1638,7 +1755,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20261230T130000
 DTEND;TZID=America/New_York:20261230T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:091c109996156b0e287c@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1652,7 +1769,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20270107T100000
 DTEND;TZID=America/New_York:20270107T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:eadb16c3c0650d065815@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -1666,7 +1783,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20270113T130000
 DTEND;TZID=America/New_York:20270113T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:18769a2f79b68d533d54@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1680,7 +1797,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] PC 59 Limited-Income Mechanism Work Group Regular Meeting
 DTSTART;TZID=America/New_York:20270121T100000
 DTEND;TZID=America/New_York:20270121T110000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:421f28585dfc5f32389b@psc-calendar
 CATEGORIES:MD,Decision / Order
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Dec
@@ -1694,7 +1811,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20270127T130000
 DTEND;TZID=America/New_York:20270127T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:1d3c434083277053b57d@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1708,7 +1825,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20270210T130000
 DTEND;TZID=America/New_York:20270210T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:2c5e42b6b1f844f146e5@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1722,7 +1839,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20270224T130000
 DTEND;TZID=America/New_York:20270224T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:dd26c9e31ddb4b8553fa@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth
@@ -1736,7 +1853,7 @@ BEGIN:VEVENT
 SUMMARY:[MD] Net Energy Metering Successor Program Work Group
 DTSTART;TZID=America/New_York:20270310T130000
 DTEND;TZID=America/New_York:20270310T150000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:0991da7e1baea50734df@psc-calendar
 CATEGORIES:MD,Other
 DESCRIPTION:Commission: Maryland Public Service Commission (MD)\nType: Oth

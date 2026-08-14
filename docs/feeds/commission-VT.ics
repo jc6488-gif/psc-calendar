@@ -14,7 +14,7 @@ SUMMARY:[VT] PUC Case No. 26-1130-TF-Public Hearing-Tariff filing of Town
  effective on service rendered on or after August 1\, 2026
 DTSTART;TZID=America/New_York:20260801T000000
 DTEND;TZID=America/New_York:20260801T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:be29d4aca9e626548306@psc-calendar
 CATEGORIES:VT,Public Comment Hearing
 DESCRIPTION:Commission: Vermont Public Utility Commission (VT)\nType: Publ
@@ -26,12 +26,36 @@ URL:https://puc.vermont.gov/event/puc-case-no-26-1130-tf-public-hearing-ta
  riff-filing-town-stowe-electric-department-requesting
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[VT] PUC Case No. 24-2797-PET-Evidentiary Hearing-Petition of Verm
+ ont Renewable Gas\, LLC for a certificate of public good\, pursuant to 30 
+ V.S.A. § 248\, to construct and operate a 2.2 MW electric generatio
+DTSTART;TZID=America/New_York:20260824T000000
+DTEND;TZID=America/New_York:20260824T020000
+DTSTAMP:20260814T225229Z
+UID:9d4172f956134ace6863@psc-calendar
+CATEGORIES:VT,Evidentiary Hearing
+DESCRIPTION:Commission: Vermont Public Utility Commission (VT)\nType: Evid
+ entiary Hearing\nDocket: 24-2797-PET-EVIDENTIARY\, 26-0716-TF-VIRTUAL\, 24
+ -2797-PET\, 26-0716-TF\n\n| PUC Case No. 24-2797-PET-Evidentiary Hearing-P
+ etition of Vermont Renewable Gas\, LLC for a certificate of public good\, 
+ pursuant to 30 V.S.A. § 248\, to construct and operate a 2.2 MW electric 
+ generation facility in Lyndon\, Vermont 08/24/2026 - 9:30 am | PUC Case No
+ . 26-0716-TF-Virtual Public Hearing-Tariff filing of the Village of Hyde P
+ ark Electric Department for approval of a 14.92% rate increase effective o
+ n service rendered on and after June 1\, 2026 08/25/2026 - 7:00 pm | | | |
+ \n\nSource: https://puc.vermont.gov/event/puc-case-no-24-2797-pet-evidenti
+ ary-hearing-petition-vermont-renewable-gas-llc-certificate
+PRIORITY:5
+URL:https://puc.vermont.gov/event/puc-case-no-24-2797-pet-evidentiary-hear
+ ing-petition-vermont-renewable-gas-llc-certificate
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[VT] PUC Case No. 26-0096-TF-Public Hearing-Tariff filing of Green
   Mountain Power Corporation for a 7.5% rate increase effective with bills 
  rendered on or after October 1\, 2026
 DTSTART;TZID=America/New_York:20261001T000000
 DTEND;TZID=America/New_York:20261001T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:22587a3da6dfbe04f588@psc-calendar
 CATEGORIES:VT,Public Comment Hearing
 DESCRIPTION:Commission: Vermont Public Utility Commission (VT)\nType: Publ

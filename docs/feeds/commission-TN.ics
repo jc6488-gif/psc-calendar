@@ -9,10 +9,261 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+SUMMARY:[TN] Summary of CLEC Hearing in Docket 26-00045
+DTSTART;TZID=America/Chicago:20260721T000000
+DTEND;TZID=America/Chicago:20260721T020000
+DTSTAMP:20260814T225229Z
+UID:564fb38fd9f6daeab9ce@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\nDocket: 26-00045\n\n07-21-2026 - Summary of CLEC Hearing in Docket 26
+ -00045\n\nSource: https://www.tn.gov/content/dam/tn/publicutility/document
+ s/meetings/othercommissionmeetings/2026/notices-hearings-public-comments/2
+ 6-00045-notices/20260728HearingSummaryIn2600045.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/oth
+ ercommissionmeetings/2026/notices-hearings-public-comments/26-00045-notice
+ s/20260728HearingSummaryIn2600045.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] CLEC Hearing Notice in Docket 26-00045 - Audio (MP4)
+DTSTART;TZID=America/Chicago:20260721T000000
+DTEND;TZID=America/Chicago:20260721T020000
+DTSTAMP:20260814T225229Z
+UID:adaf9c8a873a9ac2e80e@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\nDocket: 26-00045\n\n07-21-2026 - CLEC Hearing Notice in Docket 26-000
+ 45 - Audio (MP4)\n\nSource: https://www.tn.gov/content/dam/tn/publicutilit
+ y/documents/meetings/othercommissionmeetings/2026/recordings/Docket%2026-0
+ 0045-20260721.mp4
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/oth
+ ercommissionmeetings/2026/recordings/Docket%2026-00045-20260721.mp4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] CLEC Hearing Notice in Docket 26-00045
+DTSTART;TZID=America/Chicago:20260721T000000
+DTEND;TZID=America/Chicago:20260721T020000
+DTSTAMP:20260814T225229Z
+UID:dce8f8e36364fb6492fa@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\nDocket: 26-00045\n\n07-21-2026 - CLEC Hearing Notice in Docket 26-000
+ 45\n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/me
+ etings/othercommissionmeetings/2026/notices-hearings-public-comments/26-00
+ 045-notices/20260708SocketCLECHearingNoticeIn2600045.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/oth
+ ercommissionmeetings/2026/notices-hearings-public-comments/26-00045-notice
+ s/20260708SocketCLECHearingNoticeIn2600045.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Hearing in Docket 26-00056
+DTSTART;TZID=America/Chicago:20260806T000000
+DTEND;TZID=America/Chicago:20260806T020000
+DTSTAMP:20260814T225229Z
+UID:9d11f2d2fc40ed662002@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\nDocket: 26-00056\n\n08-06-2026 - Notice of Hearing in Docket 26-00056
+ \n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meet
+ ings/othercommissionmeetings/2026/notices-hearings-public-comments/26-0005
+ 6-notices/20260806%20Notice%20of%20Hearing%20in%202600056.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/oth
+ ercommissionmeetings/2026/notices-hearings-public-comments/26-00056-notice
+ s/20260806%20Notice%20of%20Hearing%20in%202600056.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Hearing in Docket 26-00054
+DTSTART;TZID=America/Chicago:20260806T000000
+DTEND;TZID=America/Chicago:20260806T020000
+DTSTAMP:20260814T225229Z
+UID:1bff6768787468297834@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\nDocket: 26-00054\n\n08-06-2026 - Notice of Hearing in Docket 26-00054
+ \n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meet
+ ings/othercommissionmeetings/2026/notices-hearings-public-comments/26-0005
+ 4-notices/20260806%20Notice%20of%20Hearing%20in%202600054.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/oth
+ ercommissionmeetings/2026/notices-hearings-public-comments/26-00054-notice
+ s/20260806%20Notice%20of%20Hearing%20in%202600054.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20260808T000000
+DTEND;TZID=America/Chicago:20260808T020000
+DTSTAMP:20260814T225229Z
+UID:63634a0e45c8b82bccc3@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 08 Meeting Minutes\n\nSource: https://www.tn.gov/content/dam
+ /tn/publicutility/documents/meetings/commissionermeetings/archive/20221/20
+ 22-08-08/Commissioner%27s%20Meeting%20Minutes%20August%208%202022.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-08-08/Commissioner%27s%20Meeting%20Mi
+ nutes%20August%208%202022.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20260808T000000
+DTEND;TZID=America/Chicago:20260808T020000
+DTSTAMP:20260814T225229Z
+UID:f248e48ad98f5632122e@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 08 Notice of Electronic Participation - Commissioner Hill\n\
+ nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeting
+ s/commissionconferences/archive/2022/20220808commissionconference/08082022
+ NoticeElecParticipation.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2022/20220808commissionconference/08082022Notic
+ eElecParticipation.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20260808T000000
+DTEND;TZID=America/Chicago:20260808T020000
+DTSTAMP:20260814T225229Z
+UID:34161ba70ebbd343d2ef@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 08 Notice of the Commissioner Meeting\n\nSource: https://www
+ .tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeetin
+ gs/archive/20221/2022-08-08/August%208\,%202022%20Notice%20of%20the%20Comm
+ issioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-08-08/August%208,%202022%20Notice%20o
+ f%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20260809T000000
+DTEND;TZID=America/Chicago:20260809T020000
+DTSTAMP:20260814T225229Z
+UID:e7a8b4e7f8d19512b326@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 09 Notice of the Commissioner Meeting\n\nSource: https://www
+ .tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeetin
+ gs/archive/20251/2025-08-18/August%2018\,%202025%20Notice%20of%20the%20Com
+ missioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20251/2025-08-18/August%2018,%202025%20Notice%20
+ of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20260809T000000
+DTEND;TZID=America/Chicago:20260809T020000
+DTSTAMP:20260814T225229Z
+UID:a2b1edd7fc1725bb1912@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 09 Meeting Minutes\n\nSource: https://www.tn.gov/content/dam
+ /tn/publicutility/documents/meetings/commissionermeetings/archive/20211/20
+ 21-08-09/CommissionerMeetingMinutes08092021.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20211/2021-08-09/CommissionerMeetingMinutes08092
+ 021.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20260809T000000
+DTEND;TZID=America/Chicago:20260809T020000
+DTSTAMP:20260814T225229Z
+UID:6ee4249b1b60d2fc055a@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 09 Notice of Electronic Participation - Commissioner Hill\n\
+ nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeting
+ s/commissionconferences/archive/2021/20210809commissionconference/08092021
+ NoticeElecParticipation.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2021/20210809commissionconference/08092021Notic
+ eElecParticipation.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20260812T000000
+DTEND;TZID=America/Chicago:20260812T020000
+DTSTAMP:20260814T225229Z
+UID:6391a33f801376566a68@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 12 Meeting Minutes\n\nSource: https://www.tn.gov/content/dam
+ /tn/publicutility/documents/meetings/commissionermeetings/archive/20241/20
+ 24-08-12/CommissionerMeetingMinutes08122024.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20241/2024-08-12/CommissionerMeetingMinutes08122
+ 024.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Morrison
+DTSTART;TZID=America/Chicago:20260812T000000
+DTEND;TZID=America/Chicago:20260812T020000
+DTSTAMP:20260814T225229Z
+UID:6a9935261804a2a9eecd@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 12 Notice of Electronic Participation - Commissioner Morriso
+ n\n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/mee
+ tings/commissionconferences/archive/2024/20240812commissionconference/0812
+ 2024NoticeElecParticipationMorrison.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2024/20240812commissionconference/08122024Notic
+ eElecParticipationMorrison.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20260812T000000
+DTEND;TZID=America/Chicago:20260812T020000
+DTSTAMP:20260814T225229Z
+UID:ca2cc06db73de5452a5b@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 12 Notice of Electronic Participation - Commissioner Hill\n\
+ nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeting
+ s/commissionconferences/archive/2024/20240812commissionconference/08122024
+ NoticeElecParticipationHill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2024/20240812commissionconference/08122024Notic
+ eElecParticipationHill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20260812T000000
+DTEND;TZID=America/Chicago:20260812T020000
+DTSTAMP:20260814T225229Z
+UID:8cac70f84bd6ae26f2bf@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 12 Notice of the Commissioner Meeting\n\nSource: https://www
+ .tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeetin
+ gs/archive/20241/2024-08-12/August%2012\,%202024%20%20Notice%20of%20the%20
+ Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20241/2024-08-12/August%2012,%202024%20%20Notice
+ %20of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[TN] TPUC Commission Conference
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:f95ac731b42af4c19bda@psc-calendar
 CATEGORIES:TN,Decision / Order
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
@@ -24,11 +275,678 @@ URL:https://www.tn.gov/tpuc/agency/calendar-of-upcoming-events/2026/8/17/t
  puc-commission-conference-august-17--2026.html
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[TN] Notice of Amendment to Agenda Item
+DTSTART;TZID=America/Chicago:20260817T000000
+DTEND;TZID=America/Chicago:20260817T020000
+DTSTAMP:20260814T225229Z
+UID:cc122b603f3600c44244@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 17\, 2026 - Notice of Amendment to Agenda Item\n\nSource: ht
+ tps://www.tn.gov/content/dam/tn/publicutility/documents/meetings/commissio
+ nconferences/2026/20260817ConferenceItems/20260811%20Notice%20of%20Amendme
+ nt%20to%20Agenda%20Item%20Scheduled%20for%20August%202026%20Commission%20C
+ onference.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/2026/20260817ConferenceItems/20260811%20Notice%20of%20A
+ mendment%20to%20Agenda%20Item%20Scheduled%20for%20August%202026%20Commissi
+ on%20Conference.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20260817T000000
+DTEND;TZID=America/Chicago:20260817T020000
+DTSTAMP:20260814T225229Z
+UID:5e6c8662b19c953f4ddf@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 17\, 2026 - Notice of Electronic Participation - Commissione
+ r Hill\n\nSource: https://www.tn.gov/content/dam/tn/publicutility/document
+ s/meetings/commissionconferences/2026/20260817ConferenceItems/August%2017%
+ 2c%202026%20%20Notice%20Electronic%20Participation%20Commission%20Conferen
+ ce_%20Commissioner%20Kenneth%20Hill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/2026/20260817ConferenceItems/August%2017%2c%202026%20%2
+ 0Notice%20Electronic%20Participation%20Commission%20Conference_%20Commissi
+ oner%20Kenneth%20Hill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice and Agenda for Commission Conference
+DTSTART;TZID=America/Chicago:20260817T000000
+DTEND;TZID=America/Chicago:20260817T020000
+DTSTAMP:20260814T225229Z
+UID:94efab2edaa7821ece32@psc-calendar
+CATEGORIES:TN,Decision / Order
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
+ cision / Order\n\nAugust 17\, 2026 - Notice and Agenda for Commission Conf
+ erence\n\nSource: https://www.tn.gov/content/dam/tn/publicutility/document
+ s/meetings/commissionconferences/2026/20260817ConferenceItems/August%2017%
+ 2c%202026%20CommissionConferenceAgenda.pdf
+PRIORITY:5
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/2026/20260817ConferenceItems/August%2017%2c%202026%20Co
+ mmissionConferenceAgenda.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill - Noti
+ ce and Agenda of the Commissioner Meeting - Commissioner Meeting's Meeting
+  Minutes - Amended Notice and Agenda of the Commissioner Meeting - Notice 
+ of Electronic Participation - Commis
+DTSTART;TZID=America/Chicago:20260817T000000
+DTEND;TZID=America/Chicago:20260817T020000
+DTSTAMP:20260814T225229Z
+UID:278dfe2c47e7ba44ff17@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 17\, 2026 - Notice of Electronic Participation - Commissione
+ r Hill August 17\, 2026 - Notice and Agenda of the Commissioner Meeting Ju
+ ne 01\, 2026 - Commissioner Meeting's Meeting Minutes June 01\, 2026 - Ame
+ nded Notice and Agenda of the Commissioner Meeting June 01\, 2026 - Notice
+  of Electronic Participation - Commissioner Hill June 01\, 2026 - Notice a
+ nd Agenda of the Commissioner Meeting\n\nSource: https://www.tn.gov/conten
+ t/dam/tn/publicutility/documents/meetings/commissionermeetings/2026/202608
+ 17commissionermeeting/August%2017%2c%202026%20Notice%20Electronic%20Partic
+ ipation%20Commissioner%20Meeting_Commissioner%20Kenneth%20Hill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/2026/20260817commissionermeeting/August%2017%2c%202026%2
+ 0Notice%20Electronic%20Participation%20Commissioner%20Meeting_Commissioner
+ %20Kenneth%20Hill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice and Agenda of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20260817T000000
+DTEND;TZID=America/Chicago:20260817T020000
+DTSTAMP:20260814T225229Z
+UID:3d8b33e92eb5f5b9db92@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 17\, 2026 - Notice and Agenda of the Commissioner Meeting\n\
+ nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeting
+ s/commissionermeetings/2026/20260817commissionermeeting/August%2017\,%2020
+ 26%20Notice%20and%20Agenda%20Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/2026/20260817commissionermeeting/August%2017,%202026%20N
+ otice%20and%20Agenda%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20260818T000000
+DTEND;TZID=America/Chicago:20260818T020000
+DTSTAMP:20260814T225229Z
+UID:b251f304d834c039ca45@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 18 Meeting Minutes\n\nSource: https://www.tn.gov/content/dam
+ /tn/publicutility/documents/meetings/commissionermeetings/archive/20251/20
+ 25-08-18/CommissionerMeetingMinutes08182025.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20251/2025-08-18/CommissionerMeetingMinutes08182
+ 025.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20260818T000000
+DTEND;TZID=America/Chicago:20260818T020000
+DTSTAMP:20260814T225229Z
+UID:360ab1ee579f7cda7ca3@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nAugust 18 Notice of Electronic Participation - Commissioner Hill\n\
+ nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeting
+ s/commissionconferences/archive/2025/20250818commissionconference/08182025
+ NoticeElecParticipationHill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2025/20250818commissionconference/08182025Notic
+ eElecParticipationHill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20260909T000000
+DTEND;TZID=America/Chicago:20260909T020000
+DTSTAMP:20260814T225229Z
+UID:75071b49c3bf8c0ea0f8@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 09 Meeting Minutes\n\nSource: https://www.tn.gov/content/
+ dam/tn/publicutility/documents/meetings/commissionermeetings/archive/20241
+ /2024-09-09/CommissionerMeetingMinutes09092024.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20241/2024-09-09/CommissionerMeetingMinutes09092
+ 024.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Morrison
+DTSTART;TZID=America/Chicago:20260909T000000
+DTEND;TZID=America/Chicago:20260909T020000
+DTSTAMP:20260814T225229Z
+UID:9105f129b98cfd8b6154@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 09 Notice of Electronic Participation - Commissioner Morr
+ ison\n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/
+ meetings/commissionconferences/archive/2024/20240909commissionconference/0
+ 9092024NoticeElecParticipationMorrison.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2024/20240909commissionconference/09092024Notic
+ eElecParticipationMorrison.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20260909T000000
+DTEND;TZID=America/Chicago:20260909T020000
+DTSTAMP:20260814T225229Z
+UID:3fff792b17afa94f2d12@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 09 Notice of Electronic Participation - Commissioner Hill
+ \n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meet
+ ings/commissionconferences/archive/2024/20240909commissionconference/09092
+ 024NoticeElecParticipationHill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2024/20240909commissionconference/09092024Notic
+ eElecParticipationHill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20260909T000000
+DTEND;TZID=America/Chicago:20260909T020000
+DTSTAMP:20260814T225229Z
+UID:e3d0958f8b2b7a1d1a64@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 09 Notice of the Commissioner Meeting\n\nSource: https://
+ www.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermee
+ tings/archive/20241/2024-09-09/September%209\,%202024%20Notice%20of%20the%
+ 20Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20241/2024-09-09/September%209,%202024%20Notice%
+ 20of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20260911T000000
+DTEND;TZID=America/Chicago:20260911T020000
+DTSTAMP:20260814T225229Z
+UID:8b312b3d6a8f5845d7d1@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 11 Meeting Minutes\n\nSource: https://www.tn.gov/content/
+ dam/tn/publicutility/documents/meetings/commissionermeetings/archive/20231
+ /2023-09-11/CommissionerMeetingMinutes09112023.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20231/2023-09-11/CommissionerMeetingMinutes09112
+ 023.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20260911T000000
+DTEND;TZID=America/Chicago:20260911T020000
+DTSTAMP:20260814T225229Z
+UID:5440f8ab289c5b0f35c3@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 11 Notice of Electronic Participation - Commissioner Hill
+ \n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meet
+ ings/commissionconferences/archive/2023/20230911commissionconference/09112
+ 023NoticeElecParticipationHill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2023/20230911commissionconference/09112023Notic
+ eElecParticipationHill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20260911T000000
+DTEND;TZID=America/Chicago:20260911T020000
+DTSTAMP:20260814T225229Z
+UID:8628af1e499cbc80a8ac@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 11 Notice of the Commissioner Meeting\n\nSource: https://
+ www.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermee
+ tings/archive/20231/2023-09-11/September%2011\,%202023%20%20Notice%20of%20
+ the%20Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20231/2023-09-11/September%2011,%202023%20%20Not
+ ice%20of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20260912T000000
+DTEND;TZID=America/Chicago:20260912T020000
+DTSTAMP:20260814T225229Z
+UID:fa3118753e0e1b319e07@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 12 Meeting Minutes\n\nSource: https://www.tn.gov/content/
+ dam/tn/publicutility/documents/meetings/commissionermeetings/archive/20221
+ /2022-09-12/CommissionerMeetingMinutes09122022.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-09-12/CommissionerMeetingMinutes09122
+ 022.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20260912T000000
+DTEND;TZID=America/Chicago:20260912T020000
+DTSTAMP:20260814T225229Z
+UID:04c8c19e51c3766f8611@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 12 Notice of Electronic Participation - Commissioner Hill
+ \n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meet
+ ings/commissionconferences/archive/2022/20220912commissionconference/09122
+ 022NoticeElecParticipation.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2022/20220912commissionconference/09122022Notic
+ eElecParticipation.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20260912T000000
+DTEND;TZID=America/Chicago:20260912T020000
+DTSTAMP:20260814T225229Z
+UID:f3a224a50d4ddafcf275@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 12 Notice of the Commissioner Meeting\n\nSource: https://
+ www.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermee
+ tings/archive/20221/2022-09-12/September%2012\,%202022%20Notice%20of%20the
+ %20Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-09-12/September%2012,%202022%20Notice
+ %20of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20260920T000000
+DTEND;TZID=America/Chicago:20260920T020000
+DTSTAMP:20260814T225229Z
+UID:d25524490afe897d44b1@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 20 Meeting Minutes\n\nSource: https://www.tn.gov/content/
+ dam/tn/publicutility/documents/meetings/commissionermeetings/archive/20211
+ /2021-09-20/CommissionerMeetingMinutes09202021.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20211/2021-09-20/CommissionerMeetingMinutes09202
+ 021.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20260920T000000
+DTEND;TZID=America/Chicago:20260920T020000
+DTSTAMP:20260814T225229Z
+UID:b8f27afac9184e1f62c5@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 20 Notice of Electronic Participation - Commissioner Hill
+ \n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meet
+ ings/commissionconferences/archive/2021/20210920commissionconference/09202
+ 021NoticeElecParticipation.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2021/20210920commissionconference/09202021Notic
+ eElecParticipation.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20260920T000000
+DTEND;TZID=America/Chicago:20260920T020000
+DTSTAMP:20260814T225229Z
+UID:fb39063526ce543e869f@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nSeptember 20 Notice of the Commissioner Meeting\n\nSource: https://
+ www.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermee
+ tings/archive/20221/2022-09-12/September%2012\,%202022%20Notice%20of%20the
+ %20Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-09-12/September%2012,%202022%20Notice
+ %20of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20261010T000000
+DTEND;TZID=America/Chicago:20261010T020000
+DTSTAMP:20260814T225229Z
+UID:1f5d6ffb1a13bc257c51@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nOctober 10 Meeting Minutes\n\nSource: https://www.tn.gov/content/da
+ m/tn/publicutility/documents/meetings/commissionermeetings/archive/20221/2
+ 022-10-10/CommissionerMeetingMinutes10102022.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-10-10/CommissionerMeetingMinutes10102
+ 022.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20261010T000000
+DTEND;TZID=America/Chicago:20261010T020000
+DTSTAMP:20260814T225229Z
+UID:be444c0a6b93bafb46fb@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nOctober 10 Notice of Electronic Participation - Commissioner Hill\n
+ \nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meetin
+ gs/commissionconferences/archive/2022/20221010commissionconference/1010202
+ 2NoticeElecParticipation.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2022/20221010commissionconference/10102022Notic
+ eElecParticipation.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20261010T000000
+DTEND;TZID=America/Chicago:20261010T020000
+DTSTAMP:20260814T225229Z
+UID:f65dff5e9cae5ea61cdd@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nOctober 10 Notice of the Commissioner Meeting\n\nSource: https://ww
+ w.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeeti
+ ngs/archive/20221/2022-10-10/October%2010\,%202022%20Notice%20of%20the%20C
+ ommissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-10-10/October%2010,%202022%20Notice%2
+ 0of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20261101T000000
+DTEND;TZID=America/Chicago:20261101T020000
+DTSTAMP:20260814T225229Z
+UID:4de80c3274f9df56522f@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 01 Meeting Minutes\n\nSource: https://www.tn.gov/content/d
+ am/tn/publicutility/documents/meetings/commissionermeetings/archive/20211/
+ 2021-11-01/CommissionerMeetingMinutes11012021.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20211/2021-11-01/CommissionerMeetingMinutes11012
+ 021.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20261101T000000
+DTEND;TZID=America/Chicago:20261101T020000
+DTSTAMP:20260814T225229Z
+UID:74d1c16a6d26e8ab1e0c@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 01 Notice of Electronic Participation - Commissioner Hill\
+ n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeti
+ ngs/commissionconferences/archive/2021/20211101commissionconference/Notice
+ %20of%20Electronic%20Participation%20November%20Commission%20Conference%20
+ (10-22-21).pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2021/20211101commissionconference/Notice%20of%2
+ 0Electronic%20Participation%20November%20Commission%20Conference%20(10-22-
+ 21).pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20261101T000000
+DTEND;TZID=America/Chicago:20261101T020000
+DTSTAMP:20260814T225229Z
+UID:50c211f9141b50262df2@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 01 Notice of the Commissioner Meeting\n\nSource: https://w
+ ww.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeet
+ ings/archive/20211/2021-11-01/November%201\,%202021%20Notice%20of%20the%20
+ Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20211/2021-11-01/November%201,%202021%20Notice%2
+ 0of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20261106T000000
+DTEND;TZID=America/Chicago:20261106T020000
+DTSTAMP:20260814T225229Z
+UID:feffbb6f73e867fd4c67@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 06 Meeting Minutes\n\nSource: https://www.tn.gov/content/d
+ am/tn/publicutility/documents/meetings/commissionermeetings/archive/20231/
+ 2023-11-06/CommissionerMeetingMinutes11062023.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20231/2023-11-06/CommissionerMeetingMinutes11062
+ 023.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20261106T000000
+DTEND;TZID=America/Chicago:20261106T020000
+DTSTAMP:20260814T225229Z
+UID:da6b1f74b0c6a4462434@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 06 Notice of the Commissioner Meeting\n\nSource: https://w
+ ww.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeet
+ ings/archive/20231/2023-11-06/November%206\,%202023%20Notice%20of%20the%20
+ Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20231/2023-11-06/November%206,%202023%20Notice%2
+ 0of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20261107T000000
+DTEND;TZID=America/Chicago:20261107T020000
+DTSTAMP:20260814T225229Z
+UID:316e399952738a3c4f82@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 07 Meeting Minutes\n\nSource: https://www.tn.gov/content/d
+ am/tn/publicutility/documents/meetings/commissionermeetings/archive/20231/
+ 2023-01-17/CommissionerMeetingMinutes01172023.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20231/2023-01-17/CommissionerMeetingMinutes01172
+ 023.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Jones
+DTSTART;TZID=America/Chicago:20261107T000000
+DTEND;TZID=America/Chicago:20261107T020000
+DTSTAMP:20260814T225229Z
+UID:66a185c2bd13d8b7230e@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 07 Notice of Electronic Participation - Commissioner Jones
+ \n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meet
+ ings/commissionconferences/archive/2022/20221107commissionconference/11072
+ 022NoticeElecParticipationJones.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2022/20221107commissionconference/11072022Notic
+ eElecParticipationJones.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20261107T000000
+DTEND;TZID=America/Chicago:20261107T020000
+DTSTAMP:20260814T225229Z
+UID:7b7cc0e2a3cbe946b06c@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 07 Notice of Electronic Participation - Commissioner Hill\
+ n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeti
+ ngs/commissionconferences/archive/2022/20221107commissionconference/110720
+ 22NoticeElecParticipationHill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2022/20221107commissionconference/11072022Notic
+ eElecParticipationHill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20261107T000000
+DTEND;TZID=America/Chicago:20261107T020000
+DTSTAMP:20260814T225229Z
+UID:9a0ea5f30419a9169463@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 07 Notice of the Commissioner Meeting\n\nSource: https://w
+ ww.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeet
+ ings/archive/20221/2022-11-07/November%207\,%202022%20Notice%20of%20the%20
+ Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-11-07/November%207,%202022%20Notice%2
+ 0of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20261118T000000
+DTEND;TZID=America/Chicago:20261118T020000
+DTSTAMP:20260814T225229Z
+UID:cd0a3b01582b624baffd@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 18 Meeting Minutes\n\nSource: https://www.tn.gov/content/d
+ am/tn/publicutility/documents/meetings/commissionermeetings/archive/20241/
+ 2024-11-18/CommissionerMeetingMinutes11182024.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20241/2024-11-18/CommissionerMeetingMinutes11182
+ 024.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20261118T000000
+DTEND;TZID=America/Chicago:20261118T020000
+DTSTAMP:20260814T225229Z
+UID:4129f9ce92875921859e@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 18 Notice of Electronic Participation - Commissioner Hill\
+ n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeti
+ ngs/commissionconferences/archive/2024/20241118commissionconference/111820
+ 24NoticeElecParticipationHill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2024/20241118commissionconference/11182024Notic
+ eElecParticipationHill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Morrison
+DTSTART;TZID=America/Chicago:20261118T000000
+DTEND;TZID=America/Chicago:20261118T020000
+DTSTAMP:20260814T225229Z
+UID:46452e59b83c3277c28a@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 18 Notice of Electronic Participation - Commissioner Morri
+ son\n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/m
+ eetings/commissionconferences/archive/2024/20241118commissionconference/11
+ 182024NoticeElecParticipationMorrison.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2024/20241118commissionconference/11182024Notic
+ eElecParticipationMorrison.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20261118T000000
+DTEND;TZID=America/Chicago:20261118T020000
+DTSTAMP:20260814T225229Z
+UID:ac7301c44c9e8cd16cb9@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nNovember 18 Notice of the Commissioner Meeting\n\nSource: https://w
+ ww.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeet
+ ings/archive/20241/2024-11-18/November%2018\,%202024%20Notice%20of%20the%2
+ 0Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20241/2024-11-18/November%2018,%202024%20Notice%
+ 20of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20270117T000000
+DTEND;TZID=America/Chicago:20270117T020000
+DTSTAMP:20260814T225229Z
+UID:febd0497626bbd5f32be@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nJanuary 17 Meeting Minutes\n\nSource: https://www.tn.gov/content/da
+ m/tn/publicutility/documents/meetings/commissionermeetings/archive/20231/2
+ 023-01-17/CommissionerMeetingMinutes01172023.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20231/2023-01-17/CommissionerMeetingMinutes01172
+ 023.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20270117T000000
+DTEND;TZID=America/Chicago:20270117T020000
+DTSTAMP:20260814T225229Z
+UID:d0f8ecde841fa844ac5f@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nJanuary 17 Notice of Electronic Participation - Commissioner Hill\n
+ \nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meetin
+ gs/commissionconferences/archive/2023/20230117commissionconference/0117202
+ 3NoticeElecParticipationHill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2023/20230117commissionconference/01172023Notic
+ eElecParticipationHill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20270117T000000
+DTEND;TZID=America/Chicago:20270117T020000
+DTSTAMP:20260814T225229Z
+UID:3e64b5afc35b04bbbc99@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nJanuary 17 Notice of the Commissioner Meeting\n\nSource: https://ww
+ w.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeeti
+ ngs/archive/20231/2023-01-17/January%2017\,%202023%20Notice%20of%20the%20C
+ ommissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20231/2023-01-17/January%2017,%202023%20Notice%2
+ 0of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[TN] U.S. Small Business Administration January 22-27\, 2026 Sever
  e Storm Disaster Support Information
 DTSTART;TZID=America/Chicago:20270122T000000
 DTEND;TZID=America/Chicago:20270122T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:835f1e0921b3e0f76683@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -37,5 +955,372 @@ DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
 PRIORITY:9
 URL:https://www.tn.gov/tpuc/divisions/consumer-services-division-csd/small
  -business-administration-disaster-relief-information.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20270216T000000
+DTEND;TZID=America/Chicago:20270216T020000
+DTSTAMP:20260814T225229Z
+UID:25a369ff44b3b189aad7@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nFebruary 16 Meeting Minutes\n\nSource: https://www.tn.gov/tpuc/conf
+ erence-meetings/commissioner-meetings.html
+PRIORITY:9
+URL:https://www.tn.gov/tpuc/conference-meetings/commissioner-meetings.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of April Commission Conference WebEx Meeting Access
+DTSTART;TZID=America/Chicago:20270216T000000
+DTEND;TZID=America/Chicago:20270216T020000
+DTSTAMP:20260814T225229Z
+UID:2262cd04a98c8e395a5e@psc-calendar
+CATEGORIES:TN,Decision / Order
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
+ cision / Order\n\nFebruary 16 Notice of April Commission Conference WebEx 
+ Meeting Access\n\nSource: https://www.tn.gov/content/dam/tn/publicutility/
+ documents/meetings/commissionconferences/archive/2021/20210216commissionco
+ nference/02162021ENoticeAccessCode.pdf
+PRIORITY:5
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2021/20210216commissionconference/02162021ENoti
+ ceAccessCode.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of April Commission Conference Held Electronically via
+  WebEx
+DTSTART;TZID=America/Chicago:20270216T000000
+DTEND;TZID=America/Chicago:20270216T020000
+DTSTAMP:20260814T225229Z
+UID:7fc752cc58d4a1933580@psc-calendar
+CATEGORIES:TN,Decision / Order
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
+ cision / Order\n\nFebruary 16 Notice of April Commission Conference Held E
+ lectronically via WebEx\n\nSource: https://www.tn.gov/content/dam/tn/publi
+ cutility/documents/meetings/commissionconferences/archive/2021/20210216com
+ missionconference/02162021ENotice.pdf
+PRIORITY:5
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2021/20210216commissionconference/02162021ENoti
+ ce.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20270216T000000
+DTEND;TZID=America/Chicago:20270216T020000
+DTSTAMP:20260814T225229Z
+UID:bd02f5399e5eb14b4a9d@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nFebruary 16 Notice of the Commissioner Meeting\n\nSource: https://w
+ ww.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeet
+ ings/archive/20211/20210216commissionermeeting/February%2016%2c%202021%20N
+ otice%20of%20the%20Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20211/20210216commissionermeeting/February%2016%
+ 2c%202021%20Notice%20of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20270220T000000
+DTEND;TZID=America/Chicago:20270220T020000
+DTSTAMP:20260814T225229Z
+UID:1fc8ca3c82f79471dc31@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nFebruary 20 Meeting Minutes\n\nSource: https://www.tn.gov/content/d
+ am/tn/publicutility/documents/meetings/commissionermeetings/archive/20241/
+ 2024-02-20/CommissionerMeetingMinutes02202024.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20241/2024-02-20/CommissionerMeetingMinutes02202
+ 024.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Jones
+DTSTART;TZID=America/Chicago:20270220T000000
+DTEND;TZID=America/Chicago:20270220T020000
+DTSTAMP:20260814T225229Z
+UID:3c9a1a8873610669c785@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nFebruary 20 Notice of Electronic Participation - Commissioner Jones
+ \n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meet
+ ings/commissionconferences/archive/2024/20240220commissionconference/02202
+ 024NoticeElecParticipationJones.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2024/20240220commissionconference/02202024Notic
+ eElecParticipationJones.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20270220T000000
+DTEND;TZID=America/Chicago:20270220T020000
+DTSTAMP:20260814T225229Z
+UID:2f8e286ded271bca3b9e@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nFebruary 20 Notice of Electronic Participation - Commissioner Hill\
+ n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeti
+ ngs/commissionconferences/archive/2024/20240220commissionconference/022020
+ 24NoticeElecParticipationHill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2024/20240220commissionconference/02202024Notic
+ eElecParticipationHill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20270220T000000
+DTEND;TZID=America/Chicago:20270220T020000
+DTSTAMP:20260814T225229Z
+UID:ad3544440a503e0a0a74@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nFebruary 20 Notice of the Commissioner Meeting\n\nSource: https://w
+ ww.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeet
+ ings/archive/20241/2024-02-20/February%2020\,%202024%20Notice%20of%20the%2
+ 0Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20241/2024-02-20/February%2020,%202024%20Notice%
+ 20of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20270228T000000
+DTEND;TZID=America/Chicago:20270228T020000
+DTSTAMP:20260814T225229Z
+UID:84bc17625a1f53ab9757@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nFebruary 28 Meeting Minutes\n\nSource: https://www.tn.gov/content/d
+ am/tn/publicutility/documents/meetings/commissionermeetings/archive/20221/
+ 2022-02-28/CommissionerMeetingMinutes02282022.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-02-28/CommissionerMeetingMinutes02282
+ 022.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20270228T000000
+DTEND;TZID=America/Chicago:20270228T020000
+DTSTAMP:20260814T225229Z
+UID:b37b8c1cb5f842622cb6@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nFebruary 28 Notice of Electronic Participation - Commissioner Hill\
+ n\nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeti
+ ngs/commissionconferences/archive/2022/20220228commissionconference/022820
+ 22NoticeElecParticipation.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2022/20220228commissionconference/02282022Notic
+ eElecParticipation.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20270228T000000
+DTEND;TZID=America/Chicago:20270228T020000
+DTSTAMP:20260814T225229Z
+UID:22b5525fcc1087dcd883@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nFebruary 28 Notice of the Commissioner Meeting\n\nSource: https://w
+ ww.tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeet
+ ings/archive/20221/2022-02-28/February%2028\,%202022%20Notice%20of%20the%2
+ 0Commissioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-02-28/February%2028,%202022%20Notice%
+ 20of%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20270320T000000
+DTEND;TZID=America/Chicago:20270320T020000
+DTSTAMP:20260814T225229Z
+UID:e2040734c6fa1242a635@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nMarch 20 Meeting Minutes\n\nSource: https://www.tn.gov/content/dam/
+ tn/publicutility/documents/meetings/commissionermeetings/archive/20231/202
+ 3-03-20/CommissionerMeetingMinutes03202023.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20231/2023-03-20/CommissionerMeetingMinutes03202
+ 023.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20270320T000000
+DTEND;TZID=America/Chicago:20270320T020000
+DTSTAMP:20260814T225229Z
+UID:8542cbcd9ab13025a1c4@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nMarch 20 Notice of Electronic Participation - Commissioner Hill\n\n
+ Source: https://www.tn.gov/content/dam/tn/publicutility/documents/meetings
+ /commissionconferences/archive/2023/20230320commissionconference/03202023N
+ oticeElecParticipationHill.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2023/20230320commissionconference/03202023Notic
+ eElecParticipationHill.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20270320T000000
+DTEND;TZID=America/Chicago:20270320T020000
+DTSTAMP:20260814T225229Z
+UID:5ab12c935b871d08351d@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nMarch 20 Notice of the Commissioner Meeting\n\nSource: https://www.
+ tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeeting
+ s/archive/20231/2023-03-20/March%2020\,%202023%20Notice%20of%20the%20Commi
+ ssioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20231/2023-03-20/March%2020,%202023%20Notice%20o
+ f%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20270321T000000
+DTEND;TZID=America/Chicago:20270321T020000
+DTSTAMP:20260814T225229Z
+UID:71ead844446d40b13ca4@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nMarch 21 Meeting Minutes\n\nSource: https://www.tn.gov/content/dam/
+ tn/publicutility/documents/meetings/commissionermeetings/archive/20221/202
+ 2-03-21/CommissionerMeetingMinutes03212022.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-03-21/CommissionerMeetingMinutes03212
+ 022.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Jones
+DTSTART;TZID=America/Chicago:20270321T000000
+DTEND;TZID=America/Chicago:20270321T020000
+DTSTAMP:20260814T225229Z
+UID:00eb973066113746d4d8@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nMarch 21 Notice of Electronic Participation - Commissioner Jones\n\
+ nSource: https://www.tn.gov/content/dam/tn/publicutility/documents/meeting
+ s/commissionconferences/archive/2022/20220321commissionconference/03212022
+ NoticeElecParticipationJones.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2022/20220321commissionconference/03212022Notic
+ eElecParticipationJones.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
+DTSTART;TZID=America/Chicago:20270321T000000
+DTEND;TZID=America/Chicago:20270321T020000
+DTSTAMP:20260814T225229Z
+UID:ad8f9fd5b9d17cedbe33@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nMarch 21 Notice of Electronic Participation - Commissioner Hill\n\n
+ Source: https://www.tn.gov/content/dam/tn/publicutility/documents/meetings
+ /commissionconferences/archive/2022/20220321commissionconference/03212022N
+ oticeElecParticipation.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2022/20220321commissionconference/03212022Notic
+ eElecParticipation.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20270321T000000
+DTEND;TZID=America/Chicago:20270321T020000
+DTSTAMP:20260814T225229Z
+UID:26e9ec10faee68bbdff3@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nMarch 21 Notice of the Commissioner Meeting\n\nSource: https://www.
+ tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeeting
+ s/archive/20221/2022-03-21/March%2021\,%202022%20Notice%20of%20the%20Commi
+ ssioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20221/2022-03-21/March%2021,%202022%20Notice%20o
+ f%20the%20Commissioner%20Meeting.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Meeting Minutes
+DTSTART;TZID=America/Chicago:20270412T000000
+DTEND;TZID=America/Chicago:20270412T020000
+DTSTAMP:20260814T225229Z
+UID:1cfd4fe497a5939ee2c6@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nApril 12 Meeting Minutes\n\nSource: https://www.tn.gov/content/dam/
+ tn/publicutility/documents/meetings/commissionermeetings/archive/20211/202
+ 1-04-12/CommissionerMeetingMinutes04212021.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20211/2021-04-12/CommissionerMeetingMinutes04212
+ 021.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of April Commission Conference WebEx Meeting Access
+DTSTART;TZID=America/Chicago:20270412T000000
+DTEND;TZID=America/Chicago:20270412T020000
+DTSTAMP:20260814T225229Z
+UID:9719c99d4d0a65083a0d@psc-calendar
+CATEGORIES:TN,Decision / Order
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
+ cision / Order\n\nApril 12 Notice of April Commission Conference WebEx Mee
+ ting Access\n\nSource: https://www.tn.gov/content/dam/tn/publicutility/doc
+ uments/meetings/commissionconferences/archive/2021/20210412commissionconfe
+ rence/04122021ENotice.pdf
+PRIORITY:5
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2021/20210412commissionconference/04122021ENoti
+ ce.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of April Commission Conference Held Electronically via
+  WebEx
+DTSTART;TZID=America/Chicago:20270412T000000
+DTEND;TZID=America/Chicago:20270412T020000
+DTSTAMP:20260814T225229Z
+UID:2f4359dff2e634905afb@psc-calendar
+CATEGORIES:TN,Decision / Order
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
+ cision / Order\n\nApril 12 Notice of April Commission Conference Held Elec
+ tronically via WebEx\n\nSource: https://www.tn.gov/content/dam/tn/publicut
+ ility/documents/meetings/commissionconferences/archive/2021/20210412commis
+ sionconference/04122021ENotice.pdf
+PRIORITY:5
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionconferences/archive/2021/20210412commissionconference/04122021ENoti
+ ce.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TN] Notice of the Commissioner Meeting
+DTSTART;TZID=America/Chicago:20270412T000000
+DTEND;TZID=America/Chicago:20270412T020000
+DTSTAMP:20260814T225229Z
+UID:4ce5117e633c26711d82@psc-calendar
+CATEGORIES:TN,Other
+DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
+ her\n\nApril 12 Notice of the Commissioner Meeting\n\nSource: https://www.
+ tn.gov/content/dam/tn/publicutility/documents/meetings/commissionermeeting
+ s/archive/20211/2021-04-12/April%2012\,%202021%20Notice%20of%20the%20Commi
+ ssioner%20Meeting.pdf
+PRIORITY:9
+URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
+ missionermeetings/archive/20211/2021-04-12/April%2012,%202021%20Notice%20o
+ f%20the%20Commissioner%20Meeting.pdf
 END:VEVENT
 END:VCALENDAR

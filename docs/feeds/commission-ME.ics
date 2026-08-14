@@ -10,9 +10,9 @@ X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:[ME] Hearing Regarding CASD No. 2025-V-00759
-DTSTART;TZID=America/New_York:20260814T000000
-DTEND;TZID=America/New_York:20260814T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260814T133000
+DTEND;TZID=America/New_York:20260814T153000
+DTSTAMP:20260814T225229Z
 UID:94a20ae190352fa7e691@psc-calendar
 CATEGORIES:ME,Other
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Othe
@@ -25,9 +25,9 @@ URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
-DTSTART;TZID=America/New_York:20260818T000000
-DTEND;TZID=America/New_York:20260818T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260818T100000
+DTEND;TZID=America/New_York:20260818T120000
+DTSTAMP:20260814T225229Z
 UID:8131c78bb4c788c5fb97@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci
@@ -40,9 +40,9 @@ URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-deliberations
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] SNGME Initial Case & Technical Conference
-DTSTART;TZID=America/New_York:20260818T000000
-DTEND;TZID=America/New_York:20260818T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260818T130000
+DTEND;TZID=America/New_York:20260818T150000
+DTSTAMP:20260814T225229Z
 UID:ebfa39b4fe8108dd5aa9@psc-calendar
 CATEGORIES:ME,Evidentiary Hearing
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
@@ -57,9 +57,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Technical Conference on Intervenor Testimony/Bench Analysis -
   CMP Rate Case (DAY 1)
-DTSTART;TZID=America/New_York:20260819T000000
-DTEND;TZID=America/New_York:20260819T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260819T090000
+DTEND;TZID=America/New_York:20260819T110000
+DTSTAMP:20260814T225229Z
 UID:9ab6d45d0507270e256a@psc-calendar
 CATEGORIES:ME,Evidentiary Hearing
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
@@ -73,9 +73,9 @@ URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Settlement Conference
-DTSTART;TZID=America/New_York:20260820T000000
-DTEND;TZID=America/New_York:20260820T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260820T130000
+DTEND;TZID=America/New_York:20260820T150000
+DTSTAMP:20260814T225229Z
 UID:1ef72cd35b7389fe61ab@psc-calendar
 CATEGORIES:ME,Procedural Milestone
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Proc
@@ -89,9 +89,9 @@ URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Follow-on Settlement Conference
-DTSTART;TZID=America/New_York:20260821T000000
-DTEND;TZID=America/New_York:20260821T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260821T110000
+DTEND;TZID=America/New_York:20260821T130000
+DTSTAMP:20260814T225229Z
 UID:5006c977a5ca86746274@psc-calendar
 CATEGORIES:ME,Procedural Milestone
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Proc
@@ -106,9 +106,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Technical Conference on Rebuttal Testimony/Bench Analysis - C
  MP Rate Case (DAY 2)
-DTSTART;TZID=America/New_York:20260824T000000
-DTEND;TZID=America/New_York:20260824T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260824T090000
+DTEND;TZID=America/New_York:20260824T110000
+DTSTAMP:20260814T225229Z
 UID:981f93ba326534eb95e9@psc-calendar
 CATEGORIES:ME,Evidentiary Hearing
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
@@ -122,9 +122,9 @@ URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
-DTSTART;TZID=America/New_York:20260825T000000
-DTEND;TZID=America/New_York:20260825T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+DTSTAMP:20260814T225229Z
 UID:92f90678c1c52aae8785@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci
@@ -137,9 +137,9 @@ URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-deliberations
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Technical Conference (CMP Section 60 T&Cs)
-DTSTART;TZID=America/New_York:20260825T000000
-DTEND;TZID=America/New_York:20260825T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260825T130000
+DTEND;TZID=America/New_York:20260825T150000
+DTSTAMP:20260814T225229Z
 UID:7096fb8d114af0828b70@psc-calendar
 CATEGORIES:ME,Evidentiary Hearing
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
@@ -154,9 +154,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Commission Review of DOER Request for Proposals for Energy St
  orage
-DTSTART;TZID=America/New_York:20260826T000000
-DTEND;TZID=America/New_York:20260826T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260826T090000
+DTEND;TZID=America/New_York:20260826T110000
+DTSTAMP:20260814T225229Z
 UID:0ef09bb84983861a87fe@psc-calendar
 CATEGORIES:ME,Evidentiary Hearing
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
@@ -171,9 +171,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Technical Conference on Intervenor Testimony/Bench Analysis -
   CMP Rate Case (DAY 3)
-DTSTART;TZID=America/New_York:20260827T000000
-DTEND;TZID=America/New_York:20260827T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260827T090000
+DTEND;TZID=America/New_York:20260827T110000
+DTSTAMP:20260814T225229Z
 UID:fe2b6ce61b9e387b48e6@psc-calendar
 CATEGORIES:ME,Evidentiary Hearing
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
@@ -188,9 +188,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] KLPD Petition for CPCN for the Water Street Substation Projec
  t
-DTSTART;TZID=America/New_York:20260828T000000
-DTEND;TZID=America/New_York:20260828T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260828T090000
+DTEND;TZID=America/New_York:20260828T110000
+DTSTAMP:20260814T225229Z
 UID:113f6890a067f34c677c@psc-calendar
 CATEGORIES:ME,Evidentiary Hearing
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
@@ -204,9 +204,9 @@ URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
-DTSTART;TZID=America/New_York:20260901T000000
-DTEND;TZID=America/New_York:20260901T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260901T100000
+DTEND;TZID=America/New_York:20260901T120000
+DTSTAMP:20260814T225229Z
 UID:388dd6f773588622fc77@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci
@@ -219,9 +219,9 @@ URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-deliberations
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
-DTSTART;TZID=America/New_York:20260915T000000
-DTEND;TZID=America/New_York:20260915T020000
-DTSTAMP:20260814T222047Z
+DTSTART;TZID=America/New_York:20260915T100000
+DTEND;TZID=America/New_York:20260915T120000
+DTSTAMP:20260814T225229Z
 UID:28d96d2f62d13130928c@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci

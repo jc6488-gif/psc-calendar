@@ -15,7 +15,7 @@ SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF ARTESIAN WATER COMPANY\,
  , KENT2700”)(FILED JULY 16\, 2026) – PSC DO
 DTSTART;TZID=America/New_York:20260716T000000
 DTEND;TZID=America/New_York:20260716T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:403bd4cc6d356243fea0@psc-calendar
 CATEGORIES:DE,Other
 DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
@@ -32,7 +32,7 @@ SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF TIDEWATER UTILITIES\, INC
  7\, 2026) – PSC DOCKET NO. 26-0728 – Pleas
 DTSTART;TZID=America/New_York:20260717T000000
 DTEND;TZID=America/New_York:20260717T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:f58a64a99bd0c63ec654@psc-calendar
 CATEGORIES:DE,Other
 DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
@@ -49,7 +49,7 @@ SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF ARTESIAN WATER COMPANY\,
  FILED JULY 29\, 2026) – PSC DOCKET NO. 26-07
 DTSTART;TZID=America/New_York:20260729T000000
 DTEND;TZID=America/New_York:20260729T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:60735ef6ad26fe77de9a@psc-calendar
 CATEGORIES:DE,Other
 DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
@@ -66,7 +66,7 @@ SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF ARTESIAN WASTEWATER MANAG
  SSEX67.00\, SUSSEX54.00\, SUSSEX2.00”) (FIL
 DTSTART;TZID=America/New_York:20260730T000000
 DTEND;TZID=America/New_York:20260730T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:43ad8adb9786ba70dc4b@psc-calendar
 CATEGORIES:DE,Other
 DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
@@ -81,7 +81,7 @@ SUMMARY:[DE] IN THE MATTER OF THE APPLICATION OF TIDEWATER UTILITIES\, INC
   3\, 2026) – PSC DOCKET NO. 26-0780 – Plea
 DTSTART;TZID=America/New_York:20260803T000000
 DTEND;TZID=America/New_York:20260803T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:cb5ed87a4851227aea92@psc-calendar
 CATEGORIES:DE,Other
 DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
@@ -98,7 +98,7 @@ SUMMARY:[DE] I N THE MATTER OF THE APPLICATION OF TIDEWATER UTILITIES\, IN
  \, 2026) – PSC DOCKET NO. 26-0779 – Please
 DTSTART;TZID=America/New_York:20260803T000000
 DTEND;TZID=America/New_York:20260803T020000
-DTSTAMP:20260814T222047Z
+DTSTAMP:20260814T225229Z
 UID:78a046a9f5868cd46ab6@psc-calendar
 CATEGORIES:DE,Other
 DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
@@ -107,5 +107,24 @@ DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Oth
 PRIORITY:9
 URL:https://depsc.delaware.gov/wp-content/uploads/sites/54/2026/08/26-0779
  -TUI-Public-Notice-003.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DE] 25-1555 -A hybrid Public Comment Session for Delmarva Power &
+  Light Co.’s application for an increase in electric base rates and othe
+ r miscellaneous tariff changes is scheduled for August 19\, 2026\, at 6:00
+  pm at the Commission’s hearing room and
+DTSTART;TZID=America/New_York:20260819T180000
+DTEND;TZID=America/New_York:20260819T200000
+DTSTAMP:20260814T225229Z
+UID:25d17bb53ee476615174@psc-calendar
+CATEGORIES:DE,Public Comment Hearing
+DESCRIPTION:Commission: Delaware Public Service Commission (DE)\nType: Pub
+ lic Comment Hearing\n\nSource: https://depsc.delaware.gov/wp-content/uploa
+ ds/sites/54/2026/07/25-1555-Delmarva-Power-Electric-Rate-Case-Notice-for-P
+ ublic-Comment-Session-Final.pdf
+PRIORITY:9
+URL:https://depsc.delaware.gov/wp-content/uploads/sites/54/2026/07/25-1555
+ -Delmarva-Power-Electric-Rate-Case-Notice-for-Public-Comment-Session-Final
+ .pdf
 END:VEVENT
 END:VCALENDAR
