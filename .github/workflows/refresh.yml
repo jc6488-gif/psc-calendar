@@ -47,9 +47,11 @@ jobs:
         id: scrape
         env:
           # Commissions are more tolerant of a scraper that identifies itself.
+          # Keep the Mozilla-compat prefix: OH/CO/VT WAFs reject any UA
+          # without it (see fetch.py).
           PSCAL_USER_AGENT: >-
-            psc-calendar/1.0 (regulatory calendar aggregator;
-            +https://github.com/${{ github.repository }})
+            Mozilla/5.0 (compatible; psc-calendar/1.0; regulatory calendar
+            aggregator; +https://github.com/${{ github.repository }})
           PSCAL_CACHE_TTL: "0"
         run: python -m src.pscal.pipeline --workers 6
         continue-on-error: true
