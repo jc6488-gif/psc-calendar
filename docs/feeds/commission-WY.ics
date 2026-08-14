@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20260720T000000
 DTEND;TZID=America/Denver:20260720T020000
-DTSTAMP:20260814T221039Z
+DTSTAMP:20260814T222047Z
 UID:6072e5b6f27ac1dc4d63@psc-calendar
 CATEGORIES:WY,Decision / Order
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20260820T000000
 DTEND;TZID=America/Denver:20260820T020000
-DTSTAMP:20260814T221039Z
+DTSTAMP:20260814T222047Z
 UID:e8b1a3df38817c4480cd@psc-calendar
 CATEGORIES:WY,Decision / Order
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
@@ -40,7 +40,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20260920T000000
 DTEND;TZID=America/Denver:20260920T020000
-DTSTAMP:20260814T221039Z
+DTSTAMP:20260814T222047Z
 UID:2e4cd8091e077f56f8cc@psc-calendar
 CATEGORIES:WY,Decision / Order
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
@@ -55,7 +55,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20261020T000000
 DTEND;TZID=America/Denver:20261020T020000
-DTSTAMP:20260814T221039Z
+DTSTAMP:20260814T222047Z
 UID:5775ec97f0d6cbffe47b@psc-calendar
 CATEGORIES:WY,Decision / Order
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
@@ -70,7 +70,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20261120T000000
 DTEND;TZID=America/Denver:20261120T020000
-DTSTAMP:20260814T221039Z
+DTSTAMP:20260814T222047Z
 UID:9bfa820e228dbb4caf0c@psc-calendar
 CATEGORIES:WY,Decision / Order
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
@@ -85,7 +85,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20261220T000000
 DTEND;TZID=America/Denver:20261220T020000
-DTSTAMP:20260814T221039Z
+DTSTAMP:20260814T222047Z
 UID:e592dbab09373e3b4959@psc-calendar
 CATEGORIES:WY,Decision / Order
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
@@ -100,7 +100,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T221039Z
+DTSTAMP:20260814T222047Z
 UID:789fd236074cc2803f08@psc-calendar
 CATEGORIES:WY,Decision / Order
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
@@ -115,7 +115,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
-DTSTAMP:20260814T221039Z
+DTSTAMP:20260814T222047Z
 UID:8ab89b0b6ec55ccceae7@psc-calendar
 CATEGORIES:WY,Decision / Order
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
@@ -130,7 +130,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] Open meeting (agenda/minutes posted)
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
-DTSTAMP:20260814T221039Z
+DTSTAMP:20260814T222047Z
 UID:31a126410b2dfb9f1704@psc-calendar
 CATEGORIES:WY,Decision / Order
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Deci
