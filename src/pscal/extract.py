@@ -333,6 +333,51 @@ def from_federal_register(url: str, tz: ZoneInfo, now: datetime) -> list[RawEven
     return out
 
 
+_TELERIK_APPTS = re.compile(r'"appointments":"((?:[^"\\]|\\.)*)"')
+
+
+def from_telerik_scheduler(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
+    """Telerik RadScheduler (ASP.NET) calendars - PUCT uses one.
+
+    The rendered HTML positions events in a grid with no per-event date, so
+    HTML parsers see subjects but not when they happen (the "Open Meeting ...
+    delete" garbage of 2026-08-14). But the widget's init script embeds every
+    appointment as JSON with exact start/end, location, a Cancelled flag and
+    a NavigateUrl. Parse that instead.
+    """
+    import json as _json
+
+    m = _TELERIK_APPTS.search(html)
+    if not m:
+        raise ValueError("no RadScheduler appointment data in page")
+    # The appointments value is a JSON string inside JSON - unescape it as
+    # JSON, not unicode_escape, or multi-byte characters get mangled.
+    appts = _json.loads(_json.loads(f'"{m.group(1)}"'))
+    out: list[RawEvent] = []
+    for a in appts:
+        attrs = {}
+        for r in a.get("resources", []):
+            attrs.update(r.get("attributes") or {})
+        if str(attrs.get("Cancelled", "")).lower() == "true":
+            continue
+        start = _parse_dt(a.get("start"), tz)
+        if not start or not in_window(start, now):
+            continue
+        end = _parse_dt(a.get("end"), tz)
+        url = (attrs.get("NavigateUrl") or "").strip()
+        out.append(RawEvent(
+            title=(a.get("subject") or "").strip() or "Meeting",
+            start=start,
+            end=end,
+            location=(attrs.get("Location") or "").strip(),
+            description=(a.get("description") or "").strip(),
+            url=url if url.startswith(("http://", "https://")) else source_url,
+        ))
+    if not out:
+        raise ValueError("RadScheduler data had no in-window appointments")
+    return out
+
+
 def from_html_cards(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
     soup = _soup(html)
     for tag in soup(["script", "style", "nav", "footer", "header"]):
@@ -623,6 +668,7 @@ def extract_auto(url: str, tz_name: str, now: datetime) -> tuple[list[RawEvent],
             log.debug("discovered feed %s failed: %s", feed_url, e)
 
     attempts = [
+        ("telerik", lambda: from_telerik_scheduler(html, tz, now, url)),
         ("jsonld", lambda: from_jsonld(html, tz, now, url)),
         ("tribe", lambda: from_tribe_api(url, tz, now)),
         ("html_cards", lambda: from_html_cards(html, tz, now, url)),

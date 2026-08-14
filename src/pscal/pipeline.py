@@ -121,8 +121,15 @@ def dedupe(events: list[Event]) -> list[Event]:
         if cur is None:
             best[k] = e
             continue
-        score_new = (len(e.dockets), len(e.description), bool(e.url))
-        score_cur = (len(cur.dockets), len(cur.description), bool(cur.url))
+        # A record with a real clock time beats a date-only one - "9:30 AM"
+        # from the scheduler must not be clobbered by a dateline mention
+        # (which parses to midnight without carrying the all_day flag).
+        # Timedness outranks docket count because dockets are unioned from
+        # both records below, while start time comes only from the winner.
+        def _timed(x: Event) -> bool:
+            return not x.all_day and (x.start.hour, x.start.minute) != (0, 0)
+        score_new = (_timed(e), len(e.dockets), len(e.description), bool(e.url))
+        score_cur = (_timed(cur), len(cur.dockets), len(cur.description), bool(cur.url))
         if score_new > score_cur:
             e.dockets = sorted(set(e.dockets) | set(cur.dockets))
             best[k] = e

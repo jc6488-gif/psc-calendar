@@ -863,15 +863,20 @@ commissions:
     sources:
       # The month grid is the RICHEST source - it carries hearings on the merits,
       # prehearing conferences and public hearings that never reach the RSS summary.
+      # RE-AUDITED 2026-08-14: www.puc.texas.gov now serves a broken TLS
+      # chain - every www URL fails; the bare puc.texas.gov host works. The
+      # calendar is a Telerik RadScheduler whose rendered HTML carries no
+      # per-event dates (that produced one garbage event and dropped the
+      # 8/14 Open Meeting); the telerik extractor reads the widget's
+      # embedded JSON instead: exact times, location, Cancelled flag, link.
+      # VERIFIED WORKING 2026-08-14 (9 events incl. same-day Open Meeting)
+      - url: https://puc.texas.gov/agency/calendar/calendar.aspx?view=list
+        strategy: auto
       - url: https://puc.texas.gov/agency/calendar/calendar.aspx?view=month
         strategy: auto
-      - url: https://www.puc.texas.gov/agency/calendar/getcalendarrss.aspx
+      - url: https://puc.texas.gov/agency/calendar/getcalendarrss.aspx
         strategy: rss
-      - url: https://www.puc.texas.gov/agency/calendar/Default.aspx
-        strategy: auto
-      - url: https://www.puc.texas.gov/agency/calendar/agendas/Default.aspx
-        strategy: auto
-      - url: https://www.puc.texas.gov/Default.aspx
+      - url: https://puc.texas.gov/
         strategy: auto
     notes: >-
       Oncor (SRE), AEP Texas + SWEPCO (AEP), CenterPoint Houston (CNP), Entergy Texas

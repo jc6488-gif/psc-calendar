@@ -253,3 +253,34 @@ def test_federal_register_extractor(monkeypatch):
     assert "Sunshine Act" in e["title"]
     assert e["url"].startswith("https://www.federalregister.gov/")
     assert classify.classify_type(e["title"] + " sunshine act")[0] == "decision"
+
+
+def test_telerik_scheduler_extractor():
+    """PUCT's Telerik widget hides dates from the rendered HTML; the init
+    JSON carries them. Cancelled appointments drop; en-dash survives."""
+    evs = extract.from_telerik_scheduler(F.HTML_TELERIK, ZoneInfo("America/Chicago"), NOW, "u")
+    assert len(evs) == 2
+    om = next(e for e in evs if e["title"] == "Open Meeting")
+    assert (om["start"].month, om["start"].day, om["start"].hour) == (8, 14, 9)
+    assert om["location"] == "Commissioners Hearing Room"
+    assert om["url"].startswith("https://ftp.puc.texas.gov/")
+    assert any("–" in e["title"] for e in evs)      # – decoded, not mangled
+    assert not any("Cancelled Meeting" in e["title"] for e in evs)
+
+
+def test_dedupe_prefers_timed_record_over_dateline():
+    """A 9:30 AM record from a scheduler must not be clobbered by a
+    date-only mention of the same meeting that parses to midnight."""
+    from datetime import datetime as dt
+    base = dict(commission="TX", commission_name="T", state="TX", tz="America/Chicago",
+                title="Open Meeting", event_type="decision", event_type_label="Decision / Order",
+                weight=3)
+    midnight = Event(start=dt(2026, 8, 14, 0, 0, tzinfo=ZoneInfo("America/Chicago")),
+                     description="long dateline description with docket 12345",
+                     dockets=["12345"], **base)
+    timed = Event(start=dt(2026, 8, 14, 9, 30, tzinfo=ZoneInfo("America/Chicago")),
+                  location="Commissioners Hearing Room", **base)
+    merged = dedupe([midnight, timed])
+    assert len(merged) == 1
+    assert merged[0].start.hour == 9 and merged[0].start.minute == 30
+    assert "12345" in merged[0].dockets      # docket unioned from the loser
