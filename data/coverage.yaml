@@ -302,7 +302,7 @@ event_types:
     weight: 3
     patterns: ["open meeting", "voting meeting", "agenda conference", "administrative session",
                "business meeting", "commission meeting", "public meeting", "decision conference",
-               "deliberation", "commission conference", "executive session", "agenda meeting",
+               "sunshine act", "deliberation", "commission conference", "executive session", "agenda meeting",
                "public service commission session", "commission session", "work session",
                "special open meeting", "regular meeting"]
 

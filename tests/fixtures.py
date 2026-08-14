@@ -118,3 +118,22 @@ HTML_LOOSE = """<!DOCTYPE html><html><body><div id="content">
 HTML_WITH_ICS_LINK = """<!DOCTYPE html><html><head>
 <link rel="alternate" type="text/calendar" href="/calendar/export.ics">
 </head><body><p>Subscribe to our calendar</p></body></html>"""
+
+
+# Federal Register API search response (mirrors the real shape returned for
+# FERC Sunshine Act notices - the `dates` field carries the meeting datetime).
+FR_API_JSON = b"""{
+ "count": 2,
+ "results": [
+  {"title": "Sunshine Act Meetings",
+   "publication_date": "2026-07-14",
+   "dates": "September 17, 2026, 10:00 a.m.",
+   "abstract": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/07/14/2026-14125/sunshine-act-meetings"},
+  {"title": "Sunshine Act Meeting Notice",
+   "publication_date": "2026-06-16",
+   "dates": "June 18, 2026, 10:00 a.m.",
+   "abstract": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12079/sunshine-act-meeting-notice"}
+ ]
+}"""

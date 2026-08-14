@@ -33,6 +33,16 @@ commissions:
     home: https://www.ferc.gov
     docket_search: https://elibrary.ferc.gov/eLibrary/search
     sources:
+      # RE-AUDITED 2026-08-14: ferc.gov WAF-blocks every automated client
+      # (403 to tool, compat and browser UAs alike). The two ferc.gov URLs
+      # are kept so the health panel shows the block honestly and recovers
+      # automatically if FERC ever lifts it.
+      # VERIFIED WORKING 2026-08-14: the Federal Register API carries FERC's
+      # Sunshine Act meeting notices with the actual meeting date/time in the
+      # `dates` field. Notices post ~2 days before each meeting, so this
+      # yields the next Open Commission Meeting, not a long-horizon calendar.
+      - url: "https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest&conditions%5Bagencies%5D%5B%5D=federal-energy-regulatory-commission&conditions%5Btype%5D%5B%5D=NOTICE&conditions%5Bterm%5D=%22sunshine%20act%22&fields%5B%5D=title&fields%5B%5D=publication_date&fields%5B%5D=dates&fields%5B%5D=abstract&fields%5B%5D=html_url"
+        strategy: federal_register
       - url: https://www.ferc.gov/news-events/events
         strategy: auto
       - url: https://www.ferc.gov/media/commission-meeting-calendar

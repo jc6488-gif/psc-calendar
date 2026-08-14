@@ -304,6 +304,35 @@ def _text(el) -> str:
     return re.sub(r"\s+", " ", el.get_text(" ", strip=True)) if el else ""
 
 
+def from_federal_register(url: str, tz: ZoneInfo, now: datetime) -> list[RawEvent]:
+    """Federal Register API search results (www.federalregister.gov/api/v1).
+
+    FERC's own site WAF-blocks all automated clients, but its Sunshine Act
+    meeting notices are published in the Federal Register, whose API is
+    public and returns the actual meeting date/time in the `dates` field.
+    Notices appear ~2 days before each meeting, so this yields the next
+    meeting, not a long-horizon calendar.
+    """
+    import json as _json
+
+    body, _ = get(url)
+    data = _json.loads(body)
+    out: list[RawEvent] = []
+    for r in data.get("results", []):
+        start = _parse_dt(r.get("dates"), tz)
+        if not start or not in_window(start, now):
+            continue
+        out.append(RawEvent(
+            title=r.get("title") or "Sunshine Act Meeting",
+            start=start,
+            description=(r.get("abstract") or "")[:800],
+            url=r.get("html_url") or url,
+        ))
+    if not out:
+        raise ValueError("no in-window documents with parseable dates")
+    return out
+
+
 def from_html_cards(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
     soup = _soup(html)
     for tag in soup(["script", "style", "nav", "footer", "header"]):
@@ -626,6 +655,8 @@ def extract(url: str, strategy: str, tz_name: str, now: datetime) -> tuple[list[
         return from_tribe_api(url, tz, now), "tribe"
     if strategy == "drupal":
         return from_drupal_json(url, tz, now), "drupal"
+    if strategy == "federal_register":
+        return from_federal_register(url, tz, now), "federal_register"
     html, _ = get_text(url)
     if strategy == "jsonld":
         return from_jsonld(html, tz, now, url), "jsonld"

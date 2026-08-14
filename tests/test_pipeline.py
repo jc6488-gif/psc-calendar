@@ -333,3 +333,18 @@ def test_every_ticker_maps_to_a_real_commission():
         for sub in c["subsidiaries"]:
             for code in sub["commissions"]:
                 assert code in comms, f"{c['ticker']}/{sub['name']} -> unknown commission {code}"
+
+
+def test_federal_register_extractor(monkeypatch):
+    """FERC's site blocks all scrapers; Sunshine Act notices in the Federal
+    Register API are the working source. The meeting datetime comes from the
+    `dates` field, not the publication date, and out-of-window past meetings
+    drop."""
+    monkeypatch.setattr(extract, "get", lambda url: (F.FR_API_JSON, "application/json"))
+    evs = extract.from_federal_register("https://api.example/fr", ZoneInfo(TZ), NOW)
+    assert len(evs) == 1  # June meeting is >30 days past -> dropped
+    e = evs[0]
+    assert e["start"].month == 9 and e["start"].day == 17 and e["start"].hour == 10
+    assert "Sunshine Act" in e["title"]
+    assert e["url"].startswith("https://www.federalregister.gov/")
+    assert classify.classify_type(e["title"] + " sunshine act")[0] == "decision"
