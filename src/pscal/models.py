@@ -70,8 +70,6 @@ class Event:
     url: str = ""
     source_url: str = ""
     dockets: list[str] = field(default_factory=list)
-    tickers: list[str] = field(default_factory=list)
-    subsidiaries: list[str] = field(default_factory=list)
     event_type: str = "other"
     event_type_label: str = "Other"
     weight: int = 1

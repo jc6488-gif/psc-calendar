@@ -53,11 +53,9 @@ def probe(spec: dict, raw: bool = False) -> bool:
         for e in evs[:8]:
             title = e.get("title", "")[:88]
             blob = f"{title} {e.get('description','')}"
-            tk, _ = classify.match_companies(blob, code)
             et, _, _ = classify.classify_type(blob)
             dk = extract_dockets(title, e.get("description"))
-            tag = f"{Y}{','.join(tk)}{D}" if tk else "-"
-            print(f"     {e['start']:%Y-%m-%d %H:%M}  {tag:<18} {et:<20} {title}")
+            print(f"     {e['start']:%Y-%m-%d %H:%M}  {et:<20} {title}")
             if dk:
                 print(f"       dockets: {', '.join(dk)}")
         if len(evs) > 8:

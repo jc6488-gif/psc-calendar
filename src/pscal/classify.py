@@ -1,10 +1,9 @@
-"""Attribute events to covered tickers and classify what kind of date they are."""
+"""Classify what kind of regulatory date an event is."""
 from __future__ import annotations
 
 import re
 from functools import lru_cache
 from pathlib import Path
-from typing import Iterable
 
 import yaml
 
@@ -21,24 +20,6 @@ def load_commissions() -> list[dict]:
     return yaml.safe_load((DATA / "commissions.yaml").read_text())["commissions"]
 
 
-def _boundary_pattern(term: str) -> re.Pattern:
-    """Word-boundary match so 'APS ' doesn't hit 'lapse' and 'SCE ' doesn't hit 'scene'."""
-    esc = re.escape(term.strip())
-    esc = esc.replace(r"\ ", r"\s+")
-    return re.compile(rf"(?<![A-Za-z0-9]){esc}(?![A-Za-z0-9])", re.IGNORECASE)
-
-
-@lru_cache(maxsize=1)
-def _company_matchers() -> list[tuple[str, list[re.Pattern], set[str], list[dict]]]:
-    out = []
-    for c in load_coverage()["companies"]:
-        pats = [_boundary_pattern(m) for m in c.get("match", [])]
-        subs = c.get("subsidiaries", []) or []
-        comms = {code for s in subs for code in s.get("commissions", [])}
-        out.append((c["ticker"], pats, comms, subs))
-    return out
-
-
 @lru_cache(maxsize=1)
 def _type_rules() -> list[tuple[str, str, int, list[re.Pattern]]]:
     rules = []
@@ -47,46 +28,6 @@ def _type_rules() -> list[tuple[str, str, int, list[re.Pattern]]]:
                 for p in t.get("patterns", [])]
         rules.append((t["id"], t["label"], t.get("weight", 1), pats))
     return rules
-
-
-def match_companies(
-    text: str, commission_code: str, title: str | None = None
-) -> tuple[list[str], list[str]]:
-    """Return (tickers, subsidiary_names) mentioned in the text.
-
-    The commission code is used as a tiebreaker, not a filter: a Georgia Power
-    item on the FERC calendar should still tag SO.
-
-    Evidence rule: when the event's commission is NOT one the company appears
-    before, a match must occur in the title, not merely the description. A
-    company name buried in body text on a foreign state's calendar is usually
-    a coincidence - a community event at a venue called "Pinnacle West" in
-    Indianapolis tagged PNW (Arizona) on the first live run. Callers that pass
-    only a blob (title is None) keep the old whole-text behaviour.
-    """
-    tickers: list[str] = []
-    subs: list[str] = []
-    for ticker, pats, comms, sub_defs in _company_matchers():
-        in_jurisdiction = commission_code in comms
-        haystack = text if (in_jurisdiction or title is None) else title
-        hit = any(p.search(haystack) for p in pats)
-        if not hit:
-            continue
-        tickers.append(ticker)
-        for s in sub_defs:
-            name = s.get("name", "")
-            abbr = s.get("abbr")
-            if commission_code in (s.get("commissions") or []):
-                if _boundary_pattern(name).search(text) or (
-                    abbr and _boundary_pattern(abbr).search(text)
-                ):
-                    subs.append(name)
-        if not subs:
-            for s in sub_defs:
-                if commission_code in (s.get("commissions") or []):
-                    subs.append(s["name"])
-                    break
-    return tickers, subs
 
 
 def classify_type(text: str) -> tuple[str, str, int]:

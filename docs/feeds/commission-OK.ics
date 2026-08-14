@@ -12,7 +12,11 @@ BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: July 29\, 2026
 DTSTART;TZID=America/Chicago:20260729T000000
 DTEND;TZID=America/Chicago:20260729T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:5c05f4a11ae6c0336cd3@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
@@ -26,7 +30,11 @@ BEGIN:VEVENT
 SUMMARY:[OK] Agenda Recording
 DTSTART;TZID=America/Chicago:20260729T000000
 DTEND;TZID=America/Chicago:20260729T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:63ca2b8fd43abfe6a934@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
@@ -42,7 +50,11 @@ BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: August 6\, 2026
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:4d20cd4a9cc4bdfda18d@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
@@ -56,7 +68,11 @@ BEGIN:VEVENT
 SUMMARY:[OK] Agenda Recording
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:29ec472f843c0f23963a@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
@@ -72,7 +88,11 @@ BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: August 11\, 2026
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:233292c1c9494f62bb9c@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
@@ -85,7 +105,11 @@ BEGIN:VEVENT
 SUMMARY:[OK] Agenda Recording (pt 1) Recordding (pt 2)
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:1e9d9dd9a763cbe151de@psc-calendar
 CATEGORIES:OK,Decision / Order
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Decisi
@@ -101,7 +125,11 @@ BEGIN:VEVENT
 SUMMARY:[OK] Agenda Watch Live
 DTSTART;TZID=America/Chicago:20260819T000000
 DTEND;TZID=America/Chicago:20260819T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:a47389341835f3652807@psc-calendar
 CATEGORIES:OK,Other
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Other\

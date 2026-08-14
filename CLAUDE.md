@@ -7,8 +7,13 @@ Context for Claude sessions working in this repo.
 A daily-refreshed calendar of US utility regulatory dates, built for **equity
 research on the utilities sector**. It scrapes the public meeting and hearing
 calendars of all 50 state utility commissions (plus FERC, DC and the New Orleans
-City Council), attributes each date to a covered ticker where it can, and
-publishes a filterable dashboard, subscribable `.ics` feeds, and `events.json`.
+City Council) and publishes a filterable dashboard, subscribable `.ics` feeds,
+and `events.json`.
+
+**Scope decision (2026-08-14): open meetings/hearings/schedules ONLY.** The
+user's coworker maintains a separate ticker-tagged calendar of rate-case docket
+milestones; this tool is the complementary layer. Ticker attribution and
+rate-case detection were removed at her direction - do not reintroduce them.
 
 **The user is an equity research analyst covering 26 utility names.** A date
 matters if it moves an estimate: order dates, testimony deadlines, statutory
@@ -31,9 +36,10 @@ her. Therefore:
   across three or four pages.
 - **More sources is strictly better.** Overlap is free — duplicates collapse and
   repeat fetches hit the cache.
-- **Never let a zero read as "quiet."** A covered name with no dates whose
-  commission failed to scrape is *unknown*, not calm. The roster strip shows all
-  26 tickers always and marks such zeros red with ⚠.
+- **Never let silence read as "quiet."** A commission that failed to scrape is
+  *unknown*, not calm. The dashboard's health panel shows every commission's
+  scrape status; a red cell means dates may be missing, never that nothing is
+  scheduled.
 - **Never emit a link you can't stand behind.** Relative or malformed hrefs fall
   back to the page the event was scraped from.
 
@@ -52,14 +58,15 @@ list actual dated events before it is committed.** Mark confirmed entries
 `# VERIFIED WORKING <date>`. When you add a source, fetch it. When you can't
 fetch it, say so in the registry `notes` rather than committing a hopeful guess.
 
-## Coverage universe
+## Coverage universe (reference only)
 
 AEP · ATO · BKH · CNP · CPK · DTE · ED · EIX · ETR · EVRG · HE · LNT · MGEE · NI ·
 NWE · OGE · OGS · PCG · PEG · PNW · POR · SO · SR · SRE · SWX · WEC
 
-Defined in `data/coverage.yaml`. All 26 appear in the dashboard at all times.
-**Do not filter the roster to names that happen to have events** — that bug made
-the tool look like it covered 13 names when it covered 26.
+The 26 names sit before 39 of the 54 commissions. The `companies` section of
+`data/coverage.yaml` is kept as REFERENCE (it informs which commissions are
+`tier: core` and which blocked states matter most) but is NOT used at runtime -
+attribution was removed 2026-08-14. Only `event_types` is read by the code.
 
 ## How commissions actually publish calendars
 
@@ -128,7 +135,7 @@ data/coverage.yaml      ticker → subsidiary → commission map, event-type rul
 src/pscal/
   fetch.py              HTTP: retries, per-host throttle, on-disk cache
   extract.py            the extraction chain
-  classify.py           ticker attribution, event typing, rate-case detection
+  classify.py           event typing, noise filtering
   models.py             Event dataclass, docket-number regexes
   pipeline.py           scrape all sources → merge → dedupe → emit
   emit_ics.py           RFC 5545 feeds
@@ -239,15 +246,12 @@ alone drops public hearings. Five TX sources are now configured.
 
 ## Honest limitations — state these plainly
 
-- **Attribution is the weakest link.** Commission calendars usually don't name the
-  utility in the title — "Open Meeting," "Administrative Session," "Agenda
-  Meeting." The company is in the agenda PDF or the linked detail page. On real
-  captured data only 4 of 26 names attributed. **Following each event's detail link
-  and parsing parties from the agenda is the single highest-value improvement
-  available**, and would do more for her workflow than any additional state.
+- **No ticker attribution, by design.** Removed 2026-08-14; the coworker's
+  rate-case calendar carries company-level dates. This tool answers "what is
+  each commission doing and when," not "which ticker does it touch."
 - **Docket-level procedural schedules** (testimony deadlines, briefing dates) live
   inside procedural orders, not calendars. Caught only when posted as calendar
-  entries.
+  entries - and rate-case tracking is out of scope here anyway.
 - **City-jurisdiction gas rate cases** (Texas especially) are not covered anywhere.
 - **Extraction accuracy per state is still only proven for the 12 commissions in
   `docs-preview/`.** The other 42 have verified URLs but unproven parsing — the

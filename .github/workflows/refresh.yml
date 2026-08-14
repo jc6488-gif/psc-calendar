@@ -70,8 +70,7 @@ jobs:
           bad = [c for c in cs if not c["ok"]]
           core_bad = [c for c in bad if c["tier"] == "core"]
           print(f"## Calendar refreshed\n")
-          print(f"- **{d['event_count']}** dates tracked "
-                f"({d['covered_event_count']} attributed to coverage names)")
+          print(f"- **{d['event_count']}** dates tracked")
           print(f"- **{len(ok)}/{len(cs)}** sources reporting")
           if core_bad:
               print(f"\n### Core commissions failing ({len(core_bad)})\n")

@@ -12,7 +12,11 @@ BEGIN:VEVENT
 SUMMARY:[FERC] Sunshine Act Meetings
 DTSTART;TZID=America/New_York:20260716T100000
 DTEND;TZID=America/New_York:20260716T120000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:1c29e592d287aa12d755@psc-calendar
 CATEGORIES:FERC,Decision / Order
 DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:

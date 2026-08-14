@@ -53,7 +53,6 @@ def main() -> int:
         evs = []
         for r in raws:
             blob = f"{r.get('title','')} {r.get('description','')}"
-            tk, subs = classify.match_companies(blob, code)
             et, el, w = classify.classify_type(blob)
             evs.append(Event(
                 commission=code, commission_name=name, state=state, tz=tzname,
@@ -61,8 +60,8 @@ def main() -> int:
                 location=r.get("location", ""), description=r.get("description", ""),
                 url=r.get("url", ""), source_url="",
                 dockets=extract_dockets(r.get("title"), r.get("description")),
-                tickers=tk, subsidiaries=subs, event_type=et, event_type_label=el,
-                weight=w + (1 if tk else 0),
+                event_type=et, event_type_label=el,
+                weight=w,
                 scraped_at=NOW.isoformat(),
             ))
         events += evs
@@ -76,18 +75,10 @@ def main() -> int:
 
     events = dedupe(events)
     results.sort(key=lambda r: r.commission)
-    roster = [
-        {"ticker": c["ticker"], "name": c["name"], "sector": c.get("sector", ""),
-         "commissions": sorted({k for sub in c.get("subsidiaries", [])
-                                for k in sub.get("commissions", [])})}
-        for c in classify.load_coverage()["companies"]
-    ]
     payload = {
-        "roster": roster,
         "generated_at": NOW.isoformat(),
         "generated_at_utc": NOW.isoformat(),
         "event_count": len(events),
-        "covered_event_count": sum(1 for e in events if e.tickers),
         "commissions": [r.to_dict() for r in results],
         "events": [e.to_dict() for e in events],
     }
@@ -95,7 +86,6 @@ def main() -> int:
     emit_site.write_site(payload, out, NOW)
     emit_ics.write_all(events, out / "feeds", NOW)
     print(f"{len(events)} demo events -> {out/'index.html'}")
-    print(f"  attributed: {sorted({t for e in events for t in e.tickers})}")
     return 0
 
 

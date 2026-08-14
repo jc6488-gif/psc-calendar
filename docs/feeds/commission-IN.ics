@@ -12,7 +12,11 @@ BEGIN:VEVENT
 SUMMARY:[IN] 7/20/26 to 7/24/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260720T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260720T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ba81fa911ac2a7e02d56@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -26,7 +30,11 @@ BEGIN:VEVENT
 SUMMARY:[IN] 7/27/26 to 7/31/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260727T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260727T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:7f45e23c6a07ac629327@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -40,7 +48,11 @@ BEGIN:VEVENT
 SUMMARY:[IN] Final Agenda
 DTSTART;TZID=America/Indiana/Indianapolis:20260727T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260727T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:24952d15abea3e2842c8@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -53,7 +65,11 @@ BEGIN:VEVENT
 SUMMARY:[IN] 8/3/26 to 8/7/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260803T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260803T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:97638bc471c8c51f997e@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -67,7 +83,11 @@ BEGIN:VEVENT
 SUMMARY:[IN] PDF Amended PDF
 DTSTART;TZID=America/Indiana/Indianapolis:20260805T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260805T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:34cf73412ed3fef5d658@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -80,7 +100,11 @@ BEGIN:VEVENT
 SUMMARY:[IN] 8/10/26 to 8/14/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260810T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260810T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d4dfb33a117b646e655f@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -94,7 +118,11 @@ BEGIN:VEVENT
 SUMMARY:[IN] Final Agenda
 DTSTART;TZID=America/Indiana/Indianapolis:20260813T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260813T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:b4ccfa9cbde63b1ec5d6@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -107,7 +135,11 @@ BEGIN:VEVENT
 SUMMARY:[IN] 8/17/26 to 8/21/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260817T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260817T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:c042a009ea01a5e7cc9e@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -123,7 +155,11 @@ SUMMARY:[IN] & 24\, 2024 – Executive Session Meetings (Cybersecurity Bri
  osted on 9.19.24 | Minutes
 DTSTART;TZID=America/Indiana/Indianapolis:20260923T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260923T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:5972929e4f7e6de37df4@psc-calendar
 CATEGORIES:IN,Decision / Order
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -141,7 +177,11 @@ SUMMARY:[IN] 23\, 2015 – Executive Session Meeting (Cybersecurity Briefi
  ng) Public Notice posted on 10.20.15
 DTSTART;TZID=America/Indiana/Indianapolis:20261022T000000
 DTEND;TZID=America/Indiana/Indianapolis:20261022T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:5d5123b0293484acf2c6@psc-calendar
 CATEGORIES:IN,Decision / Order
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 

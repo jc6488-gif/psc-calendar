@@ -12,7 +12,11 @@ BEGIN:VEVENT
 SUMMARY:[LA] 26 - No Meeting
 DTSTART;TZID=America/Chicago:20260720T000000
 DTEND;TZID=America/Chicago:20260720T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d33369a9eb1e50c2b8f4@psc-calendar
 CATEGORIES:LA,Other
 DESCRIPTION:Commission: Louisiana Public Service Commission (LA)\nType: Ot
@@ -24,7 +28,11 @@ BEGIN:VEVENT
 SUMMARY:[LA] Agenda (posted )
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:abc029f8517515572e90@psc-calendar
 CATEGORIES:LA,Other
 DESCRIPTION:Commission: Louisiana Public Service Commission (LA)\nType: Ot
@@ -37,7 +45,11 @@ BEGIN:VEVENT
 SUMMARY:[LA] Supplemental Agenda (posted )
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:8a94d6543fa7e8c5db67@psc-calendar
 CATEGORIES:LA,Other
 DESCRIPTION:Commission: Louisiana Public Service Commission (LA)\nType: Ot
@@ -50,7 +62,11 @@ BEGIN:VEVENT
 SUMMARY:[LA] Supplemental Agenda
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:0080d3d19f2493d1f00d@psc-calendar
 CATEGORIES:LA,Other
 DESCRIPTION:Commission: Louisiana Public Service Commission (LA)\nType: Ot

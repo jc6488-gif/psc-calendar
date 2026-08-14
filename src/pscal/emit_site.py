@@ -4,7 +4,7 @@ Form choices follow the dataviz method:
   - Four headline numbers -> KPI row of stat tiles, not a bar chart.
   - "How busy is each of the next 12 weeks" -> magnitude over time, single
     series -> column chart in ONE sequential hue, no legend (the title names it).
-  - 26 tickers x 6 event types all carry meaning -> a filterable TABLE, not more
+  - 54 commissions x 6 event types all carry meaning -> a filterable TABLE, not more
     colors. Event-type identity is a dot ALWAYS paired with its text label.
   - Scraper health uses the reserved status palette with icon + label.
 """
@@ -138,22 +138,6 @@ TEMPLATE = r"""<!DOCTYPE html>
   .type { white-space: nowrap; font-size: 12px; color: var(--text-secondary); }
   .st { font-size: 12px; color: var(--text-secondary); white-space: nowrap; }
 
-  /* ---- coverage roster: all 26, always ---- */
-  .roster { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px,1fr));
-            gap: 6px; }
-  .rchip { border: 1px solid var(--border); border-radius: 7px; padding: 6px 8px;
-           cursor: pointer; background: var(--surface-1); text-align: left;
-           font: inherit; color: var(--text-primary); }
-  .rchip:hover { background: var(--hover); }
-  .rchip[aria-pressed="true"] { border-color: var(--accent);
-                                box-shadow: inset 0 0 0 1px var(--accent); }
-  .rchip .t { font-weight: 680; font-size: 12px; letter-spacing: .01em; }
-  .rchip .n { font-size: 17px; font-weight: 640; font-variant-numeric: tabular-nums;
-              line-height: 1.2; }
-  .rchip.zero { opacity: .55; }
-  .rchip.zero .n { color: var(--muted); }
-  .rchip.blocked .n { color: var(--critical); }
-
   /* ---- health ---- */
   .health { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px,1fr));
             gap: 6px; margin-top: 12px; }
@@ -197,20 +181,9 @@ TEMPLATE = r"""<!DOCTYPE html>
   <div class="card kpi"><div class="label">Tracked dates</div>
     <div class="value" id="k-total">—</div>
     <div class="foot" id="k-total-f"></div></div>
-  <div class="card kpi"><div class="label">Names with dates</div>
-    <div class="value" id="k-cov">—</div>
-    <div class="foot" id="k-cov-f"></div></div>
   <div class="card kpi"><div class="label">Next 7 days</div>
     <div class="value" id="k-week">—</div>
     <div class="foot" id="k-week-f"></div></div>
-</div>
-
-<div class="card chartwrap">
-  <div class="chart-title">Coverage universe — all 26 names</div>
-  <div class="chart-sub">Click a ticker to filter. A name showing 0 has no scheduled
-    dates in the current range; check its commission's health below before reading
-    that as a quiet docket.</div>
-  <div class="roster" id="roster"></div>
 </div>
 
 <div class="card chartwrap">
@@ -221,7 +194,6 @@ TEMPLATE = r"""<!DOCTYPE html>
 
 <div class="filters">
   <input type="search" id="q" placeholder="Search title, docket, company…" aria-label="Search">
-  <select id="f-ticker" aria-label="Filter by ticker"><option value="">All tickers</option></select>
   <select id="f-state" aria-label="Filter by commission"><option value="">All commissions</option></select>
   <select id="f-type" aria-label="Filter by event type"><option value="">All event types</option></select>
   <select id="f-range" aria-label="Date range">
@@ -231,7 +203,6 @@ TEMPLATE = r"""<!DOCTYPE html>
     <option value="9999">Everything</option>
     <option value="past">Past 30 days</option>
   </select>
-  <button class="chip" id="f-cov" aria-pressed="false">Coverage only</button>
   <button class="chip" id="reset">Reset</button>
 </div>
 
@@ -243,7 +214,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       <th data-sort="start">Date</th>
       <th data-sort="commission">Comm.</th>
       <th data-sort="title">Event</th>
-      <th data-sort="tickers" class="hide-sm">Coverage</th>
       <th data-sort="event_type" class="hide-sm">Type</th>
       <th data-sort="dockets" class="hide-sm">Docket</th>
     </tr></thead>
@@ -262,14 +232,12 @@ TEMPLATE = r"""<!DOCTYPE html>
       In Google Calendar: <em>Other calendars &rarr; From URL</em>.
     </p>
     <div class="feedrow feeds">
-      <a href="feeds/coverage.ics">Coverage universe (.ics)</a>
       <a href="feeds/high-priority.ics">High priority only (.ics)</a>
       <a href="feeds/all.ics">Everything, all 50 states (.ics)</a>
       <a href="events.json">Raw JSON</a>
     </div>
     <p style="margin:10px 0 0;color:var(--muted);font-size:12px">
-      Per-ticker feeds: <code>feeds/ticker-AEP.ics</code> &middot;
-      per-commission feeds: <code>feeds/commission-OH.ics</code>
+      Per-commission feeds: <code>feeds/commission-OH.ics</code>
     </p>
   </div>
 </details>
@@ -294,11 +262,6 @@ TEMPLATE = r"""<!DOCTYPE html>
   "use strict";
   const DATA = JSON.parse(document.getElementById("payload").textContent);
   const EV = DATA.events;
-  // Full coverage roster. Falls back to whatever appears in the events if an
-  // older payload has no roster, so the file still renders.
-  const ROSTER = DATA.roster && DATA.roster.length ? DATA.roster
-    : [...new Set(EV.flatMap((e) => e.tickers))].sort().map((t) => ({ticker:t, name:t, commissions:[]}));
-  const BAD_COMMS = new Set(DATA.commissions.filter((c) => !c.ok).map((c) => c.commission));
   const TYPE_COLOR = { decision:"var(--s1)", evidentiary_hearing:"var(--s2)",
     procedural:"var(--s3)", public_comment:"var(--s4)", workshop:"var(--s5)", other:"var(--s6)" };
 
@@ -318,18 +281,15 @@ TEMPLATE = r"""<!DOCTYPE html>
     setTheme(document.documentElement.getAttribute("data-theme") !== "dark");
 
   // ---- populate filter options ------------------------------------------
-  const tickers = ROSTER.map((r) => r.ticker).sort();
   const comms = [...new Set(EV.map((e) => e.commission))].sort();
   const commName = {};
   EV.forEach((e) => { commName[e.commission] = e.commission_name; });
   const types = [...new Map(EV.map((e) => [e.event_type, e.event_type_label])).entries()];
 
-  tickers.forEach((t) => $("f-ticker").add(new Option(t, t)));
-  comms.forEach((c) => $("f-ticker") && $("f-state").add(new Option(`${c} — ${commName[c]}`, c)));
+  comms.forEach((c) => $("f-state").add(new Option(`${c} — ${commName[c]}`, c)));
   types.forEach(([id, label]) => $("f-type").add(new Option(label, id)));
 
-  const state = { q:"", ticker:"", comm:"", type:"", range:"90",
-                  cov:false, sort:"start", dir:1 };
+  const state = { q:"", comm:"", type:"", range:"90", sort:"start", dir:1 };
 
   const startOfToday = new Date(); startOfToday.setHours(0, 0, 0, 0);
 
@@ -346,13 +306,10 @@ TEMPLATE = r"""<!DOCTYPE html>
       const d = new Date(e.start);
       if (d < lo) return false;
       if (hi && d > hi) return false;
-      if (state.ticker && !e.tickers.includes(state.ticker)) return false;
       if (state.comm && e.commission !== state.comm) return false;
       if (state.type && e.event_type !== state.type) return false;
-      if (state.cov && !e.tickers.length) return false;
       if (q) {
         const hay = (e.title + " " + e.description + " " + e.dockets.join(" ") + " " +
-                     e.tickers.join(" ") + " " + e.subsidiaries.join(" ") + " " +
                      e.commission + " " + e.commission_name).toLowerCase();
         if (!hay.includes(q)) return false;
       }
@@ -393,25 +350,18 @@ TEMPLATE = r"""<!DOCTYPE html>
     const rows = sorted(filtered());
     lastRows = rows;
 
-    const cov = rows.filter((e) => e.tickers.length).length;
     const wk = rows.filter((e) => {
       const d = new Date(e.start);
       return d >= startOfToday && d <= new Date(startOfToday.getTime() + 7 * 864e5);
     }).length;
 
-    const withDates = new Set(rows.flatMap((e) => e.tickers));
     $("k-total").textContent = rows.length;
     $("k-total-f").textContent = `${DATA.commissions.filter((c) => c.ok).length} of ${DATA.commissions.length} sources reporting`;
-    // This counts NAMES, not events - the old label read as "how much of my
-    // universe is covered", which is a different and much more alarming number.
-    $("k-cov").textContent = `${withDates.size}/${ROSTER.length}`;
-    $("k-cov-f").textContent = `${cov} dates attributed · ${ROSTER.length - withDates.size} names quiet`;
     $("k-week").textContent = wk;
     $("k-week-f").textContent = wk ? "act on these first" : "nothing imminent";
 
     $("count").textContent =
-      `${rows.length} date${rows.length === 1 ? "" : "s"}` +
-      (cov ? ` · ${cov} attributed to coverage` : "");
+      `${rows.length} date${rows.length === 1 ? "" : "s"}`;
 
     const tb = $("rows");
     tb.innerHTML = rows.slice(0, 1200).map((e) => {
@@ -420,51 +370,20 @@ TEMPLATE = r"""<!DOCTYPE html>
       const soon = days >= 0 && days <= 7 ? " soon" : "";
       const tz = e.tz || LOCAL;
       const time = e.all_day ? "all day" : tfmt(tz).format(d);
-      const tks = e.tickers.map((t) => `<span class="tag tk">${esc(t)}</span>`).join("");
-      const sub = e.subsidiaries.length
-        ? `<div class="meta">${esc(e.subsidiaries.slice(0, 2).join(" · "))}</div>` : "";
       const link = e.url
         ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`
         : esc(e.title);
       return `<tr>
         <td class="date${soon}">${dfmt(tz).format(d)}<span class="time">${time}</span></td>
         <td class="st"><span title="${esc(e.commission_name)}">${esc(e.commission)}</span></td>
-        <td class="title">${link}${sub}</td>
-        <td class="hide-sm">${tks}</td>
+        <td class="title">${link}</td>
         <td class="type hide-sm"><span class="dot" style="background:${TYPE_COLOR[e.event_type] || "var(--muted)"}"></span>${esc(e.event_type_label)}</td>
         <td class="docket hide-sm">${esc(e.dockets.slice(0, 2).join(", "))}</td>
       </tr>`;
     }).join("");
 
     $("empty").hidden = rows.length > 0;
-    drawRoster(rows);
     drawChart(rows);
-  }
-
-  // ---- roster: every covered name, including the quiet ones ---------------
-  function drawRoster(rows) {
-    const counts = {};
-    rows.forEach((e) => e.tickers.forEach((t) => { counts[t] = (counts[t] || 0) + 1; }));
-    $("roster").innerHTML = ROSTER.map((r) => {
-      const n = counts[r.ticker] || 0;
-      // A zero next to a failing commission is unknown, not quiet - flag it.
-      const blocked = n === 0 && (r.commissions || []).some((c) => BAD_COMMS.has(c));
-      const cls = "rchip" + (n === 0 ? " zero" : "") + (blocked ? " blocked" : "");
-      const tip = blocked
-        ? `${r.name} — no dates, but ${(r.commissions||[]).filter((c)=>BAD_COMMS.has(c)).join(", ")} failed to scrape`
-        : `${r.name}${r.commissions && r.commissions.length ? " · " + r.commissions.join(", ") : ""}`;
-      return `<button class="${cls}" data-t="${esc(r.ticker)}" title="${esc(tip)}"
-        aria-pressed="${state.ticker === r.ticker}">
-        <div class="t">${esc(r.ticker)}${blocked ? " ⚠" : ""}</div>
-        <div class="n">${n}</div></button>`;
-    }).join("");
-    $("roster").querySelectorAll(".rchip").forEach((b) => {
-      b.onclick = () => {
-        state.ticker = state.ticker === b.dataset.t ? "" : b.dataset.t;
-        $("f-ticker").value = state.ticker;
-        render();
-      };
-    });
   }
 
   // ---- column chart: single series, one hue, no legend --------------------
@@ -521,8 +440,8 @@ TEMPLATE = r"""<!DOCTYPE html>
   // ---- CSV ---------------------------------------------------------------
   $("csv").onclick = () => {
     const rows = sorted(filtered());
-    const head = ["Date","Time","Commission","CommissionName","State","Title","Tickers",
-                  "Subsidiaries","EventType","Dockets","Location","URL"];
+    const head = ["Date","Time","Commission","CommissionName","State","Title",
+                  "EventType","Dockets","Location","URL"];
     const q = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
     const body = rows.map((e) => {
       const d = new Date(e.start);
@@ -532,8 +451,7 @@ TEMPLATE = r"""<!DOCTYPE html>
       const ymd = new Intl.DateTimeFormat("en-CA",
         { year:"numeric", month:"2-digit", day:"2-digit", timeZone: tz }).format(d);
       return [ymd, e.all_day ? "" : tfmt(tz).format(d),
-              e.commission, e.commission_name, e.state, e.title, e.tickers.join(" "),
-              e.subsidiaries.join(" | "), e.event_type_label,
+              e.commission, e.commission_name, e.state, e.title, e.event_type_label,
               e.dockets.join(" "), e.location, e.url].map(q).join(",");
     });
     const blob = new Blob([head.join(",") + "\n" + body.join("\n")],
@@ -548,18 +466,15 @@ TEMPLATE = r"""<!DOCTYPE html>
   // ---- wiring ------------------------------------------------------------
   let t;
   $("q").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value; render(); }, 140); };
-  $("f-ticker").onchange = (e) => { state.ticker = e.target.value; render(); };
   $("f-state").onchange = (e) => { state.comm = e.target.value; render(); };
   $("f-type").onchange = (e) => { state.type = e.target.value; render(); };
   $("f-range").onchange = (e) => { state.range = e.target.value; render(); };
   const toggle = (btn, key) => { btn.onclick = () => {
     state[key] = !state[key]; btn.setAttribute("aria-pressed", String(state[key])); render(); }; };
-  toggle($("f-cov"), "cov");
   $("reset").onclick = () => {
-    Object.assign(state, { q:"", ticker:"", comm:"", type:"", range:"90", cov:false });
-    $("q").value = ""; $("f-ticker").value = ""; $("f-state").value = "";
+    Object.assign(state, { q:"", comm:"", type:"", range:"90" });
+    $("q").value = ""; $("f-state").value = "";
     $("f-type").value = ""; $("f-range").value = "90";
-    $("f-cov").setAttribute("aria-pressed", "false");
     render();
   };
   document.querySelectorAll("th[data-sort]").forEach((th) => {

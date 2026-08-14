@@ -13,7 +13,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Housing Trust Fund Advisory Committee - Jul 21\, 2026
 DTSTART;TZID=America/Chicago:20260721T000000
 DTEND;TZID=America/Chicago:20260721T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:a7b0f36d9aee7f998ab1@psc-calendar
 CATEGORIES:NOLA,Workshop / Conference
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -29,7 +33,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Housing Trust Fund Advisory Committee
 DTSTART;TZID=America/Chicago:20260721T170000
 DTEND;TZID=America/Chicago:20260721T190000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:dcf3e62bc7e5d2486f6c@psc-calendar
 CATEGORIES:NOLA,Workshop / Conference
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -53,7 +61,11 @@ SUMMARY:[NOLA] Joint Transportation-Public Works\, Sanitation\, & Environm
  ent Committee
 DTSTART;TZID=America/Chicago:20260722T000000
 DTEND;TZID=America/Chicago:20260722T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:eb91415c7fb027e68a9d@psc-calendar
 CATEGORIES:NOLA,Public Comment Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -77,7 +89,11 @@ SUMMARY:[NOLA] Joint Utility\, Cable\, Telecommunications and Technology a
  nd Public Works\, Sanitation and Environment Committee - Jul 22\, 2026
 DTSTART;TZID=America/Chicago:20260722T000000
 DTEND;TZID=America/Chicago:20260722T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:fb4ea643688050574435@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -93,7 +109,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Governmental Affairs Committee - Jul 22\, 2026
 DTSTART;TZID=America/Chicago:20260722T000000
 DTEND;TZID=America/Chicago:20260722T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ba50df3bd1b153086faf@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -108,7 +128,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] City Council on 2026-07-22 3:15 PM - Jul 22\, 2026
 DTSTART;TZID=America/Chicago:20260722T000000
 DTEND;TZID=America/Chicago:20260722T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:3aab67e9e18312edfa6d@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -123,7 +147,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] City Council on 2026-07-23 10:00 AM - Jul 23\, 2026
 DTSTART;TZID=America/Chicago:20260723T000000
 DTEND;TZID=America/Chicago:20260723T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ba2f9454d213b777486e@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -138,7 +166,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260723T150000
 DTEND;TZID=America/Chicago:20260723T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:374b2e1e0aedfac1d09a@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -152,7 +184,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Criminal Justice Committee Meeting - Jul 27\, 2026
 DTSTART;TZID=America/Chicago:20260727T000000
 DTEND;TZID=America/Chicago:20260727T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:6c87bedd1d75ffabe7ce@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -167,7 +203,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] City Planning Commission - Jul 28\, 2026
 DTSTART;TZID=America/Chicago:20260728T000000
 DTEND;TZID=America/Chicago:20260728T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:0198bc8c16ccd5cd9ed4@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -183,7 +223,11 @@ SUMMARY:[NOLA] Alcoholic Beverage Control Board Nuisance Hearing - Jul 29\
  , 2026
 DTSTART;TZID=America/Chicago:20260729T000000
 DTEND;TZID=America/Chicago:20260729T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:2c1b323a68f1162ad955@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -199,7 +243,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Alcoholic Beverage Control Board Hearing - Jul 29\, 2026
 DTSTART;TZID=America/Chicago:20260729T000000
 DTEND;TZID=America/Chicago:20260729T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:7521cca948050c7ec377@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -214,7 +262,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] ABCB Sales Tax Hearing
 DTSTART;TZID=America/Chicago:20260729T153000
 DTEND;TZID=America/Chicago:20260729T173000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:4ddc2cedc2af749f2c1a@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -228,7 +280,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] ABCB Nuisance Hearing
 DTSTART;TZID=America/Chicago:20260729T180000
 DTEND;TZID=America/Chicago:20260729T200000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:9e474e1799710b9055b8@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -243,7 +299,11 @@ SUMMARY:[NOLA] Joint Climate Change and Sustainability Committee and Publi
  c Works\, Sanitation and Environment Committee - Jul 30\, 2026
 DTSTART;TZID=America/Chicago:20260730T000000
 DTEND;TZID=America/Chicago:20260730T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:63ffef691861577773aa@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -260,7 +320,11 @@ SUMMARY:[NOLA] Joint Budget and Governmental Affairs Committee Meeting - A
  ug 05\, 2026
 DTSTART;TZID=America/Chicago:20260805T000000
 DTEND;TZID=America/Chicago:20260805T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:2a345ea1849462f61f01@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -276,7 +340,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] City Council on 2026-08-06 10:00 AM - Aug 06\, 2026
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:fd950c3cd7893ba2e000@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -291,7 +359,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260806T150000
 DTEND;TZID=America/Chicago:20260806T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:b3b75dbf744bb2eec4fd@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -305,7 +377,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260808T000000
 DTEND;TZID=America/Chicago:20260808T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:25d8d2feb2bf14395eac@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -328,7 +404,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] City Planning Commission - Aug 11\, 2026
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:239529770462076d72a6@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -344,7 +424,11 @@ SUMMARY:[NOLA] New Orleans Historic District Landmarks Commission - Aug 12
  \, 2026
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:dc5395524fddcbf0a62c@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -360,7 +444,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Governmental Affairs Committee - Aug 13\, 2026
 DTSTART;TZID=America/Chicago:20260813T000000
 DTEND;TZID=America/Chicago:20260813T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:2e6e0b620a853b2c186d@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -375,7 +463,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Revenue Estimating Conference
 DTSTART;TZID=America/Chicago:20260814T000000
 DTEND;TZID=America/Chicago:20260814T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:38b7e8c6d88dedc78906@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -392,7 +484,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260820T150000
 DTEND;TZID=America/Chicago:20260820T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:0c8200df5ebb82d9533c@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -406,7 +502,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Economic Development & Special Development Projects
 DTSTART;TZID=America/Chicago:20260825T150000
 DTEND;TZID=America/Chicago:20260825T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:dfc33c7e955fba8fcb0e@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -421,7 +521,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Housing Trust Fund Advisory Committee
 DTSTART;TZID=America/Chicago:20260826T140000
 DTEND;TZID=America/Chicago:20260826T160000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:0974f2c761b3117df996@psc-calendar
 CATEGORIES:NOLA,Workshop / Conference
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -436,7 +540,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Climate Change and Sustainability Committee
 DTSTART;TZID=America/Chicago:20260826T180000
 DTEND;TZID=America/Chicago:20260826T200000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:9ba32a3ed8fe9baee171@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -451,7 +559,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Transportation Committee
 DTSTART;TZID=America/Chicago:20260827T150000
 DTEND;TZID=America/Chicago:20260827T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:31052c2467b0e5026acb@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -465,7 +577,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Budget/Audit/Board of Review Committee Meeting
 DTSTART;TZID=America/Chicago:20260827T180000
 DTEND;TZID=America/Chicago:20260827T200000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:88b3d110579a24b88b9c@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -480,7 +596,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Governmental Affairs Committee
 DTSTART;TZID=America/Chicago:20260831T000000
 DTEND;TZID=America/Chicago:20260831T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:cb2268af884646c0ecbf@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -502,7 +622,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Criminal Justice Committee
 DTSTART;TZID=America/Chicago:20260831T150000
 DTEND;TZID=America/Chicago:20260831T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:83a7e93defd5d42ab1c9@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -516,7 +640,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Quality of Life Committee
 DTSTART;TZID=America/Chicago:20260831T180000
 DTEND;TZID=America/Chicago:20260831T200000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:84eaaecb78595c9ff05a@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -530,7 +658,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260903T150000
 DTEND;TZID=America/Chicago:20260903T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:a6bdbf28a4e505c2d02c@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -544,7 +676,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Public Works Committee
 DTSTART;TZID=America/Chicago:20260908T150000
 DTEND;TZID=America/Chicago:20260908T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d23b00c697e6bbe0054f@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -559,7 +695,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Revenue Estimating Conference
 DTSTART;TZID=America/Chicago:20260910T153000
 DTEND;TZID=America/Chicago:20260910T173000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:17e51ae1f5df3e1ce720@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -573,7 +713,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Governmental Affairs Committee
 DTSTART;TZID=America/Chicago:20260910T160000
 DTEND;TZID=America/Chicago:20260910T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:36a8f00816cc3b080352@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -587,7 +731,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Transportation and Airport Committee Meeting
 DTSTART;TZID=America/Chicago:20260912T000000
 DTEND;TZID=America/Chicago:20260912T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:4d0b516404a9e0f5e35a@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -603,7 +751,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Quality of Life Committee
 DTSTART;TZID=America/Chicago:20260915T150000
 DTEND;TZID=America/Chicago:20260915T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:00cd190cde46723cd7bb@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -617,7 +769,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Joint Public Works - Budget Committee Meeting
 DTSTART;TZID=America/Chicago:20260917T000000
 DTEND;TZID=America/Chicago:20260917T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:588012d8b8146bf618cc@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -639,7 +795,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260917T150000
 DTEND;TZID=America/Chicago:20260917T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:381d4084d7c0e638f3c5@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -653,7 +813,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Budget/Audit/Board of Review Committee Meeting
 DTSTART;TZID=America/Chicago:20260924T190000
 DTEND;TZID=America/Chicago:20260924T210000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:463f8a571802577ff4e8@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -668,7 +832,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-1)
 DTSTART;TZID=America/Chicago:20260929T143000
 DTEND;TZID=America/Chicago:20260929T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:25b2dfd889ac265903da@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -690,7 +858,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Criminal Justice Committee
 DTSTART;TZID=America/Chicago:20260929T150000
 DTEND;TZID=America/Chicago:20260929T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d04460849eda12a70738@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -704,7 +876,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-2)
 DTSTART;TZID=America/Chicago:20260930T143000
 DTEND;TZID=America/Chicago:20260930T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:62a9c0378662873be69d@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -723,7 +899,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261001T150000
 DTEND;TZID=America/Chicago:20261001T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ae0cb8e13231f67f5633@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -737,7 +917,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-3)
 DTSTART;TZID=America/Chicago:20261005T143000
 DTEND;TZID=America/Chicago:20261005T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:9293ac68dc8265e70141@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -754,7 +938,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-4)
 DTSTART;TZID=America/Chicago:20261007T143000
 DTEND;TZID=America/Chicago:20261007T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:f7ee61ea6dd1343de402@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -772,7 +960,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Revised - 2025-Proposed-Budget-Hearings (Day 1)
 DTSTART;TZID=America/Chicago:20261008T000000
 DTEND;TZID=America/Chicago:20261008T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:a8b604a361b7b8c84e32@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -793,7 +985,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-5)
 DTSTART;TZID=America/Chicago:20261008T143000
 DTEND;TZID=America/Chicago:20261008T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:4de24775b5fdadb9bb8d@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -813,7 +1009,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2025-Proposed Budget Hearings (Day 2)
 DTSTART;TZID=America/Chicago:20261011T000000
 DTEND;TZID=America/Chicago:20261011T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:8eb721dbc3b7a16b40a6@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -833,7 +1033,11 @@ SUMMARY:[NOLA] Joint Governmental Affairs - Community Development Committe
  e Meeting
 DTSTART;TZID=America/Chicago:20261012T000000
 DTEND;TZID=America/Chicago:20261012T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:36813688a4c2c068ccdf@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -855,7 +1059,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2025 Proposed Budget Hearings (Day 3)
 DTSTART;TZID=America/Chicago:20261015T000000
 DTEND;TZID=America/Chicago:20261015T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d0777545fc321138f1ce@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -877,7 +1085,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Orleans Parish Board of Review Meeting
 DTSTART;TZID=America/Chicago:20261015T143000
 DTEND;TZID=America/Chicago:20261015T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:c96d8b769ea2a75e3c01@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -891,7 +1103,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261015T150000
 DTEND;TZID=America/Chicago:20261015T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:8268108e52e2d93943af@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -905,7 +1121,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2025 Proposed Budget Hearings (Day 4)
 DTSTART;TZID=America/Chicago:20261017T000000
 DTEND;TZID=America/Chicago:20261017T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:a3af04179440fb5f6572@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -926,7 +1146,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-6)
 DTSTART;TZID=America/Chicago:20261019T143000
 DTEND;TZID=America/Chicago:20261019T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:259b93d300ff77e2855d@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -944,7 +1168,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Community Development Committee
 DTSTART;TZID=America/Chicago:20261020T150000
 DTEND;TZID=America/Chicago:20261020T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:debf4ba016bec9ca8415@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -958,7 +1186,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2025 Proposed Budget Hearings (Day 5)
 DTSTART;TZID=America/Chicago:20261021T000000
 DTEND;TZID=America/Chicago:20261021T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:2fbb2626968f8c66fc5f@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -976,7 +1208,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-7)
 DTSTART;TZID=America/Chicago:20261021T143000
 DTEND;TZID=America/Chicago:20261021T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:9e8875a97e7e89085ae8@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -993,7 +1229,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-8)
 DTSTART;TZID=America/Chicago:20261022T143000
 DTEND;TZID=America/Chicago:20261022T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:c9c6b756368dfcc28e12@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1011,7 +1251,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2025 Proposed Budget Hearings (Day 6)
 DTSTART;TZID=America/Chicago:20261023T000000
 DTEND;TZID=America/Chicago:20261023T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:343bb9636cbf4ae21a78@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1033,7 +1277,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Quality of Life Committee
 DTSTART;TZID=America/Chicago:20261026T000000
 DTEND;TZID=America/Chicago:20261026T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:376eaa47874cc92f9aa0@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1055,7 +1303,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Criminal Justice Committee
 DTSTART;TZID=America/Chicago:20261026T150000
 DTEND;TZID=America/Chicago:20261026T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:219cef5ab30a51f47d8e@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1069,7 +1321,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Joint Quality of Life - Governmental Affairs Committee
 DTSTART;TZID=America/Chicago:20261027T000000
 DTEND;TZID=America/Chicago:20261027T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:c67894bf6c6754ffb33c@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1091,7 +1347,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Governmental Affairs Committee
 DTSTART;TZID=America/Chicago:20261027T150000
 DTEND;TZID=America/Chicago:20261027T170000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:4cec2aa1c956647b97bb@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1106,7 +1366,11 @@ SUMMARY:[NOLA] 2025 Proposed Budget Hearings (Day 7) - JOINT with Criminal
   Justice and Budget Committee
 DTSTART;TZID=America/Chicago:20261028T000000
 DTEND;TZID=America/Chicago:20261028T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:efae54cef8a89456680a@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1127,7 +1391,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-9)
 DTSTART;TZID=America/Chicago:20261028T143000
 DTEND;TZID=America/Chicago:20261028T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:90d00fc345c48edd1f16@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1144,7 +1412,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-10)
 DTSTART;TZID=America/Chicago:20261029T143000
 DTEND;TZID=America/Chicago:20261029T163000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:437b61588a2fefb3ebc6@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1159,7 +1431,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2025 Proposed Budget Hearings (Day - 8)
 DTSTART;TZID=America/Chicago:20261030T000000
 DTEND;TZID=America/Chicago:20261030T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:6f79cfcb715a2143d25d@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1180,7 +1456,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2020 Budget Hearings - Day 4
 DTSTART;TZID=America/Chicago:20261030T000000
 DTEND;TZID=America/Chicago:20261030T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:8294cda76de962409e37@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1198,7 +1478,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2024 City Council Proposed Budget Hearings - Day 1
 DTSTART;TZID=America/Chicago:20261031T000000
 DTEND;TZID=America/Chicago:20261031T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ea96f911a07fd038f7b0@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1219,7 +1503,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2020 Budget Hearings - Day 3
 DTSTART;TZID=America/Chicago:20261031T000000
 DTEND;TZID=America/Chicago:20261031T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:7e81b0a55ab76bccfd05@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1237,7 +1525,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2025-Proposed-Budget-Hearings (Day 9)
 DTSTART;TZID=America/Chicago:20261101T000000
 DTEND;TZID=America/Chicago:20261101T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:869fbbbf24fe6dcd7595@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1257,7 +1549,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2024 City Council Proposed Budget Hearings - Day 2
 DTSTART;TZID=America/Chicago:20261103T000000
 DTEND;TZID=America/Chicago:20261103T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:13b97ccb5c099d1c3621@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1275,7 +1571,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Street Renaming Commission
 DTSTART;TZID=America/Chicago:20261104T000000
 DTEND;TZID=America/Chicago:20261104T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d5c2456882ed8ab46156@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1291,7 +1591,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] French Quarter Economic Development District
 DTSTART;TZID=America/Chicago:20261105T154500
 DTEND;TZID=America/Chicago:20261105T174500
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:adfc96f18a28e0e8daf7@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1305,7 +1609,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261105T160000
 DTEND;TZID=America/Chicago:20261105T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:7f510a7a9bce00b81fce@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1319,7 +1627,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2024 City Council Proposed Budget Hearings - Day 3
 DTSTART;TZID=America/Chicago:20261106T000000
 DTEND;TZID=America/Chicago:20261106T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:9840adec1d5b087fc6d4@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1337,7 +1649,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2024 City Council Proposed Budget Hearings - Day 4
 DTSTART;TZID=America/Chicago:20261107T000000
 DTEND;TZID=America/Chicago:20261107T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:e633a50201b9c6b67ba7@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1356,7 +1672,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2024 City Council Proposed Budget Hearings - Day 5
 DTSTART;TZID=America/Chicago:20261108T000000
 DTEND;TZID=America/Chicago:20261108T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:3dee1c6021f3f64e6b89@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1375,7 +1695,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2024 City Council Proposed Budget Hearings - Day 6
 DTSTART;TZID=America/Chicago:20261109T000000
 DTEND;TZID=America/Chicago:20261109T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d89bef6d32a39a389d62@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1396,7 +1720,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2024 City Council Proposed Budget Hearings - Day 7
 DTSTART;TZID=America/Chicago:20261110T000000
 DTEND;TZID=America/Chicago:20261110T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:5782731f97c47bbcc0dc@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1416,7 +1744,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Public Works Committee
 DTSTART;TZID=America/Chicago:20261110T160000
 DTEND;TZID=America/Chicago:20261110T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:10176cba739b7c436f9a@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1431,7 +1763,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Governmental Affairs Committee
 DTSTART;TZID=America/Chicago:20261112T160000
 DTEND;TZID=America/Chicago:20261112T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:9aa1ffa929f9dbc72be7@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1445,7 +1781,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2024 City Council Proposed Budget Hearings - Day 8
 DTSTART;TZID=America/Chicago:20261113T000000
 DTEND;TZID=America/Chicago:20261113T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ce7064ee11f6573bbffc@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1464,7 +1804,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2024 City Council Proposed Budget Hearings - Day 9
 DTSTART;TZID=America/Chicago:20261114T000000
 DTEND;TZID=America/Chicago:20261114T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d0a7406a03fd89671b9e@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1484,7 +1828,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Quality of Life Committee
 DTSTART;TZID=America/Chicago:20261117T160000
 DTEND;TZID=America/Chicago:20261117T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:471d6ab2374309439fbb@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1498,7 +1846,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261119T160000
 DTEND;TZID=America/Chicago:20261119T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:14fb2f8b3945a117c858@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1512,7 +1864,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Budget/Audit/Bor Committee Meeting
 DTSTART;TZID=America/Chicago:20261120T000000
 DTEND;TZID=America/Chicago:20261120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:79ec70d7525b805548b1@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1535,7 +1891,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2023 City Council Proposed Budget Hearings - Day 12
 DTSTART;TZID=America/Chicago:20261122T000000
 DTEND;TZID=America/Chicago:20261122T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:e2bf955d89a3b1398fdf@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1552,7 +1912,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Criminal Justice Committee
 DTSTART;TZID=America/Chicago:20261130T160000
 DTEND;TZID=America/Chicago:20261130T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:07a0dbcedf4492f9939b@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1566,7 +1930,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261201T160000
 DTEND;TZID=America/Chicago:20261201T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:9e4b56799c4874eb08d4@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1580,7 +1948,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Economic Development & Special Development Projects
 DTSTART;TZID=America/Chicago:20261203T193000
 DTEND;TZID=America/Chicago:20261203T213000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:3f47dde06ff880c7c21f@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1595,7 +1967,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Public Works Committee
 DTSTART;TZID=America/Chicago:20261208T160000
 DTEND;TZID=America/Chicago:20261208T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:42b87b9a300aeb1e1a97@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1610,7 +1986,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Quality of Life Committee
 DTSTART;TZID=America/Chicago:20261215T160000
 DTEND;TZID=America/Chicago:20261215T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:394fd146eb541c48c3d2@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1624,7 +2004,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261217T160000
 DTEND;TZID=America/Chicago:20261217T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:7e1153f2e8ec6d358c17@psc-calendar
 CATEGORIES:NOLA,Decision / Order
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1638,7 +2022,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Budget/Audit/BoR Committee Meeting
 DTSTART;TZID=America/Chicago:20261220T000000
 DTEND;TZID=America/Chicago:20261220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:a69f67477425fed98df4@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1661,7 +2049,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Criminal Justice Committee Meeting
 DTSTART;TZID=America/Chicago:20261220T000000
 DTEND;TZID=America/Chicago:20261220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:00bcc36bc6fcab263f9a@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -1680,7 +2072,11 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Criminal Justice Committee
 DTSTART;TZID=America/Chicago:20261228T160000
 DTEND;TZID=America/Chicago:20261228T180000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:fe0f97603308ad44132b@psc-calendar
 CATEGORIES:NOLA,Other
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\

@@ -29,7 +29,7 @@ def _build(events: list[Event], name: str, desc: str, now: datetime) -> bytes:
         ie.add("uid", e.uid)
         ie.add("dtstamp", now)
 
-        prefix = f"[{'/'.join(e.tickers)}] " if e.tickers else f"[{e.commission}] "
+        prefix = f"[{e.commission}] "
         ie.add("summary", f"{prefix}{e.title}"[:250])
 
         if e.all_day:
@@ -41,10 +41,6 @@ def _build(events: list[Event], name: str, desc: str, now: datetime) -> bytes:
 
         body = [f"Commission: {e.commission_name} ({e.commission})",
                 f"Type: {e.event_type_label}"]
-        if e.tickers:
-            body.append(f"Tickers: {', '.join(e.tickers)}")
-        if e.subsidiaries:
-            body.append(f"Entity: {', '.join(e.subsidiaries)}")
         if e.dockets:
             body.append(f"Docket: {', '.join(e.dockets)}")
         if e.description and e.description[:60] not in e.title:
@@ -58,7 +54,7 @@ def _build(events: list[Event], name: str, desc: str, now: datetime) -> bytes:
             ie.add("location", e.location)
         if e.url:
             ie.add("url", e.url)
-        ie.add("categories", [e.commission, e.event_type_label] + e.tickers)
+        ie.add("categories", [e.commission, e.event_type_label])
         # Priority 1-4 shows as "high" in most clients.
         ie.add("priority", 2 if e.weight >= 4 else (5 if e.weight >= 3 else 9))
         cal.add_component(ie)
@@ -77,21 +73,9 @@ def write_all(events: list[Event], outdir: Path, now: datetime) -> dict[str, int
     emit("all.ics", events, "US Utility Regulatory Calendar",
          "All tracked commission meetings, hearings and procedural dates.")
 
-    covered = [e for e in events if e.tickers]
-    emit("coverage.ics", covered, "Utility Coverage — Regulatory Dates",
-         "Commission dates attributed to the coverage universe.")
-
     high = [e for e in events if e.weight >= 4]
     emit("high-priority.ics", high, "Utility Regulatory — High Priority",
-         "Coverage-company decisions, hearings and procedural deadlines.")
-
-    by_ticker: dict[str, list[Event]] = {}
-    for e in events:
-        for t in e.tickers:
-            by_ticker.setdefault(t, []).append(e)
-    for t, evs in by_ticker.items():
-        emit(f"ticker-{t}.ics", evs, f"{t} — Regulatory Calendar",
-             f"Commission dates for {t}.")
+         "Decisions, evidentiary hearings and procedural deadlines.")
 
     by_comm: dict[str, list[Event]] = {}
     for e in events:

@@ -58,7 +58,6 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             desc = r.get("description", "") or ""
             blob = f"{title} {desc}"
 
-            tickers, subs = classify.match_companies(blob, code, title=title)
             etype, elabel, weight = classify.classify_type(blob)
 
             # Never emit a link we can't stand behind. A relative or malformed
@@ -82,11 +81,9 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
                 url=link,
                 source_url=url,
                 dockets=extract_dockets(title, desc),
-                tickers=tickers,
-                subsidiaries=subs,
                 event_type=etype,
                 event_type_label=elabel,
-                weight=weight + (1 if tickers else 0),
+                weight=weight,
                 scraped_at=now.isoformat(),
             ))
 
@@ -124,15 +121,12 @@ def dedupe(events: list[Event]) -> list[Event]:
         if cur is None:
             best[k] = e
             continue
-        score_new = (len(e.dockets), len(e.tickers), len(e.description), bool(e.url))
-        score_cur = (len(cur.dockets), len(cur.tickers), len(cur.description), bool(cur.url))
+        score_new = (len(e.dockets), len(e.description), bool(e.url))
+        score_cur = (len(cur.dockets), len(cur.description), bool(cur.url))
         if score_new > score_cur:
-            # keep the union of attributions
-            e.tickers = sorted(set(e.tickers) | set(cur.tickers))
             e.dockets = sorted(set(e.dockets) | set(cur.dockets))
             best[k] = e
         else:
-            cur.tickers = sorted(set(cur.tickers) | set(e.tickers))
             cur.dockets = sorted(set(cur.dockets) | set(e.dockets))
     return sorted(best.values(), key=lambda x: (x.start, x.commission))
 
@@ -175,32 +169,18 @@ def run(only: list[str] | None = None, workers: int = 6, no_cache: bool = False)
 
     core = [r for r in results if r.tier == "core"]
     core_ok = sum(1 for r in core if r.ok)
-    covered = [e for e in events if e.tickers]
-
     log.info("-" * 70)
     log.info("commissions OK: %d/%d  (core %d/%d)",
              sum(1 for r in results if r.ok), len(results), core_ok, len(core))
-    log.info("events: %d total, %d attributed to covered tickers", len(events), len(covered))
+    log.info("events: %d total", len(events))
 
     DOCS.mkdir(parents=True, exist_ok=True)
     (DOCS / "feeds").mkdir(parents=True, exist_ok=True)
-
-    # The full roster, not just the names that happen to have dates this week.
-    # A covered name with zero scheduled dates is information, not absence -
-    # the dashboard must show all 26 so a gap is visible rather than invisible.
-    roster = [
-        {"ticker": c["ticker"], "name": c["name"], "sector": c.get("sector", ""),
-         "commissions": sorted({k for s in c.get("subsidiaries", [])
-                                for k in s.get("commissions", [])})}
-        for c in classify.load_coverage()["companies"]
-    ]
 
     payload = {
         "generated_at": now.isoformat(),
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "event_count": len(events),
-        "covered_event_count": len(covered),
-        "roster": roster,
         "commissions": [r.to_dict() for r in results],
         "events": [e.to_dict() for e in events],
     }

@@ -210,15 +210,14 @@ def main() -> int:
     for code, (name, state, tzname, url, block) in LIVE.items():
         evs = []
         for dt, title, docket, allday in parse(block, tzname):
-            tk, subs = classify.match_companies(title, code)
             et, el, w = classify.classify_type(title)
             dockets = extract_dockets(title) or ([docket] if docket else [])
             evs.append(Event(
                 commission=code, commission_name=name, state=state, tz=tzname,
                 title=title, start=dt, all_day=allday, location="",
                 description="", url=url, source_url=url, dockets=dockets,
-                tickers=tk, subsidiaries=subs, event_type=et, event_type_label=el,
-                weight=w + (1 if tk else 0),
+                event_type=et, event_type_label=el,
+                weight=w,
                 scraped_at=CAPTURED.isoformat(),
             ))
         events += evs
@@ -230,18 +229,10 @@ def main() -> int:
     events = dedupe(events)
     results.sort(key=lambda r: r.commission)
 
-    roster = [
-        {"ticker": c["ticker"], "name": c["name"], "sector": c.get("sector", ""),
-         "commissions": sorted({k for s in c.get("subsidiaries", [])
-                                for k in s.get("commissions", [])})}
-        for c in classify.load_coverage()["companies"]
-    ]
     payload = {
-        "roster": roster,
         "generated_at": CAPTURED.isoformat(),
         "generated_at_utc": CAPTURED.isoformat(),
         "event_count": len(events),
-        "covered_event_count": sum(1 for e in events if e.tickers),
         "commissions": [r.to_dict() for r in results],
         "events": [e.to_dict() for e in events],
     }
@@ -249,7 +240,6 @@ def main() -> int:
     emit_site.write_site(payload, out, CAPTURED)
     emit_ics.write_all(events, out / "feeds", CAPTURED)
     print(f"{len(events)} real events from {len(LIVE)} commissions -> {out/'index.html'}")
-    print(f"  attributed: {sorted({t for e in events for t in e.tickers})}")
     print(f"  failing sources recorded: {len(FAILED)}")
     return 0
 

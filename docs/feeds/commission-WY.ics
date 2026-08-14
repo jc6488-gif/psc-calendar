@@ -12,7 +12,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 26 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260720T000000
 DTEND;TZID=America/Denver:20260720T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:f0cc9539fc94a3b00a30@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -26,7 +30,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260720T000000
 DTEND;TZID=America/Denver:20260720T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:96e4ecedcc4e0b09a40a@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -40,7 +48,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Minutes
 DTSTART;TZID=America/Denver:20260720T000000
 DTEND;TZID=America/Denver:20260720T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:29cc1be8b4130de141c1@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -54,7 +66,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260720T000000
 DTEND;TZID=America/Denver:20260720T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:f903d42222c9ed3a93f2@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -68,7 +84,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Minutes
 DTSTART;TZID=America/Denver:20260720T000000
 DTEND;TZID=America/Denver:20260720T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:57ee2a3fe7397e9acfd7@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -82,7 +102,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260720T000000
 DTEND;TZID=America/Denver:20260720T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:6d55da77490f86e68067@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -96,7 +120,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Minutes
 DTSTART;TZID=America/Denver:20260720T000000
 DTEND;TZID=America/Denver:20260720T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:59cd552685d25aead8d1@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -110,7 +138,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 26 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260820T000000
 DTEND;TZID=America/Denver:20260820T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:8931aa156948da631a54@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -124,7 +156,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260820T000000
 DTEND;TZID=America/Denver:20260820T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:8119e876f07f512d27ff@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -138,7 +174,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Minutes
 DTSTART;TZID=America/Denver:20260820T000000
 DTEND;TZID=America/Denver:20260820T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:bc639639bdbcf85805b4@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -152,7 +192,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260820T000000
 DTEND;TZID=America/Denver:20260820T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:9deef6519242f87c5def@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -166,7 +210,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Minutes
 DTSTART;TZID=America/Denver:20260820T000000
 DTEND;TZID=America/Denver:20260820T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:0b136d933058f53d2f7d@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -180,7 +228,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260820T000000
 DTEND;TZID=America/Denver:20260820T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:5fb3e75b0756ea64e1a9@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -194,7 +246,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Minutes
 DTSTART;TZID=America/Denver:20260820T000000
 DTEND;TZID=America/Denver:20260820T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:008cf96de2013da2c9b5@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -208,7 +264,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260920T000000
 DTEND;TZID=America/Denver:20260920T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:cb8fe888920de2d746bc@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -222,7 +282,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Minutes
 DTSTART;TZID=America/Denver:20260920T000000
 DTEND;TZID=America/Denver:20260920T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:f2d87847a2752cbafe11@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -236,7 +300,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260920T000000
 DTEND;TZID=America/Denver:20260920T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:0d5f112195f4b2c1f68c@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -250,7 +318,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Minutes
 DTSTART;TZID=America/Denver:20260920T000000
 DTEND;TZID=America/Denver:20260920T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:2e949073b9c37afe3465@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -264,7 +336,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Agendas and Attachments
 DTSTART;TZID=America/Denver:20260920T000000
 DTEND;TZID=America/Denver:20260920T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ba8be92ccdcc801fee0b@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -278,7 +354,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Minutes
 DTSTART;TZID=America/Denver:20260920T000000
 DTEND;TZID=America/Denver:20260920T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:5773db835537f34f83a7@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -292,7 +372,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Agendas and Attachments
 DTSTART;TZID=America/Denver:20261020T000000
 DTEND;TZID=America/Denver:20261020T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:f2a9fdde630af35bc26d@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -306,7 +390,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Minutes
 DTSTART;TZID=America/Denver:20261020T000000
 DTEND;TZID=America/Denver:20261020T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:373f3fb5d57073f5832a@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -320,7 +408,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Agendas and Attachments
 DTSTART;TZID=America/Denver:20261020T000000
 DTEND;TZID=America/Denver:20261020T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:aa9c3a4af56d7556db39@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -334,7 +426,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Minutes
 DTSTART;TZID=America/Denver:20261020T000000
 DTEND;TZID=America/Denver:20261020T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:29f2daedb98b9a963d65@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -348,7 +444,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Agendas and Attachments
 DTSTART;TZID=America/Denver:20261020T000000
 DTEND;TZID=America/Denver:20261020T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:7c2860c10304cc192e3d@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -362,7 +462,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Minutes
 DTSTART;TZID=America/Denver:20261020T000000
 DTEND;TZID=America/Denver:20261020T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:1d4dfb461e15eee0a567@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -376,7 +480,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Agendas and Attachments
 DTSTART;TZID=America/Denver:20261120T000000
 DTEND;TZID=America/Denver:20261120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d6cddadc327d5e01aaec@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -390,7 +498,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Minutes
 DTSTART;TZID=America/Denver:20261120T000000
 DTEND;TZID=America/Denver:20261120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:bbac265ece789375e377@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -404,7 +516,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Agendas and Attachments
 DTSTART;TZID=America/Denver:20261120T000000
 DTEND;TZID=America/Denver:20261120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d56868d9ffc215e0028b@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -418,7 +534,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Minutes
 DTSTART;TZID=America/Denver:20261120T000000
 DTEND;TZID=America/Denver:20261120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:832c5e3d9198fa45ba8b@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -432,7 +552,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Agendas and Attachments
 DTSTART;TZID=America/Denver:20261120T000000
 DTEND;TZID=America/Denver:20261120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:5896833721b9b0fdd82e@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -446,7 +570,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Minutes
 DTSTART;TZID=America/Denver:20261120T000000
 DTEND;TZID=America/Denver:20261120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ad953566efaee8b36b66@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -460,7 +588,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Agendas and Attachments
 DTSTART;TZID=America/Denver:20261220T000000
 DTEND;TZID=America/Denver:20261220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:1bd642b4669536421da6@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -474,7 +606,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Minutes
 DTSTART;TZID=America/Denver:20261220T000000
 DTEND;TZID=America/Denver:20261220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:4ad92e9d7fb41787373a@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -488,7 +624,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Agendas and Attachments
 DTSTART;TZID=America/Denver:20261220T000000
 DTEND;TZID=America/Denver:20261220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:fdf7c8155e91433f9eca@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -502,7 +642,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Minutes
 DTSTART;TZID=America/Denver:20261220T000000
 DTEND;TZID=America/Denver:20261220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:fddef5a17160a5d6fcda@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -516,7 +660,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Agendas and Attachments
 DTSTART;TZID=America/Denver:20261220T000000
 DTEND;TZID=America/Denver:20261220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:db3f62262b2082074e95@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -530,7 +678,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Minutes
 DTSTART;TZID=America/Denver:20261220T000000
 DTEND;TZID=America/Denver:20261220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:2ebfcb06a49c74820379@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -544,7 +696,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 26 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:5d7ad4bbb9f1bd383699@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -558,7 +714,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 26 Minutes
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:a9acb03fe7a7accab98a@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -572,7 +732,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 2 5 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:2acbbecd01d26730a775@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -586,7 +750,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Minutes
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:b4a5c07f4f341183c153@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -600,7 +768,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:3d916cec63ee252528e9@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -614,7 +786,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Minutes
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:cb1a50055010996f69f1@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -628,7 +804,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:56624ae76502cdedef70@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -642,7 +822,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Minutes
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ae5fcf973a20be0cd410@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -656,7 +840,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 26 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:fcef5d4777ef64b696a3@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -670,7 +858,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 26 Minutes
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ca36680950ae3046f567@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -684,7 +876,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:29c926b47747a4f37ea7@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -698,7 +894,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Minutes
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:86fe5942f038c89726ce@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -712,7 +912,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:8ea854dcf55b635cd74e@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -726,7 +930,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Minutes
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:c571aa0316ee97323113@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -740,7 +948,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:baf38881087554497b77@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -754,7 +966,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Minutes
 DTSTART;TZID=America/Denver:20270220T000000
 DTEND;TZID=America/Denver:20270220T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:6450d16b55b18e772546@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -768,7 +984,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 26 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:39bb80448e2b3f59ad3d@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -782,7 +1002,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 26 Minutes
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:af4d0358a8210ff79a5a@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -796,7 +1020,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:ab913fe2babf3c8c38c4@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -810,7 +1038,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 25 Minutes
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:a6a32522ec9a80e80a7a@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -824,7 +1056,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:65a505c850da8fae5ed2@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -838,7 +1074,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 24 Minutes
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:89c99cc9a5948833701c@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -852,7 +1092,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Agendas and Attachments
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:2cc2a9b6c3d094461482@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -866,7 +1110,11 @@ BEGIN:VEVENT
 SUMMARY:[WY] 23 Minutes
 DTSTART;TZID=America/Denver:20270320T000000
 DTEND;TZID=America/Denver:20270320T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:8c4c6acdf368d6643bfd@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe

@@ -13,7 +13,11 @@ SUMMARY:[NY] Comments due on petition filed by the Rochester Gas and Elect
  ric...
 DTSTART;TZID=America/New_York:20260817T000000
 DTEND;TZID=America/New_York:20260817T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:e8c59a7dc18b81a1c971@psc-calendar
 CATEGORIES:NY,Other
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
@@ -30,7 +34,11 @@ SUMMARY:[NY] Comments due joint petition between Reserve Gas Co.\, Inc. (R
  GC) a...
 DTSTART;TZID=America/New_York:20260817T000000
 DTEND;TZID=America/New_York:20260817T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:791351acf42b8f2d560e@psc-calendar
 CATEGORIES:NY,Other
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
@@ -47,7 +55,11 @@ SUMMARY:[NY] Commencement of evidentiary hearing in the Universal Service
  Fund...
 DTSTART;TZID=America/New_York:20260818T000000
 DTEND;TZID=America/New_York:20260818T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:f2abbdf53a87f37e1886@psc-calendar
 CATEGORIES:NY,Evidentiary Hearing
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Evi
@@ -64,7 +76,11 @@ SUMMARY:[NY] Comments sought on NYSERDA petition proposing modifications t
  o an...
 DTSTART;TZID=America/New_York:20260819T000000
 DTEND;TZID=America/New_York:20260819T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:0a589c53bea62a5ef2cc@psc-calendar
 CATEGORIES:NY,Other
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
@@ -80,7 +96,11 @@ BEGIN:VEVENT
 SUMMARY:[NY] Aug 2026 Calendar Details
 DTSTART;TZID=America/New_York:20260820T000000
 DTEND;TZID=America/New_York:20260820T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:685f8402298c55da6c0d@psc-calendar
 CATEGORIES:NY,Other
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
@@ -94,7 +114,11 @@ SUMMARY:[NY] PSC seeks comments for UTEN Pilot Proposal filings by NFG on
  Buff...
 DTSTART;TZID=America/New_York:20260824T000000
 DTEND;TZID=America/New_York:20260824T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:85d3c45da5bddc419e3b@psc-calendar
 CATEGORIES:NY,Other
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
@@ -111,7 +135,11 @@ SUMMARY:[NY] PSC seeks comments for Tracy Solar Energy Center\, LLC petiti
  on se...
 DTSTART;TZID=America/New_York:20260824T000000
 DTEND;TZID=America/New_York:20260824T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:d66937299dd23306fee9@psc-calendar
 CATEGORIES:NY,Other
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
@@ -129,7 +157,11 @@ SUMMARY:[NY] PSC seeks comments for National Grid petition requesting appr
  oval...
 DTSTART;TZID=America/New_York:20260824T000000
 DTEND;TZID=America/New_York:20260824T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:651fadff04d8b1ac92bf@psc-calendar
 CATEGORIES:NY,Other
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
@@ -147,7 +179,11 @@ SUMMARY:[NY] PSC seeks comments for National Grid proposal to extend exist
  ing...
 DTSTART;TZID=America/New_York:20260824T000000
 DTEND;TZID=America/New_York:20260824T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:f97b8756ef99c37fe1d3@psc-calendar
 CATEGORIES:NY,Other
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
@@ -164,7 +200,11 @@ BEGIN:VEVENT
 SUMMARY:[NY] Bliss Wind Repowering Project Public Comment Hearing
 DTSTART;TZID=America/New_York:20260826T000000
 DTEND;TZID=America/New_York:20260826T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:2a954133657591d7fe3f@psc-calendar
 CATEGORIES:NY,Public Comment Hearing
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Pub
@@ -181,7 +221,11 @@ BEGIN:VEVENT
 SUMMARY:[NY] Bliss Wind Repowering Project Comments Due
 DTSTART;TZID=America/New_York:20260828T000000
 DTEND;TZID=America/New_York:20260828T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:40184906e86ec8506660@psc-calendar
 CATEGORIES:NY,Other
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Oth
@@ -196,7 +240,11 @@ BEGIN:VEVENT
 SUMMARY:[NY] SEPTEMBER 2026 Public Service Commission Session
 DTSTART;TZID=America/New_York:20260917T000000
 DTEND;TZID=America/New_York:20260917T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:0c21acb9af9a310a6c07@psc-calendar
 CATEGORIES:NY,Decision / Order
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Dec
@@ -213,7 +261,11 @@ BEGIN:VEVENT
 SUMMARY:[NY] OCTOBER 2026 Public Service Commission Session
 DTSTART;TZID=America/New_York:20261015T000000
 DTEND;TZID=America/New_York:20261015T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:8146bd601a3e85c05827@psc-calendar
 CATEGORIES:NY,Decision / Order
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Dec
@@ -230,7 +282,11 @@ BEGIN:VEVENT
 SUMMARY:[NY] NOVEMBER 2026 Public Service Commission Session
 DTSTART;TZID=America/New_York:20261119T000000
 DTEND;TZID=America/New_York:20261119T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:7fb30086e9fc1c74a1c3@psc-calendar
 CATEGORIES:NY,Decision / Order
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Dec
@@ -246,7 +302,11 @@ BEGIN:VEVENT
 SUMMARY:[NY] DECEMBER 2026 Public Service Commission Session
 DTSTART;TZID=America/New_York:20261217T000000
 DTEND;TZID=America/New_York:20261217T020000
+<<<<<<< HEAD
 DTSTAMP:20260814T185708Z
+=======
+DTSTAMP:20260814T200423Z
+>>>>>>> bb56003 (Remove ticker attribution layer entirely)
 UID:3542fbb3b93eff2c8773@psc-calendar
 CATEGORIES:NY,Decision / Order
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Dec

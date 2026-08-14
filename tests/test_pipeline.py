@@ -25,7 +25,6 @@ def _mk(raws, commission="XX"):
     out = []
     for r in raws:
         blob = f"{r.get('title','')} {r.get('description','')}"
-        tk, subs = classify.match_companies(blob, commission)
         et, el, w = classify.classify_type(blob)
         out.append(Event(
             commission=commission, commission_name="Test Commission", state="XX", tz=TZ,
@@ -33,8 +32,8 @@ def _mk(raws, commission="XX"):
             all_day=bool(r.get("all_day")), location=r.get("location", ""),
             description=r.get("description", ""), url=r.get("url", ""),
             dockets=extract_dockets(r.get("title"), r.get("description")),
-            tickers=tk, subsidiaries=subs, event_type=et, event_type_label=el,
-            weight=w + (1 if tk else 0),
+            event_type=et, event_type_label=el,
+            weight=w,
         ))
     return out
 
@@ -116,44 +115,6 @@ def test_docket_extraction():
     assert any("24-E-0165" in d for d in extract_dockets("Case 24-E-0165 Con Edison"))
 
 
-@pytest.mark.parametrize("text,commission,expected", [
-    ("Northern Indiana Public Service Company rate case", "IN", "NI"),
-    ("NIPSCO base rate increase", "IN", "NI"),
-    ("Consolidated Edison Company of New York electric service", "NY", "ED"),
-    ("Orange and Rockland Utilities gas rates", "NY", "ED"),
-    ("Rockland Electric Company annual review", "NJ", "ED"),
-    ("Pacific Gas and Electric Company general rate case", "CA", "PCG"),
-    ("Southern California Edison cost of capital", "CA", "EIX"),
-    ("San Diego Gas and Electric revenue requirement", "CA", "SRE"),
-    ("Oncor Electric Delivery Company rate change", "TX", "SRE"),
-    ("Entergy New Orleans formula rate plan", "NOLA", "ETR"),
-    ("Georgia Power Company IRP", "GA", "SO"),
-    ("Nicor Gas rate case", "IL", "SO"),
-    ("Peoples Gas Light and Coke Company", "IL", "WEC"),
-    ("Evergy Missouri West rate increase", "MO", "EVRG"),
-    ("Spire Missouri Inc. general rate increase", "MO", "SR"),
-    ("Appalachian Power Company base rates", "WV", "AEP"),
-    ("Madison Gas and Electric biennial rate review", "WI", "MGEE"),
-    ("Arizona Public Service Company rate case", "AZ", "PNW"),
-    ("Southwest Gas Corporation general rate case", "AZ", "SWX"),
-    ("Black Hills Energy Nebraska Gas", "NE", "BKH"),
-])
-def test_company_matching(text, commission, expected):
-    tickers, _ = classify.match_companies(text, commission)
-    assert expected in tickers, f"{expected} not in {tickers} for {text!r}"
-
-
-@pytest.mark.parametrize("text", [
-    "The deadline lapses on Monday",          # must not match "APS "
-    "A scenic overview of the grid",          # must not match "SCE "
-    "General discussion of southern states",  # must not match "Southern Company"
-    "Spirent test equipment procurement",     # must not match "Spire"
-])
-def test_no_false_positive_matches(text):
-    tickers, _ = classify.match_companies(text, "XX")
-    assert tickers == [], f"false positive: {tickers} for {text!r}"
-
-
 def test_two_digit_slash_year_not_rolled_forward():
     """'4/6/26' carries a real year. The roll-forward heuristic for yearless
     dates ("March 4") must not fire on it - it shifted IURC weekly-hearing
@@ -167,35 +128,6 @@ def test_bare_date_in_past_still_rolls_forward():
     still means next year."""
     dt = extract._first_date_in("Hearing scheduled for March 4", ZoneInfo(TZ), NOW)
     assert dt is not None and (dt.year, dt.month, dt.day) == (2027, 3, 4)
-
-
-def test_description_only_match_needs_matching_jurisdiction():
-    """'Pinnacle West' in the body of an Indiana community event is a venue,
-    not the Arizona utility. Description-only evidence counts only on a
-    commission the company actually appears before."""
-    title = "Indy Vet To Vet Terrific Tuesday"
-    blob = f"{title} Come be part of our family in the ballroom at Pinnacle West."
-    tickers, _ = classify.match_companies(blob, "IN", title=title)
-    assert tickers == []
-    # Same text on the company's own commission still attributes.
-    tickers, _ = classify.match_companies(blob, "AZ", title=title)
-    assert tickers == ["PNW"]
-
-
-def test_title_match_attributes_across_jurisdictions():
-    """A title naming the utility is strong evidence anywhere - the
-    Georgia-Power-on-the-FERC-calendar rule."""
-    title = "Arizona Public Service Company transmission formula rate"
-    tickers, _ = classify.match_companies(title, "XX", title=title)
-    assert tickers == ["PNW"]
-
-
-def test_entergy_new_orleans_routes_to_nola():
-    """Entergy New Orleans is regulated by the City Council, not the LPSC.
-    Getting this wrong is the classic utility-coverage mistake."""
-    tickers, subs = classify.match_companies("Entergy New Orleans rate case", "NOLA")
-    assert tickers == ["ETR"]
-    assert any("New Orleans" in s for s in subs)
 
 
 @pytest.mark.parametrize("text,expected", [
@@ -222,10 +154,9 @@ def test_noise_filter():
 def test_full_normalisation_from_ics():
     evs = _mk(extract.from_ics(F.ICS_TRUMBA, ZoneInfo(TZ), NOW, "u"), "IN")
     nip = evs[0]
-    assert nip.tickers == ["NI"]
     assert nip.event_type == "evidentiary_hearing"
     assert "46150" in " ".join(nip.dockets)
-    assert nip.weight >= 4          # base 3 + ticker attribution
+    assert nip.weight >= 3
     assert nip.uid.endswith("@psc-calendar")
 
 
@@ -235,16 +166,15 @@ def test_uid_is_stable_across_runs():
     assert [e.uid for e in a] == [e.uid for e in b]
 
 
-def test_dedupe_merges_and_keeps_union_of_attribution():
+def test_dedupe_merges_and_keeps_union_of_dockets():
     base = _mk(extract.from_ics(F.ICS_TRUMBA, ZoneInfo(TZ), NOW, "u"), "IN")
     dup = _mk(extract.from_ics(F.ICS_TRUMBA, ZoneInfo(TZ), NOW, "u"), "IN")
-    dup[0].tickers = ["AEP"]
     dup[0].dockets = ["99999"]
     dup[0].description = "x"          # poorer record
     merged = dedupe(base + dup)
     assert len(merged) == 3
     first = [e for e in merged if "46150" in " ".join(e.dockets)][0]
-    assert set(first.tickers) >= {"NI", "AEP"}
+    assert "99999" in first.dockets
 
 
 def test_dedupe_sorted_by_start():
@@ -276,7 +206,7 @@ def test_ics_output_is_valid_and_roundtrips():
         assert ve.get("DTSTART")
         assert ve.get("DTEND")          # every event needs an end for Outlook
         assert ve.get("SUMMARY")
-    assert "[NI]" in str(vevents[0].get("SUMMARY"))
+    assert "[IN]" in str(vevents[0].get("SUMMARY"))
 
 
 def test_ics_all_day_event_has_date_valued_dtstart():
@@ -290,9 +220,8 @@ def test_ics_all_day_event_has_date_valued_dtstart():
 def test_write_all_produces_expected_feeds(tmp_path):
     evs = _mk(extract.from_ics(F.ICS_TRUMBA, ZoneInfo(TZ), NOW, "u"), "IN")
     counts = write_all(evs, tmp_path, NOW)
-    for f in ("all.ics", "coverage.ics", "high-priority.ics"):
+    for f in ("all.ics", "high-priority.ics"):
         assert (tmp_path / f).exists()
-    assert (tmp_path / "ticker-NI.ics").exists()
     assert (tmp_path / "commission-IN.ics").exists()
     assert counts["all.ics"] == 3
 
@@ -309,21 +238,6 @@ def test_registry_is_well_formed():
         ZoneInfo(c["timezone"])          # raises if the tz name is bogus
         for s in c["sources"]:
             assert s["url"].startswith("http")
-
-
-def test_every_ticker_maps_to_a_real_commission():
-    comms = {c["code"] for c in classify.load_commissions()}
-    cov = classify.load_coverage()["companies"]
-    tickers = {c["ticker"] for c in cov}
-    expected = {"AEP","ATO","BKH","CNP","CPK","DTE","ED","EIX","ETR","EVRG","HE","LNT",
-                "MGEE","NI","NWE","OGE","OGS","PCG","PEG","PNW","POR","SO","SR","SRE",
-                "SWX","WEC"}
-    assert tickers == expected, f"missing {expected - tickers}, extra {tickers - expected}"
-    for c in cov:
-        assert c.get("match"), f"{c['ticker']} has no match strings"
-        for sub in c["subsidiaries"]:
-            for code in sub["commissions"]:
-                assert code in comms, f"{c['ticker']}/{sub['name']} -> unknown commission {code}"
 
 
 def test_federal_register_extractor(monkeypatch):
