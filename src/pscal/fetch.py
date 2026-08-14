@@ -21,9 +21,12 @@ TIMEOUT = (10, 30)  # connect, read
 
 # Identify ourselves honestly. Several commissions block generic scraper UAs,
 # and a contactable UA is the difference between being tolerated and being banned.
+# The "Mozilla/5.0 (compatible; ...)" prefix is the standard crawler convention
+# (Googlebot uses it) - it still names the tool and a contact, but several state
+# WAFs (OH, CO, VT) reject any UA without the Mozilla prefix outright.
 UA = os.environ.get(
     "PSCAL_USER_AGENT",
-    "psc-calendar/1.0 (regulatory calendar aggregator; +https://github.com/)",
+    "Mozilla/5.0 (compatible; psc-calendar/1.0; regulatory calendar aggregator; +https://github.com/)",
 )
 
 HEADERS = {

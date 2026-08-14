@@ -140,15 +140,13 @@ commissions:
     home: https://puc.colorado.gov
     docket_search: https://www.dora.state.co.us/pls/efi/EFI.Show_Home
     sources:
+      # RE-AUDITED 2026-08-14: /cim and /puccalendar return 200 but serve
+      # 2021/2009 archive content - the earlier VERIFIED marks were wrong
+      # (a 200 is not success). The live source is the DORA e-filings weekly
+      # agenda (50 current dates visible). Site also requires the
+      # Mozilla-prefixed compat User-Agent (plain tool UA gets 403).
       # VERIFIED WORKING 2026-08-14
-      - url: https://puc.colorado.gov/cim
-        strategy: auto
-      # VERIFIED WORKING 2026-08-14
-      - url: https://puc.colorado.gov/puccalendar
-        strategy: auto
-      - url: https://puc.colorado.gov/puc-calendar
-        strategy: auto
-      - url: https://puc.colorado.gov/weeklycalendar
+      - url: https://www.dora.state.co.us/pls/efi/EFI_Agenda_UI.This_Weeks_Agenda
         strategy: auto
     notes: Black Hills Colorado Electric & Gas (BKH), Atmos Colorado (ATO).
 
@@ -161,6 +159,11 @@ commissions:
     home: https://portal.ct.gov/pura
     docket_search: https://portal.ct.gov/pura/dockets/dockets-landing-page
     sources:
+      # RE-AUDITED 2026-08-14: /pura/events now 404s. The official calendar
+      # (www.dpuc.state.ct.us/dockcurr.nsf/XP_PURA_CalendarEvents.xsp) is
+      # reachable again but renders its events with JavaScript - the fetched
+      # shell contains zero dates. Needs the headless-browser strategy;
+      # not adding it as a source until that exists.
       - url: https://portal.ct.gov/pura/events
         strategy: auto
 
@@ -223,9 +226,10 @@ commissions:
     home: https://psc.ga.gov
     docket_search: https://psc.ga.gov/search/facts-document/
     sources:
-      - url: https://psc.ga.gov/calendar/
-        strategy: auto
-      - url: https://psc.ga.gov/calendar/?view=list
+      # VERIFIED WORKING 2026-08-14: /calendar/ went 404 in a site
+      # reorganisation; the calendar now lives under /agendas-calendars/
+      # (server-rendered, docket-named entries, 200+ dates visible).
+      - url: https://psc.ga.gov/agendas-calendars/commission-calendar/
         strategy: auto
       - url: https://psc.ga.gov/news/
         strategy: auto
@@ -450,7 +454,11 @@ commissions:
     home: https://www.michigan.gov/mpsc
     docket_search: https://mi-psc.my.site.com/s/case-search
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # RE-AUDITED 2026-08-14: michigan.gov 403s any User-Agent that names a
+      # tool, including the Mozilla-compat form that satisfies OH/CO/VT. Only
+      # full browser impersonation gets through - declined as dishonest.
+      # Needs the headless-browser strategy (a real browser identifying as
+      # itself) or contact with the commission.
       - url: https://www.michigan.gov/mpsc/commission
         strategy: auto
       - url: https://www.michigan.gov/mpsc/commission/all-events
@@ -569,9 +577,14 @@ commissions:
     home: https://puc.nv.gov
     docket_search: https://pucweb1.state.nv.us/PUC2/Dktinfo.aspx
     sources:
-      - url: https://puc.nv.gov/Meetings/
+      # VERIFIED WORKING 2026-08-14: puc.nv.gov now redirects to www and
+      # /Meetings/ is gone. Agendas + the PUCN calendar app both list dated
+      # upcoming meetings.
+      - url: https://www.puc.nv.gov/agendas/
         strategy: auto
-      - url: https://puc.nv.gov/Meetings/Agendas/
+      - url: https://pucweb1.state.nv.us/PUC2/AgendaCalendar.aspx?Util=Agenda
+        strategy: auto
+      - url: https://pucweb1.state.nv.us/puc2/PUCCalendar.aspx
         strategy: auto
     notes: Southwest Gas (SWX). Nevada requires a general rate case every 3 years for electrics and has annual deferred energy filings.
 
@@ -682,8 +695,10 @@ commissions:
     home: https://puco.ohio.gov
     docket_search: https://dis.puc.state.oh.us/
     sources:
-      - url: https://puco.ohio.gov/events
-        strategy: auto
+      # VERIFIED WORKING 2026-08-14: the WAF fake-404s any non-Mozilla
+      # User-Agent - fixed by the compat UA in fetch.py. /events is a 1.4MB
+      # JS shell with no server-rendered dates (removed); the hearing
+      # schedule and next-meeting agenda render server-side.
       - url: https://puco.ohio.gov/agendas-and-hearings/hearing-schedule/
         strategy: auto
       - url: https://puco.ohio.gov/agendas-and-hearings/agenda-for-next-commission-meeting/
@@ -740,9 +755,10 @@ commissions:
     home: https://www.puc.pa.gov
     docket_search: https://www.puc.pa.gov/search/case-search/
     sources:
-      - url: https://www.puc.pa.gov/about-the-puc/public-meetings/
-        strategy: auto
-      - url: https://www.puc.pa.gov/about-the-puc/public-meetings/public-meeting-schedule/
+      # VERIFIED WORKING 2026-08-14: /public-meetings/ renamed to
+      # /public-meetings-hearings/ (next public meeting date visible; the
+      # full-year schedule is a linked PDF - needs PDF extraction).
+      - url: https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
         strategy: auto
       - url: https://www.puc.pa.gov/about-the-puc/press-releases/
         strategy: auto
@@ -760,7 +776,11 @@ commissions:
     home: https://ripuc.ri.gov
     docket_search: https://ripuc.ri.gov/eventsactions/docket.html
     sources:
+      # VERIFIED WORKING 2026-08-14: /events plus the public-hearings list
+      # (dated hearings visible; events.xml is an empty feed - skipped).
       - url: https://ripuc.ri.gov/events
+        strategy: auto
+      - url: https://ripuc.ri.gov/events-and-actions/public-hearings
         strategy: auto
 
   - code: SC
@@ -918,6 +938,10 @@ commissions:
     timezone: America/New_York
     home: https://www.scc.virginia.gov
     docket_search: https://www.scc.virginia.gov/docketsearch
+    # RE-AUDITED 2026-08-14: every /pages/ calendar candidate 404s after a
+    # site redesign; sitemap.xml is empty; hearing schedules live inside the
+    # DocketSearch app, which is JS-rendered. Needs the headless-browser
+    # strategy. Sources below kept for the health panel to show red honestly.
     sources:
       - url: https://www.scc.virginia.gov/pages/Hearing-Schedule
         strategy: auto

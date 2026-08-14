@@ -357,6 +357,24 @@ def from_html_cards(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> 
     return best
 
 
+def _table_context(table) -> str:
+    """Caption or nearest preceding heading - names the table and often
+    carries the year that schedule-style tables omit from every row
+    (e.g. AZ's "2026 Open Meeting Schedule" over rows like "January 12-13")."""
+    cap = table.find("caption")
+    if cap and _text(cap):
+        return _text(cap)
+    # Accordion/tab labels ("2026 Open Meeting Dates") are often plain text
+    # nodes, not headings - prefer a short year-bearing label when one exists.
+    s = table.find_previous(string=re.compile(r"\b20\d\d\b"))
+    if s:
+        st = re.sub(r"\s+", " ", str(s)).strip()
+        if 0 < len(st) <= 80:
+            return st
+    prev = table.find_previous(["h1", "h2", "h3", "h4", "h5"])
+    return _text(prev) if prev else ""
+
+
 def from_html_table(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
     soup = _soup(html)
     out: list[RawEvent] = []
@@ -364,6 +382,9 @@ def from_html_table(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> 
         rows = table.find_all("tr")
         if len(rows) < 2:
             continue
+        context = _table_context(table)
+        ctx_year_m = re.search(r"\b(20\d\d)\b", context)
+        ctx_year = int(ctx_year_m.group(1)) if ctx_year_m else None
         headers = [_text(th).lower() for th in rows[0].find_all(["th", "td"])]
         date_col = next((i for i, h in enumerate(headers) if "date" in h or "when" in h), None)
         for row in rows[1:]:
@@ -372,18 +393,44 @@ def from_html_table(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> 
                 continue
             texts = [_text(c) for c in cells]
             start = None
+            date_text = ""
             if date_col is not None and date_col < len(texts):
                 start = _first_date_in(texts[date_col], tz, now)
+                date_text = texts[date_col]
             if not start:
                 for t in texts[:3]:
                     start = _first_date_in(t, tz, now)
                     if start:
+                        date_text = t
                         break
-            if not start or not in_window(start, now):
+            joined_cells = False
+            if not start and len(texts) >= 2:
+                # Some schedule tables split the date across cells
+                # ("January" | "14") - no single cell parses alone.
+                candidate = " ".join(texts[:2])
+                start = _first_date_in(candidate, tz, now)
+                if start:
+                    date_text = candidate
+                    joined_cells = True
+            if not start:
+                continue
+            # A yearless date under a "2027 ... Schedule" heading belongs to
+            # that year, not to the roll-forward guess.
+            if ctx_year and not re.search(r"\d{4}|\d{1,2}[-/]\d{1,2}[-/]\d{2,4}", date_text):
+                start = start.replace(year=ctx_year)
+            if not in_window(start, now):
                 continue
             link = row.find("a", href=True)
             rest = [t for t in texts if t and not _first_date_in(t, tz, now)]
             title = max(rest, key=len) if rest else " ".join(texts)[:200]
+            if joined_cells and context:
+                # The row's remaining cells are date fragments, not a title -
+                # the table heading is the only real name for the event.
+                title = f"{context}: {date_text}"
+            if len(title) < 8 and context:
+                # Schedule tables often have no per-row title at all - the
+                # meaning lives in the heading ("2026 Open Meeting Schedule").
+                title = f"{context}: {date_text}".strip(": ")
             if len(title) < 4:
                 continue
             out.append(RawEvent(
@@ -405,6 +452,7 @@ DATE_RE = re.compile(
     r"(?:st|nd|rd|th)?(?:,?\s+\d{4})?"
     r"|\d{1,2}/\d{1,2}/\d{2,4}"
     r"|\d{4}-\d{2}-\d{2}"
+    r"|(?<!\d)(?<!\d-)\d{1,2}-\d{1,2}-\d{4}(?!\d)"  # 8-4-2026 (GA titles)
     r")"
     r"(?:\s*,?\s*(?:at\s+)?\d{1,2}(?::\d{2})?\s*[APap]\.?[Mm]\.?)?",
     re.IGNORECASE,
@@ -424,7 +472,7 @@ def _first_date_in(text: str, tz: ZoneInfo, now: datetime) -> Optional[datetime]
     # well in the past on a page of upcoming events, it almost certainly means
     # next year. A two-digit slash year ("4/6/26") IS a year - rolling those
     # forward silently shifted real dates into the wrong year.
-    has_year = re.search(r"\d{4}|\d{1,2}/\d{1,2}/\d{2,4}", m.group(0))
+    has_year = re.search(r"\d{4}|\d{1,2}[-/]\d{1,2}[-/]\d{2,4}", m.group(0))
     if not has_year and dt < now - timedelta(days=120):
         dt = dt + relativedelta(years=1)
     return dt
