@@ -15,7 +15,7 @@ SUMMARY:[CO] IN THE MATTER OF THE PROPOSED AMENDMENTS TO THE COMMISSION’
  NS 723-4\, TO IMPLEMENT CERTAIN PROVISIONS
 DTSTART;TZID=America/Denver:20260731T000000
 DTEND;TZID=America/Denver:20260731T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:6d64c2e952494dec8dd0@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -39,7 +39,7 @@ SUMMARY:[CO] Description: Motion for extension of time to complete the wor
  k approved by Commission Decision No. C25-0841
 DTSTART;TZID=America/Denver:20260731T000000
 DTEND;TZID=America/Denver:20260731T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:c5eef57a1a5f2613082c@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] City and County of Denver
 DTSTART;TZID=America/Denver:20260731T000000
 DTEND;TZID=America/Denver:20260731T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:bb9a1a97676e03113cd4@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -75,7 +75,7 @@ SUMMARY:[CO] Description: Motion to approve jointly proposed Independent E
  valuator
 DTSTART;TZID=America/Denver:20260731T000000
 DTEND;TZID=America/Denver:20260731T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:d3f20a23185b3d57db1f@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -95,7 +95,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] Public Service Company of Colorado
 DTSTART;TZID=America/Denver:20260731T000000
 DTEND;TZID=America/Denver:20260731T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:a986d048049afa69a6f4@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -111,7 +111,7 @@ SUMMARY:[CO] Description: Notice of intervention as a matter of right and
  request for a hearing
 DTSTART;TZID=America/Denver:20260805T000000
 DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:b6beaa1772ad801df906@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -130,7 +130,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] Office of Utility Consumer Advocate
 DTSTART;TZID=America/Denver:20260805T000000
 DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:729607be7d208a5ed282@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -147,7 +147,7 @@ SUMMARY:[CO] Description: Notice of intervention as of right by Trial Staf
  ) and rule 1401\, and request for hearing
 DTSTART;TZID=America/Denver:20260805T000000
 DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:adc156d941da698b37e1@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -169,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] Colorado Public Utilities Commission
 DTSTART;TZID=America/Denver:20260805T000000
 DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:c0f624967c0c083bdede@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -185,7 +185,7 @@ SUMMARY:[CO] Description: Notice of intervention as a matter of right and
  request for a hearing
 DTSTART;TZID=America/Denver:20260806T000000
 DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:60bc58cccd71679833ad@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -204,7 +204,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] Office of Utility Consumer Advocate
 DTSTART;TZID=America/Denver:20260806T000000
 DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:0473a511b44565540778@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -220,7 +220,7 @@ SUMMARY:[CO] Description: Unopposed motion to intervene and entry of appea
  rance
 DTSTART;TZID=America/Denver:20260806T000000
 DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:977ef4d9315fc183aa80@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -239,7 +239,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] Energy Outreach Colorado
 DTSTART;TZID=America/Denver:20260806T000000
 DTEND;TZID=America/Denver:20260806T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:01019032028aa2e145d5@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -255,7 +255,7 @@ SUMMARY:[CO] Description: Motion to permissively intervene and request for
   hearing
 DTSTART;TZID=America/Denver:20260807T000000
 DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:5956b635fb92cf3d1f08@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -274,7 +274,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] Colorado Energy Consumers Group
 DTSTART;TZID=America/Denver:20260807T000000
 DTEND;TZID=America/Denver:20260807T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:8b6a9707d9d07d84d12c@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -291,7 +291,7 @@ SUMMARY:[CO] Description: Notice of intervention as of right by Trial Staf
  ) and rule 1401\, and request for hearing
 DTSTART;TZID=America/Denver:20260812T000000
 DTEND;TZID=America/Denver:20260812T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:cd80b55920f44d276e6d@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -313,7 +313,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] Colorado Public Utilities Commission
 DTSTART;TZID=America/Denver:20260812T000000
 DTEND;TZID=America/Denver:20260812T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:63fc94e5a2ec623e192e@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -329,7 +329,7 @@ SUMMARY:[CO] RECOMMENDATION: Discuss results of August 17\, 2026 technical
   conference.
 DTSTART;TZID=America/Denver:20260817T000000
 DTEND;TZID=America/Denver:20260817T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:d7aa8fccee41caba556d@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -345,7 +345,7 @@ SUMMARY:[CO] IN THE MATTER OF THE APPLICATION OF PUBLIC SERVICE COMPANY OF
  RY 2025 THROUGH DECEMBER 2025 FOR WORK COMPLETED IN 2025 UNDER T
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:76e7f6cb3a4975b1d789@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O
@@ -363,7 +363,7 @@ SUMMARY:[CO] Description: Application for an order finding that costs incu
  ed in 2025 under the 2025-2027 Wildfire Mitigation Plan were pru
 DTSTART;TZID=America/Denver:20270120T000000
 DTEND;TZID=America/Denver:20270120T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:bda5d2d33bb9eb7ee479@psc-calendar
 CATEGORIES:CO,Other
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: O

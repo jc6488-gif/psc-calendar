@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260804T000000
 DTEND;TZID=America/Chicago:20260804T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:c5420e4756ba400b3a5a@psc-calendar
 CATEGORIES:IA,Decision / Order
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260805T000000
 DTEND;TZID=America/Chicago:20260805T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:cafa94052c2b025edfc3@psc-calendar
 CATEGORIES:IA,Decision / Order
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:6a2e08bb5a3edc5690ad@psc-calendar
 CATEGORIES:IA,Decision / Order
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
@@ -51,7 +51,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:768de59949413fd280d4@psc-calendar
 CATEGORIES:IA,Decision / Order
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260818T000000
 DTEND;TZID=America/Chicago:20260818T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:580eb49ed88c5420a0e5@psc-calendar
 CATEGORIES:IA,Decision / Order
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
@@ -77,7 +77,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260826T000000
 DTEND;TZID=America/Chicago:20260826T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:81899f20c64ee71695f9@psc-calendar
 CATEGORIES:IA,Decision / Order
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O

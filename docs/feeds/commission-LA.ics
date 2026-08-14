@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[LA] 26 - No Meeting
 DTSTART;TZID=America/Chicago:20260720T000000
 DTEND;TZID=America/Chicago:20260720T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:d33369a9eb1e50c2b8f4@psc-calendar
 CATEGORIES:LA,Other
 DESCRIPTION:Commission: Louisiana Public Service Commission (LA)\nType: Ot
@@ -24,7 +24,7 @@ BEGIN:VEVENT
 SUMMARY:[LA] LPSC business and executive session agenda
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:5fe769e2deaa1fb5caca@psc-calendar
 CATEGORIES:LA,Decision / Order
 DESCRIPTION:Commission: Louisiana Public Service Commission (LA)\nType: De
@@ -37,7 +37,7 @@ BEGIN:VEVENT
 SUMMARY:[LA] Supplemental Agenda (posted)
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:001cf9f058eed23daf6e@psc-calendar
 CATEGORIES:LA,Other
 DESCRIPTION:Commission: Louisiana Public Service Commission (LA)\nType: Ot
@@ -50,7 +50,7 @@ BEGIN:VEVENT
 SUMMARY:[LA] Supplemental Agenda
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260814T214054Z
+DTSTAMP:20260814T221039Z
 UID:0080d3d19f2493d1f00d@psc-calendar
 CATEGORIES:LA,Other
 DESCRIPTION:Commission: Louisiana Public Service Commission (LA)\nType: Ot
