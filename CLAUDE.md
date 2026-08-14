@@ -84,34 +84,40 @@ telling you not to come. JavaScript rendering is a site happy to serve you but n
 in a form a simple fetch can read. They need different responses — the first is a
 policy call for the user, the second is an engineering fix.
 
-## Current status (verified 2026-08-14)
+## Current status (live full run, 2026-08-14 afternoon)
 
-- **54 commissions, 158 source URLs**, 31 commissions repaired with confirmed URLs.
-- **Confirmed serving real dates:** FERC, NY, CA, MO, GA, NJ, TX, IN, PA, RI, AL,
-  NOLA, plus the 31 repaired (CO, LA, MS, MN, MD, NE, SD, OR, TX-RRC, AZ, OK, TN,
-  IA, WY, MT, HI, MI, AK, DE, UT, NM, NC, VT, ID, ME, ND, SC, DC, MA, WA, KY).
-- **Still blocked, with the specific reason:**
+- **41 of 54 commissions returned dated events end-to-end; 537 real events.**
+  (The morning's first-ever live run scored 34/54 and 3,013 events, of which
+  2,505 were junk from Indiana's statewide community calendar — since fixed.)
+- **FERC is covered via the Federal Register API** (`federal_register`
+  strategy): Sunshine Act notices carry the meeting datetime. Notices post ~2
+  days ahead, so only the next Open Commission Meeting is ever visible.
+- **The default User-Agent is now the crawler compat form**
+  (`Mozilla/5.0 (compatible; psc-calendar/1.0; ...)`) — still names the tool
+  and contact, but passes the OH/CO/VT WAFs that reject non-Mozilla UAs.
+- **Still failing, with the specific reason:**
 
 | Code | Blocker | What would fix it |
 |---|---|---|
-| OH | WebSphere portal CDATA on every events URL; `dis.puc.state.oh.us` WAF-rejects | Headless browser, or the GovDelivery bulletin feed if one can be found |
-| WI | Angular SPA; detail routes like `/HearingDetails/36` render server-side but the list route wasn't found | Headless browser, or discover the SPA's XHR endpoint |
-| WV | Entire `psc.state.wv.us` domain returns 403 | Contact the commission; no technical workaround |
-| NH | Path-level 403 on every calendar candidate | Same |
-| CT | `dpuc.state.ct.us` (the official calendar) unreachable; `egov.ct.gov/PMC` is JS-only | Headless browser against egov.ct.gov |
-| IL VA NV FL KS AR | robots.txt disallowed | **User's call** — see below |
+| OH | Server-side pages carry only news teasers; hearing schedule is JS-rendered | Headless browser |
+| CT | `portal.ct.gov/pura/events` gone; official dpuc calendar reachable again but JS-only | Headless browser |
+| FL KY | JS-rendered (SPA) calendar pages | Headless browser |
+| VA | Site redesign 404'd every calendar page; schedules live in the JS DocketSearch app | Headless browser |
+| MT | Publishes only `Current-Agenda.pdf` | PDF extraction |
+| MI | 403s any UA naming a tool; only full browser impersonation passes — declined as dishonest | Headless browser (a real browser identifying as itself), or contact commission |
+| WV NH AK | 403 to all automated clients incl. browser UAs | Contact the commission; no technical workaround |
+| AR | `psc.arkansas.gov` DNS does not resolve; `apscservices.info` also dead | Their outage — retry later |
+| KS | Broken TLS certificate chain on `kcc.ks.gov` | Cert workaround or their fix |
+| UT | Public-notice page serves inconsistent content run-to-run | Investigate portal query params |
 
 ## robots.txt
 
-Six commissions disallow automated access. **The scraper does not currently parse
-robots.txt**; it identifies itself honestly via `PSCAL_USER_AGENT` and throttles to
-one request per host per second.
-
-**Surface this to the user rather than deciding for her.** The options are
-respecting it and losing those states, or contacting the commissions for access.
-If she wants strict compliance, add a robots check to `fetch.py` and report
-disallowed sources in the health panel. Do not quietly ignore it, and do not
-quietly drop the state.
+Six commissions disallow automated access (IL VA NV FL KS AR). The scraper does
+not parse robots.txt; it identifies itself honestly and throttles to one request
+per host per second. **Decided by the user 2026-08-14: keep scraping despite
+robots.txt.** IL delivers events under this policy. If she ever reverses this,
+add a robots check to `fetch.py` and report disallowed sources in the health
+panel rather than quietly dropping states.
 
 ## Architecture
 
