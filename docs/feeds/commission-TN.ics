@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Summary of CLEC Hearing in Docket 26-00045
 DTSTART;TZID=America/Chicago:20260721T000000
 DTEND;TZID=America/Chicago:20260721T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:564fb38fd9f6daeab9ce@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] CLEC Hearing Notice in Docket 26-00045 - Audio (MP4)
 DTSTART;TZID=America/Chicago:20260721T000000
 DTEND;TZID=America/Chicago:20260721T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:adaf9c8a873a9ac2e80e@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -45,7 +45,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] CLEC Hearing Notice in Docket 26-00045
 DTSTART;TZID=America/Chicago:20260721T000000
 DTEND;TZID=America/Chicago:20260721T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:dce8f8e36364fb6492fa@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -62,7 +62,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Hearing in Docket 26-00056
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:9d11f2d2fc40ed662002@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Hearing in Docket 26-00054
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:1bff6768787468297834@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -96,7 +96,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20260808T000000
 DTEND;TZID=America/Chicago:20260808T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:63634a0e45c8b82bccc3@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -112,7 +112,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20260808T000000
 DTEND;TZID=America/Chicago:20260808T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:f248e48ad98f5632122e@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20260808T000000
 DTEND;TZID=America/Chicago:20260808T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:34161ba70ebbd343d2ef@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -146,7 +146,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20260809T000000
 DTEND;TZID=America/Chicago:20260809T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:e7a8b4e7f8d19512b326@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -163,7 +163,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20260809T000000
 DTEND;TZID=America/Chicago:20260809T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:a2b1edd7fc1725bb1912@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -179,7 +179,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20260809T000000
 DTEND;TZID=America/Chicago:20260809T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:6ee4249b1b60d2fc055a@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -196,7 +196,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:6391a33f801376566a68@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -212,7 +212,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Morrison
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:6a9935261804a2a9eecd@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -229,7 +229,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:ca2cc06db73de5452a5b@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -246,7 +246,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:8cac70f84bd6ae26f2bf@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -263,7 +263,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] TPUC Commission Conference
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:f95ac731b42af4c19bda@psc-calendar
 CATEGORIES:TN,Decision / Order
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
@@ -278,7 +278,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Amendment to Agenda Item
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:cc122b603f3600c44244@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -297,7 +297,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:5e6c8662b19c953f4ddf@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -316,7 +316,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice and Agenda for Commission Conference
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:94efab2edaa7821ece32@psc-calendar
 CATEGORIES:TN,Decision / Order
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
@@ -336,7 +336,7 @@ SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill - Noti
  of Electronic Participation - Commis
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:278dfe2c47e7ba44ff17@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -359,7 +359,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice and Agenda of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:3d8b33e92eb5f5b9db92@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -376,7 +376,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20260818T000000
 DTEND;TZID=America/Chicago:20260818T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:b251f304d834c039ca45@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -392,7 +392,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20260818T000000
 DTEND;TZID=America/Chicago:20260818T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:360ab1ee579f7cda7ca3@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -409,7 +409,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20260909T000000
 DTEND;TZID=America/Chicago:20260909T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:75071b49c3bf8c0ea0f8@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -425,7 +425,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Morrison
 DTSTART;TZID=America/Chicago:20260909T000000
 DTEND;TZID=America/Chicago:20260909T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:9105f129b98cfd8b6154@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -442,7 +442,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20260909T000000
 DTEND;TZID=America/Chicago:20260909T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:3fff792b17afa94f2d12@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -459,7 +459,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20260909T000000
 DTEND;TZID=America/Chicago:20260909T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:e3d0958f8b2b7a1d1a64@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -476,7 +476,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20260911T000000
 DTEND;TZID=America/Chicago:20260911T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:8b312b3d6a8f5845d7d1@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -492,7 +492,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20260911T000000
 DTEND;TZID=America/Chicago:20260911T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:5440f8ab289c5b0f35c3@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -509,7 +509,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20260911T000000
 DTEND;TZID=America/Chicago:20260911T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:8628af1e499cbc80a8ac@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -526,7 +526,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20260912T000000
 DTEND;TZID=America/Chicago:20260912T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:fa3118753e0e1b319e07@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -542,7 +542,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20260912T000000
 DTEND;TZID=America/Chicago:20260912T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:04c8c19e51c3766f8611@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -559,7 +559,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20260912T000000
 DTEND;TZID=America/Chicago:20260912T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:f3a224a50d4ddafcf275@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -576,7 +576,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20260920T000000
 DTEND;TZID=America/Chicago:20260920T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:d25524490afe897d44b1@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -592,7 +592,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20260920T000000
 DTEND;TZID=America/Chicago:20260920T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:b8f27afac9184e1f62c5@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -609,7 +609,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20260920T000000
 DTEND;TZID=America/Chicago:20260920T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:fb39063526ce543e869f@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -626,7 +626,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20261010T000000
 DTEND;TZID=America/Chicago:20261010T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:1f5d6ffb1a13bc257c51@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -642,7 +642,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20261010T000000
 DTEND;TZID=America/Chicago:20261010T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:be444c0a6b93bafb46fb@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -659,7 +659,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20261010T000000
 DTEND;TZID=America/Chicago:20261010T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:f65dff5e9cae5ea61cdd@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -676,7 +676,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20261101T000000
 DTEND;TZID=America/Chicago:20261101T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:4de80c3274f9df56522f@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -692,7 +692,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20261101T000000
 DTEND;TZID=America/Chicago:20261101T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:74d1c16a6d26e8ab1e0c@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -711,7 +711,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20261101T000000
 DTEND;TZID=America/Chicago:20261101T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:50c211f9141b50262df2@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -728,7 +728,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20261106T000000
 DTEND;TZID=America/Chicago:20261106T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:feffbb6f73e867fd4c67@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -744,7 +744,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20261106T000000
 DTEND;TZID=America/Chicago:20261106T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:da6b1f74b0c6a4462434@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -761,7 +761,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20261107T000000
 DTEND;TZID=America/Chicago:20261107T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:316e399952738a3c4f82@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -777,7 +777,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Jones
 DTSTART;TZID=America/Chicago:20261107T000000
 DTEND;TZID=America/Chicago:20261107T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:66a185c2bd13d8b7230e@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -794,7 +794,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20261107T000000
 DTEND;TZID=America/Chicago:20261107T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:7b7cc0e2a3cbe946b06c@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -811,7 +811,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20261107T000000
 DTEND;TZID=America/Chicago:20261107T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:9a0ea5f30419a9169463@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -828,7 +828,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20261118T000000
 DTEND;TZID=America/Chicago:20261118T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:cd0a3b01582b624baffd@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -844,7 +844,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20261118T000000
 DTEND;TZID=America/Chicago:20261118T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:4129f9ce92875921859e@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -861,7 +861,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Morrison
 DTSTART;TZID=America/Chicago:20261118T000000
 DTEND;TZID=America/Chicago:20261118T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:46452e59b83c3277c28a@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -878,7 +878,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20261118T000000
 DTEND;TZID=America/Chicago:20261118T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:ac7301c44c9e8cd16cb9@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -895,7 +895,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20270117T000000
 DTEND;TZID=America/Chicago:20270117T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:febd0497626bbd5f32be@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -911,7 +911,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20270117T000000
 DTEND;TZID=America/Chicago:20270117T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:d0f8ecde841fa844ac5f@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -928,7 +928,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20270117T000000
 DTEND;TZID=America/Chicago:20270117T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:3e64b5afc35b04bbbc99@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -946,7 +946,7 @@ SUMMARY:[TN] U.S. Small Business Administration January 22-27\, 2026 Sever
  e Storm Disaster Support Information
 DTSTART;TZID=America/Chicago:20270122T000000
 DTEND;TZID=America/Chicago:20270122T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:835f1e0921b3e0f76683@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -960,7 +960,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20270216T000000
 DTEND;TZID=America/Chicago:20270216T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:25a369ff44b3b189aad7@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -973,7 +973,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of April Commission Conference WebEx Meeting Access
 DTSTART;TZID=America/Chicago:20270216T000000
 DTEND;TZID=America/Chicago:20270216T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:2262cd04a98c8e395a5e@psc-calendar
 CATEGORIES:TN,Decision / Order
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
@@ -991,7 +991,7 @@ SUMMARY:[TN] Notice of April Commission Conference Held Electronically via
   WebEx
 DTSTART;TZID=America/Chicago:20270216T000000
 DTEND;TZID=America/Chicago:20270216T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:7fc752cc58d4a1933580@psc-calendar
 CATEGORIES:TN,Decision / Order
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
@@ -1008,7 +1008,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20270216T000000
 DTEND;TZID=America/Chicago:20270216T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:bd02f5399e5eb14b4a9d@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1025,7 +1025,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20270220T000000
 DTEND;TZID=America/Chicago:20270220T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:1fc8ca3c82f79471dc31@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1041,7 +1041,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Jones
 DTSTART;TZID=America/Chicago:20270220T000000
 DTEND;TZID=America/Chicago:20270220T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:3c9a1a8873610669c785@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1058,7 +1058,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20270220T000000
 DTEND;TZID=America/Chicago:20270220T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:2f8e286ded271bca3b9e@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1075,7 +1075,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20270220T000000
 DTEND;TZID=America/Chicago:20270220T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:ad3544440a503e0a0a74@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1092,7 +1092,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20270228T000000
 DTEND;TZID=America/Chicago:20270228T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:84bc17625a1f53ab9757@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1108,7 +1108,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20270228T000000
 DTEND;TZID=America/Chicago:20270228T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:b37b8c1cb5f842622cb6@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1125,7 +1125,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20270228T000000
 DTEND;TZID=America/Chicago:20270228T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:22b5525fcc1087dcd883@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1142,7 +1142,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20270320T000000
 DTEND;TZID=America/Chicago:20270320T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:e2040734c6fa1242a635@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1158,7 +1158,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20270320T000000
 DTEND;TZID=America/Chicago:20270320T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:8542cbcd9ab13025a1c4@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1175,7 +1175,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20270320T000000
 DTEND;TZID=America/Chicago:20270320T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:5ab12c935b871d08351d@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1192,7 +1192,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20270321T000000
 DTEND;TZID=America/Chicago:20270321T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:71ead844446d40b13ca4@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1208,7 +1208,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Jones
 DTSTART;TZID=America/Chicago:20270321T000000
 DTEND;TZID=America/Chicago:20270321T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:00eb973066113746d4d8@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1225,7 +1225,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Electronic Participation - Commissioner Hill
 DTSTART;TZID=America/Chicago:20270321T000000
 DTEND;TZID=America/Chicago:20270321T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:ad8f9fd5b9d17cedbe33@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1242,7 +1242,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20270321T000000
 DTEND;TZID=America/Chicago:20270321T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:26e9ec10faee68bbdff3@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1259,7 +1259,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Meeting Minutes
 DTSTART;TZID=America/Chicago:20270412T000000
 DTEND;TZID=America/Chicago:20270412T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:1cfd4fe497a5939ee2c6@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
@@ -1275,7 +1275,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of April Commission Conference WebEx Meeting Access
 DTSTART;TZID=America/Chicago:20270412T000000
 DTEND;TZID=America/Chicago:20270412T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:9719c99d4d0a65083a0d@psc-calendar
 CATEGORIES:TN,Decision / Order
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
@@ -1293,7 +1293,7 @@ SUMMARY:[TN] Notice of April Commission Conference Held Electronically via
   WebEx
 DTSTART;TZID=America/Chicago:20270412T000000
 DTEND;TZID=America/Chicago:20270412T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:2f4359dff2e634905afb@psc-calendar
 CATEGORIES:TN,Decision / Order
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: De
@@ -1310,7 +1310,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of the Commissioner Meeting
 DTSTART;TZID=America/Chicago:20270412T000000
 DTEND;TZID=America/Chicago:20270412T020000
-DTSTAMP:20260814T225441Z
+DTSTAMP:20260815T104907Z
 UID:4ce5117e633c26711d82@psc-calendar
 CATEGORIES:TN,Other
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ot
