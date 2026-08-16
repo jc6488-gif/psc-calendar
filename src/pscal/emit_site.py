@@ -227,7 +227,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       <th data-sort="event_type" class="hide-sm">Type</th>
       <th data-sort="relevance" class="hide-sm">Relevance</th>
       <th class="hide-sm">Could touch</th>
-      <th data-sort="dockets" class="hide-sm">Docket</th>
     </tr></thead>
     <tbody id="rows"></tbody>
   </table>
@@ -390,14 +389,15 @@ TEMPLATE = r"""<!DOCTYPE html>
       const link = e.url
         ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`
         : esc(e.title);
+      const dk = e.dockets.length
+        ? `<div class="meta">Docket ${esc(e.dockets.slice(0, 3).join(", "))}</div>` : "";
       return `<tr>
         <td class="date${soon}">${dfmt(tz).format(d)}<span class="time">${time}</span></td>
         <td class="st"><span title="${esc(e.commission_name)}">${esc(e.commission)}</span></td>
-        <td class="title">${link}</td>
+        <td class="title">${link}${dk}</td>
         <td class="type hide-sm"><span class="dot" style="background:${TYPE_COLOR[e.event_type] || "var(--muted)"}"></span>${esc(e.event_type_label)}</td>
         <td class="hide-sm"><span class="rel rel-${(e.relevance || "Low").toLowerCase()}">${esc(e.relevance || "Low")}</span></td>
         <td class="hide-sm">${(COV_MAP[e.commission] || []).map((t) => `<span class="tag tk">${esc(t)}</span>`).join("")}</td>
-        <td class="docket hide-sm">${esc(e.dockets.slice(0, 2).join(", "))}</td>
       </tr>`;
     }).join("");
 

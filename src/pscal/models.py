@@ -14,9 +14,13 @@ DOCKET_PATTERNS = [
     r"\b[A-Z]{1,3}-\d{2}-\d{2,4}\b",                  # OR: UE-24-101
     r"\b\d{2}-[A-Z]{1,4}-\d{2,5}\b",                  # NY: 24-E-0123
     r"\b\d{4,5}-[A-Z]{2}-\d{3}\b",                    # WI: 6690-UR-129
-    r"\b[A-Z]{2}\d{2}-\d{2,4}\b",                     # MS: EC-24-101
+    r"\b[A-Z]{2}-\d{6}\b",                             # WA: UE-260208
+    r"\b[A-Z]{2}-\d{4}-\d{4}\b",                       # MO: GR-2026-0110
+    r"\b\d{2}-\d{3,4}-\d{2}\b",                        # UT: 24-035-61
+    r"(?-i:\b[A-Z]{2}\d{2}-\d{2,4}\b)",                # MS: EC24-101 (case-sensitive:
+                                                        # "No24-035" must not match)
     # Keyword-led forms. "Cause" is Indiana, "Application"/"Proceeding" are CA/NY.
-    r"\b(?:Docket|Case|Cause|Proceeding|Application|Matter)\s+"
+    r"\b(?:Docket|Case|Cause|Proceeding|Application|Matter|DPU|PUD)\s+"
     r"(?:Nos?\.?\s*)?([A-Z]{0,4}[\-\.]?\d[A-Z0-9\-\./]{2,24})",
     r"\bER\d{2}-\d{3,5}(?:-\d{3})?\b",                # FERC electric
     r"\bRP\d{2}-\d{3,5}(?:-\d{3})?\b",                # FERC gas
@@ -46,6 +50,10 @@ def extract_dockets(*texts: Optional[str]) -> list[str]:
     for pat in DOCKET_PATTERNS:
         for m in re.finditer(pat, blob, flags=re.IGNORECASE):
             val = (m.group(1) if m.groups() else m.group(0)).strip(" .,;:")
+            # "Docket No. 24-035-61" must not yield a phantom "NO-24-035" -
+            # the real id is captured by its own pattern.
+            if val.upper().startswith(("NO-", "NOS-", "NO.", "NOS.")):
+                continue
             if 4 <= len(val) <= 30 and any(c.isdigit() for c in val):
                 up = val.upper()
                 if up not in found:

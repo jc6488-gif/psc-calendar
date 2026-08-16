@@ -339,3 +339,20 @@ def test_fullcalendar_extractor(monkeypatch):
     assert hearing["start"].hour == 10 and not hearing["all_day"]
     deadline = next(e for e in evs if "Deadline" in e["title"])
     assert deadline["all_day"] is True
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("UE-260208 PacifiCorp & PGE Settlement Conference", "UE-260208"),
+    ("GU-2026-0225 Spire - Evidentiary Hearing", "GU-2026-0225"),
+    ("Hearing on Settlement Stipulation (24-035-61)", "24-035-61"),
+    ("Hearing: U-37463", "U-37463"),
+    ("DPU 25-1555 public comment session", "25-1555"),
+])
+def test_docket_patterns_state_formats(text, expected):
+    assert expected in extract_dockets(text)
+
+
+def test_docket_no_prefix_not_mangled():
+    """'Docket Nos. 24-035-61' must not yield a phantom 'NO24-035'."""
+    got = extract_dockets("Public Witness Hearing Docket Nos. 24-035-61 and 23-035-01")
+    assert all(not d.startswith("NO") for d in got)
