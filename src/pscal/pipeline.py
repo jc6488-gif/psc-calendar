@@ -199,7 +199,20 @@ def run(only: list[str] | None = None, workers: int = 6, no_cache: bool = False)
     DOCS.mkdir(parents=True, exist_ok=True)
     (DOCS / "feeds").mkdir(parents=True, exist_ok=True)
 
+    # Static jurisdiction map: which covered names each commission regulates.
+    # This is corporate geography, not attribution - an MO open meeting can
+    # only ever touch the MO names. Zero maintenance until M&A.
+    coverage_map: dict[str, list[str]] = {}
+    for c in classify.load_coverage()["companies"]:
+        for sub in c.get("subsidiaries", []) or []:
+            for code_ in sub.get("commissions", []) or []:
+                coverage_map.setdefault(code_, [])
+                if c["ticker"] not in coverage_map[code_]:
+                    coverage_map[code_].append(c["ticker"])
+    coverage_map = {k: sorted(v) for k, v in coverage_map.items()}
+
     payload = {
+        "coverage_map": coverage_map,
         "generated_at": now.isoformat(),
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "event_count": len(events),
