@@ -53,7 +53,7 @@ def probe(spec: dict, raw: bool = False) -> bool:
         for e in evs[:8]:
             title = e.get("title", "")[:88]
             blob = f"{title} {e.get('description','')}"
-            et, _, _ = classify.classify_type(blob)
+            et = classify.classify_type(blob)[0]
             dk = extract_dockets(title, e.get("description"))
             print(f"     {e['start']:%Y-%m-%d %H:%M}  {et:<20} {title}")
             if dk:

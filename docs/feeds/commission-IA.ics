@@ -9,35 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[IA] GCU-2026-0002 Scheduling Conference
-DTSTART:20260716T150000Z
-DTEND:20260716T160000Z
-DTSTAMP:20260815T104907Z
-UID:5ab7739b51072de48704@psc-calendar
-CATEGORIES:IA,Procedural Milestone
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Procedural M
- ilestone\n\nGCU-2026-0002 Scheduling Conference<br>_______________________
- __________<br><br>Join from PC\, Mac\, iPad\, or Android:<br><a href="http
- s://iuc-iowa.zoom.us/j/87038460222?pwd=ij3zKztDRGXZdafj4sRn5NaKV0lri9.1" t
- arget="_blank"><u>https://iuc-iowa.zoom.us/j/87038460222?pwd=ij3zKztDRGXZd
- afj4sRn5NaKV0lri9.1</u></a><br>Passcode:37713419<br><br>Phone one-tap:<br>
- +13017158592\,\,87038460222#\,\,\,\,*37713419# US (Washington DC)<br>+1305
- 2241968\,\,87038460222#\,\,\,\,*37713419# US<br><br>Join via audio:<br>+1 
- 301 715 8592 US (Washington DC)<br>+1 305 224 1968 US<br>+1 309 205 3325 U
- S<br>+1 312 626 6799 US (Chicago)<b\n\nSource: https://calendar.google.com
- /calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google
- .com/public/basic.ics
-LOCATION:Hearing Room\, Iowa Utilities Commission\, 1375 E Court Ave\, Des
-  Moines\, IA 50319\, USA
-PRIORITY:5
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[IA] 2026 NARUC Summer Policy Summit
 DTSTART;VALUE=DATE:20260719
 DTEND;VALUE=DATE:20260724
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:eb07b0b422178ca32611@psc-calendar
 CATEGORIES:IA,Other
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nNAR
@@ -58,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] RMU-2026-0008 | Oral Presentation
 DTSTART:20260728T140000Z
 DTEND:20260728T160000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:532f6fc80256b479f5ae@psc-calendar
 CATEGORIES:IA,Workshop / Conference
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Workshop / C
@@ -82,12 +57,12 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260804T000000
 DTEND;TZID=America/Chicago:20260804T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:c5420e4756ba400b3a5a@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\n\nAugust 4\, 2026 | Agenda (242.59 KB) .pdf | Minutes\n\nSource: htt
- ps://iuc.iowa.gov/media/2211/download?inline
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\n\nAugust 4\, 2026 | Agenda (242.59 KB) .pdf | Minut
+ es\n\nSource: https://iuc.iowa.gov/media/2211/download?inline
 PRIORITY:5
 URL:https://iuc.iowa.gov/media/2211/download?inline
 END:VEVENT
@@ -96,21 +71,21 @@ SUMMARY:[IA] Docket Nos. HLP-2024-0001\, et al | Open Meeting & Closed Ses
  sion Deliberation
 DTSTART:20260804T180000Z
 DTEND:20260804T200000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:70f0ad88f3ade342d6a5@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\nDocket: HLP-2024-0001\n\n<a href="https://docs.google.com/document/d
- /1UjsKVjB3aTJwlbknrkSsxuiIN6JCWEIw9uL0pCh_0iA/edit?usp=sharing" target="_b
- lank">Notice of Public Meeting 8-4-26 Docket Nos. HLP-2024-0001\, et al</a
- ><br>___________________________<br><br>Join from PC\, Mac\, iPad\, or And
- roid:<br><a href="https://iuc-iowa.zoom.us/j/83265907203?pwd=fI6RFbKL1khsZ
- ybPCHo7QNE4qdemma.1" target="_blank"><u>https://iuc-iowa.zoom.us/j/8326590
- 7203?pwd=fI6RFbKL1khsZybPCHo7QNE4qdemma.1</u></a><br>Passcode:60570834<br>
- <br>Phone one-tap:<br>+13126266799\,\,83265907203#\,\,\,\,*60570834# US (C
- hicago)<br>+16465588656\,\,83265907203#\,\,\,\,*6057083\n\nSource: https:/
- /calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40g
- roup.calendar.google.com/public/basic.ics
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\nDocket: HLP-2024-0001\n\n<a href="https://docs.goog
+ le.com/document/d/1UjsKVjB3aTJwlbknrkSsxuiIN6JCWEIw9uL0pCh_0iA/edit?usp=sh
+ aring" target="_blank">Notice of Public Meeting 8-4-26 Docket Nos. HLP-202
+ 4-0001\, et al</a><br>___________________________<br><br>Join from PC\, Ma
+ c\, iPad\, or Android:<br><a href="https://iuc-iowa.zoom.us/j/83265907203?
+ pwd=fI6RFbKL1khsZybPCHo7QNE4qdemma.1" target="_blank"><u>https://iuc-iowa.
+ zoom.us/j/83265907203?pwd=fI6RFbKL1khsZybPCHo7QNE4qdemma.1</u></a><br>Pass
+ code:60570834<br><br>Phone one-tap:<br>+13126266799\,\,83265907203#\,\,\,\
+ ,*60570834# US (Chicago)<br>+16465588656\,\,83265907203#\,\,\,\,*6057083\n
+ \nSource: https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcp
+ cq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
 LOCATION:IUC Hearing Room
 PRIORITY:5
 URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
@@ -121,21 +96,21 @@ SUMMARY:[IA] Docket No. TF-2025-0007 | Open Meeting & Closed Session Delib
  eration
 DTSTART:20260804T200000Z
 DTEND:20260804T210000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:df16a158248d62d1fa5d@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\nDocket: TF-2025-0007\n\n<a href="https://docs.google.com/document/d/
- 1sAWshkozEC7bIp4ZvrTxMWkpd-3DI7daj4SMPL5CHLM/edit?usp=sharing" target="_bl
- ank">Notice of Public Meeting 8-4-26 Docket No. TF-2025-0007</a><br>______
- _____________________________<br><br>Join from PC\, Mac\, iPad\, or Androi
- d:<br><a href="https://iuc-iowa.zoom.us/j/84859237989?pwd=P1VId1aA8fh1BiuZ
- 1ba49c2DdO3mU5.1" target="_blank"><u>https://iuc-iowa.zoom.us/j/8485923798
- 9?pwd=P1VId1aA8fh1BiuZ1ba49c2DdO3mU5.1</u></a><br>Passcode:24816795<br><br
- >Phone one-tap:<br>+13126266799\,\,84859237989#\,\,\,\,*24816795# US (Chic
- ago)<br>+16465588656\,\,84859237989#\,\,\,\,*24816795\n\nSource: https://c
- alendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40gro
- up.calendar.google.com/public/basic.ics
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\nDocket: TF-2025-0007\n\n<a href="https://docs.googl
+ e.com/document/d/1sAWshkozEC7bIp4ZvrTxMWkpd-3DI7daj4SMPL5CHLM/edit?usp=sha
+ ring" target="_blank">Notice of Public Meeting 8-4-26 Docket No. TF-2025-0
+ 007</a><br>___________________________________<br><br>Join from PC\, Mac\,
+  iPad\, or Android:<br><a href="https://iuc-iowa.zoom.us/j/84859237989?pwd
+ =P1VId1aA8fh1BiuZ1ba49c2DdO3mU5.1" target="_blank"><u>https://iuc-iowa.zoo
+ m.us/j/84859237989?pwd=P1VId1aA8fh1BiuZ1ba49c2DdO3mU5.1</u></a><br>Passcod
+ e:24816795<br><br>Phone one-tap:<br>+13126266799\,\,84859237989#\,\,\,\,*2
+ 4816795# US (Chicago)<br>+16465588656\,\,84859237989#\,\,\,\,*24816795\n\n
+ Source: https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq
+ 7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
 LOCATION:Hearing Room\, Iowa Utilities Commission\, 1375 E Court Ave\, Des
   Moines\, IA 50319\, USA
 PRIORITY:5
@@ -146,12 +121,12 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260805T000000
 DTEND;TZID=America/Chicago:20260805T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:cafa94052c2b025edfc3@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\n\nAugust 5\, 2026 | Agenda (132.51 KB) .pdf (Amended) | Minutes\n\nS
- ource: https://iuc.iowa.gov/media/2214/download?inline
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\n\nAugust 5\, 2026 | Agenda (132.51 KB) .pdf (Amende
+ d) | Minutes\n\nSource: https://iuc.iowa.gov/media/2214/download?inline
 PRIORITY:5
 URL:https://iuc.iowa.gov/media/2214/download?inline
 END:VEVENT
@@ -160,21 +135,21 @@ SUMMARY:[IA] Docket No. RPU-2023-0002 | Open Meeting & Closed Session Deli
  beration
 DTSTART:20260805T180000Z
 DTEND:20260805T190000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:62ca28b5457d594dd81d@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\nDocket: RPU-2023-0002\n\n<a href="https://docs.google.com/document/d
- /1ou6-fsM1TNy__aRFO6yKFO244Bt3fD0X0X9xuJP0g5w/edit?usp=sharing" class="pas
- tedDriveLink-0">Amended Notice of Public Meeting 8-5-26 Docket No. RPU-202
- 3-0002</a><br>___________________________<br><br>Join from PC\, Mac\, iPad
- \, or Android:<br><a href="https://iuc-iowa.zoom.us/j/83971096066?pwd=vqoS
- ljCQzaJyLCf5bufg0u8uELRSmo.1" target="_blank"><u>https://iuc-iowa.zoom.us/
- j/83971096066?pwd=vqoSljCQzaJyLCf5bufg0u8uELRSmo.1</u></a><br>Passcode:215
- 84223<br><br>Phone one-tap:<br>+13092053325\,\,83971096066#\,\,\,\,*215842
- 23# US<br>+13126266799\,\,83971096066#\,\,\,\,*2158422\n\nSource: https://
- calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40gr
- oup.calendar.google.com/public/basic.ics
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\nDocket: RPU-2023-0002\n\n<a href="https://docs.goog
+ le.com/document/d/1ou6-fsM1TNy__aRFO6yKFO244Bt3fD0X0X9xuJP0g5w/edit?usp=sh
+ aring" class="pastedDriveLink-0">Amended Notice of Public Meeting 8-5-26 D
+ ocket No. RPU-2023-0002</a><br>___________________________<br><br>Join fro
+ m PC\, Mac\, iPad\, or Android:<br><a href="https://iuc-iowa.zoom.us/j/839
+ 71096066?pwd=vqoSljCQzaJyLCf5bufg0u8uELRSmo.1" target="_blank"><u>https://
+ iuc-iowa.zoom.us/j/83971096066?pwd=vqoSljCQzaJyLCf5bufg0u8uELRSmo.1</u></a
+ ><br>Passcode:21584223<br><br>Phone one-tap:<br>+13092053325\,\,8397109606
+ 6#\,\,\,\,*21584223# US<br>+13126266799\,\,83971096066#\,\,\,\,*2158422\n\
+ nSource: https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpc
+ q7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
 LOCATION:Hearing Room\, Iowa Utilities Commission\, 1375 E Court Ave\, Des
   Moines\, IA 50319\, USA
 PRIORITY:5
@@ -185,12 +160,12 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:6a2e08bb5a3edc5690ad@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\n\nAugust 11\, 2026 | E-22543 | Clarion | Agenda (121.85 KB) .pdf\n\n
- Source: https://iuc.iowa.gov/media/2192/download?inline
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\n\nAugust 11\, 2026 | E-22543 | Clarion | Agenda (12
+ 1.85 KB) .pdf\n\nSource: https://iuc.iowa.gov/media/2192/download?inline
 PRIORITY:5
 URL:https://iuc.iowa.gov/media/2192/download?inline
 END:VEVENT
@@ -198,7 +173,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] E-22543 Public Hearing
 DTSTART:20260811T140000Z
 DTEND:20260811T220000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:a5dbbe762949e2b664e1@psc-calendar
 CATEGORIES:IA,Public Comment Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
@@ -218,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Docket No. E-22564 Scheduling Conference
 DTSTART:20260813T140000Z
 DTEND:20260813T150000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:e5ba991d82ae1e6082d2@psc-calendar
 CATEGORIES:IA,Procedural Milestone
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Procedural M
@@ -243,7 +218,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] E-22570 | Informational Meeting
 DTSTART:20260813T173000Z
 DTEND:20260813T193000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:a63cecdffda0857e4bb4@psc-calendar
 CATEGORIES:IA,Workshop / Conference
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Workshop / C
@@ -263,12 +238,12 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:768de59949413fd280d4@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\n\nAugust 17\, 2026 | Agenda (122.64 KB) .pdf | Minutes\n\nSource: ht
- tps://iuc.iowa.gov/media/2212/download?inline
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\n\nAugust 17\, 2026 | Agenda (122.64 KB) .pdf | Minu
+ tes\n\nSource: https://iuc.iowa.gov/media/2212/download?inline
 PRIORITY:5
 URL:https://iuc.iowa.gov/media/2212/download?inline
 END:VEVENT
@@ -276,12 +251,12 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260818T000000
 DTEND;TZID=America/Chicago:20260818T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:580eb49ed88c5420a0e5@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\n\nAugust 18\, 2026 | Agenda (123.01 KB) .pdf | Minutes\n\nSource: ht
- tps://iuc.iowa.gov/media/2213/download?inline
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\n\nAugust 18\, 2026 | Agenda (123.01 KB) .pdf | Minu
+ tes\n\nSource: https://iuc.iowa.gov/media/2213/download?inline
 PRIORITY:5
 URL:https://iuc.iowa.gov/media/2213/download?inline
 END:VEVENT
@@ -289,17 +264,17 @@ BEGIN:VEVENT
 SUMMARY:[IA] Monthly Commission Meeting
 DTSTART;TZID=America/Chicago:20260819T090000
 DTEND;TZID=America/Chicago:20260819T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:80d855a3518c425b8b5b@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\n\n<a href="https://drive.google.com/file/d/1-8P_GAOCdvkuArhqy8EW2ln1
- vGUPZXEM/view?usp=sharing" class="pastedDriveLink-0">August 2026 - Monthly
-  Commission Public Meeting Agenda.pdf</a><br><p>────────
- ──<br><br><a href="https://www.youtube.com/watch?v=7-U8Cu6zJbM" target
- ="_blank">Live stream</a></p>\n\nSource: https://calendar.google.com/calen
- dar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/p
- ublic/basic.ics
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\n\n<a href="https://drive.google.com/file/d/1-8P_GAO
+ CdvkuArhqy8EW2ln1vGUPZXEM/view?usp=sharing" class="pastedDriveLink-0">Augu
+ st 2026 - Monthly Commission Public Meeting Agenda.pdf</a><br><p>───
+ ───────<br><br><a href="https://www.youtube.com/watch?v=7-U8
+ Cu6zJbM" target="_blank">Live stream</a></p>\n\nSource: https://calendar.g
+ oogle.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calend
+ ar.google.com/public/basic.ics
 LOCATION:Hearing Room/ virtual\, IUC - RM - Conference Room -- Hearing
 PRIORITY:5
 URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
@@ -309,12 +284,13 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260826T000000
 DTEND;TZID=America/Chicago:20260826T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:81899f20c64ee71695f9@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\n\nAugust 26\, 2026 | E-21292\, E-22550 | Council Bluffs | Agenda (27
- 4.16 KB) .pdf\n\nSource: https://iuc.iowa.gov/media/2191/download?inline
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\n\nAugust 26\, 2026 | E-21292\, E-22550 | Council Bl
+ uffs | Agenda (274.16 KB) .pdf\n\nSource: https://iuc.iowa.gov/media/2191/
+ download?inline
 PRIORITY:5
 URL:https://iuc.iowa.gov/media/2191/download?inline
 END:VEVENT
@@ -322,7 +298,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Docket Nos. E-21292 & E-22550 Hearing
 DTSTART:20260826T150000Z
 DTEND:20260826T220000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:61a20df59b80495ba9bc@psc-calendar
 CATEGORIES:IA,Public Comment Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
@@ -344,7 +320,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Docket No. PSA-2026-0001 Hearing
 DTSTART:20260827T140000Z
 DTEND:20260827T220000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:b0d3cb348f3bcda283ce@psc-calendar
 CATEGORIES:IA,Public Comment Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
@@ -365,7 +341,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] RPU-2026-0001 | Scheduling Conference
 DTSTART:20260902T140000Z
 DTEND:20260902T150000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:010fe7423ffa738dc67d@psc-calendar
 CATEGORIES:IA,Procedural Milestone
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Procedural M
@@ -383,7 +359,7 @@ SUMMARY:[IA] Docket No. RPU-2026-0001|Mid American Energy Consumer Comment
   Meeting
 DTSTART:20260908T230000Z
 DTEND:20260909T010000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:b8d2518b647b2a83ac07@psc-calendar
 CATEGORIES:IA,Other
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\nDocke
@@ -402,14 +378,14 @@ BEGIN:VEVENT
 SUMMARY:[IA] Monthly Commission Meeting
 DTSTART;TZID=America/Chicago:20260909T090000
 DTEND;TZID=America/Chicago:20260909T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:cd97bf3a90449f7407a4@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\n\nAgenda will be added to this event at a later date. <p>───
- ───────</p>\n\nSource: https://calendar.google.com/calendar/
- ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/publi
- c/basic.ics
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\n\nAgenda will be added to this event at a later dat
+ e. <p>──────────</p>\n\nSource: https://calendar.googl
+ e.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.g
+ oogle.com/public/basic.ics
 LOCATION:Hearing Room\, Iowa Utilities Commission\, 1375 E Court Ave\, Des
   Moines\, IA 50319\, USA
 PRIORITY:5
@@ -421,7 +397,7 @@ SUMMARY:[IA] Docket No. RPU-2026-0001|Mid American Energy Virtual Consumer
   Comment Meeting
 DTSTART:20260909T170000Z
 DTEND:20260909T190000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:d4b96ab1095a55a48b30@psc-calendar
 CATEGORIES:IA,Other
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\nDocke
@@ -440,7 +416,7 @@ SUMMARY:[IA] Docket No. RPU-2026-0001|Mid American Energy Consumer Comment
   Meeting
 DTSTART:20260909T230000Z
 DTEND:20260910T010000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:4a53ebbdf69eb7c010f4@psc-calendar
 CATEGORIES:IA,Other
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\nDocke
@@ -461,7 +437,7 @@ SUMMARY:[IA] Docket No. RPU-2026-0001|Mid American Energy Consumer Comment
   Meeting
 DTSTART:20260910T230000Z
 DTEND:20260911T010000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:44948c94a1209890875e@psc-calendar
 CATEGORIES:IA,Other
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\nDocke
@@ -480,7 +456,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] E-22573 | Public Informational Meeting
 DTSTART:20260923T193000Z
 DTEND:20260923T213000Z
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:52ca3841455f8f3894e7@psc-calendar
 CATEGORIES:IA,Workshop / Conference
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Workshop / C
@@ -502,14 +478,14 @@ BEGIN:VEVENT
 SUMMARY:[IA] Monthly Commission Meeting
 DTSTART;TZID=America/Chicago:20261008T090000
 DTEND;TZID=America/Chicago:20261008T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:0d7d89c1b49a0d5c415b@psc-calendar
-CATEGORIES:IA,Decision / Order
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Decision / O
- rder\n\nAgenda will be added to this event at a later date. <p>───
- ───────</p>\n\nSource: https://calendar.google.com/calendar/
- ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/publi
- c/basic.ics
+CATEGORIES:IA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
+  / Commission Meeting\n\nAgenda will be added to this event at a later dat
+ e. <p>──────────</p>\n\nSource: https://calendar.googl
+ e.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.g
+ oogle.com/public/basic.ics
 LOCATION:Hearing Room/ virtual\, IUC - RM - Conference Room -- Hearing
 PRIORITY:5
 URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
@@ -519,7 +495,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] GCU-2026-0006 Public Hearing
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261022
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:c0edcdf0effaaecf78d9@psc-calendar
 CATEGORIES:IA,Public Comment Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
@@ -536,7 +512,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] GCU-2026-0006 Public Hearing
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261023
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:a2f7e0e2ee694f74f08d@psc-calendar
 CATEGORIES:IA,Public Comment Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
@@ -553,7 +529,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] GCU-2026-0006 Public Hearing
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261024
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:ff7c7dd67e78b9d529fb@psc-calendar
 CATEGORIES:IA,Public Comment Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
@@ -570,7 +546,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] 2026 NARUC Annual Meeting & Education Conference
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261113
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:eeb3552b7c520703d308@psc-calendar
 CATEGORIES:IA,Other
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nNAR
@@ -589,7 +565,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] GCU-2026-0001 Public Hearing
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261119
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:164ec57ae88840063149@psc-calendar
 CATEGORIES:IA,Public Comment Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
@@ -606,7 +582,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] GCU-2026-0001 Public Hearing
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:ad1fd3c0c0ae6dee5ea4@psc-calendar
 CATEGORIES:IA,Public Comment Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
@@ -623,7 +599,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] GCU-2026-0001 Public Hearing
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261121
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:7d58ce989b3204bf4d51@psc-calendar
 CATEGORIES:IA,Public Comment Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme

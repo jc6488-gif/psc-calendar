@@ -297,48 +297,79 @@ companies:
 # `weight` drives sort priority in the dashboard: 3 = moves the model,
 # 2 = worth watching, 1 = context.
 event_types:
-  - id: decision
-    label: Decision / Order
-    weight: 3
-    patterns: ["open meeting", "voting meeting", "agenda conference", "administrative session",
-               "business meeting", "commission meeting", "public meeting", "decision conference",
-               "sunshine act", "deliberation", "commission conference", "executive session", "agenda meeting",
-               "public service commission session", "commission session", "work session",
-               "special open meeting", "regular meeting"]
-
-  - id: evidentiary_hearing
-    label: Evidentiary Hearing
-    weight: 3
-    patterns: ["evidentiary hearing", "formal hearing", "contested case hearing",
-               "hearing on the merits", "technical conference", "trial", "cross-examination",
-               "rate hearing", "revenue requirement hearing"]
+  # ORDER MATTERS: first matching rule wins. Specific phrases outrank
+  # generic ones ("prehearing conference" must not classify as a hearing;
+  # "hearing on the merits/open meeting" is the hearing, not the meeting).
+  # Taxonomy redesigned 2026-08-15 per the user's desk: the type says WHAT
+  # the event is; `relevance` says how much the desk should care.
 
   - id: procedural
     label: Procedural Milestone
     weight: 3
+    relevance: Medium
     patterns: ["prehearing conference", "pre-hearing conference", "scheduling conference",
-               "procedural schedule", "testimony due", "direct testimony", "rebuttal testimony",
+               "status conference", "procedural schedule", "procedural conference",
+               "testimony due", "direct testimony", "rebuttal testimony",
                "surrebuttal", "intervention deadline", "petition to intervene", "briefs due",
                "initial brief", "reply brief", "settlement conference", "settlement discussion",
                "statutory deadline", "suspension period", "rate effective", "true-up",
-               "comment deadline", "reply comments due"]
+               "comment deadline", "comments due", "reply comments due", "filing deadline",
+               "deadline for", "d/l for", "d/l to"]
 
   - id: public_comment
     label: Public Comment Hearing
     weight: 2
+    relevance: Medium
     patterns: ["public comment", "public hearing", "public input", "listening session",
                "public forum", "customer hearing", "local public hearing", "town hall",
-               "public witness", "community meeting"]
+               "public witness", "community meeting", "comment session"]
+
+  - id: evidentiary_hearing
+    label: Evidentiary Hearing
+    weight: 3
+    relevance: High
+    patterns: ["evidentiary hearing", "formal hearing", "contested case hearing",
+               "hearing on the merits", "trial", "cross-examination",
+               "rate hearing", "revenue requirement hearing", "expert witness hearing"]
+
+  - id: open_meeting
+    label: Open Meeting / Commission Meeting
+    weight: 3
+    relevance: High
+    patterns: ["open meeting", "voting meeting", "agenda conference", "administrative session",
+               "administrative meeting", "business meeting", "commission meeting",
+               "public meeting", "sunshine act", "commission conference", "executive session",
+               "agenda meeting", "public service commission session", "commission session",
+               "work session", "special open meeting", "regular meeting", "decision meeting",
+               "agenda session", "commission gathering"]
+
+  - id: decision_order
+    label: Decision / Order
+    weight: 3
+    relevance: High
+    patterns: ["final order", "order issued", "issues order", "order deadline",
+               "decision due", "expected decision", "commission decision",
+               "deliberation", "decision conference", "ruling on", "final decision",
+               "order on rehearing"]
 
   - id: workshop
     label: Workshop / Conference
     weight: 1
-    patterns: ["workshop", "roundtable", "stakeholder", "working group", "webinar",
-               "informational", "training", "symposium", "task force", "advisory"]
+    relevance: Low
+    patterns: ["workshop", "technical conference", "roundtable", "stakeholder",
+               "working group", "work group", "webinar", "informational", "training",
+               "symposium", "task force", "advisory"]
+
+  # Generic fallback AFTER everything specific: a bare "Hearing (25-035-61)"
+  # is a hearing, not Other - Utah and MA dockets were vanishing into Other.
+  - id: evidentiary_hearing
+    label: Evidentiary Hearing
+    weight: 3
+    relevance: High
+    patterns: ["hearing"]
 
   - id: other
     label: Other
     weight: 1
+    relevance: Low
     patterns: []
-
-

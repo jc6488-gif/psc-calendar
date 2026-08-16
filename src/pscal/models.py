@@ -72,6 +72,7 @@ class Event:
     dockets: list[str] = field(default_factory=list)
     event_type: str = "other"
     event_type_label: str = "Other"
+    relevance: str = "Low"
     weight: int = 1
     scraped_at: str = ""
 

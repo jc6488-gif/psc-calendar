@@ -53,14 +53,14 @@ def main() -> int:
         evs = []
         for r in raws:
             blob = f"{r.get('title','')} {r.get('description','')}"
-            et, el, w = classify.classify_type(blob)
+            et, el, w, rel = classify.classify_type(blob)
             evs.append(Event(
                 commission=code, commission_name=name, state=state, tz=tzname,
                 title=r["title"], start=shift(r["start"]), all_day=bool(r.get("all_day")),
                 location=r.get("location", ""), description=r.get("description", ""),
                 url=r.get("url", ""), source_url="",
                 dockets=extract_dockets(r.get("title"), r.get("description")),
-                event_type=et, event_type_label=el,
+                event_type=et, event_type_label=el, relevance=rel,
                 weight=w,
                 scraped_at=NOW.isoformat(),
             ))

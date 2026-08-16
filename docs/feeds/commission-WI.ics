@@ -12,13 +12,13 @@ BEGIN:VEVENT
 SUMMARY:[WI] View Details of Open Meeting
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260816T025945Z
 UID:6e46f935c67a79cfb770@psc-calendar
-CATEGORIES:WI,Decision / Order
+CATEGORIES:WI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Service Commission of Wisconsin (WI)\nType:
-  Decision / Order\n\nView Details of Thursday\, August 6\, 2026 Open Meeti
- ng\n\nSource: https://apps.psc.wi.gov/apps/calendar/External/OpenMeetingDe
- tails/61
+  Open Meeting / Commission Meeting\n\nView Details of Thursday\, August 6\
+ , 2026 Open Meeting\n\nSource: https://apps.psc.wi.gov/apps/calendar/Exter
+ nal/OpenMeetingDetails/61
 PRIORITY:5
 URL:https://apps.psc.wi.gov/apps/calendar/External/OpenMeetingDetails/61
 END:VEVENT
@@ -26,12 +26,13 @@ BEGIN:VEVENT
 SUMMARY:[WI] Open Meetings for the Week of
 DTSTART;TZID=America/Chicago:20260810T000000
 DTEND;TZID=America/Chicago:20260810T020000
-DTSTAMP:20260814T225229Z
+DTSTAMP:20260816T025945Z
 UID:ae5439c264e31536b33c@psc-calendar
-CATEGORIES:WI,Decision / Order
+CATEGORIES:WI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Service Commission of Wisconsin (WI)\nType:
-  Decision / Order\n\nOpen Meetings for the Week of Monday\, August 10\, 20
- 26\n\nSource: https://apps.psc.wi.gov/apps/calendar/External
+  Open Meeting / Commission Meeting\n\nOpen Meetings for the Week of Monday
+ \, August 10\, 2026\n\nSource: https://apps.psc.wi.gov/apps/calendar/Exter
+ nal
 PRIORITY:5
 URL:https://apps.psc.wi.gov/apps/calendar/External
 END:VEVENT

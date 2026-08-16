@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
 DTSTART;TZID=America/New_York:20260818T100000
 DTEND;TZID=America/New_York:20260818T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:8131c78bb4c788c5fb97@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci
@@ -27,15 +27,15 @@ BEGIN:VEVENT
 SUMMARY:[ME] SNGME Initial Case & Technical Conference
 DTSTART;TZID=America/New_York:20260818T130000
 DTEND;TZID=America/New_York:20260818T150000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:ebfa39b4fe8108dd5aa9@psc-calendar
-CATEGORIES:ME,Evidentiary Hearing
-DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
- entiary Hearing\n\n8/18/2026 | Technical Conference | SNGME Initial Case &
-  Technical Conference | Simpson Room | 1:00 PM | | 2026-00180\n\nSource: h
- ttps://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&id=133
- 57564&v=article088
-PRIORITY:5
+CATEGORIES:ME,Workshop / Conference
+DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Work
+ shop / Conference\n\n8/18/2026 | Technical Conference | SNGME Initial Case
+  & Technical Conference | Simpson Room | 1:00 PM | | 2026-00180\n\nSource:
+  https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&id=1
+ 3357564&v=article088
+PRIORITY:9
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
  d=13357564&v=article088
 END:VEVENT
@@ -44,15 +44,15 @@ SUMMARY:[ME] Technical Conference on Intervenor Testimony/Bench Analysis -
   CMP Rate Case (DAY 1)
 DTSTART;TZID=America/New_York:20260819T090000
 DTEND;TZID=America/New_York:20260819T110000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:9ab6d45d0507270e256a@psc-calendar
-CATEGORIES:ME,Evidentiary Hearing
-DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
- entiary Hearing\n\n8/19/2026 | Technical Conference | Technical Conference
-  on Intervenor Testimony/Bench Analysis - CMP Rate Case (DAY 1) | Simpson 
- Room | 9:00 AM | | 2026-00043\n\nSource: https://www.maine.gov/tools/whats
- new/index.php?topic=puc-otherevents&id=13357565&v=article088
-PRIORITY:5
+CATEGORIES:ME,Workshop / Conference
+DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Work
+ shop / Conference\n\n8/19/2026 | Technical Conference | Technical Conferen
+ ce on Intervenor Testimony/Bench Analysis - CMP Rate Case (DAY 1) | Simpso
+ n Room | 9:00 AM | | 2026-00043\n\nSource: https://www.maine.gov/tools/wha
+ tsnew/index.php?topic=puc-otherevents&id=13357565&v=article088
+PRIORITY:9
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
  d=13357565&v=article088
 END:VEVENT
@@ -60,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:[ME] Settlement Conference
 DTSTART;TZID=America/New_York:20260820T130000
 DTEND;TZID=America/New_York:20260820T150000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:1ef72cd35b7389fe61ab@psc-calendar
 CATEGORIES:ME,Procedural Milestone
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Proc
@@ -76,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:[ME] Follow-on Settlement Conference
 DTSTART;TZID=America/New_York:20260821T110000
 DTEND;TZID=America/New_York:20260821T130000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:5006c977a5ca86746274@psc-calendar
 CATEGORIES:ME,Procedural Milestone
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Proc
@@ -93,14 +93,14 @@ SUMMARY:[ME] Technical Conference on Rebuttal Testimony/Bench Analysis - C
  MP Rate Case (DAY 2)
 DTSTART;TZID=America/New_York:20260824T090000
 DTEND;TZID=America/New_York:20260824T110000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:981f93ba326534eb95e9@psc-calendar
-CATEGORIES:ME,Evidentiary Hearing
-DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
- entiary Hearing\n\n8/24/2026 | Technical Conference | Technical Conference
-  on Rebuttal Testimony/Bench Analysis - CMP Rate Case (DAY 2) | Simpson Ro
- om | 9:00 AM | | 2026-00043\n\nSource: https://www.maine.gov/tools/whatsne
- w/index.php?topic=puc-otherevents&id=13357639&v=article088
+CATEGORIES:ME,Procedural Milestone
+DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Proc
+ edural Milestone\n\n8/24/2026 | Technical Conference | Technical Conferenc
+ e on Rebuttal Testimony/Bench Analysis - CMP Rate Case (DAY 2) | Simpson R
+ oom | 9:00 AM | | 2026-00043\n\nSource: https://www.maine.gov/tools/whatsn
+ ew/index.php?topic=puc-otherevents&id=13357639&v=article088
 PRIORITY:5
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
  d=13357639&v=article088
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
 DTSTART;TZID=America/New_York:20260825T100000
 DTEND;TZID=America/New_York:20260825T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:92f90678c1c52aae8785@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci
@@ -124,15 +124,15 @@ BEGIN:VEVENT
 SUMMARY:[ME] Technical Conference (CMP Section 60 T&Cs)
 DTSTART;TZID=America/New_York:20260825T130000
 DTEND;TZID=America/New_York:20260825T150000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:7096fb8d114af0828b70@psc-calendar
-CATEGORIES:ME,Evidentiary Hearing
-DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
- entiary Hearing\n\n8/25/2026 | Technical Conference | Technical Conference
-  (CMP Section 60 T&Cs) | Simpson Room | 1:00 PM | | 2025-00210\n\nSource: 
- https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&id=13
- 357640&v=article088
-PRIORITY:5
+CATEGORIES:ME,Workshop / Conference
+DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Work
+ shop / Conference\n\n8/25/2026 | Technical Conference | Technical Conferen
+ ce (CMP Section 60 T&Cs) | Simpson Room | 1:00 PM | | 2025-00210\n\nSource
+ : https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&id=
+ 13357640&v=article088
+PRIORITY:9
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
  d=13357640&v=article088
 END:VEVENT
@@ -141,15 +141,15 @@ SUMMARY:[ME] Commission Review of DOER Request for Proposals for Energy St
  orage
 DTSTART;TZID=America/New_York:20260826T090000
 DTEND;TZID=America/New_York:20260826T110000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:0ef09bb84983861a87fe@psc-calendar
-CATEGORIES:ME,Evidentiary Hearing
-DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
- entiary Hearing\n\n8/26/2026 | Technical Conference | Commission Review of
-  DOER Request for Proposals for Energy Storage | Simpson Room | 9:00 AM | 
- | 2026-00196\n\nSource: https://www.maine.gov/tools/whatsnew/index.php?top
- ic=puc-otherevents&id=13357641&v=article088
-PRIORITY:5
+CATEGORIES:ME,Workshop / Conference
+DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Work
+ shop / Conference\n\n8/26/2026 | Technical Conference | Commission Review 
+ of DOER Request for Proposals for Energy Storage | Simpson Room | 9:00 AM 
+ | | 2026-00196\n\nSource: https://www.maine.gov/tools/whatsnew/index.php?t
+ opic=puc-otherevents&id=13357641&v=article088
+PRIORITY:9
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
  d=13357641&v=article088
 END:VEVENT
@@ -158,15 +158,15 @@ SUMMARY:[ME] Technical Conference on Intervenor Testimony/Bench Analysis -
   CMP Rate Case (DAY 3)
 DTSTART;TZID=America/New_York:20260827T090000
 DTEND;TZID=America/New_York:20260827T110000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:fe2b6ce61b9e387b48e6@psc-calendar
-CATEGORIES:ME,Evidentiary Hearing
-DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
- entiary Hearing\n\n8/27/2026 | Technical Conference | Technical Conference
-  on Intervenor Testimony/Bench Analysis - CMP Rate Case (DAY 3) | Simpson 
- Room | 9:00 AM | | 2026-00043\n\nSource: https://www.maine.gov/tools/whats
- new/index.php?topic=puc-otherevents&id=13357642&v=article088
-PRIORITY:5
+CATEGORIES:ME,Workshop / Conference
+DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Work
+ shop / Conference\n\n8/27/2026 | Technical Conference | Technical Conferen
+ ce on Intervenor Testimony/Bench Analysis - CMP Rate Case (DAY 3) | Simpso
+ n Room | 9:00 AM | | 2026-00043\n\nSource: https://www.maine.gov/tools/wha
+ tsnew/index.php?topic=puc-otherevents&id=13357642&v=article088
+PRIORITY:9
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
  d=13357642&v=article088
 END:VEVENT
@@ -175,15 +175,15 @@ SUMMARY:[ME] KLPD Petition for CPCN for the Water Street Substation Projec
  t
 DTSTART;TZID=America/New_York:20260828T090000
 DTEND;TZID=America/New_York:20260828T110000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:113f6890a067f34c677c@psc-calendar
-CATEGORIES:ME,Evidentiary Hearing
-DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Evid
- entiary Hearing\n\n8/28/2026 | Technical Conference | KLPD Petition for CP
- CN for the Water Street Substation Project | Simpson Room | 9:00 AM | | 20
- 26-00146\n\nSource: https://www.maine.gov/tools/whatsnew/index.php?topic=p
- uc-otherevents&id=13357643&v=article088
-PRIORITY:5
+CATEGORIES:ME,Workshop / Conference
+DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Work
+ shop / Conference\n\n8/28/2026 | Technical Conference | KLPD Petition for 
+ CPCN for the Water Street Substation Project | Simpson Room | 9:00 AM | | 
+ 2026-00146\n\nSource: https://www.maine.gov/tools/whatsnew/index.php?topic
+ =puc-otherevents&id=13357643&v=article088
+PRIORITY:9
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-otherevents&i
  d=13357643&v=article088
 END:VEVENT
@@ -191,7 +191,7 @@ BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
 DTSTART;TZID=America/New_York:20260901T100000
 DTEND;TZID=America/New_York:20260901T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:388dd6f773588622fc77@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci
@@ -206,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
 DTSTART;TZID=America/New_York:20260915T100000
 DTEND;TZID=America/New_York:20260915T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:28d96d2f62d13130928c@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci

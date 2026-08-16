@@ -73,7 +73,7 @@ def write_all(events: list[Event], outdir: Path, now: datetime) -> dict[str, int
     emit("all.ics", events, "US Utility Regulatory Calendar",
          "All tracked commission meetings, hearings and procedural dates.")
 
-    high = [e for e in events if e.weight >= 4]
+    high = [e for e in events if e.relevance == "High"]
     emit("high-priority.ics", high, "Utility Regulatory — High Priority",
          "Decisions, evidentiary hearings and procedural deadlines.")
 

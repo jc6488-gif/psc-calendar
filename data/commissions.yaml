@@ -482,6 +482,7 @@ commissions:
       # page 404.
       - url: "https://eeaonline.eea.state.ma.us/dpu/fileroom/api/search/hearings/"
         strategy: ma_fileroom
+        type_hint: evidentiary_hearing
       - url: https://www.mass.gov/orgs/department-of-public-utilities
         strategy: auto
   - code: MI
@@ -951,6 +952,7 @@ commissions:
       # old open-meetings URLs 404ed.
       - url: "https://outlook.office365.com/owa/calendar/12df60392a5b4b46896cb5140c9bd191@rrc.texas.gov/811655264c4c474e8f9a144c8d0c56172702639553116114065/calendar.ics"
         strategy: ics
+        type_hint: evidentiary_hearing
       - url: https://www.rrc.texas.gov/general-counsel/open-meetings/
         strategy: auto
         label: RRC open meeting (conference)

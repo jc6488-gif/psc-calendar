@@ -21,20 +21,33 @@ def load_commissions() -> list[dict]:
 
 
 @lru_cache(maxsize=1)
-def _type_rules() -> list[tuple[str, str, int, list[re.Pattern]]]:
+def _type_rules() -> list[tuple[str, str, int, str, list[re.Pattern]]]:
     rules = []
     for t in load_coverage()["event_types"]:
         pats = [re.compile(re.escape(p).replace(r"\ ", r"\s+"), re.IGNORECASE)
                 for p in t.get("patterns", [])]
-        rules.append((t["id"], t["label"], t.get("weight", 1), pats))
+        rules.append((t["id"], t["label"], t.get("weight", 1),
+                      t.get("relevance", "Low"), pats))
     return rules
 
 
-def classify_type(text: str) -> tuple[str, str, int]:
-    for tid, label, weight, pats in _type_rules():
+def classify_type(text: str) -> tuple[str, str, int, str]:
+    """Returns (type_id, label, weight, relevance). The type says WHAT the
+    event is; relevance says how much the desk should care - the old scheme
+    conflated the two by filing open meetings under Decision / Order."""
+    for tid, label, weight, relevance, pats in _type_rules():
         if any(p.search(text) for p in pats):
-            return tid, label, weight
-    return "other", "Other", 1
+            return tid, label, weight, relevance
+    return "other", "Other", 1, "Low"
+
+
+def type_info(tid: str) -> tuple[str, str, int, str]:
+    """Look up a type id directly - used when a source knows what its events
+    are (the MA hearings API serves only hearings) but titles lack keywords."""
+    for t, label, weight, relevance, _ in _type_rules():
+        if t == tid:
+            return t, label, weight, relevance
+    return "other", "Other", 1, "Low"
 
 
 NOISE = [

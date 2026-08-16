@@ -25,14 +25,14 @@ def _mk(raws, commission="XX"):
     out = []
     for r in raws:
         blob = f"{r.get('title','')} {r.get('description','')}"
-        et, el, w = classify.classify_type(blob)
+        et, el, w, rel = classify.classify_type(blob)
         out.append(Event(
             commission=commission, commission_name="Test Commission", state="XX", tz=TZ,
             title=r["title"], start=r["start"], end=r.get("end"),
             all_day=bool(r.get("all_day")), location=r.get("location", ""),
             description=r.get("description", ""), url=r.get("url", ""),
             dockets=extract_dockets(r.get("title"), r.get("description")),
-            event_type=et, event_type_label=el,
+            event_type=et, event_type_label=el, relevance=rel,
             weight=w,
         ))
     return out
@@ -130,17 +130,32 @@ def test_bare_date_in_past_still_rolls_forward():
     assert dt is not None and (dt.year, dt.month, dt.day) == (2027, 3, 4)
 
 
-@pytest.mark.parametrize("text,expected", [
-    ("Commission Open Meeting", "decision"),
-    ("Evidentiary Hearing on the merits", "evidentiary_hearing"),
-    ("Prehearing Conference", "procedural"),
-    ("Direct testimony due", "procedural"),
-    ("Local Public Hearing", "public_comment"),
-    ("Stakeholder Workshop on interconnection", "workshop"),
-    ("Public Service Commission Session", "decision"),
+@pytest.mark.parametrize("text,expected,relevance", [
+    ("Commission Open Meeting", "open_meeting", "High"),
+    ("Regular Open Meeting", "open_meeting", "High"),
+    ("Evidentiary Hearing on the merits", "evidentiary_hearing", "High"),
+    ("Prehearing Conference", "procedural", "Medium"),
+    ("Direct testimony due", "procedural", "Medium"),
+    ("Local Public Hearing", "public_comment", "Medium"),
+    ("Stakeholder Workshop on interconnection", "workshop", "Low"),
+    ("Public Service Commission Session", "open_meeting", "High"),
+    ("Order on Rehearing in Docket 12345", "decision_order", "High"),
+    # bare "Hearing (25-035-61...)" was vanishing into Other
+    ("Hearing (25-035-61, Utah Fire Fund)", "evidentiary_hearing", "High"),
+    ("Hearing on the Merits/Open Meeting", "evidentiary_hearing", "High"),
 ])
-def test_event_typing(text, expected):
-    assert classify.classify_type(text)[0] == expected
+def test_event_typing(text, expected, relevance):
+    tid, _, _, rel = classify.classify_type(text)
+    assert tid == expected
+    assert rel == relevance
+
+
+def test_type_hint_rescues_keywordless_titles():
+    """MA's hearings API serves docket rows like '26-50 - Boston Gas - Rates'
+    with no type words; the source-level hint keeps them out of Other."""
+    assert classify.classify_type("26-50 - Boston Gas Company d/b/a National Grid - Rates")[0] == "other"
+    assert classify.type_info("evidentiary_hearing")[0] == "evidentiary_hearing"
+    assert classify.type_info("evidentiary_hearing")[3] == "High"
 
 
 def test_noise_filter():
@@ -252,7 +267,7 @@ def test_federal_register_extractor(monkeypatch):
     assert e["start"].month == 9 and e["start"].day == 17 and e["start"].hour == 10
     assert "Sunshine Act" in e["title"]
     assert e["url"].startswith("https://www.federalregister.gov/")
-    assert classify.classify_type(e["title"] + " sunshine act")[0] == "decision"
+    assert classify.classify_type(e["title"] + " sunshine act")[0] == "open_meeting"
 
 
 def test_telerik_scheduler_extractor():

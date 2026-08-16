@@ -210,13 +210,13 @@ def main() -> int:
     for code, (name, state, tzname, url, block) in LIVE.items():
         evs = []
         for dt, title, docket, allday in parse(block, tzname):
-            et, el, w = classify.classify_type(title)
+            et, el, w, rel = classify.classify_type(title)
             dockets = extract_dockets(title) or ([docket] if docket else [])
             evs.append(Event(
                 commission=code, commission_name=name, state=state, tz=tzname,
                 title=title, start=dt, all_day=allday, location="",
                 description="", url=url, source_url=url, dockets=dockets,
-                event_type=et, event_type_label=el,
+                event_type=et, event_type_label=el, relevance=rel,
                 weight=w,
                 scraped_at=CAPTURED.isoformat(),
             ))

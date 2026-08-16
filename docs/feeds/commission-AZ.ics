@@ -12,12 +12,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: August 12
 DTSTART;TZID=America/Phoenix:20260812T000000
 DTEND;TZID=America/Phoenix:20260812T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:ac7a453ffd209633562f@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nAugust | 12 | and 8/25 (Tues)\n\nSource: https://azcc.gov/ope
- n-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nAugust | 12 | and 8/25 (Tues)\n\nSource: htt
+ ps://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -25,12 +25,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: September 10 (Thurs)
 DTSTART;TZID=America/Phoenix:20260910T000000
 DTEND;TZID=America/Phoenix:20260910T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:39ee0839dd43bb702212@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nSeptember | 10 (Thurs) | 9/16 (Wed)\n\nSource: https://azcc.g
- ov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nSeptember | 10 (Thurs) | 9/16 (Wed)\n\nSourc
+ e: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -38,12 +38,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: October 07
 DTSTART;TZID=America/Phoenix:20261007T000000
 DTEND;TZID=America/Phoenix:20261007T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:69cb1612331f1c87d91d@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nOctober | 07 | 10/21 (Wed) and 10/29 (Thur)\n\nSource: https:
- //azcc.gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nOctober | 07 | 10/21 (Wed) and 10/29 (Thur)\
+ n\nSource: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -51,12 +51,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: November 4
 DTSTART;TZID=America/Phoenix:20261104T000000
 DTEND;TZID=America/Phoenix:20261104T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:d745785f9bd23abdfc80@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nNovember | 4 | 11/17 (Tues) and 11/19 (Thur)\n\nSource: https
- ://azcc.gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nNovember | 4 | 11/17 (Tues) and 11/19 (Thur)
+ \n\nSource: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -64,12 +64,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: December 2
 DTSTART;TZID=America/Phoenix:20261202T000000
 DTEND;TZID=America/Phoenix:20261202T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:d431db2eb660c4e6238e@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nDecember | 2 | 12/17 (Thur)\n\nSource: https://azcc.gov/open-
- meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nDecember | 2 | 12/17 (Thur)\n\nSource: https
+ ://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -77,12 +77,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: January 13
 DTSTART;TZID=America/Phoenix:20270113T000000
 DTEND;TZID=America/Phoenix:20270113T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:22493415eb399eda35de@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nJanuary | 13 | 1/4 (Mon) & 1/27 (Wed)\n\nSource: https://azcc
- .gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nJanuary | 13 | 1/4 (Mon) & 1/27 (Wed)\n\nSou
+ rce: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -90,12 +90,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: February 17
 DTSTART;TZID=America/Phoenix:20270217T000000
 DTEND;TZID=America/Phoenix:20270217T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:64c03310bc8af2a4a9be@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nFebruary | 17 | 2/3 (Wed) & 2/23 (Tue)\n\nSource: https://azc
- c.gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nFebruary | 17 | 2/3 (Wed) & 2/23 (Tue)\n\nSo
+ urce: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -103,12 +103,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: March 17
 DTSTART;TZID=America/Phoenix:20270317T000000
 DTEND;TZID=America/Phoenix:20270317T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:908386d85251af5d6bc1@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nMarch | 17 | 3/23 (Tue) & 3/31 (Wed)\n\nSource: https://azcc.
- gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nMarch | 17 | 3/23 (Tue) & 3/31 (Wed)\n\nSour
+ ce: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -116,12 +116,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: April 14
 DTSTART;TZID=America/Phoenix:20270414T000000
 DTEND;TZID=America/Phoenix:20270414T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:1a7ec539d38fde60d3a2@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nApril | 14 | 4/21 (Wed) & 4/29 (Thur)\n\nSource: https://azcc
- .gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nApril | 14 | 4/21 (Wed) & 4/29 (Thur)\n\nSou
+ rce: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -129,12 +129,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: May 5
 DTSTART;TZID=America/Phoenix:20270505T000000
 DTEND;TZID=America/Phoenix:20270505T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:bd94cd6d83d1fb2f932c@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nMay | 5 | 5/25 (Tue)\n\nSource: https://azcc.gov/open-meeting
- -schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nMay | 5 | 5/25 (Tue)\n\nSource: https://azcc
+ .gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -142,12 +142,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: June 16
 DTSTART;TZID=America/Phoenix:20270616T000000
 DTEND;TZID=America/Phoenix:20270616T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:ee5fa50523f015566720@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nJune | 16 | 6/23 (Wed) & 6/30 (Wed)\n\nSource: https://azcc.g
- ov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nJune | 16 | 6/23 (Wed) & 6/30 (Wed)\n\nSourc
+ e: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -155,12 +155,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: July 14
 DTSTART;TZID=America/Phoenix:20270714T000000
 DTEND;TZID=America/Phoenix:20270714T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:e02e56a6935d2fbcae03@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nJuly | 14 | 7/27 (Tue) & 7/29 (Thur)\n\nSource: https://azcc.
- gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nJuly | 14 | 7/27 (Tue) & 7/29 (Thur)\n\nSour
+ ce: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -168,12 +168,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: August 18
 DTSTART;TZID=America/Phoenix:20270818T000000
 DTEND;TZID=America/Phoenix:20270818T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:1f397ee58c68dad610dd@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nAugust | 18 | 8/11 (Wed) & 8/24 (Tue)\n\nSource: https://azcc
- .gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nAugust | 18 | 8/11 (Wed) & 8/24 (Tue)\n\nSou
+ rce: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -181,12 +181,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: September 15
 DTSTART;TZID=America/Phoenix:20270915T000000
 DTEND;TZID=America/Phoenix:20270915T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:abd8a1ad420fbcb2dae6@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nSeptember | 15 | 9/22 (Wed) & 9/29 (Wed)\n\nSource: https://a
- zcc.gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nSeptember | 15 | 9/22 (Wed) & 9/29 (Wed)\n\n
+ Source: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -194,12 +194,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: October 20
 DTSTART;TZID=America/Phoenix:20271020T000000
 DTEND;TZID=America/Phoenix:20271020T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:106d2d33584db4f86284@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nOctober | 20 | 10/27 (Wed)\n\nSource: https://azcc.gov/open-m
- eeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nOctober | 20 | 10/27 (Wed)\n\nSource: https:
+ //azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -207,12 +207,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: November 17
 DTSTART;TZID=America/Phoenix:20271117T000000
 DTEND;TZID=America/Phoenix:20271117T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:07f8c54c3034627efb09@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nNovember | 17 | 11/3 (Wed)\n\nSource: https://azcc.gov/open-m
- eeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nNovember | 17 | 11/3 (Wed)\n\nSource: https:
+ //azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT
@@ -220,12 +220,12 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: December 8
 DTSTART;TZID=America/Phoenix:20271208T000000
 DTEND;TZID=America/Phoenix:20271208T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:c4dbdc05061b8bafac54@psc-calendar
-CATEGORIES:AZ,Decision / Order
-DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Decisio
- n / Order\n\nDecember | 8 | 12/14 (Tue) & 12/16 (Thur)\n\nSource: https://
- azcc.gov/open-meeting-schedules
+CATEGORIES:AZ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
+ eting / Commission Meeting\n\nDecember | 8 | 12/14 (Tue) & 12/16 (Thur)\n\
+ nSource: https://azcc.gov/open-meeting-schedules
 PRIORITY:5
 URL:https://azcc.gov/open-meeting-schedules
 END:VEVENT

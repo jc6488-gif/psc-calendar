@@ -15,13 +15,13 @@ SUMMARY:[RI] PUC - Notice of Open Meetings - Commencing August 12 & August
  ck\, Rhode Island
 DTSTART;TZID=America/New_York:20260812T000000
 DTEND;TZID=America/New_York:20260812T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:b27bc6b6a6193b066838@psc-calendar
-CATEGORIES:RI,Decision / Order
+CATEGORIES:RI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
- e: Decision / Order\n\nSource: https://ripuc.ri.gov/sites/g/files/xkgbur84
- 1/files/2026-08/Open%20Meeting%20Notice%20%2825-45-GE%2025-33-GE%2025-19-E
- L%29%20August%2012-13%202026.pdf
+ e: Open Meeting / Commission Meeting\n\nSource: https://ripuc.ri.gov/sites
+ /g/files/xkgbur841/files/2026-08/Open%20Meeting%20Notice%20%2825-45-GE%202
+ 5-33-GE%2025-19-EL%29%20August%2012-13%202026.pdf
 PRIORITY:5
 URL:https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Open%20Meet
  ing%20Notice%20%2825-45-GE%2025-33-GE%2025-19-EL%29%20August%2012-13%20202
@@ -31,7 +31,7 @@ BEGIN:VEVENT
 SUMMARY:[RI] Public Utilities Commission - 08/18/2026 10:00 AM
 DTSTART;TZID=America/New_York:20260818T100000
 DTEND;TZID=America/New_York:20260818T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:5160ae2c08817ec626be@psc-calendar
 CATEGORIES:RI,Other
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
@@ -48,13 +48,13 @@ SUMMARY:[RI] PUC - Notice of Open Meetings - Continuing Tuesday August 18\
  , Rhode Island
 DTSTART;TZID=America/New_York:20260818T100000
 DTEND;TZID=America/New_York:20260818T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:0f223451db8f8edd4e80@psc-calendar
-CATEGORIES:RI,Decision / Order
+CATEGORIES:RI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
- e: Decision / Order\n\nSource: https://ripuc.ri.gov/sites/g/files/xkgbur84
- 1/files/2026-08/Open%20Meeting%20Notice%20%2825-45-GE%2025-33-GE%2025-19-E
- L%29%20August%2018-20%202026.pdf
+ e: Open Meeting / Commission Meeting\n\nSource: https://ripuc.ri.gov/sites
+ /g/files/xkgbur841/files/2026-08/Open%20Meeting%20Notice%20%2825-45-GE%202
+ 5-33-GE%2025-19-EL%29%20August%2018-20%202026.pdf
 PRIORITY:5
 URL:https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Open%20Meet
  ing%20Notice%20%2825-45-GE%2025-33-GE%2025-19-EL%29%20August%2018-20%20202
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:[RI] Public Utilities Commission - 08/19/2026 10:00 AM
 DTSTART;TZID=America/New_York:20260819T100000
 DTEND;TZID=America/New_York:20260819T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:e40d3d6a2fb65f6cf07d@psc-calendar
 CATEGORIES:RI,Other
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:[RI] Public Utilities Commission - 08/20/2026 10:00 AM
 DTSTART;TZID=America/New_York:20260820T100000
 DTEND;TZID=America/New_York:20260820T120000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:e8d997a139f07129d0fd@psc-calendar
 CATEGORIES:RI,Other
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp

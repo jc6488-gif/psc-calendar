@@ -67,7 +67,12 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             desc = r.get("description", "") or ""
             blob = f"{title} {desc}"
 
-            etype, elabel, weight = classify.classify_type(blob)
+            etype, elabel, weight, relevance = classify.classify_type(blob)
+            if etype == "other" and source.get("type_hint"):
+                # The source itself knows what it serves (MA's API is all
+                # hearings; RRC's ICS is the hearings calendar) even when
+                # titles carry no type words.
+                etype, elabel, weight, relevance = classify.type_info(source["type_hint"])
 
             # Never emit a link we can't stand behind. A relative or malformed
             # href becomes a dead "page not found" in the dashboard, which is
@@ -92,6 +97,7 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
                 dockets=extract_dockets(title, desc),
                 event_type=etype,
                 event_type_label=elabel,
+                relevance=relevance,
                 weight=weight,
                 scraped_at=now.isoformat(),
             ))

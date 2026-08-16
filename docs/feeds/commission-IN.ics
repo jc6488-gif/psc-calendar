@@ -12,13 +12,13 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly hearing schedule (PDF): 7/20/26 to 7/24/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260720T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260720T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:e529f58e66df83d607ab@psc-calendar
-CATEGORIES:IN,Other
+CATEGORIES:IN,Evidentiary Hearing
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
- Other\n\nSource: https://www.in.gov/iurc/files/UPDATED_Hearings-List-for-w
- k-of-July-20-2026.pdf
-PRIORITY:9
+ Evidentiary Hearing\n\nSource: https://www.in.gov/iurc/files/UPDATED_Heari
+ ngs-List-for-wk-of-July-20-2026.pdf
+PRIORITY:5
 URL:https://www.in.gov/iurc/files/UPDATED_Hearings-List-for-wk-of-July-20-
  2026.pdf
 END:VEVENT
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly conference agenda (PDF)
 DTSTART;TZID=America/Indiana/Indianapolis:20260723T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260723T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:d067302b653b4ff2afbc@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -39,13 +39,13 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly hearing schedule (PDF): 7/27/26 to 7/31/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260727T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260727T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:a38e84f03995c373dfff@psc-calendar
-CATEGORIES:IN,Other
+CATEGORIES:IN,Evidentiary Hearing
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
- Other\n\nSource: https://www.in.gov/iurc/files/Hearings-List-for-wk-of-Jul
- y-27\,-2026.pdf
-PRIORITY:9
+ Evidentiary Hearing\n\nSource: https://www.in.gov/iurc/files/Hearings-List
+ -for-wk-of-July-27\,-2026.pdf
+PRIORITY:5
 URL:https://www.in.gov/iurc/files/Hearings-List-for-wk-of-July-27,-2026.pd
  f
 END:VEVENT
@@ -53,7 +53,7 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly conference agenda (PDF)
 DTSTART;TZID=America/Indiana/Indianapolis:20260727T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260727T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:787bef03b2f250ab444e@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -66,13 +66,13 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly hearing schedule (PDF): 8/3/26 to 8/7/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260803T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260803T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:2d070d075a2417a5e231@psc-calendar
-CATEGORIES:IN,Other
+CATEGORIES:IN,Evidentiary Hearing
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
- Other\n\nSource: https://www.in.gov/iurc/files/UPDATED%20Hearings List for
-  wk of August 3\, 2026.pdf
-PRIORITY:9
+ Evidentiary Hearing\n\nSource: https://www.in.gov/iurc/files/UPDATED%20Hea
+ rings List for wk of August 3\, 2026.pdf
+PRIORITY:5
 URL:https://www.in.gov/iurc/files/UPDATED%20Hearings List for wk of August
   3, 2026.pdf
 END:VEVENT
@@ -80,7 +80,7 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly conference agenda (PDF)
 DTSTART;TZID=America/Indiana/Indianapolis:20260803T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260803T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:b1adb10b852d5768a0b5@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -93,7 +93,7 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly conference agenda (PDF)
 DTSTART;TZID=America/Indiana/Indianapolis:20260805T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260805T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:a8ba7211daecc754074e@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -106,13 +106,13 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly hearing schedule (PDF): 8/10/26 to 8/14/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260810T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260810T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:84daa615a47bc3de50cb@psc-calendar
-CATEGORIES:IN,Other
+CATEGORIES:IN,Evidentiary Hearing
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
- Other\n\nSource: https://www.in.gov/iurc/files/Hearings%20List for wk of A
- ugust 10\, 2026.pdf
-PRIORITY:9
+ Evidentiary Hearing\n\nSource: https://www.in.gov/iurc/files/Hearings%20Li
+ st for wk of August 10\, 2026.pdf
+PRIORITY:5
 URL:https://www.in.gov/iurc/files/Hearings%20List for wk of August 10, 202
  6.pdf
 END:VEVENT
@@ -120,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly conference agenda (PDF)
 DTSTART;TZID=America/Indiana/Indianapolis:20260810T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260810T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:69dfb40b2199fcf31fce@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -133,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly conference agenda (PDF)
 DTSTART;TZID=America/Indiana/Indianapolis:20260813T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260813T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:76cd0c98b9d8b160dae6@psc-calendar
 CATEGORIES:IN,Other
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
@@ -146,13 +146,13 @@ BEGIN:VEVENT
 SUMMARY:[IN] IURC weekly hearing schedule (PDF): 8/17/26 to 8/21/26
 DTSTART;TZID=America/Indiana/Indianapolis:20260817T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260817T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:3713ec57a188f016a673@psc-calendar
-CATEGORIES:IN,Other
+CATEGORIES:IN,Evidentiary Hearing
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
- Other\n\nSource: https://www.in.gov/iurc/files/Hearings%20List for wk of A
- ugust 17\, 2026.pdf
-PRIORITY:9
+ Evidentiary Hearing\n\nSource: https://www.in.gov/iurc/files/Hearings%20Li
+ st for wk of August 17\, 2026.pdf
+PRIORITY:5
 URL:https://www.in.gov/iurc/files/Hearings%20List for wk of August 17, 202
  6.pdf
 END:VEVENT
@@ -162,15 +162,15 @@ SUMMARY:[IN] & 24\, 2024 – Executive Session Meetings (Cybersecurity Bri
  osted on 9.19.24 | Minutes
 DTSTART;TZID=America/Indiana/Indianapolis:20260923T000000
 DTEND;TZID=America/Indiana/Indianapolis:20260923T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:5972929e4f7e6de37df4@psc-calendar
-CATEGORIES:IN,Decision / Order
+CATEGORIES:IN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
- Decision / Order\n\nSeptember 23 & 24\, 2024 – Executive Session Meeting
- s (Cybersecurity Briefings) PNC Building\, IURC Boardroom in Indianapolis\
- , IN Public Notice posted on 9.19.24 | Minutes\n\nSource: https://www.in.g
- ov/dA/dd0e04c6da/2024-Cybersecurity-Briefings_Public-Notice.pdf?language_i
- d=1
+ Open Meeting / Commission Meeting\n\nSeptember 23 & 24\, 2024 – Executiv
+ e Session Meetings (Cybersecurity Briefings) PNC Building\, IURC Boardroom
+  in Indianapolis\, IN Public Notice posted on 9.19.24 | Minutes\n\nSource:
+  https://www.in.gov/dA/dd0e04c6da/2024-Cybersecurity-Briefings_Public-Noti
+ ce.pdf?language_id=1
 PRIORITY:5
 URL:https://www.in.gov/dA/dd0e04c6da/2024-Cybersecurity-Briefings_Public-N
  otice.pdf?language_id=1
@@ -180,14 +180,14 @@ SUMMARY:[IN] 23\, 2015 – Executive Session Meeting (Cybersecurity Briefi
  ng) Public Notice posted on 10.20.15
 DTSTART;TZID=America/Indiana/Indianapolis:20261022T000000
 DTEND;TZID=America/Indiana/Indianapolis:20261022T020000
-DTSTAMP:20260815T104907Z
+DTSTAMP:20260816T025945Z
 UID:5d5123b0293484acf2c6@psc-calendar
-CATEGORIES:IN,Decision / Order
+CATEGORIES:IN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Indiana Utility Regulatory Commission (IN)\nType: 
- Decision / Order\n\nOctober 22-23\, 2015 – Executive Session Meeting (Cy
- bersecurity Briefing) Public Notice posted on 10.20.15\n\nSource: https://
- www.in.gov/dA/9e44b4ce91/Public_Notice_-_Executive_Session_October_22-23.p
- df?language_id=1
+ Open Meeting / Commission Meeting\n\nOctober 22-23\, 2015 – Executive Se
+ ssion Meeting (Cybersecurity Briefing) Public Notice posted on 10.20.15\n\
+ nSource: https://www.in.gov/dA/9e44b4ce91/Public_Notice_-_Executive_Sessio
+ n_October_22-23.pdf?language_id=1
 PRIORITY:5
 URL:https://www.in.gov/dA/9e44b4ce91/Public_Notice_-_Executive_Session_Oct
  ober_22-23.pdf?language_id=1
