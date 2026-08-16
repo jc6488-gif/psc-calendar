@@ -200,11 +200,9 @@ TEMPLATE = r"""<!DOCTYPE html>
   <input type="search" id="q" placeholder="Search title, docket, company…" aria-label="Search">
   <select id="f-state" aria-label="Filter by commission"><option value="">All commissions</option></select>
   <select id="f-type" aria-label="Filter by event type"><option value="">All event types</option></select>
-  <button class="chip" id="f-mine" aria-pressed="true"
-    title="Only commissions where a covered name is regulated">My coverage states</button>
   <select id="f-rel" aria-label="Filter by market relevance">
     <option value="">All relevance</option>
-    <option value="High" selected>High relevance</option>
+    <option value="High">High relevance</option>
     <option value="Medium">Medium relevance</option>
     <option value="Low">Low relevance</option>
   </select>
@@ -218,8 +216,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   <button class="chip" id="reset">Reset</button>
 </div>
 
-<div class="count"><span id="count"></span><button class="chip" id="showall" hidden
-  style="margin-left:8px;padding:3px 9px;min-height:0;font-size:12px">Show all</button></div>
+<div class="count" id="count"></div>
 
 <div class="card" style="padding:0;overflow:hidden">
   <table>
@@ -307,10 +304,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   comms.forEach((c) => $("f-state").add(new Option(`${c} — ${commName[c]}`, c)));
   types.forEach(([id, label]) => $("f-type").add(new Option(label, id)));
 
-  // Defaults are the trader's 7am view: only commissions where covered
-  // names operate, High relevance. Everything stays one click away and the
-  // count line says how much is filtered - nothing hides silently.
-  const state = { q:"", comm:"", type:"", rel:"High", mine:true, range:"90", sort:"start", dir:1 };
+  const state = { q:"", comm:"", type:"", rel:"", range:"90", sort:"start", dir:1 };
 
   const startOfToday = new Date(); startOfToday.setHours(0, 0, 0, 0);
 
@@ -330,7 +324,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       if (state.comm && e.commission !== state.comm) return false;
       if (state.type && e.event_type !== state.type) return false;
       if (state.rel && (e.relevance || "Low") !== state.rel) return false;
-      if (state.mine && !(COV_MAP[e.commission] || []).length) return false;
       if (q) {
         const hay = (e.title + " " + e.description + " " + e.dockets.join(" ") + " " +
                      e.commission + " " + e.commission_name).toLowerCase();
@@ -338,14 +331,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       }
       return true;
     });
-  }
-
-  function filteredNoFocus() {
-    const save = { rel: state.rel, mine: state.mine };
-    Object.assign(state, { rel: "", mine: false });
-    const n = filtered().length;
-    Object.assign(state, save);
-    return n;
   }
 
   function sorted(rows) {
@@ -392,12 +377,8 @@ TEMPLATE = r"""<!DOCTYPE html>
     $("k-week").textContent = wk;
     $("k-week-f").textContent = wk ? "act on these first" : "nothing imminent";
 
-    const inRange = filteredNoFocus();
-    const hidden = inRange - rows.length;
     $("count").textContent =
-      `${rows.length} date${rows.length === 1 ? "" : "s"}` +
-      (hidden > 0 ? ` · ${hidden} more hidden by focus filters ` : " ");
-    $("showall").hidden = hidden <= 0;
+      `${rows.length} date${rows.length === 1 ? "" : "s"}`;
 
     const tb = $("rows");
     tb.innerHTML = rows.slice(0, 1200).map((e) => {
@@ -511,20 +492,12 @@ TEMPLATE = r"""<!DOCTYPE html>
   $("f-state").onchange = (e) => { state.comm = e.target.value; render(); };
   $("f-type").onchange = (e) => { state.type = e.target.value; render(); };
   $("f-rel").onchange = (e) => { state.rel = e.target.value; render(); };
-  toggle($("f-mine"), "mine");
-  $("showall").onclick = () => {
-    Object.assign(state, { rel:"", mine:false });
-    $("f-rel").value = ""; $("f-mine").setAttribute("aria-pressed", "false");
-    render();
-  };
   $("f-range").onchange = (e) => { state.range = e.target.value; render(); };
-  const toggle = (btn, key) => { btn.onclick = () => {
-    state[key] = !state[key]; btn.setAttribute("aria-pressed", String(state[key])); render(); }; };
+
   $("reset").onclick = () => {
-    Object.assign(state, { q:"", comm:"", type:"", rel:"High", mine:true, range:"90" });
+    Object.assign(state, { q:"", comm:"", type:"", rel:"", range:"90" });
     $("q").value = ""; $("f-state").value = "";
-    $("f-type").value = ""; $("f-rel").value = "High"; $("f-range").value = "90";
-    $("f-mine").setAttribute("aria-pressed", "true");
+    $("f-type").value = ""; $("f-rel").value = ""; $("f-range").value = "90";
     render();
   };
   document.querySelectorAll("th[data-sort]").forEach((th) => {
