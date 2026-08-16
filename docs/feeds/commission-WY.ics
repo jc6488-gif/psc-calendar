@@ -15,7 +15,7 @@ SUMMARY:[WY] 20000-716-EA-26 (Record No. 18211) - Pursuant to the Wyoming
  tain Power’s (RMP or the Company) Appli
 DTSTART;TZID=America/Denver:20260721T000000
 DTEND;TZID=America/Denver:20260721T020000
-DTSTAMP:20260816T183352Z
+DTSTAMP:20260816T183630Z
 UID:568f841b04c9852eadf6@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -36,7 +36,7 @@ SUMMARY:[WY] 10003-57-CT-26 (Record No. 18180) – Pursuant to the Wyoming
  cation of Garland Light and Power Company
 DTSTART;TZID=America/Denver:20260805T000000
 DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260816T183352Z
+DTSTAMP:20260816T183630Z
 UID:3ab01d84f467f5b63c11@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -57,7 +57,7 @@ SUMMARY:[WY] 10015-106-CT-26 (Record No. 18187) - The Wyoming Public Servi
  its standard line extension policy in
 DTSTART;TZID=America/Denver:20260805T000000
 DTEND;TZID=America/Denver:20260805T020000
-DTSTAMP:20260816T183352Z
+DTSTAMP:20260816T183630Z
 UID:6434980bcdcd1a9285be@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -74,7 +74,7 @@ BEGIN:VEVENT
 SUMMARY:[WY] mence on
 DTSTART;TZID=America/Denver:20260806T133000
 DTEND;TZID=America/Denver:20260806T153000
-DTSTAMP:20260816T183352Z
+DTSTAMP:20260816T183630Z
 UID:fee3b9ba58e724734ebe@psc-calendar
 CATEGORIES:WY,Other
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Othe
@@ -89,7 +89,7 @@ SUMMARY:[WY] The public comment hearing is set to commence on Tuesday\, Au
   located at 627 Pine St.\, Newcastle\, Wyoming
 DTSTART;TZID=America/Denver:20260811T163000
 DTEND;TZID=America/Denver:20260811T183000
-DTSTAMP:20260816T183352Z
+DTSTAMP:20260816T183630Z
 UID:45eb752a407dafd729e3@psc-calendar
 CATEGORIES:WY,Public Comment Hearing
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Publ
@@ -104,7 +104,7 @@ SUMMARY:[WY] The public hearing is set to commence on Tuesday\, August 25\
   Warren Avenue\, Suite 300\, in Cheyenne\, Wyoming
 DTSTART;TZID=America/Denver:20260825T090000
 DTEND;TZID=America/Denver:20260825T110000
-DTSTAMP:20260816T183352Z
+DTSTAMP:20260816T183630Z
 UID:79d284a27dedb014706c@psc-calendar
 CATEGORIES:WY,Public Comment Hearing
 DESCRIPTION:Commission: Wyoming Public Service Commission (WY)\nType: Publ
