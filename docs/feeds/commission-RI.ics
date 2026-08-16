@@ -15,7 +15,7 @@ SUMMARY:[RI] PUC - Notice of Open Meetings - Commencing August 12 & August
  ck\, Rhode Island
 DTSTART;TZID=America/New_York:20260812T000000
 DTEND;TZID=America/New_York:20260812T020000
-DTSTAMP:20260816T162705Z
+DTSTAMP:20260816T174822Z
 UID:b27bc6b6a6193b066838@psc-calendar
 CATEGORIES:RI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
@@ -31,7 +31,7 @@ BEGIN:VEVENT
 SUMMARY:[RI] Public Utilities Commission - 08/18/2026 10:00 AM
 DTSTART;TZID=America/New_York:20260818T100000
 DTEND;TZID=America/New_York:20260818T120000
-DTSTAMP:20260816T162705Z
+DTSTAMP:20260816T174822Z
 UID:5160ae2c08817ec626be@psc-calendar
 CATEGORIES:RI,Other
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
@@ -48,7 +48,7 @@ SUMMARY:[RI] PUC - Notice of Open Meetings - Continuing Tuesday August 18\
  , Rhode Island
 DTSTART;TZID=America/New_York:20260818T100000
 DTEND;TZID=America/New_York:20260818T120000
-DTSTAMP:20260816T162705Z
+DTSTAMP:20260816T174822Z
 UID:0f223451db8f8edd4e80@psc-calendar
 CATEGORIES:RI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:[RI] Public Utilities Commission - 08/19/2026 10:00 AM
 DTSTART;TZID=America/New_York:20260819T100000
 DTEND;TZID=America/New_York:20260819T120000
-DTSTAMP:20260816T162705Z
+DTSTAMP:20260816T174822Z
 UID:e40d3d6a2fb65f6cf07d@psc-calendar
 CATEGORIES:RI,Other
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:[RI] Public Utilities Commission - 08/20/2026 10:00 AM
 DTSTART;TZID=America/New_York:20260820T100000
 DTEND;TZID=America/New_York:20260820T120000
-DTSTAMP:20260816T162705Z
+DTSTAMP:20260816T174822Z
 UID:e8d997a139f07129d0fd@psc-calendar
 CATEGORIES:RI,Other
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
