@@ -238,6 +238,10 @@ commissions:
         strategy: browser
         type_hint: open_meeting
         label: Commission conference
+      # VERIFIED WORKING 2026-08-17 (pdf strategy)
+      - url: "https://www.floridapsc.com/pscfiles/website-files//PDF/Agendas/calendar.pdf"
+        strategy: pdf
+        type_hint: open_meeting
     notes: Florida Public Utilities Co (CPK). Agenda Conferences are the decision dates; FPSC publishes a rolling hearing schedule separately.
 
   - code: GA
@@ -337,12 +341,16 @@ commissions:
       # (events.in.gov/calendar/1.xml), injecting ~2,500 non-IURC events
       # (charity drives, county events) in the first live run. Never re-add
       # without an IURC-scoped filter.
+      # VERIFIED WORKING 2026-08-17 (pdf_links): the weekly hearing lists are
+      # labelled-block PDFs - date, CAUSE NO., TIME, ROOM, then the caption.
+      # Reading them turns a placeholder row into ~30 real hearings incl.
+      # Indiana Michigan Power (AEP) and CenterPoint Indiana (CNP).
       - url: https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-hearings
-        strategy: auto
-        label: IURC weekly hearing schedule (PDF)
+        strategy: pdf_links
+        type_hint: evidentiary_hearing
       - url: https://www.in.gov/iurc/docketed-cases/find-a-docketed-case/weekly-agendas/
-        strategy: auto
-        label: IURC weekly conference agenda (PDF)
+        strategy: pdf_links
+        type_hint: open_meeting
       - url: https://www.in.gov/iurc/news-and-notices/executive-session-minutes-and-public-notices/
         strategy: auto
       - url: https://calendar.in.gov/site/iurc/?format=ical
@@ -585,12 +593,14 @@ commissions:
     home: https://psc.mt.gov
     docket_search: https://efs.psc.mt.gov/
     sources:
-      # VERIFIED WORKING 2026-08-14
+      # VERIFIED WORKING 2026-08-17 (pdf strategy): MT publishes ONLY a PDF agenda.
+      # The weekly agenda names its meetings with exact times, and its work
+      # sessions carry docket numbers (NorthWestern IRP, Avista wildfire
+      # plan). Before this MT delivered nothing at all.
       - url: https://psc.mt.gov/_docs/Current-Agenda.pdf
-        strategy: auto
+        strategy: pdf
+        type_hint: open_meeting
       - url: https://psc.mt.gov/Meetings
-        strategy: auto
-      - url: https://psc.mt.gov/Meetings/Calendar
         strategy: auto
     notes: NorthWestern Energy (NWE), Black Hills Montana (BKH).
 

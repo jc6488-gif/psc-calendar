@@ -157,3 +157,35 @@ FULLCALENDAR_JSON = b"""[
  {"id":3,"title":"NO Administrative Meeting","start":"2026-08-19T00:00:00"},
  {"id":4,"title":"Ancient meeting","start":"2020-01-01T10:00:00"}
 ]"""
+
+
+# Indiana IURC weekly hearing list: labelled blocks (date / CAUSE NO. / TIME /
+# ROOM / caption). Line-by-line scanning shreds this; block parsing recovers it.
+PDF_BLOCK_TEXT = """HEARINGS BEFORE THE
+INDIANA UTILITY REGULATORY COMMISSION
+FOR THE WEEK BEGINNING
+MONDAY, AUGUST 17, 2026
+Monday, August 17, 2026
+CAUSE NO.: 37389-GCA147 ALJ: WILLIAMS
+TIME: 9:30 A.M.
+ROOM: PNC, Room 222
+APPLICATION OF WESTFIELD GAS, LLC D/B/A CITIZENS GAS OF
+WESTFIELD FOR A CHANGE IN ITS GAS COST ADJUSTMENT CHARGE.
+Monday, August 17, 2026
+CAUSE NO.: 46150 ALJ: SMITH
+TIME: 1:00 P.M.
+ROOM: PNC, Room 222
+VERIFIED PETITION OF INDIANA MICHIGAN POWER COMPANY (I&M)
+FOR ISSUANCE OF A CERTIFICATE.
+"""
+
+# Montana publishes only a PDF; its meetings are declared in prose lines.
+PDF_LINE_TEXT = """MONTANA PUBLIC SERVICE COMMISSION
+Commission Meetings:
+August 17, 2026 - August 21, 2026
+Date Published: August 13, 2026
+Commission Scheduling Meeting: August 18, 2026, 1:00 PM
+Commission Business Meeting: August 18, 2026, 1:30 PM
+1. Approval of the Commission Business Meeting Minutes for the week of
+August 10, 2026.
+"""

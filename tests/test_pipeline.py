@@ -482,3 +482,36 @@ def test_dedupe_keeps_genuinely_different_events_same_day():
     evs = [Event(title="HRG: 26F-0122EG Stanley Wagon v Public Service", start=day, **base),
            Event(title="HRG: 26A-0173E Black Hills Colorado Electric", start=day, **base)]
     assert len(dedupe(evs)) == 2
+
+
+def test_pdf_block_parser_recovers_hearings():
+    """Indiana's weekly list: date / CAUSE NO. / TIME / ROOM / caption."""
+    evs = extract._pdf_blocks(F.PDF_BLOCK_TEXT, ZoneInfo(TZ), NOW, "u")
+    assert len(evs) == 2
+    first = evs[0]
+    assert first["start"].hour == 9 and first["start"].minute == 30
+    assert "WESTFIELD GAS" in first["title"]
+    assert "37389-GCA147" in first["title"]        # cause number carried
+    assert first["location"].startswith("PNC")
+    im = evs[1]
+    assert im["start"].hour == 13                  # 1:00 P.M. -> 13:00
+    assert "INDIANA MICHIGAN POWER" in im["title"]
+
+
+@pytest.mark.parametrize("line,is_event", [
+    ("Commission Business Meeting: August 18, 2026, 1:30 PM", True),
+    ("Commission Scheduling Meeting: August 18, 2026, 1:00 PM", True),
+    ("Date Published: August 13, 2026", False),
+    ("For Week Commencing: August 17, 2026", False),
+    ("Approval of the Commission Business Meeting Minutes for the week of", False),
+    ("Internal Document Subject to Revision Revision Date", False),
+])
+def test_pdf_line_filter(line, is_event):
+    """Montana's agenda mixes real meeting declarations with publication
+    stamps and back-references to a past week's minutes."""
+    assert (extract._PDF_NOT_AN_EVENT.search(line) is None) is is_event
+
+
+def test_pdf_month_only_titles_rejected():
+    """A line whose only words are month names is a date range, not an event."""
+    assert "august" in extract._MONTH_WORDS

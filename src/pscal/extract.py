@@ -81,6 +81,7 @@ def _parse_dt(value, tz: ZoneInfo, default_year: Optional[int] = None) -> Option
     s = re.sub(r"\s*(?:-|–|—|to|through)\s*\d{1,2}:\d{2}\s*(?:am|pm)?\s*$", "", s, flags=re.I)
     s = re.sub(r"\s+at\s+", " ", s, flags=re.I)
     s = s.replace("Noon", "12:00 PM").replace("noon", "12:00 PM")
+    s = re.sub(r"\b([AaPp])\.\s*([Mm])\.", r"\1\2", s)   # "1:30 P.M." -> "1:30 PM"
     default = datetime(default_year or datetime.now().year, 1, 1)
     try:
         dt = dateparser.parse(s, fuzzy=True, default=default)
@@ -1176,6 +1177,222 @@ def from_addtocalendar_links(html: str, tz: ZoneInfo, now: datetime, source_url:
 
 
 
+# --------------------------------------------------------------------- PDF
+
+# Lines that carry a date but are NOT an event: publication stamps, minute
+# approvals referring to a past week, filing deadlines expressed as prose.
+_MONTH_WORDS = {"january","february","march","april","may","june","july","august",
+                "september","october","november","december","jan","feb","mar","apr",
+                "jun","jul","aug","sep","sept","oct","nov","dec","monday","tuesday",
+                "wednesday","thursday","friday","saturday","sunday"}
+
+_PDF_NOT_AN_EVENT = re.compile(
+    r"date\s+published|published\s*:|week\s+of|for\s+week\s+commencing|"
+    r"minutes\s+for|approval\s+of\s+the\s+.*minutes|page\s+\d+\s*$|"
+    r"posted\s*:|revised\s*:|as\s+of\s*:|internal document|subject to revision|"
+    r"revision date|last updated", re.I)
+
+
+def pdf_text(body: bytes, max_pages: int = 12) -> str:
+    """Text of a PDF, page by page. Returns '' if it is not a readable PDF
+    (a scanned image has no text layer - that needs OCR, which we do not do)."""
+    import io
+
+    import pdfplumber
+
+    try:
+        with pdfplumber.open(io.BytesIO(body)) as pdf:
+            return "\n".join((pg.extract_text() or "") for pg in pdf.pages[:max_pages])
+    except Exception as e:
+        raise ValueError(f"unreadable PDF: {e}") from e
+
+
+_PDF_DATE_LINE = re.compile(
+    r"^(?:mon|tues?|wed(?:nes)?|thur?s?|fri|sat(?:ur)?|sun)[a-z]*,?\s+"
+    r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2},?\s+20\d\d\s*$",
+    re.I)
+_PDF_LABEL = re.compile(r"^(TIME|ROOM|LOCATION|CAUSE NO\.?|DOCKET(?: NO\.?)?|CASE(?: NO\.?)?|ALJ)\s*:\s*(.+)$", re.I)
+
+
+def _pdf_blocks(text: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
+    """Labelled-block PDF agendas.
+
+    Indiana's weekly hearing list repeats this shape per hearing:
+
+        Monday, August 17, 2026
+        CAUSE NO.: 37389-GCA147   ALJ: WILLIAMS
+        TIME: 9:30 A.M.
+        ROOM: PNC, Room 222
+        APPLICATION OF WESTFIELD GAS, LLC ... GAS COST ADJUSTMENT ...
+
+    Line-by-line scanning shreds that into fragments; reading it as blocks
+    recovers the real hearing, its docket, its time and its room.
+    """
+    out: list[RawEvent] = []
+    cur_date = None
+    fields: dict = {}
+    caption: list[str] = []
+
+    def flush():
+        if not cur_date or not caption:
+            return
+        title = re.sub(r"\s+", " ", " ".join(caption)).strip(" .;,")
+        if len(title) < 12:
+            return
+        start = cur_date
+        tm = fields.get("time")
+        if tm:
+            m = re.search(r"(\d{1,2})(?::(\d{2}))?\s*([AaPp])", tm)
+            if m:
+                hh = int(m.group(1)) % 12 + (12 if m.group(3).lower() == "p" else 0)
+                start = start.replace(hour=hh, minute=int(m.group(2) or 0))
+        if not in_window(start, now):
+            return
+        docket = fields.get("cause no") or fields.get("docket") or fields.get("case") or ""
+        docket = re.split(r"\s{2,}|\bALJ\b", docket)[0].strip(" .:")
+        out.append(RawEvent(
+            title=(f"{title} (Cause {docket})" if docket else title)[:220],
+            start=start,
+            all_day=not tm,
+            location=(fields.get("room") or fields.get("location") or "")[:120],
+            description="",
+            url=source_url,
+        ))
+
+    for raw in text.split("\n"):
+        line = re.sub(r"\s+", " ", raw).strip()
+        if not line:
+            continue
+        if _PDF_DATE_LINE.match(line):
+            flush()
+            cur_date = _parse_dt(line, tz, now.year)
+            fields, caption = {}, []
+            continue
+        if cur_date is None:
+            continue
+        m = _PDF_LABEL.match(line)
+        if m:
+            key = m.group(1).lower().replace(".", "").strip()
+            fields[key] = m.group(2).strip()
+            # a trailing "ALJ: X" on the same line is metadata, not caption
+            continue
+        if line.isupper() or caption:
+            caption.append(line)
+    flush()
+    if not out:
+        raise ValueError("no labelled blocks in PDF")
+    return out
+
+
+
+def from_pdf(url: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
+    """Dated lines out of a PDF agenda.
+
+    Montana publishes ONLY a PDF; Indiana, Louisiana, Mississippi, New
+    Jersey, Pennsylvania, Alabama and Wyoming link dated agenda PDFs whose
+    contents were previously invisible. Each line carrying a date becomes a
+    candidate event, with the rest of the line as its title - the same
+    last-resort shape as date_regex, applied to PDF text.
+    """
+    body, _ = get(url)
+    text = pdf_text(body)
+    if not text.strip():
+        raise ValueError("PDF has no text layer (scanned image - would need OCR)")
+
+    # Structured, labelled agendas parse far better as blocks than as lines.
+    try:
+        return _pdf_blocks(text, tz, now, source_url)
+    except ValueError:
+        pass
+
+    out: list[RawEvent] = []
+    seen: set[tuple] = set()
+    for raw_line in text.split("\n"):
+        line = re.sub(r"\s+", " ", raw_line).strip()
+        if not (12 <= len(line) <= 300):
+            continue
+        if _PDF_NOT_AN_EVENT.search(line):
+            continue
+        start = _first_date_in(line, tz, now)
+        if not start or not in_window(start, now):
+            continue
+        m = DATE_RE.search(line)
+        title = (line[:m.start()] + " " + line[m.end():]) if m else line
+        title = re.sub(r"\s+", " ", title).strip(" -\u2013\u2014:;,.*|()")
+        title = re.sub(r"^\d+\.\s*", "", title)          # agenda numbering
+        if len(title) < 6:
+            title = line
+        # If nothing but month names survives, the line was a date range
+        # ("August 17, 2026 - August 21, 2026") or a back-reference to a past
+        # week's minutes - not an event.
+        words = [w for w in re.findall(r"[A-Za-z]{3,}", title)
+                 if w.lower() not in _MONTH_WORDS]
+        if len(words) < 2:
+            continue
+        key = (start.date(), title.lower()[:60])
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(RawEvent(
+            title=title[:220],
+            start=start,
+            all_day=(start.hour, start.minute) == (0, 0),
+            description="",
+            url=source_url,
+        ))
+    if not out:
+        raise ValueError("no dated lines in PDF")
+    return out
+
+
+
+def from_pdf_links(url: str, tz: ZoneInfo, now: datetime, source_url: str,
+                   max_pdfs: int = 6) -> list[RawEvent]:
+    """Follow the agenda PDFs a page links to and read each one.
+
+    Indiana's weekly hearing lists, Wyoming's monthly agendas and Louisiana's
+    business-session agendas are all "a page of links to PDFs" - the page
+    itself carries only the file names, so the hearings inside were invisible.
+    Reads the most recent few, newest first.
+    """
+    html, _ = get_text(url)
+    soup = _soup(html)
+    links: list[str] = []
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if ".pdf" not in href.lower():
+            continue
+        full = urljoin(url, href)
+        if full not in links:
+            links.append(full)
+    if not links:
+        raise ValueError("no PDF links on page")
+
+    def recency(u: str) -> tuple:
+        """Prefer file names carrying the newest date."""
+        m = re.search(r"(20\d{2})[-_/]?(\d{2})?[-_/]?(\d{2})?", u)
+        if m:
+            return (int(m.group(1)), int(m.group(2) or 0), int(m.group(3) or 0))
+        for i, mon in enumerate(("january","february","march","april","may","june","july",
+                                 "august","september","october","november","december"), 1):
+            if mon in u.lower():
+                return (now.year, i, 0)
+        return (0, 0, 0)
+
+    links.sort(key=recency, reverse=True)
+    out: list[RawEvent] = []
+    errs = []
+    for link in links[:max_pdfs]:
+        try:
+            out.extend(from_pdf(link, tz, now, link))
+        except (ValueError, FetchError) as e:
+            errs.append(f"{link.rsplit('/',1)[-1]}: {e}")
+    if not out:
+        raise ValueError("no dated lines in linked PDFs -> " + " | ".join(errs[:3]))
+    return out
+
+
+
 # ------------------------------------------------------------------ browser
 
 BROWSER_WAIT_MS = int(__import__("os").environ.get("PSCAL_BROWSER_WAIT", "3500"))
@@ -1258,6 +1475,8 @@ def extract_auto(url: str, tz_name: str, now: datetime) -> tuple[list[RawEvent],
         return from_ics(body, tz, now, url), "ics"
     if "xml" in ctype or body[:200].lstrip().startswith((b"<?xml", b"<rss", b"<feed")):
         return from_rss(body, tz, now, url), "rss"
+    if "pdf" in ctype or body[:5] == b"%PDF-":
+        return from_pdf(url, tz, now, url), "pdf"
     if "json" in ctype:
         try:
             return from_drupal_json(url, tz, now), "drupal"
@@ -1316,6 +1535,10 @@ def extract(url: str, strategy: str, tz_name: str, now: datetime,
         return from_drupal_json(url, tz, now), "drupal"
     if strategy == "federal_register":
         return from_federal_register(url, tz, now), "federal_register"
+    if strategy == "pdf_links":
+        return from_pdf_links(url, tz, now, url), "pdf_links"
+    if strategy == "pdf":
+        return from_pdf(url, tz, now, url), "pdf"
     if strategy == "browser":
         return from_browser(url, tz, now, url, spec_wait), "browser"
     if strategy == "fullcalendar":

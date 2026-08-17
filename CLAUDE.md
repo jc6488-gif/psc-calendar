@@ -125,7 +125,6 @@ policy call for the user, the second is an engineering fix.
 | Code | Blocker | What would fix it |
 |---|---|---|
 | KY CT VA | JS-rendered calendars | Headless browser (VA's schedules are inside the DocketSearch SPA; KS moved to a Salesforce app) |
-| MT | PDF-only agenda | PDF extraction |
 | WV NH AK | 403 to all automated clients | Contact the commission |
 | AR | DNS dead (their outage) | Retry daily (automatic) |
 | KS | Broken TLS chain | Cert workaround or their fix |
@@ -182,7 +181,17 @@ links - parsed by the new `addtocalendar` extractor). CI installs Chromium via
 live inside the DocketSearch SPA and KS moved to a Salesforce app that errors
 headless.
 
-**One strategy is still missing and is the highest-value next work:**
+**`strategy: pdf` / `pdf_links` (2026-08-17) read PDF agendas** with pdfplumber.
+Two shapes, tried in order: *labelled blocks* (Indiana's weekly hearing list -
+date / CAUSE NO. / TIME / ROOM / caption - which line scanning shreds into
+fragments) and then *dated lines* (Montana's prose agenda). `pdf_links` follows
+the PDFs a page links to, newest first. MT 0 -> 3 (it published ONLY a PDF);
+IN placeholder rows -> ~30 real hearings incl. Indiana Michigan Power (AEP) and
+CenterPoint Indiana (CNP). Publication stamps, date-range headers and
+past-week minutes references are filtered - a line whose only words are month
+names is not an event.
+
+**Remaining engineering gaps:**
 
 1. **PDF extraction** — Montana publishes only `Current-Agenda.pdf`; Colorado,
    Wyoming, Louisiana, Mississippi and Iowa all link dated agenda PDFs. `pdfplumber`
