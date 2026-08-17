@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: August 12
 DTSTART;TZID=America/Phoenix:20260812T000000
 DTEND;TZID=America/Phoenix:20260812T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:ac7a453ffd209633562f@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: September 10 (Thurs)
 DTSTART;TZID=America/Phoenix:20260910T000000
 DTEND;TZID=America/Phoenix:20260910T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:39ee0839dd43bb702212@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: October 07
 DTSTART;TZID=America/Phoenix:20261007T000000
 DTEND;TZID=America/Phoenix:20261007T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:69cb1612331f1c87d91d@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -51,7 +51,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: November 4
 DTSTART;TZID=America/Phoenix:20261104T000000
 DTEND;TZID=America/Phoenix:20261104T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:d745785f9bd23abdfc80@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2026 Open Meeting Dates: December 2
 DTSTART;TZID=America/Phoenix:20261202T000000
 DTEND;TZID=America/Phoenix:20261202T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:d431db2eb660c4e6238e@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -77,7 +77,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: January 13
 DTSTART;TZID=America/Phoenix:20270113T000000
 DTEND;TZID=America/Phoenix:20270113T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:22493415eb399eda35de@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -90,7 +90,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: February 17
 DTSTART;TZID=America/Phoenix:20270217T000000
 DTEND;TZID=America/Phoenix:20270217T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:64c03310bc8af2a4a9be@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -103,7 +103,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: March 17
 DTSTART;TZID=America/Phoenix:20270317T000000
 DTEND;TZID=America/Phoenix:20270317T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:908386d85251af5d6bc1@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -116,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: April 14
 DTSTART;TZID=America/Phoenix:20270414T000000
 DTEND;TZID=America/Phoenix:20270414T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:1a7ec539d38fde60d3a2@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: May 5
 DTSTART;TZID=America/Phoenix:20270505T000000
 DTEND;TZID=America/Phoenix:20270505T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:bd94cd6d83d1fb2f932c@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -142,7 +142,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: June 16
 DTSTART;TZID=America/Phoenix:20270616T000000
 DTEND;TZID=America/Phoenix:20270616T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:ee5fa50523f015566720@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -155,7 +155,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: July 14
 DTSTART;TZID=America/Phoenix:20270714T000000
 DTEND;TZID=America/Phoenix:20270714T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:e02e56a6935d2fbcae03@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -168,7 +168,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: August 18
 DTSTART;TZID=America/Phoenix:20270818T000000
 DTEND;TZID=America/Phoenix:20270818T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:1f397ee58c68dad610dd@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -181,7 +181,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: September 15
 DTSTART;TZID=America/Phoenix:20270915T000000
 DTEND;TZID=America/Phoenix:20270915T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:abd8a1ad420fbcb2dae6@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -194,7 +194,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: October 20
 DTSTART;TZID=America/Phoenix:20271020T000000
 DTEND;TZID=America/Phoenix:20271020T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:106d2d33584db4f86284@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -207,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: November 17
 DTSTART;TZID=America/Phoenix:20271117T000000
 DTEND;TZID=America/Phoenix:20271117T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:07f8c54c3034627efb09@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
@@ -220,7 +220,7 @@ BEGIN:VEVENT
 SUMMARY:[AZ] 2027 Open Meeting Dates: December 8
 DTSTART;TZID=America/Phoenix:20271208T000000
 DTEND;TZID=America/Phoenix:20271208T020000
-DTSTAMP:20260817T140003Z
+DTSTAMP:20260817T140228Z
 UID:c4dbdc05061b8bafac54@psc-calendar
 CATEGORIES:AZ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Arizona Corporation Commission (AZ)\nType: Open Me
