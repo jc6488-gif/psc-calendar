@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[AL] ALABAMA POWER COMPANY
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:b03a22c487c456823223@psc-calendar
 CATEGORIES:AL,Evidentiary Hearing
 DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Evid
@@ -30,13 +30,34 @@ URL:https://www.pscpublicaccess.alabama.gov/pscpublicaccess/page/default/p
  ortal.aspx
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[AL] TR2641219 HEARING POSTPONEMENT for RIDES ALL KINDS LLC\, D/B/
+ A RIDES ALL KINDS Status: Pending Synopsis: HEARING POSTPONEMENT for RIDES
+  ALL KINDS LLC\, D/B/A RIDES ALL KINDS
+DTSTART;TZID=America/Chicago:20260817T000000
+DTEND;TZID=America/Chicago:20260817T020000
+DTSTAMP:20260817T142823Z
+UID:b6a989a8e88e4036c04d@psc-calendar
+CATEGORIES:AL,Evidentiary Hearing
+DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Evid
+ entiary Hearing\n\n8/17/2026 | TR2641219 HEARING POSTPONEMENT for RIDES AL
+ L KINDS LLC\, D/B/A RIDES ALL KINDS Status: Pending Synopsis: HEARING POST
+ PONEMENT for RIDES ALL KINDS LLC\, D/B/A RIDES ALL KINDS | TR2641219 HEARI
+ NG POSTPONEMENT for RIDES ALL KINDS LLC\, D/B/A RIDES ALL KINDS Status: Pe
+ nding Synopsis: HEARING POSTPONEMENT for RIDES ALL KINDS LLC\, D/B/A RIDES
+  ALL KINDS | RIDES ALL KINDS LLC\, D/B/A RIDES ALL KINDS\n\nSource: https:
+ //www.pscpublicaccess.alabama.gov/pscpublicaccess/page/default/portal.aspx
+PRIORITY:5
+URL:https://www.pscpublicaccess.alabama.gov/pscpublicaccess/page/default/p
+ ortal.aspx
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[AL] Location: Carl L. Evans Chief Administrative Law Judge Hearin
  g Complex\, RSA Union Building\, 100 North Union Street\, Room 900\, Montg
  omery\, Alabama Hearing Description: INSTITUTION OF INVESTIGATION OF CAMP 
  HILL UTILITY BOARD Companies: CAMP HILL U
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:1ca579265f7b8dcf7b38@psc-calendar
 CATEGORIES:AL,Evidentiary Hearing
 DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Evid
@@ -61,7 +82,7 @@ SUMMARY:[AL] Location: Carl L. Evans Chief Administrative Law Judge Hearin
  HILL UTILITY BOARD Companies: CAMP HILL U
 DTSTART;TZID=America/Chicago:20260825T000000
 DTEND;TZID=America/Chicago:20260825T020000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:287ab390029205b0205f@psc-calendar
 CATEGORIES:AL,Evidentiary Hearing
 DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Evid

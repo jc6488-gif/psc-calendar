@@ -9,26 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[OK] Commission meeting
-DTSTART;TZID=America/Chicago:20260729T000000
-DTEND;TZID=America/Chicago:20260729T020000
-DTSTAMP:20260817T141253Z
-UID:80113807f393d2ed04a8@psc-calendar
-CATEGORIES:OK,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Open M
- eeting / Commission Meeting\n\nJuly 29\, 2026 Wednesday 1:30 p.m. | Regula
- r Meeting | Agenda Recording\n\nSource: https://oklahoma.gov/content/dam/o
- k/en/occ/documents/ajls/jls-courts/court-clerk/meetings/2026/2026-07-29-re
- gular-meeting-agenda.pdf
-PRIORITY:5
-URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
- ourt-clerk/meetings/2026/2026-07-29-regular-meeting-agenda.pdf
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: July 29\, 2026
 DTSTART;TZID=America/Chicago:20260729T133000
 DTEND;TZID=America/Chicago:20260729T153000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:5c05f4a11ae6c0336cd3@psc-calendar
 CATEGORIES:OK,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Open M
@@ -39,26 +23,10 @@ PRIORITY:5
 URL:https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OK] Commission meeting
-DTSTART;TZID=America/Chicago:20260806T000000
-DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260817T141253Z
-UID:06ad5fe93d36996fb5e9@psc-calendar
-CATEGORIES:OK,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Open M
- eeting / Commission Meeting\n\nAugust 6\, 2026 Thursday 1:30 p.m. | Regula
- r Meeting | Agenda Recording\n\nSource: https://oklahoma.gov/content/dam/o
- k/en/occ/documents/ajls/jls-courts/court-clerk/meetings/2026/2026-08-06-re
- gular-meeting-agenda.pdf
-PRIORITY:5
-URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
- ourt-clerk/meetings/2026/2026-08-06-regular-meeting-agenda.pdf
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: August 6\, 2026
 DTSTART;TZID=America/Chicago:20260806T133000
 DTEND;TZID=America/Chicago:20260806T153000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:4d20cd4a9cc4bdfda18d@psc-calendar
 CATEGORIES:OK,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Open M
@@ -69,26 +37,10 @@ PRIORITY:5
 URL:https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OK] Commission meeting
-DTSTART;TZID=America/Chicago:20260811T000000
-DTEND;TZID=America/Chicago:20260811T020000
-DTSTAMP:20260817T141253Z
-UID:d507e71551ce47ce1869@psc-calendar
-CATEGORIES:OK,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Open M
- eeting / Commission Meeting\n\nAugust 11\, 2026 Tuesday 1:30 p.m. | Regula
- r Meeting | Agenda Recording (pt 1) Recording (pt 2)\n\nSource: https://ok
- lahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/court-clerk/mee
- tings/2026/2026-08-11-regular-meeting-agenda.pdf
-PRIORITY:5
-URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
- ourt-clerk/meetings/2026/2026-08-11-regular-meeting-agenda.pdf
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: August 11\, 2026
 DTSTART;TZID=America/Chicago:20260811T133000
 DTEND;TZID=America/Chicago:20260811T153000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:233292c1c9494f62bb9c@psc-calendar
 CATEGORIES:OK,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Open M
@@ -98,26 +50,10 @@ PRIORITY:5
 URL:https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OK] Commission meeting
-DTSTART;TZID=America/Chicago:20260819T000000
-DTEND;TZID=America/Chicago:20260819T020000
-DTSTAMP:20260817T141253Z
-UID:7ec43744e0463ae0102f@psc-calendar
-CATEGORIES:OK,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Open M
- eeting / Commission Meeting\n\nAugust 19\, 2026 Wednesday 10:00 a.m. | Spe
- cial Meeting | Agenda Watch Live\n\nSource: https://oklahoma.gov/content/d
- am/ok/en/occ/documents/ajls/jls-courts/court-clerk/meetings/2026/2026-08-1
- 9-special-meeting-agenda1.pdf
-PRIORITY:5
-URL:https://oklahoma.gov/content/dam/ok/en/occ/documents/ajls/jls-courts/c
- ourt-clerk/meetings/2026/2026-08-19-special-meeting-agenda1.pdf
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: July 29\, 2026
 DTSTART;TZID=America/Chicago:20260819T133000
 DTEND;TZID=America/Chicago:20260819T153000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:9f508695ecbb949dba7a@psc-calendar
 CATEGORIES:OK,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Open M
@@ -131,7 +67,7 @@ BEGIN:VEVENT
 SUMMARY:[OK] 2026 Commission Meetings: August 6\, 2026
 DTSTART;TZID=America/Chicago:20260827T133000
 DTEND;TZID=America/Chicago:20260827T153000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:6c4127799bcdcc047fd5@psc-calendar
 CATEGORIES:OK,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oklahoma Corporation Commission (OK)\nType: Open M

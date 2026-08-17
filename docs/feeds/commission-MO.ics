@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] HK 11:00am Agenda Meeting ( 310)
 DTSTART;TZID=America/Chicago:20260805T110000
 DTEND;TZID=America/Chicago:20260805T130000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:3650acd052f68fd15e17@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] Adj 11:00am Agenda Meeting ( Hearing Room 310 and via WebEx)
 DTSTART;TZID=America/Chicago:20260805T110000
 DTEND;TZID=America/Chicago:20260805T130000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:554d108dd02ae5a22d05@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -40,7 +40,7 @@ SUMMARY:[MO] Adj 11:30am OX-2026-0334 - Rulemaking Hearing - Chapter 3-Fil
  ing Requirements ( Dippell - Room 310)
 DTSTART;TZID=America/Chicago:20260805T113000
 DTEND;TZID=America/Chicago:20260805T133000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:c2f18d6cd02c81b605de@psc-calendar
 CATEGORIES:MO,Evidentiary Hearing
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Evi
@@ -53,7 +53,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] Adj 3:30pm Hearing Room 305 Reserved
 DTSTART;TZID=America/Chicago:20260805T153000
 DTEND;TZID=America/Chicago:20260805T173000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:d584c4b764099823b5fc@psc-calendar
 CATEGORIES:MO,Evidentiary Hearing
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Evi
@@ -66,7 +66,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] Adj 9:00am Hearing Room 310 Reserved
 DTSTART;TZID=America/Chicago:20260812T090000
 DTEND;TZID=America/Chicago:20260812T110000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:9f594494282d330a10c8@psc-calendar
 CATEGORIES:MO,Evidentiary Hearing
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Evi
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] HK 11:00am Agenda Meeting ( 310)
 DTSTART;TZID=America/Chicago:20260812T110000
 DTEND;TZID=America/Chicago:20260812T130000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:f95ec0e0984a596f5701@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -92,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] Adj 11:00am Agenda Meeting ( Room 310 and via WebEx)
 DTSTART;TZID=America/Chicago:20260812T110000
 DTEND;TZID=America/Chicago:20260812T130000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:4b23df1d647374db78d1@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -106,7 +106,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] HK 9:00am Agenda Meeting ( 310)
 DTSTART;TZID=America/Chicago:20260819T090000
 DTEND;TZID=America/Chicago:20260819T110000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:5f070b21bcbd59f8da36@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -119,7 +119,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] Adj 9:00am Agenda Meeting ( Room 310 and via WebEx)
 DTSTART;TZID=America/Chicago:20260819T090000
 DTEND;TZID=America/Chicago:20260819T110000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:2f508fc59c69e456ed1a@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -133,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] HK 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)
 DTSTART;TZID=America/Chicago:20260819T093000
 DTEND;TZID=America/Chicago:20260819T113000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:ceb7bb0fe34fa1c7b974@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -147,7 +147,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] CM 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)
 DTSTART;TZID=America/Chicago:20260819T093000
 DTEND;TZID=America/Chicago:20260819T113000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:e81f1d2573be0da92bf2@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -161,7 +161,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] KG 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)
 DTSTART;TZID=America/Chicago:20260819T093000
 DTEND;TZID=America/Chicago:20260819T113000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:c53e540af7d1477764bf@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -175,7 +175,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] MJ 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)
 DTSTART;TZID=America/Chicago:20260819T093000
 DTEND;TZID=America/Chicago:20260819T113000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:cd0ca45f151214f676e9@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -189,7 +189,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] Adj 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)
 DTSTART;TZID=America/Chicago:20260819T093000
 DTEND;TZID=America/Chicago:20260819T113000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:eb74341d59db93396a02@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -203,7 +203,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] HK 11:00am Agenda Meeting ( 310)
 DTSTART;TZID=America/Chicago:20260826T110000
 DTEND;TZID=America/Chicago:20260826T130000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:2c2e1a709e53edcb1398@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
@@ -216,7 +216,7 @@ BEGIN:VEVENT
 SUMMARY:[MO] Adj 11:00am Agenda Meeting ( Room 310 and via WebEx)
 DTSTART;TZID=America/Chicago:20260826T110000
 DTEND;TZID=America/Chicago:20260826T130000
-DTSTAMP:20260817T141253Z
+DTSTAMP:20260817T142823Z
 UID:dc36266d9e859fb73890@psc-calendar
 CATEGORIES:MO,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Missouri Public Service Commission (MO)\nType: Ope
