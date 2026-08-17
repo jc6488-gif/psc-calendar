@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[MT] Commission Scheduling Meeting
 DTSTART;TZID=America/Denver:20260818T130000
 DTEND;TZID=America/Denver:20260818T150000
-DTSTAMP:20260817T180348Z
+DTSTAMP:20260817T180926Z
 UID:efbde1fb3c353be73b71@psc-calendar
 CATEGORIES:MT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Montana Public Service Commission (MT)\nType: Open
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:[MT] Commission Business Meeting
 DTSTART;TZID=America/Denver:20260818T133000
 DTEND;TZID=America/Denver:20260818T153000
-DTSTAMP:20260817T180348Z
+DTSTAMP:20260817T180926Z
 UID:cb3afd083bc84dd77d51@psc-calendar
 CATEGORIES:MT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Montana Public Service Commission (MT)\nType: Open
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:[MT] Next Commission Business Meeting
 DTSTART;TZID=America/Denver:20260825T133000
 DTEND;TZID=America/Denver:20260825T153000
-DTSTAMP:20260817T180348Z
+DTSTAMP:20260817T180926Z
 UID:d71ee7e63b588b919849@psc-calendar
 CATEGORIES:MT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Montana Public Service Commission (MT)\nType: Open
