@@ -118,3 +118,36 @@ def is_uninformative(title: str) -> bool:
     fallback when the page tells us nothing more."""
     tokens = re.findall(r"[A-Za-z]{2,}", (title or "").lower())
     return all(t in _STOP for t in tokens)
+
+
+# --------------------------------------------------------------- sector gate
+# The desk covers electric and gas names only. State commissions also regulate
+# water, telecom and (in CO) tow trucks and passenger carriers - those matters
+# are dropped. An OPEN MEETING is never dropped: one commission meeting
+# disposes of every kind of case it handles, so it is inherently unseparable
+# and may well contain the electric/gas item that matters.
+_ENERGY = re.compile(
+    r"\belectric|\bgas\b|natural gas|\bLNG\b|\bpower\b|energy|\bsolar\b|\bwind\b|"
+    r"transmission|generation|\bIRP\b|resource plan|\bkwh\b|fuel|coal|nuclear|"
+    r"pipeline|propane|rate case|\bOG-\d", re.I)
+_NON_ENERGY = re.compile(
+    r"\bwater\b|wastewater|\bsewer|sewage|\baqua\b|artesian|tidewater|"
+    r"\bCLEC\b|telecom|telephone|broadband|\bVoIP\b|\bcable\b|\b911\b|E-?911|"
+    r"universal service|\bwireless\b|"
+    r"motor carrier|\btowing\b|\btow\b|taxi|limousine|household goods|"
+    r"moving compan|\bbus\b|pilotage", re.I)
+
+
+def is_out_of_sector(title: str, event_type: str) -> bool:
+    """True when the TITLE clearly marks a non-electric/gas matter.
+
+    Title only - descriptions carry venue boilerplate that false-positives.
+    Requires a non-energy signal AND no energy signal, so mixed matters
+    (an oil-and-gas produced-water docket, a combined water/electric utility)
+    are kept. When in doubt, keep: a wrongly dropped hearing is the worst
+    failure this tool can produce.
+    """
+    if event_type == "open_meeting":
+        return False
+    t = title or ""
+    return bool(_NON_ENERGY.search(t)) and not _ENERGY.search(t)

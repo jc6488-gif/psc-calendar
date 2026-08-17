@@ -77,6 +77,10 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             if not classify.is_published(etype):
                 dropped_types[elabel] = dropped_types.get(elabel, 0) + 1
                 continue
+            if classify.is_out_of_sector(title, etype):
+                dropped_types["Out of sector (water/telecom/transport)"] = \
+                    dropped_types.get("Out of sector (water/telecom/transport)", 0) + 1
+                continue
 
             # Never emit a link we can't stand behind. A relative or malformed
             # href becomes a dead "page not found" in the dashboard, which is

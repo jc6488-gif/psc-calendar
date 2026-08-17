@@ -200,12 +200,6 @@ TEMPLATE = r"""<!DOCTYPE html>
   <input type="search" id="q" placeholder="Search title, docket, company…" aria-label="Search">
   <select id="f-state" aria-label="Filter by commission"><option value="">All commissions</option></select>
   <select id="f-type" aria-label="Filter by event type"><option value="">All event types</option></select>
-  <select id="f-rel" aria-label="Filter by market relevance">
-    <option value="">All relevance</option>
-    <option value="High">High relevance</option>
-    <option value="Medium">Medium relevance</option>
-    <option value="Low">Low relevance</option>
-  </select>
   <select id="f-range" aria-label="Date range">
     <option value="7">Next week</option>
     <option value="14">Next 2 weeks</option>
@@ -225,7 +219,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       <th data-sort="commission">Comm.</th>
       <th data-sort="title">Event</th>
       <th data-sort="event_type" class="hide-sm">Type</th>
-      <th data-sort="relevance" class="hide-sm">Relevance</th>
       <th class="hide-sm">Could touch</th>
     </tr></thead>
     <tbody id="rows"></tbody>
@@ -277,7 +270,6 @@ TEMPLATE = r"""<!DOCTYPE html>
   const TYPE_COLOR = { open_meeting:"var(--s1)", evidentiary_hearing:"var(--s2)",
     decision_order:"var(--s3)", public_comment:"var(--s4)", procedural:"var(--s5)",
     workshop:"var(--s6)", other:"var(--muted)" };
-  const REL_ORDER = { High: 0, Medium: 1, Low: 2 };
 
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g,
@@ -303,7 +295,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   comms.forEach((c) => $("f-state").add(new Option(`${c} — ${commName[c]}`, c)));
   types.forEach(([id, label]) => $("f-type").add(new Option(label, id)));
 
-  const state = { q:"", comm:"", type:"", rel:"", range:"90", sort:"start", dir:1 };
+  const state = { q:"", comm:"", type:"", range:"90", sort:"start", dir:1 };
 
   const startOfToday = new Date(); startOfToday.setHours(0, 0, 0, 0);
 
@@ -323,7 +315,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       if (hi && d > hi) return false;
       if (state.comm && e.commission !== state.comm) return false;
       if (state.type && e.event_type !== state.type) return false;
-      if (state.rel && (e.relevance || "Low") !== state.rel) return false;
       if (q) {
         const hay = (e.title + " " + e.description + " " + e.dockets.join(" ") + " " +
                      e.commission + " " + e.commission_name).toLowerCase();
@@ -339,7 +330,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       let x = a[k], y = b[k];
       if (Array.isArray(x)) { x = x.join(","); y = y.join(","); }
       if (k === "start") { x = a.start; y = b.start; }
-      if (k === "relevance") { x = REL_ORDER[x] ?? 3; y = REL_ORDER[y] ?? 3; }
       if (x < y) return -1 * dir;
       if (x > y) return 1 * dir;
       return a.start < b.start ? -1 : 1;
@@ -397,7 +387,6 @@ TEMPLATE = r"""<!DOCTYPE html>
         <td class="st"><span title="${esc(e.commission_name)}">${esc(e.commission)}</span></td>
         <td class="title">${link}${dk}</td>
         <td class="type hide-sm"><span class="dot" style="background:${TYPE_COLOR[e.event_type] || "var(--muted)"}"></span>${esc(e.event_type_label)}</td>
-        <td class="hide-sm"><span class="rel rel-${(e.relevance || "Low").toLowerCase()}">${esc(e.relevance || "Low")}</span></td>
         <td class="hide-sm">${(COV_MAP[e.commission] || []).map((t) => `<span class="tag tk">${esc(t)}</span>`).join("")}</td>
       </tr>`;
     }).join("");
@@ -465,7 +454,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   $("csv").onclick = () => {
     const rows = sorted(filtered());
     const head = ["Date","Time","Commission","CommissionName","State","Title",
-                  "EventType","Relevance","Dockets","Location","URL"];
+                  "EventType","Dockets","Location","URL"];
     const q = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
     const body = rows.map((e) => {
       const d = new Date(e.start);
@@ -476,7 +465,7 @@ TEMPLATE = r"""<!DOCTYPE html>
         { year:"numeric", month:"2-digit", day:"2-digit", timeZone: tz }).format(d);
       return [ymd, e.all_day ? "" : tfmt(tz).format(d),
               e.commission, e.commission_name, e.state, e.title, e.event_type_label,
-              e.relevance || "Low", e.dockets.join(" "), e.location, e.url].map(q).join(",");
+              e.dockets.join(" "), e.location, e.url].map(q).join(",");
     });
     const blob = new Blob([head.join(",") + "\n" + body.join("\n")],
                           { type: "text/csv;charset=utf-8" });
@@ -492,13 +481,12 @@ TEMPLATE = r"""<!DOCTYPE html>
   $("q").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value; render(); }, 140); };
   $("f-state").onchange = (e) => { state.comm = e.target.value; render(); };
   $("f-type").onchange = (e) => { state.type = e.target.value; render(); };
-  $("f-rel").onchange = (e) => { state.rel = e.target.value; render(); };
   $("f-range").onchange = (e) => { state.range = e.target.value; render(); };
 
   $("reset").onclick = () => {
-    Object.assign(state, { q:"", comm:"", type:"", rel:"", range:"90" });
+    Object.assign(state, { q:"", comm:"", type:"", range:"90" });
     $("q").value = ""; $("f-state").value = "";
-    $("f-type").value = ""; $("f-rel").value = ""; $("f-range").value = "90";
+    $("f-type").value = ""; $("f-range").value = "90";
     render();
   };
   document.querySelectorAll("th[data-sort]").forEach((th) => {

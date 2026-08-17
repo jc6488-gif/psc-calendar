@@ -400,3 +400,23 @@ def test_state_specific_meeting_wording(title):
     tid = classify.classify_type(title)[0]
     assert tid == "open_meeting", (title, tid)
     assert classify.is_published(tid)
+
+
+@pytest.mark.parametrize("title,out", [
+    ("Expert Witness Hearing: Joint Application of Aqua North Carolina", True),
+    ("HRG: 26C-0259TO, Supreme Towing, ALJ Farley", True),
+    ("CLEC Hearing Notice in Docket 26-00045", True),
+    ("Docket 26-0000116 - Amerimex wireless request", True),
+    # mixed matters stay: an oil-and-gas produced-water docket is energy
+    ("*SOLARIS WATER MIDSTREAM, LLC-DOCKET NO. OG-25-00028376", False),
+    ("Water and Electric Utility rate hearing", False),
+    ("Evidentiary Hearing - Spire Missouri gas rate case", False),
+])
+def test_out_of_sector_gate(title, out):
+    assert classify.is_out_of_sector(title, "evidentiary_hearing") is out
+
+
+def test_open_meetings_are_never_sector_filtered():
+    """One commission meeting handles electric, water and telecom together -
+    dropping it would lose the electric item too."""
+    assert not classify.is_out_of_sector("Open Meeting - water and telecom agenda", "open_meeting")

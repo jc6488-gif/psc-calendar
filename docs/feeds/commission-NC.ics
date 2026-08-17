@@ -9,35 +9,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[NC] Oral Argument Hearing - Application of Water Quality Utilitie
- s\, Inc\,. for a Certificate of Public Convenience and Necessity and for A
- pproval of Rates to provide Wastewater Utility Service to Phase 5 Legacy R
- idge at Echota in Watauga County\, Nort
-DTSTART;TZID=America/New_York:20260903T100000
-DTEND;TZID=America/New_York:20260903T120000
-DTSTAMP:20260817T134608Z
-UID:02ef42b8f3de364832e3@psc-calendar
-CATEGORIES:NC,Evidentiary Hearing
-DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
- identiary Hearing\n\n9/03/2026 | 10:00am | Hearing Room 2115\, Dobbs Build
- ing\, 430 N Salisbury St. Raleigh | W-1264 Sub 9 | Oral Argument Hearing -
-  Application of Water Quality Utilities\, Inc\,. for a Certificate of Publ
- ic Convenience and Necessity and for Approval of Rates to provide Wastewat
- er Utility Service to Phase 5 Legacy Ridge at Echota in Watauga County\, N
- orth Carolina |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-docs/P
- SC/DocketDetails.aspx?DocketId=33f91fd7-99fa-4b3d-9eb6-2f049642bb7d
-PRIORITY:5
-URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
- ocketId=33f91fd7-99fa-4b3d-9eb6-2f049642bb7d
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NC] [CANCELED] Expert Witness Hearing: Joint Application of Duke 
  Energy Progress\, LLC and North Carolina Electric Membership Corporation f
  or a Certificate of Public Convenience and Necessity to Construct a 1\,360
   MW Natural Gas-Fueled Combined Cycle 
 DTSTART;TZID=America/New_York:20260904T100000
 DTEND;TZID=America/New_York:20260904T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:01e85999ac3d0225ef63@psc-calendar
 CATEGORIES:NC,Evidentiary Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
@@ -60,7 +38,7 @@ SUMMARY:[NC] Expert Witness Hearing - Application of Duke Energy Carolinas
  rating Facility in Rowan County\, Nort
 DTSTART;TZID=America/New_York:20260909T100000
 DTEND;TZID=America/New_York:20260909T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:8d7eab84772585d602e3@psc-calendar
 CATEGORIES:NC,Evidentiary Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
@@ -76,54 +54,11 @@ URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
  ocketId=4ba67bc7-7c30-4a5c-be26-93777ac63431
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NC] Expert Witness Hearing: Joint Application of Aqua North Carol
- ina\, Inc. and C&P Enterprises for Transfer of Public Utility Franchise an
- d for Approval of Rates
-DTSTART;TZID=America/New_York:20260911T100000
-DTEND;TZID=America/New_York:20260911T120000
-DTSTAMP:20260817T134608Z
-UID:38df0be771817f31574d@psc-calendar
-CATEGORIES:NC,Evidentiary Hearing
-DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
- identiary Hearing\n\n9/11/2026 | 10:00am | Hearing Room 2115\, Dobbs Build
- ing\, 430 N Salisbury St. Raleigh | W-218 Sub 645 W-1063 Sub 6 | Expert Wi
- tness Hearing: Joint Application of Aqua North Carolina\, Inc. and C&P Ent
- erprises for Transfer of Public Utility Franchise and for Approval of Rate
- s |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDet
- ails.aspx?DocketId=99904b2b-cd4a-4d69-b529-ade11cc5fcb7
-PRIORITY:5
-URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
- ocketId=99904b2b-cd4a-4d69-b529-ade11cc5fcb7
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NC] Expert Witness Hearing: Joint Application of Essential Utilit
- ies\, Inc.\, Aqua North Carolina\, Inc.\, and Alpha Merger Sub\, Inc. for 
- Authorization to Engage in a Business Combination and Request by American 
- Water Works Company\, Inc. for Approval of
-DTSTART;TZID=America/New_York:20260921T140000
-DTEND;TZID=America/New_York:20260921T160000
-DTSTAMP:20260817T134608Z
-UID:75a5effa9921d2ef85f4@psc-calendar
-CATEGORIES:NC,Evidentiary Hearing
-DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
- identiary Hearing\n\n9/21/2026 | 2:00pm | Hearing Room 2115\, Dobbs Buildi
- ng\, 430 N Salisbury St. Raleigh | W-218 Sub 643 | Expert Witness Hearing:
-  Joint Application of Essential Utilities\, Inc.\, Aqua North Carolina\, I
- nc.\, and Alpha Merger Sub\, Inc. for Authorization to Engage in a Busines
- s Combination and Request by American Water Works Company\, Inc. for Appro
- val of Affiliate Agreements |\n\nSource: https://starw1.ncuc.gov/NCUC/page
- /docket-docs/PSC/DocketDetails.aspx?DocketId=5694b7e3-b2d4-47e5-9833-6670c
- d02928a
-PRIORITY:5
-URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
- ocketId=5694b7e3-b2d4-47e5-9833-6670cd02928a
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NC] Expert Witness Hearing - Application of Cardinal Pipeline Com
  pany\, LLC\, for an Adjustment in Its Rates and Charges
 DTSTART;TZID=America/New_York:20260929T100000
 DTEND;TZID=America/New_York:20260929T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:664d0ac359c8c8927bb1@psc-calendar
 CATEGORIES:NC,Evidentiary Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
@@ -137,54 +72,12 @@ URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
  ocketId=6b586b0e-59a2-4587-a40a-a15e29d26656
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NC] Expert Witness Hearing: Application of Old North State Water 
- Company\, Inc.\, for Authority to Adjust and Increase Rates for Water and 
- Sewer Utility Services in Authorized North Carolina Service Areas
-DTSTART;TZID=America/New_York:20261110T100000
-DTEND;TZID=America/New_York:20261110T120000
-DTSTAMP:20260817T134608Z
-UID:179271f3d267d4b6ccf6@psc-calendar
-CATEGORIES:NC,Evidentiary Hearing
-DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
- identiary Hearing\n\n11/10/2026 | 10:00am | Hearing Room 2115\, Dobbs Buil
- ding\, 430 N Salisbury St. Raleigh | W-1300 Sub 118 | Expert Witness Heari
- ng: Application of Old North State Water Company\, Inc.\, for Authority to
-  Adjust and Increase Rates for Water and Sewer Utility Services in Authori
- zed North Carolina Service Areas |\n\nSource: https://starw1.ncuc.gov/NCUC
- /page/docket-docs/PSC/DocketDetails.aspx?DocketId=7217a5ef-a744-4f8a-ad8d-
- 6db107956203
-PRIORITY:5
-URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
- ocketId=7217a5ef-a744-4f8a-ad8d-6db107956203
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NC] Expert Witness Hearing - Application by William E. Cook\, Jr.
- \, for Authority to Adjust and Increase Rates for Water Utility Service in
-  Green Oaks Subdivision in Cabarrus County\, North Carolina
-DTSTART;TZID=America/New_York:20261118T100000
-DTEND;TZID=America/New_York:20261118T120000
-DTSTAMP:20260817T134608Z
-UID:45584a7d6a0511b758a1@psc-calendar
-CATEGORIES:NC,Evidentiary Hearing
-DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
- identiary Hearing\n\n11/18/2026 | 10:00am | Hearing Room 2160\, Dobbs Buil
- ding\, 430 N Salisbury St. Raleigh | W-1262 Sub 2 | Expert Witness Hearing
-  - Application by William E. Cook\, Jr.\, for Authority to Adjust and Incr
- ease Rates for Water Utility Service in Green Oaks Subdivision in Cabarrus
-  County\, North Carolina |\n\nSource: https://starw1.ncuc.gov/NCUC/page/do
- cket-docs/PSC/DocketDetails.aspx?DocketId=b6d52eb1-2ce0-487a-a8f3-0d4f7d03
- d077
-PRIORITY:5
-URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
- ocketId=b6d52eb1-2ce0-487a-a8f3-0d4f7d03d077
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NC] Expert Witness Hearing: Application of Virginia Electric and 
  Power Company\, d/b/a Dominion Energy North Carolina for Adjustment of Rat
  es and Charges Applicable to Electric Service In North Carolina
 DTSTART;TZID=America/New_York:20261118T100000
 DTEND;TZID=America/New_York:20261118T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:5e0cb70fe2d21131dce5@psc-calendar
 CATEGORIES:NC,Evidentiary Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
@@ -198,47 +91,5 @@ DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
 PRIORITY:5
 URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
  ocketId=0cbd3ac5-0feb-41da-8c6e-7bf3e7ddc3d2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NC] Expert Witness Hearing - Application of Rock Creek Environmen
- tal Company\, Inc.\, for Authority to Adjust and Increase Rates for Wastew
- ater Utility Service in Rock Creek Subdivision and Preps\, Inc\, in Onslow
-  County\, North Carolina
-DTSTART;TZID=America/New_York:20261201T100000
-DTEND;TZID=America/New_York:20261201T120000
-DTSTAMP:20260817T134608Z
-UID:a49736e51014d5ffc76c@psc-calendar
-CATEGORIES:NC,Evidentiary Hearing
-DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
- identiary Hearing\n\n12/01/2026 | 10:00am | Hearing Room 2115\, Dobbs Buil
- ding\, 430 N Salisbury St. Raleigh | W-830 Sub 7 | Expert Witness Hearing 
- - Application of Rock Creek Environmental Company\, Inc.\, for Authority t
- o Adjust and Increase Rates for Wastewater Utility Service in Rock Creek S
- ubdivision and Preps\, Inc\, in Onslow County\, North Carolina |\n\nSource
- : https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?Doc
- ketId=af3f6001-a732-49de-886b-c70a1cac7258
-PRIORITY:5
-URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
- ocketId=af3f6001-a732-49de-886b-c70a1cac7258
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NC] Expert Witness Hearing - Application of Royal Gorge Water Uti
- lity\, LLC for Authority to Adjust and Increase Rates for Water and Sewer 
- Utility Service
-DTSTART;TZID=America/New_York:20270112T100000
-DTEND;TZID=America/New_York:20270112T120000
-DTSTAMP:20260817T134608Z
-UID:090b656e9cee5daa5aba@psc-calendar
-CATEGORIES:NC,Evidentiary Hearing
-DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
- identiary Hearing\n\n01/12/2027 | 10:00am | Commission Hearing Room 2115 D
- obbs Building 430 North Salisbury Street Raleigh | W-1331 Sub 6 | Expert W
- itness Hearing - Application of Royal Gorge Water Utility\, LLC for Author
- ity to Adjust and Increase Rates for Water and Sewer Utility Service |\n\n
- Source: https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.as
- px?DocketId=c0ecc489-097f-4f03-a9e2-4bf358b48956
-PRIORITY:5
-URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
- ocketId=c0ecc489-097f-4f03-a9e2-4bf358b48956
 END:VEVENT
 END:VCALENDAR

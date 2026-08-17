@@ -13,7 +13,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] State Capitol Building\, Room 307\, Santa Fe
 DTSTART;TZID=America/Denver:20260730T100000
 DTEND;TZID=America/Denver:20260730T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:c675379acefa643d9217@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] Special Open Meeting | Small Water Utilities
 DTSTART;TZID=America/Denver:20260806T100000
 DTEND;TZID=America/Denver:20260806T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:08b4d1fbef89854c7b8c@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] State Capitol Building\, Room 322\, Santa Fe
 DTSTART;TZID=America/Denver:20260813T100000
 DTEND;TZID=America/Denver:20260813T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:fa3332c374953c7a3425@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -55,7 +55,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] State Capitol Building\, Room 307\, Santa Fe
 DTSTART;TZID=America/Denver:20260827T100000
 DTEND;TZID=America/Denver:20260827T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:3c2344ed93fa19478d31@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -72,7 +72,7 @@ SUMMARY:[NM] Docket 25-00032-UT -Kit Carson electric Cooperative\, Inc’s
  t this site to watch the proceeding via l
 DTSTART;TZID=America/Denver:20260907T090000
 DTEND;TZID=America/Denver:20260907T110000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:e79bdae3ed0365028757@psc-calendar
 CATEGORIES:NM,Evidentiary Hearing
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -85,7 +85,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] State Capitol Building\, Room 309\, Santa Fe
 DTSTART;TZID=America/Denver:20260910T100000
 DTEND;TZID=America/Denver:20260910T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:0241ffbd414558e3a77c@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -102,7 +102,7 @@ SUMMARY:[NM] Docket 26-0000132 – Southwestern Public Service Company’s
  2026\, via Zoom videoconference. Visit thi
 DTSTART;TZID=America/Denver:20260914T000000
 DTEND;TZID=America/Denver:20260914T020000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:94eebb153bd5d291c762@psc-calendar
 CATEGORIES:NM,Evidentiary Hearing
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -115,7 +115,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] State Capitol Building\, Room 307\, Santa Fe
 DTSTART;TZID=America/Denver:20260924T100000
 DTEND;TZID=America/Denver:20260924T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:80a0de36237ff6d5c35b@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -132,7 +132,7 @@ SUMMARY:[NM] Docket 26-0000111 – Dahlia Wind LLC et al application for a
  ia Zoom videoconference. Visit this site
 DTSTART;TZID=America/Denver:20260928T000000
 DTEND;TZID=America/Denver:20260928T020000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:e03920a0d0a69db5d4c7@psc-calendar
 CATEGORIES:NM,Evidentiary Hearing
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -148,7 +148,7 @@ SUMMARY:[NM] Docket 26-0000143 – El Paso Electric request for Right-of-W
   Commission’s YouTube channel. Hearings 
 DTSTART;TZID=America/Denver:20261002T090000
 DTEND;TZID=America/Denver:20261002T110000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:296a6e5789e6337f0871@psc-calendar
 CATEGORIES:NM,Evidentiary Hearing
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -161,7 +161,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] State Capitol Building\, Room 309\, Santa Fe
 DTSTART;TZID=America/Denver:20261008T100000
 DTEND;TZID=America/Denver:20261008T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:c578926ef0ce0d806e18@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -176,7 +176,7 @@ SUMMARY:[NM] Guthrie Hall\, 1261 International Mall\, Las Cruces\, NM 8800
  1
 DTSTART;TZID=America/Denver:20261022T100000
 DTEND;TZID=America/Denver:20261022T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:6b386b43251f32a600a8@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -187,26 +187,10 @@ PRIORITY:5
 URL:https://www.prc.nm.gov/2026/06/26/33071/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NM] Docket 26-0000116 – Amerimex\, d/b/a Safetynet wireless req
- uest for designation as a eligible telecommunications carrier in New Mexic
- o. This hearing is set for October 26 \, 2026\, at 9:00 a.m. Visit this si
- te to watch the proceeding via livestream
-DTSTART;TZID=America/Denver:20261026T000000
-DTEND;TZID=America/Denver:20261026T020000
-DTSTAMP:20260817T134608Z
-UID:f0e25af5b53943612818@psc-calendar
-CATEGORIES:NM,Evidentiary Hearing
-DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
- : Evidentiary Hearing\nDocket: 26-0000116\n\nSource: https://www.prc.nm.go
- v/public-hearings/
-PRIORITY:5
-URL:https://www.prc.nm.gov/public-hearings/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NM] State Capitol Building\, Room 309\, Santa Fe
 DTSTART;TZID=America/Denver:20261105T100000
 DTEND;TZID=America/Denver:20261105T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:97f31927b0875526f684@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -223,7 +207,7 @@ SUMMARY:[NM] Docket 26-0000115 – Public Service Company of New Mexico Ap
  is site to watch the proceeding via live
 DTSTART;TZID=America/Denver:20261110T000000
 DTEND;TZID=America/Denver:20261110T020000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:1cc1148683ed778b1147@psc-calendar
 CATEGORIES:NM,Evidentiary Hearing
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -236,7 +220,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] Clifford Plaza\, 4100 Osuna Road NE\, Ste. 102\, Albuquerque
 DTSTART;TZID=America/Denver:20261119T100000
 DTEND;TZID=America/Denver:20261119T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:700c85cb5de31db68d65@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -250,7 +234,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] State Capitol Building\, Room 309\, Santa Fe
 DTSTART;TZID=America/Denver:20261203T100000
 DTEND;TZID=America/Denver:20261203T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:98dc0e5372d2a5701482@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -267,7 +251,7 @@ SUMMARY:[NM] Docket 26-0000133 – El Paso Electric Application for Approv
   proceeding via livestream or watch it o
 DTSTART;TZID=America/Denver:20261207T090000
 DTEND;TZID=America/Denver:20261207T110000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:ed49148986df6119a90f@psc-calendar
 CATEGORIES:NM,Evidentiary Hearing
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
@@ -280,7 +264,7 @@ BEGIN:VEVENT
 SUMMARY:[NM] Clifford Plaza\, 4100 Osuna Road NE\, Ste. 102\, Albuquerque
 DTSTART;TZID=America/Denver:20261217T100000
 DTEND;TZID=America/Denver:20261217T120000
-DTSTAMP:20260817T134608Z
+DTSTAMP:20260817T140003Z
 UID:47fd6acc760aa4163c21@psc-calendar
 CATEGORIES:NM,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Mexico Public Regulation Commission (NM)\nType
