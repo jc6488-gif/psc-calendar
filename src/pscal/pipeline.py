@@ -134,6 +134,8 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
                 scraped_at=now.isoformat(),
             ))
 
+        _collapse_shared_links(events, url, source)
+
         if events:
             all_events.extend(events)
             used_strategies.append(f"{used}({len(events)})")
@@ -176,6 +178,35 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
         dropped=dict(dropped_types),
         duration_s=time.monotonic() - started,
     )
+
+
+def _collapse_shared_links(events: list[Event], source_url: str, source: dict) -> None:
+    """Replace a link that every row on a page shares with the page itself.
+
+    One href repeated across a whole page is site navigation, not a per-event
+    link. Florida's schedule page hangs the same "watch-archive-psc-events"
+    link on all 14 of its rows; followed, it lands on a page that never names
+    the docket - while the page it came from spells the matter out
+    ("...by Duke Energy Florida, LLC"). Send the reader where the event is.
+
+    Needs at least three rows in agreement: with one or two, a shared link is
+    as likely to be genuine.
+    """
+    if len(events) < 3:
+        return
+    links = {e.url for e in events}
+    if len(links) != 1 or links == {source_url}:
+        return
+    shared = next(iter(links))
+    dest = source.get("public_url") or source_url
+    # Only trade up. Massachusetts scrapes an API endpoint whose rows all
+    # carry the fileroom's own "#/hearings" page - that shared link is the
+    # HUMAN view and the source is the machine one, so collapsing there would
+    # hand the reader raw JSON.
+    if classify.is_machine_link(dest) and not classify.is_machine_link(shared):
+        return
+    for e in events:
+        e.url = dest
 
 
 def dedupe(events: list[Event]) -> list[Event]:

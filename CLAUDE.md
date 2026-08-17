@@ -253,6 +253,16 @@ Aug 27 OG dockets, the LPSC portal 09:30 for its T- hearings).
 **When a link is bad, fix the link.** Deleting the event loses a real hearing
 to cure a cosmetic fault - the exact trade the first prime directive forbids.
 
+**One href repeated across every row of a page is navigation, not an event
+link** (`_collapse_shared_links`). Florida's schedule page hangs the same
+"watch-archive-psc-events" link on all 14 of its rows; followed, it lands on
+a page that never names the docket, while the page it came from spells the
+matter out ("...by Duke Energy Florida, LLC"). Needs 3+ rows in agreement,
+and **only ever trades up**: Massachusetts scrapes an API endpoint whose rows
+all carry the fileroom's own `#/hearings` page, so there the shared link is
+the human one and the source is the machine one. Collapsing blindly handed 18
+MA hearings a JSON URL - caught only by diffing links before and after.
+
 **"Unreachable from a script" is not "broken".** 19 links fail our fetcher;
 almost all are Michigan, FERC and NC returning 403 to non-browser clients.
 They open fine when she clicks them. Check a failing link in a browser before
@@ -360,7 +370,7 @@ src/pscal/
 tools/probe.py          diagnose one commission — reach for this first
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  147 tests, all offline
+tests/                  150 tests, all offline
 ```
 
 ### The extraction chain
@@ -437,7 +447,7 @@ survivors would throw away the meetings still to come.
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 147 tests, no network
+python3 -m pytest tests/ -q                    # 150 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/

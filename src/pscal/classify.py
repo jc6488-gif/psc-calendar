@@ -264,7 +264,11 @@ _MACHINE_LINK = re.compile(
     r"\.ics(?:$|[?#])|/ical/|admin-ajax\.php|"
     r"outlook\.office365\.com/owa/calendar|"
     r"legistar\.com/View\.ashx|webapi\.legistar\.com|"
-    r"/ReadScheduledEvents\b",
+    r"/ReadScheduledEvents\b|"
+    # A path segment literally named api. Massachusetts scrapes
+    # .../dpu/fileroom/api/search/hearings/ while its readable page is
+    # .../dpu/fileroom/#/hearings.
+    r"/api/",
     re.I)
 
 

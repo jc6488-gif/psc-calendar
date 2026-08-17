@@ -827,6 +827,58 @@ def test_timeless_docket_record_folds_into_the_timed_one():
     assert "Application for rate increase by Florida City Gas" in out[0].title
 
 
+def test_one_link_shared_by_every_row_is_navigation():
+    """Florida's schedule page hangs the same "watch-archive" link on all 14
+    of its rows. Followed, it lands on a page that never names the docket -
+    while the page it came from spells the matter out in full. A single href
+    repeated across a whole page is site chrome, not a per-event link."""
+    from src.pscal.pipeline import _collapse_shared_links
+    from datetime import datetime as dt
+    base = dict(commission="FL", commission_name="F", state="FL", tz="America/New_York",
+                event_type="evidentiary_hearing", event_type_label="Evidentiary Hearing",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 17, tzinfo=ZoneInfo("America/New_York"))
+    nav = "https://www.floridapsc.com/watch-archive-psc-events"
+    src = "https://www.floridapsc.com/schedule-of-events"
+    evs = [Event(title=f"Docket 2026006{n}: Something", start=day, url=nav, **base)
+           for n in range(3)]
+    _collapse_shared_links(evs, src, {})
+    assert {e.url for e in evs} == {src}
+
+
+def test_shared_link_survives_when_the_source_is_the_machine_one():
+    """Massachusetts scrapes an API endpoint whose rows all carry the
+    fileroom's own "#/hearings" page. That shared link is the HUMAN view and
+    the source is the machine one - collapsing there hands the reader JSON."""
+    from src.pscal.pipeline import _collapse_shared_links
+    from datetime import datetime as dt
+    base = dict(commission="MA", commission_name="M", state="MA", tz="America/New_York",
+                event_type="evidentiary_hearing", event_type_label="Evidentiary Hearing",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 17, tzinfo=ZoneInfo("America/New_York"))
+    human = "https://eeaonline.eea.state.ma.us/dpu/fileroom/#/hearings"
+    api = "https://eeaonline.eea.state.ma.us/dpu/fileroom/api/search/hearings/"
+    evs = [Event(title=f"26-5{n} - Boston Gas", start=day, url=human, **base)
+           for n in range(3)]
+    _collapse_shared_links(evs, api, {})
+    assert {e.url for e in evs} == {human}
+
+
+def test_genuinely_per_event_links_are_kept():
+    """Guard: only collapse when EVERY row agrees on one href."""
+    from src.pscal.pipeline import _collapse_shared_links
+    from datetime import datetime as dt
+    base = dict(commission="MN", commission_name="M", state="MN", tz="America/Chicago",
+                event_type="open_meeting", event_type_label="Open Meeting / Commission Meeting",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 17, tzinfo=ZoneInfo("America/Chicago"))
+    evs = [Event(title=f"PUC Agenda Meeting {n}", start=day,
+                 url=f"https://x.gov/MeetingDetail.aspx?ID={n}", **base) for n in range(3)]
+    before = [e.url for e in evs]
+    _collapse_shared_links(evs, "https://x.gov/Calendar.aspx", {})
+    assert [e.url for e in evs] == before
+
+
 def test_field_style_titles_are_tidied():
     assert classify.clean_title(
         "Docket No : 20260026 ; Title: Application for rate increase by Florida City Gas."
