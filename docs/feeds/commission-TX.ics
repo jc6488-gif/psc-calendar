@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting
 DTSTART;TZID=America/Chicago:20260730T093000
 DTEND;TZID=America/Chicago:20260730T170000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:56b6ddcc43f43c37d3d7@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, August 14\, 2026
 DTSTART;TZID=America/Chicago:20260814T000000
 DTEND;TZID=America/Chicago:20260814T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:377f1f23fdd178cc061f@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -40,7 +40,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, August 20\, 2026
 DTSTART;TZID=America/Chicago:20260820T000000
 DTEND;TZID=America/Chicago:20260820T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:879c6c17f7ba118d0453@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -54,7 +54,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Hearing on the Merits/Open Meeting
 DTSTART;TZID=America/Chicago:20260820T093000
 DTEND;TZID=America/Chicago:20260820T170000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:dd129fab6686039ef273@psc-calendar
 CATEGORIES:TX,Evidentiary Hearing
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Evi
@@ -68,7 +68,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, August 21\, 2026
 DTSTART;TZID=America/Chicago:20260821T000000
 DTEND;TZID=America/Chicago:20260821T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:b0c164489daffcd4ea11@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -84,7 +84,7 @@ SUMMARY:[TX] LOCATION CHANGE for the August 21\, 2026\, open meeting of th
  enter 1900 University Ave Austin\, Texas\, 78705 9:30am CT
 DTSTART;TZID=America/Chicago:20260821T000000
 DTEND;TZID=America/Chicago:20260821T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:f61dc77ef3cff7d33671@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -97,7 +97,7 @@ SUMMARY:[TX] for the August 21\, 2026\, open meeting of the Public Utility
   Commission of Texas
 DTSTART;TZID=America/Chicago:20260821T000000
 DTEND;TZID=America/Chicago:20260821T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:4aac0aba01b2b556117d@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, August 28\, 2026
 DTSTART;TZID=America/Chicago:20260828T000000
 DTEND;TZID=America/Chicago:20260828T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:611deaf01637e1097057@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -123,7 +123,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, September 11\, 2026
 DTSTART;TZID=America/Chicago:20260911T000000
 DTEND;TZID=America/Chicago:20260911T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:b5ed369159f0265e7d3f@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -137,7 +137,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, September 17\, 2026
 DTSTART;TZID=America/Chicago:20260917T000000
 DTEND;TZID=America/Chicago:20260917T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:66d0b5879a3c0f3f0826@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -151,7 +151,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, September 18\, 2026
 DTSTART;TZID=America/Chicago:20260918T000000
 DTEND;TZID=America/Chicago:20260918T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:104cbb352f562bcb42fa@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -165,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, September 25\, 2026
 DTSTART;TZID=America/Chicago:20260925T000000
 DTEND;TZID=America/Chicago:20260925T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:42563fae12bf872e75df@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -179,7 +179,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, October 1\, 2026
 DTSTART;TZID=America/Chicago:20261001T000000
 DTEND;TZID=America/Chicago:20261001T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:0271203fb75fec157846@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -193,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, October 2\, 2026
 DTSTART;TZID=America/Chicago:20261002T000000
 DTEND;TZID=America/Chicago:20261002T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:0d2612c5239d6678f4cc@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -207,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, October 15\, 2026
 DTSTART;TZID=America/Chicago:20261015T000000
 DTEND;TZID=America/Chicago:20261015T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:6acaf48bc863cc768496@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -221,7 +221,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, November 5\, 2026
 DTSTART;TZID=America/Chicago:20261105T000000
 DTEND;TZID=America/Chicago:20261105T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:96d51173e5651ff3d1d4@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -235,7 +235,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Monday\, November 9\, 2026
 DTSTART;TZID=America/Chicago:20261109T000000
 DTEND;TZID=America/Chicago:20261109T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:1dac3e2872c57594588b@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -249,7 +249,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, November 19\, 2026
 DTSTART;TZID=America/Chicago:20261119T000000
 DTEND;TZID=America/Chicago:20261119T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:c8399b7ddf765d33089c@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -263,7 +263,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, December 3\, 2026
 DTSTART;TZID=America/Chicago:20261203T000000
 DTEND;TZID=America/Chicago:20261203T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:dafe0177f0fddbc5be57@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -277,7 +277,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, December 11\, 2026
 DTSTART;TZID=America/Chicago:20261211T000000
 DTEND;TZID=America/Chicago:20261211T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:c86fbf52539f986c1a21@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -291,7 +291,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, December 17\, 2026
 DTSTART;TZID=America/Chicago:20261217T000000
 DTEND;TZID=America/Chicago:20261217T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:f9422bdea0b8b230654f@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -305,7 +305,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, January 14\, 2027
 DTSTART;TZID=America/Chicago:20270114T000000
 DTEND;TZID=America/Chicago:20270114T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:4e1ec9b5c78129edda6a@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -319,7 +319,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, January 29\, 2027
 DTSTART;TZID=America/Chicago:20270129T000000
 DTEND;TZID=America/Chicago:20270129T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:c506bcf740f9a1747657@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -333,7 +333,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, February 18\, 2027
 DTSTART;TZID=America/Chicago:20270218T000000
 DTEND;TZID=America/Chicago:20270218T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:e6ace389062480db238d@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -347,7 +347,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, February 25\, 2027
 DTSTART;TZID=America/Chicago:20270225T000000
 DTEND;TZID=America/Chicago:20270225T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:729e7acd6589fcb28653@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -361,7 +361,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, March 11\, 2027
 DTSTART;TZID=America/Chicago:20270311T000000
 DTEND;TZID=America/Chicago:20270311T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:5a43b9e6b3659a9c7a16@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -375,7 +375,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, March 25\, 2027
 DTSTART;TZID=America/Chicago:20270325T000000
 DTEND;TZID=America/Chicago:20270325T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:c8c6b5536e419cd9b9a5@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -389,7 +389,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, April 1\, 2027
 DTSTART;TZID=America/Chicago:20270401T000000
 DTEND;TZID=America/Chicago:20270401T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:8e6ec30aa6fdd65c5b27@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -403,7 +403,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, April 22\, 2027
 DTSTART;TZID=America/Chicago:20270422T000000
 DTEND;TZID=America/Chicago:20270422T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:dded1df9babf2de5f50e@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -417,7 +417,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, May 13\, 2027
 DTSTART;TZID=America/Chicago:20270513T000000
 DTEND;TZID=America/Chicago:20270513T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:f4672c92cf03e8614654@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -431,7 +431,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, May 20\, 2027
 DTSTART;TZID=America/Chicago:20270520T000000
 DTEND;TZID=America/Chicago:20270520T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:3983b710602564baa166@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -445,7 +445,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, June 3\, 2027
 DTSTART;TZID=America/Chicago:20270603T000000
 DTEND;TZID=America/Chicago:20270603T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:6329f32918a0a958f6d5@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -459,7 +459,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, June 17\, 2027
 DTSTART;TZID=America/Chicago:20270617T000000
 DTEND;TZID=America/Chicago:20270617T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:ee5afddd33931d673a46@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -473,7 +473,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, July 8\, 2027
 DTSTART;TZID=America/Chicago:20270708T000000
 DTEND;TZID=America/Chicago:20270708T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:7b632c5d0930ee974572@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -487,7 +487,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, July 29\, 2027
 DTSTART;TZID=America/Chicago:20270729T000000
 DTEND;TZID=America/Chicago:20270729T020000
-DTSTAMP:20260817T145136Z
+DTSTAMP:20260817T155027Z
 UID:847287496c386356daff@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
