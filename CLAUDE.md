@@ -173,7 +173,47 @@ names other, unrelated dates. Keep the fallback - many sources title an event
 **Do not "simplify" this back into one blob.** Reordering `coverage.yaml` is
 not a fix either: whichever type sits first would then swallow the others.
 
+### Links: scrape the feed, never link to it (2026-08-17)
+
+`classify.is_machine_link()` catches URLs that serve data rather than a page:
+`.ics`, `/ical/`, `admin-ajax.php`, the Outlook `owa/calendar` feed, Legistar
+`View.ashx`, LPSC's `ReadScheduledEvents`. When an event carries no link of
+its own it falls back to the page it was scraped from - and for a feed-based
+source that fallback was the feed. **264 of 721 events linked to one**: the
+user clicked a Maryland date and got raw JSON with escaped markup in it.
+
+A source may now declare `public_url:` - the human page showing the same
+calendar. The pipeline substitutes it, and falls back to the commission's
+`home` if the registry has not named one, so a raw endpoint can never reach a
+link she is invited to follow. Seven are configured (CO, IA, LA, MD, MN,
+TX-RRC, UT), each fetched and confirmed.
+
+**When a link is bad, fix the link.** Deleting the event loses a real hearing
+to cure a cosmetic fault - the exact trade the first prime directive forbids.
+
+**"Unreachable from a script" is not "broken".** 19 links fail our fetcher;
+almost all are Michigan, FERC and NC returning 403 to non-browser clients.
+They open fine when she clicks them. Check a failing link in a browser before
+concluding anything about it.
+
 ### Dedupe rules (learned from real failures)
+
+- **Missouri publishes a calendar PER COMMISSIONER.** One meeting arrives up
+  to five times, each prefixed with the owner's initials and the repeated time
+  ("HK 9:30am Public Meeting...", "CM 9:30am ...", "Adj 9:30am ..."). MO
+  showed 16 rows for 6 real meetings. `LEADING_TIME` strips an optional short
+  initials token ahead of the time, after which the rows are identical.
+- **Venue words are filler in the dedupe comparison.** Where a meeting is held
+  says nothing about which meeting it is, and MO prints the room in the title,
+  so one Agenda Meeting read as two ("( 310)" vs "( Hearing Room 310 and via
+  WebEx)").
+- **A room booking is not a proceeding.** MO reserves hearing rooms on the
+  same calendar, and "hearing" in "Hearing Room 305 Reserved" made each one an
+  event.
+- **Docket numbers are what keep same-day hearings apart.** Louisiana runs a
+  dozen at 09:30 differing only by `T-379xx`, Illinois and Tennessee the same.
+  Any similarity measure that ignores digits will call these duplicates and
+  delete real proceedings - there is a test.
 
 - Key strips dates embedded in titles (MI publishes one meeting as
   "Commission Meeting", "August 27, 2026 Commission Meeting" and a generic
@@ -233,7 +273,7 @@ src/pscal/
 tools/probe.py          diagnose one commission — reach for this first
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  128 tests, all offline
+tests/                  141 tests, all offline
 ```
 
 ### The extraction chain
@@ -310,7 +350,7 @@ survivors would throw away the meetings still to come.
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 128 tests, no network
+python3 -m pytest tests/ -q                    # 141 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/

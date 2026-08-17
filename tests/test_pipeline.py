@@ -609,6 +609,33 @@ def test_furniture_filter_spares_real_meetings(title):
     assert not classify.is_noise(title)
 
 
+@pytest.mark.parametrize("url,machine", [
+    ("https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_calendar_ajax", True),
+    ("https://calendar.google.com/calendar/ical/state.co.us_x%40group.calendar.google.com/public/basic.ics", True),
+    ("https://outlook.office365.com/owa/calendar/abc@rrc.texas.gov/123/calendar.ics", True),
+    ("https://minnesotapuc.legistar.com/View.ashx?M=IC&ID=1428564", True),
+    ("https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/ReadScheduledEvents", True),
+    # real pages a reader can use
+    ("https://psc.maryland.gov/news-events/calendars/", False),
+    ("https://www.rrc.texas.gov/general-counsel/open-meetings/", False),
+    ("https://minnesotapuc.legistar.com/Calendar.aspx", False),
+    ("https://iuc.iowa.gov/commission-activity/hearing-meeting-calendar", False),
+])
+def test_machine_links_are_recognised(url, machine):
+    """A feed is the right thing to scrape and the wrong thing to click -
+    it downloads an .ics or dumps raw JSON. 264 of 721 events pointed at
+    one because they carried no link of their own."""
+    assert classify.is_machine_link(url) is machine
+
+
+def test_room_bookings_are_not_meetings():
+    """Missouri books its hearing rooms on the calendar it publishes meetings
+    on, and the word "hearing" made every booking an event."""
+    assert classify.is_noise("Hearing Room 305 Reserved")
+    assert classify.is_noise("Room 310 Reserved")
+    assert not classify.is_noise("Evidentiary Hearing in Hearing Room 305")
+
+
 def test_navigation_chrome_is_noise():
     assert classify.is_noise("eDockets Search OPUC Search About Us Contact Us "
                              "Commissioners General Information")
@@ -631,6 +658,56 @@ def test_dedupe_collapses_title_variants_of_one_meeting():
            Event(title="Open meeting", start=day, **base)]
     out = dedupe(evs)
     assert len(out) == 1, [e.title for e in out]
+
+
+def test_dedupe_collapses_missouri_per_commissioner_rows():
+    """psc.mo.gov publishes a calendar PER COMMISSIONER, so one meeting
+    arrives up to five times under different initials. Missouri showed 16
+    rows for 6 real meetings."""
+    from datetime import datetime as dt
+    base = dict(commission="MO", commission_name="M", state="MO", tz="America/Chicago",
+                event_type="open_meeting", event_type_label="Open Meeting / Commission Meeting",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 19, 9, 30, tzinfo=ZoneInfo("America/Chicago"))
+    titles = ["HK 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)",
+              "CM 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)",
+              "KG 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)",
+              "MJ 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)",
+              "Adj 9:30am Public Meeting with SPP & MISO ( Via WebEx Only)"]
+    evs = []
+    for t in titles:
+        clean, _tod = classify.split_leading_time(classify.clean_title(t))
+        evs.append(Event(title=clean, start=day, **base))
+    out = dedupe(evs)
+    assert len(out) == 1, [e.title for e in out]
+    assert out[0].title == "Public Meeting with SPP & MISO ( Via WebEx Only)"
+
+
+def test_dedupe_collapses_one_meeting_described_by_two_rooms():
+    """Where a meeting is held says nothing about WHICH meeting it is.
+    Missouri prints the room inside the title, so one Agenda Meeting read as
+    two."""
+    from datetime import datetime as dt
+    base = dict(commission="MO", commission_name="M", state="MO", tz="America/Chicago",
+                event_type="open_meeting", event_type_label="Open Meeting / Commission Meeting",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 12, 11, 0, tzinfo=ZoneInfo("America/Chicago"))
+    evs = [Event(title="Agenda Meeting ( 310)", start=day, **base),
+           Event(title="Agenda Meeting ( Hearing Room 310 and via WebEx)", start=day, **base)]
+    assert len(dedupe(evs)) == 1
+
+
+def test_docket_numbers_keep_same_day_hearings_apart():
+    """The guard on both rules above. Louisiana runs a dozen hearings at
+    09:30 that differ only by docket, and Illinois names cases the same way.
+    Collapsing these would delete real proceedings."""
+    from datetime import datetime as dt
+    base = dict(commission="LA", commission_name="L", state="LA", tz="America/Chicago",
+                event_type="evidentiary_hearing", event_type_label="Evidentiary Hearing",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 26, 9, 30, tzinfo=ZoneInfo("America/Chicago"))
+    evs = [Event(title=f"Hearing: T-379{n}", start=day, **base) for n in (77, 78, 80, 81)]
+    assert len(dedupe(evs)) == 4
 
 
 def test_dedupe_keeps_genuinely_different_events_same_day():

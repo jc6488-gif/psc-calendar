@@ -97,6 +97,15 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             link = (r.get("url") or "").strip()
             if not link.startswith(("http://", "https://")):
                 link = url
+            # A feed is the right thing to scrape and the wrong thing to click.
+            # Send the reader to the source's `public_url` - the human page
+            # showing the same calendar - and to the commission's home page if
+            # the registry has not named one. Never leave a raw endpoint in a
+            # link she is invited to follow.
+            if classify.is_machine_link(link):
+                link = source.get("public_url") or spec.get("home") or link
+            if classify.is_machine_link(link):
+                link = spec.get("home") or link
 
             events.append(Event(
                 commission=code,
@@ -229,8 +238,14 @@ def dedupe(events: list[Event]) -> list[Event]:
     # NOTE: we deliberately do NOT merge on (commission, date, time) alone.
     # 120 events currently share an exact commission+datetime and most are
     # genuinely distinct - Indiana runs four different hearings at 09:30.
+    # Venue words are dropped too: where a meeting is held says nothing about
+    # which meeting it is, and Missouri prints the room inside the title, so
+    # one meeting read as two ("Agenda Meeting ( 310)" vs the same meeting as
+    # "Agenda Meeting ( Hearing Room 310 and via WebEx)").
     _FILLER = re.compile(r"\b(?:notice|notices|agenda|agendas|and|for|of|the|a|an|"
-                         r"remote|virtual|in|re|no|nos|pro|url|location|summary|notes)\b")
+                         r"remote|virtual|in|re|no|nos|pro|url|location|summary|notes|"
+                         r"room|rooms|hearing\s+room|via|webex|zoom|teams|"
+                         r"livestream|webcast|only)\b")
 
     def _norm(t: str) -> str:
         t = t.lower()

@@ -115,6 +115,10 @@ NOISE = [
     # plainly. A trade association's quarterly meeting is not a regulatory
     # date, whoever attends it.
     re.compile(r"\bnot a .{0,12}hosted (?:meeting|event)", re.I),
+    # A room held open is not a proceeding. Missouri books its hearing rooms
+    # on the same calendar it publishes meetings on ("Hearing Room 305
+    # Reserved"), and "hearing" in the title made every booking an event.
+    re.compile(r"\broom\b[^,;]{0,24}\breserved\b", re.I),
 ]
 
 
@@ -155,8 +159,14 @@ _URL_LABEL = re.compile(
 # "09:00 am - 26-03-15 CWC Rate Case Evidentiary Hearing" - the time PURA
 # prints ahead of every title. Captured so it can set the real start time
 # rather than being deleted or left to read as an all-day event.
+# The optional initials group is Missouri: psc.mo.gov publishes a calendar
+# PER COMMISSIONER, so one meeting appears up to five times as "HK 9:30am
+# Public Meeting...", "CM 9:30am Public Meeting...", "Adj 9:30am ...". Once
+# the owner's initials and the repeated time come off the front, the rows are
+# identical and dedupe collapses them to the single meeting they describe.
 LEADING_TIME = re.compile(
-    r"^\s*(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?\s*[-–:]\s*", re.I)
+    r"^\s*(?:[A-Z][A-Za-z]{0,3}\s+)?"
+    r"(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?\s*(?:[-–:]\s*|(?=[A-Z]))", re.I)
 
 
 def clean_title(title: str) -> str:
@@ -216,6 +226,26 @@ def is_uninformative(title: str) -> bool:
     fallback when the page tells us nothing more."""
     tokens = re.findall(r"[A-Za-z]{2,}", (title or "").lower())
     return all(t in _STOP for t in tokens)
+
+
+# ---------------------------------------------------------------- link hygiene
+# Feeds and data endpoints. They are the best thing to SCRAPE and the worst
+# thing to hand a reader: clicking one downloads an .ics, or dumps raw JSON
+# with escaped markup in it. 264 of 721 events pointed at one of these -
+# Maryland's WordPress admin-ajax handler, Colorado's Google Calendar .ics,
+# the Railroad Commission's Outlook feed - because the event carried no link
+# of its own and fell back to the page it was scraped from.
+_MACHINE_LINK = re.compile(
+    r"\.ics(?:$|[?#])|/ical/|admin-ajax\.php|"
+    r"outlook\.office365\.com/owa/calendar|"
+    r"legistar\.com/View\.ashx|webapi\.legistar\.com|"
+    r"/ReadScheduledEvents\b",
+    re.I)
+
+
+def is_machine_link(url: str) -> bool:
+    """True when a URL serves data rather than a page a person can read."""
+    return bool(_MACHINE_LINK.search(url or ""))
 
 
 # --------------------------------------------------------------- sector gate

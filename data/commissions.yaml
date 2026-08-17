@@ -167,6 +167,7 @@ commissions:
       # emitting party names and filing dates as junk events - replaced.
       - url: "https://calendar.google.com/calendar/ical/state.co.us_mie9aqkvh15rk34shmhs6mnfq8%40group.calendar.google.com/public/basic.ics"
         strategy: ics
+        public_url: https://puc.colorado.gov/puccalendar
     notes: Black Hills Colorado Electric & Gas (BKH), Atmos Colorado (ATO).
 
   - code: CT
@@ -385,6 +386,7 @@ commissions:
       # meetings, monthly Commission Meetings). /meetings and /events 404.
       - url: "https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics"
         strategy: ics
+        public_url: https://iuc.iowa.gov/commission-activity/hearing-meeting-calendar
       - url: https://iuc.iowa.gov/commission-activity/hearing-meeting-calendar
         strategy: auto
       - url: https://iuc.iowa.gov/commission-activity/public-meeting-documents
@@ -440,6 +442,7 @@ commissions:
       # /AgendasMinutes 404. Agenda PDFs remain known PDF work.
       - url: "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/ReadScheduledEvents"
         strategy: la_portal
+        public_url: https://lpsc.louisiana.gov/Agenda
       - url: https://lpsc.louisiana.gov/Agenda
         strategy: auto
         label: LPSC business and executive session agenda
@@ -480,16 +483,16 @@ commissions:
       # "Date and time" junk titles.
       - url: "https://psc.maryland.gov/wp-admin/admin-ajax.php?action=dgtlnk_events_calendar_ajax"
         strategy: fullcalendar
+        public_url: https://psc.maryland.gov/news-events/calendars/
       - url: https://psc.maryland.gov/news-events/upcoming-public-comment-hearings/
         strategy: auto
         label: Public comment hearing
       - url: https://webpscxb.pscmaryland.com/DMS/agendas
         strategy: auto
         label: Commission agenda (official filings)
-      - url: https://www.psc.state.md.us/calendar-of-events/
-        strategy: auto
-      - url: https://www.psc.state.md.us/public-utility-hearing-schedule/
-        strategy: auto
+      # RE-AUDITED 2026-08-17: both www.psc.state.md.us calendar paths now
+      # 404 - Maryland has moved to psc.maryland.gov. The AJAX feed above is
+      # the live replacement and already carries everything they listed.
     notes: Columbia Gas of Maryland (NI), Chesapeake Utilities Maryland (CPK).
 
   - code: MA
@@ -548,6 +551,7 @@ commissions:
       # do not read this state's green as complete.
       - url: "https://webapi.legistar.com/v1/minnesotapuc/events?$orderby=EventDate"
         strategy: legistar
+        public_url: https://minnesotapuc.legistar.com/Calendar.aspx
       - url: https://minnesotapuc.legistar.com/Calendar.aspx
         strategy: auto
     notes: CenterPoint Minnesota gas (CNP), Minnesota Energy Resources (WEC), Interstate Power & Light (LNT). Minnesota allows interim rates, so watch the interim-rate order date separately from the final order.
@@ -999,6 +1003,7 @@ commissions:
       - url: "https://outlook.office365.com/owa/calendar/12df60392a5b4b46896cb5140c9bd191@rrc.texas.gov/811655264c4c474e8f9a144c8d0c56172702639553116114065/calendar.ics"
         strategy: ics
         type_hint: evidentiary_hearing
+        public_url: https://www.rrc.texas.gov/general-counsel/open-meetings/
       - url: https://www.rrc.texas.gov/general-counsel/open-meetings/
         strategy: auto
         label: RRC open meeting (conference)
@@ -1024,6 +1029,7 @@ commissions:
       # sitemap - its YYYY/MM/DD dates are now parseable. /events/ 404ed.
       - url: "https://calendar.google.com/calendar/ical/utah.gov_t5o5rhseg6ce20bke58ok6bmd8%40group.calendar.google.com/public/basic.ics"
         strategy: ics
+        public_url: https://www.utah.gov/pmn/sitemap/publicbody/939.html
       - url: https://www.utah.gov/pmn/sitemap/publicbody/939.html
         strategy: auto
   - code: VT
