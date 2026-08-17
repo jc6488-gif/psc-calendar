@@ -639,6 +639,54 @@ def test_month_grid_day_numbers_are_not_a_meeting():
     assert not classify.is_noise("PUC Agenda Meeting 8/27/2026 at 10:00")
 
 
+@pytest.mark.parametrize("url,placeholder", [
+    ("https://www.psc.nd.gov/webdocs/case/NoDocs.html", True),
+    ("https://x.gov/case/no-documents", True),
+    ("https://x.gov/pagenotfound", True),
+    ("https://www.psc.nd.gov/webdocs/case/26-0219/008-010.pdf", False),
+    ("https://psc.maryland.gov/news-events/calendars/", False),
+])
+def test_placeholder_links_are_recognised(url, placeholder):
+    """North Dakota hangs "No Documents / At this time, there are no documents
+    available for this event" on 10 events. A destination that announces its
+    own emptiness reads as though the hearing is not real."""
+    assert classify.is_placeholder_link(url) is placeholder
+
+
+def test_leading_date_fragment_is_noise():
+    """Indiana's archived notice arrived as a fragment of a longer sentence.
+    Caught structurally - a title that OPENS mid-date is the tail of
+    something else, whatever year it names."""
+    assert classify.is_noise("23, 2015 – Executive Session Meeting "
+                             "(Cybersecurity Briefing) Public Notice posted on 10.20.15")
+    assert not classify.is_noise("Evidentiary Hearing on the 2015 Fuel Clause")
+
+
+@pytest.mark.parametrize("title,year", [
+    # Every one of these was DELETED by a year-based staleness rule before it
+    # was withdrawn. In this domain a year is usually part of a name.
+    ("HRG: 26AL-0137E, Public Service Company - AL 2018 - Tariff 8 - Large Load", 2026),
+    ("CDM: 24A-0442E Public Service Company - 2024 JTS, C3", 2026),
+    ("Hearing (26-035-01, RMP's 2026 EBA)", 2027),
+    ("PUR-2026-00076 - Application of Dominion Energy Virginia", 2027),
+    ("U.S. Small Business Administration January 22-27, 2026 Severe Storm", 2027),
+])
+def test_year_in_a_name_never_deletes_a_hearing(title, year):
+    """Tariff years, program years, storm years and docket filing years all
+    read as "past" while describing a live proceeding. 19 real hearings went
+    missing before this was caught - see states_a_past_year's docstring."""
+    assert classify.states_a_past_year(title, year) is False
+
+
+def test_trailing_timezone_goes_with_the_time():
+    """North Dakota writes "9:00 AM CDT Formal Hearing ..."; taking only the
+    clock left every ND title starting "CDT "."""
+    assert classify.split_leading_time("9:00 AM CDT Formal Hearing - Case PU-26-82") == \
+        ("Formal Hearing - Case PU-26-82", (9, 0))
+    assert classify.split_leading_time("10:00 AM CST Regular Meeting") == \
+        ("Regular Meeting", (10, 0))
+
+
 def test_room_bookings_are_not_meetings():
     """Missouri books its hearing rooms on the calendar it publishes meetings
     on, and the word "hearing" made every booking an event."""

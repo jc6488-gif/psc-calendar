@@ -4,6 +4,7 @@ from __future__ import annotations
 import re
 from functools import lru_cache
 from pathlib import Path
+from urllib.parse import urlparse
 
 import yaml
 
@@ -119,6 +120,12 @@ NOISE = [
     # on the same calendar it publishes meetings on ("Hearing Room 305
     # Reserved"), and "hearing" in the title made every booking an event.
     re.compile(r"\broom\b[^,;]{0,24}\breserved\b", re.I),
+    # A title that OPENS mid-date is the tail of something else, scraped as a
+    # whole event: Indiana's archived notice arrived as "23, 2015 – Executive
+    # Session Meeting (Cybersecurity Briefing) Public Notice posted on
+    # 10.20.15". Structural, so it does not depend on which year is named -
+    # see `states_a_past_year` for why the year-based version was abandoned.
+    re.compile(r"^\s*\d{1,2},\s*20\d\d\s*[-–—]", re.I),
 ]
 
 
@@ -173,9 +180,13 @@ _URL_LABEL = re.compile(
 # Public Meeting...", "CM 9:30am Public Meeting...", "Adj 9:30am ...". Once
 # the owner's initials and the repeated time come off the front, the rows are
 # identical and dedupe collapses them to the single meeting they describe.
+# The trailing timezone goes with the time. North Dakota writes "9:00 AM CDT
+# Formal Hearing ..."; taking only the clock left every ND title starting
+# "CDT ".
 LEADING_TIME = re.compile(
     r"^\s*(?:[A-Z][A-Za-z]{0,3}\s+)?"
-    r"(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?\s*(?:[-–:]\s*|(?=[A-Z]))", re.I)
+    r"(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?\s*"
+    r"(?:[ACEMP][DS]T|UTC|GMT)?\s*(?:[-–:]\s*|(?=[A-Z]))", re.I)
 
 
 def clean_title(title: str) -> str:
@@ -275,6 +286,70 @@ _MACHINE_LINK = re.compile(
 def is_machine_link(url: str) -> bool:
     """True when a URL serves data rather than a page a person can read."""
     return bool(_MACHINE_LINK.search(url or ""))
+
+
+# Pages that exist only to say they have nothing. North Dakota hangs
+# `/webdocs/case/NoDocs.html` - "At this time, there are no documents
+# available for this event" - on every event whose filings are not posted yet,
+# and 10 events linked straight to it. A destination that announces its own
+# emptiness is worse than no link: it reads as though the event is not real.
+_PLACEHOLDER_LINK = re.compile(
+    r"/NoDocs?\.(?:html?|aspx)|/no-?documents?\b|/notfound\b|"
+    r"/error\.(?:html?|aspx)\b|/pagenotfound\b",
+    re.I)
+
+
+def is_placeholder_link(url: str) -> bool:
+    """True for a URL whose whole purpose is to report that it has nothing."""
+    return bool(_PLACEHOLDER_LINK.search(url or ""))
+
+
+# Hosts a commission still links to but that no browser can open. Verified by
+# `tools/audit_links.py` on 2026-08-17; re-check before removing an entry,
+# because the fix is theirs to make and these do come back.
+_BROKEN_HOSTS = {
+    # Certificate does not validate - Chrome and Safari both refuse it. The
+    # same agendas are reachable from puc.texas.gov itself.
+    "ftp.puc.texas.gov",
+    # Nevada's e-filing portal stopped resolving.
+    "ecms.nv.gov",
+}
+
+
+def is_broken_host(url: str) -> bool:
+    try:
+        host = urlparse(url or "").hostname or ""
+    except ValueError:
+        return False
+    return host.lower() in _BROKEN_HOSTS
+
+
+def is_unusable_link(url: str) -> bool:
+    """A link not worth offering: raw data, a dead end, or an unreachable host."""
+    return (is_machine_link(url) or is_placeholder_link(url)
+            or is_broken_host(url))
+
+
+def states_a_past_year(title: str, event_year: int) -> bool:
+    """Deliberately always False. Kept so the reasoning is not re-derived.
+
+    An earlier version dropped events whose title named only years older than
+    the event, to stop an archived Indiana notice from resurfacing as a live
+    2026 date. Run against the whole registry it deleted **19 real hearings**,
+    because in this domain a year is usually part of a NAME, not a date:
+
+        26AL-0137E  Public Service Company - AL 2018 - Tariff 8 - Large Load
+        26-035-01,  RMP's 2026 EBA                        (heard Jan 2027)
+        PUR-2026-00076 Dominion Energy Virginia           (heard Jan 2027)
+
+    Tariff years, program years, storm years and docket filing years all read
+    as "past" while describing a live proceeding. One stale row is a much
+    smaller harm than eight of Public Service Colorado's large-load tariff
+    hearings vanishing, so the rule is gone; the Indiana artifact is caught
+    structurally instead, by `NOISE`, as a title that opens with a date
+    fragment.
+    """
+    return False
 
 
 # --------------------------------------------------------------- sector gate

@@ -13,7 +13,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20260730T093000
 DTEND;TZID=America/Los_Angeles:20260730T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:ac7a2c63950fc09b3e11@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20260813T093000
 DTEND;TZID=America/Los_Angeles:20260813T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:636c8e6b117a43e9641a@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -39,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20260827T093000
 DTEND;TZID=America/Los_Angeles:20260827T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:e44c96524b8d53f16683@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -53,7 +53,7 @@ SUMMARY:[WA] UE-260007 & UG-260008 Avista GRC - Exhibits List\, Cross-Exam
  ination Exhibits\, Witnesses List\, Time Estimates\, Exhibits Errata Due
 DTSTART;TZID=America/Los_Angeles:20260903T170000
 DTEND;TZID=America/Los_Angeles:20260903T170000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:019913aad673cd678021@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -66,7 +66,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20260910T093000
 DTEND;TZID=America/Los_Angeles:20260910T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:37623b181dd4f5181d52@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -80,7 +80,7 @@ SUMMARY:[WA] UE-260007 & UG-260008 Avista GRC - Hybrid Evidentiary Hearing
   (Day 1)
 DTSTART;TZID=America/Los_Angeles:20260917T090000
 DTEND;TZID=America/Los_Angeles:20260917T110000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:3d917659475f6b313f5f@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -94,7 +94,7 @@ SUMMARY:[WA] UE-260007 & UG-260008 Avista GRC - Hybrid Evidentiary Hearing
   (Day 2)
 DTSTART;TZID=America/Los_Angeles:20260918T090000
 DTEND;TZID=America/Los_Angeles:20260918T170000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:b566c32175a45868370b@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -107,7 +107,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20260924T093000
 DTEND;TZID=America/Los_Angeles:20260924T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:d1eeed631049fb199fb6@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -120,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] UT-240117 CenturyLink - Hybrid Settlement Hearing
 DTSTART;TZID=America/Los_Angeles:20260928T133000
 DTEND;TZID=America/Los_Angeles:20260928T170000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:1ca1f96a97df2fe462a8@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -135,7 +135,7 @@ SUMMARY:[WA] Participants may attend the hearing in person at the Commissi
  hington 98503\, or the hearing may be attended…
 DTSTART;TZID=America/Los_Angeles:20260928T133000
 DTEND;TZID=America/Los_Angeles:20260928T153000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:69ec37a7e99d43edbca0@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -152,7 +152,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] TG-250268 Junk Monkey - Special Proceeding/Hearing
 DTSTART;TZID=America/Los_Angeles:20261007T133000
 DTEND;TZID=America/Los_Angeles:20261007T153000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:c6526202d0f8b66ee66d@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -166,7 +166,7 @@ SUMMARY:[WA] To appear by phone\, please call (253) 215-8782 and enter Mee
  ting ID: 864 6962 3611# and Passcode: 906704#. To appear via Zoom\, …
 DTSTART;TZID=America/Los_Angeles:20261007T133000
 DTEND;TZID=America/Los_Angeles:20261007T153000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:427bdebac7f414b63c9b@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -182,7 +182,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20261008T093000
 DTEND;TZID=America/Los_Angeles:20261008T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:1d8bb7931b0788cef380@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -196,7 +196,7 @@ SUMMARY:[WA] UE-260007 & UG-260008 Avista GRC - Post-Hearing Briefs and Up
  dated Joint Issues Matrix
 DTSTART;TZID=America/Los_Angeles:20261019T170000
 DTEND;TZID=America/Los_Angeles:20261019T170000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:500cba29c3f13b371b96@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -209,7 +209,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20261029T093000
 DTEND;TZID=America/Los_Angeles:20261029T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:87240445050d8eecdca9@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -222,7 +222,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Docket UE-260005 et al PSE - Hybrid Evidentiary Hearing
 DTSTART;TZID=America/Los_Angeles:20261104T090000
 DTEND;TZID=America/Los_Angeles:20261104T170000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:51b1e8e24eedb90addce@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -237,7 +237,7 @@ SUMMARY:[WA] To participate in the hearing by phone\, call (253) 215-8782
  pate via Zoom\,…
 DTSTART;TZID=America/Los_Angeles:20261104T090000
 DTEND;TZID=America/Los_Angeles:20261104T110000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:5870bc9eeea597e97075@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -253,7 +253,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Docket UE-260005 et al PSE - Hybrid Evidentiary Hearing
 DTSTART;TZID=America/Los_Angeles:20261105T090000
 DTEND;TZID=America/Los_Angeles:20261105T170000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:19d964b43e5671e19f96@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -268,7 +268,7 @@ SUMMARY:[WA] To participate in the hearing by phone\, call (253) 215-8782
  pate via Zoom\,…
 DTSTART;TZID=America/Los_Angeles:20261105T090000
 DTEND;TZID=America/Los_Angeles:20261105T110000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:7de261af9b90a51e67e0@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -284,7 +284,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20261112T093000
 DTEND;TZID=America/Los_Angeles:20261112T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:f6f6ab758547c488224b@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -297,7 +297,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20261125T093000
 DTEND;TZID=America/Los_Angeles:20261125T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:9e484c6990051c0fdee1@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -310,7 +310,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] UE-260208 PacifiCorp & PGE - Virtual Evidentiary Hearing
 DTSTART;TZID=America/Los_Angeles:20261207T090000
 DTEND;TZID=America/Los_Angeles:20261207T170000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:18de184296e7e7310112@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -324,7 +324,7 @@ SUMMARY:[WA] To attend the hearing via Zoom\, join the virtual evidentiary
   hearing \, or call (253) 215-8782 and enter…
 DTSTART;TZID=America/Los_Angeles:20261207T090000
 DTEND;TZID=America/Los_Angeles:20261207T110000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:277cfce11b5eb6eb6e9d@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -340,7 +340,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20261210T093000
 DTEND;TZID=America/Los_Angeles:20261210T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:72d877eb0ed88ea01edc@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -353,7 +353,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Open Meeting
 DTSTART;TZID=America/Los_Angeles:20261223T093000
 DTEND;TZID=America/Los_Angeles:20261223T093000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:0f3ad8ff8a7dbee03add@psc-calendar
 CATEGORIES:WA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -366,7 +366,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] UG-260127 CNG - Hybrid Evidentiary Hearing
 DTSTART;TZID=America/Los_Angeles:20270126T090000
 DTEND;TZID=America/Los_Angeles:20270126T170000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:70f4cf8d3e49f304015b@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission
@@ -379,7 +379,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] UG-260127 CNG - Hybrid Evidentiary Hearing
 DTSTART;TZID=America/Los_Angeles:20270127T100000
 DTEND;TZID=America/Los_Angeles:20270127T170000
-DTSTAMP:20260817T185503Z
+DTSTAMP:20260817T194228Z
 UID:bdbe122b04c2d1c3f2c3@psc-calendar
 CATEGORIES:WA,Evidentiary Hearing
 DESCRIPTION:Commission: Washington Utilities and Transportation Commission

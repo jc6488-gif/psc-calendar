@@ -237,6 +237,36 @@ dedupe now refuses to merge two events whose clock times differ: Florida runs
 a 09:30 service hearing and a 13:30 "Hearing immediately following", one title
 contains the other, and merging them deleted the morning hearing outright.
 
+### A rule that deleted 19 real hearings — do not rebuild it
+
+`classify.states_a_past_year` now always returns False and exists only to
+carry this warning.
+
+It was written to stop one artifact: Indiana's 2015 executive-session notice,
+undated in its PDF, was getting the current year assumed and surfacing as a
+live October 2026 hearing. Dropping events whose title named only past years
+looked obviously right. Run against the whole registry it **deleted 19 real
+hearings**, because in this domain a year is far more often part of a NAME
+than a date:
+
+    26AL-0137E  Public Service Company - AL 2018 - Tariff 8 - Large Load
+    24A-0442E   Public Service Company - 2024 JTS
+    26-035-01,  RMP's 2026 EBA                          (heard Jan 2027)
+    PUR-2026-00076  Dominion Energy Virginia            (heard Jan 2027)
+
+Tariff years, program years, storm years and docket FILING years all read as
+"past" while describing a live proceeding — dockets are numbered when filed
+and heard months later. Eight of Public Service Colorado's large-load tariff
+hearings vanished at once.
+
+The Indiana row is caught structurally instead, as a title that opens
+mid-date (`23, 2015 – Executive Session...`), which is the tail of a longer
+sentence scraped as a whole event and is wrong whatever year it names.
+
+**The lesson generalises: a filter justified by one bad row must be measured
+against the whole corpus before it ships.** One stale row is a far smaller
+harm than nineteen missing hearings.
+
 ### Never publish a time nobody stated
 
 An event whose source gave a DATE and no hour arrives at midnight. Rendering
@@ -252,6 +282,38 @@ Aug 27 OG dockets, the LPSC portal 09:30 for its T- hearings).
 
 **When a link is bad, fix the link.** Deleting the event loses a real hearing
 to cure a cosmetic fault - the exact trade the first prime directive forbids.
+
+**`tools/audit_links.py` checks every link the dashboard offers** - both that
+it resolves and that the event is actually ON it, which is the failure that
+cost trust. It escalates to a real browser before accusing (most commission
+calendars are JS-built, and a plain fetch of one looks exactly like a wrong
+page), and reports honestly when it *cannot* judge rather than guessing:
+
+    OK       the event's docket or title words are on the page
+    IFRAME   the calendar is a cross-origin embed (Google Calendar, Granicus)
+    NOCHECK  a scanned PDF with no text layer, or a title with nothing
+             distinctive to look for ("Open Meeting")
+    MIXED    some events found, some not - usually a calendar showing a window
+    UNRELATED / DEAD  act on these
+
+First full run: **3 DEAD, 41 UNRELATED**. After the fixes below: **0 DEAD,
+4 UNRELATED**, all four JS document viewers whose text lives inside a PDF.
+
+Two link classes are now refused outright (`is_unusable_link`):
+
+- `is_placeholder_link` - pages that exist to say they have nothing. North
+  Dakota hangs `/webdocs/case/NoDocs.html` ("At this time, there are no
+  documents available for this event") on every event without filings yet;
+  10 events linked straight to it. **A destination announcing its own
+  emptiness is worse than no link - it reads as though the hearing is not
+  real.**
+- `is_broken_host` - hosts a commission still links to that no browser can
+  open: `ftp.puc.texas.gov` (certificate does not validate) and `ecms.nv.gov`
+  (stopped resolving). Re-check before removing; the fix is theirs to make.
+
+The fallback order is **source's `public_url` → the page it was scraped from →
+the commission's home**. That middle step matters: falling straight to `home`
+sent North Dakota's meetings to `psc.nd.gov`, which lists no dates at all.
 
 **One href repeated across every row of a page is navigation, not an event
 link** (`_collapse_shared_links`). Florida's schedule page hangs the same
@@ -368,9 +430,10 @@ src/pscal/
   emit_ics.py           RFC 5545 feeds
   emit_site.py          the dashboard (one self-contained HTML file)
 tools/probe.py          diagnose one commission — reach for this first
+tools/audit_links.py    check every published link resolves AND holds its event
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  150 tests, all offline
+tests/                  162 tests, all offline
 ```
 
 ### The extraction chain
@@ -447,7 +510,7 @@ survivors would throw away the meetings still to come.
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 150 tests, no network
+python3 -m pytest tests/ -q                    # 162 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/

@@ -75,6 +75,13 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
                 title = f"{fallback}: {title}" if has_date else fallback
             if classify.is_noise(title):
                 continue
+            # An archived notice whose date we had to guess becomes a hearing
+            # that never was. Indiana's 2015 executive-session notice was
+            # surfacing as a live October 2026 date.
+            if classify.states_a_past_year(title, r["start"].year):
+                dropped_types["Stale document (title names an earlier year)"] = \
+                    dropped_types.get("Stale document (title names an earlier year)", 0) + 1
+                continue
             desc = r.get("description", "") or ""
 
             etype, elabel, weight, relevance = classify.classify_event(title, desc)
@@ -102,10 +109,15 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             # showing the same calendar - and to the commission's home page if
             # the registry has not named one. Never leave a raw endpoint in a
             # link she is invited to follow.
-            if classify.is_machine_link(link):
-                link = source.get("public_url") or spec.get("home") or link
-            if classify.is_machine_link(link):
-                link = spec.get("home") or link
+            # Prefer, in order: the source's declared human page, the page we
+            # scraped this from, then the commission's front door. The middle
+            # step matters - falling straight to `home` sent North Dakota's
+            # meetings to psc.nd.gov, which lists no dates at all.
+            for cand in (source.get("public_url"), url, spec.get("home")):
+                if not classify.is_unusable_link(link):
+                    break
+                if cand:
+                    link = cand
 
             events.append(Event(
                 commission=code,
@@ -203,7 +215,7 @@ def _collapse_shared_links(events: list[Event], source_url: str, source: dict) -
     # carry the fileroom's own "#/hearings" page - that shared link is the
     # HUMAN view and the source is the machine one, so collapsing there would
     # hand the reader raw JSON.
-    if classify.is_machine_link(dest) and not classify.is_machine_link(shared):
+    if classify.is_unusable_link(dest) and not classify.is_unusable_link(shared):
         return
     for e in events:
         e.url = dest
