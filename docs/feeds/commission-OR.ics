@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 17 to August 23\, 2026
 DTSTART;TZID=America/Los_Angeles:20260817T000000
 DTEND;TZID=America/Los_Angeles:20260817T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:a46b213dc4e306ba6551@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -29,7 +29,7 @@ SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
  lecommunications Water Filing Center
 DTSTART;TZID=America/Los_Angeles:20260817T093000
 DTEND;TZID=America/Los_Angeles:20260817T113000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:c626f0e9d181b3f4c651@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -44,7 +44,7 @@ SUMMARY:[OR] Docket ADV 1886 - IDAHO POWER ADVICE NO 26-09 REVISIONS TO SC
   HIGH ST SE SALEM\, OR
 DTSTART;TZID=America/Los_Angeles:20260817T093000
 DTEND;TZID=America/Los_Angeles:20260817T113000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:f2793c745189a35daf94@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -65,7 +65,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, August 18\, 2026
 DTSTART;TZID=America/Los_Angeles:20260818T000000
 DTEND;TZID=America/Los_Angeles:20260818T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:1035d4e171ee2fc1ed27@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -81,7 +81,7 @@ SUMMARY:[OR] Docket ADV 1886 - IDAHO POWER ADVICE NO 26-09 REVISIONS TO SC
   HIGH ST SE SALEM\, OR
 DTSTART;TZID=America/Los_Angeles:20260818T093000
 DTEND;TZID=America/Los_Angeles:20260818T113000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:4ca98df96f9e0d0c41fc@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -102,7 +102,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, August 19\, 2026
 DTSTART;TZID=America/Los_Angeles:20260819T000000
 DTEND;TZID=America/Los_Angeles:20260819T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:da2e2ed914cfb058a674@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -116,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 24 to August 30\, 2026
 DTSTART;TZID=America/Los_Angeles:20260824T000000
 DTEND;TZID=America/Los_Angeles:20260824T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:31e116df1058963da50e@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -130,7 +130,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, August 24\, 2026
 DTSTART;TZID=America/Los_Angeles:20260824T000000
 DTEND;TZID=America/Los_Angeles:20260824T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:e75ef148a6e0aad5fed0@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -144,7 +144,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, August 25\, 2026
 DTSTART;TZID=America/Los_Angeles:20260825T000000
 DTEND;TZID=America/Los_Angeles:20260825T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:cbfce4959c4f764dedba@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -158,7 +158,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, August 26\, 2026
 DTSTART;TZID=America/Los_Angeles:20260826T000000
 DTEND;TZID=America/Los_Angeles:20260826T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:239d7ce65a2a84f8c16a@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -172,7 +172,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, August 27\, 2026
 DTSTART;TZID=America/Los_Angeles:20260827T000000
 DTEND;TZID=America/Los_Angeles:20260827T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:3889c2fb81644cf083fd@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -186,7 +186,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Friday\, August 28\, 2026
 DTSTART;TZID=America/Los_Angeles:20260828T000000
 DTEND;TZID=America/Los_Angeles:20260828T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:5e7f74ff8b5e416727da@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -200,7 +200,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 24 to August 30\, 2026
 DTSTART;TZID=America/Los_Angeles:20260830T000000
 DTEND;TZID=America/Los_Angeles:20260830T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:d34f8b20c6720b090107@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -214,7 +214,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 31 to September 6\, 2026
 DTSTART;TZID=America/Los_Angeles:20260831T000000
 DTEND;TZID=America/Los_Angeles:20260831T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:14a2e9e297082983acbb@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -228,7 +228,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, August 31\, 2026
 DTSTART;TZID=America/Los_Angeles:20260831T000000
 DTEND;TZID=America/Los_Angeles:20260831T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:ba013a95920f30795f35@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -242,7 +242,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 2\, 2026
 DTSTART;TZID=America/Los_Angeles:20260902T000000
 DTEND;TZID=America/Los_Angeles:20260902T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:a0d555ba14629248cdac@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -256,7 +256,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, September 3\, 2026
 DTSTART;TZID=America/Los_Angeles:20260903T000000
 DTEND;TZID=America/Los_Angeles:20260903T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:5179b7f383f846c85c21@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -270,7 +270,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 31 to September 6\, 2026
 DTSTART;TZID=America/Los_Angeles:20260906T000000
 DTEND;TZID=America/Los_Angeles:20260906T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:144c74bd45473e90fe22@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -284,7 +284,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - September 7 to September 13\, 2026
 DTSTART;TZID=America/Los_Angeles:20260907T000000
 DTEND;TZID=America/Los_Angeles:20260907T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:1cd3f671d0c188006172@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -298,7 +298,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, September 7\, 2026
 DTSTART;TZID=America/Los_Angeles:20260907T000000
 DTEND;TZID=America/Los_Angeles:20260907T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:e3f137b8d4931bfcd941@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -312,7 +312,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, September 8\, 2026
 DTSTART;TZID=America/Los_Angeles:20260908T000000
 DTEND;TZID=America/Los_Angeles:20260908T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:aa107fa3ad6b4006ba04@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -326,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 9\, 2026
 DTSTART;TZID=America/Los_Angeles:20260909T000000
 DTEND;TZID=America/Los_Angeles:20260909T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:ff66837a1e0ffeeaf903@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -340,7 +340,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, September 10\, 2026
 DTSTART;TZID=America/Los_Angeles:20260910T000000
 DTEND;TZID=America/Los_Angeles:20260910T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:f6c69c92af452e8f3f6e@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -354,7 +354,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Friday\, September 11\, 2026
 DTSTART;TZID=America/Los_Angeles:20260911T000000
 DTEND;TZID=America/Los_Angeles:20260911T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:a87ca69e14c2d89c0d8f@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -368,7 +368,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - September 14 to September 20\, 2026
 DTSTART;TZID=America/Los_Angeles:20260914T000000
 DTEND;TZID=America/Los_Angeles:20260914T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:211f4f8a9ec8a0632a98@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -382,7 +382,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, September 14\, 2026
 DTSTART;TZID=America/Los_Angeles:20260914T000000
 DTEND;TZID=America/Los_Angeles:20260914T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:1f4299898a69398f8abc@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -396,7 +396,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, September 15\, 2026
 DTSTART;TZID=America/Los_Angeles:20260915T000000
 DTEND;TZID=America/Los_Angeles:20260915T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:3cc4622591913b637165@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -410,7 +410,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 16\, 2026
 DTSTART;TZID=America/Los_Angeles:20260916T000000
 DTEND;TZID=America/Los_Angeles:20260916T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:57b714f75f54d2b42510@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -424,7 +424,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, September 17\, 2026
 DTSTART;TZID=America/Los_Angeles:20260917T000000
 DTEND;TZID=America/Los_Angeles:20260917T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:290f7f3d8a7a5582bf80@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -438,7 +438,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - September 21 to September 27\, 2026
 DTSTART;TZID=America/Los_Angeles:20260921T000000
 DTEND;TZID=America/Los_Angeles:20260921T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:faa0378ac2cfe3a3b4a1@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -452,7 +452,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, September 21\, 2026
 DTSTART;TZID=America/Los_Angeles:20260921T000000
 DTEND;TZID=America/Los_Angeles:20260921T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:b2b2cb9420514de2c518@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -466,7 +466,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, September 22\, 2026
 DTSTART;TZID=America/Los_Angeles:20260922T000000
 DTEND;TZID=America/Los_Angeles:20260922T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:3f3b6c6cdded37ff62a8@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -480,7 +480,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 23\, 2026
 DTSTART;TZID=America/Los_Angeles:20260923T000000
 DTEND;TZID=America/Los_Angeles:20260923T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:e7be4835af373cfb5dbb@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -494,7 +494,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - September 28 to October 4\, 2026
 DTSTART;TZID=America/Los_Angeles:20260928T000000
 DTEND;TZID=America/Los_Angeles:20260928T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:f7075c057db00a19c34e@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -508,7 +508,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, September 28\, 2026
 DTSTART;TZID=America/Los_Angeles:20260928T000000
 DTEND;TZID=America/Los_Angeles:20260928T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:4f83845a8b4d94346d26@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -522,7 +522,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, September 29\, 2026
 DTSTART;TZID=America/Los_Angeles:20260929T000000
 DTEND;TZID=America/Los_Angeles:20260929T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:df51d77fa8d2550a6e08@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -536,7 +536,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 30\, 2026
 DTSTART;TZID=America/Los_Angeles:20260930T000000
 DTEND;TZID=America/Los_Angeles:20260930T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:2127e18f5d99ba37ba5f@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -550,7 +550,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, October 1\, 2026
 DTSTART;TZID=America/Los_Angeles:20261001T000000
 DTEND;TZID=America/Los_Angeles:20261001T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:34509cc0dcd40172840c@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -564,7 +564,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - October 5 to October 11\, 2026
 DTSTART;TZID=America/Los_Angeles:20261005T000000
 DTEND;TZID=America/Los_Angeles:20261005T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:dca17420eec1f12609cd@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -578,7 +578,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, October 5\, 2026
 DTSTART;TZID=America/Los_Angeles:20261005T000000
 DTEND;TZID=America/Los_Angeles:20261005T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:6a480d14fa2486fcb4a6@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -592,7 +592,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, October 7\, 2026
 DTSTART;TZID=America/Los_Angeles:20261007T000000
 DTEND;TZID=America/Los_Angeles:20261007T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:b2a8a521557d4380c44c@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -606,7 +606,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, October 8\, 2026
 DTSTART;TZID=America/Los_Angeles:20261008T000000
 DTEND;TZID=America/Los_Angeles:20261008T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:4a4b5d4d790c199b9f5f@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -620,7 +620,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Friday\, October 9\, 2026
 DTSTART;TZID=America/Los_Angeles:20261009T000000
 DTEND;TZID=America/Los_Angeles:20261009T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:f4f93fe59f58aaebc686@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 

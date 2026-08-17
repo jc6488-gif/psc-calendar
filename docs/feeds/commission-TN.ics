@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Summary of CLEC Hearing in Docket 26-00045
 DTSTART;TZID=America/Chicago:20260721T000000
 DTEND;TZID=America/Chicago:20260721T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:564fb38fd9f6daeab9ce@psc-calendar
 CATEGORIES:TN,Evidentiary Hearing
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ev
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] CLEC Hearing Notice in Docket 26-00045 - Audio (MP4)
 DTSTART;TZID=America/Chicago:20260721T000000
 DTEND;TZID=America/Chicago:20260721T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:adaf9c8a873a9ac2e80e@psc-calendar
 CATEGORIES:TN,Evidentiary Hearing
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ev
@@ -45,7 +45,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] CLEC Hearing Notice in Docket 26-00045
 DTSTART;TZID=America/Chicago:20260721T000000
 DTEND;TZID=America/Chicago:20260721T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:dce8f8e36364fb6492fa@psc-calendar
 CATEGORIES:TN,Evidentiary Hearing
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ev
@@ -62,7 +62,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Hearing in Docket 26-00056
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:9d11f2d2fc40ed662002@psc-calendar
 CATEGORIES:TN,Evidentiary Hearing
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ev
@@ -80,7 +80,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of Hearing in Docket 26-00054
 DTSTART;TZID=America/Chicago:20260806T000000
 DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:1bff6768787468297834@psc-calendar
 CATEGORIES:TN,Evidentiary Hearing
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ev
@@ -98,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] TPUC Commission Conference
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:f95ac731b42af4c19bda@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
@@ -113,7 +113,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice and Agenda for Commission Conference
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:94efab2edaa7821ece32@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
@@ -130,7 +130,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of April Commission Conference WebEx Meeting Access
 DTSTART;TZID=America/Chicago:20270216T000000
 DTEND;TZID=America/Chicago:20270216T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:2262cd04a98c8e395a5e@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
@@ -148,7 +148,7 @@ SUMMARY:[TN] Notice of April Commission Conference Held Electronically via
   WebEx
 DTSTART;TZID=America/Chicago:20270216T000000
 DTEND;TZID=America/Chicago:20270216T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:7fc752cc58d4a1933580@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
@@ -165,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:[TN] Notice of April Commission Conference WebEx Meeting Access
 DTSTART;TZID=America/Chicago:20270412T000000
 DTEND;TZID=America/Chicago:20270412T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:9719c99d4d0a65083a0d@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
@@ -183,7 +183,7 @@ SUMMARY:[TN] Notice of April Commission Conference Held Electronically via
   WebEx
 DTSTART;TZID=America/Chicago:20270412T000000
 DTEND;TZID=America/Chicago:20270412T020000
-DTSTAMP:20260817T133541Z
+DTSTAMP:20260817T134608Z
 UID:2f4359dff2e634905afb@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
