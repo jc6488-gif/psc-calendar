@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 17 to August 23\, 2026
 DTSTART;TZID=America/Los_Angeles:20260817T000000
 DTEND;TZID=America/Los_Angeles:20260817T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:a46b213dc4e306ba6551@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -29,7 +29,7 @@ SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
  lecommunications Water Filing Center
 DTSTART;TZID=America/Los_Angeles:20260817T093000
 DTEND;TZID=America/Los_Angeles:20260817T113000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:c626f0e9d181b3f4c651@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -44,7 +44,7 @@ SUMMARY:[OR] Docket ADV 1886 - IDAHO POWER ADVICE NO 26-09 REVISIONS TO SC
   HIGH ST SE SALEM\, OR
 DTSTART;TZID=America/Los_Angeles:20260817T093000
 DTEND;TZID=America/Los_Angeles:20260817T113000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:f2793c745189a35daf94@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -65,7 +65,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, August 18\, 2026
 DTSTART;TZID=America/Los_Angeles:20260818T000000
 DTEND;TZID=America/Los_Angeles:20260818T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:1035d4e171ee2fc1ed27@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -81,7 +81,7 @@ SUMMARY:[OR] Docket ADV 1886 - IDAHO POWER ADVICE NO 26-09 REVISIONS TO SC
   HIGH ST SE SALEM\, OR
 DTSTART;TZID=America/Los_Angeles:20260818T093000
 DTEND;TZID=America/Los_Angeles:20260818T113000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:4ca98df96f9e0d0c41fc@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -102,7 +102,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, August 19\, 2026
 DTSTART;TZID=America/Los_Angeles:20260819T000000
 DTEND;TZID=America/Los_Angeles:20260819T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:da2e2ed914cfb058a674@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -116,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 24 to August 30\, 2026
 DTSTART;TZID=America/Los_Angeles:20260824T000000
 DTEND;TZID=America/Los_Angeles:20260824T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:31e116df1058963da50e@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -130,7 +130,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, August 24\, 2026
 DTSTART;TZID=America/Los_Angeles:20260824T000000
 DTEND;TZID=America/Los_Angeles:20260824T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:e75ef148a6e0aad5fed0@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -141,49 +141,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/24/2026
  &EndDate=8/30/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
-  General Information Administrative Rules Consumer Information Electricity
- /Natural Gas Careers at PUC Oregon Telephone Assistance Programs Safety Te
- lecommunications Water Filing Center
-DTSTART;TZID=America/Los_Angeles:20260824T123000
-DTEND;TZID=America/Los_Angeles:20260824T143000
-DTSTAMP:20260817T110059Z
-UID:cadfcfe4b10719d29398@psc-calendar
-CATEGORIES:OR,Public Comment Hearing
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Publi
- c Comment Hearing\n\nSource: https://apps.puc.state.or.us/edocketsSearch/e
- DocketsSearch/
-PRIORITY:9
-URL:https://apps.puc.state.or.us/edocketsSearch/eDocketsSearch/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OR] Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR
-DTSTART;TZID=America/Los_Angeles:20260824T123000
-DTEND;TZID=America/Los_Angeles:20260824T143000
-DTSTAMP:20260817T110059Z
-UID:1e0f8d33684cdf04ae0a@psc-calendar
-CATEGORIES:OR,Public Comment Hearing
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Publi
- c Comment Hearing\n\nMonday\, August 24\, 2026 12:30 PM Docket AR 676 - RU
- LEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER E
- VENT 6:00 PM Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR Tuesday\, August 25\, 2026 1:30 PM Docket
-  UE 470 - PACIFICORP REQUEST FOR A GENERAL RATE REVISION STAFF WORKSHOP ZO
- OM 6:00 PM Docket UW 213 - DWF ROUND LAKE REQUEST FOR A GENERAL RATE REVIS
- ION PUBLIC COMMENT HEARING VIA ZOOM Wednesday\, August 26\, 2026 9:00 AM D
- ocket AR 676 - RULEMAKING TO ESTABLI\n\nSource: https://apps.puc.state.or.
- us/edockets/docket.asp?DocketID=24739
-PRIORITY:9
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, August 25\, 2026
 DTSTART;TZID=America/Los_Angeles:20260825T000000
 DTEND;TZID=America/Los_Angeles:20260825T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:cbfce4959c4f764dedba@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -194,33 +155,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/24/2026
  &EndDate=8/30/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR
-DTSTART;TZID=America/Los_Angeles:20260825T133000
-DTEND;TZID=America/Los_Angeles:20260825T153000
-DTSTAMP:20260817T110059Z
-UID:043d0cf39bde49c3d90a@psc-calendar
-CATEGORIES:OR,Public Comment Hearing
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Publi
- c Comment Hearing\n\nMonday\, August 24\, 2026 12:30 PM Docket AR 676 - RU
- LEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER E
- VENT 6:00 PM Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR Tuesday\, August 25\, 2026 1:30 PM Docket
-  UE 470 - PACIFICORP REQUEST FOR A GENERAL RATE REVISION STAFF WORKSHOP ZO
- OM 6:00 PM Docket UW 213 - DWF ROUND LAKE REQUEST FOR A GENERAL RATE REVIS
- ION PUBLIC COMMENT HEARING VIA ZOOM Wednesday\, August 26\, 2026 9:00 AM D
- ocket AR 676 - RULEMAKING TO ESTABLI\n\nSource: https://apps.puc.state.or.
- us/edockets/docket.asp?DocketID=24739
-PRIORITY:9
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, August 26\, 2026
 DTSTART;TZID=America/Los_Angeles:20260826T000000
 DTEND;TZID=America/Los_Angeles:20260826T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:239d7ce65a2a84f8c16a@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -231,33 +169,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/24/2026
  &EndDate=8/30/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR
-DTSTART;TZID=America/Los_Angeles:20260826T090000
-DTEND;TZID=America/Los_Angeles:20260826T110000
-DTSTAMP:20260817T110059Z
-UID:19520e7368734b12740b@psc-calendar
-CATEGORIES:OR,Public Comment Hearing
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Publi
- c Comment Hearing\n\nMonday\, August 24\, 2026 12:30 PM Docket AR 676 - RU
- LEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER E
- VENT 6:00 PM Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR Tuesday\, August 25\, 2026 1:30 PM Docket
-  UE 470 - PACIFICORP REQUEST FOR A GENERAL RATE REVISION STAFF WORKSHOP ZO
- OM 6:00 PM Docket UW 213 - DWF ROUND LAKE REQUEST FOR A GENERAL RATE REVIS
- ION PUBLIC COMMENT HEARING VIA ZOOM Wednesday\, August 26\, 2026 9:00 AM D
- ocket AR 676 - RULEMAKING TO ESTABLI\n\nSource: https://apps.puc.state.or.
- us/edockets/docket.asp?DocketID=24739
-PRIORITY:9
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, August 27\, 2026
 DTSTART;TZID=America/Los_Angeles:20260827T000000
 DTEND;TZID=America/Los_Angeles:20260827T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:3889c2fb81644cf083fd@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -268,33 +183,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/24/2026
  &EndDate=8/30/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR
-DTSTART;TZID=America/Los_Angeles:20260827T090000
-DTEND;TZID=America/Los_Angeles:20260827T110000
-DTSTAMP:20260817T110059Z
-UID:01948923e17b7455bb57@psc-calendar
-CATEGORIES:OR,Public Comment Hearing
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Publi
- c Comment Hearing\n\nMonday\, August 24\, 2026 12:30 PM Docket AR 676 - RU
- LEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER E
- VENT 6:00 PM Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR Tuesday\, August 25\, 2026 1:30 PM Docket
-  UE 470 - PACIFICORP REQUEST FOR A GENERAL RATE REVISION STAFF WORKSHOP ZO
- OM 6:00 PM Docket UW 213 - DWF ROUND LAKE REQUEST FOR A GENERAL RATE REVIS
- ION PUBLIC COMMENT HEARING VIA ZOOM Wednesday\, August 26\, 2026 9:00 AM D
- ocket AR 676 - RULEMAKING TO ESTABLI\n\nSource: https://apps.puc.state.or.
- us/edockets/docket.asp?DocketID=24739
-PRIORITY:9
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Friday\, August 28\, 2026
 DTSTART;TZID=America/Los_Angeles:20260828T000000
 DTEND;TZID=America/Los_Angeles:20260828T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:5e7f74ff8b5e416727da@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -305,33 +197,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/24/2026
  &EndDate=8/30/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR
-DTSTART;TZID=America/Los_Angeles:20260828T123000
-DTEND;TZID=America/Los_Angeles:20260828T143000
-DTSTAMP:20260817T110059Z
-UID:04a4592d5da41b09e48f@psc-calendar
-CATEGORIES:OR,Public Comment Hearing
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Publi
- c Comment Hearing\n\nMonday\, August 24\, 2026 12:30 PM Docket AR 676 - RU
- LEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER E
- VENT 6:00 PM Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR Tuesday\, August 25\, 2026 1:30 PM Docket
-  UE 470 - PACIFICORP REQUEST FOR A GENERAL RATE REVISION STAFF WORKSHOP ZO
- OM 6:00 PM Docket UW 213 - DWF ROUND LAKE REQUEST FOR A GENERAL RATE REVIS
- ION PUBLIC COMMENT HEARING VIA ZOOM Wednesday\, August 26\, 2026 9:00 AM D
- ocket AR 676 - RULEMAKING TO ESTABLI\n\nSource: https://apps.puc.state.or.
- us/edockets/docket.asp?DocketID=24739
-PRIORITY:9
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 24 to August 30\, 2026
 DTSTART;TZID=America/Los_Angeles:20260830T000000
 DTEND;TZID=America/Los_Angeles:20260830T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:d34f8b20c6720b090107@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -342,33 +211,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/24/2026
  &EndDate=8/30/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HAL
- L 444 SW 4TH STREET ONTARIO\, OR
-DTSTART;TZID=America/Los_Angeles:20260830T123000
-DTEND;TZID=America/Los_Angeles:20260830T143000
-DTSTAMP:20260817T110059Z
-UID:c7e7c5afc69cbf6fb2fb@psc-calendar
-CATEGORIES:OR,Public Comment Hearing
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Publi
- c Comment Hearing\n\neDockets Hearings - August 24 to August 30\, 2026 Mon
- day\, August 24\, 2026 12:30 PM Docket AR 676 - RULEMAKING TO ESTABLISH MU
- LTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER EVENT 6:00 PM Docket UM 2
- 447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPERATIVE JOINT APPLICATION 
- PUBLIC COMMENT HEARING COUNCIL CHAMBERS - CITY HALL 444 SW 4TH STREET ONTA
- RIO\, OR Tuesday\, August 25\, 2026 1:30 PM Docket UE 470 - PACIFICORP REQ
- UEST FOR A GENERAL RATE REVISION STAFF WORKSHOP ZOOM 6:00 PM Docket UW 213
-  - DWF ROUND LAKE REQUEST FOR A GENERAL RATE REVISION PUBLIC COMMENT HEARI
- NG VIA ZOOM Wednesday\, August 26\, 2\n\nSource: https://apps.puc.state.or
- .us/edockets/docket.asp?DocketID=24739
-PRIORITY:9
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 31 to September 6\, 2026
 DTSTART;TZID=America/Los_Angeles:20260831T000000
 DTEND;TZID=America/Los_Angeles:20260831T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:14a2e9e297082983acbb@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -382,7 +228,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, August 31\, 2026
 DTSTART;TZID=America/Los_Angeles:20260831T000000
 DTEND;TZID=America/Los_Angeles:20260831T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:ba013a95920f30795f35@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -393,48 +239,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/31/2026
  &EndDate=9/6/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
-  General Information Administrative Rules Consumer Information Electricity
- /Natural Gas Careers at PUC Oregon Telephone Assistance Programs Safety Te
- lecommunications Water Filing Center
-DTSTART;TZID=America/Los_Angeles:20260831T123000
-DTEND;TZID=America/Los_Angeles:20260831T143000
-DTSTAMP:20260817T110059Z
-UID:246f7b8b3be3e080479e@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\nSource: https://apps.puc.state.or.us/edocketsSearch/eDo
- cketsSearch/
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edocketsSearch/eDocketsSearch/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OR] Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAME
- WORK (HB 3179 & SB 688) OTHER EVENT
-DTSTART;TZID=America/Los_Angeles:20260831T123000
-DTEND;TZID=America/Los_Angeles:20260831T143000
-DTSTAMP:20260817T110059Z
-UID:95073309b6afc8041493@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\neDockets Hearings - August 31 to September 6\, 2026 Mon
- day\, August 31\, 2026 Docket UM 2211 - IMPLEMENTATION OF HB 2475 STAFF WO
- RKSHOP 12:30 PM Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FR
- AMEWORK (HB 3179 & SB 688) OTHER EVENT Wednesday\, September 2\, 2026 Dock
- et UP 443 - PGE PURCHASE OF UTILITY PROPERTY SETTLEMENT CONFERENCE 9:30 AM
-  Docket UE 465 - PGE 2027 ANNUAL POWER COST UPDATE TARIFF HEARING Thursday
- \, September 3\, 2026 Docket AR 673 - SB 845 (REGARDING SALE OF WATER UTIL
- ITIES) PUBLIC MEETING 1:30 PM Docket UG 527 - NW NATURAL ALTERNATIVE RATE 
- MECHANISM ORAL ARGUMENTS Back to H\n\nSource: https://apps.puc.state.or.us
- /edockets/docket.asp?DocketID=23122
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=23122
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 2\, 2026
 DTSTART;TZID=America/Los_Angeles:20260902T000000
 DTEND;TZID=America/Los_Angeles:20260902T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:a0d555ba14629248cdac@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -445,32 +253,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/31/2026
  &EndDate=9/6/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAME
- WORK (HB 3179 & SB 688) OTHER EVENT
-DTSTART;TZID=America/Los_Angeles:20260902T123000
-DTEND;TZID=America/Los_Angeles:20260902T143000
-DTSTAMP:20260817T110059Z
-UID:21cc52138f0b3fc759d0@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\nMonday\, August 31\, 2026 Docket UM 2211 - IMPLEMENTATI
- ON OF HB 2475 STAFF WORKSHOP 12:30 PM Docket AR 676 - RULEMAKING TO ESTABL
- ISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER EVENT Wednesday\, S
- eptember 2\, 2026 Docket UP 443 - PGE PURCHASE OF UTILITY PROPERTY SETTLEM
- ENT CONFERENCE 9:30 AM Docket UE 465 - PGE 2027 ANNUAL POWER COST UPDATE T
- ARIFF HEARING Thursday\, September 3\, 2026 Docket AR 673 - SB 845 (REGARD
- ING SALE OF WATER UTILITIES) PUBLIC MEETING 1:30 PM Docket UG 527 - NW NAT
- URAL ALTERNATIVE RATE MECHANISM ORAL ARGUMENTS Back to Hearings | Monday\,
-  August 31\, 2026 Docket UM 2211 - \n\nSource: https://apps.puc.state.or.u
- s/edockets/docket.asp?DocketID=23122
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=23122
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, September 3\, 2026
 DTSTART;TZID=America/Los_Angeles:20260903T000000
 DTEND;TZID=America/Los_Angeles:20260903T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:5179b7f383f846c85c21@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -481,32 +267,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/31/2026
  &EndDate=9/6/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAME
- WORK (HB 3179 & SB 688) OTHER EVENT
-DTSTART;TZID=America/Los_Angeles:20260903T123000
-DTEND;TZID=America/Los_Angeles:20260903T143000
-DTSTAMP:20260817T110059Z
-UID:2434f7e5e897b5e745e7@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\nMonday\, August 31\, 2026 Docket UM 2211 - IMPLEMENTATI
- ON OF HB 2475 STAFF WORKSHOP 12:30 PM Docket AR 676 - RULEMAKING TO ESTABL
- ISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER EVENT Wednesday\, S
- eptember 2\, 2026 Docket UP 443 - PGE PURCHASE OF UTILITY PROPERTY SETTLEM
- ENT CONFERENCE 9:30 AM Docket UE 465 - PGE 2027 ANNUAL POWER COST UPDATE T
- ARIFF HEARING Thursday\, September 3\, 2026 Docket AR 673 - SB 845 (REGARD
- ING SALE OF WATER UTILITIES) PUBLIC MEETING 1:30 PM Docket UG 527 - NW NAT
- URAL ALTERNATIVE RATE MECHANISM ORAL ARGUMENTS Back to Hearings | Monday\,
-  August 31\, 2026 Docket UM 2211 - \n\nSource: https://apps.puc.state.or.u
- s/edockets/docket.asp?DocketID=23122
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=23122
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Hearings - August 31 to September 6\, 2026
 DTSTART;TZID=America/Los_Angeles:20260906T000000
 DTEND;TZID=America/Los_Angeles:20260906T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:144c74bd45473e90fe22@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -517,32 +281,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=8/31/2026
  &EndDate=9/6/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAME
- WORK (HB 3179 & SB 688) OTHER EVENT
-DTSTART;TZID=America/Los_Angeles:20260906T123000
-DTEND;TZID=America/Los_Angeles:20260906T143000
-DTSTAMP:20260817T110059Z
-UID:99102511ace6078d3097@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\neDockets Hearings - August 31 to September 6\, 2026 Mon
- day\, August 31\, 2026 Docket UM 2211 - IMPLEMENTATION OF HB 2475 STAFF WO
- RKSHOP 12:30 PM Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FR
- AMEWORK (HB 3179 & SB 688) OTHER EVENT Wednesday\, September 2\, 2026 Dock
- et UP 443 - PGE PURCHASE OF UTILITY PROPERTY SETTLEMENT CONFERENCE 9:30 AM
-  Docket UE 465 - PGE 2027 ANNUAL POWER COST UPDATE TARIFF HEARING Thursday
- \, September 3\, 2026 Docket AR 673 - SB 845 (REGARDING SALE OF WATER UTIL
- ITIES) PUBLIC MEETING 1:30 PM Docket UG 527 - NW NATURAL ALTERNATIVE RATE 
- MECHANISM ORAL ARGUMENTS Back to H\n\nSource: https://apps.puc.state.or.us
- /edockets/docket.asp?DocketID=23122
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=23122
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Hearings - September 7 to September 13\, 2026
 DTSTART;TZID=America/Los_Angeles:20260907T000000
 DTEND;TZID=America/Los_Angeles:20260907T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:1cd3f671d0c188006172@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -556,7 +298,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, September 7\, 2026
 DTSTART;TZID=America/Los_Angeles:20260907T000000
 DTEND;TZID=America/Los_Angeles:20260907T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:e3f137b8d4931bfcd941@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -567,48 +309,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9/7/2026&
  EndDate=9/13/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
-  General Information Administrative Rules Consumer Information Electricity
- /Natural Gas Careers at PUC Oregon Telephone Assistance Programs Safety Te
- lecommunications Water Filing Center
-DTSTART;TZID=America/Los_Angeles:20260907T123000
-DTEND;TZID=America/Los_Angeles:20260907T143000
-DTSTAMP:20260817T110059Z
-UID:1c312894875b654364c3@psc-calendar
-CATEGORIES:OR,Workshop / Conference
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Works
- hop / Conference\n\nSource: https://apps.puc.state.or.us/edocketsSearch/eD
- ocketsSearch/
-PRIORITY:9
-URL:https://apps.puc.state.or.us/edocketsSearch/eDocketsSearch/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OR] Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAME
- WORK (HB 3179 & SB 688) STAFF WORKSHOP
-DTSTART;TZID=America/Los_Angeles:20260907T123000
-DTEND;TZID=America/Los_Angeles:20260907T143000
-DTSTAMP:20260817T110059Z
-UID:9c50cce92871ecc48b25@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\neDockets Hearings - September 7 to September 13\, 2026 
- Monday\, September 7\, 2026 12:30 PM Docket AR 676 - RULEMAKING TO ESTABLI
- SH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER EVENT Tuesday\, Sept
- ember 8\, 2026 Docket AR 682 - RESOURCE ADEQUACY RULEMAKING STAFF WORKSHOP
-  Wednesday\, September 9\, 2026 9:00 AM Docket AR 676 - RULEMAKING TO ESTA
- BLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) STAFF WORKSHOP Thursday
- \, September 10\, 2026 3:00 PM Docket UE 469 - PACIFICORP 2027 TRANSITION 
- ADJUSTMENT MECHANISM HEARING Friday\, September 11\, 2026 Docket UP 441 - 
- PACIFICORP SALE OF WASHINGTON-BASED AS\n\nSource: https://apps.puc.state.o
- r.us/edockets/docket.asp?DocketID=24739
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, September 8\, 2026
 DTSTART;TZID=America/Los_Angeles:20260908T000000
 DTEND;TZID=America/Los_Angeles:20260908T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:aa107fa3ad6b4006ba04@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -622,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 9\, 2026
 DTSTART;TZID=America/Los_Angeles:20260909T000000
 DTEND;TZID=America/Los_Angeles:20260909T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:ff66837a1e0ffeeaf903@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -636,7 +340,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, September 10\, 2026
 DTSTART;TZID=America/Los_Angeles:20260910T000000
 DTEND;TZID=America/Los_Angeles:20260910T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:f6c69c92af452e8f3f6e@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -650,7 +354,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Friday\, September 11\, 2026
 DTSTART;TZID=America/Los_Angeles:20260911T000000
 DTEND;TZID=America/Los_Angeles:20260911T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:a87ca69e14c2d89c0d8f@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -664,7 +368,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - September 14 to September 20\, 2026
 DTSTART;TZID=America/Los_Angeles:20260914T000000
 DTEND;TZID=America/Los_Angeles:20260914T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:211f4f8a9ec8a0632a98@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -678,7 +382,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, September 14\, 2026
 DTSTART;TZID=America/Los_Angeles:20260914T000000
 DTEND;TZID=America/Los_Angeles:20260914T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:1f4299898a69398f8abc@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -689,48 +393,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9/14/2026
  &EndDate=9/20/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
-  General Information Administrative Rules Consumer Information Electricity
- /Natural Gas Careers at PUC Oregon Telephone Assistance Programs Safety Te
- lecommunications Water Filing Center
-DTSTART;TZID=America/Los_Angeles:20260914T123000
-DTEND;TZID=America/Los_Angeles:20260914T143000
-DTSTAMP:20260817T110059Z
-UID:f575085913b21faf5277@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\nSource: https://apps.puc.state.or.us/edocketsSearch/eDo
- cketsSearch/
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edocketsSearch/eDocketsSearch/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OR] Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAME
- WORK (HB 3179 & SB 688) OTHER EVENT
-DTSTART;TZID=America/Los_Angeles:20260914T123000
-DTEND;TZID=America/Los_Angeles:20260914T143000
-DTSTAMP:20260817T110059Z
-UID:388ca38a2a4183d91046@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\neDockets Hearings - September 14 to September 20\, 2026
-  Monday\, September 14\, 2026 12:30 PM Docket AR 676 - RULEMAKING TO ESTAB
- LISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER EVENT Tuesday\, Se
- ptember 15\, 2026 Docket AR 682 - RESOURCE ADEQUACY RULEMAKING PUBLIC MEET
- ING Wednesday\, September 16\, 2026 Docket UE 472 - PGE 2025 POWER COST AD
- JUSTMENT MECHANISM SETTLEMENT CONFERENCE Thursday\, September 17\, 2026 9:
- 30 AM Docket UW 209 - SUNSTONE WATER ET AL REQUEST FOR A GENERAL RATE REVI
- SION HEARING Back to Hearings | eDockets Hearings - September 14 to Septem
- ber 20\, 2026 Monday\, September 14\, 2\n\nSource: https://apps.puc.state.
- or.us/edockets/docket.asp?DocketID=24739
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, September 15\, 2026
 DTSTART;TZID=America/Los_Angeles:20260915T000000
 DTEND;TZID=America/Los_Angeles:20260915T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:3cc4622591913b637165@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -744,7 +410,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 16\, 2026
 DTSTART;TZID=America/Los_Angeles:20260916T000000
 DTEND;TZID=America/Los_Angeles:20260916T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:57b714f75f54d2b42510@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -758,7 +424,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, September 17\, 2026
 DTSTART;TZID=America/Los_Angeles:20260917T000000
 DTEND;TZID=America/Los_Angeles:20260917T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:290f7f3d8a7a5582bf80@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -772,7 +438,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - September 21 to September 27\, 2026
 DTSTART;TZID=America/Los_Angeles:20260921T000000
 DTEND;TZID=America/Los_Angeles:20260921T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:faa0378ac2cfe3a3b4a1@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -786,7 +452,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, September 21\, 2026
 DTSTART;TZID=America/Los_Angeles:20260921T000000
 DTEND;TZID=America/Los_Angeles:20260921T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:b2b2cb9420514de2c518@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -797,48 +463,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9/21/2026
  &EndDate=9/27/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
-  General Information Administrative Rules Consumer Information Electricity
- /Natural Gas Careers at PUC Oregon Telephone Assistance Programs Safety Te
- lecommunications Water Filing Center
-DTSTART;TZID=America/Los_Angeles:20260921T123000
-DTEND;TZID=America/Los_Angeles:20260921T143000
-DTSTAMP:20260817T110059Z
-UID:8f3ade0f9c1cb4729d83@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\nSource: https://apps.puc.state.or.us/edocketsSearch/eDo
- cketsSearch/
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edocketsSearch/eDocketsSearch/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OR] Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPER
- ATIVE JOINT APPLICATION SETTLEMENT CONFERENCE
-DTSTART;TZID=America/Los_Angeles:20260921T123000
-DTEND;TZID=America/Los_Angeles:20260921T143000
-DTSTAMP:20260817T110059Z
-UID:f70408233f6427aa7407@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\neDockets Hearings - September 21 to September 27\, 2026
-  Monday\, September 21\, 2026 12:30 PM Docket AR 676 - RULEMAKING TO ESTAB
- LISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER EVENT Tuesday\, Se
- ptember 22\, 2026 Docket UM 2447 - IDAHO POWER AND OREGON TRAIL ELECTRIC C
- OOPERATIVE JOINT APPLICATION SETTLEMENT CONFERENCE Wednesday\, September 2
- 3\, 2026 9:00 AM Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN F
- RAMEWORK (HB 3179 & SB 688) STAFF WORKSHOP Back to Hearings | eDockets Hea
- rings - September 21 to September 27\, 2026 Monday\, September 21\, 2026 1
- 2:30 PM Docket AR 676 - RULEMAKING TO\n\nSource: https://apps.puc.state.or
- .us/edockets/docket.asp?DocketID=24739
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, September 22\, 2026
 DTSTART;TZID=America/Los_Angeles:20260922T000000
 DTEND;TZID=America/Los_Angeles:20260922T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:3f3b6c6cdded37ff62a8@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -852,7 +480,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 23\, 2026
 DTSTART;TZID=America/Los_Angeles:20260923T000000
 DTEND;TZID=America/Los_Angeles:20260923T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:e7be4835af373cfb5dbb@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -866,7 +494,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - September 28 to October 4\, 2026
 DTSTART;TZID=America/Los_Angeles:20260928T000000
 DTEND;TZID=America/Los_Angeles:20260928T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:f7075c057db00a19c34e@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -880,7 +508,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, September 28\, 2026
 DTSTART;TZID=America/Los_Angeles:20260928T000000
 DTEND;TZID=America/Los_Angeles:20260928T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:4f83845a8b4d94346d26@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -891,48 +519,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=9/28/2026
  &EndDate=10/4/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
-  General Information Administrative Rules Consumer Information Electricity
- /Natural Gas Careers at PUC Oregon Telephone Assistance Programs Safety Te
- lecommunications Water Filing Center
-DTSTART;TZID=America/Los_Angeles:20260928T123000
-DTEND;TZID=America/Los_Angeles:20260928T143000
-DTSTAMP:20260817T110059Z
-UID:27369d13cf3814eeb2c7@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\nSource: https://apps.puc.state.or.us/edocketsSearch/eDo
- cketsSearch/
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edocketsSearch/eDocketsSearch/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OR] Docket UM 2436 - PURPA AVOIDED COSTS STANDARDIZED WORKBOOKS P
- UBLIC MEETING HEARING ROOM - PUC 201 HIGH ST SE SALEM\, OR
-DTSTART;TZID=America/Los_Angeles:20260928T123000
-DTEND;TZID=America/Los_Angeles:20260928T143000
-DTSTAMP:20260817T110059Z
-UID:ef2843316afca3ddfd93@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\neDockets Hearings - September 28 to October 4\, 2026 Mo
- nday\, September 28\, 2026 12:30 PM Docket AR 676 - RULEMAKING TO ESTABLIS
- H MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER EVENT Tuesday\, Septe
- mber 29\, 2026 Docket LC 85 - PACIFICORP 2025 INTEGRATED RESOURCE PLAN (IR
- P) PUBLIC MEETING Docket UE 470 - PACIFICORP REQUEST FOR A GENERAL RATE RE
- VISION SETTLEMENT CONFERENCE 9:30 AM Docket UM 2417 - PUC IDENTIFYING PRIO
- RITIES IN IMPLEMENTATION OF EOS 25-25 AND 25-29 PUBLIC MEETING 9:30 AM Doc
- ket UM 2436 - PURPA AVOIDED COSTS STANDARDIZED WORKBOOKS PUBLIC MEETING HE
- ARING ROOM - PUC 201 HIGH ST SE \n\nSource: https://apps.puc.state.or.us/e
- dockets/docket.asp?DocketID=24739
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Tuesday\, September 29\, 2026
 DTSTART;TZID=America/Los_Angeles:20260929T000000
 DTEND;TZID=America/Los_Angeles:20260929T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:df51d77fa8d2550a6e08@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -946,7 +536,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, September 30\, 2026
 DTSTART;TZID=America/Los_Angeles:20260930T000000
 DTEND;TZID=America/Los_Angeles:20260930T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:2127e18f5d99ba37ba5f@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -960,7 +550,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, October 1\, 2026
 DTSTART;TZID=America/Los_Angeles:20261001T000000
 DTEND;TZID=America/Los_Angeles:20261001T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:34509cc0dcd40172840c@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -974,7 +564,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Hearings - October 5 to October 11\, 2026
 DTSTART;TZID=America/Los_Angeles:20261005T000000
 DTEND;TZID=America/Los_Angeles:20261005T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:dca17420eec1f12609cd@psc-calendar
 CATEGORIES:OR,Evidentiary Hearing
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Evide
@@ -988,7 +578,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Monday\, October 5\, 2026
 DTSTART;TZID=America/Los_Angeles:20261005T000000
 DTEND;TZID=America/Los_Angeles:20261005T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:6a480d14fa2486fcb4a6@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -999,48 +589,10 @@ URL:https://apps.puc.state.or.us/edockets/hcallist.asp?StartDate=10/5/2026
  &EndDate=10/11/2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OR] eDockets Search OPUC Search About Us Contact Us Commissioners
-  General Information Administrative Rules Consumer Information Electricity
- /Natural Gas Careers at PUC Oregon Telephone Assistance Programs Safety Te
- lecommunications Water Filing Center
-DTSTART;TZID=America/Los_Angeles:20261005T123000
-DTEND;TZID=America/Los_Angeles:20261005T143000
-DTSTAMP:20260817T110059Z
-UID:329456d8ca5a1549cad0@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\nSource: https://apps.puc.state.or.us/edocketsSearch/eDo
- cketsSearch/
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edocketsSearch/eDocketsSearch/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OR] Docket AR 676 - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAME
- WORK (HB 3179 & SB 688) STAFF WORKSHOP
-DTSTART;TZID=America/Los_Angeles:20261005T123000
-DTEND;TZID=America/Los_Angeles:20261005T143000
-DTSTAMP:20260817T110059Z
-UID:396aa4910f50355194e1@psc-calendar
-CATEGORIES:OR,Procedural Milestone
-DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Proce
- dural Milestone\n\nMonday\, October 5\, 2026 12:30 PM Docket AR 676 - RULE
- MAKING TO ESTABLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) OTHER EVE
- NT Wednesday\, October 7\, 2026 9:00 AM Docket AR 676 - RULEMAKING TO ESTA
- BLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) STAFF WORKSHOP Thursday
- \, October 8\, 2026 Docket UP 441 - PACIFICORP SALE OF WASHINGTON-BASED AS
- SETS SETTLEMENT CONFERENCE Friday\, October 9\, 2026 3:00 PM Docket AR 676
-  - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 & SB 688) CO
- NFERENCE Back to Hearings | Monday\, October 5\, 2026 12:30 PM Docket AR 6
- 76 - RULEMAKING TO ESTABLISH MULTI-YE\n\nSource: https://apps.puc.state.or
- .us/edockets/docket.asp?DocketID=24739
-PRIORITY:5
-URL:https://apps.puc.state.or.us/edockets/docket.asp?DocketID=24739
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Wednesday\, October 7\, 2026
 DTSTART;TZID=America/Los_Angeles:20261007T000000
 DTEND;TZID=America/Los_Angeles:20261007T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:b2a8a521557d4380c44c@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -1054,7 +606,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Thursday\, October 8\, 2026
 DTSTART;TZID=America/Los_Angeles:20261008T000000
 DTEND;TZID=America/Los_Angeles:20261008T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:4a4b5d4d790c199b9f5f@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 
@@ -1068,7 +620,7 @@ BEGIN:VEVENT
 SUMMARY:[OR] Open meeting: Friday\, October 9\, 2026
 DTSTART;TZID=America/Los_Angeles:20261009T000000
 DTEND;TZID=America/Los_Angeles:20261009T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:f4f93fe59f58aaebc686@psc-calendar
 CATEGORIES:OR,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Oregon Public Utility Commission (OR)\nType: Open 

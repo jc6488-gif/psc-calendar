@@ -356,3 +356,47 @@ def test_docket_no_prefix_not_mangled():
     """'Docket Nos. 24-035-61' must not yield a phantom 'NO24-035'."""
     got = extract_dockets("Public Witness Hearing Docket Nos. 24-035-61 and 23-035-01")
     assert all(not d.startswith("NO") for d in got)
+
+
+def test_only_three_types_are_published():
+    """The desk narrowed the calendar 2026-08-17. Types are still fully
+    classified (so we know what a thing is) but only these three emit."""
+    assert classify.is_published("evidentiary_hearing")
+    assert classify.is_published("open_meeting")
+    assert classify.is_published("decision_order")
+    for tid in ("procedural", "public_comment", "workshop", "other"):
+        assert not classify.is_published(tid), tid
+
+
+@pytest.mark.parametrize("title,expected", [
+    # Colorado abbreviates Hearing as HRG - 42 real hearings sat in Other
+    ("HRG: 26F-0122EG Stanley Wagon V. Public Service Co.", "evidentiary_hearing"),
+    ("Remote HRG: Pro. No. 25AL-0538G, Public Service - Tariff 6", "evidentiary_hearing"),
+    # FERC notational orders really are orders
+    ("August 2026: 27 Notational Orders", "decision_order"),
+    # the New Orleans committee that regulates Entergy New Orleans
+    ("Joint Utility, Cable, Telecommunications and Technology Committee", "open_meeting"),
+    # PHC is a prehearing conference - procedural, therefore NOT published
+    ("PHC: 26F-0246EG Formal Complaint", "procedural"),
+])
+def test_rescued_abbreviations(title, expected):
+    assert classify.classify_type(title)[0] == expected
+
+
+def test_vacated_prefix_marks_cancellation():
+    """Colorado publishes cancellations as 'VACATED:' - it must never read
+    as a live hearing."""
+    assert classify.clean_title("VACATED: HRG: 25AL-0538G Tariff 6").startswith("[CANCELED]")
+
+
+@pytest.mark.parametrize("title", [
+    "Regular Agenda/15-26",                    # NV agenda meeting numbering
+    "Scheduled Commission Utility Agendas",    # NV index
+    "Notice of Meeting",                       # MS commission meeting
+])
+def test_state_specific_meeting_wording(title):
+    """These wordings silenced NV and MS entirely when the three-type filter
+    landed - they are commission meetings, not 'Other'."""
+    tid = classify.classify_type(title)[0]
+    assert tid == "open_meeting", (title, tid)
+    assert classify.is_published(tid)

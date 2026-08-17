@@ -12,13 +12,14 @@ BEGIN:VEVENT
 SUMMARY:[MS] Notice of Meeting
 DTSTART;TZID=America/Chicago:20260804T000000
 DTEND;TZID=America/Chicago:20260804T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:42f0ade51db8879d3bbd@psc-calendar
-CATEGORIES:MS,Other
+CATEGORIES:MS,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Mississippi Public Service Commission (MS)\nType: 
- Other\n\nNotice of Meeting - August 4th 2026\n\nSource: https://www.psc.ms
- .gov/sites/default/files/2026-07/NOTICE-PUBLIC-MEETING-8-4-26.pdf
-PRIORITY:9
+ Open Meeting / Commission Meeting\n\nNotice of Meeting - August 4th 2026\n
+ \nSource: https://www.psc.ms.gov/sites/default/files/2026-07/NOTICE-PUBLIC
+ -MEETING-8-4-26.pdf
+PRIORITY:5
 URL:https://www.psc.ms.gov/sites/default/files/2026-07/NOTICE-PUBLIC-MEETI
  NG-8-4-26.pdf
 END:VEVENT
@@ -26,13 +27,14 @@ BEGIN:VEVENT
 SUMMARY:[MS] Notice of Meeting
 DTSTART;TZID=America/Chicago:20260901T000000
 DTEND;TZID=America/Chicago:20260901T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:e9ba30fa002705becebd@psc-calendar
-CATEGORIES:MS,Other
+CATEGORIES:MS,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Mississippi Public Service Commission (MS)\nType: 
- Other\n\nNotice of Meeting September 1st 2026\n\nSource: https://www.psc.m
- s.gov/sites/default/files/2026-08/NOTICE-PUBLIC-MEETING-9-1-26.pdf
-PRIORITY:9
+ Open Meeting / Commission Meeting\n\nNotice of Meeting September 1st 2026\
+ n\nSource: https://www.psc.ms.gov/sites/default/files/2026-08/NOTICE-PUBLI
+ C-MEETING-9-1-26.pdf
+PRIORITY:5
 URL:https://www.psc.ms.gov/sites/default/files/2026-08/NOTICE-PUBLIC-MEETI
  NG-9-1-26.pdf
 END:VEVENT

@@ -37,6 +37,7 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
     tzname = spec.get("timezone", "America/New_York")
     started = time.monotonic()
     errors: list[str] = []
+    dropped_types: dict[str, int] = {}
     all_events: list[Event] = []
     used_strategies: list[str] = []
     used_urls: list[str] = []
@@ -73,6 +74,9 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
                 # hearings; RRC's ICS is the hearings calendar) even when
                 # titles carry no type words.
                 etype, elabel, weight, relevance = classify.type_info(source["type_hint"])
+            if not classify.is_published(etype):
+                dropped_types[elabel] = dropped_types.get(elabel, 0) + 1
+                continue
 
             # Never emit a link we can't stand behind. A relative or malformed
             # href becomes a dead "page not found" in the dashboard, which is
@@ -114,6 +118,7 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
         return ScrapeResult(
             commission=code, commission_name=spec["name"], tier=spec.get("tier", "full"),
             ok=True, events=merged, strategy_used=" + ".join(used_strategies),
+            dropped=dict(dropped_types),
             source_url=used_urls[0],
             error="; ".join(errors[:2]),   # partial failures stay visible
             duration_s=time.monotonic() - started,
@@ -122,6 +127,7 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
     return ScrapeResult(
         commission=code, commission_name=spec["name"], tier=spec.get("tier", "full"),
         ok=False, error=" ;; ".join(errors[:3]) or "no sources configured",
+        dropped=dict(dropped_types),
         duration_s=time.monotonic() - started,
     )
 

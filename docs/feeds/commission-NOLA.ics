@@ -10,111 +10,28 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[NOLA] Housing Trust Fund Advisory Committee - Jul 21\, 2026
-DTSTART;TZID=America/Chicago:20260721T000000
-DTEND;TZID=America/Chicago:20260721T020000
-DTSTAMP:20260817T110059Z
-UID:a7b0f36d9aee7f998ab1@psc-calendar
-CATEGORIES:NOLA,Workshop / Conference
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Workshop / Conference\n\nThe agenda for Housing Trust Fund Advisory
-  Committee dated Tuesday\, 21 July 2026 has been archived. Access it here:
-  https://cityofno.granicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=54
- 96\n\nSource: https://cityofno.granicus.com/AgendaViewer.php?view_id=42&cl
- ip_id=5496
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5496
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Housing Trust Fund Advisory Committee
-DTSTART;TZID=America/Chicago:20260721T170000
-DTEND;TZID=America/Chicago:20260721T190000
-DTSTAMP:20260817T110059Z
-UID:dcf3e62bc7e5d2486f6c@psc-calendar
-CATEGORIES:NOLA,Workshop / Conference
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Workshop / Conference\n\n1.&nbsp\;&nbsp\;&nbsp\; Approval of Minute
- s from 5.20.26&nbsp\; 2.&nbsp\;&nbsp\;&nbsp\; Administrator Update A.&nbsp
- \;&nbsp\;&nbsp\; Office of Community Development&nbsp\; i.&nbsp\;&nbsp\;&n
- bsp\; Updates on bond sales and moving funds to NORA and FNO ii.&nbsp\;&nb
- sp\; CEA Updates iii.&nbsp\; Owner occupied rehab data&nbsp\; B.&nbsp\;&nb
- sp\;&nbsp\; NORA i.&nbsp\;&nbsp\;&nbsp\; Updates on standing up of program
- s funded in 2026 budget ii.&nbsp\;&nbsp\; Timing of upcoming NOFAs C.&nbsp
- \;&nbsp\;&nbsp\; FNO i.&nbsp\;&nbsp\;&nbsp\; Updates on standing up of pro
- grams funded in 2026 budget ii.&nbsp\;&nbsp\; Timing of upcoming NOFAs 3.&
- \n\nSource: https://council.nola.gov/meetings/2026/advisory-committees/202
- 60721-housing-trust-fund-advisory-committee/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/advisory-committees/20260721-ho
- using-trust-fund-advisory-committee/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Joint Utility\, Cable\, Telecommunications and Technology a
  nd Public Works\, Sanitation and Environment Committee - Jul 22\, 2026
 DTSTART;TZID=America/Chicago:20260722T000000
 DTEND;TZID=America/Chicago:20260722T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:fb4ea643688050574435@psc-calendar
-CATEGORIES:NOLA,Other
+CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for Joint Utility\, Cable\, Telecommunications 
- and Technology and Public Works\, Sanitation and Environment Committee dat
- ed Wednesday\, 22 July 2026 has been archived. Access it here: https://cit
- yofno.granicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=5497\n\nSource
- : https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5497
-PRIORITY:9
+ nType: Open Meeting / Commission Meeting\n\nThe agenda for Joint Utility\,
+  Cable\, Telecommunications and Technology and Public Works\, Sanitation a
+ nd Environment Committee dated Wednesday\, 22 July 2026 has been archived.
+  Access it here: https://cityofno.granicus.com/AgendaViewer.php?view_id=42
+ &amp\;clip_id=5497\n\nSource: https://cityofno.granicus.com/AgendaViewer.p
+ hp?view_id=42&clip_id=5497
+PRIORITY:5
 URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5497
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Governmental Affairs Committee - Jul 22\, 2026
-DTSTART;TZID=America/Chicago:20260722T000000
-DTEND;TZID=America/Chicago:20260722T020000
-DTSTAMP:20260817T110059Z
-UID:ba50df3bd1b153086faf@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for Governmental Affairs Committee dated Wednes
- day\, 22 July 2026 has been archived. Access it here: https://cityofno.gra
- nicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=5499\n\nSource: https:/
- /cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5499
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5499
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] City Council on 2026-07-22 3:15 PM - Jul 22\, 2026
-DTSTART;TZID=America/Chicago:20260722T000000
-DTEND;TZID=America/Chicago:20260722T020000
-DTSTAMP:20260817T110059Z
-UID:3aab67e9e18312edfa6d@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for City Council on 2026-07-22 3:15 PM dated We
- dnesday\, 22 July 2026 has been archived. Access it here: https://cityofno
- .granicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=5500\n\nSource: htt
- ps://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5500
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5500
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] City Council on 2026-07-23 10:00 AM - Jul 23\, 2026
-DTSTART;TZID=America/Chicago:20260723T000000
-DTEND;TZID=America/Chicago:20260723T020000
-DTSTAMP:20260817T110059Z
-UID:ba2f9454d213b777486e@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for City Council on 2026-07-23 10:00 AM dated T
- hursday\, 23 July 2026 has been archived. Access it here: https://cityofno
- .granicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=5508\n\nSource: htt
- ps://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5508
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5508
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260723T150000
 DTEND;TZID=America/Chicago:20260723T170000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:374b2e1e0aedfac1d09a@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -125,41 +42,11 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20260723-regul
  ar-meeting/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Criminal Justice Committee Meeting - Jul 27\, 2026
-DTSTART;TZID=America/Chicago:20260727T000000
-DTEND;TZID=America/Chicago:20260727T020000
-DTSTAMP:20260817T110059Z
-UID:6c87bedd1d75ffabe7ce@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for Criminal Justice Committee Meeting dated Mo
- nday\, 27 July 2026 has been archived. Access it here: https://cityofno.gr
- anicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=5511\n\nSource: https:
- //cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5511
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5511
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] City Planning Commission - Jul 28\, 2026
-DTSTART;TZID=America/Chicago:20260728T000000
-DTEND;TZID=America/Chicago:20260728T020000
-DTSTAMP:20260817T110059Z
-UID:0198bc8c16ccd5cd9ed4@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for City Planning Commission dated Tuesday\, 28
-  July 2026 has been archived. Access it here: https://cityofno.granicus.co
- m/AgendaViewer.php?view_id=42&amp\;clip_id=5523\n\nSource: https://cityofn
- o.granicus.com/AgendaViewer.php?view_id=42&clip_id=5523
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5523
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Alcoholic Beverage Control Board Nuisance Hearing - Jul 29\
  , 2026
 DTSTART;TZID=America/Chicago:20260729T000000
 DTEND;TZID=America/Chicago:20260729T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:2c1b323a68f1162ad955@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -175,7 +62,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Alcoholic Beverage Control Board Hearing - Jul 29\, 2026
 DTSTART;TZID=America/Chicago:20260729T000000
 DTEND;TZID=America/Chicago:20260729T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:7521cca948050c7ec377@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -191,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] ABCB Sales Tax Hearing
 DTSTART;TZID=America/Chicago:20260729T153000
 DTEND;TZID=America/Chicago:20260729T173000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:4ddc2cedc2af749f2c1a@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -205,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] ABCB Nuisance Hearing
 DTSTART;TZID=America/Chicago:20260729T180000
 DTEND;TZID=America/Chicago:20260729T200000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:9e474e1799710b9055b8@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -216,59 +103,10 @@ URL:https://council.nola.gov/meetings/2026/20260729-abcb-nuisance-hearing/
  ?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Joint Climate Change and Sustainability Committee and Publi
- c Works\, Sanitation and Environment Committee - Jul 30\, 2026
-DTSTART;TZID=America/Chicago:20260730T000000
-DTEND;TZID=America/Chicago:20260730T020000
-DTSTAMP:20260817T110059Z
-UID:63ffef691861577773aa@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for Joint Climate Change and Sustainability Com
- mittee and Public Works\, Sanitation and Environment Committee dated Thurs
- day\, 30 July 2026 has been archived. Access it here: https://cityofno.gra
- nicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=5526\n\nSource: https:/
- /cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5526
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5526
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Joint Budget and Governmental Affairs Committee Meeting - A
- ug 05\, 2026
-DTSTART;TZID=America/Chicago:20260805T000000
-DTEND;TZID=America/Chicago:20260805T020000
-DTSTAMP:20260817T110059Z
-UID:2a345ea1849462f61f01@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for Joint Budget and Governmental Affairs Commi
- ttee Meeting dated Wednesday\, 05 August 2026 has been archived. Access it
-  here: https://cityofno.granicus.com/AgendaViewer.php?view_id=42&amp\;clip
- _id=5546\n\nSource: https://cityofno.granicus.com/AgendaViewer.php?view_id
- =42&clip_id=5546
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5546
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] City Council on 2026-08-06 10:00 AM - Aug 06\, 2026
-DTSTART;TZID=America/Chicago:20260806T000000
-DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260817T110059Z
-UID:fd950c3cd7893ba2e000@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for City Council on 2026-08-06 10:00 AM dated T
- hursday\, 06 August 2026 has been archived. Access it here: https://cityof
- no.granicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=5547\n\nSource: h
- ttps://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5547
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5547
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260806T150000
 DTEND;TZID=America/Chicago:20260806T170000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:b3b75dbf744bb2eec4fd@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -279,57 +117,10 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20260806-regul
  ar-agenda/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] City Planning Commission - Aug 11\, 2026
-DTSTART;TZID=America/Chicago:20260811T000000
-DTEND;TZID=America/Chicago:20260811T020000
-DTSTAMP:20260817T110059Z
-UID:239529770462076d72a6@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for City Planning Commission dated Tuesday\, 11
-  August 2026 has been archived. Access it here: https://cityofno.granicus.
- com/AgendaViewer.php?view_id=42&amp\;clip_id=5550\n\nSource: https://cityo
- fno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5550
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5550
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] New Orleans Historic District Landmarks Commission - Aug 12
- \, 2026
-DTSTART;TZID=America/Chicago:20260812T000000
-DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260817T110059Z
-UID:dc5395524fddcbf0a62c@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for New Orleans Historic District Landmarks Com
- mission dated Wednesday\, 12 August 2026 has been archived. Access it here
- : https://cityofno.granicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=5
- 552\n\nSource: https://cityofno.granicus.com/AgendaViewer.php?view_id=42&c
- lip_id=5552
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5552
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Governmental Affairs Committee - Aug 13\, 2026
-DTSTART;TZID=America/Chicago:20260813T000000
-DTEND;TZID=America/Chicago:20260813T020000
-DTSTAMP:20260817T110059Z
-UID:2e6e0b620a853b2c186d@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda for Governmental Affairs Committee dated Thursd
- ay\, 13 August 2026 has been archived. Access it here: https://cityofno.gr
- anicus.com/AgendaViewer.php?view_id=42&amp\;clip_id=5554\n\nSource: https:
- //cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5554
-PRIORITY:9
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5554
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260820T150000
 DTEND;TZID=America/Chicago:20260820T170000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:0c8200df5ebb82d9533c@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -340,112 +131,10 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20260820-regul
  ar-agenda/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Economic Development & Special Development Projects
-DTSTART;TZID=America/Chicago:20260825T150000
-DTEND;TZID=America/Chicago:20260825T170000
-DTSTAMP:20260817T110059Z
-UID:dfc33c7e955fba8fcb0e@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda is forthcoming.\n\nSource: https://council.nola
- .gov/meetings/2026/committees/economic-development-and-special-development
- -proje/20260825-economic-development/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/economic-development
- -and-special-development-proje/20260825-economic-development/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Housing Trust Fund Advisory Committee
-DTSTART;TZID=America/Chicago:20260826T140000
-DTEND;TZID=America/Chicago:20260826T160000
-DTSTAMP:20260817T110059Z
-UID:0974f2c761b3117df996@psc-calendar
-CATEGORIES:NOLA,Workshop / Conference
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Workshop / Conference\n\nSource: https://council.nola.gov/meetings/
- 2026/advisory-committees/20260826-housing-trust-fund-advisory-committee/?f
- eed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/advisory-committees/20260826-ho
- using-trust-fund-advisory-committee/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Climate Change and Sustainability Committee
-DTSTART;TZID=America/Chicago:20260826T180000
-DTEND;TZID=America/Chicago:20260826T200000
-DTSTAMP:20260817T110059Z
-UID:9ba32a3ed8fe9baee171@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- climate-change-and-sustainability/20260826-climate-change-and-sustainabili
- ty/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/climate-change-and-s
- ustainability/20260826-climate-change-and-sustainability/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Transportation Committee
-DTSTART;TZID=America/Chicago:20260827T150000
-DTEND;TZID=America/Chicago:20260827T170000
-DTSTAMP:20260817T110059Z
-UID:31052c2467b0e5026acb@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- transportation-and-airport/20260827-transportation/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/transportation-and-a
- irport/20260827-transportation/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Budget/Audit/Board of Review Committee Meeting
-DTSTART;TZID=America/Chicago:20260827T180000
-DTEND;TZID=America/Chicago:20260827T200000
-DTSTAMP:20260817T110059Z
-UID:88b3d110579a24b88b9c@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe&nbsp\;agenda is forthcoming.\n\nSource: https://counci
- l.nola.gov/meetings/2026/committees/budget\,-audit\,-and-board-of-review/2
- 0260827-budget-audit-board-of-review/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/budget,-audit,-and-b
- oard-of-review/20260827-budget-audit-board-of-review/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Criminal Justice Committee
-DTSTART;TZID=America/Chicago:20260831T150000
-DTEND;TZID=America/Chicago:20260831T170000
-DTSTAMP:20260817T110059Z
-UID:83a7e93defd5d42ab1c9@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- criminal-justice/20260831-criminal-justice/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/criminal-justice/202
- 60831-criminal-justice/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Quality of Life Committee
-DTSTART;TZID=America/Chicago:20260831T180000
-DTEND;TZID=America/Chicago:20260831T200000
-DTSTAMP:20260817T110059Z
-UID:84eaaecb78595c9ff05a@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- quality-of-life/20260831-quality-of-life/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/quality-of-life/2026
- 0831-quality-of-life/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260903T150000
 DTEND;TZID=America/Chicago:20260903T170000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:a6bdbf28a4e505c2d02c@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -456,67 +145,10 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20260903-regul
  ar-meeting/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Public Works Committee
-DTSTART;TZID=America/Chicago:20260908T150000
-DTEND;TZID=America/Chicago:20260908T170000
-DTSTAMP:20260817T110059Z
-UID:d23b00c697e6bbe0054f@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- public-works\,-sanitation-and-environment/20260908-public-works/?feed=even
- ts
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/public-works,-sanita
- tion-and-environment/20260908-public-works/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Revenue Estimating Conference
-DTSTART;TZID=America/Chicago:20260910T153000
-DTEND;TZID=America/Chicago:20260910T173000
-DTSTAMP:20260817T110059Z
-UID:17e51ae1f5df3e1ce720@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/revenue-est
- imating-conference/20260910-revenue-estimating-conference/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/revenue-estimating-conference/2
- 0260910-revenue-estimating-conference/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Governmental Affairs Committee
-DTSTART;TZID=America/Chicago:20260910T160000
-DTEND;TZID=America/Chicago:20260910T180000
-DTSTAMP:20260817T110059Z
-UID:36a8f00816cc3b080352@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- governmental-affairs/20260910-governmental-affairs/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/governmental-affairs
- /20260910-governmental-affairs/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Quality of Life Committee
-DTSTART;TZID=America/Chicago:20260915T150000
-DTEND;TZID=America/Chicago:20260915T170000
-DTSTAMP:20260817T110059Z
-UID:00cd190cde46723cd7bb@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- quality-of-life/20260915-quality-of-life/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/quality-of-life/2026
- 0915-quality-of-life/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260917T150000
 DTEND;TZID=America/Chicago:20260917T170000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:381d4084d7c0e638f3c5@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -527,25 +159,10 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20260917-regul
  ar-meeting/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Budget/Audit/Board of Review Committee Meeting
-DTSTART;TZID=America/Chicago:20260924T190000
-DTEND;TZID=America/Chicago:20260924T210000
-DTSTAMP:20260817T110059Z
-UID:463f8a571802577ff4e8@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe&nbsp\;agenda is forthcoming.\n\nSource: https://counci
- l.nola.gov/meetings/2026/committees/budget\,-audit\,-and-board-of-review/2
- 0260924-budget-audit-board-of-review/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/budget,-audit,-and-b
- oard-of-review/20260924-budget-audit-board-of-review/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-1)
 DTSTART;TZID=America/Chicago:20260929T143000
 DTEND;TZID=America/Chicago:20260929T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:25b2dfd889ac265903da@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -564,24 +181,10 @@ URL:https://council.nola.gov/meetings/2026/budget-hearings/20260929-propos
  ed-budget-hearings-(day-1)/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Criminal Justice Committee
-DTSTART;TZID=America/Chicago:20260929T150000
-DTEND;TZID=America/Chicago:20260929T170000
-DTSTAMP:20260817T110059Z
-UID:d04460849eda12a70738@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- criminal-justice/20260929-criminal-justice/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/criminal-justice/202
- 60929-criminal-justice/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-2)
 DTSTART;TZID=America/Chicago:20260930T143000
 DTEND;TZID=America/Chicago:20260930T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:62a9c0378662873be69d@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -600,7 +203,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261001T150000
 DTEND;TZID=America/Chicago:20261001T170000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:ae0cb8e13231f67f5633@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -614,7 +217,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-3)
 DTSTART;TZID=America/Chicago:20261005T143000
 DTEND;TZID=America/Chicago:20261005T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:9293ac68dc8265e70141@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -631,7 +234,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-4)
 DTSTART;TZID=America/Chicago:20261007T143000
 DTEND;TZID=America/Chicago:20261007T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:f7ee61ea6dd1343de402@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -649,7 +252,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-5)
 DTSTART;TZID=America/Chicago:20261008T143000
 DTEND;TZID=America/Chicago:20261008T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:4de24775b5fdadb9bb8d@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -666,24 +269,10 @@ URL:https://council.nola.gov/meetings/2026/budget-hearings/20261008-propos
  ed-budget-hearings-(day-5)/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Orleans Parish Board of Review Meeting
-DTSTART;TZID=America/Chicago:20261015T143000
-DTEND;TZID=America/Chicago:20261015T163000
-DTSTAMP:20260817T110059Z
-UID:c96d8b769ea2a75e3c01@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda is forthcoming.\n\nSource: https://council.nola
- .gov/meetings/2026/20261015-orleans-parish-board-of-review/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/20261015-orleans-parish-board-o
- f-review/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261015T150000
 DTEND;TZID=America/Chicago:20261015T170000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:8268108e52e2d93943af@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -697,7 +286,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-6)
 DTSTART;TZID=America/Chicago:20261019T143000
 DTEND;TZID=America/Chicago:20261019T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:259b93d300ff77e2855d@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -712,24 +301,10 @@ URL:https://council.nola.gov/meetings/2026/budget-hearings/20261019-propos
  ed-budget-hearings-(day-6)/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Community Development Committee
-DTSTART;TZID=America/Chicago:20261020T150000
-DTEND;TZID=America/Chicago:20261020T170000
-DTSTAMP:20260817T110059Z
-UID:debf4ba016bec9ca8415@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- community-development/20261020-community-development/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/community-developmen
- t/20261020-community-development/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-7)
 DTSTART;TZID=America/Chicago:20261021T143000
 DTEND;TZID=America/Chicago:20261021T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:9e8875a97e7e89085ae8@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -746,7 +321,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-8)
 DTSTART;TZID=America/Chicago:20261022T143000
 DTEND;TZID=America/Chicago:20261022T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:c9c6b756368dfcc28e12@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -761,38 +336,10 @@ URL:https://council.nola.gov/meetings/2026/budget-hearings/20261022-propos
  ed-budget-hearings-(day-8)/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Criminal Justice Committee
-DTSTART;TZID=America/Chicago:20261026T150000
-DTEND;TZID=America/Chicago:20261026T170000
-DTSTAMP:20260817T110059Z
-UID:219cef5ab30a51f47d8e@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- criminal-justice/20261026-criminal-justice/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/criminal-justice/202
- 61026-criminal-justice/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Governmental Affairs Committee
-DTSTART;TZID=America/Chicago:20261027T150000
-DTEND;TZID=America/Chicago:20261027T170000
-DTSTAMP:20260817T110059Z
-UID:4cec2aa1c956647b97bb@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- governmental-affairs/20261027-governmental-affairs/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/governmental-affairs
- /20261027-governmental-affairs/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-9)
 DTSTART;TZID=America/Chicago:20261028T143000
 DTEND;TZID=America/Chicago:20261028T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:90d00fc345c48edd1f16@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -810,7 +357,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-10)
 DTSTART;TZID=America/Chicago:20261029T143000
 DTEND;TZID=America/Chicago:20261029T163000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:437b61588a2fefb3ebc6@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -822,24 +369,10 @@ URL:https://council.nola.gov/meetings/2026/budget-hearings/20261029-propos
  ed-budget-hearings-(day-10)/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] French Quarter Economic Development District
-DTSTART;TZID=America/Chicago:20261105T154500
-DTEND;TZID=America/Chicago:20261105T174500
-DTSTAMP:20260817T110059Z
-UID:adfc96f18a28e0e8daf7@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/special-mee
- tings/20261105-french-quarter-economic-developent-distri/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/special-meetings/20261105-frenc
- h-quarter-economic-developent-distri/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261105T160000
 DTEND;TZID=America/Chicago:20261105T180000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:7f510a7a9bce00b81fce@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -850,53 +383,10 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20261105-regul
  ar-meeting/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Public Works Committee
-DTSTART;TZID=America/Chicago:20261110T160000
-DTEND;TZID=America/Chicago:20261110T180000
-DTSTAMP:20260817T110059Z
-UID:10176cba739b7c436f9a@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- public-works\,-sanitation-and-environment/20261110-public-works/?feed=even
- ts
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/public-works,-sanita
- tion-and-environment/20261110-public-works/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Governmental Affairs Committee
-DTSTART;TZID=America/Chicago:20261112T160000
-DTEND;TZID=America/Chicago:20261112T180000
-DTSTAMP:20260817T110059Z
-UID:9aa1ffa929f9dbc72be7@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- governmental-affairs/20261112-governmental-affairs/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/governmental-affairs
- /20261112-governmental-affairs/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Quality of Life Committee
-DTSTART;TZID=America/Chicago:20261117T160000
-DTEND;TZID=America/Chicago:20261117T180000
-DTSTAMP:20260817T110059Z
-UID:471d6ab2374309439fbb@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- quality-of-life/20261117-quality-of-life/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/quality-of-life/2026
- 1117-quality-of-life/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261119T160000
 DTEND;TZID=America/Chicago:20261119T180000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:14fb2f8b3945a117c858@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -907,24 +397,10 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20261119-regul
  ar-meeting/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Criminal Justice Committee
-DTSTART;TZID=America/Chicago:20261130T160000
-DTEND;TZID=America/Chicago:20261130T180000
-DTSTAMP:20260817T110059Z
-UID:07a0dbcedf4492f9939b@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- criminal-justice/20061130-criminal-justice/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/criminal-justice/200
- 61130-criminal-justice/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261201T160000
 DTEND;TZID=America/Chicago:20261201T180000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:9e4b56799c4874eb08d4@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -935,54 +411,10 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20261201-regul
  ar-meeting/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Economic Development & Special Development Projects
-DTSTART;TZID=America/Chicago:20261203T193000
-DTEND;TZID=America/Chicago:20261203T213000
-DTSTAMP:20260817T110059Z
-UID:3f47dde06ff880c7c21f@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nThe agenda is forthcoming.\n\nSource: https://council.nola
- .gov/meetings/2026/committees/economic-development-and-special-development
- -proje/20261203-economic-development/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/economic-development
- -and-special-development-proje/20261203-economic-development/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Public Works Committee
-DTSTART;TZID=America/Chicago:20261208T160000
-DTEND;TZID=America/Chicago:20261208T180000
-DTSTAMP:20260817T110059Z
-UID:42b87b9a300aeb1e1a97@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- public-works\,-sanitation-and-environment/20261208-public-works/?feed=even
- ts
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/public-works,-sanita
- tion-and-environment/20261208-public-works/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Quality of Life Committee
-DTSTART;TZID=America/Chicago:20261215T160000
-DTEND;TZID=America/Chicago:20261215T180000
-DTSTAMP:20260817T110059Z
-UID:394fd146eb541c48c3d2@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- quality-of-life/20261215-quality-of-life/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/quality-of-life/2026
- 1215-quality-of-life/?feed=events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261217T160000
 DTEND;TZID=America/Chicago:20261217T180000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:7e1153f2e8ec6d358c17@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -991,19 +423,5 @@ DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
 PRIORITY:5
 URL:https://council.nola.gov/meetings/2026/regular-meetings/20261217-regul
  ar-meeting/?feed=events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Criminal Justice Committee
-DTSTART;TZID=America/Chicago:20261228T160000
-DTEND;TZID=America/Chicago:20261228T180000
-DTSTAMP:20260817T110059Z
-UID:fe0f97603308ad44132b@psc-calendar
-CATEGORIES:NOLA,Other
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Other\n\nSource: https://council.nola.gov/meetings/2026/committees/
- criminal-justice/20261228-criminal-justice/?feed=events
-PRIORITY:9
-URL:https://council.nola.gov/meetings/2026/committees/criminal-justice/202
- 61228-criminal-justice/?feed=events
 END:VEVENT
 END:VCALENDAR

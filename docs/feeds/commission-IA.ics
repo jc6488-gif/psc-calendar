@@ -9,55 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[IA] 2026 NARUC Summer Policy Summit
-DTSTART;VALUE=DATE:20260719
-DTEND;VALUE=DATE:20260724
-DTSTAMP:20260817T110059Z
-UID:eb07b0b422178ca32611@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nNAR
- UC (National Association of Regulatory Utility Commissioners) will be host
- ing their summer policy summit July 19-22\, 2026 in Minneapolis\, MN. The 
- IUC Commissioners will be attending this conference as well as some staff.
- <br><a href="https://docs.google.com/document/d/1hv3pLdW6-W6Lp4615pYqJEOKP
- mPIqQw7/edit?usp=sharing&amp\;ouid=114039839506191194461&amp\;rtpof=true&a
- mp\;sd=true" class="pastedDriveLink-0">Public Notice - NARUC Conference .d
- ocx</a>\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov_1qae
- ij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Minneapolis\, MN\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] RMU-2026-0008 | Oral Presentation
-DTSTART:20260728T140000Z
-DTEND:20260728T160000Z
-DTSTAMP:20260817T110059Z
-UID:532f6fc80256b479f5ae@psc-calendar
-CATEGORIES:IA,Workshop / Conference
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Workshop / C
- onference\nDocket: RMU-2026-0008\n\nThis is an oral presentation for inter
- ested persons to provide comments regarding the regulatory analysis for th
- e following rulemaking: HF2227\, Docket No. RMU-2026-0008.<br><br><a href=
- "https://docs.google.com/document/d/1EjltyE-uv2iYqRSgKp7DwpRE0E_Iy6Rt0kGXv
- ogWdjA/edit?usp=sharing" target="_blank">Agenda</a><br>___________________
- _______________<br><br>Join from PC\, Mac\, iPad\, or Android:<br><a href=
- "https://iuc-iowa.zoom.us/j/82563597612?pwd=1J9RvkHwsNlaO8F1ZNCUKpfDDfYNma
- .1" target="_blank"><u>https://iuc-iowa.zoom.us/j/82563597612?pwd=1J9RvkHw
- sNlaO8F1ZNCUKpfDDfYNma.1</u></a><br>Passcode:237\n\nSource: https://calend
- ar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.ca
- lendar.google.com/public/basic.ics
-LOCATION:IUC - RM - Conference Room -- Hearing
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260804T000000
 DTEND;TZID=America/Chicago:20260804T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:c5420e4756ba400b3a5a@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -71,7 +26,7 @@ SUMMARY:[IA] Docket Nos. HLP-2024-0001\, et al | Open Meeting & Closed Ses
  sion Deliberation
 DTSTART:20260804T180000Z
 DTEND:20260804T200000Z
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:70f0ad88f3ade342d6a5@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -96,7 +51,7 @@ SUMMARY:[IA] Docket No. TF-2025-0007 | Open Meeting & Closed Session Delib
  eration
 DTSTART:20260804T200000Z
 DTEND:20260804T210000Z
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:df16a158248d62d1fa5d@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -121,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260805T000000
 DTEND;TZID=America/Chicago:20260805T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:cafa94052c2b025edfc3@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -135,7 +90,7 @@ SUMMARY:[IA] Docket No. RPU-2023-0002 | Open Meeting & Closed Session Deli
  beration
 DTSTART:20260805T180000Z
 DTEND:20260805T190000Z
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:62ca28b5457d594dd81d@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -160,7 +115,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:6a2e08bb5a3edc5690ad@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -170,75 +125,10 @@ PRIORITY:5
 URL:https://iuc.iowa.gov/media/2192/download?inline
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[IA] E-22543 Public Hearing
-DTSTART:20260811T140000Z
-DTEND:20260811T220000Z
-DTSTAMP:20260817T110059Z
-UID:a5dbbe762949e2b664e1@psc-calendar
-CATEGORIES:IA,Public Comment Hearing
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
- nt Hearing\nDocket: E-22543\n\nPublic Hearing for E-22543\, MidAmerican En
- ergy Company petition for electric transmission line franchise (Franklin\,
-  Webster\, and Wright counties).<br><br><a href="https://docs.google.com/d
- ocument/d/1X-e28U5vqhrbTpysQig66yYSckQCWtNUi1Qce1IrARY/edit?usp=sharing" t
- arget="_blank">Notice of Public Hearing 8-11-26 Docket No. E-22543</a>\n\n
- Source: https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq
- 7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Heartland Museum\, 119 9th St SW\, Clarion\, IA 50525\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] Docket No. E-22564 Scheduling Conference
-DTSTART:20260813T140000Z
-DTEND:20260813T150000Z
-DTSTAMP:20260817T110059Z
-UID:e5ba991d82ae1e6082d2@psc-calendar
-CATEGORIES:IA,Procedural Milestone
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Procedural M
- ilestone\nDocket: E-22564\n\nDocket No. E-22564 Scheduling Conference<br>_
- _____________________________<br><br>Join from PC\, Mac\, iPad\, or Androi
- d:<br><a href="https://iuc-iowa.zoom.us/j/81557466157?pwd=juONml3Q7vaVrWQr
- Dg8aAUg0hn2C2y.1" target="_blank"><u>https://iuc-iowa.zoom.us/j/8155746615
- 7?pwd=juONml3Q7vaVrWQrDg8aAUg0hn2C2y.1</u></a><br>Passcode:04009576<br><br
- >Phone one-tap:<br>+16469313860\,\,81557466157#\,\,\,\,*04009576# US<br>+1
- 3017158592\,\,81557466157#\,\,\,\,*04009576# US (Washington DC)<br><br>Joi
- n via audio:<br>+1 646 931 3860 US<br>+1 301 715 8592 US (Washington DC)<b
- r>+1 305 224 1968 US<br>+1 309 205 3325 US<br>+1 312\n\nSource: https://ca
- lendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40grou
- p.calendar.google.com/public/basic.ics
-LOCATION:Hearing Room\, Iowa Utilities Commission\, 1375 E Court Ave\, Des
-  Moines\, IA 50319\, USA
-PRIORITY:5
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] E-22570 | Informational Meeting
-DTSTART:20260813T173000Z
-DTEND:20260813T193000Z
-DTSTAMP:20260817T110059Z
-UID:a63cecdffda0857e4bb4@psc-calendar
-CATEGORIES:IA,Workshop / Conference
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Workshop / C
- onference\n\nThis is a public informational meeting for an ITC Midwest LLC
-  proposed 69 kilovolt transmission line approximately four miles long\, lo
- cated in Scott County. Location: Dixon Fire Department\, 306 Davenport St\
- , Dixon Backup date: August 20\, 2026\n\nSource: https://calendar.google.c
- om/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.goog
- le.com/public/basic.ics
-LOCATION:Dixon Fire Department\, Fire Department\, 306 Davenport St\, Dixo
- n\, IA 52745\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:768de59949413fd280d4@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -251,7 +141,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260818T000000
 DTEND;TZID=America/Chicago:20260818T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:580eb49ed88c5420a0e5@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -264,7 +154,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Monthly Commission Meeting
 DTSTART;TZID=America/Chicago:20260819T090000
 DTEND;TZID=America/Chicago:20260819T120000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:80d855a3518c425b8b5b@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -284,7 +174,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260826T000000
 DTEND;TZID=America/Chicago:20260826T020000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:81899f20c64ee71695f9@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -295,90 +185,10 @@ PRIORITY:5
 URL:https://iuc.iowa.gov/media/2191/download?inline
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[IA] Docket Nos. E-21292 & E-22550 Hearing
-DTSTART:20260826T150000Z
-DTEND:20260826T220000Z
-DTSTAMP:20260817T110059Z
-UID:61a20df59b80495ba9bc@psc-calendar
-CATEGORIES:IA,Public Comment Hearing
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
- nt Hearing\nDocket: E-21292\n\nPublic hearing for E-21292 &amp\; E-22550\,
-  MidAmerican’s request for a new transmission line franchise and amendme
- nt to a transmission line franchise in Pottawattamie County.<br><a href="h
- ttps://docs.google.com/document/d/10Ur6dWitUWeYL5ILICx61rM2xqutwdan/edit?u
- sp=sharing&ouid=114039839506191194461&rtpof=true&sd=true" target="_blank">
- Notice of Public Hearing/Docket Nos. E-21292 &amp\; E-22550.docx</a>\n\nSo
- urce: https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7s
- hfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Meeting Room B-Council Bluffs Public Library\, 400 Willow Ave\, C
- ouncil Bluffs\, IA 51503\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] Docket No. PSA-2026-0001 Hearing
-DTSTART:20260827T140000Z
-DTEND:20260827T220000Z
-DTSTAMP:20260817T110059Z
-UID:b0d3cb348f3bcda283ce@psc-calendar
-CATEGORIES:IA,Public Comment Hearing
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
- nt Hearing\nDocket: PSA-2026-0001\n\nPublic hearing for PSA-2026-0001\, sa
- fety inquiry into Black Hills Energy’s natural gas pipeline infrastructu
- re throughout Iowa.<br><a href="https://docs.google.com/document/d/1AWt4P7
- O0fGIYeWLhcxvNuFzho5uUsZB6E2MpF4myusg/edit?usp=sharing" target="_blank">No
- tice of Public Hearing 8-27-26 Docket No. PSA-2026-0001</a>\n\nSource: htt
- ps://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o
- %40group.calendar.google.com/public/basic.ics
-LOCATION:Hearing Room\, Iowa Utilities Commission\, 1375 E Court Ave\, Des
-  Moines\, IA 50319\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] RPU-2026-0001 | Scheduling Conference
-DTSTART:20260902T140000Z
-DTEND:20260902T150000Z
-DTSTAMP:20260817T110059Z
-UID:010fe7423ffa738dc67d@psc-calendar
-CATEGORIES:IA,Procedural Milestone
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Procedural M
- ilestone\nDocket: RPU-2026-0001\n\nThis is a scheduling conference for Doc
- ket No. RPU-2026-0001\, MidAmerican Energy Company's application for rate 
- relief.\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov_1qae
- ij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Hearing Room\, IUC - RM - Conference Room -- Hearing
-PRIORITY:5
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] Docket No. RPU-2026-0001|Mid American Energy Consumer Comment
-  Meeting
-DTSTART:20260908T230000Z
-DTEND:20260909T010000Z
-DTSTAMP:20260817T110059Z
-UID:b8d2518b647b2a83ac07@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\nDocke
- t: RPU-2026-0001\, RPU-2026-0001-MID\n\nDocket No. RPU-2026-0001-Mid Ameri
- can Energy Consumer Comment Meeting regarding its expected request for a n
- atural gas rate increase. Hilton Garden Inn\, 4640 N. River Blvd. NE\, Ced
- ar Rapids\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov_1q
- aeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Hilton Garden Inn Cedar Rapids\, 4640 N River Blvd NE\, Cedar Rap
- ids\, IA 52411\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[IA] Monthly Commission Meeting
 DTSTART;TZID=America/Chicago:20260909T090000
 DTEND;TZID=America/Chicago:20260909T120000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:cd97bf3a90449f7407a4@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -393,92 +203,10 @@ URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
  l9v5d3o%40group.calendar.google.com/public/basic.ics
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[IA] Docket No. RPU-2026-0001|Mid American Energy Virtual Consumer
-  Comment Meeting
-DTSTART:20260909T170000Z
-DTEND:20260909T190000Z
-DTSTAMP:20260817T110059Z
-UID:d4b96ab1095a55a48b30@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\nDocke
- t: RPU-2026-0001\, RPU-2026-0001-MID\n\nDocket No. RPU-2026-0001-Mid Ameri
- can Energy Consumer Comment Meeting regarding its expected request for a n
- atural gas rate increase. Venue: Virtual\n\nSource: https://calendar.googl
- e.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.g
- oogle.com/public/basic.ics
-LOCATION:Virtual
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] Docket No. RPU-2026-0001|Mid American Energy Consumer Comment
-  Meeting
-DTSTART:20260909T230000Z
-DTEND:20260910T010000Z
-DTSTAMP:20260817T110059Z
-UID:4a53ebbdf69eb7c010f4@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\nDocke
- t: RPU-2026-0001\, RPU-2026-0001-MID\n\nDocket No. RPU-2026-0001-Mid Ameri
- can Energy Consumer Comment Meeting regarding its expected request for a n
- atural gas rate increase. Holiday Inn Des Moines-Airport Conference Center
- \, 6111 Fleur Dr.\, Des Moines\n\nSource: https://calendar.google.com/cale
- ndar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/
- public/basic.ics
-LOCATION:Holiday Inn Des Moines-Airport/Conf Center by IHG\, 6111 Fleur Dr
- \, Des Moines\, IA 50321\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] Docket No. RPU-2026-0001|Mid American Energy Consumer Comment
-  Meeting
-DTSTART:20260910T230000Z
-DTEND:20260911T010000Z
-DTSTAMP:20260817T110059Z
-UID:44948c94a1209890875e@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\nDocke
- t: RPU-2026-0001\, RPU-2026-0001-MID\n\nDocket No. RPU-2026-0001-Mid Ameri
- can Energy Consumer Comment Meeting regarding its expected request for a n
- atural gas rate increase. Sioux City Convention Center\, 801 Fourth St.\, 
- Sioux City\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov_1
- qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Sioux City Convention Center\, 801 4th St\, Sioux City\, IA 51101
- \, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] E-22573 | Public Informational Meeting
-DTSTART:20260923T193000Z
-DTEND:20260923T213000Z
-DTSTAMP:20260817T110059Z
-UID:52ca3841455f8f3894e7@psc-calendar
-CATEGORIES:IA,Workshop / Conference
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Workshop / C
- onference\n\nITC Midwest requests to host two public informational meeting
- s jointly with the IUC to discuss ITC Midwest's New Liberty Sub Tap projec
- t with potentially affected landowners. This proposed project is a rebuild
-  of a 69kV transmission line approximately 4.25 miles in Clinton County an
- d 0.42 miles in Scott County. Venue: Wheatland Community Hall\, 107 E Jeff
- erson Street\, Wheatland\, Iowa\n\nSource: https://calendar.google.com/cal
- endar/ical/iowa.gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com
- /public/basic.ics
-LOCATION:Wheatland Community Hall\, 107 E Jefferson St\, Wheatland\, IA 52
- 777\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[IA] Monthly Commission Meeting
 DTSTART;TZID=America/Chicago:20261008T090000
 DTEND;TZID=America/Chicago:20261008T120000
-DTSTAMP:20260817T110059Z
+DTSTAMP:20260817T133303Z
 UID:0d7d89c1b49a0d5c415b@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -488,127 +216,6 @@ DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
  oogle.com/public/basic.ics
 LOCATION:Hearing Room/ virtual\, IUC - RM - Conference Room -- Hearing
 PRIORITY:5
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] GCU-2026-0006 Public Hearing
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261022
-DTSTAMP:20260817T110059Z
-UID:c0edcdf0effaaecf78d9@psc-calendar
-CATEGORIES:IA,Public Comment Hearing
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
- nt Hearing\nDocket: GCU-2026-0006\n\nDocket No. GCU-2026-0006 MidAmerican 
- Energy Company Public Hearing in Clarinda\, Iowa. Time and specific locati
- on TBD.\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov_1qae
- ij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Clarinda\, IA 51632\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] GCU-2026-0006 Public Hearing
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261023
-DTSTAMP:20260817T110059Z
-UID:a2f7e0e2ee694f74f08d@psc-calendar
-CATEGORIES:IA,Public Comment Hearing
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
- nt Hearing\nDocket: GCU-2026-0006\n\nDocket No. GCU-2026-0006 MidAmerican 
- Energy Company Public Hearing in Clarinda\, Iowa. Time and specific locati
- on TBD.\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov_1qae
- ij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Clarinda\, IA 51632\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] GCU-2026-0006 Public Hearing
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261024
-DTSTAMP:20260817T110059Z
-UID:ff7c7dd67e78b9d529fb@psc-calendar
-CATEGORIES:IA,Public Comment Hearing
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
- nt Hearing\nDocket: GCU-2026-0006\n\nDocket No. GCU-2026-0006 MidAmerican 
- Energy Company Public Hearing in Clarinda\, Iowa. Time and specific locati
- on TBD.\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov_1qae
- ij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Clarinda\, IA 51632\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] 2026 NARUC Annual Meeting & Education Conference
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261113
-DTSTAMP:20260817T110059Z
-UID:eeb3552b7c520703d308@psc-calendar
-CATEGORIES:IA,Other
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Other\n\nNAR
- UC (National Association of Regulatory Utility Commissioners) will be host
- ing their annual meeting & education conference November 8-11\, 2026 in Pu
- erto Rico. The IUC Commissioners will be attending this conference as well
-  as some staff.\n\nSource: https://calendar.google.com/calendar/ical/iowa.
- gov_1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ic
- s
-LOCATION:Puerto Rico
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] GCU-2026-0001 Public Hearing
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261119
-DTSTAMP:20260817T110059Z
-UID:164ec57ae88840063149@psc-calendar
-CATEGORIES:IA,Public Comment Hearing
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
- nt Hearing\nDocket: GCU-2026-0001\n\nDocket No. GCU-2026-0001 Central Iowa
-  Power Cooperative Public Hearing in Davenport\, Iowa. Time and specific l
- ocation TBD.\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov
- _1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Davenport\, IA\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] GCU-2026-0001 Public Hearing
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261120
-DTSTAMP:20260817T110059Z
-UID:ad1fd3c0c0ae6dee5ea4@psc-calendar
-CATEGORIES:IA,Public Comment Hearing
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
- nt Hearing\nDocket: GCU-2026-0001\n\nDocket No. GCU-2026-0001 Central Iowa
-  Power Cooperative Public Hearing in Davenport\, Iowa. Time and specific l
- ocation TBD.\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov
- _1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Davenport\, IA\, USA
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
- l9v5d3o%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[IA] GCU-2026-0001 Public Hearing
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261121
-DTSTAMP:20260817T110059Z
-UID:7d58ce989b3204bf4d51@psc-calendar
-CATEGORIES:IA,Public Comment Hearing
-DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Public Comme
- nt Hearing\nDocket: GCU-2026-0001\n\nDocket No. GCU-2026-0001 Central Iowa
-  Power Cooperative Public Hearing in Davenport\, Iowa. Time and specific l
- ocation TBD.\n\nSource: https://calendar.google.com/calendar/ical/iowa.gov
- _1qaeij61ffpcpcq7shfl9v5d3o%40group.calendar.google.com/public/basic.ics
-LOCATION:Davenport\, IA\, USA
-PRIORITY:9
 URL:https://calendar.google.com/calendar/ical/iowa.gov_1qaeij61ffpcpcq7shf
  l9v5d3o%40group.calendar.google.com/public/basic.ics
 END:VEVENT

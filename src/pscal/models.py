@@ -121,6 +121,7 @@ class ScrapeResult:
     strategy_used: str = ""
     source_url: str = ""
     error: str = ""
+    dropped: dict = field(default_factory=dict)   # {type label: count} filtered out
     duration_s: float = 0.0
 
     def to_dict(self) -> dict:
@@ -133,5 +134,6 @@ class ScrapeResult:
             "strategy_used": self.strategy_used,
             "source_url": self.source_url,
             "error": self.error[:500],
+            "dropped": self.dropped,
             "duration_s": round(self.duration_s, 2),
         }

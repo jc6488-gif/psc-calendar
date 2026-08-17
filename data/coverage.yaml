@@ -307,7 +307,9 @@ event_types:
     label: Procedural Milestone
     weight: 3
     relevance: Medium
+    publish: false          # dropped 2026-08-17 per the desk: shapes cases, does not decide them
     patterns: ["prehearing conference", "pre-hearing conference", "scheduling conference",
+               "phc:", "phc ",
                "status conference", "procedural schedule", "procedural conference",
                "testimony due", "direct testimony", "rebuttal testimony",
                "surrebuttal", "intervention deadline", "petition to intervene", "briefs due",
@@ -320,6 +322,7 @@ event_types:
     label: Public Comment Hearing
     weight: 2
     relevance: Medium
+    publish: false          # dropped 2026-08-17 per the desk
     patterns: ["public comment", "public hearing", "public input", "listening session",
                "public forum", "customer hearing", "local public hearing", "town hall",
                "public witness", "community meeting", "comment session"]
@@ -328,15 +331,26 @@ event_types:
     label: Evidentiary Hearing
     weight: 3
     relevance: High
+    publish: true
+    # "HRG:" is Colorado's abbreviation for Hearing - 42 real hearings
+    # (incl. Public Service Co tariff matters) were sitting in Other.
     patterns: ["evidentiary hearing", "formal hearing", "contested case hearing",
                "hearing on the merits", "trial", "cross-examination",
-               "rate hearing", "revenue requirement hearing", "expert witness hearing"]
+               "rate hearing", "revenue requirement hearing", "expert witness hearing",
+               "hrg:", "hrg ", " hrg"]
 
   - id: open_meeting
     label: Open Meeting / Commission Meeting
     weight: 3
     relevance: High
-    patterns: ["open meeting", "voting meeting", "agenda conference", "administrative session",
+    publish: true
+    # "Utility, Cable, Telecommunications" is the New Orleans City Council
+    # committee that regulates Entergy New Orleans.
+    # "Regular Agenda/15-26" is Nevada's numbering for its agenda meetings;
+    # "Notice of Meeting" is Mississippi's. Both were falling into Other and
+    # would have silenced those states entirely.
+    patterns: ["regular agenda", "utility agendas", "notice of meeting",
+               "utility, cable, telecommunications", "open meeting", "voting meeting", "agenda conference", "administrative session",
                "administrative meeting", "business meeting", "commission meeting",
                "public meeting", "sunshine act", "commission conference", "executive session",
                "agenda meeting", "public service commission session", "commission session",
@@ -347,7 +361,8 @@ event_types:
     label: Decision / Order
     weight: 3
     relevance: High
-    patterns: ["final order", "order issued", "issues order", "order deadline",
+    publish: true
+    patterns: ["notational order", "final order", "order issued", "issues order", "order deadline",
                "decision due", "expected decision", "commission decision",
                "deliberation", "decision conference", "ruling on", "final decision",
                "order on rehearing"]
@@ -356,6 +371,7 @@ event_types:
     label: Workshop / Conference
     weight: 1
     relevance: Low
+    publish: false          # dropped 2026-08-17 per the desk
     patterns: ["workshop", "technical conference", "roundtable", "stakeholder",
                "working group", "work group", "webinar", "informational", "training",
                "symposium", "task force", "advisory"]
@@ -366,10 +382,15 @@ event_types:
     label: Evidentiary Hearing
     weight: 3
     relevance: High
+    publish: true
     patterns: ["hearing"]
 
   - id: other
     label: Other
     weight: 1
     relevance: Low
+    publish: false          # the can't-identify bucket - dropped 2026-08-17.
+                            # Anything genuinely important that lands here is a
+                            # CLASSIFIER BUG, not an unimportant event: fix the
+                            # patterns above rather than accepting the loss.
     patterns: []

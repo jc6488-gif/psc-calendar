@@ -27,7 +27,7 @@ def _type_rules() -> list[tuple[str, str, int, str, list[re.Pattern]]]:
         pats = [re.compile(re.escape(p).replace(r"\ ", r"\s+"), re.IGNORECASE)
                 for p in t.get("patterns", [])]
         rules.append((t["id"], t["label"], t.get("weight", 1),
-                      t.get("relevance", "Low"), pats))
+                      t.get("relevance", "Low"), pats, t.get("publish", True)))
     return rules
 
 
@@ -35,16 +35,28 @@ def classify_type(text: str) -> tuple[str, str, int, str]:
     """Returns (type_id, label, weight, relevance). The type says WHAT the
     event is; relevance says how much the desk should care - the old scheme
     conflated the two by filing open meetings under Decision / Order."""
-    for tid, label, weight, relevance, pats in _type_rules():
+    for tid, label, weight, relevance, pats, _pub in _type_rules():
         if any(p.search(text) for p in pats):
             return tid, label, weight, relevance
     return "other", "Other", 1, "Low"
 
 
+def is_published(tid: str) -> bool:
+    """Whether this event type is emitted at all. The desk narrowed the
+    calendar to Evidentiary Hearing / Open Meeting / Decision-Order on
+    2026-08-17; everything else is classified (so we know what it is) and
+    then dropped. Anything IMPORTANT landing in an unpublished type is a
+    classifier bug to fix, not an acceptable loss."""
+    for t, _l, _w, _r, _p, pub in _type_rules():
+        if t == tid:
+            return bool(pub)
+    return False
+
+
 def type_info(tid: str) -> tuple[str, str, int, str]:
     """Look up a type id directly - used when a source knows what its events
     are (the MA hearings API serves only hearings) but titles lack keywords."""
-    for t, label, weight, relevance, _ in _type_rules():
+    for t, label, weight, relevance, _pats, _pub in _type_rules():
         if t == tid:
             return t, label, weight, relevance
     return "other", "Other", 1, "Low"
@@ -69,10 +81,14 @@ _SIZE_DECOR = re.compile(r"\(\s*\d+(?:\.\d+)?\s*[KMG]?B\s*\)", re.I)
 _FILE_DECOR = re.compile(r"\.(?:pdf|docx?|xlsx?)\b", re.I)
 
 
+_VACATED = re.compile(r"^\s*VACATED\s*:\s*", re.I)
+
+
 def clean_title(title: str) -> str:
     """Strip link decorations that leak into scraped titles -
     "Agenda (122.64 KB) .pdf (Amended)" -> "Agenda (Amended)"."""
-    t = _SIZE_DECOR.sub(" ", title or "")
+    t = _VACATED.sub("[CANCELED] ", title or "")
+    t = _SIZE_DECOR.sub(" ", t)
     t = _FILE_DECOR.sub(" ", t)
     t = re.sub(r"\(\s*\)", " ", t)
     t = re.sub(r"\s+\)", ")", t)
