@@ -416,7 +416,44 @@ def test_out_of_sector_gate(title, out):
     assert classify.is_out_of_sector(title, "evidentiary_hearing") is out
 
 
-def test_open_meetings_are_never_sector_filtered():
-    """One commission meeting handles electric, water and telecom together -
-    dropping it would lose the electric item too."""
-    assert not classify.is_out_of_sector("Open Meeting - water and telecom agenda", "open_meeting")
+def test_unseparable_open_meetings_survive_sector_gate():
+    """A generic commission meeting handles electric, water and telecom
+    together - it names no sector, so it never trips the gate. Superseded
+    the earlier blanket open-meeting exemption, which was letting an
+    explicitly water-only meeting through (NM 'Small Water Utilities')."""
+    for t in ("Open Meeting", "Commission Meeting", "Administrative Session",
+              "Regular Agenda/17-26", "Agenda Meeting - all dockets"):
+        assert not classify.is_out_of_sector(t, "open_meeting"), t
+
+
+@pytest.mark.parametrize("title", [
+    "BLUE STREAM COMMUNICATIONS, LLC, D/B/A BLUE STREAM FIBER",
+    "Virtual Hearing (26-2661-02, Ziply Fiber's ETC Application)",
+    "HRG: 26G-0225CP - CPAN - EPX Rideshare, ALJ Garvey",
+    "Special Open Meeting | Small Water Utilities",     # sector-specific meeting
+])
+def test_audit_found_out_of_sector(title):
+    """Found by an independent audit using broader patterns than the filter."""
+    assert classify.is_out_of_sector(title)
+
+
+def test_nola_utility_committee_survives_sector_gate():
+    """Its name lists cable and telecoms, but it is Entergy New Orleans'
+    regulator - dropping it would lose ETR's venue."""
+    assert not classify.is_out_of_sector(
+        "Joint Utility, Cable, Telecommunications and Technology and Public Works")
+
+
+def test_generic_open_meeting_survives_sector_gate():
+    assert not classify.is_out_of_sector("Open Meeting", "open_meeting")
+    assert not classify.is_out_of_sector("Regular Agenda/17-26", "open_meeting")
+
+
+def test_navigation_chrome_is_noise():
+    assert classify.is_noise("eDockets Search OPUC Search About Us Contact Us "
+                             "Commissioners General Information")
+
+
+def test_filesize_with_trailing_word_is_stripped():
+    assert classify.clean_title("Formal Hearing (380KB pdf) - Case No. P") == \
+        "Formal Hearing - Case No. P"

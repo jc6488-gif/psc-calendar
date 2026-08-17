@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[CA] 2026 Voting Meetings: 08/13/2026 San Francisco
 DTSTART;TZID=America/Los_Angeles:20260813T000000
 DTEND;TZID=America/Los_Angeles:20260813T020000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:378c6a9daf939b20c592@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -28,7 +28,7 @@ SUMMARY:[CA] Low Income Energy Assistance Programs Subcommittee Meeting 8-
  17-26
 DTSTART;TZID=America/Los_Angeles:20260817T150000
 DTEND;TZID=America/Los_Angeles:20260817T170000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:f70d58f73e87c1d075ac@psc-calendar
 CATEGORIES:CA,Evidentiary Hearing
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -43,7 +43,7 @@ SUMMARY:[CA] 2026 Voting Meetings: 09/03/2026 California State Personnel B
  oard’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 95814
 DTSTART;TZID=America/Los_Angeles:20260903T000000
 DTEND;TZID=America/Los_Angeles:20260903T020000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:c9098eb9d17844a9f211@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:[CA] CPUC Voting Meeting 09-03-26
 DTSTART;TZID=America/Los_Angeles:20260903T110000
 DTEND;TZID=America/Los_Angeles:20260903T130000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:f358cf5975ce3ff47343@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -76,7 +76,7 @@ SUMMARY:[CA] 2026 Voting Meetings: 09/17/2026 San Marcos City Council Cham
  bers 1 Civic Center Dr.\, San Marcos\, CA
 DTSTART;TZID=America/Los_Angeles:20260917T000000
 DTEND;TZID=America/Los_Angeles:20260917T020000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:759c69808598cc3324bf@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -92,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:[CA] CPUC Voting Meeting 09-17-26
 DTSTART;TZID=America/Los_Angeles:20260917T110000
 DTEND;TZID=America/Los_Angeles:20260917T130000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:1288d0a9a4927023861a@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -109,7 +109,7 @@ SUMMARY:[CA] 2026 Voting Meetings: 10/08/2026 California State Personnel B
  oard’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 95814
 DTSTART;TZID=America/Los_Angeles:20261008T000000
 DTEND;TZID=America/Los_Angeles:20261008T020000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:c71b9fa3bb7f3ca08b17@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -125,7 +125,7 @@ BEGIN:VEVENT
 SUMMARY:[CA] 2026 Voting Meetings: 10/29/2026 San Francisco
 DTSTART;TZID=America/Los_Angeles:20261029T000000
 DTEND;TZID=America/Los_Angeles:20261029T020000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:c29bc29000da4e2a8d4f@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -141,7 +141,7 @@ SUMMARY:[CA] 2026 Voting Meetings: 11/19/2026 California State Personnel B
  oard’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 95814
 DTSTART;TZID=America/Los_Angeles:20261119T000000
 DTEND;TZID=America/Los_Angeles:20261119T020000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:2cd5bddb53a6bd74d565@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -158,7 +158,7 @@ SUMMARY:[CA] 2026 Voting Meetings: 12/03/2026 California State Personnel B
  oard’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 95814
 DTSTART;TZID=America/Los_Angeles:20261203T000000
 DTEND;TZID=America/Los_Angeles:20261203T020000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:a49f6d87fd5a1eb6e7a7@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -174,7 +174,7 @@ BEGIN:VEVENT
 SUMMARY:[CA] 2026 Voting Meetings: 12/17/2026 San Francisco
 DTSTART;TZID=America/Los_Angeles:20261217T000000
 DTEND;TZID=America/Los_Angeles:20261217T020000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:264357a2a8eb1b6d7eb2@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:

@@ -68,6 +68,11 @@ NOISE = [
     re.compile(r"^\s*(?:copyright|privacy|accessibility|contact us|site map|back to top)", re.I),
     re.compile(r"^\s*(?:previous|next|page \d+|view all|read more|learn more)\s*$", re.I),
     re.compile(r"^\s*\d{1,2}\s*$"),
+    # Site navigation swept up as an "event" - Oregon's eDockets header did
+    # this. Two or more nav labels in one title is never a real meeting.
+    re.compile(r"(?:About Us|Contact Us|Site ?map|Skip to (?:main|content)|"
+               r"Home\s+About|Search\b.*\bSearch\b).*(?:About Us|Contact Us|"
+               r"General Information|Commissioners|Privacy)", re.I),
 ]
 
 
@@ -77,7 +82,7 @@ def is_noise(title: str) -> bool:
     return any(p.search(title) for p in NOISE)
 
 
-_SIZE_DECOR = re.compile(r"\(\s*\d+(?:\.\d+)?\s*[KMG]?B\s*\)", re.I)
+_SIZE_DECOR = re.compile(r"\(\s*\d+(?:\.\d+)?\s*[KMG]?B\b[^)]*\)", re.I)
 _FILE_DECOR = re.compile(r"\.(?:pdf|docx?|xlsx?)\b", re.I)
 
 
@@ -133,21 +138,33 @@ _ENERGY = re.compile(
 _NON_ENERGY = re.compile(
     r"\bwater\b|wastewater|\bsewer|sewage|\baqua\b|artesian|tidewater|"
     r"\bCLEC\b|telecom|telephone|broadband|\bVoIP\b|\bcable\b|\b911\b|E-?911|"
-    r"universal service|\bwireless\b|"
+    r"universal service|\bwireless\b|\bfiber\b|\bILEC\b|"
     r"motor carrier|\btowing\b|\btow\b|taxi|limousine|household goods|"
-    r"moving compan|\bbus\b|pilotage", re.I)
+    r"moving compan|\bbus\b|pilotage|rideshare|\bTNC\b", re.I)
 
 
-def is_out_of_sector(title: str, event_type: str) -> bool:
+# The New Orleans City Council committee whose remit INCLUDES Entergy New
+# Orleans - its name lists cable and telecoms, but dropping it would lose
+# ETR's regulator.
+_SECTOR_EXEMPT = re.compile(r"utility,\s*cable,\s*telecommunications", re.I)
+
+
+def is_out_of_sector(title: str, event_type: str = "") -> bool:
     """True when the TITLE clearly marks a non-electric/gas matter.
 
     Title only - descriptions carry venue boilerplate that false-positives.
     Requires a non-energy signal AND no energy signal, so mixed matters
-    (an oil-and-gas produced-water docket, a combined water/electric utility)
-    are kept. When in doubt, keep: a wrongly dropped hearing is the worst
-    failure this tool can produce.
+    (an oil-and-gas produced-water docket, a combined water/electric
+    utility) are kept. When in doubt, keep: a wrongly dropped hearing is
+    the worst failure this tool can produce.
+
+    Open meetings are NOT blanket-exempt. A generic "Open Meeting" names no
+    sector at all, so it never trips this test and is kept - which is the
+    unseparable case the desk wanted preserved. But a meeting explicitly
+    titled for one non-energy sector ("Special Open Meeting | Small Water
+    Utilities") IS separable, and goes.
     """
-    if event_type == "open_meeting":
-        return False
     t = title or ""
+    if _SECTOR_EXEMPT.search(t):
+        return False
     return bool(_NON_ENERGY.search(t)) and not _ENERGY.search(t)

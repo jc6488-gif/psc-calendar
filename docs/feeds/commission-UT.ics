@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] CANCELED Hearing (25-035-61\, Utah Fire Fund)
 DTSTART:20260922T140000Z
 DTEND:20260922T230000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:f87a4fb5ed1f215acb1d@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] CANCELED Hearing (25-035-61\, Utah Fire Fund)
 DTSTART:20260923T140000Z
 DTEND:20260923T230000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:f17778c53d3244487482@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -54,7 +54,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Virtual Hearing (26-035-28\, RMP's Application)
 DTSTART:20261006T160000Z
 DTEND:20261006T180000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:591f128406c47cfd1510@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -78,7 +78,7 @@ SUMMARY:[UT] Hearing (25-2179-01\, Pine Valley's Request for Rate Increase
  )
 DTSTART;TZID=America/Denver:20261007T090000
 DTEND;TZID=America/Denver:20261007T110000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:927568e2b8a0d8ed6e9c@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -88,34 +88,11 @@ PRIORITY:5
 URL:https://www.utah.gov/pmn/sitemap/notice/1069885.html
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[UT] Virtual Hearing (26-2661-02\, Ziply Fiber's ETC Application)
-DTSTART:20261022T150000Z
-DTEND:20261022T180000Z
-DTSTAMP:20260817T140228Z
-UID:0c4f9a10764e69028185@psc-calendar
-CATEGORIES:UT,Evidentiary Hearing
-DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
- iary Hearing\nDocket: 26-2661-02\n\n<a href="https://psc.utah.gov/2026/05/
- 11/docket-no-26-2661-02/" target="_blank">Docket No. 26-2661-02</a> - <i>A
- pplication of Ziply Fiber Pacific\, LLC dba Ziply Fiber for Designation as
-  an Eligible Telecommunications Carrier</i><br><br>The hearing will be con
- ducted via Google Meet at the following link:<br><a>meet.google.com/fuz-iz
- xh-nxr</a><i></i><br><a><br></a>Audio-only participation information:<br>5
- 70-844-1126 PIN: 313 649 476# Join with Google Meet: https://meet.google.c
- om/fuz-izxh-nxr Or dial: (US) +1 570-844-1126 PIN: 313649476# More phone n
- umbers: https://tel.meet/fuz-izxh-nxr?pin=853\n\nSource: https://calendar.
- google.com/calendar/ical/utah.gov_t5o5rhseg6ce20bke58ok6bmd8%40group.calen
- dar.google.com/public/basic.ics
-PRIORITY:5
-URL:https://calendar.google.com/calendar/ical/utah.gov_t5o5rhseg6ce20bke58
- ok6bmd8%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[UT] Hearing (25-2280-03\, Legacy Sweetwater's Request for Rate In
  crease)
 DTSTART:20261028T160000Z
 DTEND:20261028T230000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:a58178e4c7a1de99834c@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -134,7 +111,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing on General Rate Case (26-2666-01\, Corix GRC)
 DTSTART:20261117T160000Z
 DTEND:20261118T000000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:4682c68c53879ad99fd5@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -156,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing on General Rate Case (26-2666-01\, Corix GRC)
 DTSTART:20261118T160000Z
 DTEND:20261119T000000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:bf87223404d3beb16165@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -178,7 +155,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing on General Rate Case (26-2666-01\, Corix GRC)
 DTSTART:20261119T160000Z
 DTEND:20261120T000000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:bb63955c030e784b1ee4@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -200,7 +177,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing (26-035-20\, Sale of Washington Service Area)
 DTSTART:20270113T160000Z
 DTEND:20270114T000000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:07a1e29ecc9c4c847631@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -220,7 +197,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing (26-035-20\, Sale of Washington Service Area)
 DTSTART:20270114T160000Z
 DTEND:20270115T000000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:d2cecb88823263362fb7@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -242,7 +219,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing (26-035-20\, Sale of Washington Service Area)
 DTSTART:20270115T160000Z
 DTEND:20270116T000000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:106ca35f45f8856ba983@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -264,7 +241,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing (26-035-01\, RMP's 2026 EBA)
 DTSTART:20270126T160000Z
 DTEND:20270127T000000Z
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:3c5a8f35100a2d34137f@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident

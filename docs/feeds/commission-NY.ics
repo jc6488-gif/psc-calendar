@@ -12,15 +12,15 @@ BEGIN:VEVENT
 SUMMARY:[NY] SEPTEMBER 2026 Public Service Commission Session
 DTSTART;TZID=America/New_York:20260917T000000
 DTEND;TZID=America/New_York:20260917T020000
-DTSTAMP:20260817T140228Z
+DTSTAMP:20260817T140940Z
 UID:0c21acb9af9a310a6c07@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
  n Meeting / Commission Meeting\n\nSEP 17 Commission Sessions SEPTEMBER 202
  6 Public Service Commission Session Sep 17\, 2026 10:30 AM ET In Person an
- d Via Webcast Empire State Plaza Agency Building 3\, 19th Floor Albany \, 
- NY 12223 United States\n\nSource: https://dps.ny.gov/event/september-2026-
- public-service-commission-session
+ d Via Webcast Empire State Plaza Agency Building 3\, 19th Floor \, Albany 
+ \, NY 12223\n\nSource: https://dps.ny.gov/event/september-2026-public-serv
+ ice-commission-session
 PRIORITY:5
 URL:https://dps.ny.gov/event/september-2026-public-service-commission-sess
  ion
