@@ -9,37 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[UT] Public Witness Hearing on Settlement Stipulation (24-035-04\,
-  23-035-40\, 23-035-44\, and 24-035-01\, RMP's Applications)
-DTSTART:20260717T233000Z
-DTEND:20260718T003000Z
-DTSTAMP:20260816T183630Z
-UID:5ad608841a313d1150fc@psc-calendar
-CATEGORIES:UT,Public Comment Hearing
-DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Public 
- Comment Hearing\nDocket: 24-035-04\, 23-035-40\, 23-035-44\, 24-035-01\n\n
- <p><a href="https://youtube.com/live/GG913O3m8rU?feature=share">Live strea
- m</a></p><p><a href="https://psc.utah.gov/2024/01/24/docket-no-24-035-04/"
-  target="_blank">Docket No. 24-035-04</a> - <i>Application of Rocky Mounta
- in Power for Authority to Increase its Retail Electric Utility Service Rat
- es in Utah and for Approval of its Proposed Electric Service Schedules and
-  Electric Service Regulations</i></p><p><a href="https://psc.utah.gov/2023
- /08/21/docket-no-23-035-40/" target="_blank">Docket No. 23-035-40</a> - <i
- >Application of Rocky Mountain Power for a Deferred Accounting Order Regar
- ding Ins\n\nSource: https://calendar.google.com/calendar/ical/utah.gov_t5o
- 5rhseg6ce20bke58ok6bmd8%40group.calendar.google.com/public/basic.ics
-LOCATION:Heber M. Wells Building\, 160 E 300 S\, Rm. 403\, Salt Lake City\
- , UT 84111
-PRIORITY:9
-URL:https://calendar.google.com/calendar/ical/utah.gov_t5o5rhseg6ce20bke58
- ok6bmd8%40group.calendar.google.com/public/basic.ics
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[UT] Virtual Status Conference (26-057-12\, Investigation into Spl
  itting EGU's GS Class)
 DTSTART:20260803T160000Z
 DTEND:20260803T170000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:5017bca1b1a2733bff28@psc-calendar
 CATEGORIES:UT,Procedural Milestone
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Procedu
@@ -63,7 +37,7 @@ SUMMARY:[UT] Closed Technical Conference (26-057-14\, EGU's System Moderni
  zation)
 DTSTART:20260817T150000Z
 DTEND:20260817T170000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:7f216e51995f801ce38e@psc-calendar
 CATEGORIES:UT,Workshop / Conference
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Worksho
@@ -85,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Meeting with CAISO Representatives
 DTSTART:20260820T190000Z
 DTEND:20260820T213000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:d094a772cb9189af8157@psc-calendar
 CATEGORIES:UT,Other
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Other\n
@@ -107,7 +81,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] CANCELED Hearing (25-035-61\, Utah Fire Fund)
 DTSTART:20260922T140000Z
 DTEND:20260922T230000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:f87a4fb5ed1f215acb1d@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -128,7 +102,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] CANCELED Hearing (25-035-61\, Utah Fire Fund)
 DTSTART:20260923T140000Z
 DTEND:20260923T230000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:f17778c53d3244487482@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -149,7 +123,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Virtual Hearing (26-035-28\, RMP's Application)
 DTSTART:20261006T160000Z
 DTEND:20261006T180000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:591f128406c47cfd1510@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -173,7 +147,7 @@ SUMMARY:[UT] Hearing (25-2179-01\, Pine Valley's Request for Rate Increase
  )
 DTSTART;TZID=America/Denver:20261007T090000
 DTEND;TZID=America/Denver:20261007T110000
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:927568e2b8a0d8ed6e9c@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -187,7 +161,7 @@ SUMMARY:[UT] Public Witness Hearing (25-2179-01\, Pine Valley's Request fo
  r Rate Increase)
 DTSTART:20261007T233000Z
 DTEND:20261008T003000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:4d01d9670c92c53265ed@psc-calendar
 CATEGORIES:UT,Public Comment Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Public 
@@ -211,7 +185,7 @@ SUMMARY:[UT] Virtual Public Witness Hearing (25-2179-01\, Pine Valley's Re
  quest for Rate Increase)
 DTSTART;TZID=America/Denver:20261007T173000
 DTEND;TZID=America/Denver:20261007T193000
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:5d6747fd3acda064baa4@psc-calendar
 CATEGORIES:UT,Public Comment Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Public 
@@ -224,7 +198,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Virtual Hearing (26-2661-02\, Ziply Fiber's ETC Application)
 DTSTART:20261022T150000Z
 DTEND:20261022T180000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:0c4f9a10764e69028185@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -248,7 +222,7 @@ SUMMARY:[UT] Hearing (25-2280-03\, Legacy Sweetwater's Request for Rate In
  crease)
 DTSTART:20261028T160000Z
 DTEND:20261028T230000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:a58178e4c7a1de99834c@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -268,7 +242,7 @@ SUMMARY:[UT] Virtual Public Witness Hearing (25-2280-03\, Legacy Sweetwate
  r's Request for Rate Increase)
 DTSTART:20261028T233000Z
 DTEND:20261029T003000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:04bc1942d88e3fe29aac@psc-calendar
 CATEGORIES:UT,Public Comment Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Public 
@@ -286,7 +260,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing on General Rate Case (26-2666-01\, Corix GRC)
 DTSTART:20261117T160000Z
 DTEND:20261118T000000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:4682c68c53879ad99fd5@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -308,7 +282,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing on General Rate Case (26-2666-01\, Corix GRC)
 DTSTART:20261118T160000Z
 DTEND:20261119T000000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:bf87223404d3beb16165@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -330,7 +304,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing on General Rate Case (26-2666-01\, Corix GRC)
 DTSTART:20261119T160000Z
 DTEND:20261120T000000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:bb63955c030e784b1ee4@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -352,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing (26-035-20\, Sale of Washington Service Area)
 DTSTART:20270113T160000Z
 DTEND:20270114T000000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:07a1e29ecc9c4c847631@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -372,7 +346,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing (26-035-20\, Sale of Washington Service Area)
 DTSTART:20270114T160000Z
 DTEND:20270115T000000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:d2cecb88823263362fb7@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -394,7 +368,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing (26-035-20\, Sale of Washington Service Area)
 DTSTART:20270115T160000Z
 DTEND:20270116T000000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:106ca35f45f8856ba983@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
@@ -416,7 +390,7 @@ BEGIN:VEVENT
 SUMMARY:[UT] Hearing (26-035-01\, RMP's 2026 EBA)
 DTSTART:20270126T160000Z
 DTEND:20270127T000000Z
-DTSTAMP:20260816T183630Z
+DTSTAMP:20260817T110059Z
 UID:3c5a8f35100a2d34137f@psc-calendar
 CATEGORIES:UT,Evidentiary Hearing
 DESCRIPTION:Commission: Utah Public Service Commission (UT)\nType: Evident
