@@ -98,12 +98,20 @@ on 2026-08-17 - the old URL is dead). Outlook feed:
 `https://stellacc888.github.io/psc-calendar/feeds/all.ics`. Backup of the
 pre-narrowing version: tag `v1.0` / branch `backup-v1.0`.
 
-- **733 published events; 43 of 54 commissions reporting,
+- **721 published events live; 42 of 54 commissions reporting,
   2 scraped-fine-but-fully-filtered.** The raw scrape is much larger -
   see the scope decisions below, which cut it deliberately.
-- **CT, VA and NJ went from silent to reporting (2026-08-17)** and NY from
+  A local run gets 733 / 43 because **CT works from a residential IP and
+  is refused from CI** - see the WI/CT note in the failure table.
+- **VA and NJ went from silent to reporting (2026-08-17)** and NY from
   1 event to 4. See "Classification order" below for the bug that was
   hiding hearings everywhere, not just in these three.
+- **CT is solved as a method and blocked as an origin.** The browser
+  strategy renders its calendar correctly (20 events, 14 published) from
+  a residential IP; from GitHub's runners `dpuc.state.ct.us` closes the
+  connection on both HTTP (`ERR_EMPTY_RESPONSE`) and HTTPS
+  (`ERR_CONNECTION_CLOSED`). **Do not spend another session on the
+  extraction - it works.** This needs a different egress IP.
 - **`browser` strategy (headless Chromium via Playwright)** unlocked MI, FL
   and OH. It identifies honestly as psc-calendar - a real browser engine
   telling the truth about itself, NOT impersonation. MI's CDN 403s any UA
@@ -192,7 +200,7 @@ reports blindness.
 |---|---|---|
 | KY | JS app the browser strategy did not crack | Deeper per-app work |
 | KS | Calendar moved to a Salesforce app that errors headless (their TLS bug is fixed) | Deeper per-app work |
-| WI | Works from a residential IP; 403s GitHub's runners. Its 2 "events" were page furniture and are now filtered as such, so WI reads as failing - which it is | Proxy, self-hosted runner, or contact |
+| WI CT | **Work from a residential IP, refused from GitHub's runners.** WI 403s; CT closes the connection outright on both HTTP and HTTPS. Both extract fine locally - CT yields 14 published events - so there is nothing left to fix in the parser | Proxy, self-hosted runner, or contact. This is the one blocker class where the code is already correct |
 | ID WY | Scrape fine but every event is a type the desk excludes, AND one source fails, so they show red rather than grey | Replace the dead source; the grey/red split only reads cleanly when every other source works |
 | WV NH AK | 403 to every automated client incl. real browsers | Contact the commission |
 | AR | DNS dead (their outage) | Retry daily (automatic) |
@@ -247,8 +255,15 @@ WebSphere portal exposes its featured hearing only through add-to-calendar
 links - parsed by the new `addtocalendar` extractor). CI installs Chromium via
 `playwright install --with-deps chromium`. Extended 2026-08-17 to **CT**
 (the `dpuc.state.ct.us` XPages calendar - PURA's weekly Regular Meeting plus
-docketed evidentiary hearings) and **VA**. KS still resists: it moved to a
-Salesforce app that errors headless.
+docketed evidentiary hearings; renders correctly but the host refuses CI's
+IP, so it is dark on the live site) and **VA**. KS still resists: it moved
+to a Salesforce app that errors headless.
+
+**Rendering and reaching are separate problems.** A `browser` strategy that
+works on your laptop can still fail in CI, because the block is on the egress
+IP rather than the client. When a source regresses only in CI, read the error
+before touching the parser: `ERR_CONNECTION_CLOSED` / `ERR_EMPTY_RESPONSE` /
+403 are the network refusing you, not the extraction failing.
 
 **Virginia is not in DocketSearch after all.** The earlier note said VA's
 schedules were locked inside that SPA. They are also on
