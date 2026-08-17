@@ -252,6 +252,31 @@ concluding anything about it.
   exact commission+datetime and most are distinct - IN runs four different
   hearings at 09:30.
 
+### The daily refresh, and what can quietly stop it
+
+`.github/workflows/refresh.yml` runs at **10:00 UTC daily** (6am ET) with
+`PSCAL_CACHE_TTL: 0`, so every run is a fresh scrape; it also runs on any push
+touching `src/`, `data/` or the workflow. It commits the rebuilt `docs/` back
+to main and deploys Pages, so the live site and the `.ics` feeds refresh
+without anyone doing anything.
+
+Two failure modes that do NOT announce themselves:
+
+1. **GitHub disables a scheduled workflow after 60 days with no repository
+   activity.** The calendar would silently freeze at its last good run while
+   the site still looks fine. Any commit resets the clock; if this repo ever
+   goes quiet for two months, check the Actions tab first.
+2. **A red run does not always mean bad data, and it used to mean nothing at
+   all.** The alerting step ran after the scrape, commit and deploy; a
+   transient GitHub API 500 there marked a perfectly good refresh as failed
+   (2026-08-17). It is now `continue-on-error: true`.
+
+The health alert counts only genuinely failing core commissions -
+`!ok && !filtered_only && tier === 'core'`. It previously counted the grey
+`filtered_only` states too, so it listed DE, HI and WY as broken every single
+day. **An alarm that is always on is one nobody reads**, which would have cost
+the alert its whole purpose the first time a real source broke.
+
 ### Health panel has THREE states, not two
 
 `✓` reporting, `–` scraped fine but every event was a type/sector the desk
