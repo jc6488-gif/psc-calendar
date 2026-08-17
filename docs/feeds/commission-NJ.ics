@@ -9,136 +9,129 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[NJ] IN THE MATTER OF THE PROVISION OF BASIC GENERATION SERVICE (
- “BGS”) FOR THE PERIOD BEGINNING JUNE 1\, 2027 Jul 27 Sep 22
-DTSTART;TZID=America/New_York:20260727T000000
-DTEND;TZID=America/New_York:20260727T020000
-DTSTAMP:20260817T110059Z
-UID:dbb4ebfe7054a36eb717@psc-calendar
-CATEGORIES:NJ,Other
+SUMMARY:[NJ] Regular Board Agenda Meetings
+DTSTART;TZID=America/New_York:20260812T100000
+DTEND;TZID=America/New_York:20260812T120000
+DTSTAMP:20260817T163256Z
+UID:3155ba046f91e6dde977@psc-calendar
+CATEGORIES:NJ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
- ther\n\nSource: https://www.nj.gov/bpu/pdf/publicnotice/ER26040105-2027 BG
- S Hearing Notice.pdf
-PRIORITY:9
-URL:https://www.nj.gov/bpu/pdf/publicnotice/ER26040105-2027 BGS Hearing No
- tice.pdf
+ pen Meeting / Commission Meeting\n\nSource: https://www.nj.gov/bpu/pdf/pub
+ licnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf
+PRIORITY:5
+URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarte
+ rly%20Meeting%20dates-2026-SL.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NJ] In the Matter of the Garden State Energy Storage Program Phas
- e 1\, Tranche 2
-DTSTART;TZID=America/New_York:20260730T000000
-DTEND;TZID=America/New_York:20260730T020000
-DTSTAMP:20260817T110059Z
-UID:af037e985eeb7874d9c6@psc-calendar
-CATEGORIES:NJ,Other
+SUMMARY:[NJ] Regular Board Agenda Meetings
+DTSTART;TZID=America/New_York:20260909T100000
+DTEND;TZID=America/New_York:20260909T120000
+DTSTAMP:20260817T163256Z
+UID:8f53421900c3bca9129a@psc-calendar
+CATEGORIES:NJ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
- ther\n\nSource: https://www.nj.gov/bpu/pdf/publicnotice/Public%20Notice%20
- -%20GSESP%20Tranche%202%20Extension.pdf
-PRIORITY:9
-URL:https://www.nj.gov/bpu/pdf/publicnotice/Public%20Notice%20-%20GSESP%20
- Tranche%202%20Extension.pdf
+ pen Meeting / Commission Meeting\n\nSource: https://www.nj.gov/bpu/pdf/pub
+ licnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf
+PRIORITY:5
+URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarte
+ rly%20Meeting%20dates-2026-SL.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NJ] Stakeholder Meeting: In the Matter of a Virtual Power Plant P
- rogram
-DTSTART;TZID=America/New_York:20260730T000000
-DTEND;TZID=America/New_York:20260730T020000
-DTSTAMP:20260817T110059Z
-UID:48347123efba1a2b75b0@psc-calendar
-CATEGORIES:NJ,Workshop / Conference
-DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: W
- orkshop / Conference\n\nSource: https://www.nj.gov/bpu/pdf/publicnotice/No
- tice_VPP_Stakeholder Meeting_July 2026_.pdf
-PRIORITY:9
-URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice_VPP_Stakeholder Meeting
- _July 2026_.pdf
+SUMMARY:[NJ] Quarterly Meetings
+DTSTART;TZID=America/New_York:20260918T100000
+DTEND;TZID=America/New_York:20260918T120000
+DTSTAMP:20260817T163256Z
+UID:0fb220769daa3113741e@psc-calendar
+CATEGORIES:NJ,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
+ pen Meeting / Commission Meeting\n\nSource: https://www.nj.gov/bpu/pdf/pub
+ licnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf
+PRIORITY:5
+URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarte
+ rly%20Meeting%20dates-2026-SL.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NJ] In The Matter of Executive Order 1 Modernization of the Tradi
- tional Electric Distribution Utility Business Model Study
-DTSTART;TZID=America/New_York:20260803T000000
-DTEND;TZID=America/New_York:20260803T020000
-DTSTAMP:20260817T110059Z
-UID:8909b4e82285d3783005@psc-calendar
-CATEGORIES:NJ,Other
+SUMMARY:[NJ] Regular Board Agenda Meetings
+DTSTART;TZID=America/New_York:20260923T100000
+DTEND;TZID=America/New_York:20260923T120000
+DTSTAMP:20260817T163256Z
+UID:63cbae4fd3f75057d81d@psc-calendar
+CATEGORIES:NJ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
- ther\n\nSource: https://www.nj.gov/bpu/pdf/publicnotice/Notice-Aug%20and%2
- 0Sept%20Stakeholder%20Session%20.pdf
-PRIORITY:9
-URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice-Aug%20and%20Sept%20Stak
- eholder%20Session%20.pdf
+ pen Meeting / Commission Meeting\n\nSource: https://www.nj.gov/bpu/pdf/pub
+ licnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf
+PRIORITY:5
+URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarte
+ rly%20Meeting%20dates-2026-SL.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NJ] Notice of Funding Availability
-DTSTART;TZID=America/New_York:20260804T000000
-DTEND;TZID=America/New_York:20260804T020000
-DTSTAMP:20260817T110059Z
-UID:36c9eface146b0887074@psc-calendar
-CATEGORIES:NJ,Other
+SUMMARY:[NJ] Regular Board Agenda Meetings
+DTSTART;TZID=America/New_York:20261014T100000
+DTEND;TZID=America/New_York:20261014T120000
+DTSTAMP:20260817T163256Z
+UID:2a89084a63a5b45c2ec2@psc-calendar
+CATEGORIES:NJ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
- ther\n\nNotice of Funding Availability | Aug 4 | | Sep 4 |\n\nSource: http
- s://www.nj.gov/bpu/pdf/publicnotice/PAGE-Notice.pdf
-PRIORITY:9
-URL:https://www.nj.gov/bpu/pdf/publicnotice/PAGE-Notice.pdf
+ pen Meeting / Commission Meeting\n\nSource: https://www.nj.gov/bpu/pdf/pub
+ licnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf
+PRIORITY:5
+URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarte
+ rly%20Meeting%20dates-2026-SL.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NJ] IN THE MATTER OF THE PROVISION OF BASIC GENERATION SERVICE (
- “BGS”) FOR THE PERIOD BEGINNING JUNE 1\, 2027 Aug 13 Sep 22
-DTSTART;TZID=America/New_York:20260813T000000
-DTEND;TZID=America/New_York:20260813T020000
-DTSTAMP:20260817T110059Z
-UID:081e491d0a5ed003c97a@psc-calendar
-CATEGORIES:NJ,Other
+SUMMARY:[NJ] Regular Board Agenda Meetings
+DTSTART;TZID=America/New_York:20261028T100000
+DTEND;TZID=America/New_York:20261028T120000
+DTSTAMP:20260817T163256Z
+UID:a6865b30cd006dfef7e5@psc-calendar
+CATEGORIES:NJ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
- ther\n\nSource: https://www.nj.gov/bpu/pdf/publicnotice/2027 BGS- REVISED 
- Legislative Type Hearing Notice.pdf
-PRIORITY:9
-URL:https://www.nj.gov/bpu/pdf/publicnotice/2027 BGS- REVISED Legislative 
- Type Hearing Notice.pdf
+ pen Meeting / Commission Meeting\n\nSource: https://www.nj.gov/bpu/pdf/pub
+ licnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf
+PRIORITY:5
+URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarte
+ rly%20Meeting%20dates-2026-SL.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NJ] In The Matter of Executive Order 1 Modernization of the Tradi
- tional Electric Distribution Utility Business Model Study
-DTSTART;TZID=America/New_York:20260819T000000
-DTEND;TZID=America/New_York:20260819T020000
-DTSTAMP:20260817T110059Z
-UID:c2cf809cecbc3ac496d7@psc-calendar
-CATEGORIES:NJ,Other
+SUMMARY:[NJ] Regular Board Agenda Meetings
+DTSTART;TZID=America/New_York:20261120T100000
+DTEND;TZID=America/New_York:20261120T120000
+DTSTAMP:20260817T163256Z
+UID:47b19be3a2a46aba06de@psc-calendar
+CATEGORIES:NJ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
- ther\n\nSource: https://www.nj.gov/bpu/pdf/publicnotice/Notice-Aug%20and%2
- 0Sept%20Stakeholder%20Session%20.pdf
-PRIORITY:9
-URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice-Aug%20and%20Sept%20Stak
- eholder%20Session%20.pdf
+ pen Meeting / Commission Meeting\n\nSource: https://www.nj.gov/bpu/pdf/pub
+ licnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf
+PRIORITY:5
+URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarte
+ rly%20Meeting%20dates-2026-SL.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NJ] In The Matter of Executive Order 1 Modernization of the Tradi
- tional Electric Distribution Utility Business Model Study
-DTSTART;TZID=America/New_York:20260910T000000
-DTEND;TZID=America/New_York:20260910T020000
-DTSTAMP:20260817T110059Z
-UID:6f80461890f64c47ac6d@psc-calendar
-CATEGORIES:NJ,Other
+SUMMARY:[NJ] Quarterly Meetings
+DTSTART;TZID=America/New_York:20261211T100000
+DTEND;TZID=America/New_York:20261211T120000
+DTSTAMP:20260817T163256Z
+UID:350e4a0e85f38f628f1d@psc-calendar
+CATEGORIES:NJ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
- ther\n\nSource: https://www.nj.gov/bpu/pdf/publicnotice/Notice-Aug%20and%2
- 0Sept%20Stakeholder%20Session%20.pdf
-PRIORITY:9
-URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice-Aug%20and%20Sept%20Stak
- eholder%20Session%20.pdf
+ pen Meeting / Commission Meeting\n\nSource: https://www.nj.gov/bpu/pdf/pub
+ licnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf
+PRIORITY:5
+URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarte
+ rly%20Meeting%20dates-2026-SL.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NJ] IN THE MATTER OF THE PROVISION OF BASIC GENERATION SERVICE (
- “BGS”) FOR THE PERIOD BEGINNING JUNE 1\, 2027 Aug 13 Sep 22
-DTSTART;TZID=America/New_York:20260922T000000
-DTEND;TZID=America/New_York:20260922T020000
-DTSTAMP:20260817T110059Z
-UID:b7e133010f96bd72be32@psc-calendar
-CATEGORIES:NJ,Other
+SUMMARY:[NJ] Regular Board Agenda Meetings
+DTSTART;TZID=America/New_York:20261216T100000
+DTEND;TZID=America/New_York:20261216T120000
+DTSTAMP:20260817T163256Z
+UID:cdb17fe9796eee44c90d@psc-calendar
+CATEGORIES:NJ,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Jersey Board of Public Utilities (NJ)\nType: O
- ther\n\nSource: https://www.nj.gov/bpu/pdf/publicnotice/2027 BGS- REVISED 
- Legislative Type Hearing Notice.pdf
-PRIORITY:9
-URL:https://www.nj.gov/bpu/pdf/publicnotice/2027 BGS- REVISED Legislative 
- Type Hearing Notice.pdf
+ pen Meeting / Commission Meeting\n\nSource: https://www.nj.gov/bpu/pdf/pub
+ licnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf
+PRIORITY:5
+URL:https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarte
+ rly%20Meeting%20dates-2026-SL.pdf
 END:VEVENT
 END:VCALENDAR

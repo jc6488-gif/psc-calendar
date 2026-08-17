@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] Open meeting
 DTSTART;TZID=America/Detroit:20260811T000000
 DTEND;TZID=America/Detroit:20260811T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:055cd54eb50f59aaf0f5@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] Open meeting
 DTSTART;TZID=America/Detroit:20260812T000000
 DTEND;TZID=America/Detroit:20260812T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:c6d7cf99e83bc446c767@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] August 27\, 2026 Commission Meeting
 DTSTART;TZID=America/Detroit:20260827T000000
 DTEND;TZID=America/Detroit:20260827T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:1c503fbe48f801ff3707@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -54,7 +54,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] Open meeting
 DTSTART;TZID=America/Detroit:20260903T000000
 DTEND;TZID=America/Detroit:20260903T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:2deb581da45ed49f079d@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -67,7 +67,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] September 10\, 2026 Commission Meeting
 DTSTART;TZID=America/Detroit:20260910T000000
 DTEND;TZID=America/Detroit:20260910T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:39a774df27e1f7b75a4a@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -83,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] October 1\, 2026 Commission Meeting
 DTSTART;TZID=America/Detroit:20261001T000000
 DTEND;TZID=America/Detroit:20261001T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:c81f279d002d711755b2@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -99,7 +99,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] October 15\, 2026 Commission Meeting
 DTSTART;TZID=America/Detroit:20261015T000000
 DTEND;TZID=America/Detroit:20261015T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:150484bbf585a65f16c3@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -115,7 +115,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] November 5\, 2026 Commission Meeting
 DTSTART;TZID=America/Detroit:20261105T000000
 DTEND;TZID=America/Detroit:20261105T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:67c9890ee0ca5a5a6c19@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -131,7 +131,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] December 8\, 2026 Commission Meeting
 DTSTART;TZID=America/Detroit:20261208T000000
 DTEND;TZID=America/Detroit:20261208T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:c73e308bc100d69454cb@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -147,7 +147,7 @@ BEGIN:VEVENT
 SUMMARY:[MI] December 17\, 2026 Commission Meeting
 DTSTART;TZID=America/Detroit:20261217T000000
 DTEND;TZID=America/Detroit:20261217T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:ef52f80fe95e7213e3bd@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope

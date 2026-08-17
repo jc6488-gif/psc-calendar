@@ -10,12 +10,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[SC] Commission Business Meeting Url: https://www.scetv.org/live/p
- ublic-service-commission
+SUMMARY:[SC] Commission Business Meeting
 DTSTART;TZID=America/New_York:20260820T130000
 DTEND;TZID=America/New_York:20260820T150000
-DTSTAMP:20260817T155739Z
-UID:6cb7a97ba07675ed92b8@psc-calendar
+DTSTAMP:20260817T163256Z
+UID:262c5fe811aac2404e6e@psc-calendar
 CATEGORIES:SC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp
  e: Open Meeting / Commission Meeting\n\n8/20/2026 1:00 PM Scheduled | N/A 

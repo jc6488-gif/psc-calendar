@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[NY] SEPTEMBER 2026 Public Service Commission Session
 DTSTART;TZID=America/New_York:20260917T000000
 DTEND;TZID=America/New_York:20260917T020000
-DTSTAMP:20260817T155739Z
+DTSTAMP:20260817T163256Z
 UID:0c21acb9af9a310a6c07@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
@@ -24,5 +24,56 @@ DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
 PRIORITY:5
 URL:https://dps.ny.gov/event/september-2026-public-service-commission-sess
  ion
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] OCTOBER 2026 Public Service Commission Session
+DTSTART;TZID=America/New_York:20261015T000000
+DTEND;TZID=America/New_York:20261015T020000
+DTSTAMP:20260817T163256Z
+UID:8146bd601a3e85c05827@psc-calendar
+CATEGORIES:NY,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
+ n Meeting / Commission Meeting\n\nOCT 15 Commission Sessions OCTOBER 2026 
+ Public Service Commission Session Oct 15\, 2026 10:30 AM ET In Person and 
+ Via Webcast Empire State Plaza Agency Building 3\, 19th Floor \, Albany \,
+  NY 12223\n\nSource: https://dps.ny.gov/event/october-2026-public-service-
+ commission-session
+PRIORITY:5
+URL:https://dps.ny.gov/event/october-2026-public-service-commission-sessio
+ n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] NOVEMBER 2026 Public Service Commission Session
+DTSTART;TZID=America/New_York:20261119T000000
+DTEND;TZID=America/New_York:20261119T020000
+DTSTAMP:20260817T163256Z
+UID:7fb30086e9fc1c74a1c3@psc-calendar
+CATEGORIES:NY,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
+ n Meeting / Commission Meeting\n\nNOV 19 Commission Sessions NOVEMBER 2026
+  Public Service Commission Session Nov 19\, 2026 10:30 AM ET In Person and
+  Via Webcast 90 Church St 4th Floor Boardroom \, New York \, NY 10007\n\nS
+ ource: https://dps.ny.gov/event/november-2026-public-service-commission-se
+ ssion
+PRIORITY:5
+URL:https://dps.ny.gov/event/november-2026-public-service-commission-sessi
+ on
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NY] DECEMBER 2026 Public Service Commission Session
+DTSTART;TZID=America/New_York:20261217T000000
+DTEND;TZID=America/New_York:20261217T020000
+DTSTAMP:20260817T163256Z
+UID:3542fbb3b93eff2c8773@psc-calendar
+CATEGORIES:NY,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
+ n Meeting / Commission Meeting\n\nDEC 17 Commission Sessions DECEMBER 2026
+  Public Service Commission Session Dec 17\, 2026 10:30 AM ET In Person and
+  Via Webcast Empire State Plaza Agency Building 3\, 19th Floor \, Albany \
+ , NY 12223\n\nSource: https://dps.ny.gov/event/december-2026-public-servic
+ e-commission-session
+PRIORITY:5
+URL:https://dps.ny.gov/event/december-2026-public-service-commission-sessi
+ on
 END:VEVENT
 END:VCALENDAR
