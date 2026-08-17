@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260804T000000
 DTEND;TZID=America/Chicago:20260804T020000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:c5420e4756ba400b3a5a@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -26,7 +26,7 @@ SUMMARY:[IA] Docket Nos. HLP-2024-0001\, et al | Open Meeting & Closed Ses
  sion Deliberation
 DTSTART:20260804T180000Z
 DTEND:20260804T200000Z
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:70f0ad88f3ade342d6a5@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -51,7 +51,7 @@ SUMMARY:[IA] Docket No. TF-2025-0007 | Open Meeting & Closed Session Delib
  eration
 DTSTART:20260804T200000Z
 DTEND:20260804T210000Z
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:df16a158248d62d1fa5d@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -76,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260805T000000
 DTEND;TZID=America/Chicago:20260805T020000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:cafa94052c2b025edfc3@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -90,7 +90,7 @@ SUMMARY:[IA] Docket No. RPU-2023-0002 | Open Meeting & Closed Session Deli
  beration
 DTSTART:20260805T180000Z
 DTEND:20260805T190000Z
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:62ca28b5457d594dd81d@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -115,7 +115,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260811T000000
 DTEND;TZID=America/Chicago:20260811T020000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:6a2e08bb5a3edc5690ad@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -128,7 +128,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:768de59949413fd280d4@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -141,7 +141,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260818T000000
 DTEND;TZID=America/Chicago:20260818T020000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:580eb49ed88c5420a0e5@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -154,7 +154,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Monthly Commission Meeting
 DTSTART;TZID=America/Chicago:20260819T090000
 DTEND;TZID=America/Chicago:20260819T120000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:80d855a3518c425b8b5b@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -174,7 +174,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Commission meeting agenda (PDF)
 DTSTART;TZID=America/Chicago:20260826T000000
 DTEND;TZID=America/Chicago:20260826T020000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:81899f20c64ee71695f9@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -188,7 +188,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Docket Nos. E-21292 & E-22550 Hearing
 DTSTART:20260826T150000Z
 DTEND:20260826T220000Z
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:61a20df59b80495ba9bc@psc-calendar
 CATEGORIES:IA,Evidentiary Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Evidentiary 
@@ -210,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Docket No. PSA-2026-0001 Hearing
 DTSTART:20260827T140000Z
 DTEND:20260827T220000Z
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:b0d3cb348f3bcda283ce@psc-calendar
 CATEGORIES:IA,Evidentiary Hearing
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Evidentiary 
@@ -231,7 +231,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Monthly Commission Meeting
 DTSTART;TZID=America/Chicago:20260909T090000
 DTEND;TZID=America/Chicago:20260909T120000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:cd97bf3a90449f7407a4@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting
@@ -249,7 +249,7 @@ BEGIN:VEVENT
 SUMMARY:[IA] Monthly Commission Meeting
 DTSTART;TZID=America/Chicago:20261008T090000
 DTEND;TZID=America/Chicago:20261008T120000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:0d7d89c1b49a0d5c415b@psc-calendar
 CATEGORIES:IA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Iowa Utilities Commission (IA)\nType: Open Meeting

@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[MS] Notice of Meeting
 DTSTART;TZID=America/Chicago:20260804T000000
 DTEND;TZID=America/Chicago:20260804T020000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:42f0ade51db8879d3bbd@psc-calendar
 CATEGORIES:MS,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Mississippi Public Service Commission (MS)\nType: 
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:[MS] Notice of Meeting
 DTSTART;TZID=America/Chicago:20260901T000000
 DTEND;TZID=America/Chicago:20260901T020000
-DTSTAMP:20260817T163256Z
+DTSTAMP:20260817T164936Z
 UID:e9ba30fa002705becebd@psc-calendar
 CATEGORIES:MS,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Mississippi Public Service Commission (MS)\nType: 
