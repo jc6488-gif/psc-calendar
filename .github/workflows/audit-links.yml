@@ -1,0 +1,121 @@
+name: Audit published links
+
+# Link rot is the failure mode this tool cannot see from the inside. A scrape
+# that breaks shows red on the health panel; a link that quietly starts
+# pointing at a "no documents" placeholder, or at a page a redesign emptied,
+# looks perfectly healthy from here and is only discovered by clicking it.
+#
+# Weekly rather than daily: 260+ URLs, with a real browser for the JS-built
+# ones, is several minutes of other people's bandwidth. Link rot happens on
+# the timescale of site redesigns, not hours.
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"      # Mondays, 12:00 UTC (8am ET)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: audit-links
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+
+      # --live audits what is actually published, not what this checkout
+      # would build. Those differ whenever a commission blocks CI's IP.
+      - name: Audit every published link
+        id: audit
+        continue-on-error: true
+        env:
+          PSCAL_USER_AGENT: >-
+            Mozilla/5.0 (compatible; psc-calendar/1.0; regulatory calendar
+            aggregator; +https://github.com/${{ github.repository }})
+        run: python tools/audit_links.py --live --quiet --json audit.json
+
+      - name: Report broken links
+        if: always()
+        continue-on-error: true
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            if (!fs.existsSync('audit.json')) return;
+            const a = JSON.parse(fs.readFileSync('audit.json', 'utf8'));
+            const title = 'Link health: published links that cannot be verified';
+            const existing = (await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'link-health',
+            })).data[0];
+
+            if (!a.problems.length) {
+              if (existing) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner, repo: context.repo.repo,
+                  issue_number: existing.number,
+                  body: 'Every published link resolves and holds its event again. Closing.',
+                });
+                await github.rest.issues.update({
+                  owner: context.repo.owner, repo: context.repo.repo,
+                  issue_number: existing.number, state: 'closed',
+                });
+              }
+              return;
+            }
+
+            const c = a.counts;
+            const body = [
+              `${a.problems.length} link(s) out of ${a.checked} are DEAD or lead to a`,
+              `page that does not contain the event, as of ${new Date().toISOString().slice(0,10)}.`,
+              '',
+              `OK ${c.ok} · iframe ${c.iframe} · unreadable ${c.nocheck} · mixed ${c.mixed} ·`,
+              `**unrelated ${c.unrelated}** · **dead ${c.dead}**`,
+              '',
+              'A link that resolves but does not hold its event is the worse case:',
+              'it looks fine from here and only fails when she clicks it.',
+              '',
+              '| Verdict | Events | Link | Example event not found on it |',
+              '|---|---|---|---|',
+              ...a.problems.map(p => {
+                const ex = p.examples[0];
+                const e = ex ? `${ex.commission} ${ex.start} ${ex.title}` : '';
+                return `| \`${p.verdict}\` | ${p.events} | ${p.url.slice(0, 90)} | ${e.slice(0, 80).replace(/\|/g, '/')} |`;
+              }),
+              '',
+              'Reproduce with `python3 tools/audit_links.py --live --quiet`.',
+              'Usually the destination moved: set or correct `public_url` on the',
+              'source in `data/commissions.yaml`. See the "Links" section of CLAUDE.md.',
+              '',
+              'Do NOT fix this by deleting the events - see the note there on the',
+              'staleness rule that removed 19 real hearings.',
+            ].join('\n');
+
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['link-health'],
+              });
+            }

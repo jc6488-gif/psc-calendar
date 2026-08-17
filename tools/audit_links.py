@@ -186,6 +186,8 @@ def main() -> int:
     ap.add_argument("--live", action="store_true", help="audit the published site")
     ap.add_argument("--only", nargs="*", help="limit to these commission codes")
     ap.add_argument("--quiet", action="store_true", help="only show problems")
+    ap.add_argument("--json", metavar="PATH",
+                    help="also write the findings as JSON (used by CI)")
     args = ap.parse_args()
 
     events = load_events(args)
@@ -217,6 +219,21 @@ def main() -> int:
           f"NOCHECK {len(nochk)} · MIXED {len(mixed)} · UNRELATED {len(unrel)} · "
           f"DEAD {len(dead)}")
     print(f"{bad_events} of {len(events)} events have a link that cannot be verified")
+
+    if args.json:
+        Path(args.json).write_text(json.dumps({
+            "checked": n,
+            "counts": {"ok": len(ok), "iframe": len(iframe), "nocheck": len(nochk),
+                       "mixed": len(mixed), "unrelated": len(unrel), "dead": len(dead)},
+            "problems": [{
+                "url": r["url"],
+                "verdict": r["verdict"],
+                "events": r["events"],
+                "examples": [{"commission": e["commission"], "start": e["start"][:10],
+                              "title": e["title"][:120]}
+                             for e in (r.get("misses") or [])[:5]],
+            } for r in dead + unrel],
+        }, indent=1))
     return 1 if (dead or unrel) else 0
 
 

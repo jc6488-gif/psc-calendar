@@ -361,6 +361,32 @@ concluding anything about it.
   exact commission+datetime and most are distinct - IN runs four different
   hearings at 09:30.
 
+### Which fixes last, and which rot (read before "fixing" a link)
+
+This tool holds no stored events. `docs/` is rebuilt from zero every run, so
+**there is no such thing as deleting a bad event** - hand-remove one and it
+returns tomorrow morning. Every fix is necessarily a rule or a registry entry,
+and the two age very differently:
+
+**Durable — general rules, no per-site knowledge, work on all 54 and on the
+55th:** title-first classification, `is_noise`, `is_machine_link`,
+`is_placeholder_link`, `is_unusable_link`, `_collapse_shared_links`,
+midnight → all-day, leading time + timezone stripping, the dedupe clock guard,
+docket-based merging of a vague record into a timed one. These are the ones
+worth adding to.
+
+**Rots — per-commission facts that a redesign invalidates:** every `url` and
+`public_url` in `data/commissions.yaml`, the year-hardcoded NJ and SD and OK
+URLs, and `_BROKEN_HOSTS` in `classify.py` (those two hosts will be fixed by
+their owners one day and the entries should come out).
+
+The health panel catches a scrape that breaks. **`audit-links.yml` catches the
+other kind** - a link that still resolves but now points at a placeholder or an
+emptied page, which looks perfectly healthy from inside and only fails when she
+clicks it. Weekly on Mondays, because link rot moves at the speed of site
+redesigns; it opens a `link-health` issue naming each bad link and an example
+event that is not on it.
+
 ### The daily refresh, and what can quietly stop it
 
 `.github/workflows/refresh.yml` runs at **10:00 UTC daily** (6am ET) with
