@@ -184,7 +184,9 @@ def dedupe(events: list[Event]) -> list[Event]:
     # same commission already has a specific event - it is the same meeting
     # under a poorer name.
     GENERIC = {"open meeting", "commission meeting", "meeting", "hearing",
-               "administrative session", "agenda meeting", "regular meeting"}
+               "administrative session", "agenda meeting", "regular meeting",
+               "conference", "commission conference", "open meeting conference",
+               "all commissioners"}
     by_day: dict[tuple, list[Event]] = {}
     for e in merged:
         by_day.setdefault((e.commission, e.start.date()), []).append(e)
@@ -208,6 +210,49 @@ def dedupe(events: list[Event]) -> list[Event]:
             # every variant is generic: they are one meeting, keep the richest
             keep = max(generic, key=_rank)
             drop.update(id(e) for e in generic if e is not keep)
+    # --- second pass: the same meeting described two ways -------------------
+    # Two sources rarely word a meeting identically. Tennessee posts "TPUC
+    # Commission Conference" and "Notice and Agenda for Commission
+    # Conference"; the RRC's ICS says "CONFERENCE" where its web page says
+    # "RRC open meeting (conference)". After stripping filler, one title
+    # contains the other - that is one meeting, not two.
+    #
+    # NOTE: we deliberately do NOT merge on (commission, date, time) alone.
+    # 120 events currently share an exact commission+datetime and most are
+    # genuinely distinct - Indiana runs four different hearings at 09:30.
+    _FILLER = re.compile(r"\b(?:notice|notices|agenda|agendas|and|for|of|the|a|an|"
+                         r"remote|virtual|in|re|no|nos|pro|url|location|summary|notes)\b")
+
+    def _norm(t: str) -> str:
+        t = t.lower()
+        t = re.split(r"\burl\s*:", t)[0]           # SC appends a livestream URL
+        t = _FILLER.sub(" ", t)
+        t = re.sub(r"[^a-z0-9]+", " ", t)
+        return " ".join(t.split())
+
+    for group in by_day.values():
+        alive = [e for e in group if id(e) not in drop]
+        for i in range(len(alive)):
+            a = alive[i]
+            if id(a) in drop:
+                continue
+            na = _norm(a.title)
+            if not na:
+                continue
+            for j in range(i + 1, len(alive)):
+                b = alive[j]
+                if id(b) in drop:
+                    continue
+                nb = _norm(b.title)
+                if not nb:
+                    continue
+                if na == nb or na in nb or nb in na:
+                    loser = a if _rank(a) < _rank(b) else b
+                    winner = b if loser is a else a
+                    winner.dockets = sorted(set(winner.dockets) | set(loser.dockets))
+                    drop.add(id(loser))
+                    if loser is a:
+                        break
     return [e for e in merged if id(e) not in drop]
 
 

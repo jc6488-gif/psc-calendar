@@ -71,6 +71,10 @@ commissions:
         strategy: auto
       - url: https://psc.alabama.gov/
         strategy: date_regex
+      # NOTE 2026-08-17: pscpublicaccess RSS/PSC/RecentHearingsRssFeed.aspx is
+      # NOT configured - it throws an ASP.NET 500 ("These columns don't
+      # currently have unique values") and, when it does answer, its titles
+      # are the hearing LOCATION rather than the matter. Their bug.
     notes: Alabama Power (SO), Spire Alabama (SR). Rate Stabilization & Equalization (RSE) filings are the key recurring date, not classic rate cases.
 
   - code: AK

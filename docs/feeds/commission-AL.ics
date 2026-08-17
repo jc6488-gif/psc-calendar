@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[AL] ALABAMA POWER COMPANY
 DTSTART;TZID=America/Chicago:20260812T000000
 DTEND;TZID=America/Chicago:20260812T020000
-DTSTAMP:20260817T155027Z
+DTSTAMP:20260817T155237Z
 UID:b03a22c487c456823223@psc-calendar
 CATEGORIES:AL,Evidentiary Hearing
 DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Evid
@@ -35,7 +35,7 @@ SUMMARY:[AL] TR2641219 HEARING POSTPONEMENT for RIDES ALL KINDS LLC\, D/B/
   ALL KINDS LLC\, D/B/A RIDES ALL KINDS
 DTSTART;TZID=America/Chicago:20260817T000000
 DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260817T155027Z
+DTSTAMP:20260817T155237Z
 UID:b6a989a8e88e4036c04d@psc-calendar
 CATEGORIES:AL,Evidentiary Hearing
 DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Evid
@@ -49,56 +49,5 @@ DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Evid
 PRIORITY:5
 URL:https://www.pscpublicaccess.alabama.gov/pscpublicaccess/page/default/p
  ortal.aspx
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[AL] Location: Carl L. Evans Chief Administrative Law Judge Hearin
- g Complex\, RSA Union Building\, 100 North Union Street\, Room 900\, Montg
- omery\, Alabama Hearing Description: INSTITUTION OF INVESTIGATION OF CAMP 
- HILL UTILITY BOARD Companies: CAMP HILL U
-DTSTART;TZID=America/Chicago:20260817T000000
-DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260817T155027Z
-UID:1ca579265f7b8dcf7b38@psc-calendar
-CATEGORIES:AL,Evidentiary Hearing
-DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Evid
- entiary Hearing\n\nUpcoming Hearings Hearings scheduled from 8/17/2026 thr
- ough 9/17/2026 Hearing Date Status Docket Details 8/25/2026 1:00:00 PM Sch
- eduled 33639 Location: Carl L. Evans Chief Administrative Law Judge Hearin
- g Complex\, RSA Union Building\, 100 North Union Street\, Room 900\, Montg
- omery\, Alabama Hearing Description: INSTITUTION OF INVESTIGATION OF CAMP 
- HILL UTILITY BOARD Companies: CAMP HILL UTILITIES BOARD\, and CAMP HILL UT
- ILITY BOARD and STATE OF ALABAMA OFFICE OF THE ATTORNEY GENERAL 8/25/2026 
- 10:00:00 AM Scheduled 33724 Location: Carl L. Evans Chief Administrative L
- aw Judge Hearing Complex\, RSA Uni\n\nSource: https://www.pscpublicaccess.
- alabama.gov/pscpublicaccess/RSS/PSC/RecentHearingsRssFeed.aspx
-PRIORITY:5
-URL:https://www.pscpublicaccess.alabama.gov/pscpublicaccess/RSS/PSC/Recent
- HearingsRssFeed.aspx
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[AL] Location: Carl L. Evans Chief Administrative Law Judge Hearin
- g Complex\, RSA Union Building\, 100 North Union Street\, Room 900\, Montg
- omery\, Alabama Hearing Description: INSTITUTION OF INVESTIGATION OF CAMP 
- HILL UTILITY BOARD Companies: CAMP HILL U
-DTSTART;TZID=America/Chicago:20260825T000000
-DTEND;TZID=America/Chicago:20260825T020000
-DTSTAMP:20260817T155027Z
-UID:287ab390029205b0205f@psc-calendar
-CATEGORIES:AL,Evidentiary Hearing
-DESCRIPTION:Commission: Alabama Public Service Commission (AL)\nType: Evid
- entiary Hearing\n\n8/25/2026 1:00:00 PM | Scheduled | 33639 | 33639 | Loca
- tion: Carl L. Evans Chief Administrative Law Judge Hearing Complex\, RSA U
- nion Building\, 100 North Union Street\, Room 900\, Montgomery\, Alabama H
- earing Description: INSTITUTION OF INVESTIGATION OF CAMP HILL UTILITY BOAR
- D Companies: CAMP HILL UTILITIES BOARD\, and CAMP HILL UTILITY BOARD and S
- TATE OF ALABAMA OFFICE OF THE ATTORNEY GENERAL | Location: Carl L. Evans C
- hief Administrative Law Judge Hearing Complex\, RSA Union Building\, 100 N
- orth Union Street\, Room 900\, Montgomery\, Alabama Hearing Description: I
- NSTITUTION OF INVESTIGATION OF CAMP HI\n\nSource: https://www.pscpublicacc
- ess.alabama.gov/pscpublicaccess/PSC/DocketDetailsPage.aspx?DocketId=6d7ad4
- c6-10af-432f-8575-2a53286ec56e
-PRIORITY:5
-URL:https://www.pscpublicaccess.alabama.gov/pscpublicaccess/PSC/DocketDeta
- ilsPage.aspx?DocketId=6d7ad4c6-10af-432f-8575-2a53286ec56e
 END:VEVENT
 END:VCALENDAR

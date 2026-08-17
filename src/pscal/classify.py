@@ -68,6 +68,7 @@ NOISE = [
     re.compile(r"^\s*(?:copyright|privacy|accessibility|contact us|site map|back to top)", re.I),
     re.compile(r"^\s*(?:previous|next|page \d+|view all|read more|learn more)\s*$", re.I),
     re.compile(r"^\s*\d{1,2}\s*$"),
+    re.compile(r"^\s*location\s*:", re.I),
     # Site navigation swept up as an "event" - Oregon's eDockets header did
     # this. Two or more nav labels in one title is never a real meeting.
     re.compile(r"(?:About Us|Contact Us|Site ?map|Skip to (?:main|content)|"
@@ -105,6 +106,7 @@ def clean_title(title: str) -> str:
 _STOP = {
     "agenda", "agendas", "final", "amended", "pdf", "minutes", "minute",
     "recording", "recordding", "watch", "live", "posted", "view", "download",
+    "all", "commissioners", "commissioner",
     "attachments", "attachment", "date", "time", "times",
     "to", "through", "of", "the", "and", "a", "an", "for", "am", "pm", "pt",
     "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
