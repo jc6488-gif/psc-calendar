@@ -115,7 +115,11 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             used_strategies.append(f"{used}({len(events)})")
             used_urls.append(url)
         else:
-            errors.append(f"{url} [{used}] -> parsed 0 usable events")
+            if dropped_types:
+                errors.append(f"{url} [{used}] -> all {sum(dropped_types.values())} "
+                              f"events excluded by current type/sector settings")
+            else:
+                errors.append(f"{url} [{used}] -> parsed 0 usable events")
 
     if all_events:
         merged = dedupe(all_events)
@@ -128,9 +132,23 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             duration_s=time.monotonic() - started,
         )
 
+    # A commission whose pages scraped cleanly but whose every event was
+    # excluded by the desk's type/sector settings is NOT a broken scraper.
+    # Showing it the same red as a 403 would teach her to distrust the panel.
+    hard_errors = [e for e in errors if "excluded by current" not in e]
+    filtered_only = bool(dropped_types) and not hard_errors
+    if dropped_types:
+        # Lead with the filtering fact - it is the dominant reason this
+        # commission is empty, and it is a settings choice, not a breakage.
+        msg = (f"scraped fine - all {sum(dropped_types.values())} events are types "
+               f"you excluded ({', '.join(sorted(dropped_types))})")
+        if hard_errors:
+            msg += f" ;; ALSO {len(hard_errors)} source(s) failed: " + hard_errors[0][:160]
+    else:
+        msg = " ;; ".join(errors[:3]) or "no sources configured"
     return ScrapeResult(
         commission=code, commission_name=spec["name"], tier=spec.get("tier", "full"),
-        ok=False, error=" ;; ".join(errors[:3]) or "no sources configured",
+        ok=False, filtered_only=filtered_only, error=msg,
         dropped=dict(dropped_types),
         duration_s=time.monotonic() - started,
     )

@@ -136,6 +136,7 @@ class ScrapeResult:
     source_url: str = ""
     error: str = ""
     dropped: dict = field(default_factory=dict)   # {type label: count} filtered out
+    filtered_only: bool = False   # scraped fine; everything excluded by settings
     duration_s: float = 0.0
 
     def to_dict(self) -> dict:
@@ -149,5 +150,6 @@ class ScrapeResult:
             "source_url": self.source_url,
             "error": self.error[:500],
             "dropped": self.dropped,
+            "filtered_only": self.filtered_only,
             "duration_s": round(self.duration_s, 2),
         }

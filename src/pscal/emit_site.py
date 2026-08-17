@@ -250,9 +250,10 @@ TEMPLATE = r"""<!DOCTYPE html>
   <summary>Source health — which commissions scraped cleanly</summary>
   <div class="card" style="margin-top:8px">
     <p style="margin:0 0 4px;color:var(--text-secondary);font-size:13px">
-      A failing source means that commission's dates are missing from the table below —
-      not that it has none scheduled. Check the source site directly before concluding
-      a docket is quiet.
+      <b>✓</b> reporting &middot; <b>–</b> scraped fine, but every event was one of the
+      types/sectors you excluded &middot; <b>✕ / !</b> the scrape failed, so that
+      commission's dates are missing from the table below — <i>not</i> that it has none
+      scheduled. Check the source site directly before concluding a docket is quiet.
     </p>
     <div class="health" id="health"></div>
   </div>
@@ -442,8 +443,13 @@ TEMPLATE = r"""<!DOCTYPE html>
 
   // ---- health ------------------------------------------------------------
   $("health").innerHTML = DATA.commissions.map((c) => {
-    const color = c.ok ? "var(--good)" : (c.tier === "core" ? "var(--critical)" : "var(--warning)");
-    const mark = c.ok ? "✓" : (c.tier === "core" ? "✕" : "!");
+    // Three states, not two: reporting / excluded-by-your-settings / broken.
+    // A commission filtered to zero is working - showing it the same red as
+    // a 403 would make the panel untrustworthy.
+    const color = c.ok ? "var(--good)"
+      : c.filtered_only ? "var(--muted)"
+      : (c.tier === "core" ? "var(--critical)" : "var(--warning)");
+    const mark = c.ok ? "✓" : c.filtered_only ? "–" : (c.tier === "core" ? "✕" : "!");
     const tip = c.ok ? `${c.strategy_used} · ${c.source_url}` : c.error;
     return `<div class="hcell" title="${esc(tip)}">
       <span style="color:${color};font-weight:700">${mark}</span>
