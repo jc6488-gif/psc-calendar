@@ -10,9 +10,9 @@ X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:[MI] Open meeting
-DTSTART;TZID=America/Detroit:20260811T000000
-DTEND;TZID=America/Detroit:20260811T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+DTSTAMP:20260817T180220Z
 UID:055cd54eb50f59aaf0f5@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -23,9 +23,9 @@ URL:https://www.michigan.gov/mpsc/commission/all-events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MI] Open meeting
-DTSTART;TZID=America/Detroit:20260812T000000
-DTEND;TZID=America/Detroit:20260812T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+DTSTAMP:20260817T180220Z
 UID:c6d7cf99e83bc446c767@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -36,9 +36,9 @@ URL:https://www.michigan.gov/mpsc/commission/all-events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MI] August 27\, 2026 Commission Meeting
-DTSTART;TZID=America/Detroit:20260827T000000
-DTEND;TZID=America/Detroit:20260827T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20260817T180220Z
 UID:1c503fbe48f801ff3707@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -52,9 +52,9 @@ URL:https://www.michigan.gov/mpsc/commission/events/2026/08/27/august-27-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MI] Open meeting
-DTSTART;TZID=America/Detroit:20260903T000000
-DTEND;TZID=America/Detroit:20260903T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+DTSTAMP:20260817T180220Z
 UID:2deb581da45ed49f079d@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -65,9 +65,9 @@ URL:https://www.michigan.gov/mpsc/commission/all-events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MI] September 10\, 2026 Commission Meeting
-DTSTART;TZID=America/Detroit:20260910T000000
-DTEND;TZID=America/Detroit:20260910T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+DTSTAMP:20260817T180220Z
 UID:39a774df27e1f7b75a4a@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -81,9 +81,9 @@ URL:https://www.michigan.gov/mpsc/commission/events/2026/09/10/september-1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MI] October 1\, 2026 Commission Meeting
-DTSTART;TZID=America/Detroit:20261001T000000
-DTEND;TZID=America/Detroit:20261001T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+DTSTAMP:20260817T180220Z
 UID:c81f279d002d711755b2@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -97,9 +97,9 @@ URL:https://www.michigan.gov/mpsc/commission/events/2026/10/01/october-1-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MI] October 15\, 2026 Commission Meeting
-DTSTART;TZID=America/Detroit:20261015T000000
-DTEND;TZID=America/Detroit:20261015T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DTSTAMP:20260817T180220Z
 UID:150484bbf585a65f16c3@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -113,9 +113,9 @@ URL:https://www.michigan.gov/mpsc/commission/events/2026/10/15/october-15-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MI] November 5\, 2026 Commission Meeting
-DTSTART;TZID=America/Detroit:20261105T000000
-DTEND;TZID=America/Detroit:20261105T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+DTSTAMP:20260817T180220Z
 UID:67c9890ee0ca5a5a6c19@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -129,9 +129,9 @@ URL:https://www.michigan.gov/mpsc/commission/events/2026/11/05/november-5-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MI] December 8\, 2026 Commission Meeting
-DTSTART;TZID=America/Detroit:20261208T000000
-DTEND;TZID=America/Detroit:20261208T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+DTSTAMP:20260817T180220Z
 UID:c73e308bc100d69454cb@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope
@@ -145,9 +145,9 @@ URL:https://www.michigan.gov/mpsc/commission/events/2026/12/08/december-8-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MI] December 17\, 2026 Commission Meeting
-DTSTART;TZID=America/Detroit:20261217T000000
-DTEND;TZID=America/Detroit:20261217T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+DTSTAMP:20260817T180220Z
 UID:ef52f80fe95e7213e3bd@psc-calendar
 CATEGORIES:MI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Michigan Public Service Commission (MI)\nType: Ope

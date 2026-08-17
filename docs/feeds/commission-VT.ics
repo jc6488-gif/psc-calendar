@@ -12,9 +12,9 @@ BEGIN:VEVENT
 SUMMARY:[VT] PUC Case No. 24-2797-PET-Evidentiary Hearing-Petition of Verm
  ont Renewable Gas\, LLC for a certificate of public good\, pursuant to 30 
  V.S.A. § 248\, to construct and operate a 2.2 MW electric generatio
-DTSTART;TZID=America/New_York:20260824T000000
-DTEND;TZID=America/New_York:20260824T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+DTSTAMP:20260817T180220Z
 UID:9d4172f956134ace6863@psc-calendar
 CATEGORIES:VT,Evidentiary Hearing
 DESCRIPTION:Commission: Vermont Public Utility Commission (VT)\nType: Evid

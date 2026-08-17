@@ -10,9 +10,9 @@ X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: August 27\, 2026
-DTSTART;TZID=America/New_York:20260827T000000
-DTEND;TZID=America/New_York:20260827T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20260817T180220Z
 UID:090f3c84dc901565beb7@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -24,9 +24,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Next Public Meeting: Thursday\, August 27\, 2026 View 2026-20
  27 Meeting Schedule (PDF)
-DTSTART;TZID=America/New_York:20260827T000000
-DTEND;TZID=America/New_York:20260827T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20260817T180220Z
 UID:2ed365151e78d6b390c3@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -37,9 +37,9 @@ URL:https://www.puc.pa.gov/media/3926/2026-2027-pm-schedule.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: September 10\, 2026
-DTSTART;TZID=America/New_York:20260910T000000
-DTEND;TZID=America/New_York:20260910T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+DTSTAMP:20260817T180220Z
 UID:9846b1ec094a70d917e3@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -50,9 +50,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: October 01\, 2026
-DTSTART;TZID=America/New_York:20261001T000000
-DTEND;TZID=America/New_York:20261001T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+DTSTAMP:20260817T180220Z
 UID:c0f73b62527d803199c2@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -63,9 +63,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: October 22\, 2026
-DTSTART;TZID=America/New_York:20261022T000000
-DTEND;TZID=America/New_York:20261022T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DTSTAMP:20260817T180220Z
 UID:64bd7bed1bf62fec72de@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -76,9 +76,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: November 05\, 2026
-DTSTART;TZID=America/New_York:20261105T000000
-DTEND;TZID=America/New_York:20261105T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+DTSTAMP:20260817T180220Z
 UID:af1ddec6fe06cfbef577@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -89,9 +89,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: November 19\, 2026
-DTSTART;TZID=America/New_York:20261119T000000
-DTEND;TZID=America/New_York:20261119T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+DTSTAMP:20260817T180220Z
 UID:d7b8877b2e38d89e0079@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -102,9 +102,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: December 03\, 2026
-DTSTART;TZID=America/New_York:20261203T000000
-DTEND;TZID=America/New_York:20261203T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+DTSTAMP:20260817T180220Z
 UID:b3c4a7a5d7d58a6de3dc@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -115,9 +115,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: December 17\, 2026
-DTSTART;TZID=America/New_York:20261217T000000
-DTEND;TZID=America/New_York:20261217T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+DTSTAMP:20260817T180220Z
 UID:a0cbd15162618eb31892@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -128,9 +128,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: January 14\, 2027
-DTSTART;TZID=America/New_York:20270114T000000
-DTEND;TZID=America/New_York:20270114T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+DTSTAMP:20260817T180220Z
 UID:f6738dbc6b5eea88afbb@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -141,9 +141,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: January 28\, 2027
-DTSTART;TZID=America/New_York:20270128T000000
-DTEND;TZID=America/New_York:20270128T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+DTSTAMP:20260817T180220Z
 UID:f870403f04b26885ba65@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -154,9 +154,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: February 18\, 2027
-DTSTART;TZID=America/New_York:20270218T000000
-DTEND;TZID=America/New_York:20270218T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+DTSTAMP:20260817T180220Z
 UID:91dc2acfc12b1552d1e1@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -167,9 +167,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: March 11\, 2027
-DTSTART;TZID=America/New_York:20270311T000000
-DTEND;TZID=America/New_York:20270311T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+DTSTAMP:20260817T180220Z
 UID:5ebd1269f85109fb9b70@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -180,9 +180,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: March 25\, 2027
-DTSTART;TZID=America/New_York:20270325T000000
-DTEND;TZID=America/New_York:20270325T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+DTSTAMP:20260817T180220Z
 UID:2c94ae9d9f11da025ec9@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -193,9 +193,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: April 08\, 2027
-DTSTART;TZID=America/New_York:20270408T000000
-DTEND;TZID=America/New_York:20270408T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+DTSTAMP:20260817T180220Z
 UID:6d64ffc304d8ee4e9f0e@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -206,9 +206,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: April 29\, 2027
-DTSTART;TZID=America/New_York:20270429T000000
-DTEND;TZID=America/New_York:20270429T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+DTSTAMP:20260817T180220Z
 UID:f5c8e028335e16319285@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -219,9 +219,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: May 13\, 2027
-DTSTART;TZID=America/New_York:20270513T000000
-DTEND;TZID=America/New_York:20270513T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+DTSTAMP:20260817T180220Z
 UID:076fd3e6c3331dfb054b@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -232,9 +232,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: May 27\, 2027
-DTSTART;TZID=America/New_York:20270527T000000
-DTEND;TZID=America/New_York:20270527T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+DTSTAMP:20260817T180220Z
 UID:03de9af680a75b176dd9@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
@@ -245,9 +245,9 @@ URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[PA] Open meeting: June 10\, 2027
-DTSTART;TZID=America/New_York:20270610T000000
-DTEND;TZID=America/New_York:20270610T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+DTSTAMP:20260817T180220Z
 UID:eebde2237d5a3071bed3@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:

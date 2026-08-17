@@ -115,7 +115,13 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
                 title=title,
                 start=r["start"],
                 end=r.get("end"),
-                all_day=bool(r.get("all_day")),
+                # A midnight start means the source gave a DATE and no time.
+                # Rendering that as "12:00 AM" asserts an hour nobody
+                # published - it reads as a real midnight meeting. No
+                # commission sits at midnight, so treat it as all-day and let
+                # the dashboard and the .ics say "all day" instead.
+                all_day=bool(r.get("all_day"))
+                or (r["start"].hour == 0 and r["start"].minute == 0),
                 location=r.get("location", ""),
                 description=desc,
                 url=link,

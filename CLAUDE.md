@@ -186,7 +186,32 @@ A source may now declare `public_url:` - the human page showing the same
 calendar. The pipeline substitutes it, and falls back to the commission's
 `home` if the registry has not named one, so a raw endpoint can never reach a
 link she is invited to follow. Seven are configured (CO, IA, LA, MD, MN,
-TX-RRC, UT), each fetched and confirmed.
+TX-RRC, UT).
+
+**`public_url` must be the human VIEW OF THAT FEED, not a related page.**
+This was got wrong on the first attempt and she caught it within the hour:
+Louisiana's docket hearings were pointed at `/Agenda`, which lists only the
+monthly Business & Executive Sessions and none of the T-/U- hearings; the
+Railroad Commission's docketed hearings were pointed at the open-meetings
+page, which lists the Commissioners' conference dates instead. Both pages
+were real, live and topically adjacent - and neither contained the event.
+The test is not "does this page load" but **"is the event on it?"** Confirm
+by finding the calendar's own embed: CO's page carries the Google Calendar
+id we scrape (base64 in the iframe src), UT's is on `psc.utah.gov` rather
+than the state notice board, RRC's Hearings Calendar embeds the Outlook feed.
+
+### Never publish a time nobody stated
+
+An event whose source gave a DATE and no hour arrives at midnight. Rendering
+that as "12:00 AM" asserts an hour nobody published, and it reads as a real
+midnight meeting - **191 of 726 events were doing this.** A midnight start is
+now marked `all_day`, so the dashboard and the `.ics` say "all day". No
+commission sits at midnight; if one ever does, it will be wrong in the
+harmless direction.
+
+Times that ARE shown come straight from the source and are exact - spot-check
+before assuming otherwise (the RRC ICS gives `20260827T090000` for the two
+Aug 27 OG dockets, the LPSC portal 09:30 for its T- hearings).
 
 **When a link is bad, fix the link.** Deleting the event loses a real hearing
 to cure a cosmetic fault - the exact trade the first prime directive forbids.
@@ -273,7 +298,7 @@ src/pscal/
 tools/probe.py          diagnose one commission — reach for this first
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  141 tests, all offline
+tests/                  142 tests, all offline
 ```
 
 ### The extraction chain
@@ -350,7 +375,7 @@ survivors would throw away the meetings still to come.
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 141 tests, no network
+python3 -m pytest tests/ -q                    # 142 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/

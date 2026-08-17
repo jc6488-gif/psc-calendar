@@ -628,6 +628,17 @@ def test_machine_links_are_recognised(url, machine):
     assert classify.is_machine_link(url) is machine
 
 
+def test_month_grid_day_numbers_are_not_a_meeting():
+    """Minnesota's Legistar calendar produced one "event" that was the month
+    grid's day numbers: "Aug, 2026: 27 28 29 30 31 3 4 5 6 7 10 11 ..." """
+    assert classify.is_noise(
+        "Aug, 2026: 27 28 29 30 31 3 4 5 6 7 10 11 12 13 14 17 18 19 20 21 "
+        "24 25 26 27 28 31 1 Sep 2 3 4")
+    # A real title carrying a couple of numbers survives
+    assert not classify.is_noise("Docket Nos. E-21292 & E-22550 Hearing")
+    assert not classify.is_noise("PUC Agenda Meeting 8/27/2026 at 10:00")
+
+
 def test_room_bookings_are_not_meetings():
     """Missouri books its hearing rooms on the calendar it publishes meetings
     on, and the word "hearing" made every booking an event."""

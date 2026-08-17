@@ -10,9 +10,9 @@ X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:[TN] Notice of Hearing in Docket 26-00056
-DTSTART;TZID=America/Chicago:20260806T000000
-DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+DTSTAMP:20260817T180220Z
 UID:9d11f2d2fc40ed662002@psc-calendar
 CATEGORIES:TN,Evidentiary Hearing
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ev
@@ -28,9 +28,9 @@ URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/oth
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[TN] Notice of Hearing in Docket 26-00054
-DTSTART;TZID=America/Chicago:20260806T000000
-DTEND;TZID=America/Chicago:20260806T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+DTSTAMP:20260817T180220Z
 UID:1bff6768787468297834@psc-calendar
 CATEGORIES:TN,Evidentiary Hearing
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Ev
@@ -46,9 +46,9 @@ URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/oth
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[TN] Notice and Agenda for Commission Conference
-DTSTART;TZID=America/Chicago:20260817T000000
-DTEND;TZID=America/Chicago:20260817T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+DTSTAMP:20260817T180220Z
 UID:94efab2edaa7821ece32@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
@@ -63,9 +63,9 @@ URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[TN] Notice of April Commission Conference WebEx Meeting Access
-DTSTART;TZID=America/Chicago:20270216T000000
-DTEND;TZID=America/Chicago:20270216T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+DTSTAMP:20260817T180220Z
 UID:2262cd04a98c8e395a5e@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
@@ -81,9 +81,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[TN] Notice of April Commission Conference Held Electronically via
   WebEx
-DTSTART;TZID=America/Chicago:20270216T000000
-DTEND;TZID=America/Chicago:20270216T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+DTSTAMP:20260817T180220Z
 UID:7fc752cc58d4a1933580@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
@@ -98,9 +98,9 @@ URL:https://www.tn.gov/content/dam/tn/publicutility/documents/meetings/com
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[TN] Notice of April Commission Conference WebEx Meeting Access
-DTSTART;TZID=America/Chicago:20270412T000000
-DTEND;TZID=America/Chicago:20270412T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+DTSTAMP:20260817T180220Z
 UID:9719c99d4d0a65083a0d@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op
@@ -116,9 +116,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[TN] Notice of April Commission Conference Held Electronically via
   WebEx
-DTSTART;TZID=America/Chicago:20270412T000000
-DTEND;TZID=America/Chicago:20270412T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+DTSTAMP:20260817T180220Z
 UID:2f4359dff2e634905afb@psc-calendar
 CATEGORIES:TN,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Tennessee Public Utility Commission (TN)\nType: Op

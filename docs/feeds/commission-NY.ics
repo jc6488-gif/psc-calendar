@@ -10,9 +10,9 @@ X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:[NY] SEPTEMBER 2026 Public Service Commission Session
-DTSTART;TZID=America/New_York:20260917T000000
-DTEND;TZID=America/New_York:20260917T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DTSTAMP:20260817T180220Z
 UID:0c21acb9af9a310a6c07@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
@@ -27,9 +27,9 @@ URL:https://dps.ny.gov/event/september-2026-public-service-commission-sess
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NY] OCTOBER 2026 Public Service Commission Session
-DTSTART;TZID=America/New_York:20261015T000000
-DTEND;TZID=America/New_York:20261015T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DTSTAMP:20260817T180220Z
 UID:8146bd601a3e85c05827@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
@@ -44,9 +44,9 @@ URL:https://dps.ny.gov/event/october-2026-public-service-commission-sessio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NY] NOVEMBER 2026 Public Service Commission Session
-DTSTART;TZID=America/New_York:20261119T000000
-DTEND;TZID=America/New_York:20261119T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+DTSTAMP:20260817T180220Z
 UID:7fb30086e9fc1c74a1c3@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
@@ -61,9 +61,9 @@ URL:https://dps.ny.gov/event/november-2026-public-service-commission-sessi
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NY] DECEMBER 2026 Public Service Commission Session
-DTSTART;TZID=America/New_York:20261217T000000
-DTEND;TZID=America/New_York:20261217T020000
-DTSTAMP:20260817T173416Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+DTSTAMP:20260817T180220Z
 UID:3542fbb3b93eff2c8773@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope

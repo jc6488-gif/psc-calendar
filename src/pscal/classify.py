@@ -122,8 +122,17 @@ NOISE = [
 ]
 
 
+# A month-grid's day numbers, scraped as one event: Minnesota's Legistar
+# calendar produced "Aug, 2026: 27 28 29 30 31 3 4 5 6 7 10 11 12 13 14 ...".
+# Any title carrying a long run of bare day numbers is the calendar's
+# furniture, not a meeting on it.
+_DAY_RUN = re.compile(r"(?:\b\d{1,2}\b[\s,]+){5,}\b\d{1,2}\b")
+
+
 def is_noise(title: str) -> bool:
     if len(title.strip()) < 8:
+        return True
+    if _DAY_RUN.search(title or ""):
         return True
     return any(p.search(title) for p in NOISE)
 
