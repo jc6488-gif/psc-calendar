@@ -207,10 +207,10 @@ TEMPLATE = r"""<!DOCTYPE html>
     <option value="Low">Low relevance</option>
   </select>
   <select id="f-range" aria-label="Date range">
+    <option value="7">Next week</option>
+    <option value="14">Next 2 weeks</option>
     <option value="30">Next 30 days</option>
-    <option value="90" selected>Next 90 days</option>
-    <option value="180">Next 6 months</option>
-    <option value="9999">Everything</option>
+    <option value="90" selected>Next 3 months</option>
     <option value="past">Past 30 days</option>
   </select>
   <button class="chip" id="reset">Reset</button>
@@ -313,7 +313,8 @@ TEMPLATE = r"""<!DOCTYPE html>
     if (state.range === "past") {
       lo = new Date(startOfToday.getTime() - 30 * 864e5);
       hi = startOfToday;
-    } else if (state.range !== "9999") {
+    } else {
+      // 3 months is the furthest horizon the desk wants to see.
       hi = new Date(startOfToday.getTime() + Number(state.range) * 864e5);
     }
     return EV.filter((e) => {
