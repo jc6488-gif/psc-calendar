@@ -124,9 +124,8 @@ policy call for the user, the second is an engineering fix.
 
 | Code | Blocker | What would fix it |
 |---|---|---|
-| OH FL KY CT VA | JS-rendered calendars | Headless browser |
+| KY CT VA | JS-rendered calendars | Headless browser (VA's schedules are inside the DocketSearch SPA; KS moved to a Salesforce app) |
 | MT | PDF-only agenda | PDF extraction |
-| MI | 403s any UA naming a tool | Headless browser or contact |
 | WV NH AK | 403 to all automated clients | Contact the commission |
 | AR | DNS dead (their outage) | Retry daily (automatic) |
 | KS | Broken TLS chain | Cert workaround or their fix |
@@ -173,7 +172,17 @@ ics → rss → JSON-LD schema.org/Event → Tribe/Drupal JSON API
 floor, not a goal — if a commission lands there its events will be noisy, so hunt
 for a better URL first.
 
-**Two strategies are missing and are the highest-value next work:**
+**`strategy: browser` (2026-08-17) renders JS-built calendars** with headless
+Chromium, identifying honestly as psc-calendar, then hands the HTML to the
+ordinary chain. It unlocked MI (its CDN 403s tool-shaped UAs but serves a real
+browser engine), FL (schedule pages with docketed hearings) and OH (whose
+WebSphere portal exposes its featured hearing only through add-to-calendar
+links - parsed by the new `addtocalendar` extractor). CI installs Chromium via
+`playwright install --with-deps chromium`. VA and KS resisted: VA's schedules
+live inside the DocketSearch SPA and KS moved to a Salesforce app that errors
+headless.
+
+**One strategy is still missing and is the highest-value next work:**
 
 1. **PDF extraction** — Montana publishes only `Current-Agenda.pdf`; Colorado,
    Wyoming, Louisiana, Mississippi and Iowa all link dated agenda PDFs. `pdfplumber`

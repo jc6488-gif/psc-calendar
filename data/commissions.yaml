@@ -226,12 +226,18 @@ commissions:
     home: https://www.floridapsc.com
     docket_search: https://www.floridapsc.com/ClerkOffice/DocketFiling
     sources:
-      - url: https://www.floridapsc.com/Conferences/CommissionConferenceAgenda
-        strategy: auto
-      - url: https://www.floridapsc.com/Conferences/HearingSchedule
-        strategy: auto
-      - url: https://www.floridapsc.com/Home/Calendar
-        strategy: auto
+      # VERIFIED WORKING 2026-08-17 (browser strategy): floridapsc.com is JS-rendered -
+      # a plain fetch returns an empty shell. Rendered, the schedule pages
+      # carry docketed hearings (fuel cost recovery, need determinations)
+      # and the commission-conference calendar. The Commission Calendar PDF
+      # at /pscfiles/.../Agendas/calendar.pdf awaits the PDF strategy.
+      - url: https://www.floridapsc.com/schedule-of-events
+        strategy: browser
+        type_hint: evidentiary_hearing
+      - url: https://www.floridapsc.com/schedule-of-commission-conferences
+        strategy: browser
+        type_hint: open_meeting
+        label: Commission conference
     notes: Florida Public Utilities Co (CPK). Agenda Conferences are the decision dates; FPSC publishes a rolling hearing schedule separately.
 
   - code: GA
@@ -494,19 +500,14 @@ commissions:
     home: https://www.michigan.gov/mpsc
     docket_search: https://mi-psc.my.site.com/s/case-search
     sources:
-      # RE-AUDITED 2026-08-14: michigan.gov 403s any User-Agent that names a
-      # tool, including the Mozilla-compat form that satisfies OH/CO/VT. Only
-      # full browser impersonation gets through - declined as dishonest.
-      # Needs the headless-browser strategy (a real browser identifying as
-      # itself) or contact with the commission.
+      # VERIFIED WORKING 2026-08-17 (browser strategy): michigan.gov's CDN 403s any
+      # User-Agent that names a tool, but serves a real browser engine that
+      # identifies itself honestly. Headless Chromium renders the commission
+      # page; the ordinary parser chain then reads it.
       - url: https://www.michigan.gov/mpsc/commission
-        strategy: auto
+        strategy: browser
       - url: https://www.michigan.gov/mpsc/commission/all-events
-        strategy: auto
-      - url: https://www.michigan.gov/mpsc/commission/events
-        strategy: auto
-      - url: https://www.michigan.gov/mpsc/consumer/public-hearings
-        strategy: auto
+        strategy: browser
     notes: >-
       DTE Electric + DTE Gas (DTE), Consumers, I&M (AEP), WEC's Michigan Gas Utilities
       and UP operations (WEC). Michigan has a statutory 10-month rate case clock, so the
@@ -749,14 +750,17 @@ commissions:
     home: https://puco.ohio.gov
     docket_search: https://dis.puc.state.oh.us/
     sources:
-      # VERIFIED WORKING 2026-08-14: the WAF fake-404s any non-Mozilla
-      # User-Agent - fixed by the compat UA in fetch.py. /events is a 1.4MB
-      # JS shell with no server-rendered dates (removed); the hearing
-      # schedule and next-meeting agenda render server-side.
+      # VERIFIED WORKING 2026-08-17 (browser strategy): the WebSphere portal renders its
+      # featured hearing only via JavaScript, but exposes it fully in the
+      # page's add-to-calendar links (exact datetime, case number, address).
+      # CAVEAT: PUCO features ONE upcoming hearing at a time, so this is a
+      # rolling next-hearing feed, not a full schedule.
       - url: https://puco.ohio.gov/agendas-and-hearings/hearing-schedule/
-        strategy: auto
+        strategy: browser
+        type_hint: evidentiary_hearing
       - url: https://puco.ohio.gov/agendas-and-hearings/agenda-for-next-commission-meeting/
-        strategy: auto
+        strategy: browser
+        type_hint: open_meeting
       - url: https://puco.ohio.gov/news
         strategy: auto
     notes: >-

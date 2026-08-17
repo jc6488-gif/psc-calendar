@@ -46,7 +46,7 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
         url = source["url"]
         strategy = source.get("strategy", "auto")
         try:
-            raws, used = extract(url, strategy, tzname, now)
+            raws, used = extract(url, strategy, tzname, now, source.get("wait_for"))
         except Exception as e:
             errors.append(f"{url} [{strategy}] -> {type(e).__name__}: {e}")
             log.debug("%s: %s failed: %s", code, url, e)
@@ -160,7 +160,37 @@ def dedupe(events: list[Event]) -> list[Event]:
             best[k] = e
         else:
             cur.dockets = sorted(set(cur.dockets) | set(e.dockets))
-    return sorted(best.values(), key=lambda x: (x.start, x.commission))
+    merged = sorted(best.values(), key=lambda x: (x.start, x.commission))
+
+    # A generic fallback title ("Open meeting") adds nothing on a day when the
+    # same commission already has a specific event - it is the same meeting
+    # under a poorer name.
+    GENERIC = {"open meeting", "commission meeting", "meeting", "hearing",
+               "administrative session", "agenda meeting", "regular meeting"}
+    by_day: dict[tuple, list[Event]] = {}
+    for e in merged:
+        by_day.setdefault((e.commission, e.start.date()), []).append(e)
+
+    def _rank(x: Event) -> tuple:
+        timed = not x.all_day and (x.start.hour, x.start.minute) != (0, 0)
+        return (timed, len(x.dockets), len(x.description), bool(x.url), len(x.title))
+
+    drop: set[int] = set()
+    for group in by_day.values():
+        if len(group) < 2:
+            continue
+        generic = [e for e in group if e.title.strip().lower() in GENERIC]
+        if not generic:
+            continue
+        if len(generic) < len(group):
+            # a specific event exists that day - the generic ones are the
+            # same meeting under a poorer name
+            drop.update(id(e) for e in generic)
+        else:
+            # every variant is generic: they are one meeting, keep the richest
+            keep = max(generic, key=_rank)
+            drop.update(id(e) for e in generic if e is not keep)
+    return [e for e in merged if id(e) not in drop]
 
 
 def run(only: list[str] | None = None, workers: int = 6, no_cache: bool = False) -> int:

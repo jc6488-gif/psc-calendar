@@ -1123,6 +1123,128 @@ def discover_feeds(html: str, source_url: str) -> list[tuple[str, str]]:
     return uniq[:8]
 
 
+def from_addtocalendar_links(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
+    """"Add to calendar" buttons carry the event as structured data.
+
+    Ohio's portal renders its featured hearing this way - a data:text/calendar
+    href and a Google Calendar TEMPLATE link, both with the exact datetime,
+    case number and address - while the surrounding page is unparseable
+    WebSphere markup.
+    """
+    from urllib.parse import unquote, urlparse, parse_qs
+
+    soup = _soup(html)
+    out: list[RawEvent] = []
+    seen: set[tuple] = set()
+
+    def add(title, start, end, loc, link):
+        if not title or not start or not in_window(start, now):
+            return
+        key = (start, title[:60])
+        if key in seen:
+            return
+        seen.add(key)
+        out.append(RawEvent(title=title[:220], start=start, end=end,
+                            location=(loc or "")[:160], description="",
+                            url=link or source_url))
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if href.startswith("data:text/calendar"):
+            body = unquote(href.split(",", 1)[-1])
+            try:
+                for ev in from_ics(body.encode("utf-8", "replace"), tz, now, source_url):
+                    add(ev.get("title"), ev.get("start"), ev.get("end"),
+                        ev.get("location"), ev.get("url"))
+            except ValueError:
+                # hand-rolled blocks are often not strictly valid iCalendar
+                def field(name):
+                    m = re.search(rf"^{name}[^:]*:(.*)$", body, re.M)
+                    return m.group(1).strip() if m else ""
+                add(field("SUMMARY"), _parse_dt(field("DTSTART"), tz),
+                    _parse_dt(field("DTEND"), tz), field("LOCATION"), field("URL"))
+        elif "calendar.google.com" in href and "TEMPLATE" in href:
+            q = parse_qs(urlparse(href).query)
+            dates = (q.get("dates") or [""])[0].split("/")
+            add((q.get("text") or [""])[0],
+                _parse_dt(dates[0], tz) if dates and dates[0] else None,
+                _parse_dt(dates[1], tz) if len(dates) > 1 and dates[1] else None,
+                (q.get("location") or [""])[0], source_url)
+    if not out:
+        raise ValueError("no add-to-calendar links")
+    return out
+
+
+
+# ------------------------------------------------------------------ browser
+
+BROWSER_WAIT_MS = int(__import__("os").environ.get("PSCAL_BROWSER_WAIT", "3500"))
+
+
+def render_with_browser(url: str, wait_selector: str | None = None) -> str:
+    """Render a JavaScript-built page and return its HTML.
+
+    Several commissions (VA, OH, FL, KS, MI) serve an empty shell to a plain
+    fetch and draw their calendar client-side. This renders with headless
+    Chromium and hands the result to the ordinary parser chain, so no
+    per-state parsing logic is needed.
+
+    Identifies itself as psc-calendar - a real browser telling the truth
+    about who it is, not impersonation. MI blocks tool-shaped UAs at the
+    CDN but serves a genuine browser engine.
+    """
+    from playwright.sync_api import sync_playwright
+
+    from .fetch import UA, _throttle
+    _throttle(url)
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(args=["--disable-dev-shm-usage"])
+        try:
+            ctx = browser.new_context(user_agent=UA, viewport={"width": 1400, "height": 1000})
+            page = ctx.new_page()
+            page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            if wait_selector:
+                try:
+                    page.wait_for_selector(wait_selector, timeout=20000)
+                except Exception:
+                    log.debug("browser: selector %s never appeared on %s", wait_selector, url)
+            try:
+                page.wait_for_load_state("networkidle", timeout=15000)
+            except Exception:
+                pass
+            page.wait_for_timeout(BROWSER_WAIT_MS)
+            return page.content()
+        finally:
+            browser.close()
+
+
+def from_browser(url: str, tz: ZoneInfo, now: datetime, source_url: str,
+                 wait_selector: str | None = None) -> list[RawEvent]:
+    """Render, then run the normal chain over the rendered HTML."""
+    html = render_with_browser(url, wait_selector)
+    attempts = [
+        ("jsonld", lambda: from_jsonld(html, tz, now, source_url)),
+        ("addtocalendar", lambda: from_addtocalendar_links(html, tz, now, source_url)),
+        ("telerik", lambda: from_telerik_scheduler(html, tz, now, source_url)),
+        ("drupal_settings", lambda: from_drupal_settings_events(html, tz, now, source_url)),
+        ("epoch_links", lambda: from_epoch_links(html, tz, now, source_url)),
+        ("html_cards", lambda: from_html_cards(html, tz, now, source_url)),
+        ("html_table", lambda: from_html_table(html, tz, now, source_url)),
+        ("date_regex", lambda: from_date_regex(html, tz, now, source_url)),
+    ]
+    errs = []
+    for name, fn in attempts:
+        try:
+            evs = fn()
+            if evs:
+                log.debug("browser+%s got %d from %s", name, len(evs), url)
+                return evs
+        except Exception as e:
+            errs.append(f"{name}: {e}")
+    raise ValueError("browser rendered but no strategy matched -> " + " | ".join(errs[:3]))
+
+
+
 STRATEGY_ORDER = ["ics", "rss", "jsonld", "tribe", "drupal", "html_cards", "html_table", "date_regex"]
 
 
@@ -1156,6 +1278,7 @@ def extract_auto(url: str, tz_name: str, now: datetime) -> tuple[list[RawEvent],
 
     attempts = [
         ("telerik", lambda: from_telerik_scheduler(html, tz, now, url)),
+        ("addtocalendar", lambda: from_addtocalendar_links(html, tz, now, url)),
         ("epoch_links", lambda: from_epoch_links(html, tz, now, url)),
         ("drupal_settings", lambda: from_drupal_settings_events(html, tz, now, url)),
         ("jsonld", lambda: from_jsonld(html, tz, now, url)),
@@ -1176,7 +1299,8 @@ def extract_auto(url: str, tz_name: str, now: datetime) -> tuple[list[RawEvent],
     raise ValueError("all strategies failed -> " + " | ".join(errors[:4]))
 
 
-def extract(url: str, strategy: str, tz_name: str, now: datetime) -> tuple[list[RawEvent], str]:
+def extract(url: str, strategy: str, tz_name: str, now: datetime,
+            spec_wait: str | None = None) -> tuple[list[RawEvent], str]:
     tz = _tz(tz_name)
     if strategy in ("auto", "", None):
         return extract_auto(url, tz_name, now)
@@ -1192,6 +1316,8 @@ def extract(url: str, strategy: str, tz_name: str, now: datetime) -> tuple[list[
         return from_drupal_json(url, tz, now), "drupal"
     if strategy == "federal_register":
         return from_federal_register(url, tz, now), "federal_register"
+    if strategy == "browser":
+        return from_browser(url, tz, now, url, spec_wait), "browser"
     if strategy == "fullcalendar":
         return from_fullcalendar_json(url, tz, now), "fullcalendar"
     if strategy == "legistar":

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//psc-calendar//Utility Regulatory Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:All tracked dates for Public Utilities Commission of Ohio.
+X-WR-CALNAME:OH — Utility Commission Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:[OH] Case No. 26-160-EL-BGN Fairfield Energy Center\, LLC.
+DTSTART;TZID=America/New_York:20260817T180000
+DTEND;TZID=America/New_York:20260817T180000
+DTSTAMP:20260817T142621Z
+UID:5245bc97fce5474f1985@psc-calendar
+CATEGORIES:OH,Evidentiary Hearing
+DESCRIPTION:Commission: Public Utilities Commission of Ohio (OH)\nType: Ev
+ identiary Hearing\nDocket: 26-160-EL\, 26-160-EL-BGN\n\nSource: https://pu
+ co.ohio.gov/agendas-and-hearings/hearing-schedule/
+LOCATION:11850 Lancaster St.\, Millersport\, OH 43046
+PRIORITY:5
+URL:https://puco.ohio.gov/agendas-and-hearings/hearing-schedule/
+END:VEVENT
+END:VCALENDAR

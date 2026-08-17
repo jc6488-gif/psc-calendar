@@ -5,3 +5,5 @@ python-dateutil>=2.9
 PyYAML>=6.0
 feedparser>=6.0
 icalendar>=6.0
+playwright>=1.40
+pdfplumber>=0.11

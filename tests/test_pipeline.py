@@ -457,3 +457,28 @@ def test_navigation_chrome_is_noise():
 def test_filesize_with_trailing_word_is_stripped():
     assert classify.clean_title("Formal Hearing (380KB pdf) - Case No. P") == \
         "Formal Hearing - Case No. P"
+
+
+def test_dedupe_collapses_title_variants_of_one_meeting():
+    """Michigan publishes one Commission Meeting three ways across two pages."""
+    from datetime import datetime as dt
+    base = dict(commission="MI", commission_name="M", state="MI", tz="America/Detroit",
+                event_type="open_meeting", event_type_label="Open Meeting / Commission Meeting",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 27, tzinfo=ZoneInfo("America/Detroit"))
+    evs = [Event(title="Commission Meeting", start=day, **base),
+           Event(title="August 27, 2026 Commission Meeting", start=day, **base),
+           Event(title="Open meeting", start=day, **base)]
+    out = dedupe(evs)
+    assert len(out) == 1, [e.title for e in out]
+
+
+def test_dedupe_keeps_genuinely_different_events_same_day():
+    from datetime import datetime as dt
+    base = dict(commission="CO", commission_name="C", state="CO", tz="America/Denver",
+                event_type="evidentiary_hearing", event_type_label="Evidentiary Hearing",
+                relevance="High", weight=3)
+    day = dt(2026, 9, 9, 9, 0, tzinfo=ZoneInfo("America/Denver"))
+    evs = [Event(title="HRG: 26F-0122EG Stanley Wagon v Public Service", start=day, **base),
+           Event(title="HRG: 26A-0173E Black Hills Colorado Electric", start=day, **base)]
+    assert len(dedupe(evs)) == 2

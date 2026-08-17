@@ -98,7 +98,21 @@ class Event:
 
     @property
     def dedupe_key(self) -> tuple:
-        return (self.commission, self.start.date(), self.title.lower()[:80])
+        """Same meeting, however the source worded it.
+
+        Michigan publishes one Commission Meeting three ways across two
+        pages - "Commission Meeting", "August 27, 2026 Commission Meeting"
+        and a generic fallback - so the date embedded in a title is stripped
+        before comparing, and common filler words are dropped.
+        """
+        t = self.title.lower()
+        t = re.sub(r"\[canceled\]", " ", t)
+        # dates embedded in the title add nothing - the event already has one
+        t = re.sub(r"\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+"
+                   r"\d{1,2}(?:st|nd|rd|th)?,?\s*(?:\d{4})?", " ", t)
+        t = re.sub(r"\b\d{1,2}[-/]\d{1,2}[-/]\d{2,4}\b", " ", t)
+        t = re.sub(r"[^a-z0-9]+", " ", t).strip()
+        return (self.commission, self.start.date(), t[:80])
 
     def to_dict(self) -> dict:
         d = asdict(self)

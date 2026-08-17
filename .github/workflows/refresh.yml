@@ -38,6 +38,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Headless Chromium for the `browser` strategy (MI, FL, OH). Cached by
+      # setup-python's pip cache; the browser download is ~120MB per run.
+      - name: Install Chromium for browser-rendered calendars
+        run: python -m playwright install --with-deps chromium
+
       - name: Run test suite
         run: |
           pip install pytest
