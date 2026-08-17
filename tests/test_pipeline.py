@@ -383,6 +383,94 @@ def test_rescued_abbreviations(title, expected):
     assert classify.classify_type(title)[0] == expected
 
 
+@pytest.mark.parametrize("title,desc,expected", [
+    # NY: the description mentions comments due, and `procedural` is the first
+    # rule in coverage.yaml, so matching title+description as one blob buried a
+    # real evidentiary hearing in an unpublished type.
+    ("Commencement of evidentiary hearing in the Universal Service Fund proceeding",
+     "Comments due on the joint proposal; briefs due 30 days after.",
+     "evidentiary_hearing"),
+    # An open meeting whose agenda text lists filing deadlines is still a meeting.
+    ("August 2026 Commission Meeting",
+     "Agenda includes the intervention deadline and testimony due dates.",
+     "open_meeting"),
+    # A genuine comment deadline stays procedural - the title says what it is.
+    ("Comments due on RG&E petition for approval of sales tax refund",
+     "Evidentiary hearing in this docket concluded in June.",
+     "procedural"),
+])
+def test_title_outranks_description(title, desc, expected):
+    """The title states WHAT an event is; the description is context that
+    routinely names other, unrelated dates. A hearing dropped because its
+    description mentioned a deadline is the worst failure this tool can make."""
+    assert classify.classify_event(title, desc)[0] == expected
+
+
+def test_description_still_types_uninformative_titles():
+    """Title-first must not throw away the description - many sources title
+    events 'Notice' and put the substance in the body."""
+    tid = classify.classify_event("Notice", "Evidentiary hearing in Docket 26-001")[0]
+    assert tid == "evidentiary_hearing"
+
+
+@pytest.mark.parametrize("raw,want", [
+    # Connecticut's XPages calendar appends the join link and its blurb
+    ("REGULAR MEETING (https://www.youtube.com/@ConnecticutPURA/streams When available)",
+     "REGULAR MEETING"),
+    ("26-03-15 CWC Rate Case Evidentiary Hearing (Hearing Room 1)",
+     "26-03-15 CWC Rate Case Evidentiary Hearing (Hearing Room 1)"),
+    ("Open Meeting https://example.gov/watch", "Open Meeting"),
+    # The label that introduced the URL goes with it
+    ("Commission Business Meeting Url: https://www.scetv.org/live/psc",
+     "Commission Business Meeting"),
+    ("Hearing - Webcast: https://example.gov/v", "Hearing"),
+    # ...but those are ordinary words when no URL was there. Stripping one
+    # unconditionally truncated Maine's every deliberation.
+    ("Deliberations Audio/Video", "Deliberations Audio/Video"),
+    ("Commission Meeting Video", "Commission Meeting Video"),
+])
+def test_urls_stripped_from_titles(raw, want):
+    """A join link is not part of the event's name, and a real location
+    parenthetical must survive."""
+    assert classify.clean_title(raw) == want
+
+
+@pytest.mark.parametrize("raw,title,hhmm", [
+    ("09:00 am - REGULAR MEETING", "REGULAR MEETING", (9, 0)),
+    ("02:30 pm - 26-06-07 NetSpeed Hearing", "26-06-07 NetSpeed Hearing", (14, 30)),
+    ("12:00 pm - Commission Meeting", "Commission Meeting", (12, 0)),
+    ("Evidentiary Hearing", "Evidentiary Hearing", None),
+    # Nothing but a time is not a title - leave it alone for the
+    # uninformative-title fallback to handle.
+    ("09:00 am - ", "09:00 am - ", None),
+])
+def test_leading_time_becomes_the_start_time(raw, title, hhmm):
+    """PURA prints the hour in the title and gives the row no machine time.
+    Showing a 9am hearing as all-day misleads anyone planning a day."""
+    assert classify.split_leading_time(raw) == (title, hhmm)
+
+
+def test_no_meeting_notice_marks_cancellation():
+    """Maryland posts the weeks it is NOT sitting as "NO Administrative
+    Meeting", in the meeting's usual slot. Every type pattern reads that as a
+    meeting, so it would publish as a real one and put a hold on a morning the
+    commission has explicitly cleared."""
+    assert classify.clean_title("NO Administrative Meeting") == \
+        "[CANCELED] Administrative Meeting"
+
+
+@pytest.mark.parametrize("title", [
+    "Notice of Meeting",                     # MS - not a cancellation
+    "November Commission Meeting",
+    "No. 12345 Evidentiary Hearing",         # docket number
+    "Nortel Networks tariff hearing",
+])
+def test_no_prefix_does_not_overreach(title):
+    """Guard: only a shouted "NO" marks a cancellation. Mississippi's entire
+    calendar is titled "Notice of Meeting"."""
+    assert not classify.clean_title(title).startswith("[CANCELED]")
+
+
 def test_vacated_prefix_marks_cancellation():
     """Colorado publishes cancellations as 'VACATED:' - it must never read
     as a live hearing."""
@@ -449,6 +537,78 @@ def test_generic_open_meeting_survives_sector_gate():
     assert not classify.is_out_of_sector("Regular Agenda/17-26", "open_meeting")
 
 
+def test_toll_roads_are_out_of_sector():
+    """Virginia's SCC regulates toll roads too - "Toll Road Investors
+    Partnership II" was reaching the calendar as a utility hearing."""
+    assert classify.is_out_of_sector(
+        "PUR-2025-00191 - Application of Toll Road Investors Partnership II, "
+        "L.P. for authority to increase toll rates", "evidentiary_hearing")
+
+
+def test_alabama_transport_docket_prefix_is_out_of_sector():
+    """Alabama numbers motor-carrier dockets TR#######. The carrier's trade
+    name gives no keyword to catch - "RIDES ALL KINDS LLC" was showing up as
+    one of only two Alabama dates on the dashboard."""
+    assert classify.is_out_of_sector(
+        "TR2641219 HEARING POSTPONEMENT for RIDES ALL KINDS LLC, D/B/A "
+        "RIDES ALL KINDS", "evidentiary_hearing")
+    # A real Alabama utility docket is untouched
+    assert not classify.is_out_of_sector("ALABAMA POWER COMPANY", "evidentiary_hearing")
+
+
+def test_railroad_commission_is_not_out_of_sector():
+    """Guard on the rule above: the Texas Railroad Commission regulates GAS
+    and is the single largest source in the registry. A 'railroad' term in
+    the sector filter would silently empty it."""
+    for t in ("RRC open meeting", "Railroad Commission of Texas Conference",
+              "Atmos Mid-Tex Statement of Intent"):
+        assert not classify.is_out_of_sector(t, "open_meeting"), t
+
+
+def test_public_witness_signup_boilerplate_is_noise():
+    """Virginia prints sign-up instructions under each hearing; the deadline
+    inside them was being scraped as an event, inventing a hearing next to a
+    real one."""
+    assert classify.is_noise(
+        "To register to speak as a public witness in the above proceeding, "
+        "please submit the online Public Witness Form. Deadline to sign up "
+        "is Oct. 15.")
+
+
+def test_public_participation_is_a_comment_hearing():
+    """VA heads its public-witness sessions 'Public Participation'. Without
+    this the source's hearing type hint promoted them to Evidentiary
+    Hearing, which the desk publishes."""
+    assert classify.classify_event("Public Participation: Sept. 1, 2026")[0] == "public_comment"
+
+
+@pytest.mark.parametrize("title", [
+    "View Details of Open Meeting",                 # WI link label
+    "Open Meetings for the Week of",                # WI index header
+    "Hearing Schedule as of",                       # MD page header
+    "01:00 pm CDT Other Not a PSC Hosted Meeting Lignite Energy Council "
+    "Quarterly Meeting",                            # ND third-party event
+    "Join Zoom Meeting",                            # WA join label
+    "Join Microsoft Teams Meeting",
+])
+def test_listing_furniture_is_not_a_meeting(title):
+    """These name a LISTING, not an event, and each one reads as a real
+    meeting the moment the type patterns see 'open meeting' or 'hearing'
+    inside it."""
+    assert classify.is_noise(title)
+
+
+@pytest.mark.parametrize("title", [
+    "Open Meeting",
+    "Commission Meeting - Week of August 17 agenda",
+    "Evidentiary Hearing on the Schedule as of right filings",
+])
+def test_furniture_filter_spares_real_meetings(title):
+    """Guard on the rule above: it must anchor at the end of the title, so a
+    meeting that merely contains the words survives."""
+    assert not classify.is_noise(title)
+
+
 def test_navigation_chrome_is_noise():
     assert classify.is_noise("eDockets Search OPUC Search About Us Contact Us "
                              "Commissioners General Information")
@@ -510,6 +670,49 @@ def test_pdf_line_filter(line, is_event):
     """Montana's agenda mixes real meeting declarations with publication
     stamps and back-references to a past week's minutes."""
     assert (extract._PDF_NOT_AN_EVENT.search(line) is None) is is_event
+
+
+def test_pdf_schedule_reads_year_from_header():
+    """NJ's meeting notice states the year once and then lists bare dates,
+    two to a line. Both other PDF shapes see nothing here."""
+    evs = extract._pdf_schedule(F.PDF_SCHEDULE_TEXT, ZoneInfo(TZ), NOW, "u")
+    got = {(e["start"].date().isoformat(), e["title"]) for e in evs}
+
+    assert ("2026-09-23", "Regular Board Agenda Meetings") in got
+    assert ("2026-12-16", "Regular Board Agenda Meetings") in got
+    # Second column of a two-date line is not lost
+    assert ("2026-11-20", "Regular Board Agenda Meetings") in got
+    # Second section keeps its own heading; "Friday,June 12" has no space
+    assert ("2026-09-18", "Quarterly Meetings") in got
+
+    # The time sentence under each heading supplies the hour
+    assert all(e["start"].hour == 10 for e in evs)
+    # Past dates and the signature line are not events
+    assert all(e["start"].year == 2026 for e in evs)
+    assert not any("Dated" in e["title"] or "Lewis" in e["title"] for e in evs)
+
+
+def test_pdf_schedule_needs_a_real_schedule():
+    """Strict on purpose: prose that merely mentions a month must not
+    become a calendar."""
+    prose = ("2026 ANNUAL REPORT MEETING\nThe Commission met in August 4 to "
+             "review the record.\n")
+    assert extract._pdf_schedule(prose, ZoneInfo(TZ), NOW, "u") == []
+
+
+def test_pdf_schedule_confidence_ignores_the_date_window():
+    """Whether the shape matched and whether a date is still ahead are
+    different questions. Late in a year almost every date on the notice has
+    passed; scoring the shape on the survivors would drop the meetings that
+    are still to come."""
+    mostly_past = """2026 REGULAR BOARD AGENDA MEETINGS
+The Board meetings will be held at 10:00 a.m.
+Wednesday, January 14 Wednesday, February 18
+Wednesday, March 4
+Wednesday, September 9
+"""
+    evs = extract._pdf_schedule(mostly_past, ZoneInfo(TZ), NOW, "u")
+    assert [e["start"].date().isoformat() for e in evs] == ["2026-09-09"]
 
 
 def test_pdf_month_only_titles_rejected():

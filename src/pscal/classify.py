@@ -41,6 +41,26 @@ def classify_type(text: str) -> tuple[str, str, int, str]:
     return "other", "Other", 1, "Low"
 
 
+def classify_event(title: str, desc: str = "") -> tuple[str, str, int, str]:
+    """Classify an event from its title, falling back to the description.
+
+    The title states WHAT an event is; the description is supporting context
+    that routinely mentions other, unrelated dates. Matching one blob of
+    title+description let whichever rule sits earliest in coverage.yaml win,
+    and `procedural` sits first - so NY's "Commencement of evidentiary hearing
+    in the Universal Service Fund proceeding" was filed as a Procedural
+    Milestone (unpublished) because its description mentioned comments due,
+    and vanished from the calendar. A dropped hearing is the worst failure
+    this tool can produce, so the title decides whenever it says anything at
+    all; the description only breaks ties for genuinely uninformative titles
+    ("Notice", "Hearing Room 2E").
+    """
+    tid, label, weight, relevance = classify_type(title)
+    if tid != "other":
+        return tid, label, weight, relevance
+    return classify_type(f"{title} {desc}")
+
+
 def is_published(tid: str) -> bool:
     """Whether this event type is emitted at all. The desk narrowed the
     calendar to Evidentiary Hearing / Open Meeting / Decision-Order on
@@ -74,6 +94,27 @@ NOISE = [
     re.compile(r"(?:About Us|Contact Us|Site ?map|Skip to (?:main|content)|"
                r"Home\s+About|Search\b.*\bSearch\b).*(?:About Us|Contact Us|"
                r"General Information|Commissioners|Privacy)", re.I),
+    # Sign-up instructions printed under each hearing on Virginia's webcast
+    # schedule. The "Deadline to sign up is Oct. 15" inside them was being
+    # scraped as an event of its own, inventing a hearing that does not exist
+    # on a date next to one that does.
+    re.compile(r"to (?:register|sign up) to speak|public witness form|"
+               r"deadline to sign up", re.I),
+    # Index furniture that names a LISTING rather than an event: Wisconsin's
+    # "View Details of Open Meeting" link label, and headers whose date was
+    # stripped out of the title ("Open Meetings for the Week of",
+    # "Hearing Schedule as of"). These read as real meetings once the type
+    # patterns see "open meeting" or "hearing" in them.
+    re.compile(r"^\s*view details\b", re.I),
+    # A conferencing join label, not a meeting. Washington prints one beside
+    # the hearing it belongs to, so this is a duplicate of a real event.
+    re.compile(r"^\s*join\s+(?:the\s+)?(?:a\s+)?"
+               r"(?:zoom|microsoft ?teams|teams|webex|google ?meet|skype)\b", re.I),
+    re.compile(r"\b(?:week of|as of)\s*$", re.I),
+    # North Dakota lists third-party events on its calendar and marks them
+    # plainly. A trade association's quarterly meeting is not a regulatory
+    # date, whoever attends it.
+    re.compile(r"\bnot a .{0,12}hosted (?:meeting|event)", re.I),
 ]
 
 
@@ -89,16 +130,66 @@ _FILE_DECOR = re.compile(r"\.(?:pdf|docx?|xlsx?)\b", re.I)
 
 _VACATED = re.compile(r"^\s*VACATED\s*:\s*", re.I)
 
+# Maryland posts the weeks it is NOT sitting as "NO Administrative Meeting",
+# on the calendar, at the meeting's usual slot. That reads as a meeting to
+# every type pattern we have, so it would publish as a real one - telling her
+# to hold a morning the commission has explicitly cleared. Case-sensitive:
+# only a shouted "NO" is the cancellation marker, so "Notice", "November" and
+# a docket "No. 12345" are untouched.
+_NO_MEETING = re.compile(r"^\s*NO\s+(?![.\d])")
+
+# A bare URL and everything trailing it inside the same parenthetical.
+# Connecticut's XPages calendar renders each entry as
+# "REGULAR MEETING (https://www.youtube.com/@ConnecticutPURA/streams When
+# available ...)" - the join link and its blurb, not part of the event name.
+_URL_DECOR = re.compile(r"\(\s*https?://\S+[^)]*\)|\s*https?://\S+")
+
+# The label that introduced the URL, left dangling once the URL is gone:
+# "Commission Business Meeting Url:" -> "Commission Business Meeting".
+# Only ever applied when a URL was actually removed - these are ordinary
+# words otherwise, and stripping one unconditionally turned Maine's
+# "Deliberations Audio/Video" into "Deliberations Audio/".
+_URL_LABEL = re.compile(
+    r"\s*[-–|]?\s*\b(?:url|link|stream|webcast|video|register|join)\s*:?\s*$", re.I)
+
+# "09:00 am - 26-03-15 CWC Rate Case Evidentiary Hearing" - the time PURA
+# prints ahead of every title. Captured so it can set the real start time
+# rather than being deleted or left to read as an all-day event.
+LEADING_TIME = re.compile(
+    r"^\s*(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?\s*[-–:]\s*", re.I)
+
 
 def clean_title(title: str) -> str:
     """Strip link decorations that leak into scraped titles -
     "Agenda (122.64 KB) .pdf (Amended)" -> "Agenda (Amended)"."""
     t = _VACATED.sub("[CANCELED] ", title or "")
+    t = _NO_MEETING.sub("[CANCELED] ", t)
     t = _SIZE_DECOR.sub(" ", t)
+    t, had_url = _URL_DECOR.subn(" ", t)
+    if had_url:
+        t = _URL_LABEL.sub("", t.rstrip())
     t = _FILE_DECOR.sub(" ", t)
     t = re.sub(r"\(\s*\)", " ", t)
     t = re.sub(r"\s+\)", ")", t)
     return re.sub(r"\s+", " ", t).strip(" -\u2013|,")
+
+
+def split_leading_time(title: str) -> tuple[str, tuple[int, int] | None]:
+    """Pull a "09:00 am - " prefix off a title, returning (title, (hh, mm)).
+
+    Some calendars print the hour in the title and give the row no machine
+    time, so the event arrives looking all-day. Showing a 9am hearing as
+    all-day misleads anyone planning a day around it, and deleting the prefix
+    would lose the only copy of the time there is.
+    """
+    m = LEADING_TIME.match(title or "")
+    if not m:
+        return title, None
+    hh = int(m.group(1)) % 12 + (12 if m.group(3).lower() == "p" else 0)
+    rest = title[m.end():].strip(" -\u2013:|,")
+    if not rest:
+        return title, None
+    return rest, (hh, int(m.group(2) or 0))
 
 
 # Words that carry no meaning on their own in a calendar-entry title. A title
@@ -142,7 +233,16 @@ _NON_ENERGY = re.compile(
     r"\bCLEC\b|telecom|telephone|broadband|\bVoIP\b|\bcable\b|\b911\b|E-?911|"
     r"universal service|\bwireless\b|\bfiber\b|\bILEC\b|"
     r"motor carrier|\btowing\b|\btow\b|taxi|limousine|household goods|"
-    r"moving compan|\bbus\b|pilotage|rideshare|\bTNC\b", re.I)
+    r"moving compan|\bbus\b|pilotage|rideshare|\bTNC\b|"
+    # Virginia's SCC also regulates toll roads - "Toll Road Investors
+    # Partnership II" was reaching the calendar as a utility hearing.
+    # NOT "railroad": the Texas Railroad Commission is a GAS regulator and
+    # the single largest source in the registry.
+    r"toll road|turnpike|"
+    # Alabama numbers its motor-carrier dockets TR#######, which is a far
+    # more reliable marker than the carrier's trade name ("RIDES ALL KINDS
+    # LLC" names no sector a keyword list would catch).
+    r"\bTR\d{6,}\b", re.I)
 
 
 # The New Orleans City Council committee whose remit INCLUDES Entergy New

@@ -1285,6 +1285,120 @@ def _pdf_blocks(text: str, tz: ZoneInfo, now: datetime, source_url: str) -> list
 
 
 
+_SCHED_HEADING = re.compile(
+    r"(MEETING|HEARING|SESSION|CONFERENCE)S?\b", re.I)
+# "Wednesday, September 9", "Friday,June 12", "Sept. 23" - a bare day with no
+# year. The negative lookahead keeps this off dates that DO carry a year;
+# those are the dated-lines shape and parse fine there.
+_SCHED_DATE = re.compile(
+    r"(?:(?:mon|tues?|wed(?:nes)?|thur?s?|fri|sat(?:ur)?|sun)[a-z]*\.?,?\s*)?"
+    r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+(\d{1,2})\b"
+    r"(?!\s*,?\s*20\d\d)(?!\s*[/-]\s*\d)",
+    re.I)
+_SCHED_TIME = re.compile(r"(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?", re.I)
+_SCHED_AT_TIME = re.compile(r"@\s*(\d{1,2})(?::(\d{2}))?")
+
+
+def _pdf_schedule(text: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
+    """Year-at-the-top schedule notices.
+
+    New Jersey's Open Public Meetings Act notice states the year once, names
+    the meeting series in a heading, then lists bare dates - two to a line,
+    because the PDF sets them in two columns:
+
+        2026 REGULAR BOARD AGENDA MEETINGS
+        The Board meetings will be held on WEDNESDAYS at 10:00 a.m. ...
+        Wednesday, January 14      Wednesday, June 10
+        Wednesday, January 28      Tuesday, June 30
+
+    Line scanning finds no dates here (none carry a year) and the block
+    reader finds no labels, so NJ published zero meetings - its Agenda
+    Meetings are the decision dates for PSE&G. The heading supplies the
+    title, the nearest preceding time sentence the hour.
+
+    Deliberately strict: it needs a heading naming a meeting series and at
+    least three bare dates, so it cannot fire on prose that happens to
+    mention a month.
+    """
+    year = None
+    m = re.search(r"calendar\s+year\s+(20\d\d)", text, re.I)
+    if m:
+        year = int(m.group(1))
+    if year is None:
+        m = re.search(r"\b(20\d\d)\b[^\n]{0,60}" + _SCHED_HEADING.pattern, text, re.I)
+        if m:
+            year = int(m.group(1))
+    if year is None:
+        return []
+
+    out: list[RawEvent] = []
+    seen: set[tuple] = set()
+    cur_title = ""
+    cur_time: tuple[int, int] | None = None
+    # How many bare dates the shape matched at all, in-window or not. This is
+    # the confidence signal and must stay separate from what we emit: by
+    # December a year's schedule has two dates left, and judging the shape on
+    # the survivors would throw the last two meetings away.
+    matched = 0
+
+    for raw in text.split("\n"):
+        line = re.sub(r"\s+", " ", raw).strip()
+        if not line:
+            continue
+
+        letters = [c for c in line if c.isalpha()]
+        is_heading = (letters and sum(c.isupper() for c in letters) / len(letters) > 0.7
+                      and _SCHED_HEADING.search(line) and len(line) < 90)
+        if is_heading:
+            cur_title = re.sub(r"^\s*20\d\d\s+", "", line).strip(" .:*")
+            cur_title = cur_title.title() if cur_title.isupper() else cur_title
+            cur_time = None
+            continue
+
+        dates = list(_SCHED_DATE.finditer(line))
+        if not dates:
+            # A time sentence between the heading and its dates sets the hour.
+            t = _SCHED_TIME.search(line)
+            if t and cur_title:
+                hh = int(t.group(1)) % 12 + (12 if t.group(3).lower() == "p" else 0)
+                cur_time = (hh, int(t.group(2) or 0))
+            continue
+        if not cur_title:
+            continue
+
+        for d in dates:
+            start = _parse_dt(f"{d.group(1)} {d.group(2)}, {year}", tz, year)
+            if not start:
+                continue
+            matched += 1
+            hh_mm = cur_time
+            at = _SCHED_AT_TIME.search(line[d.end():d.end() + 12])
+            if at:
+                hh = int(at.group(1))
+                # A schedule notice quoting "@ 11:00" means 11am unless the
+                # series runs in the afternoon; follow the section's meridiem.
+                if cur_time and cur_time[0] >= 12 and hh < 12:
+                    hh += 12
+                hh_mm = (hh, int(at.group(2) or 0))
+            if hh_mm:
+                start = start.replace(hour=hh_mm[0], minute=hh_mm[1])
+            if not in_window(start, now):
+                continue
+            key = (start.date(), cur_title.lower()[:60])
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(RawEvent(
+                title=cur_title[:220],
+                start=start,
+                all_day=hh_mm is None,
+                description="",
+                url=source_url,
+            ))
+
+    return out if matched >= 3 else []
+
+
 def from_pdf(url: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
     """Dated lines out of a PDF agenda.
 
@@ -1304,6 +1418,14 @@ def from_pdf(url: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[Raw
         return _pdf_blocks(text, tz, now, source_url)
     except ValueError:
         pass
+
+    # Then year-at-the-top schedule notices. This runs before line scanning
+    # because a schedule notice usually carries one dated line of its own
+    # ("Dated: April 27, 2026") - letting the line reader answer first would
+    # return that signature instead of the meetings.
+    sched = _pdf_schedule(text, tz, now, source_url)
+    if sched:
+        return sched
 
     out: list[RawEvent] = []
     seen: set[tuple] = set()

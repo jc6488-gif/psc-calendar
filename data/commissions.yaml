@@ -178,11 +178,15 @@ commissions:
     home: https://portal.ct.gov/pura
     docket_search: https://portal.ct.gov/pura/dockets/dockets-landing-page
     sources:
-      # RE-AUDITED 2026-08-14: /pura/events now 404s. The official calendar
-      # (www.dpuc.state.ct.us/dockcurr.nsf/XP_PURA_CalendarEvents.xsp) is
-      # reachable again but renders its events with JavaScript - the fetched
-      # shell contains zero dates. Needs the headless-browser strategy;
-      # not adding it as a source until that exists.
+      # VERIFIED WORKING 2026-08-17: the XPages calendar renders its events
+      # with JavaScript, so the plain fetch saw an empty shell. The browser
+      # strategy (added 2026-08-17) renders it: PURA's weekly REGULAR MEETING
+      # plus docketed evidentiary hearings. Each row prints its time in the
+      # title ("09:00 am - ...") and gives the row no machine time.
+      - url: http://www.dpuc.state.ct.us/dockcurr.nsf/XP_PURA_CalendarEvents.xsp
+        strategy: browser
+      # RE-AUDITED 2026-08-14: /pura/events 404s. Kept so the health panel
+      # recovers automatically if the portal calendar comes back.
       - url: https://portal.ct.gov/pura/events
         strategy: auto
 
@@ -669,11 +673,24 @@ commissions:
     home: https://www.nj.gov/bpu/
     docket_search: https://publicaccess.bpu.state.nj.us/
     sources:
+      # VERIFIED WORKING 2026-08-17: /newsroom/calendar/ and
+      # /newsroom/announcements/ both 404 - they were the only other sources,
+      # so NJ published nothing at all.
       - url: https://www.nj.gov/bpu/newsroom/public/
         strategy: auto
-      - url: https://www.nj.gov/bpu/newsroom/calendar/
-        strategy: auto
-      - url: https://www.nj.gov/bpu/newsroom/announcements/
+      # VERIFIED WORKING 2026-08-17: the Open Public Meetings Act notice
+      # carries the WHOLE 2026 Board Agenda Meeting schedule (7 still ahead)
+      # plus the quarterly public meetings. These are NJ's decision dates.
+      # Year-hardcoded in the filename - see "Maintenance traps"; roll it over
+      # each January.
+      - url: "https://www.nj.gov/bpu/pdf/publicnotice/Notice%20Agenda%20and%20Quarterly%20Meeting%20dates-2026-SL.pdf"
+        strategy: pdf
+      # VERIFIED WORKING 2026-08-17: 28 dated utility public hearings incl.
+      # New Jersey Natural Gas, South Jersey Gas and PSE&G. They classify as
+      # Public Comment Hearing, which the desk does not publish - so these
+      # show up only if that type is re-enabled. Kept because the scrape is
+      # sound and the page is the one place NJ lists hearing dates.
+      - url: https://www.nj.gov/bpu/newsroom/utility/index.html
         strategy: auto
     notes: PSE&G (PEG), Rockland Electric (ED). Agenda Meetings are the decision dates; NJ BPU posts agendas ~3 business days ahead.
 
@@ -716,7 +733,15 @@ commissions:
         strategy: auto
       - url: "https://dps.ny.gov/calendar?page=3"
         strategy: auto
-      - url: https://dps.ny.gov/commission-agendas-webcasts
+      # VERIFIED WORKING 2026-08-17: page 4 exists and carries the October
+      # through December Sessions; the registry stopped at page 3.
+      - url: "https://dps.ny.gov/calendar?page=4"
+        strategy: auto
+      # VERIFIED WORKING 2026-08-17: /commission-agendas-webcasts 404s. The
+      # Sessions moved here, and this page lists them four months out while
+      # the paginated calendar surfaces only the nearest one. These are Con
+      # Edison's decision dates.
+      - url: https://dps.ny.gov/public-service-commission-sessions
         strategy: auto
     notes: >-
       Con Edison + O&R (ED). NY runs multi-year rate plans with joint proposals, so the
@@ -1028,11 +1053,21 @@ commissions:
     # DocketSearch app, which is JS-rendered. Needs the headless-browser
     # strategy. Sources below kept for the health panel to show red honestly.
     sources:
+      # VERIFIED WORKING 2026-08-17: the webcast schedule is the one page that
+      # lists VA's hearings with dates outside the DocketSearch SPA - it is
+      # JS-rendered, so the browser strategy was needed. Carries Appalachian
+      # Power's base rate increase (PUR-2026-00044) and Dominion/VEPCO rate
+      # adjustment hearings. Every entry is a scheduled hearing, hence the
+      # type hint; captions marked "(Public witnesses only)" still classify
+      # themselves as public comment hearings and drop out.
+      - url: https://www.scc.virginia.gov/case-information/webcasting/
+        strategy: browser
+        type_hint: evidentiary_hearing
+      # RE-AUDITED 2026-08-14: these 404 after a site redesign. Kept so the
+      # health panel recovers automatically if they return.
       - url: https://www.scc.virginia.gov/pages/Hearing-Schedule
         strategy: auto
       - url: https://www.scc.virginia.gov/pages/Calendar
-        strategy: auto
-      - url: https://www.scc.virginia.gov/pages/Public-Hearings
         strategy: auto
     notes: >-
       Appalachian Power (AEP), Columbia Gas of Virginia (NI), Virginia Natural Gas (SO),

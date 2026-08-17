@@ -80,8 +80,8 @@ What you find instead, verified across all 54:
 | **Municipal meeting platform** | MN (Legistar), NOLA (Granicus), SD (statewide boards portal) | Legistar and Granicus have predictable URLs and sometimes APIs. |
 | **Statewide public-notice portal** | UT (`utah.gov/pmn`), ID (`townhall.idaho.gov`), DE, SD | **Often better than the commission's own site.** Always check whether the state runs one. |
 | **Google Calendar iframe embed** | CO, IA, WY, MN, UT | Page HTML is empty. Find the sibling agendas/minutes index instead — that's how CO, IA and WY were solved. |
-| **PDF-only agenda** | MT (`_docs/Current-Agenda.pdf`) | Needs PDF text extraction — **not yet implemented**. |
-| **JavaScript SPA** | WI (Angular), KY, CPUC events page | Fetching returns an empty shell. Needs a headless browser — **not yet implemented**. |
+| **PDF-only agenda** | MT (`_docs/Current-Agenda.pdf`), NJ (meeting-schedule notice) | `strategy: pdf` / `pdf_links`, three shapes. |
+| **JavaScript SPA** | CT, VA, MI, FL, OH; still WI (Angular), KY | `strategy: browser`. When the calendar resists, try the **webcast** page. |
 | **Portal-encoded CDATA** | OH (WebSphere) | Body is base64/CDATA. No HTML parser will touch it. |
 | **WAF / 403 block** | WV (whole domain), NH (path-level) | Server refuses automated clients. Not a method problem. |
 | **robots.txt disallow** | IL, VA, NV, FL, KS, AR | A *permission* question, not a technical one. See below. |
@@ -98,9 +98,12 @@ on 2026-08-17 - the old URL is dead). Outlook feed:
 `https://stellacc888.github.io/psc-calendar/feeds/all.ics`. Backup of the
 pre-narrowing version: tag `v1.0` / branch `backup-v1.0`.
 
-- **694 published events; 40 of 54 commissions reporting,
-  3 scraped-fine-but-fully-filtered.** The raw scrape is much larger -
+- **733 published events; 43 of 54 commissions reporting,
+  2 scraped-fine-but-fully-filtered.** The raw scrape is much larger -
   see the scope decisions below, which cut it deliberately.
+- **CT, VA and NJ went from silent to reporting (2026-08-17)** and NY from
+  1 event to 4. See "Classification order" below for the bug that was
+  hiding hearings everywhere, not just in these three.
 - **`browser` strategy (headless Chromium via Playwright)** unlocked MI, FL
   and OH. It identifies honestly as psc-calendar - a real browser engine
   telling the truth about itself, NOT impersonation. MI's CDN 403s any UA
@@ -142,6 +145,26 @@ pre-narrowing version: tag `v1.0` / branch `backup-v1.0`.
    coverage.yaml (corporate geography, zero maintenance). It is NOT
    per-event attribution and must not be presented as such.
 
+### Classification order: the title decides (2026-08-17)
+
+`classify_event(title, desc)` types the TITLE first and only falls back to
+title+description when the title yields "other".
+
+The bug this fixed: classification ran on one `title + description` blob, and
+the first matching rule in `coverage.yaml` wins - where `procedural` is listed
+first. So NY's *"Commencement of evidentiary hearing in the Universal Service
+Fund proceeding"* was filed as a Procedural Milestone, which the desk does not
+publish, **because its description mentioned comments due**. Any hearing whose
+description named a deadline disappeared, in every state. Vermont's only
+electric/gas date was lost the same way.
+
+The title states what an event IS; the description is context that routinely
+names other, unrelated dates. Keep the fallback - many sources title an event
+"Notice" and put the substance in the body.
+
+**Do not "simplify" this back into one blob.** Reordering `coverage.yaml` is
+not a fix either: whichever type sits first would then swallow the others.
+
 ### Dedupe rules (learned from real failures)
 
 - Key strips dates embedded in titles (MI publishes one meeting as
@@ -159,7 +182,7 @@ pre-narrowing version: tag `v1.0` / branch `backup-v1.0`.
 ### Health panel has THREE states, not two
 
 `✓` reporting, `–` scraped fine but every event was a type/sector the desk
-excluded (grey - DE, HI, VT), `✕`/`!` the scrape actually failed. Conflating
+excluded (grey - DE, HI), `✕`/`!` the scrape actually failed. Conflating
 the middle case with failure teaches distrust of the one instrument that
 reports blindness.
 
@@ -167,9 +190,10 @@ reports blindness.
 
 | Code | Blocker | What would fix it |
 |---|---|---|
-| VA KY CT | JS apps the browser strategy did not crack (VA's schedules are inside DocketSearch) | Deeper per-app work |
+| KY | JS app the browser strategy did not crack | Deeper per-app work |
 | KS | Calendar moved to a Salesforce app that errors headless (their TLS bug is fixed) | Deeper per-app work |
-| WI | Works from a residential IP; 403s GitHub's runners. Its 2 "events" are page furniture, not meetings | Proxy, self-hosted runner, or contact |
+| WI | Works from a residential IP; 403s GitHub's runners. Its 2 "events" were page furniture and are now filtered as such, so WI reads as failing - which it is | Proxy, self-hosted runner, or contact |
+| ID WY | Scrape fine but every event is a type the desk excludes, AND one source fails, so they show red rather than grey | Replace the dead source; the grey/red split only reads cleanly when every other source works |
 | WV NH AK | 403 to every automated client incl. real browsers | Contact the commission |
 | AR | DNS dead (their outage) | Retry daily (automatic) |
 | FERC | ferc.gov 403s everyone; the Federal Register carries a Sunshine Act notice only ~2 days before each meeting | Nothing - it appears and disappears monthly |
@@ -201,7 +225,7 @@ src/pscal/
 tools/probe.py          diagnose one commission — reach for this first
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  52 tests, all offline
+tests/                  128 tests, all offline
 ```
 
 ### The extraction chain
@@ -221,34 +245,57 @@ ordinary chain. It unlocked MI (its CDN 403s tool-shaped UAs but serves a real
 browser engine), FL (schedule pages with docketed hearings) and OH (whose
 WebSphere portal exposes its featured hearing only through add-to-calendar
 links - parsed by the new `addtocalendar` extractor). CI installs Chromium via
-`playwright install --with-deps chromium`. VA and KS resisted: VA's schedules
-live inside the DocketSearch SPA and KS moved to a Salesforce app that errors
-headless.
+`playwright install --with-deps chromium`. Extended 2026-08-17 to **CT**
+(the `dpuc.state.ct.us` XPages calendar - PURA's weekly Regular Meeting plus
+docketed evidentiary hearings) and **VA**. KS still resists: it moved to a
+Salesforce app that errors headless.
+
+**Virginia is not in DocketSearch after all.** The earlier note said VA's
+schedules were locked inside that SPA. They are also on
+`/case-information/webcasting/` - the hearing WEBCAST schedule, which is a
+hearing calendar under another name, JS-rendered. It carries Appalachian
+Power's base rate increase (AEP) and Columbia Gas of Virginia (NI). Worth
+remembering as a pattern: **when the calendar is unreachable, look for the
+webcast/streaming page** - a commission that streams its hearings has to
+publish when they are.
 
 **`strategy: pdf` / `pdf_links` (2026-08-17) read PDF agendas** with pdfplumber.
-Two shapes, tried in order: *labelled blocks* (Indiana's weekly hearing list -
+Three shapes, tried in order: *labelled blocks* (Indiana's weekly hearing list -
 date / CAUSE NO. / TIME / ROOM / caption - which line scanning shreds into
-fragments) and then *dated lines* (Montana's prose agenda). `pdf_links` follows
+fragments), then *schedule notices*, then *dated lines* (Montana's prose
+agenda). `pdf_links` follows
 the PDFs a page links to, newest first. MT 0 -> 3 (it published ONLY a PDF);
 IN placeholder rows -> ~30 real hearings incl. Indiana Michigan Power (AEP) and
 CenterPoint Indiana (CNP). Publication stamps, date-range headers and
 past-week minutes references are filtered - a line whose only words are month
 names is not an event.
 
+*Schedule notices* (added 2026-08-17 for NJ) are the Open-Public-Meetings-Act
+shape: the year appears once in prose, a heading names the meeting series, and
+the dates carry **no year at all**, set two to a line because the PDF lays them
+in columns. Neither other shape sees anything, so NJ published zero Board
+Agenda Meetings - its decision dates for PSE&G. The heading supplies the title
+and the nearest preceding time sentence the hour. It is deliberately strict
+(a meeting heading plus 3+ bare dates) so it cannot fire on prose that mentions
+a month. **Its confidence check counts dates matched, not events emitted** - by
+December most of a year's schedule is past, and scoring the shape on the
+survivors would throw away the meetings still to come.
+
 **Remaining engineering gaps:**
 
-1. **PDF extraction** — Montana publishes only `Current-Agenda.pdf`; Colorado,
-   Wyoming, Louisiana, Mississippi and Iowa all link dated agenda PDFs. `pdfplumber`
-   plus the existing `date_regex` logic would unlock these.
-2. **Headless browser** — Playwright/Chromium for the SPA cases (WI, KY, CT, OH,
-   CPUC events). Chromium is already available in most CI images. Add it as a
-   `strategy: browser` that renders then hands HTML to the existing parsers.
+1. **More schedule PDFs** — Colorado, Wyoming, Louisiana, Mississippi and Iowa
+   all link dated agenda PDFs that are not yet configured as sources. The three
+   PDF shapes now cover most layouts; this is registry work, not parser work.
+2. **Headless browser holdouts** — KY (JS app) and KS (Salesforce app that
+   errors headless) still resist `strategy: browser`.
+3. **WI** — its two "events" were page furniture and are now filtered as such,
+   so WI reads as failing, which is honest. Still needs a non-datacenter IP.
 
 ## Working on this repo
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 52 tests, no network
+python3 -m pytest tests/ -q                    # 128 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/
@@ -269,6 +316,15 @@ dates."
    usually four different pages with four different subsets.
 2. **Check whether the state runs a central public-notice portal** — several do,
    and it is often more scrapeable than the commission's own site.
+2b. **Check the webcast / livestream page.** A commission that streams its
+   hearings must publish when they are, so its streaming schedule is a hearing
+   calendar under another name — and it is often a plain page while the real
+   calendar is a locked-down app. This is how VA was solved after its calendar
+   URLs 404ed and its dockets proved to be inside an SPA.
+2c. **Check for a meeting-schedule NOTICE.** Open-meetings statutes make
+   commissions publish the whole year's meeting dates in advance, usually as a
+   PDF. That single document beats any calendar for horizon — NJ's carries
+   every Board Agenda Meeting through December.
 3. `python3 tools/probe.py XX` and compare against what you see.
 4. Add every missing page, **after fetching it**. Prefer a month or list view with
    a date-range parameter over a "next 3 events" widget.
@@ -279,9 +335,12 @@ alone drops public hearings. Five TX sources are now configured.
 
 ## Maintenance traps
 
-- **Year-hardcoded URLs.** South Dakota (`/agendas/2026/default.aspx`) and Oklahoma
-  (`/2026-commission-meetings.html`) embed the year and will silently go stale each
-  January. Roll them over, or add both current and next year as sources.
+- **Year-hardcoded URLs.** South Dakota (`/agendas/2026/default.aspx`), Oklahoma
+  (`/2026-commission-meetings.html`) and New Jersey
+  (`Notice Agenda and Quarterly Meeting dates-2026-SL.pdf`) embed the year and
+  will silently go stale each January. Roll them over, or add both current and
+  next year as sources. NJ is the one that bites hardest: that single PDF is
+  the only source for all its Board Agenda Meetings.
 - **A 200 response is not success.** Several pages load fine and contain zero
   events (Google Calendar embeds, SPA shells, landing hubs). Verification means
   confirming *dated events are visible*, not that the URL resolves.
@@ -306,6 +365,13 @@ alone drops public hearings. Five TX sources are now configured.
 - **Wisconsin** runs biennial rate cases on a fixed cycle; **Alabama** uses RSE;
   **Hawaii** runs PBR. "No rate case scheduled" means different things by state.
 - **CenterPoint divested its Louisiana and Mississippi gas LDCs in 2025.**
+- **A "NO meeting" notice is not a meeting.** Maryland posts the weeks it is
+  not sitting as `NO Administrative Meeting`, in the meeting's usual slot, and
+  every open-meeting pattern reads that as a meeting. `clean_title` rewrites a
+  shouted leading `NO ` to `[CANCELED]`, same as Colorado's `VACATED:`. The
+  case sensitivity is load-bearing: Mississippi's entire calendar is titled
+  "Notice of Meeting". **A phantom date is as harmful as a missing one** - it
+  puts a hold on a morning the commission has explicitly cleared.
 - **A failing scraper is not an empty docket.**
 
 ## Conventions

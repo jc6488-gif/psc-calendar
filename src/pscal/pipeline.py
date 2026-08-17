@@ -56,6 +56,16 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
         events: list[Event] = []
         for r in raws:
             title = classify.clean_title((r.get("title") or "").strip())
+            # A title like "09:00 am - REGULAR MEETING" on a row that carried
+            # no machine-readable time is the only copy of that time we get.
+            # Trust it only when the event really has none of its own.
+            title, tod = classify.split_leading_time(title)
+            timeless = bool(r.get("all_day")) or (
+                r["start"].hour == 0 and r["start"].minute == 0)
+            if tod and timeless:
+                r["start"] = r["start"].replace(hour=tod[0], minute=tod[1])
+                r["all_day"] = False
+                r["end"] = None
             if classify.is_uninformative(title):
                 # Keep a date fragment when there is one - "Weekly hearing
                 # schedule (PDF): 8/17/26 to 8/21/26" - but a bare day number
@@ -66,9 +76,8 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             if classify.is_noise(title):
                 continue
             desc = r.get("description", "") or ""
-            blob = f"{title} {desc}"
 
-            etype, elabel, weight, relevance = classify.classify_type(blob)
+            etype, elabel, weight, relevance = classify.classify_event(title, desc)
             if etype == "other" and source.get("type_hint"):
                 # The source itself knows what it serves (MA's API is all
                 # hearings; RRC's ICS is the hearings calendar) even when

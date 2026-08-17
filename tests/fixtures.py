@@ -189,3 +189,35 @@ Commission Business Meeting: August 18, 2026, 1:30 PM
 1. Approval of the Commission Business Meeting Minutes for the week of
 August 10, 2026.
 """
+
+# New Jersey's Open Public Meetings Act notice: the year is stated once in
+# prose, the meeting series in a heading, and the dates carry no year at all -
+# set two to a line because the PDF lays them out in columns. Neither the
+# block reader nor the line reader sees anything here, so NJ published zero
+# Board Agenda Meetings - its decision dates for PSE&G.
+PDF_SCHEDULE_TEXT = """State of New Jersey
+Board of Public Utilities
+NOTICE
+Pursuant to the "Open Public Meetings Act," N.J.S.A. 10:4-6 et seq., the New Jersey Board of
+Public Utilities (Board) hereby gives Notice of the following schedule of its regular
+public and quarterly meetings for calendar year 2026.
+2026 REGULAR BOARD AGENDA MEETINGS
+The Board meetings will be held on WEDNESDAYS at 10:00 a.m. unless otherwise
+indicated, and will be in person at the Boards' Hearing room at 44 South Clinton Ave.
+Wednesday, January 14 Wednesday, June 10
+Wednesday, September 9
+Thursday, September 23
+Wednesday, October 14
+Friday, November 20
+Wednesday, December 16
+QUARTERLY MEETINGS
+The Board's Quarterly Public meetings will be held 10:00 a.m. virtually
+via Zoom.
+Friday, March 13 @ 11:00
+Friday,June 12
+Friday, September 18
+Friday, December 11
+Sherri L. Lewis
+Secretary of the Board
+Dated: April 27, 2026
+"""

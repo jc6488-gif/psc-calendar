@@ -52,8 +52,7 @@ def probe(spec: dict, raw: bool = False) -> bool:
         print(f"  {G}OK{D}  via {used}: {len(evs)} events")
         for e in evs[:8]:
             title = e.get("title", "")[:88]
-            blob = f"{title} {e.get('description','')}"
-            et = classify.classify_type(blob)[0]
+            et = classify.classify_event(title, e.get("description", "") or "")[0]
             dk = extract_dockets(title, e.get("description"))
             print(f"     {e['start']:%Y-%m-%d %H:%M}  {et:<20} {title}")
             if dk:

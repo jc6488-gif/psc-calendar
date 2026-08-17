@@ -325,7 +325,11 @@ event_types:
     publish: false          # dropped 2026-08-17 per the desk
     patterns: ["public comment", "public hearing", "public input", "listening session",
                "public forum", "customer hearing", "local public hearing", "town hall",
-               "public witness", "community meeting", "comment session"]
+               "public witness", "community meeting", "comment session",
+               # Virginia heads its public-witness sessions "Public
+               # Participation". Without this the hearing type hint on the
+               # VA webcast schedule promoted them to Evidentiary Hearing.
+               "public participation"]
 
   - id: evidentiary_hearing
     label: Evidentiary Hearing
@@ -349,13 +353,17 @@ event_types:
     # "Regular Agenda/15-26" is Nevada's numbering for its agenda meetings;
     # "Notice of Meeting" is Mississippi's. Both were falling into Other and
     # would have silenced those states entirely.
+    # "Quarterly Meetings" is the heading on New Jersey's Open Public Meetings
+    # Act notice - the Board's quarterly PUBLIC meetings, an open meeting by
+    # any reading, which was landing in Other.
     patterns: ["regular agenda", "utility agendas", "notice of meeting",
                "utility, cable, telecommunications", "open meeting", "voting meeting", "agenda conference", "administrative session",
                "administrative meeting", "business meeting", "commission meeting",
                "public meeting", "sunshine act", "commission conference", "executive session",
                "agenda meeting", "public service commission session", "commission session",
                "work session", "special open meeting", "regular meeting", "decision meeting",
-               "agenda session", "commission gathering"]
+               "agenda session", "commission gathering", "quarterly meeting",
+               "quarterly public meeting", "special meeting"]
 
   - id: decision_order
     label: Decision / Order
