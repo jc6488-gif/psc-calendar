@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[FL] All Commissioners
 DTSTART;TZID=America/New_York:20260804T000000
 DTEND;TZID=America/New_York:20260804T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:d7c6ef9b5a0d1c7e8de8@psc-calendar
 CATEGORIES:FL,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Open
@@ -30,7 +30,7 @@ SUMMARY:[FL] Docket No : 20260001 \; Title: Fuel and purchased power cost
  y's Bayside Steam Turbine Unit 2. Dock
 DTSTART;TZID=America/New_York:20260804T000000
 DTEND;TZID=America/New_York:20260804T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:10e0ff6a36c60d8a81a6@psc-calendar
 CATEGORIES:FL,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Open
@@ -52,7 +52,7 @@ SUMMARY:[FL] Docket No : 20260087 \; Title: Petition for determine of need
   located at St. Johns River Power Park Unit 3 in Duval County\, by JEA.
 DTSTART;TZID=America/New_York:20260804T000000
 DTEND;TZID=America/New_York:20260804T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:ca785a6bc451ec4998ea@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -70,7 +70,7 @@ SUMMARY:[FL] Docket No : 20260064 \; Title: Petition for a limited proceed
  ing to approve large load tariff\, by Duke Energy Florida\, LLC.
 DTSTART;TZID=America/New_York:20260805T000000
 DTEND;TZID=America/New_York:20260805T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:f25af583eb3d89892651@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -87,7 +87,7 @@ SUMMARY:[FL] Docket No : 20260026 \; Title: Application for rate increase
  by Florida City Gas.
 DTSTART;TZID=America/New_York:20260817T000000
 DTEND;TZID=America/New_York:20260817T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:7f3552e1c2a2ddb509ed@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -104,7 +104,7 @@ SUMMARY:[FL] Docket No : 20260064 \; Title: Petition for a limited proceed
  ing to approve large load tariff\, by Duke Energy Florida\, LLC.
 DTSTART;TZID=America/New_York:20260817T000000
 DTEND;TZID=America/New_York:20260817T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:a7382a0e1d2fba8c0b07@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -120,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:[FL] All Commissioners
 DTSTART;TZID=America/New_York:20260818T000000
 DTEND;TZID=America/New_York:20260818T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:9274c28c18e0cd7e9886@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -136,7 +136,7 @@ SUMMARY:[FL] Docket No : 20260087 \; Title: Petition for determine of need
   located at St. Johns River Power Park Unit 3 in Duval County\, by JEA.
 DTSTART;TZID=America/New_York:20260818T000000
 DTEND;TZID=America/New_York:20260818T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:0b113905f740c21fa502@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -155,7 +155,7 @@ SUMMARY:[FL] Docket No : 20260087 \; Title: Petition for determine of need
   located at St. Johns River Power Park Unit 3 in Duval County\, by JEA.
 DTSTART;TZID=America/New_York:20260819T000000
 DTEND;TZID=America/New_York:20260819T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:27dd1163da2c1cbc5955@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -173,7 +173,7 @@ SUMMARY:[FL] Docket No : 20260064 \; Title: Petition for a limited proceed
  ing to approve large load tariff\, by Duke Energy Florida\, LLC.
 DTSTART;TZID=America/New_York:20260825T000000
 DTEND;TZID=America/New_York:20260825T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:a50fdfedf338de71e104@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -190,7 +190,7 @@ SUMMARY:[FL] Docket No : 20260064 \; Title: Petition for a limited proceed
  ing to approve large load tariff\, by Duke Energy Florida\, LLC.
 DTSTART;TZID=America/New_York:20260826T000000
 DTEND;TZID=America/New_York:20260826T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:38ff13347c4a20b57f08@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -208,7 +208,7 @@ SUMMARY:[FL] Docket No : 20260010 \; Title: Storm protection plan cost rec
  tion cost recovery clause.
 DTSTART;TZID=America/New_York:20260827T000000
 DTEND;TZID=America/New_York:20260827T020000
-DTSTAMP:20260817T143821Z
+DTSTAMP:20260817T144214Z
 UID:182d0e17f7e60253d5f9@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
