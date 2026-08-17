@@ -243,6 +243,15 @@ commissions:
       # carry docketed hearings (fuel cost recovery, need determinations)
       # and the commission-conference calendar. The Commission Calendar PDF
       # at /pscfiles/.../Agendas/calendar.pdf awaits the PDF strategy.
+      # VERIFIED WORKING 2026-08-17: the "Upcoming Events" table the user was
+      # looking for is a Granicus iframe on /watch-archive-psc-events, so the
+      # commission's own page shows nothing to a scraper. This is the ONLY
+      # Florida source carrying a clock time, and it names the session the way
+      # PSC does ("Service Hearing: 20260026-GU (Virtual)") rather than by
+      # docket field. Merged with the schedule page below on docket + day.
+      - url: "https://psc-fl.granicus.com/ViewPublisher.php?view_id=2"
+        strategy: granicus
+        public_url: https://www.floridapsc.com/watch-archive-psc-events
       - url: https://www.floridapsc.com/schedule-of-events
         strategy: browser
         type_hint: evidentiary_hearing

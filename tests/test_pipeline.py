@@ -760,6 +760,79 @@ def test_pdf_line_filter(line, is_event):
     assert (extract._PDF_NOT_AN_EVENT.search(line) is None) is is_event
 
 
+def test_granicus_reads_the_time_florida_hides():
+    """Florida's hearings carry a clock time in exactly one place: the
+    Granicus table behind its events page. Generic parsing lost the time to
+    non-breaking spaces and read " - 09:30 AM" as the tail of a range."""
+    evs = extract.from_granicus(F.GRANICUS_HTML, ZoneInfo(TZ), NOW, "u")
+    got = {e["title"]: e["start"] for e in evs}
+
+    a = got["Service Hearing: 20260026-GU (Virtual)"]
+    assert (a.hour, a.minute) == (9, 30) and a.day == 17
+    b = got["Service Hearing: 20260026-GU (Virtual) - Hearing immediately following"]
+    assert (b.hour, b.minute) == (13, 30)
+    c = got["Hearing: 20260087-EM (Day:1)"]
+    assert (c.hour, c.minute) == (11, 15) and c.day == 18
+
+    # The archive table's player boilerplate is not an event
+    assert not any("Windows Media Player" in t for t in got)
+    # The agenda link is carried when the row has one
+    assert any("AgendaViewer" in (e["url"] or "") for e in evs)
+
+
+def test_granicus_epoch_is_pacific_wall_clock():
+    """Granicus stores its hidden epoch as PACIFIC wall-clock. Reading it as
+    the commission's own timezone would put every Florida hearing 3 hours
+    late, so the displayed text is the authority and this is only a note on
+    the fallback."""
+    from datetime import datetime as dt
+    assert dt.fromtimestamp(1786984200, ZoneInfo("America/Los_Angeles")).strftime("%H:%M") == "09:30"
+    assert dt.fromtimestamp(1786984200, ZoneInfo("America/New_York")).strftime("%H:%M") == "12:30"
+
+
+def test_same_day_different_times_are_different_sessions():
+    """One title containing another is normally one meeting described twice -
+    but not when the two disagree about the clock. Florida runs a 09:30
+    service hearing and a 13:30 "Hearing immediately following"; merging on
+    containment deleted the morning one."""
+    from datetime import datetime as dt
+    base = dict(commission="FL", commission_name="F", state="FL", tz="America/New_York",
+                event_type="evidentiary_hearing", event_type_label="Evidentiary Hearing",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 17, tzinfo=ZoneInfo("America/New_York"))
+    evs = [Event(title="Service Hearing: 20260026-GU (Virtual)",
+                 start=day.replace(hour=9, minute=30), **base),
+           Event(title="Service Hearing: 20260026-GU (Virtual) - Hearing immediately following",
+                 start=day.replace(hour=13, minute=30), **base)]
+    assert len(dedupe(evs)) == 2
+
+
+def test_timeless_docket_record_folds_into_the_timed_one():
+    """Florida publishes each hearing twice: a schedule row with the docket
+    and subject but no time, and a Granicus row with the time and session
+    name. Same docket, same day - so the vague one goes and its subject rides
+    along on every session that day."""
+    from datetime import datetime as dt
+    base = dict(commission="FL", commission_name="F", state="FL", tz="America/New_York",
+                event_type="evidentiary_hearing", event_type_label="Evidentiary Hearing",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 17, tzinfo=ZoneInfo("America/New_York"))
+    vague = Event(title="Docket 20260026: Application for rate increase by Florida City Gas",
+                  start=day, all_day=True, dockets=["20260026"], **base)
+    timed = Event(title="Service Hearing: 20260026-GU (Virtual)",
+                  start=day.replace(hour=9, minute=30), dockets=["20260026-GU"], **base)
+    out = dedupe([vague, timed])
+    assert len(out) == 1
+    assert out[0].start.hour == 9
+    assert "Application for rate increase by Florida City Gas" in out[0].title
+
+
+def test_field_style_titles_are_tidied():
+    assert classify.clean_title(
+        "Docket No : 20260026 ; Title: Application for rate increase by Florida City Gas."
+    ) == "Docket 20260026: Application for rate increase by Florida City Gas"
+
+
 def test_pdf_schedule_reads_year_from_header():
     """NJ's meeting notice states the year once and then lists bare dates,
     two to a line. Both other PDF shapes see nothing here."""

@@ -415,6 +415,88 @@ def from_epoch_links(html: str, tz: ZoneInfo, now: datetime, source_url: str) ->
     return out
 
 
+_GRANICUS_HDR = re.compile(r"\bEventName\b")
+_GRANICUS_DATE_HDR = re.compile(r"\bEventDate\b")
+
+
+def from_granicus(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> list[RawEvent]:
+    """Granicus ViewPublisher listing tables.
+
+    Florida's "Upcoming Events" - the only place its hearings carry a TIME -
+    is a Granicus iframe, so the commission's own page shows nothing. Each row
+    is addressed by header rather than position:
+
+        <td headers="EventName">Service Hearing: 20260026-GU (Virtual)</td>
+        <td headers="EventDate ..."><span style="display:none;">1786984200</span>
+            August&nbsp;17,&nbsp;2026 - 09:30&nbsp;AM</td>
+        <td><a href="...AgendaViewer.php?...event_id=2886">Agenda</a></td>
+
+    Generic table parsing mangles this three ways: the non-breaking spaces
+    hide the time, `_parse_dt` reads " - 09:30 AM" as the tail of a range and
+    strips it, and the archive tables below carry rows whose only text is
+    "Video Open Video Only in Windows Media Player".
+
+    The displayed text is the authority - it is the commission's own local
+    time. The hidden epoch is a fallback, and note it is stored as PACIFIC
+    wall-clock (Granicus is a Pacific platform): formatting 1786984200 in
+    America/Los_Angeles gives the 09:30 AM Florida prints, while ET gives
+    12:30 PM. Verified across every upcoming row on 2026-08-17.
+    """
+    soup = _soup(html)
+    out: list[RawEvent] = []
+    seen: set[tuple] = set()
+
+    for tr in soup.select("table.listingTable tr"):
+        name_td = tr.find("td", attrs={"headers": _GRANICUS_HDR})
+        date_td = tr.find("td", attrs={"headers": _GRANICUS_DATE_HDR})
+        if not name_td or not date_td:
+            continue
+        title = _text(name_td)
+        if not title:
+            continue
+
+        epoch = None
+        for sp in date_td.find_all("span"):
+            raw = sp.get_text(strip=True)
+            if raw.isdigit() and len(raw) >= 9:
+                epoch = int(raw)
+            sp.extract()
+
+        text = date_td.get_text(" ", strip=True).replace("\xa0", " ")
+        text = re.sub(r"\s+", " ", text).strip()
+        # "August 17, 2026 - 09:30 AM" -> "August 17, 2026 09:30 AM", so the
+        # hyphen is not mistaken for a range and the time survives.
+        text = re.sub(r",?\s*-\s*(?=\d{1,2}(?::\d{2})?\s*[APap])", " ", text)
+
+        start = _parse_dt(text, tz, now.year) if text else None
+        if start is None and epoch is not None:
+            wall = datetime.fromtimestamp(epoch, ZoneInfo("America/Los_Angeles"))
+            start = wall.replace(tzinfo=tz)
+        if start is None or not in_window(start, now):
+            continue
+
+        link = ""
+        a = tr.find("a", href=re.compile(r"AgendaViewer|MediaPlayer", re.I))
+        if a and a.get("href"):
+            link = urljoin(source_url, a["href"])
+
+        key = (start, title.lower()[:80])
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(RawEvent(
+            title=title[:220],
+            start=start,
+            all_day=(start.hour, start.minute) == (0, 0),
+            description="",
+            url=link or source_url,
+        ))
+
+    if not out:
+        raise ValueError("no Granicus listing rows")
+    return out
+
+
 def from_legistar_api(url: str, tz: ZoneInfo, now: datetime) -> list[RawEvent]:
     """Legistar Web API events (webapi.legistar.com) - Minnesota's agenda
     meetings. EventDate is date-only; EventTime carries the clock."""
@@ -1675,6 +1757,9 @@ def extract(url: str, strategy: str, tz_name: str, now: datetime,
         return from_or_hearings(url, tz, now), "or_hearings"
     if strategy == "pa_umbraco":
         return from_pa_umbraco(url, tz, now), "pa_umbraco"
+    if strategy == "granicus":
+        html, _ = get_text(url)
+        return from_granicus(html, tz, now, url), "granicus"
     if strategy == "mo_modals":
         html, _ = get_text(url)
         return from_mo_modals(html, tz, now, url), "mo_modals"

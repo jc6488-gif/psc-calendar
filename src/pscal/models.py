@@ -31,6 +31,11 @@ DOCKET_PATTERNS = [
     r"\b\d{2}-\d{4}-E[A-Z]{2,4}\b",                   # WV
     r"\bPUE-\d{4}-\d{5}\b",                           # VA
     r"\bU-\d{4,5}\b",                                 # MI / LA
+    # FL: 20260026-GU / 20260087-EM / 20260064-EI. Year-prefixed 8 digits with
+    # an industry suffix (GU gas utility, EI electric investor-owned, EM
+    # electric municipal, WS water & sewer). The suffix is optional because
+    # Florida's own schedule page writes the bare number.
+    r"(?-i:\b20\d{6}(?:-[A-Z]{2})?\b)",
     r"\b\d{2}-\d{3,5}-[A-Z]{2,4}\b",                  # generic dashed
 ]
 

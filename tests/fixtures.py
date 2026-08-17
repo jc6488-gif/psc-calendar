@@ -190,6 +190,38 @@ Commission Business Meeting: August 18, 2026, 1:30 PM
 August 10, 2026.
 """
 
+# Florida's "Upcoming Events" - the only FL source carrying a clock time -
+# is a Granicus iframe. The date cell hides a Unix epoch before the display
+# text, and the non-breaking spaces plus the " - " before the time are what
+# defeat generic table parsing.
+GRANICUS_HTML = """<html><body>
+<h3>Upcoming Events</h3>
+<table class="listingTable" id="upcoming">
+<thead><tr><th id="EventName">Name</th><th id="EventDate">Date</th></tr></thead>
+<tbody>
+<tr>
+  <td class="listItem" headers="EventName">Service Hearing: 20260026-GU (Virtual)</td>
+  <td class="listItem" headers="EventDate Service-Hearing">
+     <span style="display:none;">1786984200</span>August&nbsp;17,&nbsp;2026 - 09:30&nbsp;AM </td>
+  <td class="listItem"><a href="//psc-fl.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=2886">Agenda</a></td>
+</tr>
+<tr>
+  <td class="listItem" headers="EventName">Service Hearing: 20260026-GU (Virtual) - Hearing immediately following</td>
+  <td class="listItem" headers="EventDate Service-Hearing-2">
+     <span style="display:none;">1786998600</span>August&nbsp;17,&nbsp;2026 - 01:30&nbsp;PM </td>
+</tr>
+<tr>
+  <td class="listItem" headers="EventName">Hearing: 20260087-EM (Day:1)</td>
+  <td class="listItem" headers="EventDate Hearing-EM">
+     <span style="display:none;">1787076900</span>August&nbsp;18,&nbsp;2026 - 11:15&nbsp;AM </td>
+</tr>
+</tbody></table>
+<table class="listingTable" id="archive"><tbody>
+<tr><td class="listItem">Video Open Video Only in Windows Media Player</td></tr>
+</tbody></table>
+</body></html>"""
+
+
 # New Jersey's Open Public Meetings Act notice: the year is stated once in
 # prose, the meeting series in a heading, and the dates carry no year at all -
 # set two to a line because the PDF lays them out in columns. Neither the

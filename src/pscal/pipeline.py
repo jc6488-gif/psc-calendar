@@ -219,6 +219,12 @@ def dedupe(events: list[Event]) -> list[Event]:
         timed = not x.all_day and (x.start.hour, x.start.minute) != (0, 0)
         return (timed, len(x.dockets), len(x.description), bool(x.url), len(x.title))
 
+    def _clock(x: Event) -> tuple[int, int] | None:
+        """The event's stated start time, or None when it has none."""
+        if x.all_day or (x.start.hour, x.start.minute) == (0, 0):
+            return None
+        return (x.start.hour, x.start.minute)
+
     drop: set[int] = set()
     for group in by_day.values():
         if len(group) < 2:
@@ -276,6 +282,15 @@ def dedupe(events: list[Event]) -> list[Event]:
                 nb = _norm(b.title)
                 if not nb:
                     continue
+                # Two events at DIFFERENT clock times on one day are separate
+                # sessions, however alike their names. Florida runs "Service
+                # Hearing: 20260026-GU (Virtual)" at 09:30 and "... - Hearing
+                # immediately following" at 13:30; one title contains the
+                # other, and merging them silently deleted the morning
+                # hearing. Containment only settles records that do not
+                # already disagree about when they start.
+                if _clock(a) and _clock(b) and _clock(a) != _clock(b):
+                    continue
                 if na == nb or na in nb or nb in na:
                     loser = a if _rank(a) < _rank(b) else b
                     winner = b if loser is a else a
@@ -283,6 +298,45 @@ def dedupe(events: list[Event]) -> list[Event]:
                     drop.add(id(loser))
                     if loser is a:
                         break
+    # --- third pass: the same proceeding, once vague and once precise -------
+    # Florida publishes each hearing twice. Its schedule page carries the
+    # docket and what the case is about but NO time; the Granicus feed behind
+    # its events page carries the session name and the real clock time. Same
+    # docket on the same day is the same proceeding, so the timeless record is
+    # the poorer copy - drop it, and carry its subject onto the timed one so
+    # the calendar says both what the hearing is and when it starts.
+    #
+    # Matched on the docket's base number so Florida's "20260026" meets
+    # "20260026-GU". A docket can hold several sessions in one day (a 09:30
+    # service hearing and a 13:30 hearing immediately following), so the
+    # subject is copied to EVERY timed session, never used to collapse them.
+    def _bases(e: Event) -> set[str]:
+        return {d.split("-")[0].upper() for d in e.dockets if d}
+
+    def _subject(e: Event) -> str:
+        t = e.title
+        m = re.match(r"^\s*Docket\s+[\w-]+\s*:\s*(.+)$", t, re.I)
+        return (m.group(1) if m else t).strip()
+
+    for group in by_day.values():
+        alive = [e for e in group if id(e) not in drop]
+        timed = [e for e in alive
+                 if not e.all_day and (e.start.hour, e.start.minute) != (0, 0)]
+        if not timed:
+            continue
+        for e in alive:
+            if e in timed or not _bases(e):
+                continue
+            partners = [t for t in timed if _bases(e) & _bases(t)]
+            if not partners:
+                continue
+            subject = _subject(e)
+            for t in partners:
+                t.dockets = sorted(set(t.dockets) | set(e.dockets))
+                if subject and subject.lower() not in t.title.lower():
+                    t.title = f"{t.title} — {subject}"[:300]
+            drop.add(id(e))
+
     return [e for e in merged if id(e) not in drop]
 
 

@@ -200,6 +200,43 @@ by finding the calendar's own embed: CO's page carries the Google Calendar
 id we scrape (base64 in the iframe src), UT's is on `psc.utah.gov` rather
 than the state notice board, RRC's Hearings Calendar embeds the Outlook feed.
 
+### `strategy: granicus` — where Florida keeps its times (2026-08-17)
+
+Florida's hearings carry a clock time in exactly one place, and it is not on
+`floridapsc.com`: the "Upcoming Events" table is a **Granicus iframe**
+(`psc-fl.granicus.com/ViewPublisher.php?view_id=2`), so the commission's own
+Angular page renders nothing a scraper can see. Generic table parsing mangled
+it three ways - non-breaking spaces hid the time, `_parse_dt` read
+" - 09:30 AM" as the tail of a range and stripped it, and the archive tables
+below contributed rows reading "Video Open Video Only in Windows Media
+Player". `from_granicus` addresses cells by their `headers` attribute instead.
+
+**The hidden epoch in each date cell is PACIFIC wall-clock.** Granicus is a
+Pacific platform: `1786984200` formatted in America/Los_Angeles gives the
+09:30 AM Florida prints, in America/New_York it gives 12:30 PM. The displayed
+text is the authority; the epoch is only a fallback. Reading it as local time
+would put every Florida hearing three hours late.
+
+NOLA and SD are also Granicus and currently use other strategies - if either
+ever needs times, this is the door.
+
+### Two records of one proceeding: vague + precise
+
+Florida publishes each hearing twice - the schedule page gives the docket and
+what the case is about but **no time**, the Granicus feed gives the session
+name and the **real time**. Matched on docket base + day (so `20260026` meets
+`20260026-GU`), the timeless record is dropped and its subject copied onto
+every timed session that day:
+
+    Service Hearing: 20260026-GU (Virtual) — Application for rate increase
+    by Florida City Gas          09:30
+
+**A docket can hold several sessions in one day**, so the subject is copied to
+each and never used to collapse them. Relatedly, the containment rule in
+dedupe now refuses to merge two events whose clock times differ: Florida runs
+a 09:30 service hearing and a 13:30 "Hearing immediately following", one title
+contains the other, and merging them deleted the morning hearing outright.
+
 ### Never publish a time nobody stated
 
 An event whose source gave a DATE and no hour arrives at midnight. Rendering
@@ -323,7 +360,7 @@ src/pscal/
 tools/probe.py          diagnose one commission — reach for this first
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  142 tests, all offline
+tests/                  147 tests, all offline
 ```
 
 ### The extraction chain
@@ -400,7 +437,7 @@ survivors would throw away the meetings still to come.
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 142 tests, no network
+python3 -m pytest tests/ -q                    # 147 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/

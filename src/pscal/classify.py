@@ -190,7 +190,23 @@ def clean_title(title: str) -> str:
     t = _FILE_DECOR.sub(" ", t)
     t = re.sub(r"\(\s*\)", " ", t)
     t = re.sub(r"\s+\)", ")", t)
-    return re.sub(r"\s+", " ", t).strip(" -\u2013|,")
+    t = re.sub(r"\s+", " ", t).strip(" -\u2013|,")
+    return tidy_field_title(t)
+
+
+# Florida's schedule page emits its own field names into the title:
+# "Docket No : 20260026 ; Title: Application for rate increase by Florida City
+# Gas." Keep the docket - it is what ties this record to the timed one on the
+# Granicus feed - but say it the way a person would.
+_FIELD_TITLE = re.compile(
+    r"^\s*Docket\s*No\.?\s*:?\s*([\w-]+)\s*;\s*Title\s*:\s*(.+)$", re.I)
+
+
+def tidy_field_title(title: str) -> str:
+    m = _FIELD_TITLE.match(title or "")
+    if not m:
+        return title
+    return f"Docket {m.group(1)}: {m.group(2).strip().rstrip('.')}"
 
 
 def split_leading_time(title: str) -> tuple[str, tuple[int, int] | None]:

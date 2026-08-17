@@ -9,185 +9,204 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260001 \; Title: Fuel and purchased power cost 
- recovery clause with generating performance incentive factor. Docket No : 
- 20260053 \; Title: Review of the 2024-2025 outage of Tampa Electric Compan
- y's Bayside Steam Turbine Unit 2. Dock
+SUMMARY:[FL] Docket 20260001: Fuel and purchased power cost recovery claus
+ e with generating performance incentive factor. Docket No : 20260053 \; Ti
+ tle: Review of the 2024-2025 outage of Tampa Electric Company's Bayside St
+ eam Turbine Unit 2. Docket No : 20260
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
-DTSTAMP:20260817T180926Z
-UID:10e0ff6a36c60d8a81a6@psc-calendar
+DTSTAMP:20260817T182648Z
+UID:ae5a040f8b2a1f8313b3@psc-calendar
 CATEGORIES:FL,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Open
-  Meeting / Commission Meeting\n\nTuesday\, August 04\, 2026 Event type: He
- aring Time : Immediately after Agenda Conference Location: E 148 - Tallaha
- ssee | | | Docket No : 20260001 \; Title: Fuel and purchased power cost re
- covery clause with generating performance incentive factor. Docket No : 20
- 260053 \; Title: Review of the 2024-2025 outage of Tampa Electric Company'
- s Bayside Steam Turbine Unit 2. Docket No : 20260062 \; Title: Petition fo
- r approval of revised depreciation rates for Bayside Power Station assets\
- , by Tampa Electric Company. | All Commissioners\n\nSource: https://www.fl
- oridapsc.com/watch-archive-psc-events
-PRIORITY:5
-URL:https://www.floridapsc.com/watch-archive-psc-events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260087 \; Title: Petition for determine of need
-  for a new combined cycle generating unit and onsite associated facilities
-  located at St. Johns River Power Park Unit 3 in Duval County\, by JEA.
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-DTSTAMP:20260817T180926Z
-UID:ca785a6bc451ec4998ea@psc-calendar
-CATEGORIES:FL,Evidentiary Hearing
-DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
- entiary Hearing\n\nTuesday\, August 04\, 2026 Event type: Pre-Hearing Time
-  : Immediately following previous event Location: E 148 - Tallahassee | | 
- | Docket No : 20260087 \; Title: Petition for determine of need for a new 
- combined cycle generating unit and onsite associated facilities located at
-  St. Johns River Power Park Unit 3 in Duval County\, by JEA. | La Rosa\n\n
- Source: https://www.floridapsc.com/watch-archive-psc-events
-PRIORITY:5
-URL:https://www.floridapsc.com/watch-archive-psc-events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260064 \; Title: Petition for a limited proceed
- ing to approve large load tariff\, by Duke Energy Florida\, LLC.
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-DTSTAMP:20260817T180926Z
-UID:f25af583eb3d89892651@psc-calendar
-CATEGORIES:FL,Evidentiary Hearing
-DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
- entiary Hearing\n\nWednesday\, August 05\, 2026 Event type: Pre-Hearing Ti
- me : 09:30 AM Location: E 148 - Tallahassee | | | Docket No : 20260064 \; 
- Title: Petition for a limited proceeding to approve large load tariff\, by
-  Duke Energy Florida\, LLC. | Clark\n\nSource: https://www.floridapsc.com/
- watch-archive-psc-events
-PRIORITY:5
-URL:https://www.floridapsc.com/watch-archive-psc-events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260026 \; Title: Application for rate increase 
- by Florida City Gas.
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260818
-DTSTAMP:20260817T180926Z
-UID:7f3552e1c2a2ddb509ed@psc-calendar
-CATEGORIES:FL,Evidentiary Hearing
-DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
- entiary Hearing\n\nMonday\, August 17\, 2026 Event type: Service Hearing -
-  Virtual Time : 10:00 AM Location: E 148 - Tallahassee | | | Docket No : 2
- 0260026 \; Title: Application for rate increase by Florida City Gas. | All
+  Meeting / Commission Meeting\nDocket: 20260001\, 20260053\, 20260062\n\nT
+ uesday\, August 04\, 2026 Event type: Hearing Time : Immediately after Age
+ nda Conference Location: E 148 - Tallahassee | | | Docket No : 20260001 \;
+  Title: Fuel and purchased power cost recovery clause with generating perf
+ ormance incentive factor. Docket No : 20260053 \; Title: Review of the 202
+ 4-2025 outage of Tampa Electric Company's Bayside Steam Turbine Unit 2. Do
+ cket No : 20260062 \; Title: Petition for approval of revised depreciation
+  rates for Bayside Power Station assets\, by Tampa Electric Company. | All
   Commissioners\n\nSource: https://www.floridapsc.com/watch-archive-psc-eve
  nts
 PRIORITY:5
 URL:https://www.floridapsc.com/watch-archive-psc-events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260064 \; Title: Petition for a limited proceed
- ing to approve large load tariff\, by Duke Energy Florida\, LLC.
+SUMMARY:[FL] Docket 20260087: Petition for determine of need for a new com
+ bined cycle generating unit and onsite associated facilities located at St
+ . Johns River Power Park Unit 3 in Duval County\, by JEA
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+DTSTAMP:20260817T182648Z
+UID:eda634e4b20a12f8d2f6@psc-calendar
+CATEGORIES:FL,Evidentiary Hearing
+DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
+ entiary Hearing\nDocket: 20260087\n\nTuesday\, August 04\, 2026 Event type
+ : Pre-Hearing Time : Immediately following previous event Location: E 148 
+ - Tallahassee | | | Docket No : 20260087 \; Title: Petition for determine 
+ of need for a new combined cycle generating unit and onsite associated fac
+ ilities located at St. Johns River Power Park Unit 3 in Duval County\, by 
+ JEA. | La Rosa\n\nSource: https://www.floridapsc.com/watch-archive-psc-eve
+ nts
+PRIORITY:5
+URL:https://www.floridapsc.com/watch-archive-psc-events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FL] Docket 20260064: Petition for a limited proceeding to approve
+  large load tariff\, by Duke Energy Florida\, LLC
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+DTSTAMP:20260817T182648Z
+UID:d296e14c2d14718f6031@psc-calendar
+CATEGORIES:FL,Evidentiary Hearing
+DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
+ entiary Hearing\nDocket: 20260064\n\nWednesday\, August 05\, 2026 Event ty
+ pe: Pre-Hearing Time : 09:30 AM Location: E 148 - Tallahassee | | | Docket
+  No : 20260064 \; Title: Petition for a limited proceeding to approve larg
+ e load tariff\, by Duke Energy Florida\, LLC. | Clark\n\nSource: https://w
+ ww.floridapsc.com/watch-archive-psc-events
+PRIORITY:5
+URL:https://www.floridapsc.com/watch-archive-psc-events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FL] Docket 20260064: Petition for a limited proceeding to approve
+  large load tariff\, by Duke Energy Florida\, LLC
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-DTSTAMP:20260817T180926Z
-UID:a7382a0e1d2fba8c0b07@psc-calendar
+DTSTAMP:20260817T182648Z
+UID:c75287c377f118737cad@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
- entiary Hearing\n\nMonday\, August 17\, 2026 Event type: Hearing Time : Fo
- llowing Previous Event Location: E 148 - Tallahassee | | | Docket No : 202
- 60064 \; Title: Petition for a limited proceeding to approve large load ta
- riff\, by Duke Energy Florida\, LLC. | Clark\n\nSource: https://www.florid
- apsc.com/watch-archive-psc-events
+ entiary Hearing\nDocket: 20260064\n\nMonday\, August 17\, 2026 Event type:
+  Hearing Time : Following Previous Event Location: E 148 - Tallahassee | |
+  | Docket No : 20260064 \; Title: Petition for a limited proceeding to app
+ rove large load tariff\, by Duke Energy Florida\, LLC. | Clark\n\nSource: 
+ https://www.floridapsc.com/watch-archive-psc-events
 PRIORITY:5
 URL:https://www.floridapsc.com/watch-archive-psc-events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260087 \; Title: Petition for determine of need
-  for a new combined cycle generating unit and onsite associated facilities
-  located at St. Johns River Power Park Unit 3 in Duval County\, by JEA.
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
-DTSTAMP:20260817T180926Z
-UID:0b113905f740c21fa502@psc-calendar
+SUMMARY:[FL] Service Hearing: 20260026-GU (Virtual) — Application for ra
+ te increase by Florida City Gas
+DTSTART;TZID=America/New_York:20260817T093000
+DTEND;TZID=America/New_York:20260817T113000
+DTSTAMP:20260817T182648Z
+UID:655d455b26387dbc68e6@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
- entiary Hearing\n\nTuesday\, August 18\, 2026 Event type: Hearing Time : I
- mmediately following previous event Location: E 148 - Tallahassee | | | Do
- cket No : 20260087 \; Title: Petition for determine of need for a new comb
- ined cycle generating unit and onsite associated facilities located at St.
-  Johns River Power Park Unit 3 in Duval County\, by JEA. | All Commissione
- rs\n\nSource: https://www.floridapsc.com/watch-archive-psc-events
+ entiary Hearing\nDocket: 20260026\, 20260026-GU\n\nSource: https://psc-fl.
+ granicus.com/AgendaViewer.php?view_id=2&event_id=2886
 PRIORITY:5
-URL:https://www.floridapsc.com/watch-archive-psc-events
+URL:https://psc-fl.granicus.com/AgendaViewer.php?view_id=2&event_id=2886
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260087 \; Title: Petition for determine of need
-  for a new combined cycle generating unit and onsite associated facilities
-  located at St. Johns River Power Park Unit 3 in Duval County\, by JEA.
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
-DTSTAMP:20260817T180926Z
-UID:27dd1163da2c1cbc5955@psc-calendar
+SUMMARY:[FL] Service Hearing: 20260026-GU (Virtual) - Hearing immediately 
+ following — Application for rate increase by Florida City Gas
+DTSTART;TZID=America/New_York:20260817T133000
+DTEND;TZID=America/New_York:20260817T153000
+DTSTAMP:20260817T182648Z
+UID:f839f6cc354abbc839bf@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
- entiary Hearing\n\nWednesday\, August 19\, 2026 Event type: Hearing Time :
-  09:30 AM Location: E 148 - Tallahassee | | | Docket No : 20260087 \; Titl
- e: Petition for determine of need for a new combined cycle generating unit
-  and onsite associated facilities located at St. Johns River Power Park Un
- it 3 in Duval County\, by JEA. | All Commissioners\n\nSource: https://www.
- floridapsc.com/watch-archive-psc-events
+ entiary Hearing\nDocket: 20260026\, 20260026-GU\n\nSource: https://psc-fl.
+ granicus.com/AgendaViewer.php?view_id=2&event_id=2887
 PRIORITY:5
-URL:https://www.floridapsc.com/watch-archive-psc-events
+URL:https://psc-fl.granicus.com/AgendaViewer.php?view_id=2&event_id=2887
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260064 \; Title: Petition for a limited proceed
- ing to approve large load tariff\, by Duke Energy Florida\, LLC.
+SUMMARY:[FL] Internal Affairs - Hearing immediately following
+DTSTART;TZID=America/New_York:20260818T090000
+DTEND;TZID=America/New_York:20260818T110000
+DTSTAMP:20260817T182648Z
+UID:4b95aeb29d0aa725c8ce@psc-calendar
+CATEGORIES:FL,Evidentiary Hearing
+DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
+ entiary Hearing\n\nSource: https://psc-fl.granicus.com/AgendaViewer.php?vi
+ ew_id=2&event_id=2888
+PRIORITY:5
+URL:https://psc-fl.granicus.com/AgendaViewer.php?view_id=2&event_id=2888
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FL] Hearing: 20260087-EM (Day:1) — Petition for determine of ne
+ ed for a new combined cycle generating unit and onsite associated faciliti
+ es located at St. Johns River Power Park Unit 3 in Duval County\, by JEA
+DTSTART;TZID=America/New_York:20260818T111500
+DTEND;TZID=America/New_York:20260818T131500
+DTSTAMP:20260817T182648Z
+UID:4220b57508b2fd7212d8@psc-calendar
+CATEGORIES:FL,Evidentiary Hearing
+DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
+ entiary Hearing\nDocket: 20260087\, 20260087-EM\n\nSource: https://psc-fl.
+ granicus.com/AgendaViewer.php?view_id=2&event_id=2889
+PRIORITY:5
+URL:https://psc-fl.granicus.com/AgendaViewer.php?view_id=2&event_id=2889
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FL] Hearing: 20260087-EM (Day:2) — Petition for determine of ne
+ ed for a new combined cycle generating unit and onsite associated faciliti
+ es located at St. Johns River Power Park Unit 3 in Duval County\, by JEA
+DTSTART;TZID=America/New_York:20260819T090000
+DTEND;TZID=America/New_York:20260819T110000
+DTSTAMP:20260817T182648Z
+UID:d8d6af22308501cb223e@psc-calendar
+CATEGORIES:FL,Evidentiary Hearing
+DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
+ entiary Hearing\nDocket: 20260087\, 20260087-EM\n\nSource: https://psc-fl.
+ granicus.com/AgendaViewer.php?view_id=2&event_id=2891
+PRIORITY:5
+URL:https://psc-fl.granicus.com/AgendaViewer.php?view_id=2&event_id=2891
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FL] Docket 20260064: Petition for a limited proceeding to approve
+  large load tariff\, by Duke Energy Florida\, LLC
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
-DTSTAMP:20260817T180926Z
-UID:a50fdfedf338de71e104@psc-calendar
+DTSTAMP:20260817T182648Z
+UID:6784aa8608879f7a475c@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
- entiary Hearing\n\nTuesday\, August 25\, 2026 Event type: Hearing Time : 0
- 9:30 AM Location: E 148 - Tallahassee | | | Docket No : 20260064 \; Title:
-  Petition for a limited proceeding to approve large load tariff\, by Duke 
- Energy Florida\, LLC. | All Commissioners\n\nSource: https://www.floridaps
- c.com/watch-archive-psc-events
+ entiary Hearing\nDocket: 20260064\n\nTuesday\, August 25\, 2026 Event type
+ : Hearing Time : 09:30 AM Location: E 148 - Tallahassee | | | Docket No : 
+ 20260064 \; Title: Petition for a limited proceeding to approve large load
+  tariff\, by Duke Energy Florida\, LLC. | All Commissioners\n\nSource: htt
+ ps://www.floridapsc.com/watch-archive-psc-events
 PRIORITY:5
 URL:https://www.floridapsc.com/watch-archive-psc-events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260064 \; Title: Petition for a limited proceed
- ing to approve large load tariff\, by Duke Energy Florida\, LLC.
+SUMMARY:[FL] Docket 20260064: Petition for a limited proceeding to approve
+  large load tariff\, by Duke Energy Florida\, LLC
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
-DTSTAMP:20260817T180926Z
-UID:38ff13347c4a20b57f08@psc-calendar
+DTSTAMP:20260817T182648Z
+UID:dededb2ce16d0caf9250@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
- entiary Hearing\n\nWednesday\, August 26\, 2026 Event type: Hearing Time :
-  09:30 AM Location: E 148 - Tallahassee | | | Docket No : 20260064 \; Titl
- e: Petition for a limited proceeding to approve large load tariff\, by Duk
- e Energy Florida\, LLC. | All Commissioners\n\nSource: https://www.florida
- psc.com/watch-archive-psc-events
+ entiary Hearing\nDocket: 20260064\n\nWednesday\, August 26\, 2026 Event ty
+ pe: Hearing Time : 09:30 AM Location: E 148 - Tallahassee | | | Docket No 
+ : 20260064 \; Title: Petition for a limited proceeding to approve large lo
+ ad tariff\, by Duke Energy Florida\, LLC. | All Commissioners\n\nSource: h
+ ttps://www.floridapsc.com/watch-archive-psc-events
 PRIORITY:5
 URL:https://www.floridapsc.com/watch-archive-psc-events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FL] Docket No : 20260010 \; Title: Storm protection plan cost rec
- overy clause. Docket No : 20260011 \; Title: Natural gas facilities reloca
- tion cost recovery clause.
+SUMMARY:[FL] Docket 20260010: Storm protection plan cost recovery clause. 
+ Docket No : 20260011 \; Title: Natural gas facilities relocation cost reco
+ very clause
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20260817T180926Z
-UID:182d0e17f7e60253d5f9@psc-calendar
+DTSTAMP:20260817T182648Z
+UID:7e4d7062bb4c7317ddfc@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
- entiary Hearing\n\nThursday\, August 27\, 2026 Event type: Pre-Hearing Tim
- e : 09:30 AM Location: E 148 - Tallahassee | | | Docket No : 20260010 \; T
- itle: Storm protection plan cost recovery clause. Docket No : 20260011 \; 
- Title: Natural gas facilities relocation cost recovery clause. | Clark\n\n
- Source: https://www.floridapsc.com/watch-archive-psc-events
+ entiary Hearing\nDocket: 20260010\, 20260011\n\nThursday\, August 27\, 202
+ 6 Event type: Pre-Hearing Time : 09:30 AM Location: E 148 - Tallahassee | 
+ | | Docket No : 20260010 \; Title: Storm protection plan cost recovery cla
+ use. Docket No : 20260011 \; Title: Natural gas facilities relocation cost
+  recovery clause. | Clark\n\nSource: https://www.floridapsc.com/watch-arch
+ ive-psc-events
 PRIORITY:5
 URL:https://www.floridapsc.com/watch-archive-psc-events
 END:VEVENT
