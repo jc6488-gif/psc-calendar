@@ -91,44 +91,88 @@ telling you not to come. JavaScript rendering is a site happy to serve you but n
 in a form a simple fetch can read. They need different responses — the first is a
 policy call for the user, the second is an engineering fix.
 
-## Current status (post-audit full run, 2026-08-14 evening)
+## Current status (2026-08-17)
 
-- **42 of 54 commissions returned dated events end-to-end; 1,253 real events**
-  (afternoon baseline was 41/54 and 537). A six-agent completeness audit of
-  every delivering state found and fixed ~15 silent under-delivery cases.
-- **New strategies added by the audit:** `telerik` (TX RadScheduler JSON),
-  `fullcalendar` (MD admin-ajax), `federal_register` (FERC), `la_portal`
-  (LA Kendo POST), `ma_fileroom` (MA DPU POST API), `legistar` (MN),
-  `mo_modals` (MO day modals), `or_hearings` (OR week ranges), `pa_umbraco`
-  (PA token-gated GET search), `epoch_links` (GA ?date= anchors),
-  `drupal_settings` (WA embedded FullCalendar blob), `dated_links` (ID
-  YYYYMMDD filenames), plus ICS swaps for IA/UT/CO (Google Calendars) and
-  TX-RRC (Outlook /owa/calendar ICS).
-- **Parser rules learned the hard way (do not regress):** struck-through
-  (`<s>/<del>`) content is dropped before parsing (AZ publishes reschedules
-  that way); "scheduled for <date>" beats a notice's FILED date (DE);
-  a month name followed by a 4-digit year is NOT month+day (WY/MS phantom
-  events); RSS yearless dates default to the entry's pubDate year (NOLA
-  archives); Time columns join their date column (ME/NC); multi-date cells
-  emit every date (SC "August 6, 13, 20"; OK paired columns); cancelled
-  rows keep a [CANCELED] prefix.
-- **Known partial-visibility caveats (state these when asked):** MN public
-  hearings sit behind a Radware CAPTCHA (agenda meetings only until a
-  browser strategy); TX hearings appear only ~5 weeks out (Telerik window);
-  NV's docket calendar and NE/VT month grids parse partially; WI works from
-  a residential IP but 403s GitHub's cloud runners, so the daily run shows
-  WI red even though local probes succeed; CA's hearing-level Daily
-  Calendar is a .docx (unimplemented); AL commission-meeting notices and
-  monthly MS utility dockets are PDF-only.
+**Live at https://stellacc888.github.io/psc-calendar/** (renamed from jc6488-gif
+on 2026-08-17 - the old URL is dead). Outlook feed:
+`https://stellacc888.github.io/psc-calendar/feeds/all.ics`. Backup of the
+pre-narrowing version: tag `v1.0` / branch `backup-v1.0`.
+
+- **694 published events; 40 of 54 commissions reporting,
+  3 scraped-fine-but-fully-filtered.** The raw scrape is much larger -
+  see the scope decisions below, which cut it deliberately.
+- **`browser` strategy (headless Chromium via Playwright)** unlocked MI, FL
+  and OH. It identifies honestly as psc-calendar - a real browser engine
+  telling the truth about itself, NOT impersonation. MI's CDN 403s any UA
+  naming a tool but serves a real browser. OH's WebSphere portal renders
+  nothing server-side but exposes its featured hearing through
+  add-to-calendar links (`addtocalendar` extractor reads
+  `data:text/calendar` and Google Calendar TEMPLATE hrefs); PUCO features
+  ONE hearing at a time, so OH is a rolling next-hearing feed. CI installs
+  Chromium with `playwright install --with-deps chromium`.
+- **`pdf` / `pdf_links` strategies (pdfplumber)** unlocked MT (it published
+  ONLY a PDF) and turned IN's placeholder rows into ~30 real hearings incl.
+  Indiana Michigan Power (AEP) and CenterPoint Indiana (CNP). Two document
+  shapes, tried in order: labelled blocks (date / CAUSE NO. / TIME / ROOM /
+  caption - line scanning shreds these) then dated prose lines. Publication
+  stamps, date-range headers and past-week minutes references are filtered.
+
+### Scope decisions the desk made 2026-08-17 - do not undo without asking
+
+1. **Only three event types are published**: Evidentiary Hearing, Open
+   Meeting / Commission Meeting, Decision / Order. Public Comment Hearing,
+   Workshop / Conference, Procedural Milestone and Other are still
+   *classified* (so we know what a thing is) but carry `publish: false` in
+   `data/coverage.yaml` and are dropped. Reversing one is a one-word edit.
+   **Anything important landing in an unpublished type is a CLASSIFIER BUG** -
+   fix the patterns, do not accept the loss. This is how the HRG/Regular
+   Agenda/Notice of Meeting rescues were found.
+2. **Electric and gas only.** `classify.is_out_of_sector` drops water,
+   telecom and transport matters whose TITLE says so and carries no energy
+   signal. A generic "Open Meeting" names no sector so it is never dropped -
+   that is the unseparable case she explicitly wanted kept. The New Orleans
+   "Utility, Cable, Telecommunications" committee is exempt: it regulates
+   Entergy New Orleans.
+3. **The relevance filter and column were removed** - all three published
+   types are High, so it had become constant. The field survives in
+   events.json and revives if a type is re-enabled.
+4. **Date filter caps at 3 months**: Next week / 2 weeks / 30 days /
+   3 months / Past 30 days. The .ics feed still carries the full horizon.
+5. **"Could touch" column** = static commission -> ticker map from
+   coverage.yaml (corporate geography, zero maintenance). It is NOT
+   per-event attribution and must not be presented as such.
+
+### Dedupe rules (learned from real failures)
+
+- Key strips dates embedded in titles (MI publishes one meeting as
+  "Commission Meeting", "August 27, 2026 Commission Meeting" and a generic
+  fallback).
+- Generic titles are dropped when a specific event exists the same day; when
+  every variant is generic, the richest survives.
+- A second pass merges titles where one *contains* the other after filler is
+  stripped (TN "TPUC Commission Conference" = "Notice and Agenda for
+  Commission Conference"; TX-RRC ICS "CONFERENCE" = web "RRC open meeting").
+- **NEVER merge on (commission, date, time) alone.** 120 events share an
+  exact commission+datetime and most are distinct - IN runs four different
+  hearings at 09:30.
+
+### Health panel has THREE states, not two
+
+`✓` reporting, `–` scraped fine but every event was a type/sector the desk
+excluded (grey - DE, HI, VT), `✕`/`!` the scrape actually failed. Conflating
+the middle case with failure teaches distrust of the one instrument that
+reports blindness.
+
 - **Still failing, with the specific reason:**
 
 | Code | Blocker | What would fix it |
 |---|---|---|
-| KY CT VA | JS-rendered calendars | Headless browser (VA's schedules are inside the DocketSearch SPA; KS moved to a Salesforce app) |
-| WV NH AK | 403 to all automated clients | Contact the commission |
+| VA KY CT | JS apps the browser strategy did not crack (VA's schedules are inside DocketSearch) | Deeper per-app work |
+| KS | Calendar moved to a Salesforce app that errors headless (their TLS bug is fixed) | Deeper per-app work |
+| WI | Works from a residential IP; 403s GitHub's runners. Its 2 "events" are page furniture, not meetings | Proxy, self-hosted runner, or contact |
+| WV NH AK | 403 to every automated client incl. real browsers | Contact the commission |
 | AR | DNS dead (their outage) | Retry daily (automatic) |
-| KS | Broken TLS chain | Cert workaround or their fix |
-| WI (cloud only) | 403s data-center IPs | Browser strategy, proxy, or contact |
+| FERC | ferc.gov 403s everyone; the Federal Register carries a Sunshine Act notice only ~2 days before each meeting | Nothing - it appears and disappears monthly |
 
 
 ## robots.txt
