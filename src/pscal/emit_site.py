@@ -164,6 +164,12 @@ TEMPLATE = r"""<!DOCTYPE html>
   }
   td.pick, th.pick { width: 34px; text-align: center; padding-left: 10px; }
   td.pick input { width: 16px; height: 16px; cursor: pointer; }
+  /* Ticking a box has to LOOK like crossing the event off, or the only
+     feedback is a counter on a button somewhere else on the page. */
+  tr.picked { opacity: .45; }
+  tr.picked .title, tr.picked .date { text-decoration: line-through; }
+  tr.picked .title a { color: var(--text-secondary); }
+  #review[aria-pressed="true"] { background: var(--accent); color: #fff; }
 </style>
 </head>
 <body>
@@ -229,6 +235,13 @@ TEMPLATE = r"""<!DOCTYPE html>
     <tbody id="rows"></tbody>
   </table>
   <div class="empty" id="empty" hidden>No dates match these filters.</div>
+  <div id="reviewhelp" class="card" hidden style="margin:10px;padding:10px 12px;font-size:13px;color:var(--text-secondary)">
+    Tick the events you don't want. They grey out here immediately, but
+    <b>nothing is published yet</b> — press <b>Copy exclusions</b>, paste into
+    <code>data/exclusions.yaml</code> in the repo and commit. The site and the
+    Outlook feeds drop them a few minutes later. Your ticks are remembered in
+    this browser until you copy them.
+  </div>
 </div>
 
 <details class="about" open>
@@ -388,7 +401,7 @@ TEMPLATE = r"""<!DOCTYPE html>
         : esc(e.title);
       const dk = e.dockets.length
         ? `<div class="meta">Docket ${esc(e.dockets.slice(0, 3).join(", "))}</div>` : "";
-      return `<tr>
+      return `<tr class="${PICKED.has(e.uid) ? "picked" : ""}">
         <td class="pick" hidden><input type="checkbox" class="x" data-uid="${esc(e.uid)}"${PICKED.has(e.uid) ? " checked" : ""} aria-label="Exclude this event"></td>
         <td class="date${soon}">${dfmt(tz).format(d)}<span class="time">${time}</span></td>
         <td class="st"><span title="${esc(e.commission_name)}">${esc(e.commission)}</span></td>
@@ -469,7 +482,19 @@ TEMPLATE = r"""<!DOCTYPE html>
   // and commit; the site rebuilds a few minutes later and the event leaves
   // both the dashboard AND the feeds. Browser-side hiding could never reach
   // Outlook, which is the whole point of the exercise.
-  const PICKED = new Set();
+  // In-progress ticks only - never a source of truth. The published data is
+  // always what data/exclusions.yaml says. This exists so a stray reload does
+  // not throw away an afternoon of review.
+  const PICK_KEY = "pscal.review.picks";
+  const loadPicks = () => {
+    try { return new Set(JSON.parse(localStorage.getItem(PICK_KEY) || "[]")); }
+    catch (e) { return new Set(); }
+  };
+  const savePicks = () => {
+    try { localStorage.setItem(PICK_KEY, JSON.stringify([...PICKED])); }
+    catch (e) { /* private mode - ticks simply do not survive reload */ }
+  };
+  const PICKED = loadPicks();
   const BY_UID = new Map(DATA.events.map((e) => [e.uid, e]));
 
   function syncDropBtn() {
@@ -484,6 +509,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     $("review").setAttribute("aria-pressed", on ? "true" : "false");
     document.querySelectorAll(".pick").forEach((el) => { el.hidden = !on; });
     $("drop").hidden = !on;
+    $("reviewhelp").hidden = !on;
     syncDropBtn();
   };
 
@@ -492,6 +518,8 @@ TEMPLATE = r"""<!DOCTYPE html>
     if (!box) return;
     if (box.checked) PICKED.add(box.dataset.uid);
     else PICKED.delete(box.dataset.uid);
+    box.closest("tr").classList.toggle("picked", box.checked);
+    savePicks();
     syncDropBtn();
   });
 
@@ -528,7 +556,17 @@ TEMPLATE = r"""<!DOCTYPE html>
     try {
       await navigator.clipboard.writeText(text);
       $("drop").textContent = `Copied ${picks.length} \u2713`;
-      setTimeout(syncDropBtn, 1600);
+      setTimeout(() => {
+        if (window.confirm(
+              `${picks.length} exclusion(s) copied.\n\nPaste them into ` +
+              `data/exclusions.yaml and commit - they are not live until you do.\n\n` +
+              `Clear the ticks now?`)) {
+          PICKED.clear();
+          savePicks();
+          render();
+        }
+        syncDropBtn();
+      }, 300);
     } catch (err) {
       window.prompt("Copy this into data/exclusions.yaml", text);
     }
