@@ -388,9 +388,20 @@ is the worst failure, so it is built to fail loudly:
 
 Why a committed file rather than a click: the page is static and the `.ics`
 feeds are built server-side, so browser-side hiding could never reach Outlook.
-Tick rows in **Review mode**, press **Copy exclusions**, paste, commit; the
-rebuild fires in ~4 minutes and Outlook picks it up on its next sync. Two
-reviewers on different states merge cleanly - that is git's job.
+Tick rows in **Review mode**, press **Copy exclusions**, paste into GitHub's
+web editor (no terminal), commit; the rebuild fires in ~4 minutes and Outlook
+picks it up on its next sync. Two reviewers on different states merge cleanly.
+
+**An issue-driven robot to do the pasting was built and then reverted
+(2026-08-18).** It worked - dashboard button -> pre-filled issue -> workflow
+commits - but it cost 231 lines of workflow and parser, a label, and a
+hardcoded `stellacc888/psc-calendar` URL inside the dashboard, to save about
+twenty seconds per review session. The repo is expected to move to a company
+org, where that URL breaks and Actions write permissions are usually
+restricted, so the piece most likely to fail was the piece doing the least
+work. **Do not rebuild it without a concrete reason** - the desk's stated
+priority is minimum maintenance, and pasting into GitHub's web editor has no
+moving parts at all.
 
 **A growing list is a bug report.** If several exclusions rhyme, that is a
 classifier or filter fix waiting to be found - which is how the Missouri
@@ -505,7 +516,7 @@ tools/probe.py          diagnose one commission — reach for this first
 tools/audit_links.py    check every published link resolves AND holds its event
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  177 tests, all offline
+tests/                  181 tests, all offline
 ```
 
 ### The extraction chain
@@ -582,7 +593,7 @@ survivors would throw away the meetings still to come.
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 177 tests, no network
+python3 -m pytest tests/ -q                    # 181 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/
@@ -622,7 +633,12 @@ alone drops public hearings. Five TX sources are now configured.
 
 ## Maintenance traps
 
-- **Year-hardcoded URLs.** South Dakota (`/agendas/2026/default.aspx`), Oklahoma
+- **Year-hardcoded URLs are now templated.** Registry URLs accept `{year}`,
+  `{today}` and `{plus18mo}`, expanded at fetch time (`fetch.expand_url`), so
+  SD, OK, CPUC and RI roll over on their own each January instead of silently
+  going stale. NJ's meeting-notice PDF still carries a literal year because
+  the filename is not predictable - that one is the remaining annual chore.
+- **Year-hardcoded URLs (historical note).** South Dakota (`/agendas/2026/default.aspx`), Oklahoma
   (`/2026-commission-meetings.html`) and New Jersey
   (`Notice Agenda and Quarterly Meeting dates-2026-SL.pdf`) embed the year and
   will silently go stale each January. Roll them over, or add both current and

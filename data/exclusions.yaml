@@ -4,10 +4,10 @@
 # exclusion only reaches Outlook once it is in here and the site rebuilds
 # (~4 minutes after a push). Browser-side hiding could never do that.
 #
-# You should not need to edit this by hand. Tick rows on the dashboard
-# ("Review mode"), press "Remove these", and submit the GitHub issue that opens
-# pre-filled - a robot appends them here and closes the issue. The issue is
-# also the record of who removed what.
+# Tick rows on the dashboard ("Review mode"), press "Copy exclusions", then
+# paste here using GitHub's own web editor - no terminal needed:
+#   https://github.com/stellacc888/psc-calendar/edit/main/data/exclusions.yaml
+# Two people reviewing different states merge cleanly - that is what git is for.
 #
 #   events:      drop ONE occurrence, matched on commission + date + exact title
 #   recurring:   drop it EVERY time it appears, matched on a title substring
@@ -21,12 +21,6 @@
 #
 # Nothing here is required. An empty file publishes everything.
 
-events:
-- commission: ND
-  date: '2026-08-20'
-  title: Formal Hearing -Internet Broadcast Case No. PU-26-164 Basin Electric Power Cooperative Prairie
-    Winds ND 1 Project - Ward County Siting Application Sleep Inn & Suites Conference Center & Water Park
-    2400 10th Street SW Minot, N
-  reason: 'desk review (issue #3)'
-  by: stellacc888
+events: []
+
 recurring: []

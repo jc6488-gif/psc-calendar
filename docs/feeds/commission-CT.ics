@@ -13,7 +13,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] 26-02-06 Low Income Discount Rate Investigation LFE Hearing
 DTSTART;TZID=America/New_York:20260818T140000
 DTEND;TZID=America/New_York:20260818T160000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:7680542ed60a0c9f8ac1@psc-calendar
 CATEGORIES:CT,Evidentiary Hearing
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] REGULAR MEETING
 DTSTART;TZID=America/New_York:20260819T090000
 DTEND;TZID=America/New_York:20260819T110000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:897e70b50b76533291dc@psc-calendar
 CATEGORIES:CT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -45,7 +45,7 @@ SUMMARY:[CT] [CANCELED] CANCELLED - 02:00 pm - 26-03-10 Small Cell SC18 LF
  E Hearing (Agreed to cancel at hearing)
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:6f12fe51057af5303e96@psc-calendar
 CATEGORIES:CT,Evidentiary Hearing
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -60,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] REGULAR MEETING
 DTSTART;TZID=America/New_York:20260826T090000
 DTEND;TZID=America/New_York:20260826T110000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:0d49565fc6368a637f9f@psc-calendar
 CATEGORIES:CT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -76,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] REGULAR MEETING
 DTSTART;TZID=America/New_York:20260902T090000
 DTEND;TZID=America/New_York:20260902T110000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:fdd6184aadbd9d80bfdf@psc-calendar
 CATEGORIES:CT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -92,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] REGULAR MEETING
 DTSTART;TZID=America/New_York:20260909T090000
 DTEND;TZID=America/New_York:20260909T110000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:3f460219cc33245cccd7@psc-calendar
 CATEGORIES:CT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -108,7 +108,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] REGULAR MEETING
 DTSTART;TZID=America/New_York:20260916T090000
 DTEND;TZID=America/New_York:20260916T110000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:489d53c58932e597c1e7@psc-calendar
 CATEGORIES:CT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -124,7 +124,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] 26-03-15 CWC Rate Case Evidentiary Hearing (Hearing Room 1)
 DTSTART;TZID=America/New_York:20260921T100000
 DTEND;TZID=America/New_York:20260921T120000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:c0d4a5a7f444416d8b8e@psc-calendar
 CATEGORIES:CT,Evidentiary Hearing
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -138,7 +138,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] 26-03-15 CWC Rate Case Evidentiary Hearing (Hearing Room 1)
 DTSTART;TZID=America/New_York:20260922T100000
 DTEND;TZID=America/New_York:20260922T120000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:1306a6eba3b735aeb140@psc-calendar
 CATEGORIES:CT,Evidentiary Hearing
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -152,7 +152,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] 26-03-15 CWC Rate Case Evidentiary Hearing (Hearing Room 1)
 DTSTART;TZID=America/New_York:20260923T100000
 DTEND;TZID=America/New_York:20260923T120000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:1b449ceb108d82583595@psc-calendar
 CATEGORIES:CT,Evidentiary Hearing
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -166,7 +166,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] 26-03-15 CWC Rate Case Evidentiary Hearing (Hearing Room 1)
 DTSTART;TZID=America/New_York:20260924T100000
 DTEND;TZID=America/New_York:20260924T120000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:93d1a5656052fc799f4d@psc-calendar
 CATEGORIES:CT,Evidentiary Hearing
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -180,7 +180,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] 26-03-15 CWC Rate Case Evidentiary Hearing (Hearing Room 1)
 DTSTART;TZID=America/New_York:20260925T100000
 DTEND;TZID=America/New_York:20260925T120000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:25fb7416c94a2d5d54c6@psc-calendar
 CATEGORIES:CT,Evidentiary Hearing
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -194,7 +194,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] REGULAR MEETING
 DTSTART;TZID=America/New_York:20260930T090000
 DTEND;TZID=America/New_York:20260930T110000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:7b35cae2d09dc76d8153@psc-calendar
 CATEGORIES:CT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
@@ -210,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:[CT] REGULAR MEETING
 DTSTART;TZID=America/New_York:20261007T090000
 DTEND;TZID=America/New_York:20261007T110000
-DTSTAMP:20260818T135719Z
+DTSTAMP:20260818T151743Z
 UID:526c30c68350c6695b4b@psc-calendar
 CATEGORIES:CT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Connecticut Public Utilities Regulatory Authority 
