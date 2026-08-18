@@ -236,10 +236,11 @@ TEMPLATE = r"""<!DOCTYPE html>
   </table>
   <div class="empty" id="empty" hidden>No dates match these filters.</div>
   <div id="reviewhelp" class="card" hidden style="margin:10px;padding:10px 12px;font-size:13px;color:var(--text-secondary)">
-    Tick the events you don't want, then press <b>Copy exclusions</b> and
-    paste into <code>data/exclusions.yaml</code> on GitHub (its web editor —
-    no terminal needed). The site and the Outlook feeds drop them a few
-    minutes later. Your ticks are remembered in this browser meanwhile.
+    Tick the events you don't want, then press <b>Copy exclusions</b> and paste
+    the lines <b>directly under the <code>events:</code> line</b> in
+    <code>data/exclusions.yaml</code> on GitHub (its web editor — no terminal).
+    Adding to the list is safe; replacing it would drop your earlier reviews.
+    The site and the Outlook feeds follow a few minutes later.
   </div>
 </div>
 
@@ -535,7 +536,12 @@ TEMPLATE = r"""<!DOCTYPE html>
     const picks = [...PICKED].map((u) => BY_UID.get(u)).filter(Boolean);
     if (!picks.length) return;
     picks.sort((a, b) => (a.commission + a.start).localeCompare(b.commission + b.start));
-    const lines = ["events:"];
+    // Emit ONLY the list items, never a fresh "events:" header. Pasting a
+    // second events: block is silently destructive - YAML keeps the last key
+    // and the earlier batch vanishes with no error, so a second review would
+    // quietly undo the first.
+    const lines = ["  # --- added " + new Date().toISOString().slice(0, 10) +
+                   " - paste directly under the existing `events:` line ---"];
     for (const e of picks) {
       const ymd = new Intl.DateTimeFormat("en-CA", {
         timeZone: e.tz || LOCAL, year: "numeric", month: "2-digit", day: "2-digit",
@@ -543,14 +549,6 @@ TEMPLATE = r"""<!DOCTYPE html>
       lines.push(`  - commission: ${e.commission}`);
       lines.push(`    date: ${ymd}`);
       lines.push(`    title: ${yamlStr(e.title)}`);
-    }
-    lines.push("");
-    lines.push("# Repeats every month? Use a recurring rule instead, so you");
-    lines.push("# only decide once:");
-    lines.push("# recurring:");
-    for (const e of picks.slice(0, 2)) {
-      lines.push(`#   - commission: ${e.commission}`);
-      lines.push(`#     title_contains: ${yamlStr(e.title.slice(0, 48))}`);
     }
     const text = lines.join("\n");
     try {
@@ -561,9 +559,10 @@ TEMPLATE = r"""<!DOCTYPE html>
     }
     setTimeout(() => {
       if (window.confirm(
-            `${picks.length} exclusion(s) copied.\n\nPaste them into ` +
-            `data/exclusions.yaml on GitHub and commit - they are not live ` +
-            `until you do.\n\nClear the ticks here?`)) {
+            `${picks.length} exclusion(s) copied.\n\n` +
+            `In data/exclusions.yaml on GitHub, paste them directly UNDER the ` +
+            `line that says "events:" - do not replace anything, or the ` +
+            `previous batch is lost.\n\nClear the ticks here?`)) {
         PICKED.clear();
         savePicks();
         render();

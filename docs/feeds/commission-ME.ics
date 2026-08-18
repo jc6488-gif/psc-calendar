@@ -10,24 +10,9 @@ X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
-DTSTART;TZID=America/New_York:20260818T100000
-DTEND;TZID=America/New_York:20260818T120000
-DTSTAMP:20260818T153839Z
-UID:8131c78bb4c788c5fb97@psc-calendar
-CATEGORIES:ME,Decision / Order
-DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci
- sion / Order\n\n8/18/2026 | Deliberations Audio/Video | 10:00 AM\n\nSource
- : https://www.maine.gov/tools/whatsnew/index.php?topic=puc-deliberations&i
- d=13356309&v=Article088
-PRIORITY:5
-URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-deliberations
- &id=13356309&v=Article088
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[ME] Deliberations Audio/Video
 DTSTART;TZID=America/New_York:20260825T100000
 DTEND;TZID=America/New_York:20260825T120000
-DTSTAMP:20260818T153839Z
+DTSTAMP:20260818T160342Z
 UID:92f90678c1c52aae8785@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci
@@ -42,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
 DTSTART;TZID=America/New_York:20260901T100000
 DTEND;TZID=America/New_York:20260901T120000
-DTSTAMP:20260818T153839Z
+DTSTAMP:20260818T160342Z
 UID:388dd6f773588622fc77@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci
@@ -57,7 +42,7 @@ BEGIN:VEVENT
 SUMMARY:[ME] Deliberations Audio/Video
 DTSTART;TZID=America/New_York:20260915T100000
 DTEND;TZID=America/New_York:20260915T120000
-DTSTAMP:20260818T153839Z
+DTSTAMP:20260818T160342Z
 UID:28d96d2f62d13130928c@psc-calendar
 CATEGORIES:ME,Decision / Order
 DESCRIPTION:Commission: Maine Public Utilities Commission (ME)\nType: Deci

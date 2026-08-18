@@ -1127,3 +1127,22 @@ def test_copied_exclusion_yaml_always_parses(title):
     rendered = title if safe.match(title) else _json.dumps(title)
     doc = _yaml.safe_load(f"events:\n  - commission: XX\n    title: {rendered}\n")
     assert doc["events"][0]["title"] == title
+
+
+def test_second_batch_appends_instead_of_replacing():
+    """The Copy button must emit list ITEMS, never a fresh "events:" header.
+    Two events: keys parse without error and YAML silently keeps only the
+    last - a second review would quietly undo the first, and nothing would
+    warn about it."""
+    import yaml as _yaml
+    destructive = ("events:\n  - {commission: FL, date: '2026-08-18', title: first}\n"
+                   "events:\n  - {commission: IL, date: '2026-09-01', title: second}\n")
+    doc = _yaml.safe_load(destructive)
+    assert [e["title"] for e in doc["events"]] == ["second"], \
+        "if this ever fails, YAML changed and the append-only rule can relax"
+
+    appended = ("events:\n"
+                "  - {commission: FL, date: '2026-08-18', title: first}\n"
+                "  - {commission: IL, date: '2026-09-01', title: second}\n")
+    doc = _yaml.safe_load(appended)
+    assert [e["title"] for e in doc["events"]] == ["first", "second"]

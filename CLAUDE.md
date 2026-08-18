@@ -403,6 +403,14 @@ work. **Do not rebuild it without a concrete reason** - the desk's stated
 priority is minimum maintenance, and pasting into GitHub's web editor has no
 moving parts at all.
 
+**Copy emits list ITEMS, never an `events:` header.** Pasting a second
+`events:` block is silently destructive - YAML keeps only the last key, parses
+without error, and the earlier batch is simply gone. At the desk's expected
+volume (~50 a month) a second review would quietly undo the first. The button
+therefore emits indented items with a dated marker comment, to be pasted
+directly under the existing `events:` line. There is a test asserting the
+destructive behaviour, so if PyYAML ever changes the rule can relax.
+
 **A growing list is a bug report.** If several exclusions rhyme, that is a
 classifier or filter fix waiting to be found - which is how the Missouri
 per-commissioner duplicates and Maryland's "NO meeting" rows were caught.
@@ -516,7 +524,7 @@ tools/probe.py          diagnose one commission — reach for this first
 tools/audit_links.py    check every published link resolves AND holds its event
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  181 tests, all offline
+tests/                  188 tests, all offline
 ```
 
 ### The extraction chain
@@ -593,7 +601,7 @@ survivors would throw away the meetings still to come.
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 181 tests, no network
+python3 -m pytest tests/ -q                    # 188 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/
