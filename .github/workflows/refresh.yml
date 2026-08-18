@@ -108,7 +108,26 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Refresh calendar $(date -u +%Y-%m-%d)"
-            git push
+            # Another commit can land on main while this run is scraping - a
+            # push from the desk, or the previous run finishing. A bare push
+            # is then rejected ("fetch first") and a perfectly good refresh is
+            # reported as a total failure. docs/ is generated output, so ours
+            # is always the newer truth: rebase onto whatever arrived and
+            # retry, keeping our rebuilt files on conflict.
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "pushed on attempt $attempt"
+                break
+              fi
+              echo "push rejected - rebasing onto origin/main and retrying"
+              git pull --rebase -X ours origin main || git rebase --abort || true
+              sleep 5
+            done
+            git push || {
+              echo "::warning::could not push refreshed docs after 3 attempts; \
+              the next scheduled run will republish"
+              exit 0
+            }
           fi
 
       - uses: actions/configure-pages@v5
