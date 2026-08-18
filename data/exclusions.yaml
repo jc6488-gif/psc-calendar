@@ -21,15 +21,12 @@
 #
 # Nothing here is required. An empty file publishes everything.
 
-events: []
-#  - commission: ND
-#    date: 2026-08-26
-#    title: Regular Meeting - Internet Broadcast Formal Administrative
-#    reason: routine, never actionable
-#    added: 2026-08-18
-
+events:
+- commission: ND
+  date: '2026-08-20'
+  title: Formal Hearing -Internet Broadcast Case No. PU-26-164 Basin Electric Power Cooperative Prairie
+    Winds ND 1 Project - Ward County Siting Application Sleep Inn & Suites Conference Center & Water Park
+    2400 10th Street SW Minot, N
+  reason: 'desk review (issue #3)'
+  by: stellacc888
 recurring: []
-#  - commission: ND
-#    title_contains: Regular Meeting - Internet Broadcast
-#    reason: routine, never actionable
-#    added: 2026-08-18
