@@ -12,39 +12,39 @@ BEGIN:VEVENT
 SUMMARY:[CA] 2026 Voting Meetings: 08/13/2026 San Francisco
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:378c6a9daf939b20c592@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
   Open Meeting / Commission Meeting\n\n08/03/26 | 08/13/2026 San Francisco 
  | 3585\n\nSource: https://www.cpuc.ca.gov/about-cpuc/transparency-and-repo
- rting/cpuc-voting-meetings/2026-voting-meetings
+ rting/cpuc-voting-meetings/{year}-voting-meetings
 PRIORITY:5
 URL:https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-vot
- ing-meetings/2026-voting-meetings
+ ing-meetings/{year}-voting-meetings
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CA] 2026 Voting Meetings: 09/03/2026 California State Personnel B
  oard’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 95814
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:c9098eb9d17844a9f211@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
   Open Meeting / Commission Meeting\n\n08/24/26 | 09/03/2026 California Sta
  te Personnel Board’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 958
  14 | 3586\n\nSource: https://www.cpuc.ca.gov/about-cpuc/transparency-and-r
- eporting/cpuc-voting-meetings/2026-voting-meetings
+ eporting/cpuc-voting-meetings/{year}-voting-meetings
 PRIORITY:5
 URL:https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-vot
- ing-meetings/2026-voting-meetings
+ ing-meetings/{year}-voting-meetings
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CA] CPUC Voting Meeting 09-03-26
 DTSTART;TZID=America/Los_Angeles:20260903T110000
 DTEND;TZID=America/Los_Angeles:20260903T130000
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:f358cf5975ce3ff47343@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -60,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:[CA] Low Income Oversight Board Quarterly Meeting 9-16-26
 DTSTART;TZID=America/Los_Angeles:20260916T090000
 DTEND;TZID=America/Los_Angeles:20260916T110000
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:c3a9ea2ad0c2ca51a978@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -79,23 +79,23 @@ SUMMARY:[CA] 2026 Voting Meetings: 09/17/2026 San Marcos City Council Cham
  bers 1 Civic Center Dr.\, San Marcos\, CA
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:759c69808598cc3324bf@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
   Open Meeting / Commission Meeting\n\n9/4/2026 Monday Holiday | 09/17/2026
   San Marcos City Council Chambers 1 Civic Center Dr.\, San Marcos\, CA | 3
  587\n\nSource: https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporti
- ng/cpuc-voting-meetings/2026-voting-meetings
+ ng/cpuc-voting-meetings/{year}-voting-meetings
 PRIORITY:5
 URL:https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-vot
- ing-meetings/2026-voting-meetings
+ ing-meetings/{year}-voting-meetings
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CA] CPUC Voting Meeting 09-17-26
 DTSTART;TZID=America/Los_Angeles:20260917T110000
 DTEND;TZID=America/Los_Angeles:20260917T130000
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:1288d0a9a4927023861a@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -112,23 +112,23 @@ SUMMARY:[CA] 2026 Voting Meetings: 10/08/2026 California State Personnel B
  oard’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 95814
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:c71b9fa3bb7f3ca08b17@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
   Open Meeting / Commission Meeting\n\n09/28/26 | 10/08/2026 California Sta
  te Personnel Board’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 958
  14 | 3588\n\nSource: https://www.cpuc.ca.gov/about-cpuc/transparency-and-r
- eporting/cpuc-voting-meetings/2026-voting-meetings
+ eporting/cpuc-voting-meetings/{year}-voting-meetings
 PRIORITY:5
 URL:https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-vot
- ing-meetings/2026-voting-meetings
+ ing-meetings/{year}-voting-meetings
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CA] CPUC Voting Meeting 10-08-26
 DTSTART;TZID=America/Los_Angeles:20261008T110000
 DTEND;TZID=America/Los_Angeles:20261008T130000
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:cd77c1233b98524c9760@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
@@ -144,64 +144,64 @@ BEGIN:VEVENT
 SUMMARY:[CA] 2026 Voting Meetings: 10/29/2026 San Francisco
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:c29bc29000da4e2a8d4f@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
   Open Meeting / Commission Meeting\n\n10/19/26 | 10/29/2026 San Francisco 
  | 3589\n\nSource: https://www.cpuc.ca.gov/about-cpuc/transparency-and-repo
- rting/cpuc-voting-meetings/2026-voting-meetings
+ rting/cpuc-voting-meetings/{year}-voting-meetings
 PRIORITY:5
 URL:https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-vot
- ing-meetings/2026-voting-meetings
+ ing-meetings/{year}-voting-meetings
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CA] 2026 Voting Meetings: 11/19/2026 California State Personnel B
  oard’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 95814
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:2cd5bddb53a6bd74d565@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
   Open Meeting / Commission Meeting\n\n11/09/26 | 11/19/2026 California Sta
  te Personnel Board’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 958
  14 | 3590\n\nSource: https://www.cpuc.ca.gov/about-cpuc/transparency-and-r
- eporting/cpuc-voting-meetings/2026-voting-meetings
+ eporting/cpuc-voting-meetings/{year}-voting-meetings
 PRIORITY:5
 URL:https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-vot
- ing-meetings/2026-voting-meetings
+ ing-meetings/{year}-voting-meetings
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CA] 2026 Voting Meetings: 12/03/2026 California State Personnel B
  oard’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 95814
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:a49f6d87fd5a1eb6e7a7@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
   Open Meeting / Commission Meeting\n\n11/23/26 | 12/03/2026 California Sta
  te Personnel Board’s Auditorium\, 801 Capitol Mall\, Sacramento\, CA 958
  14 | 3591\n\nSource: https://www.cpuc.ca.gov/about-cpuc/transparency-and-r
- eporting/cpuc-voting-meetings/2026-voting-meetings
+ eporting/cpuc-voting-meetings/{year}-voting-meetings
 PRIORITY:5
 URL:https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-vot
- ing-meetings/2026-voting-meetings
+ ing-meetings/{year}-voting-meetings
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CA] 2026 Voting Meetings: 12/17/2026 San Francisco
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20260818T131915Z
+DTSTAMP:20260818T135719Z
 UID:264357a2a8eb1b6d7eb2@psc-calendar
 CATEGORIES:CA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: California Public Utilities Commission (CA)\nType:
   Open Meeting / Commission Meeting\n\n12/07/26 | 12/17/2026 San Francisco 
  | 3592\n\nSource: https://www.cpuc.ca.gov/about-cpuc/transparency-and-repo
- rting/cpuc-voting-meetings/2026-voting-meetings
+ rting/cpuc-voting-meetings/{year}-voting-meetings
 PRIORITY:5
 URL:https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-vot
- ing-meetings/2026-voting-meetings
+ ing-meetings/{year}-voting-meetings
 END:VEVENT
 END:VCALENDAR

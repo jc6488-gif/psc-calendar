@@ -144,7 +144,7 @@ commissions:
       # public-participation-hearings 404ed.
       - url: https://www.cpuc.ca.gov/events-and-meetings
         strategy: auto
-      - url: https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-voting-meetings/2026-voting-meetings
+      - url: https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-voting-meetings/{year}-voting-meetings
         strategy: html_table
     notes: >-
       PG&E (PCG), SCE (EIX), SDG&E + SoCalGas (SRE), Southwest Gas (SWX).
@@ -836,7 +836,7 @@ commissions:
     docket_search: https://apps.occ.ok.gov/PSTPortal/
     sources:
       # VERIFIED WORKING 2026-08-14
-      - url: https://oklahoma.gov/occ/public-meetings/2026-commission-meetings.html
+      - url: https://oklahoma.gov/occ/public-meetings/{year}-commission-meetings.html
         label: Commission meeting
         strategy: auto
       - url: https://oklahoma.gov/occ/news-and-media/events.html
@@ -894,7 +894,7 @@ commissions:
     sources:
       # VERIFIED WORKING 2026-08-14 (evening audit): the RI SOS Open Meetings portal
       # RSS lists every noticed PUC meeting (the tool had 1 of 3 upcoming).
-      - url: "https://opengov.sos.ri.gov/RSSFeed/Rss?feedType=1&entityID=0&filter1=&filter2=&Keywords=&FromDate=08/14/2026&ToDate=12/31/2027&RefineSearch=&PublicBodies=Public+Utilities+Commission"
+      - url: "https://opengov.sos.ri.gov/RSSFeed/Rss?feedType=1&entityID=0&filter1=&filter2=&Keywords=&FromDate={today}&ToDate={plus18mo}&RefineSearch=&PublicBodies=Public+Utilities+Commission"
         strategy: rss
       - url: https://ripuc.ri.gov/events
         strategy: auto
@@ -929,7 +929,7 @@ commissions:
     docket_search: https://puc.sd.gov/Dockets/Electric/default.aspx
     sources:
       # VERIFIED WORKING 2026-08-14
-      - url: https://puc.sd.gov/agendas/2026/default.aspx
+      - url: https://puc.sd.gov/agendas/{year}/default.aspx
         label: Commission meeting agenda
         strategy: auto
       # VERIFIED WORKING 2026-08-14

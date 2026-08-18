@@ -79,6 +79,25 @@ def _throttle(url: str) -> None:
     _last_hit[host] = time.monotonic()
 
 
+def expand_url(url: str, now=None) -> str:
+    """Substitute {year} / {next_year} in a registry URL.
+
+    Six commissions publish their calendar at a path with the year baked into
+    it (SD /agendas/2026/, OK /2026-commission-meetings.html, NJ's meeting
+    notice PDF...). Hard-coding the year means those sources silently go stale
+    every January - the scrape keeps "working", it just stops finding this
+    year's dates. Templating them means the rollover happens on its own.
+    """
+    if "{" not in url:
+        return url
+    from datetime import datetime as _dt
+    now = now or _dt.now()
+    return (url.replace("{year}", str(now.year))
+               .replace("{next_year}", str(now.year + 1))
+               .replace("{today}", now.strftime("%m/%d/%Y"))
+               .replace("{plus18mo}", _dt(now.year + 2, now.month, 1).strftime("%m/%d/%Y")))
+
+
 def get(url: str, *, use_cache: bool = True, timeout=TIMEOUT,
         headers: dict | None = None) -> tuple[bytes, str]:
     """Fetch a URL. Returns (body_bytes, content_type). Raises FetchError."""

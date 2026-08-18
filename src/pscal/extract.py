@@ -24,7 +24,7 @@ from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 from dateutil.relativedelta import relativedelta
 
-from .fetch import get, get_text, post, FetchError
+from .fetch import expand_url, get, get_text, post, FetchError
 
 log = logging.getLogger(__name__)
 
@@ -1671,6 +1671,7 @@ STRATEGY_ORDER = ["ics", "rss", "jsonld", "tribe", "drupal", "html_cards", "html
 
 def extract_auto(url: str, tz_name: str, now: datetime) -> tuple[list[RawEvent], str]:
     """Run the full chain against a URL. Returns (events, strategy_name)."""
+    url = expand_url(url, now)
     tz = _tz(tz_name)
     body, ctype = get(url)
 
@@ -1724,6 +1725,9 @@ def extract_auto(url: str, tz_name: str, now: datetime) -> tuple[list[RawEvent],
 
 def extract(url: str, strategy: str, tz_name: str, now: datetime,
             spec_wait: str | None = None) -> tuple[list[RawEvent], str]:
+    # Single place every strategy passes through, so a {year} in the registry
+    # rolls over on its own each January instead of silently going stale.
+    url = expand_url(url, now)
     tz = _tz(tz_name)
     if strategy in ("auto", "", None):
         return extract_auto(url, tz_name, now)

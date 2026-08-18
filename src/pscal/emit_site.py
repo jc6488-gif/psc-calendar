@@ -185,7 +185,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   </div>
   <div style="display:flex;gap:8px">
     <button class="chip" id="review" aria-pressed="false">Review mode</button>
-    <button class="chip" id="drop" hidden>Copy exclusions (0)</button>
+    <button class="chip" id="drop" hidden>Remove these (0)</button>
     <button class="chip" id="csv">Export CSV (current filter)</button>
     <button class="chip" id="theme" aria-pressed="false">Dark</button>
   </div>
@@ -236,11 +236,10 @@ TEMPLATE = r"""<!DOCTYPE html>
   </table>
   <div class="empty" id="empty" hidden>No dates match these filters.</div>
   <div id="reviewhelp" class="card" hidden style="margin:10px;padding:10px 12px;font-size:13px;color:var(--text-secondary)">
-    Tick the events you don't want. They grey out here immediately, but
-    <b>nothing is published yet</b> — press <b>Copy exclusions</b>, paste into
-    <code>data/exclusions.yaml</code> in the repo and commit. The site and the
-    Outlook feeds drop them a few minutes later. Your ticks are remembered in
-    this browser until you copy them.
+    Tick the events you don't want, then press <b>Remove these</b>. GitHub
+    opens with everything filled in — press its green <b>Submit new issue</b>
+    button and you're done. The site and the Outlook feeds drop them a few
+    minutes later. Your ticks are remembered in this browser meanwhile.
   </div>
 </div>
 
@@ -499,7 +498,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 
   function syncDropBtn() {
     const n = PICKED.size;
-    $("drop").textContent = `Copy exclusions (${n})`;
+    $("drop").textContent = `Remove these (${n})`;
     $("drop").hidden = !$("review").getAttribute("aria-pressed") ||
                        $("review").getAttribute("aria-pressed") === "false";
   }
@@ -528,12 +527,18 @@ TEMPLATE = r"""<!DOCTYPE html>
     return /^[A-Za-z0-9][\w .,'()\/&:+-]*$/.test(t) ? t : JSON.stringify(t);
   };
 
-  $("drop").onclick = async () => {
+  $("drop").onclick = () => {
     const picks = [...PICKED].map((u) => BY_UID.get(u)).filter(Boolean);
     if (!picks.length) return;
-    const today = new Date().toISOString().slice(0, 10);
-    const lines = ["events:"];
     picks.sort((a, b) => (a.commission + a.start).localeCompare(b.commission + b.start));
+
+    // The whole point of routing through a GitHub issue rather than the API:
+    // no token has to live in this page or in anyone's browser. She is already
+    // signed in to GitHub, so submitting is one click, and the issue is a
+    // durable record of who dropped what.
+    const lines = ["The events ticked below should stop appearing on the calendar.",
+                   "A robot will commit these to data/exclusions.yaml.",
+                   "", "```yaml", "events:"];
     for (const e of picks) {
       const ymd = new Intl.DateTimeFormat("en-CA", {
         timeZone: e.tz || LOCAL, year: "numeric", month: "2-digit", day: "2-digit",
@@ -541,35 +546,37 @@ TEMPLATE = r"""<!DOCTYPE html>
       lines.push(`  - commission: ${e.commission}`);
       lines.push(`    date: ${ymd}`);
       lines.push(`    title: ${yamlStr(e.title)}`);
-      lines.push(`    reason: not relevant to the desk`);
-      lines.push(`    added: ${today}`);
     }
+    lines.push("```");
     lines.push("");
-    lines.push("# Repeats every month? Use a recurring rule instead, so you");
-    lines.push("# only decide once:");
-    lines.push("# recurring:");
+    lines.push("<!-- Repeats monthly? Replace the block above with a recurring rule so");
+    lines.push("     you only decide once:");
+    lines.push("```yaml");
+    lines.push("recurring:");
     for (const e of picks.slice(0, 2)) {
-      lines.push(`#   - commission: ${e.commission}`);
-      lines.push(`#     title_contains: ${yamlStr(e.title.slice(0, 48))}`);
+      lines.push(`  - commission: ${e.commission}`);
+      lines.push(`    title_contains: ${yamlStr(e.title.slice(0, 48))}`);
     }
-    const text = lines.join("\n");
-    try {
-      await navigator.clipboard.writeText(text);
-      $("drop").textContent = `Copied ${picks.length} \u2713`;
-      setTimeout(() => {
-        if (window.confirm(
-              `${picks.length} exclusion(s) copied.\n\nPaste them into ` +
-              `data/exclusions.yaml and commit - they are not live until you do.\n\n` +
-              `Clear the ticks now?`)) {
-          PICKED.clear();
-          savePicks();
-          render();
-        }
-        syncDropBtn();
-      }, 300);
-    } catch (err) {
-      window.prompt("Copy this into data/exclusions.yaml", text);
-    }
+    lines.push("```");
+    lines.push("-->");
+
+    const url = "https://github.com/stellacc888/psc-calendar/issues/new"
+      + "?labels=" + encodeURIComponent("drop-events")
+      + "&title=" + encodeURIComponent(`Remove ${picks.length} event(s) from the calendar`)
+      + "&body=" + encodeURIComponent(lines.join("\n"));
+    window.open(url, "_blank", "noopener");
+
+    setTimeout(() => {
+      if (window.confirm(
+            `GitHub opened in a new tab with ${picks.length} event(s) filled in.\n\n` +
+            `Press its green "Submit new issue" button - they are not removed ` +
+            `until you do.\n\nClear the ticks here?`)) {
+        PICKED.clear();
+        savePicks();
+        render();
+      }
+      syncDropBtn();
+    }, 400);
   };
 
   // ---- CSV ---------------------------------------------------------------
