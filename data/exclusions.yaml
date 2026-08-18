@@ -21,6 +21,38 @@
 #
 # Nothing here is required. An empty file publishes everything.
 
-events: []
+events:
+  - commission: FL
+    date: 2026-08-18
+    title: Internal Affairs - Hearing immediately following
+  - commission: FL
+    date: 2026-08-18
+    title: "Hearing: 20260087-EM (Day:1) — Petition for determination of need for a new combined cycle generating unit and onsite associated facilities located at St. Johns River Power Park Unit 3 in Duval County, by JEA"
+  - commission: GA
+    date: 2026-08-18
+    title: Administrative Session 8-18-2026
+  - commission: IL
+    date: 2026-08-18
+    title: Illinois Commerce Commission Hearing for T26-0004
+  - commission: IL
+    date: 2026-08-18
+    title: Illinois Commerce Commission Hearing for T26-0005
+  - commission: IL
+    date: 2026-08-18
+    title: Illinois Commerce Commission Prehearing for 26-0424
+  - commission: ME
+    date: 2026-08-18
+    title: Deliberations Audio/Video
+  - commission: OR
+    date: 2026-08-18
+    title: Docket ADV 1886 - IDAHO POWER ADVICE NO 26-09 REVISIONS TO SCHEDULE 95 ADJUST FOR MUNICIPAL EXACT PUBLIC MEETING HEARING ROOM - PUC 201 HIGH ST SE SALEM, OR
+
+# Repeats every month? Use a recurring rule instead, so you
+# only decide once:
+# recurring:
+#   - commission: FL
+#     title_contains: Internal Affairs - Hearing immediately following
+#   - commission: FL
+#     title_contains: "Hearing: 20260087-EM (Day:1) — Petition for dete"
 
 recurring: []
