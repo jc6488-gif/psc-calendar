@@ -1105,3 +1105,25 @@ def test_year_baked_urls_roll_over_on_their_own(template, expected):
     from datetime import datetime as dt
     from src.pscal.fetch import expand_url
     assert expand_url(template, dt(2027, 1, 5)) == expected
+
+
+@pytest.mark.parametrize("title", [
+    "Hearing: T-38004",                                  # LA - colon
+    "Docket 20260064: Petition for a limited proceeding",  # FL - colon
+    "[CANCELED] Administrative Meeting",                 # leading bracket
+    "Hearing: 20260087-EM (Day:1) — Petition",      # colon + em dash
+    "Internal Affairs - Hearing immediately following",  # plain, may stay bare
+    "Administrative Session 8-18-2026",
+])
+def test_copied_exclusion_yaml_always_parses(title):
+    """The dashboard's Copy button writes YAML a person pastes into
+    data/exclusions.yaml. An unquoted colon makes "Hearing: T-38004" two keys
+    and the whole file stops parsing - Louisiana alone has dozens of those.
+    This mirrors the rule in emit_site.py's yamlStr()."""
+    import json as _json
+    import re as _re
+    import yaml as _yaml
+    safe = _re.compile(r"^[A-Za-z0-9][\w .,'()/&+-]*$")
+    rendered = title if safe.match(title) else _json.dumps(title)
+    doc = _yaml.safe_load(f"events:\n  - commission: XX\n    title: {rendered}\n")
+    assert doc["events"][0]["title"] == title

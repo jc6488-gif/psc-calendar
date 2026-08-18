@@ -522,9 +522,13 @@ TEMPLATE = r"""<!DOCTYPE html>
     syncDropBtn();
   });
 
+  // Quote anything YAML could misread. A colon is the one that bites:
+  // "Hearing: T-38004" unquoted becomes two keys and the file will not parse,
+  // and Louisiana alone has dozens of those. When in doubt, quote - a quoted
+  // scalar is always valid, an unquoted one is a gamble.
   const yamlStr = (v) => {
     const t = String(v == null ? "" : v);
-    return /^[A-Za-z0-9][\w .,'()\/&:+-]*$/.test(t) ? t : JSON.stringify(t);
+    return /^[A-Za-z0-9][\w .,'()\/&+-]*$/.test(t) ? t : JSON.stringify(t);
   };
 
   $("drop").onclick = async () => {
