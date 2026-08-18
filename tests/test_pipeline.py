@@ -979,3 +979,32 @@ Wednesday, September 9
 def test_pdf_month_only_titles_rejected():
     """A line whose only words are month names is a date range, not an event."""
     assert "august" in extract._MONTH_WORDS
+
+
+@pytest.mark.parametrize("etype,code,title,dropped", [
+    # the desk's 2026-08-17 open-meeting filters
+    ("open_meeting", "MD", "[CANCELED] Administrative Meeting", True),
+    ("open_meeting", "MN", "Cancelled - Consent Items Only", True),
+    ("open_meeting", "PA", "FY2027 Budget Hearing", True),
+    ("open_meeting", "CO", "Agenda Unavailable", True),
+    ("open_meeting", "UT", "Commission Meeting", True),      # Utah open meetings
+    # ... but Utah HEARINGS still publish, and the words only bite open meetings
+    ("evidentiary_hearing", "UT", "Hearing (26-035-01, RMP's 2026 EBA)", False),
+    ("evidentiary_hearing", "CO", "[CANCELED] HRG: 26F-0246EG Formal Complaint", False),
+    ("open_meeting", "MD", "Administrative Meeting", False),
+    ("open_meeting", "PA", "Public Meeting", False),
+])
+def test_desk_publish_filters(etype, code, title, dropped):
+    """Policy applied after typing: these events are correctly identified,
+    the desk simply does not want them. Configured in coverage.yaml so the
+    word list can change without touching code."""
+    assert bool(classify.is_filtered_by_desk(etype, code, title)) is dropped
+
+
+def test_desk_filter_reports_why():
+    """The health panel shows the reason, so a silent drop is never a
+    mystery."""
+    why = classify.is_filtered_by_desk("open_meeting", "UT", "Commission Meeting")
+    assert "UT" in why
+    why = classify.is_filtered_by_desk("open_meeting", "MD", "Budget Meeting")
+    assert "budget" in why.lower()

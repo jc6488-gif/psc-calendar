@@ -62,6 +62,31 @@ def classify_event(title: str, desc: str = "") -> tuple[str, str, int, str]:
     return classify_type(f"{title} {desc}")
 
 
+@lru_cache(maxsize=1)
+def _publish_filters() -> dict:
+    return load_coverage().get("publish_filters") or {}
+
+
+def is_filtered_by_desk(event_type: str, commission: str, title: str) -> str:
+    """Desk policy applied AFTER typing, to events we would otherwise publish.
+
+    Returns the reason it was dropped, or "" to keep. This is deliberately
+    separate from classification: these events ARE correctly identified, they
+    are simply ones the desk does not want on the calendar. The lists live in
+    `publish_filters` in coverage.yaml so they can be changed without code.
+    """
+    rules = _publish_filters().get(event_type or "")
+    if not rules:
+        return ""
+    if commission in (rules.get("drop_commissions") or []):
+        return f"{commission} {event_type.replace('_', ' ')}s excluded by the desk"
+    low = (title or "").lower()
+    for word in rules.get("drop_title_contains") or []:
+        if word.lower() in low:
+            return f'{event_type.replace("_", " ")} title contains "{word}"'
+    return ""
+
+
 def is_published(tid: str) -> bool:
     """Whether this event type is emitted at all. The desk narrowed the
     calendar to Evidentiary Hearing / Open Meeting / Decision-Order on

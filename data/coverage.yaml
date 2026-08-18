@@ -402,3 +402,25 @@ event_types:
                             # CLASSIFIER BUG, not an unimportant event: fix the
                             # patterns above rather than accepting the loss.
     patterns: []
+
+
+# ---------------------------------------------------------------- desk filters
+# Applied AFTER an event has been typed, to events the desk would otherwise
+# publish. This is policy, not classification: the events below are correctly
+# identified as open meetings, they are simply not ones the desk wants to see.
+# Edit the lists here rather than the code.
+#
+# Set by the desk 2026-08-17.
+publish_filters:
+  open_meeting:
+    # Substring match on the TITLE, case-insensitive.
+    #   budget      - the commission's own budget/appropriation meetings
+    #   unavailable - "Agenda Unavailable" placeholder rows
+    #   cancel      - covers "Cancelled", "Canceled" and the "[CANCELED]"
+    #                 prefix clean_title adds to Colorado's VACATED: and
+    #                 Maryland's "NO Administrative Meeting" rows
+    # NOTE: this drops cancelled OPEN MEETINGS only. A cancelled evidentiary
+    # hearing still publishes, marked [CANCELED] - say so if that should go too.
+    drop_title_contains: ["budget", "unavailable", "cancel"]
+    # Utah's open meetings are not wanted; its HEARINGS still publish.
+    drop_commissions: ["UT"]

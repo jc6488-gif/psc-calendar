@@ -93,6 +93,11 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
             if not classify.is_published(etype):
                 dropped_types[elabel] = dropped_types.get(elabel, 0) + 1
                 continue
+            desk = classify.is_filtered_by_desk(etype, code, title)
+            if desk:
+                dropped_types[f"Desk filter: {desk}"] = \
+                    dropped_types.get(f"Desk filter: {desk}", 0) + 1
+                continue
             if classify.is_out_of_sector(title, etype):
                 dropped_types["Out of sector (water/telecom/transport)"] = \
                     dropped_types.get("Out of sector (water/telecom/transport)", 0) + 1
