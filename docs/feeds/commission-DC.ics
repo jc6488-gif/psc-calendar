@@ -15,7 +15,7 @@ SUMMARY:[DC] Calendar of Events: 27 10:00 AM FC1179 - Evidentiary Hearing
   The Commission will hold a Evidentiary Hearing in Formal Case FC1179.
 DTSTART;TZID=America/New_York:20260727T100000
 DTEND;TZID=America/New_York:20260727T120000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:f44c610f935ec35423b5@psc-calendar
 CATEGORIES:DC,Evidentiary Hearing
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -36,7 +36,7 @@ BEGIN:VEVENT
 SUMMARY:[DC] Commission Open Meeting
 DTSTART;TZID=America/New_York:20260729T110000
 DTEND;TZID=America/New_York:20260729T130000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:8bd8801ced70f348acc9@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -53,7 +53,7 @@ SUMMARY:[DC] Calendar of Events: 1 11:59 PM Applications Due for Commissio
  ey Davis The Commission\, a leading u
 DTSTART;TZID=America/New_York:20260901T235900
 DTEND;TZID=America/New_York:20260902T015900
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:fa6c22ef27d373088d52@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -76,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:[DC] Commission Open Meeting
 DTSTART;TZID=America/New_York:20260902T110000
 DTEND;TZID=America/New_York:20260902T130000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:cd92db7beb8177102e51@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -90,7 +90,7 @@ BEGIN:VEVENT
 SUMMARY:[DC] Commission Open Meeting
 DTSTART;TZID=America/New_York:20260916T110000
 DTEND;TZID=America/New_York:20260916T130000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:5c26fdc15dc54fa214fa@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -104,7 +104,7 @@ BEGIN:VEVENT
 SUMMARY:[DC] Commission Open Meeting
 DTSTART;TZID=America/New_York:20261007T110000
 DTEND;TZID=America/New_York:20261007T130000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:57152088f4301f6866fe@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -118,7 +118,7 @@ BEGIN:VEVENT
 SUMMARY:[DC] Commission Open Meeting
 DTSTART;TZID=America/New_York:20261021T110000
 DTEND;TZID=America/New_York:20261021T130000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:c95e53aa80931f392efb@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -132,7 +132,7 @@ BEGIN:VEVENT
 SUMMARY:[DC] Commission Open Meeting
 DTSTART;TZID=America/New_York:20261104T110000
 DTEND;TZID=America/New_York:20261104T130000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:f5811f63b8d650e7c157@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -146,7 +146,7 @@ BEGIN:VEVENT
 SUMMARY:[DC] Commission Open Meeting
 DTSTART;TZID=America/New_York:20261118T110000
 DTEND;TZID=America/New_York:20261118T130000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:bafe59efad307ffc955a@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -160,7 +160,7 @@ BEGIN:VEVENT
 SUMMARY:[DC] Commission Open Meeting
 DTSTART;TZID=America/New_York:20261202T110000
 DTEND;TZID=America/New_York:20261202T130000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:b3b7c0e99dc34e10ac59@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
@@ -174,7 +174,7 @@ BEGIN:VEVENT
 SUMMARY:[DC] Commission Open Meeting
 DTSTART;TZID=America/New_York:20261216T110000
 DTEND;TZID=America/New_York:20261216T130000
-DTSTAMP:20260818T160342Z
+DTSTAMP:20260818T163920Z
 UID:94844bb829c576cfa20e@psc-calendar
 CATEGORIES:DC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: District of Columbia Public Service Commission (DC
