@@ -9,46 +9,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[ND] Formal Hearing -Internet Broadcast Case No. PU-26-164 Basin E
- lectric Power Cooperative Prairie Winds ND 1 Project - Ward County Siting 
- Application Sleep Inn & Suites Conference Center & Water Park 2400 10th St
- reet SW Minot\, N
-DTSTART;TZID=America/Chicago:20260820T090000
-DTEND;TZID=America/Chicago:20260820T110000
-DTSTAMP:20260818T175014Z
-UID:48a9fb90ccd349110cf5@psc-calendar
-CATEGORIES:ND,Evidentiary Hearing
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Evidentiary Hearing\nDocket: PU-26-164\n\nAugust 20\, 2026 - 09:00 am CDT
-  Formal Hearing (380KB pdf) -Internet Broadcast Case No. PU-26-164 Basin E
- lectric Power Cooperative Prairie Winds ND 1 Project - Ward County Siting 
- Application Sleep Inn & Suites Conference Center & Water Park 2400 10th St
- reet SW Minot\, ND\n\nSource: https://www.psc.nd.gov/webdocs/meeting/agend
- a/2026/6429e7273d1s1.pdf
-PRIORITY:5
-URL:https://www.psc.nd.gov/webdocs/meeting/agenda/2026/6429e7273d1s1.pdf
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
-DTSTART;TZID=America/Chicago:20260826T100000
-DTEND;TZID=America/Chicago:20260826T120000
-DTSTAMP:20260818T175014Z
-UID:ffda1965e90cc9ec4b47@psc-calendar
-CATEGORIES:ND,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Open Meeting / Commission Meeting\n\nAugust 26\, 2026 - 10:00 am CDT Regu
- lar Meeting - Internet Broadcast Formal Administrative\n\nSource: https://
- apps.psc.nd.gov/events/meetings
-PRIORITY:5
-URL:https://apps.psc.nd.gov/events/meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[ND] Formal Hearing -Internet Broadcast Case No. PU-26-82 North Pl
  ains Connector LLC North Plains Connector Transmission Project Siting Appl
  ication
 DTSTART;TZID=America/Chicago:20260901T083000
 DTEND;TZID=America/Chicago:20260901T103000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:070264bf59f812c3d30b@psc-calendar
 CATEGORIES:ND,Evidentiary Hearing
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -67,7 +33,7 @@ SUMMARY:[ND] Formal Hearing -Internet Broadcast Case No. PU-26-82 North Pl
  e Northwest Man
 DTSTART;TZID=America/Chicago:20260902T083000
 DTEND;TZID=America/Chicago:20260902T103000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:2fd682e56cde75824398@psc-calendar
 CATEGORIES:ND,Evidentiary Hearing
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -86,7 +52,7 @@ SUMMARY:[ND] Formal Hearing -Internet Broadcast Case No. PU-26-82 North Pl
  ication Enchanted Castle 607 Main Street Regent\, ND
 DTSTART;TZID=America/Chicago:20260903T103000
 DTEND;TZID=America/Chicago:20260903T123000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:b68cc9d59d37e085088e@psc-calendar
 CATEGORIES:ND,Evidentiary Hearing
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -105,7 +71,7 @@ SUMMARY:[ND] Notice of Opportunity for Hearing Case No. PU-26-219 Montana-
  Co. APLD BIS-01-Temp. Service
 DTSTART;TZID=America/Chicago:20260907T170000
 DTEND;TZID=America/Chicago:20260907T190000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:a1127d5a803ab259333f@psc-calendar
 CATEGORIES:ND,Evidentiary Hearing
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -120,26 +86,10 @@ PRIORITY:5
 URL:https://www.psc.nd.gov/webdocs/case/26-0219/008-010.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[ND] Notice of Opportunity for Hearing Case No. RC-25-270 Coyote C
- reek Mining Company\, L.L.C. Revision 14\, Permit NACC-1302 Application
-DTSTART;TZID=America/Chicago:20260907T170000
-DTEND;TZID=America/Chicago:20260907T190000
-DTSTAMP:20260818T175014Z
-UID:8b3a018a7a0f82bc22b7@psc-calendar
-CATEGORIES:ND,Evidentiary Hearing
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Evidentiary Hearing\nDocket: RC-25-270\n\nSeptember 07\, 2026 - 05:00 pm 
- CDT Notice of Opportunity for Hearing Case No. RC-25-270 Coyote Creek Mini
- ng Company\, L.L.C. Revision 14\, Permit NACC-1302 Application\n\nSource: 
- https://www.psc.nd.gov/webdocs/case/25-0270/067-010.pdf
-PRIORITY:5
-URL:https://www.psc.nd.gov/webdocs/case/25-0270/067-010.pdf
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
 DTSTART;TZID=America/Chicago:20260909T100000
 DTEND;TZID=America/Chicago:20260909T120000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:2ef60cd163a105735dc5@psc-calendar
 CATEGORIES:ND,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -153,27 +103,9 @@ BEGIN:VEVENT
 SUMMARY:[ND] Formal Hearing -Internet Broadcast Case No. PU-25-261 Montana
  -Dakota Utilities Co. Wind Farm Station Service - Wishek\, ND Public Conve
  nience & Necessity
-DTSTART;TZID=America/Chicago:20260909T130000
-DTEND;TZID=America/Chicago:20260909T150000
-DTSTAMP:20260818T175014Z
-UID:80d84da165d37c76cc21@psc-calendar
-CATEGORIES:ND,Evidentiary Hearing
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Evidentiary Hearing\nDocket: PU-25-261\n\nSeptember 09\, 2026 - 01:00 pm 
- CDT Formal Hearing (1305KB pdf) -Internet Broadcast Case No. PU-25-261 Mon
- tana-Dakota Utilities Co. Wind Farm Station Service - Wishek\, ND Public C
- onvenience & Necessity\n\nSource: https://www.psc.nd.gov/webdocs/meeting/a
- genda/2026/6467e7315d1s1.pdf
-PRIORITY:5
-URL:https://www.psc.nd.gov/webdocs/meeting/agenda/2026/6467e7315d1s1.pdf
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[ND] Formal Hearing -Internet Broadcast Case No. PU-25-261 Montana
- -Dakota Utilities Co. Wind Farm Station Service - Wishek\, ND Public Conve
- nience & Necessity
 DTSTART;TZID=America/Chicago:20260910T090000
 DTEND;TZID=America/Chicago:20260910T110000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:c3ecb300136232da4bac@psc-calendar
 CATEGORIES:ND,Evidentiary Hearing
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -186,25 +118,11 @@ PRIORITY:5
 URL:https://www.psc.nd.gov/webdocs/meeting/agenda/2026/6469e7317d1s1.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
-DTSTART;TZID=America/Chicago:20260923T100000
-DTEND;TZID=America/Chicago:20260923T120000
-DTSTAMP:20260818T175014Z
-UID:71a8b3fb5f479c128d58@psc-calendar
-CATEGORIES:ND,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Open Meeting / Commission Meeting\n\nSeptember 23\, 2026 - 10:00 am CDT R
- egular Meeting - Internet Broadcast Formal Administrative\n\nSource: https
- ://apps.psc.nd.gov/events/meetings
-PRIORITY:5
-URL:https://apps.psc.nd.gov/events/meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[ND] Informal Hearing -Internet Broadcast Case No. PU-26-215 Otter
   Tail Power Company Tiered Large General Service Tariff and Rates
 DTSTART;TZID=America/Chicago:20260923T143000
 DTEND;TZID=America/Chicago:20260923T163000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:32ce8c8f79501974bbcb@psc-calendar
 CATEGORIES:ND,Evidentiary Hearing
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -216,90 +134,10 @@ PRIORITY:5
 URL:https://www.psc.nd.gov/webdocs/meeting/agenda/2026/6333e7161d1s1.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[ND] Notice of Opportunity for Hearing Case No. PU-26-285 Dakota G
- asification Company / Basin Electric Transfer of Cert. of Corridor & Route
-  Permit Siting Application
-DTSTART;TZID=America/Chicago:20260925T170000
-DTEND;TZID=America/Chicago:20260925T190000
-DTSTAMP:20260818T175014Z
-UID:5a07df27717969aa664c@psc-calendar
-CATEGORIES:ND,Evidentiary Hearing
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Evidentiary Hearing\nDocket: PU-26-285\n\nSeptember 25\, 2026 - 05:00 pm 
- CDT Notice of Opportunity for Hearing Case No. PU-26-285 Dakota Gasificati
- on Company / Basin Electric Transfer of Cert. of Corridor & Route Permit S
- iting Application\n\nSource: https://www.psc.nd.gov/webdocs/case/26-0285/0
- 06-010.pdf
-PRIORITY:5
-URL:https://www.psc.nd.gov/webdocs/case/26-0285/006-010.pdf
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[ND] Formal Hearing -Internet Broadcast Case No. PU-26-86 Homestea
- d Wind\, LLC Homestead Wind Project - Williams County Siting Application G
- rand Williston Hotel & Conference Center 3601 Second Avenue West Williston
- \, ND
-DTSTART;TZID=America/Chicago:20260929T093000
-DTEND;TZID=America/Chicago:20260929T113000
-DTSTAMP:20260818T175014Z
-UID:2ee548ad9cf9bb2358f3@psc-calendar
-CATEGORIES:ND,Evidentiary Hearing
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Evidentiary Hearing\nDocket: PU-26-86\n\nSeptember 29\, 2026 - 09:30 am C
- DT Formal Hearing (601KB pdf) -Internet Broadcast Case No. PU-26-86 Homest
- ead Wind\, LLC Homestead Wind Project - Williams County Siting Application
-  Grand Williston Hotel & Conference Center 3601 Second Avenue West Willist
- on\, ND\n\nSource: https://www.psc.nd.gov/webdocs/meeting/agenda/2026/6423
- e7267d1s1.pdf
-PRIORITY:5
-URL:https://www.psc.nd.gov/webdocs/meeting/agenda/2026/6423e7267d1s1.pdf
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
-DTSTART;TZID=America/Chicago:20261006T100000
-DTEND;TZID=America/Chicago:20261006T120000
-DTSTAMP:20260818T175014Z
-UID:d58dfcd431d5cd6b3dcf@psc-calendar
-CATEGORIES:ND,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Open Meeting / Commission Meeting\n\nOctober 06\, 2026 - 10:00 am CDT Reg
- ular Meeting - Internet Broadcast Formal Administrative\n\nSource: https:/
- /apps.psc.nd.gov/events/meetings
-PRIORITY:5
-URL:https://apps.psc.nd.gov/events/meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
-DTSTART;TZID=America/Chicago:20261021T100000
-DTEND;TZID=America/Chicago:20261021T120000
-DTSTAMP:20260818T175014Z
-UID:9488cff8b55e26e2f3f9@psc-calendar
-CATEGORIES:ND,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Open Meeting / Commission Meeting\n\nOctober 21\, 2026 - 10:00 am CDT Reg
- ular Meeting - Internet Broadcast Formal Administrative\n\nSource: https:/
- /apps.psc.nd.gov/events/meetings
-PRIORITY:5
-URL:https://apps.psc.nd.gov/events/meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
-DTSTART;TZID=America/Chicago:20261105T100000
-DTEND;TZID=America/Chicago:20261105T120000
-DTSTAMP:20260818T175014Z
-UID:70bc9ddc9df1aeb36169@psc-calendar
-CATEGORIES:ND,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
-  Open Meeting / Commission Meeting\n\nNovember 05\, 2026 - 10:00 am CST Re
- gular Meeting - Internet Broadcast Formal Administrative\n\nSource: https:
- //apps.psc.nd.gov/events/meetings
-PRIORITY:5
-URL:https://apps.psc.nd.gov/events/meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
 DTSTART;TZID=America/Chicago:20261118T100000
 DTEND;TZID=America/Chicago:20261118T120000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:57e86c19d24093ba7fba@psc-calendar
 CATEGORIES:ND,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -313,7 +151,7 @@ BEGIN:VEVENT
 SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
 DTSTART;TZID=America/Chicago:20261203T133000
 DTEND;TZID=America/Chicago:20261203T153000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:3df1a1b5666a0df3273f@psc-calendar
 CATEGORIES:ND,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -327,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
 DTSTART;TZID=America/Chicago:20261216T100000
 DTEND;TZID=America/Chicago:20261216T120000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:2cc7aec766522a699e7e@psc-calendar
 CATEGORIES:ND,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
@@ -341,7 +179,7 @@ BEGIN:VEVENT
 SUMMARY:[ND] Regular Meeting - Internet Broadcast Formal Administrative
 DTSTART;TZID=America/Chicago:20261230T100000
 DTEND;TZID=America/Chicago:20261230T120000
-DTSTAMP:20260818T175014Z
+DTSTAMP:20260818T195405Z
 UID:b6020138f7af3534af9e@psc-calendar
 CATEGORIES:ND,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: North Dakota Public Service Commission (ND)\nType:
