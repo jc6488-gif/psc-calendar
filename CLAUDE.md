@@ -403,6 +403,13 @@ work. **Do not rebuild it without a concrete reason** - the desk's stated
 priority is minimum maintenance, and pasting into GitHub's web editor has no
 moving parts at all.
 
+**The CSV honours the ticks immediately; the site and feeds need the commit.**
+Ticking a row drops it from Export CSV straight away, because a spreadsheet is
+usually wanted in the same sitting as the review. Removing it from the
+dashboard and from Outlook still requires the exclusion to be committed and
+the site rebuilt - the button relabels itself "Export CSV (minus N ticked)" so
+the two are not confused.
+
 **Copy emits list ITEMS, never an `events:` header.** Pasting a second
 `events:` block is silently destructive - YAML keeps only the last key, parses
 without error, and the earlier batch is simply gone. At the desk's expected

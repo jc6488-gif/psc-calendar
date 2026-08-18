@@ -513,6 +513,13 @@ TEMPLATE = r"""<!DOCTYPE html>
     syncDropBtn();
   };
 
+  function syncCsvBtn() {
+    const n = PICKED.size;
+    $("csv").textContent = n
+      ? `Export CSV (minus ${n} ticked)`
+      : "Export CSV (current filter)";
+  }
+
   document.addEventListener("change", (ev) => {
     const box = ev.target.closest("input.x");
     if (!box) return;
@@ -521,6 +528,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     box.closest("tr").classList.toggle("picked", box.checked);
     savePicks();
     syncDropBtn();
+    syncCsvBtn();
   });
 
   // Quote anything YAML could misread. A colon is the one that bites:
@@ -568,12 +576,17 @@ TEMPLATE = r"""<!DOCTYPE html>
         render();
       }
       syncDropBtn();
+      syncCsvBtn();
     }, 400);
   };
 
   // ---- CSV ---------------------------------------------------------------
   $("csv").onclick = () => {
-    const rows = sorted(filtered());
+    // Ticked rows are dropped from the export. Committing the exclusions is
+    // what makes them leave the site and the Outlook feeds, but that needs a
+    // rebuild - and a spreadsheet is usually wanted in the same sitting, so
+    // the CSV honours the ticks immediately.
+    const rows = sorted(filtered()).filter((e) => !PICKED.has(e.uid));
     const head = ["Date","Time","Commission","CommissionName","State","Title",
                   "EventType","Dockets","Location","URL"];
     const q = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
@@ -620,6 +633,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   });
   window.addEventListener("resize", () => drawChart(lastRows));
 
+  syncCsvBtn();
   $("genstamp").textContent = "refreshed " + new Date(DATA.generated_at)
     .toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })
     // Hidden events are stated, never silent - an empty week must not be
