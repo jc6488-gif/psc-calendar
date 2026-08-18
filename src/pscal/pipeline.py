@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from . import classify, emit_ics, emit_site
+from . import classify, emit_ics, emit_site, exclusions
 from .extract import extract
 from .models import Event, ScrapeResult, extract_dockets
 
@@ -424,12 +424,29 @@ def run(only: list[str] | None = None, workers: int = 6, no_cache: bool = False)
     results.sort(key=lambda r: r.commission)
     events = dedupe([e for r in results for e in r.events])
 
+    # The desk's manual review, applied LAST - after dedupe, so what the team
+    # ticked on the dashboard is exactly what disappears. Exclusion never
+    # selection: an event nobody reviewed still publishes.
+    events, rules, hidden = exclusions.apply(events)
+    today = now.date().isoformat()
+    stale = exclusions.stale(rules, today)
+    spent = exclusions.spent(rules, today)
+
     core = [r for r in results if r.tier == "core"]
     core_ok = sum(1 for r in core if r.ok)
     log.info("-" * 70)
     log.info("commissions OK: %d/%d  (core %d/%d)",
              sum(1 for r in results if r.ok), len(results), core_ok, len(core))
-    log.info("events: %d total", len(events))
+    log.info("events: %d total%s", len(events),
+             f"  ({hidden} hidden by desk review)" if hidden else "")
+    if stale:
+        log.warning("%d exclusion(s) match nothing - the event was retitled or "
+                    "removed, so what was hidden may be back:", len(stale))
+        for r in stale:
+            log.warning("    %s  [%s]", r.label(), r.kind)
+    if spent:
+        log.info("%d dated exclusion(s) are in the past and can be deleted "
+                 "from data/exclusions.yaml", len(spent))
 
     DOCS.mkdir(parents=True, exist_ok=True)
     (DOCS / "feeds").mkdir(parents=True, exist_ok=True)
@@ -451,6 +468,10 @@ def run(only: list[str] | None = None, workers: int = 6, no_cache: bool = False)
         "generated_at": now.isoformat(),
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "event_count": len(events),
+        # Shown on the dashboard so a hidden event is never silent: an empty
+        # week must never be mistaken for "nothing scheduled".
+        "hidden_by_review": hidden,
+        "stale_exclusions": [r.label() for r in stale],
         "commissions": [r.to_dict() for r in results],
         "events": [e.to_dict() for e in events],
     }

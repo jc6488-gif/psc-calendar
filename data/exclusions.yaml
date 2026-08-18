@@ -1,0 +1,34 @@
+# Events the desk reviewed and does not want on the calendar.
+#
+# Committed to the repo on purpose: the .ics feeds are built server-side, so an
+# exclusion only reaches Outlook once it is in here and the site rebuilds
+# (~4 minutes after a push). Browser-side hiding could never do that.
+#
+# Tick rows on the dashboard ("Review mode"), press "Copy exclusions", paste
+# below, commit. Two people reviewing different states merge cleanly - that is
+# what git is for.
+#
+#   events:      drop ONE occurrence, matched on commission + date + exact title
+#   recurring:   drop it EVERY time it appears, matched on a title substring
+#
+# Prefer `recurring` for anything that repeats: dropping a single instance of a
+# monthly meeting is a decision you have to make again next month.
+#
+# The build reports entries that stop matching anything ("stale") - usually the
+# commission retitled the event, which means what you hid is back. It also
+# reports dated entries whose date has passed, which are safe to delete.
+#
+# Nothing here is required. An empty file publishes everything.
+
+events: []
+#  - commission: ND
+#    date: 2026-08-26
+#    title: Regular Meeting - Internet Broadcast Formal Administrative
+#    reason: routine, never actionable
+#    added: 2026-08-18
+
+recurring: []
+#  - commission: ND
+#    title_contains: Regular Meeting - Internet Broadcast
+#    reason: routine, never actionable
+#    added: 2026-08-18

@@ -162,6 +162,8 @@ TEMPLATE = r"""<!DOCTYPE html>
     .hide-sm { display: none; }
     .kpi .value { font-size: 27px; }
   }
+  td.pick, th.pick { width: 34px; text-align: center; padding-left: 10px; }
+  td.pick input { width: 16px; height: 16px; cursor: pointer; }
 </style>
 </head>
 <body>
@@ -176,7 +178,9 @@ TEMPLATE = r"""<!DOCTYPE html>
     </div>
   </div>
   <div style="display:flex;gap:8px">
-    <button class="chip" id="csv">Export CSV</button>
+    <button class="chip" id="review" aria-pressed="false">Review mode</button>
+    <button class="chip" id="drop" hidden>Copy exclusions (0)</button>
+    <button class="chip" id="csv">Export CSV (current filter)</button>
     <button class="chip" id="theme" aria-pressed="false">Dark</button>
   </div>
 </header>
@@ -215,6 +219,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <div class="card" style="padding:0;overflow:hidden">
   <table>
     <thead><tr>
+      <th class="pick" hidden></th>
       <th data-sort="start">Date</th>
       <th data-sort="commission">Comm.</th>
       <th data-sort="title">Event</th>
@@ -384,6 +389,7 @@ TEMPLATE = r"""<!DOCTYPE html>
       const dk = e.dockets.length
         ? `<div class="meta">Docket ${esc(e.dockets.slice(0, 3).join(", "))}</div>` : "";
       return `<tr>
+        <td class="pick" hidden><input type="checkbox" class="x" data-uid="${esc(e.uid)}"${PICKED.has(e.uid) ? " checked" : ""} aria-label="Exclude this event"></td>
         <td class="date${soon}">${dfmt(tz).format(d)}<span class="time">${time}</span></td>
         <td class="st"><span title="${esc(e.commission_name)}">${esc(e.commission)}</span></td>
         <td class="title">${link}${dk}</td>
@@ -456,6 +462,78 @@ TEMPLATE = r"""<!DOCTYPE html>
       <b>${esc(c.commission)}</b><span class="n">${c.event_count}</span></div>`;
   }).join("");
 
+  // ---- review mode --------------------------------------------------------
+  // Ticking a box saves nothing on its own - this page is a static file with
+  // no backend, and the .ics feeds your calendar subscribes to are built
+  // server-side. The tick produces YAML you paste into data/exclusions.yaml
+  // and commit; the site rebuilds a few minutes later and the event leaves
+  // both the dashboard AND the feeds. Browser-side hiding could never reach
+  // Outlook, which is the whole point of the exercise.
+  const PICKED = new Set();
+  const BY_UID = new Map(DATA.events.map((e) => [e.uid, e]));
+
+  function syncDropBtn() {
+    const n = PICKED.size;
+    $("drop").textContent = `Copy exclusions (${n})`;
+    $("drop").hidden = !$("review").getAttribute("aria-pressed") ||
+                       $("review").getAttribute("aria-pressed") === "false";
+  }
+
+  $("review").onclick = () => {
+    const on = $("review").getAttribute("aria-pressed") !== "true";
+    $("review").setAttribute("aria-pressed", on ? "true" : "false");
+    document.querySelectorAll(".pick").forEach((el) => { el.hidden = !on; });
+    $("drop").hidden = !on;
+    syncDropBtn();
+  };
+
+  document.addEventListener("change", (ev) => {
+    const box = ev.target.closest("input.x");
+    if (!box) return;
+    if (box.checked) PICKED.add(box.dataset.uid);
+    else PICKED.delete(box.dataset.uid);
+    syncDropBtn();
+  });
+
+  const yamlStr = (v) => {
+    const t = String(v == null ? "" : v);
+    return /^[A-Za-z0-9][\w .,'()\/&:+-]*$/.test(t) ? t : JSON.stringify(t);
+  };
+
+  $("drop").onclick = async () => {
+    const picks = [...PICKED].map((u) => BY_UID.get(u)).filter(Boolean);
+    if (!picks.length) return;
+    const today = new Date().toISOString().slice(0, 10);
+    const lines = ["events:"];
+    picks.sort((a, b) => (a.commission + a.start).localeCompare(b.commission + b.start));
+    for (const e of picks) {
+      const ymd = new Intl.DateTimeFormat("en-CA", {
+        timeZone: e.tz || LOCAL, year: "numeric", month: "2-digit", day: "2-digit",
+      }).format(new Date(e.start));
+      lines.push(`  - commission: ${e.commission}`);
+      lines.push(`    date: ${ymd}`);
+      lines.push(`    title: ${yamlStr(e.title)}`);
+      lines.push(`    reason: not relevant to the desk`);
+      lines.push(`    added: ${today}`);
+    }
+    lines.push("");
+    lines.push("# Repeats every month? Use a recurring rule instead, so you");
+    lines.push("# only decide once:");
+    lines.push("# recurring:");
+    for (const e of picks.slice(0, 2)) {
+      lines.push(`#   - commission: ${e.commission}`);
+      lines.push(`#     title_contains: ${yamlStr(e.title.slice(0, 48))}`);
+    }
+    const text = lines.join("\n");
+    try {
+      await navigator.clipboard.writeText(text);
+      $("drop").textContent = `Copied ${picks.length} \u2713`;
+      setTimeout(syncDropBtn, 1600);
+    } catch (err) {
+      window.prompt("Copy this into data/exclusions.yaml", text);
+    }
+  };
+
   // ---- CSV ---------------------------------------------------------------
   $("csv").onclick = () => {
     const rows = sorted(filtered());
@@ -506,7 +584,15 @@ TEMPLATE = r"""<!DOCTYPE html>
   window.addEventListener("resize", () => drawChart(lastRows));
 
   $("genstamp").textContent = "refreshed " + new Date(DATA.generated_at)
-    .toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" });
+    .toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })
+    // Hidden events are stated, never silent - an empty week must not be
+    // mistaken for "nothing scheduled" when it means "we hid it".
+    + (DATA.hidden_by_review
+        ? ` \u00b7 ${DATA.hidden_by_review} hidden by review`
+        : "")
+    + (DATA.stale_exclusions && DATA.stale_exclusions.length
+        ? ` \u00b7 \u26a0 ${DATA.stale_exclusions.length} exclusion(s) no longer match`
+        : "");
 
   render();
 })();

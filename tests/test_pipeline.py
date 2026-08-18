@@ -1008,3 +1008,83 @@ def test_desk_filter_reports_why():
     assert "UT" in why
     why = classify.is_filtered_by_desk("open_meeting", "MD", "Budget Meeting")
     assert "budget" in why.lower()
+
+
+# ------------------------------------------------------------ desk exclusions
+
+def _ex_events():
+    from datetime import datetime as dt
+    base = dict(commission_name="N", state="ND", tz="America/Chicago",
+                event_type="open_meeting", event_type_label="Open Meeting / Commission Meeting",
+                relevance="High", weight=3)
+    day = dt(2026, 8, 26, 10, 0, tzinfo=ZoneInfo("America/Chicago"))
+    return [
+        Event(commission="ND", title="Regular Meeting - Internet Broadcast", start=day, **base),
+        Event(commission="ND", title="Regular Meeting - Internet Broadcast",
+              start=day.replace(month=9, day=9), **base),
+        Event(commission="ND", title="Formal Hearing Case No. PU-26-164", start=day, **base),
+        Event(commission="MD", title="Regular Meeting - Internet Broadcast", start=day, **base),
+    ]
+
+
+def test_exclusion_by_single_event(monkeypatch):
+    from src.pscal import exclusions
+    monkeypatch.setattr(exclusions, "_raw", lambda: {"events": [
+        {"commission": "ND", "date": "2026-08-26",
+         "title": "  formal HEARING   case no. PU-26-164 "},   # case/space insensitive
+    ]})
+    kept, rules, n = exclusions.apply(_ex_events())
+    assert n == 1
+    assert not any("PU-26-164" in e.title for e in kept)
+    assert any(e.commission == "MD" for e in kept)
+
+
+def test_exclusion_recurring_covers_every_occurrence(monkeypatch):
+    """The reason recurring rules exist: dropping one instance of a monthly
+    meeting is a decision you would have to make again next month."""
+    from src.pscal import exclusions
+    monkeypatch.setattr(exclusions, "_raw", lambda: {"recurring": [
+        {"commission": "ND", "title_contains": "Regular Meeting - Internet Broadcast"},
+    ]})
+    kept, rules, n = exclusions.apply(_ex_events())
+    assert n == 2                                   # August AND September
+    assert [e.commission for e in kept] == ["ND", "MD"]
+    assert rules[0].hits == 2
+
+
+def test_exclusion_is_scoped_to_its_commission(monkeypatch):
+    from src.pscal import exclusions
+    monkeypatch.setattr(exclusions, "_raw", lambda: {"recurring": [
+        {"commission": "MD", "title_contains": "Regular Meeting"},
+    ]})
+    kept, _r, n = exclusions.apply(_ex_events())
+    assert n == 1 and all(e.commission == "ND" for e in kept)
+
+
+def test_stale_exclusion_is_reported(monkeypatch):
+    """A rule that matches nothing usually means the commission retitled the
+    event - so what the desk hid is back, and that must not be silent."""
+    from src.pscal import exclusions
+    monkeypatch.setattr(exclusions, "_raw", lambda: {
+        "recurring": [{"commission": "ND", "title_contains": "nothing matches this"}],
+        "events": [
+            {"commission": "ND", "date": "2020-01-01", "title": "long gone"},
+            {"commission": "ND", "date": "2027-01-01", "title": "not seen yet"},
+        ],
+    })
+    _kept, rules, _n = exclusions.apply(_ex_events())
+    labels = " ".join(r.label() for r in exclusions.stale(rules, "2026-08-18"))
+    assert "nothing matches this" in labels     # recurring that never fires
+    assert "not seen yet" in labels             # future date that should have matched
+    assert "long gone" not in labels            # simply spent, not broken
+    assert [r.label() for r in exclusions.spent(rules, "2026-08-18")] == \
+        ["ND 2020-01-01 long gone"]
+
+
+def test_no_exclusions_file_publishes_everything(monkeypatch):
+    """Exclusion, never selection: the default is that everything publishes."""
+    from src.pscal import exclusions
+    monkeypatch.setattr(exclusions, "_raw", lambda: {})
+    evs = _ex_events()
+    kept, rules, n = exclusions.apply(evs)
+    assert kept == evs and rules == [] and n == 0

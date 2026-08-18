@@ -361,6 +361,51 @@ concluding anything about it.
   exact commission+datetime and most are distinct - IN runs four different
   hearings at 09:30.
 
+### Manual exclusions: the desk's own review (2026-08-18)
+
+The team reviews the calendar and drops what does not matter to them.
+`data/exclusions.yaml` is the one place a human overrules the scrape, applied
+in `pipeline.run()` **after dedupe** so what was ticked on the dashboard is
+exactly what disappears - from the site, `events.json` and every `.ics`.
+
+It is a DELETION mechanism in a tool whose first rule is that a missing date
+is the worst failure, so it is built to fail loudly:
+
+- **Exclusion, never selection.** An event nobody has reviewed still
+  publishes. A hearing must never go missing because the team has not got to
+  it yet.
+- **Two kinds of entry.** `events:` drops one occurrence (commission + date +
+  exact title); `recurring:` drops it every time it appears (commission +
+  title substring). **Prefer recurring.** Dropping one instance of a monthly
+  meeting is a decision you have to make again next month, and that is what
+  makes manual review collapse after a few weeks.
+- **Never silent.** The dashboard header states "N hidden by review", so an
+  empty week cannot be mistaken for "nothing scheduled".
+- **Stale entries are reported**, in the log and on the dashboard. A rule that
+  matches nothing usually means the commission retitled the event - which
+  means what the desk hid is back. Dated rules whose date has passed are
+  reported separately as spent and safe to delete.
+
+Why a committed file rather than a click: the page is static and the `.ics`
+feeds are built server-side, so browser-side hiding could never reach Outlook.
+Tick rows in **Review mode**, press **Copy exclusions**, paste, commit; the
+rebuild fires in ~4 minutes and Outlook picks it up on its next sync. Two
+reviewers on different states merge cleanly - that is git's job.
+
+**A growing list is a bug report.** If several exclusions rhyme, that is a
+classifier or filter fix waiting to be found - which is how the Missouri
+per-commissioner duplicates and Maryland's "NO meeting" rows were caught.
+
+### Desk publish filters (`publish_filters` in coverage.yaml)
+
+Policy applied after typing, to events that would otherwise publish. Set
+2026-08-17: open meetings whose title contains **budget**, **unavailable** or
+**cancel** are dropped, as are **all Utah open meetings**. These events are
+classified correctly - the desk simply does not want them, so the lists live
+in config rather than in the classifier. Scoped to open meetings: a cancelled
+evidentiary hearing still publishes marked `[CANCELED]`, and Utah's hearings
+are untouched.
+
 ### Which fixes last, and which rot (read before "fixing" a link)
 
 This tool holds no stored events. `docs/` is rebuilt from zero every run, so
@@ -445,6 +490,7 @@ panel rather than quietly dropping states.
 
 ```
 data/commissions.yaml   registry: 54 commissions, 158 verified-where-possible URLs
+data/exclusions.yaml    events the desk reviewed and dropped (manual)
 data/coverage.yaml      ticker → subsidiary → commission map, event-type rules,
                         rate-case keyword signals
 src/pscal/
@@ -459,7 +505,7 @@ tools/probe.py          diagnose one commission — reach for this first
 tools/audit_links.py    check every published link resolves AND holds its event
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  162 tests, all offline
+tests/                  177 tests, all offline
 ```
 
 ### The extraction chain
@@ -536,7 +582,7 @@ survivors would throw away the meetings still to come.
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 162 tests, no network
+python3 -m pytest tests/ -q                    # 177 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/
