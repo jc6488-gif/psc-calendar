@@ -45,7 +45,592 @@ events:
     title: Deliberations Audio/Video
   - commission: OR
     date: 2026-08-18
-    title: Docket ADV 1886 - IDAHO POWER ADVICE NO 26-09 REVISIONS TO SCHEDULE 95 ADJUST FOR MUNICIPAL EXACT PUBLIC MEETING HEARING ROOM - PUC 201 HIGH ST SE SALEM, OR
+    title: Docket ADV 1886 - IDAHO POWER ADVICE NO 26-09 REVISIONS TO SCHEDULE 95 ADJUST FOR MUNICIPAL EXACT PUBLIC MEETING HEARING ROOM - PUC 201 HIGH ST SE SALEM, OR  # --- added 2026-08-18 - paste directly under the existing `events:` line ---
+  - commission: AL
+    date: 2026-08-18
+    title: "TR2641217 FEDERAL ENERGY REGULATORY COMMISSION NOTICE OF SURRENDER OF PRELIMINARY PERMIT FOR SOLIA 1 HYDROELECTRIC LLC Status: Pending Synopsis: FEDERAL ENERGY REGULATORY COMMISSION NOTICE OF SURRENDER OF PRELIMINARY PERMIT FOR SOLIA 1 HYDROELECTRIC LLC"
+  - commission: CA
+    date: 2026-09-16
+    title: Low Income Oversight Board Quarterly Meeting 9-16-26
+  - commission: CO
+    date: 2026-08-19
+    title: "Remote: HRG: 21A-0416R, Greeley - UPRR -13th Street - dsgn/constr safety improvments, ALJ Mirbaba"
+  - commission: CO
+    date: 2026-08-20
+    title: "V & R (11.18.2026)Remote: HRG: 21A-0416R, Greeley - UPRR -13th Street - dsgn/constr safety improvments, ALJ Mirbaba"
+  - commission: CO
+    date: 2026-08-31
+    title: "HRG: 26F-0258EG Reginald Barrett V Public Service Company - Formal Complaint, ALJ Segev"
+  - commission: CO
+    date: 2026-09-01
+    title: "V&R: 9-24-26: HRG: 26F-0241CP Roman Lysenko v DTR Operations, LLC, ALJ Segev"
+  - commission: CO
+    date: 2026-09-02
+    title: "HRG: 25A-0539CP-EXT SKI TOWN TRANSPORTATION - 55991 - EXT, ALJ Rosenberg"
+  - commission: CO
+    date: 2026-09-08
+    title: "HRG: 26F-0242CP Roman Lysenko v Event Transportation Brokers, LLC, ALJ Mirbaba"
+  - commission: CO
+    date: 2026-09-10
+    title: "HRG: 26A-0156CP Salida Summit Transport LLC - CPCN, ALJ Rosenberg"
+  - commission: CO
+    date: 2026-09-15
+    title: "V & R (10.29.2026) Remote: HRG: Pro. No. 26F-0268EG, William J. Kelso V. Public Service Co. - Formal Complaint, ALJ Farley"
+  - commission: CO
+    date: 2026-09-15
+    title: "HRG: 26F-0260EG Anatoliy Savkin vs Public Service Company - Formal Complaint, ALJ Farley"
+  - commission: CO
+    date: 2026-09-24
+    title: "HRG: 26F-0241CP Roman Lysenko v DTR Operations, LLC, ALJ Segev"
+  - commission: CO
+    date: 2026-09-29
+    title: "HRG: 26F-0042EG Lea Singh V Public Service Company - Formal Complaint, ALJ Farley"
+  - commission: CO
+    date: 2026-10-08
+    title: "Remote PCH: Pro. No. 26R-0285R Proposed Amendments to Rail Rules 4 CCR 723-7 SSO Program, ALJ Rosenberg"
+  - commission: CO
+    date: 2026-10-09
+    title: "HRG: 26R-0236E Proposed Amendments to Transmission Facilities Rules, ALJ Segev"
+  - commission: CO
+    date: 2026-10-21
+    title: "HRG: 26AL-0137E, Public Service Company - AL 2018 - Tariff 8 - Large Load, C3"
+  - commission: CO
+    date: 2026-10-29
+    title: "HRG: 26F-0268EG, William J. Kelso V. Public Service Co. - Formal Complaint, ALJ Farley"
+  - commission: CO
+    date: 2026-11-03
+    title: "Remote HRG: 26A-0235E, Public Service Company - 2027 - 2028 Resource Adequacy, C3"
+  - commission: CO
+    date: 2026-11-04
+    title: "Remote HRG: 26A-0235E, Public Service Company - 2027 - 2028 Resource Adequacy, C3"
+  - commission: CO
+    date: 2026-11-05
+    title: "Remote HRG: 26A-0235E, Public Service Company - 2027 - 2028 Resource Adequacy, C3"
+  - commission: IA
+    date: 2026-08-27
+    title: Docket No. PSA-2026-0001 Hearing
+  - commission: IL
+    date: 2026-08-19
+    title: Regular Open Meeting Illinois Commerce Commission 160 North LaSalle Street Eighth Floor, Bilandic Building Chicago, Illinois 60601
+  - commission: IL
+    date: 2026-09-24
+    title: Annual Utility Supplier Diversity Policy Session Illinois Commerce Commission 527 East Capitol Avenue Hearing Room A, First Floor, Leland Building Springfield, Illinois 62701
+  - commission: IN
+    date: 2026-08-19
+    title: LOCAL TIME, in the IURC Conference Center, Suite
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37977"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37978"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37980"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37981"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37982"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37983"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37984"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37985"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37987"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37988"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37989"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37991"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37994"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37996"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37997"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37998"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-37999"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-38000"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-38001"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-38002"
+  - commission: LA
+    date: 2026-08-26
+    title: "Hearing: T-38003"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38004"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38008"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38010"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38012"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38013"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38014"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38015"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38017"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38018"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38020"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38021"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38022"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38024"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38025"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38028"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38030"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: T-38031"
+  - commission: LA
+    date: 2026-08-27
+    title: "Hearing: U-38043"
+  - commission: LA
+    date: 2026-08-31
+    title: "Hearing: T-37966"
+  - commission: LA
+    date: 2026-09-03
+    title: "Hearing: T-37972"
+  - commission: LA
+    date: 2026-09-03
+    title: "Hearing: T-37975"
+  - commission: LA
+    date: 2026-09-03
+    title: "Hearing: T-37798"
+  - commission: LA
+    date: 2026-09-03
+    title: "Hearing: T-37944"
+  - commission: LA
+    date: 2026-09-03
+    title: "Hearing: T-37955"
+  - commission: LA
+    date: 2026-09-03
+    title: "Hearing: T-37961"
+  - commission: LA
+    date: 2026-09-18
+    title: "Hearing: U-37838"
+  - commission: LA
+    date: 2026-09-22
+    title: "Hearing: U-37794"
+  - commission: LA
+    date: 2026-09-29
+    title: "Hearing: U-37812"
+  - commission: LA
+    date: 2026-10-01
+    title: "Hearing: T-38039"
+  - commission: LA
+    date: 2026-10-01
+    title: "Hearing: T-38006"
+  - commission: LA
+    date: 2026-10-01
+    title: "Hearing: T-38048"
+  - commission: LA
+    date: 2026-10-01
+    title: "Hearing: T-38049"
+  - commission: LA
+    date: 2026-10-01
+    title: "Hearing: T-37957"
+  - commission: LA
+    date: 2026-10-01
+    title: "Hearing: T-38053"
+  - commission: LA
+    date: 2026-10-01
+    title: "Hearing: T-38054"
+  - commission: LA
+    date: 2026-10-01
+    title: "Hearing: T-38055"
+  - commission: LA
+    date: 2026-10-01
+    title: "Hearing: T-38063"
+  - commission: LA
+    date: 2026-10-07
+    title: "Hearing: U-37882"
+  - commission: LA
+    date: 2026-10-12
+    title: "Hearing: U-37882"
+  - commission: LA
+    date: 2026-10-19
+    title: "Hearing: U-37882"
+  - commission: LA
+    date: 2026-10-22
+    title: "Hearing: U-37904"
+  - commission: LA
+    date: 2026-11-05
+    title: "Hearing: T-38019"
+  - commission: LA
+    date: 2026-11-09
+    title: "Hearing: U-37849"
+  - commission: LA
+    date: 2026-11-13
+    title: "Hearing: U-37856"
+  - commission: MA
+    date: 2026-08-24
+    title: 26-69 - Town of Bernardston - Municipal Aggregation
+  - commission: MA
+    date: 2026-09-04
+    title: 26-GC-19 - Boston Gas Company d/b/a National Grid - Contract
+  - commission: MA
+    date: 2026-09-11
+    title: 26-AD-01 - DPU - Adjudicatory
+  - commission: MD
+    date: 2026-08-19
+    title: RM 97 Evidentiary Hearing on PPRPs Proposed Standard DGCPCN Requirements and Conditions
+  - commission: MD
+    date: 2026-08-20
+    title: PC 59 Limited-Income Mechanism Work Group Regular Meeting
+  - commission: MD
+    date: 2026-08-26
+    title: Administrative Meeting
+  - commission: MD
+    date: 2026-09-02
+    title: Administrative Meeting
+  - commission: MD
+    date: 2026-09-03
+    title: PC 59 Limited-Income Mechanism Work Group Regular Meeting
+  - commission: MD
+    date: 2026-09-09
+    title: Administrative Meeting
+  - commission: MD
+    date: 2026-09-17
+    title: PC 59 Limited-Income Mechanism Work Group Regular Meeting
+  - commission: MD
+    date: 2026-09-30
+    title: Administrative Meeting
+  - commission: MD
+    date: 2026-10-01
+    title: PC 59 Limited-Income Mechanism Work Group Regular Meeting
+  - commission: MD
+    date: 2026-10-15
+    title: PC 59 Limited-Income Mechanism Work Group Regular Meeting
+  - commission: MD
+    date: 2026-10-29
+    title: PC 59 Limited-Income Mechanism Work Group Regular Meeting
+  - commission: MD
+    date: 2026-11-12
+    title: PC 59 Limited-Income Mechanism Work Group Regular Meeting
+  - commission: ME
+    date: 2026-08-25
+    title: Deliberations Audio/Video
+  - commission: ME
+    date: 2026-09-01
+    title: Deliberations Audio/Video
+  - commission: ME
+    date: 2026-09-15
+    title: Deliberations Audio/Video
+  - commission: NC
+    date: 2026-09-04
+    title: "[CANCELED] Expert Witness Hearing: Joint Application of Duke Energy Progress, LLC and North Carolina Electric Membership Corporation for a Certificate of Public Convenience and Necessity to Construct a 1,360 MW Natural Gas-Fueled Combined Cycle Electric Generating Facility in Person County, North Ca"
+  - commission: NC
+    date: 2026-09-29
+    title: Expert Witness Hearing - Application of Cardinal Pipeline Company, LLC, for an Adjustment in Its Rates and Charges
+  - commission: ND
+    date: 2026-08-20
+    title: Formal Hearing -Internet Broadcast Case No. PU-26-164 Basin Electric Power Cooperative Prairie Winds ND 1 Project - Ward County Siting Application Sleep Inn & Suites Conference Center & Water Park 2400 10th Street SW Minot, N
+  - commission: ND
+    date: 2026-08-26
+    title: Regular Meeting - Internet Broadcast Formal Administrative
+  - commission: ND
+    date: 2026-09-07
+    title: Notice of Opportunity for Hearing Case No. RC-25-270 Coyote Creek Mining Company, L.L.C. Revision 14, Permit NACC-1302 Application
+  - commission: ND
+    date: 2026-09-09
+    title: Formal Hearing -Internet Broadcast Case No. PU-25-261 Montana-Dakota Utilities Co. Wind Farm Station Service - Wishek, ND Public Convenience & Necessity
+  - commission: ND
+    date: 2026-09-23
+    title: Regular Meeting - Internet Broadcast Formal Administrative
+  - commission: ND
+    date: 2026-09-25
+    title: Notice of Opportunity for Hearing Case No. PU-26-285 Dakota Gasification Company / Basin Electric Transfer of Cert. of Corridor & Route Permit Siting Application
+  - commission: ND
+    date: 2026-09-29
+    title: Formal Hearing -Internet Broadcast Case No. PU-26-86 Homestead Wind, LLC Homestead Wind Project - Williams County Siting Application Grand Williston Hotel & Conference Center 3601 Second Avenue West Williston, ND
+  - commission: ND
+    date: 2026-10-06
+    title: Regular Meeting - Internet Broadcast Formal Administrative
+  - commission: ND
+    date: 2026-10-21
+    title: Regular Meeting - Internet Broadcast Formal Administrative
+  - commission: ND
+    date: 2026-11-05
+    title: Regular Meeting - Internet Broadcast Formal Administrative
+  - commission: NM
+    date: 2026-08-27
+    title: State Capitol Building, Room 307, Santa Fe
+  - commission: NM
+    date: 2026-09-07
+    title: "Docket 25-00032-UT -Kit Carson electric Cooperative, Inc’s Application for Continuation of its Fuel and Purchased Power Cost Adjustment Clause. This hearing is set for September 7, 2026, at 9:00 a.m. Visit this site to watch the proceeding via livest"
+  - commission: NM
+    date: 2026-09-10
+    title: State Capitol Building, Room 309, Santa Fe
+  - commission: NM
+    date: 2026-09-28
+    title: "Docket 26-0000111 – Dahlia Wind LLC et al application for approval of location of the Corona Wind North II Project and right-of-way width. This hearing is set to commence at 9 a.m. on September 28, 2026, via Zoom videoconference. Visit this site to w"
+  - commission: NM
+    date: 2026-10-02
+    title: "Docket 26-0000143 – El Paso Electric request for Right-of-Way width approval. This hearing is set for October 2, 2026, at 9:00 a.m. Visit this site to watch the proceeding via livestream or watch it on the Commission’s YouTube channel. Hearings may b"
+  - commission: NOLA
+    date: 2026-08-24
+    title: ABCB Sales Tax Hearing
+  - commission: NOLA
+    date: 2026-08-24
+    title: ABCB Nuisance Hearing
+  - commission: NOLA
+    date: 2026-09-29
+    title: 2027-Proposed-Budget-Hearings (Day-1)
+  - commission: NOLA
+    date: 2026-09-30
+    title: 2027-Proposed-Budget-Hearings (Day-2)
+  - commission: NOLA
+    date: 2026-10-01
+    title: Regular Meeting
+  - commission: NOLA
+    date: 2026-10-05
+    title: 2027-Proposed-Budget-Hearings (Day-3)
+  - commission: NOLA
+    date: 2026-10-07
+    title: 2027-Proposed-Budget-Hearings (Day-4)
+  - commission: NOLA
+    date: 2026-10-19
+    title: 2027-Proposed-Budget-Hearings (Day-6)
+  - commission: NOLA
+    date: 2026-10-21
+    title: 2027-Proposed-Budget-Hearings (Day-7)
+  - commission: NOLA
+    date: 2026-10-22
+    title: 2027-Proposed-Budget-Hearings (Day-8)
+  - commission: NOLA
+    date: 2026-10-28
+    title: 2027-Proposed-Budget-Hearings (Day-9)
+  - commission: NOLA
+    date: 2026-10-29
+    title: 2027-Proposed-Budget-Hearings (Day-10)
+  - commission: OR
+    date: 2026-09-28
+    title: Docket UM 2436 - PURPA AVOIDED COSTS STANDARDIZED WORKBOOKS PUBLIC MEETING HEARING ROOM - PUC 201 HIGH ST SE SALEM, OR
+  - commission: TX-RRC
+    date: 2026-08-19
+    title: "*ENFORCEMENT DOCKET NO. OS-26-00030953"
+  - commission: TX-RRC
+    date: 2026-08-19
+    title: UNAVAILABLE
+  - commission: TX-RRC
+    date: 2026-08-20
+    title: "*SATURN SWD OPERATING LLC-DOCKET NO. OG-26-00030422 (DISMISSED)"
+  - commission: TX-RRC
+    date: 2026-08-20
+    title: "*SINERGY GAS, LLC-DOCKET NO. OS-26-00031317"
+  - commission: TX-RRC
+    date: 2026-08-24
+    title: CLARK OIL CO.-DOCKET NO. OG-26-00031871
+  - commission: TX-RRC
+    date: 2026-08-24
+    title: "*OXY USA INC.-DOCKET NO. OG-26-00031867"
+  - commission: TX-RRC
+    date: 2026-08-25
+    title: "*BJG OPERATING COMPANY -DOCKET NOS. OG-26-00030806 ET AL"
+  - commission: TX-RRC
+    date: 2026-08-25
+    title: "*ZIVNEY ENERGY-DOCKET NOS. OG-26-00030960 AND OG-26-00030961"
+  - commission: TX-RRC
+    date: 2026-08-26
+    title: "*ONPOINT OPERATING LLC -DOCKET NO. OG-26-00030515"
+  - commission: TX-RRC
+    date: 2026-08-27
+    title: "*BIGFOOT OIL LLC-DOCKET NO. OG-26-00031044"
+  - commission: TX-RRC
+    date: 2026-08-27
+    title: "*ROY JACKSON ENERGY OPERATING, LL-DOCKET NO. OG-26-00031774"
+  - commission: TX-RRC
+    date: 2026-08-28
+    title: HILCORP ENERGY COMPANY-DOCKET NOS. OG-26-00032248 AND OG-26-00032249
+  - commission: TX-RRC
+    date: 2026-08-28
+    title: "*CARPCO EFFICIENT ENERGY CO., LLC-DOCKET NO. OG-26-00031522 (CONTINUED)"
+  - commission: TX-RRC
+    date: 2026-08-28
+    title: HILCORP ENERGY COMPANY-DOCKET NOS. OG-26-00032237 AND OG-26-00032247
+  - commission: TX-RRC
+    date: 2026-08-31
+    title: "*CONWAY ENERGY OPER SERVICES INC.-DOCKET NO. OG-26-00031548"
+  - commission: TX-RRC
+    date: 2026-09-01
+    title: HILCORP ENERGY COMPANY-DOCKET NOS. OG-26-00032248, OG-26-00032249, OG-26-00032237, AND OG-26-00032247
+  - commission: TX-RRC
+    date: 2026-09-04
+    title: "*OCCIDENTAL PERMIAN LTD.-DOCKET NO. OG-26-00031735"
+  - commission: TX-RRC
+    date: 2026-09-07
+    title: RRC CLOSED
+  - commission: TX-RRC
+    date: 2026-09-10
+    title: RILEY PERMIAN OPERATING CO, LLC-DOCKET NO. OG-26-00032479
+  - commission: TX-RRC
+    date: 2026-09-11
+    title: "*BVK BARNETT II, LLC-DOCKET NO. OG-26-00032043 (DISMISSED)"
+  - commission: TX-RRC
+    date: 2026-09-14
+    title: "*O'RYAN OIL AND GAS-DOCKET NO. OG-26-00031863"
+  - commission: TX-RRC
+    date: 2026-09-16
+    title: WARWICK POSEIDON, GP-DOCKET NO. OG-26-00032568
+  - commission: TX-RRC
+    date: 2026-09-16
+    title: UNAVAILABLE
+  - commission: TX-RRC
+    date: 2026-09-25
+    title: "*ORANGEFIELD EAST CORP-DOCKET NO. OG-26-00031861"
+  - commission: TX-RRC
+    date: 2026-09-30
+    title: "*OS-26-00030859-IACX ROCK CREEK LLC"
+  - commission: TX-RRC
+    date: 2026-10-01
+    title: "*TEP BARNETT USA, LLC-DOCKET NOS. OG-26-00032641 AND OG-26-00032642"
+  - commission: TX-RRC
+    date: 2026-10-07
+    title: "*ETC TEXAS P/L, LTD-DOCKET NO. OG-26-00030354"
+  - commission: TX-RRC
+    date: 2026-10-07
+    title: "*D10 ENERGY LLC-DOCKET NO. OG-26-00031852 ET AL"
+  - commission: TX-RRC
+    date: 2026-10-07
+    title: "*LARGE OPERATING LLC-DOCKET NO. OG-26-00031856"
+  - commission: TX-RRC
+    date: 2026-10-07
+    title: UNAVAILABLE
+  - commission: TX-RRC
+    date: 2026-10-08
+    title: "*INCENDIUM RESOURCES LLC.-DOCKET NO. OG-26-00032250"
+  - commission: TX-RRC
+    date: 2026-10-12
+    title: ROSE GARDEN RANCH LTD-DOCKET NO. OG-26-00032633
+  - commission: TX-RRC
+    date: 2026-10-13
+    title: "*GALVESTON BAY OPERATING CO LLC.-DOCKET NO. OG-25-00031780"
+  - commission: TX-RRC
+    date: 2026-10-14
+    title: "*BASIN WELL SERVICE OF ODESSA, INC-DOCKET NO. OG-26-00031988 ET AL"
+  - commission: TX-RRC
+    date: 2026-10-14
+    title: "*JAY MANAGEMENT COMPANY, LLC-DOCKET NO.OG-26-00030866"
+  - commission: TX-RRC
+    date: 2026-10-20
+    title: "*TEAM OPERATING, L.L.C.-DOCKET NO. OG-26-00030956 (DISMISSED)"
+  - commission: TX-RRC
+    date: 2026-10-20
+    title: "*SOLARIS WATER MIDSTREAM, LLC-DOCKET NO. OG-26-00032324 ET AL"
+  - commission: TX-RRC
+    date: 2026-10-28
+    title: "*WATERBRIDGE TEXAS OPERATING LLC-DOCKET NO. OG-26-00031188"
+  - commission: TX-RRC
+    date: 2026-10-29
+    title: "*CARPCO EFFICIENT ENERGY CO., LLC-DOCKET NO. OG-26-00031522"
+  - commission: TX-RRC
+    date: 2026-11-02
+    title: "*MCBRIDE OPERATING LLC-DOCKET NO. OG-26-00031836"
+  - commission: TX-RRC
+    date: 2026-11-09
+    title: "*MCBRIDE OPERATING LLC-DOCKET NO. OG-26-00031836"
+  - commission: TX-RRC
+    date: 2026-11-11
+    title: RRC CLOSED
+  - commission: TX-RRC
+    date: 2026-11-12
+    title: "*MCBRIDE OPERATING LLC-DOCKET NO. OG-26-00031836"
+  - commission: TX
+    date: 2026-08-21
+    title: "LOCATION CHANGE for the August 21, 2026, open meeting of the Public Utility Commission of Texas Location: AT&T Hotel and Conference Center 1900 University Ave Austin, Texas, 78705 9:30am CT"
+  - commission: UT
+    date: 2026-09-22
+    title: CANCELED Hearing (25-035-61, Utah Fire Fund)
+  - commission: UT
+    date: 2026-09-23
+    title: CANCELED Hearing (25-035-61, Utah Fire Fund)
+  - commission: UT
+    date: 2026-10-06
+    title: Virtual Hearing (26-035-28, RMP's Application)
+  - commission: UT
+    date: 2026-10-07
+    title: Hearing (25-2179-01, Pine Valley's Request for Rate Increase)
+  - commission: UT
+    date: 2026-10-28
+    title: Hearing (25-2280-03, Legacy Sweetwater's Request for Rate Increase)
+  - commission: VT
+    date: 2026-08-24
+    title: "PUC Case No. 24-2797-PET-Evidentiary Hearing-Petition of Vermont Renewable Gas, LLC for a certificate of public good, pursuant to 30 V.S.A. § 248, to construct and operate a 2.2 MW electric generatio"
+  - commission: WA
+    date: 2026-09-28
+    title: UT-240117 CenturyLink - Hybrid Settlement Hearing
+  - commission: WA
+    date: 2026-09-28
+    title: "Participants may attend the hearing in person at the Commission’s headquarters located at 621 Woodland Square Loop S.E., Lacey, Washington 98503, or the hearing may be attended…"
+  - commission: WA
+    date: 2026-10-07
+    title: TG-250268 Junk Monkey - Special Proceeding/Hearing
+  - commission: WA
+    date: 2026-10-07
+    title: "To appear by phone, please call (253) 215-8782 and enter Meeting ID: 864 6962 3611# and Passcode: 906704#. To appear via Zoom, …"
+  - commission: WA
+    date: 2026-11-04
+    title: Docket UE-260005 et al PSE - Hybrid Evidentiary Hearing
+  - commission: WA
+    date: 2026-11-04
+    title: "To participate in the hearing by phone, call (253) 215-8782 and enter the Meeting ID: 817 6761 1771# and Passcode: 985452#. To participate via Zoom,…"
+  - commission: WA
+    date: 2026-11-05
+    title: Docket UE-260005 et al PSE - Hybrid Evidentiary Hearing
+  - commission: WA
+    date: 2026-11-05
+    title: "To participate in the hearing by phone, call (253) 215-8782 and enter the Meeting ID: 817 6761 1771# and Passcode: 985452#. To participate via Zoom,…"
 
 # Repeats every month? Use a recurring rule instead, so you
 # only decide once:
