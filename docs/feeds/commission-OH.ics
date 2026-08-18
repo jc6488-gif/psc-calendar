@@ -9,16 +9,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[OH] Case No. 26-160-EL-BGN Fairfield Energy Center\, LLC.
-DTSTART;TZID=America/New_York:20260817T180000
-DTEND;TZID=America/New_York:20260817T180000
-DTSTAMP:20260817T194401Z
-UID:5245bc97fce5474f1985@psc-calendar
+SUMMARY:[OH] Case No. 26-441-TR-CVF
+DTSTART;TZID=America/New_York:20260818T100000
+DTEND;TZID=America/New_York:20260818T100000
+DTSTAMP:20260818T110018Z
+UID:468f391d11dc75939077@psc-calendar
 CATEGORIES:OH,Evidentiary Hearing
 DESCRIPTION:Commission: Public Utilities Commission of Ohio (OH)\nType: Ev
- identiary Hearing\nDocket: 26-160-EL\, 26-160-EL-BGN\n\nSource: https://pu
+ identiary Hearing\nDocket: 26-441-TR\, 26-441-TR-CVF\n\nSource: https://pu
  co.ohio.gov/agendas-and-hearings/hearing-schedule/
-LOCATION:11850 Lancaster St.\, Millersport\, OH 43046
+LOCATION:180 East Broad Street\, Columbus\, Ohio 43215
 PRIORITY:5
 URL:https://puco.ohio.gov/agendas-and-hearings/hearing-schedule/
 END:VEVENT

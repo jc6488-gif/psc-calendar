@@ -13,7 +13,7 @@ BEGIN:VEVENT
 SUMMARY:[SC] Commission Business Meeting
 DTSTART;TZID=America/New_York:20260820T130000
 DTEND;TZID=America/New_York:20260820T150000
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:262c5fe811aac2404e6e@psc-calendar
 CATEGORIES:SC,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: South Carolina Public Service Commission (SC)\nTyp

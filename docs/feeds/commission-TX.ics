@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting
 DTSTART;TZID=America/Chicago:20260730T093000
 DTEND;TZID=America/Chicago:20260730T170000
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:56b6ddcc43f43c37d3d7@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, August 14\, 2026
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:377f1f23fdd178cc061f@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -40,7 +40,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, August 20\, 2026
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:879c6c17f7ba118d0453@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -54,7 +54,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Hearing on the Merits/Open Meeting
 DTSTART;TZID=America/Chicago:20260820T093000
 DTEND;TZID=America/Chicago:20260820T170000
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:dd129fab6686039ef273@psc-calendar
 CATEGORIES:TX,Evidentiary Hearing
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Evi
@@ -68,7 +68,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, August 21\, 2026
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:b0c164489daffcd4ea11@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -84,7 +84,7 @@ SUMMARY:[TX] LOCATION CHANGE for the August 21\, 2026\, open meeting of th
  enter 1900 University Ave Austin\, Texas\, 78705 9:30am CT
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:f61dc77ef3cff7d33671@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -96,7 +96,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, August 28\, 2026
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:611deaf01637e1097057@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -110,7 +110,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, September 11\, 2026
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:b5ed369159f0265e7d3f@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -124,7 +124,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, September 17\, 2026
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:66d0b5879a3c0f3f0826@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -138,7 +138,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, September 18\, 2026
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:104cbb352f562bcb42fa@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -152,7 +152,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, September 25\, 2026
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:42563fae12bf872e75df@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -166,7 +166,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, October 1\, 2026
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:0271203fb75fec157846@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -180,7 +180,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, October 2\, 2026
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:0d2612c5239d6678f4cc@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -194,7 +194,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, October 15\, 2026
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:6acaf48bc863cc768496@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -208,7 +208,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, November 5\, 2026
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:96d51173e5651ff3d1d4@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -222,7 +222,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Monday\, November 9\, 2026
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:1dac3e2872c57594588b@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -236,7 +236,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, November 19\, 2026
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:c8399b7ddf765d33089c@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -250,7 +250,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, December 3\, 2026
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:dafe0177f0fddbc5be57@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -264,7 +264,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, December 11\, 2026
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:c86fbf52539f986c1a21@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -278,7 +278,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, December 17\, 2026
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:f9422bdea0b8b230654f@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -292,7 +292,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, January 14\, 2027
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:4e1ec9b5c78129edda6a@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -306,7 +306,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Friday\, January 29\, 2027
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:c506bcf740f9a1747657@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -320,7 +320,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, February 18\, 2027
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:e6ace389062480db238d@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -334,7 +334,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, February 25\, 2027
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:729e7acd6589fcb28653@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -348,7 +348,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, March 11\, 2027
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:5a43b9e6b3659a9c7a16@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -362,7 +362,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, March 25\, 2027
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:c8c6b5536e419cd9b9a5@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -376,7 +376,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, April 1\, 2027
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:8e6ec30aa6fdd65c5b27@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -390,7 +390,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, April 22\, 2027
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:dded1df9babf2de5f50e@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -404,7 +404,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, May 13\, 2027
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270514
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:f4672c92cf03e8614654@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -418,7 +418,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, May 20\, 2027
 DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270521
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:3983b710602564baa166@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -432,7 +432,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, June 3\, 2027
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:6329f32918a0a958f6d5@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -446,7 +446,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, June 17\, 2027
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270618
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:ee5afddd33931d673a46@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -460,7 +460,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, July 8\, 2027
 DTSTART;VALUE=DATE:20270708
 DTEND;VALUE=DATE:20270709
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:7b632c5d0930ee974572@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
@@ -474,7 +474,7 @@ BEGIN:VEVENT
 SUMMARY:[TX] Open Meeting - Thursday\, July 29\, 2027
 DTSTART;VALUE=DATE:20270729
 DTEND;VALUE=DATE:20270730
-DTSTAMP:20260817T194401Z
+DTSTAMP:20260818T110018Z
 UID:847287496c386356daff@psc-calendar
 CATEGORIES:TX,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Public Utility Commission of Texas (TX)\nType: Ope
