@@ -635,10 +635,52 @@ def from_mo_modals(html: str, tz: ZoneInfo, now: datetime, source_url: str) -> l
     return out
 
 
+# Oregon prints the kind of proceeding on its own line, from a closed
+# vocabulary, right after the caption. That is far better than inferring a
+# type from wording - map it straight through.
+_OR_KIND = {
+    "PUBLIC MEETING": "open_meeting",
+    "HEARING": "evidentiary_hearing",
+    "ORAL ARGUMENTS": "evidentiary_hearing",
+    "PUBLIC COMMENT HEARING": "public_comment",
+    "SETTLEMENT CONFERENCE": "procedural",
+    "PREHEARING CONFERENCE": "procedural",
+    "STAFF WORKSHOP": "workshop",
+    "WORKSHOP": "workshop",
+    "CONFERENCE": "open_meeting",
+    "OTHER EVENT": "other",
+}
+_OR_DAY = re.compile(r"^(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day,\s+"
+                     r"([A-Z][a-z]+)\s+(\d{1,2}),\s+(\d{4})$")
+_OR_TIME = re.compile(r"^(\d{1,2}):(\d{2})\s*([AP])M$", re.I)
+_OR_DOCKET = re.compile(r"^Docket\s+([A-Z]{1,3}\s?\d+)$", re.I)
+
+
 def from_or_hearings(url: str, tz: ZoneInfo, now: datetime) -> list[RawEvent]:
-    """Oregon PUC hearings: hcal.asp is only a week index; the real rows live
-    at hcallist.asp?StartDate=M/D/YYYY&EndDate=M/D/YYYY. Generate the next
-    eight weeks of ranges and parse each server-rendered list."""
+    """Oregon PUC hearings, read as blocks rather than scanned for dates.
+
+    hcal.asp is only a week index; the real rows live at
+    hcallist.asp?StartDate=M/D/YYYY&EndDate=M/D/YYYY, laid out as
+
+        Monday, August 24, 2026
+        12:30 PM
+        Docket AR 676
+        - RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAMEWORK
+        OTHER EVENT
+        6:00 PM
+        Docket UM 2447
+        - IDAHO POWER AND OREGON TRAIL ELECTRIC COOPERATIVE JOINT APPLICATION
+        PUBLIC COMMENT HEARING
+        COUNCIL CHAMBERS - CITY HALL
+
+    The previous version fell through to `date_regex`, which took the DAY
+    HEADINGS and the page title for events. Those have no title of their own,
+    so the pipeline replaced them with its generic fallback and published a
+    week of phantom "Open meeting: Monday, August 24, 2026" rows off a page
+    that lists no open meetings at all. Reading the blocks gives the real
+    docket, caption, time and - because Oregon prints it - the actual KIND of
+    proceeding, which is carried on the event so nothing has to be guessed.
+    """
     base = url.rsplit("/", 1)[0]
     monday = (now - timedelta(days=(now.weekday()))).date()
     out: list[RawEvent] = []
@@ -651,16 +693,80 @@ def from_or_hearings(url: str, tz: ZoneInfo, now: datetime) -> list[RawEvent]:
             html, _ = get_text(wurl)
         except FetchError:
             continue
-        try:
-            out.extend(from_html_table(html, tz, now, wurl))
-        except ValueError:
-            try:
-                out.extend(from_date_regex(html, tz, now, wurl))
-            except ValueError:
-                pass
+
+        text = re.sub(r"<[^>]+>", "\n", html).replace("\xa0", " ").replace("&nbsp;", " ")
+        lines = [re.sub(r"\s+", " ", l).strip() for l in text.split("\n")]
+        lines = [l for l in lines if l and l != "-"]
+
+        day = None
+        cur: dict | None = None
+
+        def flush(ev):
+            if not ev or not ev.get("caption"):
+                return
+            title = ev["caption"]
+            if ev.get("docket"):
+                title = f"Docket {ev['docket']} - {title}"
+            if not in_window(ev["start"], now):
+                return
+            out.append(RawEvent(
+                title=title[:220],
+                start=ev["start"],
+                all_day=False,
+                location=", ".join(ev["loc"])[:120],
+                description="",
+                url=wurl,
+                # Oregon SAYS what kind of proceeding this is; do not re-infer it.
+                event_type=ev.get("kind") or "",
+            ))
+
+        for line in lines:
+            m = _OR_DAY.match(line)
+            if m:
+                flush(cur)
+                cur = None
+                day = _parse_dt(f"{m.group(1)} {m.group(2)}, {m.group(3)}", tz, now.year)
+                continue
+            if day is None:
+                continue
+            m = _OR_TIME.match(line)
+            if m:
+                flush(cur)
+                hh = int(m.group(1)) % 12 + (12 if m.group(3).upper() == "P" else 0)
+                cur = {"start": day.replace(hour=hh, minute=int(m.group(2))),
+                       "docket": "", "caption": "", "kind": "", "loc": []}
+                continue
+            if cur is None:
+                continue
+            m = _OR_DOCKET.match(line)
+            if m and not cur["docket"]:
+                cur["docket"] = re.sub(r"\s+", " ", m.group(1)).upper()
+                continue
+            if line.startswith("-") and not cur["caption"]:
+                cur["caption"] = line.lstrip("- ").strip()
+                continue
+            kind = _OR_KIND.get(line.upper())
+            if kind and not cur["kind"]:
+                cur["kind"] = kind
+                continue
+            if cur["caption"]:
+                cur["loc"].append(line)
+        flush(cur)
+
     if not out:
         raise ValueError("no events across hcallist weeks")
     return out
+
+
+_BARE_DATE = re.compile(
+    r"^\s*(?:mon|tues?|wed(?:nes)?|thur?s?|fri|sat(?:ur)?|sun)?[a-z]*,?\s*"
+    r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2}"
+    r"(?:,?\s*20\d\d)?\s*$", re.I)
+
+
+def classify_is_bare_date(title: str) -> bool:
+    """True when a row's whole title is just a date."""
+    return bool(_BARE_DATE.match(title or ""))
 
 
 def from_pa_umbraco(url: str, tz: ZoneInfo, now: datetime) -> list[RawEvent]:
@@ -676,15 +782,30 @@ def from_pa_umbraco(url: str, tz: ZoneInfo, now: datetime) -> list[RawEvent]:
     d0 = now.date().isoformat()
     d1 = (now + timedelta(days=300)).date().isoformat()
     out: list[RawEvent] = []
-    for qs in (f"MeetingType=meeting&MeetingBeginDate={d0}&MeetingEndDate={d1}",
-               f"MeetingType=hearing&HearingBeginDate={d0}&HearingEndDate={d1}"):
+    # PA's rows are titled with nothing but their date ("June 10, 2027"), so
+    # the kind of proceeding can only come from WHICH query returned them.
+    # Stamp it per row: this source serves both, and one blanket label would
+    # mislabel half of it.
+    for qs, kind in (
+            (f"MeetingType=meeting&MeetingBeginDate={d0}&MeetingEndDate={d1}",
+             "open_meeting"),
+            (f"MeetingType=hearing&HearingBeginDate={d0}&HearingEndDate={d1}",
+             "evidentiary_hearing")):
         try:
             html, _ = get_text(f"{url.split('?')[0]}?{qs}&ufprt={token}")
         except FetchError:
             continue
         for fn in (from_html_table, from_html_cards, from_date_regex):
             try:
-                out.extend(fn(html, tz, now, url))
+                rows = fn(html, tz, now, url)
+                for r in rows:
+                    r.setdefault("event_type", kind)
+                    # "June 10, 2027" is a date, not a name. Say what it is.
+                    t = (r.get("title") or "").strip()
+                    if classify_is_bare_date(t):
+                        r["title"] = ("Public Meeting" if kind == "open_meeting"
+                                      else "Hearing") + f" - {t}"
+                out.extend(rows)
                 break
             except ValueError:
                 continue

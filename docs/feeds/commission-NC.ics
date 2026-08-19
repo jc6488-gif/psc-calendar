@@ -15,7 +15,7 @@ SUMMARY:[NC] Expert Witness Hearing - Application of Duke Energy Carolinas
  rating Facility in Rowan County\, Nort
 DTSTART;TZID=America/New_York:20260909T100000
 DTEND;TZID=America/New_York:20260909T120000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:8d7eab84772585d602e3@psc-calendar
 CATEGORIES:NC,Evidentiary Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
@@ -31,11 +31,29 @@ URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
  ocketId=4ba67bc7-7c30-4a5c-be26-93777ac63431
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[NC] Expert Witness Hearing - Application of Cardinal Pipeline Com
+ pany\, LLC\, for an Adjustment in Its Rates and Charges
+DTSTART;TZID=America/New_York:20260929T100000
+DTEND;TZID=America/New_York:20260929T120000
+DTSTAMP:20260819T165742Z
+UID:664d0ac359c8c8927bb1@psc-calendar
+CATEGORIES:NC,Evidentiary Hearing
+DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
+ identiary Hearing\n\n9/29/2026 | 10:00am | Hearing Room 2115\, Dobbs Build
+ ing\, 430 N Salisbury St. Raleigh | G-39 Sub 52 | Expert Witness Hearing -
+  Application of Cardinal Pipeline Company\, LLC\, for an Adjustment in Its
+  Rates and Charges |\n\nSource: https://starw1.ncuc.gov/NCUC/page/docket-d
+ ocs/PSC/DocketDetails.aspx?DocketId=6b586b0e-59a2-4587-a40a-a15e29d26656
+PRIORITY:5
+URL:https://starw1.ncuc.gov/NCUC/page/docket-docs/PSC/DocketDetails.aspx?D
+ ocketId=6b586b0e-59a2-4587-a40a-a15e29d26656
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[NC] Expert Witness Hearing: Application of Piedmont Natural Gas C
  ompany\, Inc. for Annual Review of Gas Costs
 DTSTART;TZID=America/New_York:20261006T100000
 DTEND;TZID=America/New_York:20261006T120000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:88a1947bf2f5104c10c3@psc-calendar
 CATEGORIES:NC,Evidentiary Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev
@@ -55,7 +73,7 @@ SUMMARY:[NC] Expert Witness Hearing: Application of Virginia Electric and
  es and Charges Applicable to Electric Service In North Carolina
 DTSTART;TZID=America/New_York:20261118T100000
 DTEND;TZID=America/New_York:20261118T120000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:5e0cb70fe2d21131dce5@psc-calendar
 CATEGORIES:NC,Evidentiary Hearing
 DESCRIPTION:Commission: North Carolina Utilities Commission (NC)\nType: Ev

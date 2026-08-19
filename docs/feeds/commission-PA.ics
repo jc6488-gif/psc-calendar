@@ -9,11 +9,251 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: August 27\, 2026
+SUMMARY:[PA] Docket Number F-2026-3059995 Location Judge Chambers 400 Nort
+ h Street 2nd Floor Harrisburg PA 17120 Room: ms teams / virtual Copy Deliv
+ ery (Original & 1 copy/e-File) (Regular Delivery/21 days) Judges: Chad All
+ ensworth
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20260819T165742Z
+UID:5aab54c263a3dca1787a@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 19\, 2026 Docket Number F-2026-3059995 Loca
+ tion Judge Chambers 400 North Street 2nd Floor Harrisburg PA 17120 Room: m
+ s teams / virtual Copy Delivery (Original & 1 copy/e-File) (Regular Delive
+ ry/21 days) Judges: Chad Allensworth\n\nSource: https://www.puc.pa.gov/abo
+ ut-the-puc/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2026-3060646 Location Judge Chambers 400 Nort
+ h Street 2nd Floor Harrisburg PA 17120 Room: ms teams / virtual Copy Deliv
+ ery (Original & 1 copy/e-File) (Regular Delivery/21 days) Judges: Charece 
+ Z Collins
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20260819T165742Z
+UID:e335b100ffbe9fd3dfd1@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 19\, 2026 Docket Number C-2026-3060646 Loca
+ tion Judge Chambers 400 North Street 2nd Floor Harrisburg PA 17120 Room: m
+ s teams / virtual Copy Delivery (Original & 1 copy/e-File) (Regular Delive
+ ry/21 days) Judges: Charece Z Collins\n\nSource: https://www.puc.pa.gov/ab
+ out-the-puc/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2026-3061443 Location Piatt Place 301 5th Ave
+ nue\, Suite 220 Pittsburgh PA 15222 Room: ms teams / virtual Copy Delivery
+  (Original & 1 copy/e-File) (Regular Delivery/21 days) Judges: Emily DeVoe
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20260819T165742Z
+UID:a084e7cb44ab1f99c38c@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 19\, 2026 Docket Number C-2026-3061443 Loca
+ tion Piatt Place 301 5th Avenue\, Suite 220 Pittsburgh PA 15222 Room: ms t
+ eams / virtual Copy Delivery (Original & 1 copy/e-File) (Regular Delivery/
+ 21 days) Judges: Emily DeVoe\n\nSource: https://www.puc.pa.gov/about-the-p
+ uc/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2026-3061722 Location Piatt Place 301 5th Ave
+ nue\, Suite 220 Pittsburgh PA 15222 Room: ms teams / virtual Copy Delivery
+  (Original & 1 copy/e-File) (Regular Delivery/21 days) Judges: Katrina L D
+ underdale
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20260819T165742Z
+UID:8233816ceaed7f34b8b8@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 19\, 2026 Docket Number C-2026-3061722 Loca
+ tion Piatt Place 301 5th Avenue\, Suite 220 Pittsburgh PA 15222 Room: ms t
+ eams / virtual Copy Delivery (Original & 1 copy/e-File) (Regular Delivery/
+ 21 days) Judges: Katrina L Dunderdale\n\nSource: https://www.puc.pa.gov/ab
+ out-the-puc/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number F-2025-3058528 Location 801 Market Street 4th F
+ loor Philadelphia PA 19107 Room: ms teams / virtual Copy Delivery (Origina
+ l & 1 copy/e-File) (Regular Delivery/21 days) Judges: Alphonso Arnold III
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20260819T165742Z
+UID:71eb5598492cc89d5f2c@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 19\, 2026 Docket Number F-2025-3058528 Loca
+ tion 801 Market Street 4th Floor Philadelphia PA 19107 Room: ms teams / vi
+ rtual Copy Delivery (Original & 1 copy/e-File) (Regular Delivery/21 days) 
+ Judges: Alphonso Arnold III\n\nSource: https://www.puc.pa.gov/about-the-pu
+ c/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2026-3062405 Location 801 Market Street 4th F
+ loor Philadelphia PA 19107 Room: ms teams / virtual Copy Delivery (Origina
+ l & 1 copy/e-File) (Regular Delivery/21 days) Judges: Barbara Shadie Nause
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20260819T165742Z
+UID:7b831f0622f340e87d40@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 19\, 2026 Docket Number C-2026-3062405 Loca
+ tion 801 Market Street 4th Floor Philadelphia PA 19107 Room: ms teams / vi
+ rtual Copy Delivery (Original & 1 copy/e-File) (Regular Delivery/21 days) 
+ Judges: Barbara Shadie Nause\n\nSource: https://www.puc.pa.gov/about-the-p
+ uc/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2026-3061703 Location 801 Market Street 4th F
+ loor Philadelphia PA 19107 Room: ms teams / virtual Copy Delivery (Origina
+ l & 1 copy/e-File) (Regular Delivery/21 days) Judges: Christopher P Pell
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+DTSTAMP:20260819T165742Z
+UID:620188ec91cf67ea77ca@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 20\, 2026 Docket Number C-2026-3061703 Loca
+ tion 801 Market Street 4th Floor Philadelphia PA 19107 Room: ms teams / vi
+ rtual Copy Delivery (Original & 1 copy/e-File) (Regular Delivery/21 days) 
+ Judges: Christopher P Pell\n\nSource: https://www.puc.pa.gov/about-the-puc
+ /public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2026-3062393 Location Piatt Place 301 5th Ave
+ nue\, Suite 220 Pittsburgh PA 15222 Room: ms teams / virtual Copy Delivery
+  (Original & 1 copy/e-File) (Regular Delivery/21 days) Judges: Ann Quimby
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+DTSTAMP:20260819T165742Z
+UID:5c69062fd054036edf67@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 20\, 2026 Docket Number C-2026-3062393 Loca
+ tion Piatt Place 301 5th Avenue\, Suite 220 Pittsburgh PA 15222 Room: ms t
+ eams / virtual Copy Delivery (Original & 1 copy/e-File) (Regular Delivery/
+ 21 days) Judges: Ann Quimby\n\nSource: https://www.puc.pa.gov/about-the-pu
+ c/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2025-3059534 Location Judge Chambers 400 Nort
+ h Street 2nd Floor Harrisburg PA 17120 Room: ms teams / virtual Copy Deliv
+ ery (Original & 1 copy/e-File) (Regular Delivery/21 days) Judges: Teri-Lee
+  Rhoades
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+DTSTAMP:20260819T165742Z
+UID:004591b8d06c8448036c@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 20\, 2026 Docket Number C-2025-3059534 Loca
+ tion Judge Chambers 400 North Street 2nd Floor Harrisburg PA 17120 Room: m
+ s teams / virtual Copy Delivery (Original & 1 copy/e-File) (Regular Delive
+ ry/21 days) Judges: Teri-Lee Rhoades\n\nSource: https://www.puc.pa.gov/abo
+ ut-the-puc/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2018-3005217 Location Judge Chambers 400 Nort
+ h Street 2nd Floor Harrisburg PA 17120 Room: ms teams / virtual Copy Deliv
+ ery (Original & 1 copy/e-File) (Regular Delivery/21 days) Judges: Charece 
+ Z Collins
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+DTSTAMP:20260819T165742Z
+UID:c3e1f1c706dd835004c9@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 20\, 2026 Docket Number C-2018-3005217 Loca
+ tion Judge Chambers 400 North Street 2nd Floor Harrisburg PA 17120 Room: m
+ s teams / virtual Copy Delivery (Original & 1 copy/e-File) (Regular Delive
+ ry/21 days) Judges: Charece Z Collins\n\nSource: https://www.puc.pa.gov/ab
+ out-the-puc/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2026-3062476 Location Judge Chambers 400 Nort
+ h Street 2nd Floor Harrisburg PA 17120 Room: ms teams / virtual Copy Deliv
+ ery (Original & 1 copy/e-File) (Regular Delivery/21 days) Judges: Erin Gan
+ non
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+DTSTAMP:20260819T165742Z
+UID:b8124c2dae4ec592b2cc@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 21\, 2026 Docket Number C-2026-3062476 Loca
+ tion Judge Chambers 400 North Street 2nd Floor Harrisburg PA 17120 Room: m
+ s teams / virtual Copy Delivery (Original & 1 copy/e-File) (Regular Delive
+ ry/21 days) Judges: Erin Gannon\n\nSource: https://www.puc.pa.gov/about-th
+ e-puc/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2026-3062378 Location 801 Market Street 4th F
+ loor Philadelphia PA 19107 Room: ms teams / virtual Copy Delivery (Origina
+ l & 1 copy/e-File) (Regular Delivery/21 days) Judges: Eranda Vero
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+DTSTAMP:20260819T165742Z
+UID:48e1ae2c3f082a5aa4b8@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 21\, 2026 Docket Number C-2026-3062378 Loca
+ tion 801 Market Street 4th Floor Philadelphia PA 19107 Room: ms teams / vi
+ rtual Copy Delivery (Original & 1 copy/e-File) (Regular Delivery/21 days) 
+ Judges: Eranda Vero\n\nSource: https://www.puc.pa.gov/about-the-puc/public
+ -meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Docket Number C-2026-3061420 Location Piatt Place 301 5th Ave
+ nue\, Suite 220 Pittsburgh PA 15222 Room: ms teams / virtual Copy Delivery
+  (Original & 1 copy/e-File) (Regular Delivery/21 days) Judges: Emily DeVoe
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+DTSTAMP:20260819T165742Z
+UID:cae5e7ba3c399a6e2b01@psc-calendar
+CATEGORIES:PA,Evidentiary Hearing
+DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
+  Evidentiary Hearing\n\nAugust 21\, 2026 Docket Number C-2026-3061420 Loca
+ tion Piatt Place 301 5th Avenue\, Suite 220 Pittsburgh PA 15222 Room: ms t
+ eams / virtual Copy Delivery (Original & 1 copy/e-File) (Regular Delivery/
+ 21 days) Judges: Emily DeVoe\n\nSource: https://www.puc.pa.gov/about-the-p
+ uc/public-meetings-hearings/
+PRIORITY:5
+URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PA] Public Meeting - August 27\, 2026
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20260819T105851Z
-UID:090f3c84dc901565beb7@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:b536d376c25901cfd8f1@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nAugust 27\, 2026 | |\n\nSource: http
@@ -26,21 +266,21 @@ SUMMARY:[PA] Next Public Meeting: Thursday\, August 27\, 2026 View 2026-20
  27 Meeting Schedule (PDF)
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:2ed365151e78d6b390c3@psc-calendar
-CATEGORIES:PA,Open Meeting / Commission Meeting
+CATEGORIES:PA,Evidentiary Hearing
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
-  Open Meeting / Commission Meeting\n\nSource: https://www.puc.pa.gov/media
- /3926/2026-2027-pm-schedule.pdf
+  Evidentiary Hearing\n\nSource: https://www.puc.pa.gov/media/3926/2026-202
+ 7-pm-schedule.pdf
 PRIORITY:5
 URL:https://www.puc.pa.gov/media/3926/2026-2027-pm-schedule.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: September 10\, 2026
+SUMMARY:[PA] Public Meeting - September 10\, 2026
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-DTSTAMP:20260819T105851Z
-UID:9846b1ec094a70d917e3@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:2b7acf685a41eb1c3a8e@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nSeptember 10\, 2026 | |\n\nSource: h
@@ -49,11 +289,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: October 01\, 2026
+SUMMARY:[PA] Public Meeting - October 01\, 2026
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-DTSTAMP:20260819T105851Z
-UID:c0f73b62527d803199c2@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:63c6e17dbf782359438a@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nOctober 01\, 2026 | |\n\nSource: htt
@@ -62,11 +302,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: October 22\, 2026
+SUMMARY:[PA] Public Meeting - October 22\, 2026
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
-DTSTAMP:20260819T105851Z
-UID:64bd7bed1bf62fec72de@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:3a2ca2361991b0a3c042@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nOctober 22\, 2026 | |\n\nSource: htt
@@ -75,11 +315,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: November 05\, 2026
+SUMMARY:[PA] Public Meeting - November 05\, 2026
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20260819T105851Z
-UID:af1ddec6fe06cfbef577@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:1adfd672e12bff12ec4a@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nNovember 05\, 2026 | |\n\nSource: ht
@@ -88,11 +328,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: November 19\, 2026
+SUMMARY:[PA] Public Meeting - November 19\, 2026
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20260819T105851Z
-UID:d7b8877b2e38d89e0079@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:f6bff6115c3748e0acbd@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nNovember 19\, 2026 | |\n\nSource: ht
@@ -101,11 +341,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: December 03\, 2026
+SUMMARY:[PA] Public Meeting - December 03\, 2026
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-DTSTAMP:20260819T105851Z
-UID:b3c4a7a5d7d58a6de3dc@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:74532ff4d2bf678644fa@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nDecember 03\, 2026 | |\n\nSource: ht
@@ -114,11 +354,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: December 17\, 2026
+SUMMARY:[PA] Public Meeting - December 17\, 2026
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20260819T105851Z
-UID:a0cbd15162618eb31892@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:f0f1cc1d172805b1bb3a@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nDecember 17\, 2026 | |\n\nSource: ht
@@ -127,11 +367,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: January 14\, 2027
+SUMMARY:[PA] Public Meeting - January 14\, 2027
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
-DTSTAMP:20260819T105851Z
-UID:f6738dbc6b5eea88afbb@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:6aad46df23782fe6fdc7@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nJanuary 14\, 2027 | |\n\nSource: htt
@@ -140,11 +380,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: January 28\, 2027
+SUMMARY:[PA] Public Meeting - January 28\, 2027
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
-DTSTAMP:20260819T105851Z
-UID:f870403f04b26885ba65@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:2e6790e5e8a83e2d8a96@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nJanuary 28\, 2027 | |\n\nSource: htt
@@ -153,11 +393,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: February 18\, 2027
+SUMMARY:[PA] Public Meeting - February 18\, 2027
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
-DTSTAMP:20260819T105851Z
-UID:91dc2acfc12b1552d1e1@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:6110352327a6dbfc2371@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nFebruary 18\, 2027 | |\n\nSource: ht
@@ -166,11 +406,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: March 11\, 2027
+SUMMARY:[PA] Public Meeting - March 11\, 2027
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
-DTSTAMP:20260819T105851Z
-UID:5ebd1269f85109fb9b70@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:0a8d9dfa3e6cf703070d@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nMarch 11\, 2027 | |\n\nSource: https
@@ -179,11 +419,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: March 25\, 2027
+SUMMARY:[PA] Public Meeting - March 25\, 2027
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
-DTSTAMP:20260819T105851Z
-UID:2c94ae9d9f11da025ec9@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:de0caed400205abebb82@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nMarch 25\, 2027 | |\n\nSource: https
@@ -192,11 +432,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: April 08\, 2027
+SUMMARY:[PA] Public Meeting - April 08\, 2027
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
-DTSTAMP:20260819T105851Z
-UID:6d64ffc304d8ee4e9f0e@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:8aec8392d9912aa10cff@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nApril 08\, 2027 | |\n\nSource: https
@@ -205,11 +445,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: April 29\, 2027
+SUMMARY:[PA] Public Meeting - April 29\, 2027
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
-DTSTAMP:20260819T105851Z
-UID:f5c8e028335e16319285@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:99b99a1d37b6e0e8bb46@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nApril 29\, 2027 | |\n\nSource: https
@@ -218,11 +458,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: May 13\, 2027
+SUMMARY:[PA] Public Meeting - May 13\, 2027
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270514
-DTSTAMP:20260819T105851Z
-UID:076fd3e6c3331dfb054b@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:8c079dc058a54a15c2aa@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nMay 13\, 2027 | |\n\nSource: https:/
@@ -231,11 +471,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: May 27\, 2027
+SUMMARY:[PA] Public Meeting - May 27\, 2027
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
-DTSTAMP:20260819T105851Z
-UID:03de9af680a75b176dd9@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:73a1d433ec925dbad18d@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nMay 27\, 2027 | |\n\nSource: https:/
@@ -244,11 +484,11 @@ PRIORITY:5
 URL:https://www.puc.pa.gov/about-the-puc/public-meetings-hearings/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PA] Open meeting: June 10\, 2027
+SUMMARY:[PA] Public Meeting - June 10\, 2027
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270611
-DTSTAMP:20260819T105851Z
-UID:eebde2237d5a3071bed3@psc-calendar
+DTSTAMP:20260819T165742Z
+UID:8df765fb568ef153115f@psc-calendar
 CATEGORIES:PA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Pennsylvania Public Utility Commission (PA)\nType:
   Open Meeting / Commission Meeting\n\nJune 10\, 2027 | |\n\nSource: https:

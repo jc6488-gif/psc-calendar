@@ -75,15 +75,18 @@ def is_filtered_by_desk(event_type: str, commission: str, title: str) -> str:
     are simply ones the desk does not want on the calendar. The lists live in
     `publish_filters` in coverage.yaml so they can be changed without code.
     """
-    rules = _publish_filters().get(event_type or "")
-    if not rules:
-        return ""
-    if commission in (rules.get("drop_commissions") or []):
-        return f"{commission} {event_type.replace('_', ' ')}s excluded by the desk"
+    filters = _publish_filters()
     low = (title or "").lower()
-    for word in rules.get("drop_title_contains") or []:
-        if word.lower() in low:
-            return f'{event_type.replace("_", " ")} title contains "{word}"'
+    # "*" applies to every published type; the type key adds to it.
+    for key in ("*", event_type or ""):
+        rules = filters.get(key)
+        if not rules:
+            continue
+        if commission in (rules.get("drop_commissions") or []):
+            return f"{commission} {event_type.replace('_', ' ')}s excluded by the desk"
+        for word in rules.get("drop_title_contains") or []:
+            if word.lower() in low:
+                return f'title contains "{word}"'
     return ""
 
 

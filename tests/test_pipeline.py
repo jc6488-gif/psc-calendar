@@ -990,7 +990,9 @@ def test_pdf_month_only_titles_rejected():
     ("open_meeting", "UT", "Commission Meeting", True),      # Utah open meetings
     # ... but Utah HEARINGS still publish, and the words only bite open meetings
     ("evidentiary_hearing", "UT", "Hearing (26-035-01, RMP's 2026 EBA)", False),
-    ("evidentiary_hearing", "CO", "[CANCELED] HRG: 26F-0246EG Formal Complaint", False),
+    # 2026-08-19: the desk widened "cancel" to EVERY type, not just open
+    # meetings - a cancelled hearing is not a date to plan around either.
+    ("evidentiary_hearing", "CO", "[CANCELED] HRG: 26F-0246EG Formal Complaint", True),
     ("open_meeting", "MD", "Administrative Meeting", False),
     ("open_meeting", "PA", "Public Meeting", False),
 ])
@@ -1146,3 +1148,83 @@ def test_second_batch_appends_instead_of_replacing():
                 "  - {commission: IL, date: '2026-09-01', title: second}\n")
     doc = _yaml.safe_load(appended)
     assert [e["title"] for e in doc["events"]] == ["first", "second"]
+
+
+# ------------------------------------------------------ Oregon: stated types
+
+def _or_rows(monkeypatch):
+    """Run the OR block parser over one week of fixture HTML."""
+    from src.pscal import extract as ex
+    monkeypatch.setattr(ex, "get_text", lambda u, **k: (F.OR_HEARINGS_HTML, "text/html"))
+    now = datetime(2026, 8, 24, tzinfo=ZoneInfo("America/Los_Angeles"))
+    return ex.from_or_hearings("https://apps.puc.state.or.us/edockets/hcal.asp",
+                               ZoneInfo("America/Los_Angeles"), now)
+
+
+def test_oregon_reads_the_docket_not_the_day_heading(monkeypatch):
+    """The day headings and the page title are not events. Publishing them as
+    "Open meeting: Monday, August 24, 2026" put a week of meetings on the
+    calendar off a page that lists none."""
+    rows = _or_rows(monkeypatch)
+    titles = [r["title"] for r in rows]
+    assert not any(t.startswith("Open meeting") for t in titles), titles
+    assert not any("Hearings - August" in t for t in titles), titles
+    assert all(t.startswith("Docket ") for t in titles), titles
+
+
+def test_oregon_carries_the_kind_the_page_states(monkeypatch):
+    """Oregon prints the kind of proceeding on its own line. Use it rather
+    than inferring a type from wording."""
+    rows = {r["title"].split(" - ")[0]: r for r in _or_rows(monkeypatch)}
+    assert rows["Docket AR 676"]["event_type"] == "other"              # OTHER EVENT
+    assert rows["Docket UM 2447"]["event_type"] == "public_comment"    # PUBLIC COMMENT HEARING
+    assert rows["Docket UE 470"]["event_type"] == "workshop"           # STAFF WORKSHOP
+    assert rows["Docket UE 463"]["event_type"] == "evidentiary_hearing"  # HEARING
+
+
+def test_oregon_times_and_locations(monkeypatch):
+    rows = {r["title"].split(" - ")[0]: r for r in _or_rows(monkeypatch)}
+    ar = rows["Docket AR 676"]
+    assert (ar["start"].hour, ar["start"].minute) == (12, 30)
+    assert ar["start"].day == 24
+    assert (rows["Docket UM 2447"]["start"].hour) == 18       # 6:00 PM
+    assert rows["Docket UE 463"]["start"].day == 26
+    assert "HEARING ROOM" in rows["Docket UE 463"]["location"]
+
+
+@pytest.mark.parametrize("etype,code,title", [
+    ("evidentiary_hearing", "NOLA", "Alcoholic Beverage Control Board Hearing - Jul 29, 2026"),
+    ("open_meeting", "NOLA", "Alcoholic Beverage Control Board Nuisance Hearing"),
+    ("evidentiary_hearing", "CT", "[CANCELED] CANCELLED - 26-03-10 Small Cell Hearing"),
+])
+def test_wildcard_desk_filter_covers_every_type(etype, code, title):
+    """"alcohol" and "cancel" are dropped whatever the event was typed as -
+    the New Orleans calendar carries its Alcoholic Beverage Control Board
+    alongside the committee that regulates Entergy New Orleans."""
+    assert classify.is_filtered_by_desk(etype, code, title)
+
+
+def test_wildcard_filter_does_not_touch_real_hearings():
+    for etype, code, title in [
+        ("evidentiary_hearing", "LA", "Hearing: T-38004"),
+        ("open_meeting", "MD", "Administrative Meeting"),
+        ("evidentiary_hearing", "VA", "PUR-2026-00044 - Appalachian Power base rates"),
+    ]:
+        assert not classify.is_filtered_by_desk(etype, code, title), title
+
+
+def test_untitled_rows_never_invent_an_event_type():
+    """A row with no usable title tells us WHEN but not WHAT. The old
+    fallback wrote "Open meeting", which put a week of phantom meetings on
+    the calendar off Oregon's hearings page. Naming a type nobody stated is
+    the same fault as printing a time nobody stated - and worse for trust,
+    because it looks authoritative.
+
+    A source may still declare what it serves via `label`; the CODE may not
+    guess."""
+    assert classify.is_uninformative("Monday, August 24, 2026")
+    assert classify.is_uninformative("August 11")
+    assert classify.is_uninformative("June 10, 2027")
+    # ...and a real name is never mistaken for one
+    assert not classify.is_uninformative("MPSC Community Briefing: Transmission Line Siting")
+    assert not classify.is_uninformative("Docket UE 463 - PACIFICORP ADVICE NO. 25-015")

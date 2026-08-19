@@ -153,6 +153,45 @@ pre-narrowing version: tag `v1.0` / branch `backup-v1.0`.
    coverage.yaml (corporate geography, zero maintenance). It is NOT
    per-event attribution and must not be presented as such.
 
+### Never invent an event TYPE (2026-08-19)
+
+The desk found a week of Oregon "Open meeting: Monday, August 24, 2026" rows
+on a page that lists no open meetings at all. Two faults compounded:
+
+1. `from_or_hearings` fell through to `date_regex`, which took the **day
+   headings and the page title** for events.
+2. Those have no name, so the pipeline replaced them with a hardcoded
+   fallback of `"Open meeting"` - an assertion about the kind of proceeding
+   that nothing on the page supported.
+
+**Naming a type nobody stated is the same fault as printing a time nobody
+stated, and worse for trust, because it looks authoritative.** Her words:
+it undermines investors' trust in us.
+
+Now: a row whose title is only a date is DROPPED unless its source declares a
+`label`. The registry may say what a source serves; the code may not guess.
+
+Better still, a source that is TOLD the kind can stamp it per row -
+`RawEvent["event_type"]`, which the pipeline prefers over any inference from
+wording:
+
+- **OR** prints the kind on its own line from a closed vocabulary (PUBLIC
+  MEETING, HEARING, ORAL ARGUMENTS, PUBLIC COMMENT HEARING, SETTLEMENT
+  CONFERENCE, STAFF WORKSHOP, OTHER EVENT). `from_or_hearings` now reads the
+  page as blocks - date heading, time, docket, caption, kind, location - so
+  every OR row is classified from what Oregon says rather than from wording.
+  41 phantom-ish rows -> 19 real dockets.
+- **PA** titles every row with nothing but its date, and its one source
+  queries BOTH meetings and hearings. A blanket label would mislabel half of
+  it, so `from_pa_umbraco` stamps the type from WHICH query returned the row
+  and renames "June 10, 2027" to "Public Meeting - June 10, 2027". PA 19 -> 32,
+  with its hearings correctly typed for the first time.
+
+**Before dropping untitled rows anywhere, check no DATE is lost** - only the
+date matters. When this shipped, four looked at risk (MI x3, MN x1); all four
+turned out to be workshops already excluded by scope, or MN's month-grid junk,
+each with a titled row on the same day.
+
 ### Classification order: the title decides (2026-08-17)
 
 `classify_event(title, desc)` types the TITLE first and only falls back to
@@ -425,8 +464,11 @@ per-commissioner duplicates and Maryland's "NO meeting" rows were caught.
 ### Desk publish filters (`publish_filters` in coverage.yaml)
 
 Policy applied after typing, to events that would otherwise publish. Set
-2026-08-17: open meetings whose title contains **budget**, **unavailable** or
-**cancel** are dropped, as are **all Utah open meetings**. These events are
+2026-08-17: open meetings whose title contains **budget** or **unavailable** are
+dropped, as are **all Utah open meetings**. A `"*"` block applies to EVERY
+published type - **cancel** and **alcohol** live there (2026-08-19), so a
+cancelled hearing goes too, and New Orleans' Alcoholic Beverage Control Board
+stops arriving alongside the committee that regulates Entergy New Orleans. These events are
 classified correctly - the desk simply does not want them, so the lists live
 in config rather than in the classifier. Scoped to open meetings: a cancelled
 evidentiary hearing still publishes marked `[CANCELED]`, and Utah's hearings
@@ -531,7 +573,7 @@ tools/probe.py          diagnose one commission — reach for this first
 tools/audit_links.py    check every published link resolves AND holds its event
 tools/demo.py           build from synthetic fixtures, no network
 tools/build_preview.py  build from real captured data
-tests/                  188 tests, all offline
+tests/                  196 tests, all offline
 ```
 
 ### The extraction chain
@@ -608,7 +650,7 @@ survivors would throw away the meetings still to come.
 
 ```bash
 pip install -r requirements.txt
-python3 -m pytest tests/ -q                    # 188 tests, no network
+python3 -m pytest tests/ -q                    # 196 tests, no network
 python3 tools/probe.py TX --raw                # diagnose one commission
 python3 -m src.pscal.pipeline --only TX CA OH  # live scrape, a few states
 python3 -m src.pscal.pipeline                  # full run → docs/

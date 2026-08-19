@@ -14,7 +14,7 @@ SUMMARY:[NOLA] Joint Utility\, Cable\, Telecommunications and Technology a
  nd Public Works\, Sanitation and Environment Committee - Jul 22\, 2026
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:fb4ea643688050574435@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -31,7 +31,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260723T150000
 DTEND;TZID=America/Chicago:20260723T170000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:374b2e1e0aedfac1d09a@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -42,43 +42,10 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20260723-regul
  ar-meeting/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Alcoholic Beverage Control Board Nuisance Hearing - Jul 29\
- , 2026
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-DTSTAMP:20260819T105851Z
-UID:2c1b323a68f1162ad955@psc-calendar
-CATEGORIES:NOLA,Evidentiary Hearing
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Evidentiary Hearing\n\nThe agenda for Alcoholic Beverage Control Bo
- ard Nuisance Hearing dated Wednesday\, 29 July 2026 has been archived. Acc
- ess it here: https://cityofno.granicus.com/AgendaViewer.php?view_id=42&amp
- \;clip_id=5525\n\nSource: https://cityofno.granicus.com/AgendaViewer.php?v
- iew_id=42&clip_id=5525
-PRIORITY:5
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5525
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NOLA] Alcoholic Beverage Control Board Hearing - Jul 29\, 2026
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-DTSTAMP:20260819T105851Z
-UID:7521cca948050c7ec377@psc-calendar
-CATEGORIES:NOLA,Evidentiary Hearing
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Evidentiary Hearing\n\nThe agenda for Alcoholic Beverage Control Bo
- ard Hearing dated Wednesday\, 29 July 2026 has been archived. Access it he
- re: https://cityofno.granicus.com/AgendaViewer.php?view_id=42&amp\;clip_id
- =5524\n\nSource: https://cityofno.granicus.com/AgendaViewer.php?view_id=42
- &clip_id=5524
-PRIORITY:5
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5524
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] ABCB Sales Tax Hearing
 DTSTART;TZID=America/Chicago:20260729T153000
 DTEND;TZID=America/Chicago:20260729T173000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:4ddc2cedc2af749f2c1a@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -92,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] ABCB Nuisance Hearing
 DTSTART;TZID=America/Chicago:20260729T180000
 DTEND;TZID=America/Chicago:20260729T200000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:9e474e1799710b9055b8@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -106,7 +73,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260806T150000
 DTEND;TZID=America/Chicago:20260806T170000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:b3b75dbf744bb2eec4fd@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -120,7 +87,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260820T150000
 DTEND;TZID=America/Chicago:20260820T170000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:0c8200df5ebb82d9533c@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -131,27 +98,38 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20260820-regul
  ar-agenda/?feed=events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[NOLA] Alcoholic Beverage Control Board Hearing - Aug 24\, 2026
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260825
-DTSTAMP:20260819T105851Z
-UID:16184f0f7a1fcbfb8201@psc-calendar
+SUMMARY:[NOLA] ABCB Sales Tax Hearing
+DTSTART;TZID=America/Chicago:20260824T153000
+DTEND;TZID=America/Chicago:20260824T173000
+DTSTAMP:20260819T165742Z
+UID:871e5556c55c790e33ab@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
- nType: Evidentiary Hearing\n\nThe agenda for Alcoholic Beverage Control Bo
- ard Hearing dated Monday\, 24 August 2026 has been published. Access it he
- re: https://cityofno.granicus.com/AgendaViewer.php?view_id=42&amp\;event_i
- d=24999\n\nSource: https://cityofno.granicus.com/AgendaViewer.php?view_id=
- 42&event_id=24999
+ nType: Evidentiary Hearing\n\nSource: https://council.nola.gov/meetings/20
+ 26/20260824-abcb-sales-tax-hearing/?feed=events
 PRIORITY:5
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&event_id=249
- 99
+URL:https://council.nola.gov/meetings/2026/20260824-abcb-sales-tax-hearing
+ /?feed=events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] ABCB Nuisance Hearing
+DTSTART;TZID=America/Chicago:20260824T180000
+DTEND;TZID=America/Chicago:20260824T200000
+DTSTAMP:20260819T165742Z
+UID:4e0443e1ffdd824066eb@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\nSource: https://council.nola.gov/meetings/20
+ 26/20260824-abcb-nuisance-hearing/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/20260824-abcb-nuisance-hearing/
+ ?feed=events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260903T150000
 DTEND;TZID=America/Chicago:20260903T170000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:a6bdbf28a4e505c2d02c@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -165,7 +143,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260917T150000
 DTEND;TZID=America/Chicago:20260917T170000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:381d4084d7c0e638f3c5@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -179,7 +157,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Special Meeting
 DTSTART;TZID=America/Chicago:20260922T150000
 DTEND;TZID=America/Chicago:20260922T170000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:6c5cac90013e2565b42f@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -190,10 +168,100 @@ URL:https://council.nola.gov/meetings/2026/special-meetings/20260922-speci
  al-meeting/?feed=events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-1)
+DTSTART;TZID=America/Chicago:20260929T143000
+DTEND;TZID=America/Chicago:20260929T163000
+DTSTAMP:20260819T165742Z
+UID:25b2dfd889ac265903da@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\n1. Tax Levy Ordinance &ndash\; Proposed Mill
+ age Rates 2. Department of Finance (First Deputy Mayor and CAO) a. Account
+ ing b. Purchasing c. Revenue d. Treasury e. Retirement 3. Chief Administra
+ tive Office (First Deputy Mayor and CAO) a. Office of Budget and Managemen
+ t b. Office of Information and Technology c. Office of Service and Innovat
+ ion Office of Performance and Accountability d. Office of Employee &amp\; 
+ Labor Relations e. Office of Sustainability (Deputy CAO Meagan Williams) 4
+ . Orleans Parish School Board &amp\; Agenda for Children &ndash\; Millage 
+ 5. Civil Service\n\nSource: https://council.nola.gov/meetings/2026/budget-
+ hearings/20260929-proposed-budget-hearings-(day-1)/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/budget-hearings/20260929-propos
+ ed-budget-hearings-(day-1)/?feed=events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-2)
+DTSTART;TZID=America/Chicago:20260930T143000
+DTEND;TZID=America/Chicago:20260930T163000
+DTSTAMP:20260819T165742Z
+UID:62a9c0378662873be69d@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\n1. Orleans Parish Coroner 2. Public Safety (
+ Deputy Mayor &ndash\; Michael Harrison) a. New Orleans Police Department b
+ . New Orleans Fire Department c. Homeland Security d. Public Safey and Sup
+ port e. Juvenile Justice Intervention Center f. Criminal Justice Coordinat
+ ion g. Orleans Parish Communications District\n\nSource: https://council.n
+ ola.gov/meetings/2026/budget-hearings/20260930-proposed-budget-hearings-(d
+ ay-2)/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/budget-hearings/20260930-propos
+ ed-budget-hearings-(day-2)/?feed=events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] Regular Meeting
+DTSTART;TZID=America/Chicago:20261001T150000
+DTEND;TZID=America/Chicago:20261001T170000
+DTSTAMP:20260819T165742Z
+UID:ae0cb8e13231f67f5633@psc-calendar
+CATEGORIES:NOLA,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Open Meeting / Commission Meeting\n\nSource: https://council.nola.g
+ ov/meetings/2026/regular-meetings/20261001-regular-meeting/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/regular-meetings/20261001-regul
+ ar-meeting/?feed=events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-3)
+DTSTART;TZID=America/Chicago:20261005T143000
+DTEND;TZID=America/Chicago:20261005T163000
+DTSTAMP:20260819T165742Z
+UID:9293ac68dc8265e70141@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\n1. Capital Budget 2. Five Year Capital Plan 
+ 3. CAO &ndash\; Office of Capital Projects Administration 4. Department of
+  Property Management a. Real Estate Records 5. Department of Public Works\
+ n\nSource: https://council.nola.gov/meetings/2026/budget-hearings/20261005
+ -proposed-budget-hearings-(day-3)/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/budget-hearings/20261005-propos
+ ed-budget-hearings-(day-3)/?feed=events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-4)
+DTSTART;TZID=America/Chicago:20261007T143000
+DTEND;TZID=America/Chicago:20261007T163000
+DTSTAMP:20260819T165742Z
+UID:f7ee61ea6dd1343de402@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\n1. Mayor&rsquo\;s Office - CORE (Deputy Mayo
+ rs Kevin Ferguson and Renee Lapeyrolerie) a. IGR b. Communications c. Neig
+ hborhood Engagement 2. Law Department (Deputy Mayor &ndash\; City Attorney
+  Charline Gipson) 3. New Orleans Aviation Board\n\nSource: https://council
+ .nola.gov/meetings/2026/budget-hearings/20261007-proposed-budget-hearings-
+ (day-4)/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/budget-hearings/20261007-propos
+ ed-budget-hearings-(day-4)/?feed=events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-5)
 DTSTART;TZID=America/Chicago:20261008T143000
 DTEND;TZID=America/Chicago:20261008T163000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:4de24775b5fdadb9bb8d@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -213,7 +281,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261015T150000
 DTEND;TZID=America/Chicago:20261015T170000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:8268108e52e2d93943af@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -224,10 +292,96 @@ URL:https://council.nola.gov/meetings/2026/regular-meetings/20261015-regul
  ar-meeting/?feed=events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-6)
+DTSTART;TZID=America/Chicago:20261019T143000
+DTEND;TZID=America/Chicago:20261019T163000
+DTSTAMP:20260819T165742Z
+UID:259b93d300ff77e2855d@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\n1. City Services (Deputy CAO &ndash\; Austin
+  Wilty) a. Department of Safety and Permits b. Department of Code Enforcem
+ ent c. Department of Sanitation d. City Planning Commission e. Historic Di
+ strict Landmarks Commission f. Vieux Carre Commission g. Parks and Parkway
+ s h. NORD + Parks Millage\n\nSource: https://council.nola.gov/meetings/202
+ 6/budget-hearings/20261019-proposed-budget-hearings-(day-6)/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/budget-hearings/20261019-propos
+ ed-budget-hearings-(day-6)/?feed=events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-7)
+DTSTART;TZID=America/Chicago:20261021T143000
+DTEND;TZID=America/Chicago:20261021T163000
+DTSTAMP:20260819T165742Z
+UID:9e8875a97e7e89085ae8@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\n1. Criminal District Court 2. Juvenile Court
+  2. New Orleans District Attorney&rsquo\;s Office 3. Orleans Parish Sherif
+ f&rsquo\;s Office 4. Orleans Parish Public Defender&rsquo\;s Office\n\nSou
+ rce: https://council.nola.gov/meetings/2026/budget-hearings/20261021-propo
+ sed-budget-hearings-(day-7)/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/budget-hearings/20261021-propos
+ ed-budget-hearings-(day-7)/?feed=events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-8)
+DTSTART;TZID=America/Chicago:20261022T143000
+DTEND;TZID=America/Chicago:20261022T163000
+DTSTAMP:20260819T165742Z
+UID:c9c6b756368dfcc28e12@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\n1. Municipal and Traffic Court 2. Clerk of O
+ rleans Parish 3. Office of Inspector General &amp\; Ethics Review Board 4.
+  Office of Independent Police Monitor 5. French Market Corp 6. Regional Tr
+ ansit Authority 7. Algiers Development District 8. Bio District 9. New Orl
+ eans Public Library\n\nSource: https://council.nola.gov/meetings/2026/budg
+ et-hearings/20261022-proposed-budget-hearings-(day-8)/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/budget-hearings/20261022-propos
+ ed-budget-hearings-(day-8)/?feed=events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-9)
+DTSTART;TZID=America/Chicago:20261028T143000
+DTEND;TZID=America/Chicago:20261028T163000
+DTSTAMP:20260819T165742Z
+UID:90d00fc345c48edd1f16@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\n1 .Municipal Participation in Civic Affairs 
+ a. Total Community Action b. New Orleans Council on Aging c. Louisiana SPC
+ A d. Arts Council of New Orleans e. New Orleans Tourism and Culture Fund 2
+ . New Orleans Municipal Yacht Harbor\n\nSource: https://council.nola.gov/m
+ eetings/2026/budget-hearings/20261028-proposed-budget-hearings-(day-9)/?fe
+ ed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/budget-hearings/20261028-propos
+ ed-budget-hearings-(day-9)/?feed=events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-10)
+DTSTART;TZID=America/Chicago:20261029T143000
+DTEND;TZID=America/Chicago:20261029T163000
+DTSTAMP:20260819T165742Z
+UID:437b61588a2fefb3ebc6@psc-calendar
+CATEGORIES:NOLA,Evidentiary Hearing
+DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
+ nType: Evidentiary Hearing\n\nExtra Day if needed.\n\nSource: https://coun
+ cil.nola.gov/meetings/2026/budget-hearings/20261029-proposed-budget-hearin
+ gs-(day-10)/?feed=events
+PRIORITY:5
+URL:https://council.nola.gov/meetings/2026/budget-hearings/20261029-propos
+ ed-budget-hearings-(day-10)/?feed=events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261105T160000
 DTEND;TZID=America/Chicago:20261105T180000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:7f510a7a9bce00b81fce@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -241,7 +395,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261119T160000
 DTEND;TZID=America/Chicago:20261119T180000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:14fb2f8b3945a117c858@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -255,7 +409,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261201T160000
 DTEND;TZID=America/Chicago:20261201T180000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:9e4b56799c4874eb08d4@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\
@@ -269,7 +423,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261217T160000
 DTEND;TZID=America/Chicago:20261217T180000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:7e1153f2e8ec6d358c17@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)\

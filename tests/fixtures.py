@@ -253,3 +253,34 @@ Sherri L. Lewis
 Secretary of the Board
 Dated: April 27, 2026
 """
+
+
+# Oregon PUC's weekly hearings list. The day headings and the page title have
+# no event name of their own - a date-regex pass took them for events, and the
+# pipeline's old generic fallback published them as "Open meeting: Monday,
+# August 24, 2026" off a page that lists no open meetings at all.
+OR_HEARINGS_HTML = """<html><body>
+<p>Hearings&nbsp;-&nbsp;August&nbsp;24 to August&nbsp;30, 2026</p>
+<p>Monday, August 24, 2026</p>
+<p>12:30&nbsp;PM</p>
+<p>Docket AR 676</p>
+<p>- RULEMAKING TO ESTABLISH MULTI-YEAR PLAN FRAMEWORK (HB 3179 &amp; SB 688)</p>
+<p>OTHER EVENT</p>
+<p>6:00&nbsp;PM</p>
+<p>Docket UM 2447</p>
+<p>- IDAHO POWER AND OREGON TRAIL ELECTRIC COOPERATIVE JOINT APPLICATION</p>
+<p>PUBLIC COMMENT HEARING</p>
+<p>COUNCIL CHAMBERS&nbsp;-&nbsp;CITY HALL</p>
+<p>Tuesday, August 25, 2026</p>
+<p>1:30&nbsp;PM</p>
+<p>Docket UE 470</p>
+<p>- PACIFICORP REQUEST FOR A GENERAL RATE REVISION</p>
+<p>STAFF WORKSHOP</p>
+<p>ZOOM</p>
+<p>Wednesday, August 26, 2026</p>
+<p>9:30&nbsp;AM</p>
+<p>Docket UE 463</p>
+<p>- PACIFICORP ADVICE NO. 25-015 SCHEDULE 401</p>
+<p>HEARING</p>
+<p>HEARING ROOM&nbsp;-&nbsp;PUC</p>
+</body></html>"""

@@ -424,3 +424,8 @@ publish_filters:
     drop_title_contains: ["budget", "unavailable", "cancel"]
     # Utah's open meetings are not wanted; its HEARINGS still publish.
     drop_commissions: ["UT"]
+  # Applies to EVERY published type, not just open meetings. The New Orleans
+  # City Council calendar carries its Alcoholic Beverage Control Board
+  # alongside the utility committee that regulates Entergy New Orleans.
+  "*":
+    drop_title_contains: ["alcohol", "cancel"]

@@ -15,7 +15,7 @@ SUMMARY:[RI] PUC - Notice of Open Meetings - Commencing August 12 & August
  ck\, Rhode Island
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:b27bc6b6a6193b066838@psc-calendar
 CATEGORIES:RI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
@@ -33,7 +33,7 @@ SUMMARY:[RI] PUC - Notice of Open Meetings - Continuing Tuesday August 18\
  , Rhode Island
 DTSTART;TZID=America/New_York:20260818T100000
 DTEND;TZID=America/New_York:20260818T120000
-DTSTAMP:20260819T105851Z
+DTSTAMP:20260819T165742Z
 UID:0f223451db8f8edd4e80@psc-calendar
 CATEGORIES:RI,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
@@ -44,5 +44,22 @@ PRIORITY:5
 URL:https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Open%20Meet
  ing%20Notice%20%2825-45-GE%2025-33-GE%2025-19-EL%29%20August%2018-20%20202
  6.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RI] PUC - Notice of Open Meeting - Friday August 21\, 2026 at 10:
+ 00am at the PUC Hearing Room A\, 89 Jefferson Blvd\, Warwick\, Rhode Islan
+ d
+DTSTART;TZID=America/New_York:20260821T100000
+DTEND;TZID=America/New_York:20260821T120000
+DTSTAMP:20260819T165742Z
+UID:09456989599133aea284@psc-calendar
+CATEGORIES:RI,Open Meeting / Commission Meeting
+DESCRIPTION:Commission: Rhode Island Public Utilities Commission (RI)\nTyp
+ e: Open Meeting / Commission Meeting\n\nSource: https://ripuc.ri.gov/sites
+ /g/files/xkgbur841/files/2026-08/Open%20Meeting%20Notice%208-21-2026%20Fin
+ al.pdf
+PRIORITY:5
+URL:https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Open%20Meet
+ ing%20Notice%208-21-2026%20Final.pdf
 END:VEVENT
 END:VCALENDAR

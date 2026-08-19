@@ -67,12 +67,26 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
                 r["all_day"] = False
                 r["end"] = None
             if classify.is_uninformative(title):
-                # Keep a date fragment when there is one - "Weekly hearing
-                # schedule (PDF): 8/17/26 to 8/21/26" - but a bare day number
-                # ("23 Minutes") adds nothing; the event date already shows.
-                fallback = label or "Open meeting"
+                # A row with no usable title tells us WHEN but not WHAT. The
+                # old fallback wrote "Open meeting", which is an assertion
+                # about the kind of proceeding that nothing on the page
+                # supports - Oregon's hearings page has day headings with no
+                # title, and a week of them published as phantom "Open
+                # meeting: Monday, August 24, 2026" rows. Naming an event
+                # type we were never told is the same fault as printing a
+                # time nobody stated, and it is worse for trust because it
+                # looks authoritative.
+                #
+                # Only the source's own `label` (registry-declared, e.g.
+                # "Commission conference") may name a type. With no label the
+                # row stays neutral, and if there is nothing but a date it is
+                # dropped rather than invented.
+                if not label:
+                    dropped_types["Untitled row (no event name on the page)"] = \
+                        dropped_types.get("Untitled row (no event name on the page)", 0) + 1
+                    continue
                 has_date = re.search(r"\d{1,2}[/.-]\d{1,2}|\b20\d\d\b", title)
-                title = f"{fallback}: {title}" if has_date else fallback
+                title = f"{label}: {title}" if has_date else label
             if classify.is_noise(title):
                 continue
             # An archived notice whose date we had to guess becomes a hearing
@@ -84,7 +98,14 @@ def scrape_commission(spec: dict, now: datetime) -> ScrapeResult:
                 continue
             desc = r.get("description", "") or ""
 
-            etype, elabel, weight, relevance = classify.classify_event(title, desc)
+            # A source that is TOLD the kind of proceeding outranks any guess
+            # from wording - Oregon prints "PUBLIC COMMENT HEARING" or
+            # "STAFF WORKSHOP" on its own line for every row.
+            stated = (r.get("event_type") or "").strip()
+            if stated:
+                etype, elabel, weight, relevance = classify.type_info(stated)
+            else:
+                etype, elabel, weight, relevance = classify.classify_event(title, desc)
             if etype == "other" and source.get("type_hint"):
                 # The source itself knows what it serves (MA's API is all
                 # hearings; RRC's ICS is the hearings calendar) even when
