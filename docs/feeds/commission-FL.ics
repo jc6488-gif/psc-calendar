@@ -15,7 +15,7 @@ SUMMARY:[FL] Docket 20260001: Fuel and purchased power cost recovery claus
  eam Turbine Unit 2. Docket No : 20260
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
-DTSTAMP:20260818T195405Z
+DTSTAMP:20260819T105851Z
 UID:ae5a040f8b2a1f8313b3@psc-calendar
 CATEGORIES:FL,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Open
@@ -37,7 +37,7 @@ SUMMARY:[FL] Docket 20260087: Petition for determination of need for a new
  t St. Johns River Power Park Unit 3 in Duval County\, by JEA
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
-DTSTAMP:20260818T195405Z
+DTSTAMP:20260819T105851Z
 UID:6bed50205cc50b28f71b@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -56,7 +56,7 @@ SUMMARY:[FL] Docket 20260064: Petition for a limited proceeding to approve
   large load tariff\, by Duke Energy Florida\, LLC
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-DTSTAMP:20260818T195405Z
+DTSTAMP:20260819T105851Z
 UID:d296e14c2d14718f6031@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -73,7 +73,7 @@ SUMMARY:[FL] Docket 20260026: Application for rate increase by Florida Cit
  y Gas
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-DTSTAMP:20260818T195405Z
+DTSTAMP:20260819T105851Z
 UID:dae4b58766546c708147@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -90,7 +90,7 @@ SUMMARY:[FL] Docket 20260064: Petition for a limited proceeding to approve
   large load tariff\, by Duke Energy Florida\, LLC
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-DTSTAMP:20260818T195405Z
+DTSTAMP:20260819T105851Z
 UID:c75287c377f118737cad@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -103,11 +103,31 @@ PRIORITY:5
 URL:https://www.floridapsc.com/schedule-of-events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[FL] Docket 20260087: Petition for determination of need for a new
+  combined cycle generating unit and onsite associated facilities located a
+ t St. Johns River Power Park Unit 3 in Duval County\, by JEA
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+DTSTAMP:20260819T105851Z
+UID:4a4d282d0af351c7012b@psc-calendar
+CATEGORIES:FL,Evidentiary Hearing
+DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
+ entiary Hearing\nDocket: 20260087\n\nTuesday\, August 18\, 2026 Event type
+ : Hearing Time : Immediately following previous event Location: E 148 - Ta
+ llahassee | | | Docket No : 20260087 \; Title: Petition for determination 
+ of need for a new combined cycle generating unit and onsite associated fac
+ ilities located at St. Johns River Power Park Unit 3 in Duval County\, by 
+ JEA. | All Commissioners\n\nSource: https://www.floridapsc.com/schedule-of
+ -events
+PRIORITY:5
+URL:https://www.floridapsc.com/schedule-of-events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[FL] Hearing: 20260064-EI (Day: 1) — Petition for a limited proc
  eeding to approve large load tariff\, by Duke Energy Florida\, LLC
 DTSTART;TZID=America/New_York:20260825T090000
 DTEND;TZID=America/New_York:20260825T110000
-DTSTAMP:20260818T195405Z
+DTSTAMP:20260819T105851Z
 UID:5bb498eb0a7319320246@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -121,7 +141,7 @@ SUMMARY:[FL] Hearing: 20260064-EI (Day: 2) — Petition for a limited proc
  eeding to approve large load tariff\, by Duke Energy Florida\, LLC
 DTSTART;TZID=America/New_York:20260826T090000
 DTEND;TZID=America/New_York:20260826T110000
-DTSTAMP:20260818T195405Z
+DTSTAMP:20260819T105851Z
 UID:3ea4a5abfd1839f08053@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid
@@ -136,7 +156,7 @@ SUMMARY:[FL] Prehearing: 20260010-11 — Storm protection plan cost recove
  n cost recovery clause
 DTSTART;TZID=America/New_York:20260827T090000
 DTEND;TZID=America/New_York:20260827T110000
-DTSTAMP:20260818T195405Z
+DTSTAMP:20260819T105851Z
 UID:80e01e755818265e0bac@psc-calendar
 CATEGORIES:FL,Evidentiary Hearing
 DESCRIPTION:Commission: Florida Public Service Commission (FL)\nType: Evid

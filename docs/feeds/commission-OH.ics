@@ -9,16 +9,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[OH] Case No. 26-441-TR-CVF
-DTSTART;TZID=America/New_York:20260818T100000
-DTEND;TZID=America/New_York:20260818T100000
-DTSTAMP:20260818T195405Z
-UID:468f391d11dc75939077@psc-calendar
+SUMMARY:[OH] Case No. 26-196-EL-BGN PowerConnX\, Inc.
+DTSTART;TZID=America/New_York:20260819T170000
+DTEND;TZID=America/New_York:20260819T170000
+DTSTAMP:20260819T105851Z
+UID:e60a8cf6bee655006eca@psc-calendar
 CATEGORIES:OH,Evidentiary Hearing
 DESCRIPTION:Commission: Public Utilities Commission of Ohio (OH)\nType: Ev
- identiary Hearing\nDocket: 26-441-TR\, 26-441-TR-CVF\n\nSource: https://pu
+ identiary Hearing\nDocket: 26-196-EL\, 26-196-EL-BGN\n\nSource: https://pu
  co.ohio.gov/agendas-and-hearings/hearing-schedule/
-LOCATION:180 East Broad Street\, Columbus\, Ohio 43215
+LOCATION:3887 State Route 752 in Ashville\, Ohio 43103
 PRIORITY:5
 URL:https://puco.ohio.gov/agendas-and-hearings/hearing-schedule/
 END:VEVENT
