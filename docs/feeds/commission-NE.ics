@@ -9,25 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[NE] 18 Aug Commission Meeting Location: Commission Hearing Room 1
- 0:00am
-DTSTART:20260818T100000Z
-DTEND:20260818T120000Z
-DTSTAMP:20260819T165742Z
-UID:478f561b6f035d01e220@psc-calendar
-CATEGORIES:NE,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Ope
- n Meeting / Commission Meeting\n\nSource: https://psc.nebraska.gov/commiss
- ion-meeting-254
-PRIORITY:5
-URL:https://psc.nebraska.gov/commission-meeting-254
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NE] 25 Aug Commission Meeting Location: Commission Hearing Room 1
  0:00am
-DTSTART:20260825T100000Z
-DTEND:20260825T120000Z
-DTSTAMP:20260819T165742Z
+DTSTART:20260825T150000Z
+DTEND:20260825T170000Z
+DTSTAMP:20260820T110231Z
 UID:17b6685859923a699fd4@psc-calendar
 CATEGORIES:NE,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Ope
@@ -39,9 +25,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[NE] 01 Sep Commission Meeting Location: Commission Hearing Room 1
  0:00am
-DTSTART:20260901T100000Z
-DTEND:20260901T120000Z
-DTSTAMP:20260819T165742Z
+DTSTART:20260901T150000Z
+DTEND:20260901T170000Z
+DTSTAMP:20260820T110231Z
 UID:c2e9b6e48c2955612d4a@psc-calendar
 CATEGORIES:NE,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Ope
@@ -49,5 +35,21 @@ DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Ope
  ion-meeting-257
 PRIORITY:5
 URL:https://psc.nebraska.gov/commission-meeting-257
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[NE] 03 Sep Hearing – C-5561 – 2024 NBBP – Allo's Northwest 
+ Kearney Project and Fremont-to-Schuyler Project Location: Commission Heari
+ ng Room 10:00am
+DTSTART:20260903T150000Z
+DTEND:20260903T170000Z
+DTSTAMP:20260820T110231Z
+UID:32b9682a3d253e86f136@psc-calendar
+CATEGORIES:NE,Evidentiary Hearing
+DESCRIPTION:Commission: Nebraska Public Service Commission (NE)\nType: Evi
+ dentiary Hearing\n\nSource: https://psc.nebraska.gov/hearing-c-5561-2024-n
+ bbp-allos-northwest-kearney-project-and-fremont-schuyler-project
+PRIORITY:5
+URL:https://psc.nebraska.gov/hearing-c-5561-2024-nbbp-allos-northwest-kear
+ ney-project-and-fremont-schuyler-project
 END:VEVENT
 END:VCALENDAR

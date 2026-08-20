@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[NY] SEPTEMBER 2026 Public Service Commission Session
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-DTSTAMP:20260819T165742Z
+DTSTAMP:20260820T110231Z
 UID:0c21acb9af9a310a6c07@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:[NY] OCTOBER 2026 Public Service Commission Session
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-DTSTAMP:20260819T165742Z
+DTSTAMP:20260820T110231Z
 UID:8146bd601a3e85c05827@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
@@ -46,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:[NY] NOVEMBER 2026 Public Service Commission Session
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20260819T165742Z
+DTSTAMP:20260820T110231Z
 UID:7fb30086e9fc1c74a1c3@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
@@ -63,15 +63,15 @@ BEGIN:VEVENT
 SUMMARY:[NY] DECEMBER 2026 Public Service Commission Session
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20260819T165742Z
+DTSTAMP:20260820T110231Z
 UID:3542fbb3b93eff2c8773@psc-calendar
 CATEGORIES:NY,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New York Public Service Commission (NY)\nType: Ope
  n Meeting / Commission Meeting\n\nDEC 17 Commission Sessions DECEMBER 2026
   Public Service Commission Session Dec 17\, 2026 10:30 AM ET In Person and
-  Via Webcast Empire State Plaza Agency Building 3\, 19th Floor \, Albany \
- , NY 12223\n\nSource: https://dps.ny.gov/event/december-2026-public-servic
- e-commission-session
+  Via Webcast Empire State Plaza Agency Building 3\, 19th Floor \, Albany 
+ \, NY 12223\n\nSource: https://dps.ny.gov/event/december-2026-public-servi
+ ce-commission-session
 PRIORITY:5
 URL:https://dps.ny.gov/event/december-2026-public-service-commission-sessi
  on
