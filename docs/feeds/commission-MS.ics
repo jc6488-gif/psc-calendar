@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[MS] Notice of Meeting
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:e9ba30fa002705becebd@psc-calendar
 CATEGORIES:MS,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Mississippi Public Service Commission (MS)\nType: 

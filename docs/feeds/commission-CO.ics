@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] Show Cause Hearing (TB)
 DTSTART;TZID=America/Denver:20260722T120000
 DTEND;TZID=America/Denver:20260722T140000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:73a886acc37dab187fad@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -26,7 +26,7 @@ SUMMARY:[CO] Remote HRG: Pro. No. 25AL-0538G\, Public Service - AL 1056 -
  Tariff 6 - Gas Rate Case\, C3
 DTSTART;TZID=America/Denver:20260723T090000
 DTEND;TZID=America/Denver:20260723T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:9eedca1434147a5b1589@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -40,7 +40,7 @@ SUMMARY:[CO] Remote HRG: Pro. No. 25AL-0538G\, Public Service - AL 1056 -
  Tariff 6 - Gas Rate Case\, C3 (TB)
 DTSTART;TZID=America/Denver:20260727T090000
 DTEND;TZID=America/Denver:20260727T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:6c00ec7e4e7626f0cf21@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -54,7 +54,7 @@ SUMMARY:[CO] Remote HRG: Pro. No. 25AL-0538G\, Public Service - AL 1056 -
  Tariff 6 - Gas Rate Case\, C3 (JS)
 DTSTART;TZID=America/Denver:20260728T090000
 DTEND;TZID=America/Denver:20260728T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:46f777e144b66038d968@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -68,7 +68,7 @@ SUMMARY:[CO] Remote HRG: Pro. No. 25AL-0538G\, Public Service - AL 1056 -
  Tariff 6 - Gas Rate Case\, C3 (TB)
 DTSTART:20260729T190000Z
 DTEND:20260729T230000Z
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:dde6414760435ba4ef8b@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -81,7 +81,7 @@ BEGIN:VEVENT
 SUMMARY:[CO] PUC: Show Cause Hearing (TB)
 DTSTART;TZID=America/Denver:20260812T120000
 DTEND;TZID=America/Denver:20260812T140000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:3cd17eccd274a4f15c7e@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -95,7 +95,7 @@ SUMMARY:[CO] HRG: 26A-0143CP Springs2MileHigh\, LLC - CPCN\, ALJ Garvey (J
  S)
 DTSTART:20260818T150000Z
 DTEND:20260818T230000Z
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:b302c3b87918046a8c3a@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -104,11 +104,24 @@ PRIORITY:5
 URL:https://puc.colorado.gov/puccalendar
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[CO] Show Cause Hearing (JS)
+DTSTART;TZID=America/Denver:20260826T120000
+DTEND;TZID=America/Denver:20260826T140000
+DTSTAMP:20260821T110205Z
+UID:0198275543249c47d3eb@psc-calendar
+CATEGORIES:CO,Evidentiary Hearing
+DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
+ videntiary Hearing\n\nSource: https://puc.colorado.gov/puccalendar
+LOCATION:DORA - Hearing Room B//Remote
+PRIORITY:5
+URL:https://puc.colorado.gov/puccalendar
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[CO] V & R 11.12.2026 HRG: 26F-0242CP Roman Lysenko v Event Transp
  ortation Brokers\, LLC\, ALJ Mirbaba
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260910
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:e453a0c41f78c3c3830e@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -121,7 +134,7 @@ SUMMARY:[CO] HRG: 26AL-0137E\, Public Service Company - AL 2018 - Tariff 8
   - Large Load\, C3
 DTSTART:20261022T150000Z
 DTEND:20261022T230000Z
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:c307a19d2431c5e0dd15@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -135,7 +148,7 @@ SUMMARY:[CO] HRG: 26AL-0137E\, Public Service Company - AL 2018 - Tariff 8
   - Large Load\, C3
 DTSTART:20261026T150000Z
 DTEND:20261026T230000Z
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:a0a086a50fe15d1785f6@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -149,7 +162,7 @@ SUMMARY:[CO] HRG: 26AL-0137E\, Public Service Company - AL 2018 - Tariff 8
   - Large Load\, C3
 DTSTART:20261027T150000Z
 DTEND:20261027T230000Z
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:b2ef9994d2cd2e706a0e@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -163,7 +176,7 @@ SUMMARY:[CO] HRG: 26AL-0137E\, Public Service Company - AL 2018 - Tariff 8
   - Large Load\, C3
 DTSTART:20261028T190000Z
 DTEND:20261028T230000Z
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:74ee386b5b5dc97f64c2@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -177,7 +190,7 @@ SUMMARY:[CO] HRG: 26F-0242CP Roman Lysenko v Event Transportation Brokers
  \, LLC\, ALJ Mirbaba
 DTSTART:20261112T160000Z
 DTEND:20261113T000000Z
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:8a847f4f72a780392c43@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -187,25 +200,11 @@ PRIORITY:5
 URL:https://puc.colorado.gov/puccalendar
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CO] Remote: HRG: Pro. No. 26G-0229TO\, 145829 - CPAN - Park it Ri
- ght\, Inc\, ALJ Farley
-DTSTART:20261117T160000Z
-DTEND:20261118T000000Z
-DTSTAMP:20260820T110231Z
-UID:71d67b78a8e4a8d116e5@psc-calendar
-CATEGORIES:CO,Evidentiary Hearing
-DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
- videntiary Hearing\n\nSource: https://puc.colorado.gov/puccalendar
-LOCATION:Remote / HR A
-PRIORITY:5
-URL:https://puc.colorado.gov/puccalendar
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[CO] Continued HRG: 21A-0416R Greeley - UPRR -13th Street - dsgn/c
  onstr safety improvments\, ALJ Mirbaba
 DTSTART:20261117T160000Z
 DTEND:20261118T000000Z
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:63433aa30832846b9319@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -215,11 +214,25 @@ PRIORITY:5
 URL:https://puc.colorado.gov/puccalendar
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[CO] Remote: HRG: Pro. No. 26G-0229TO\, 145829 - CPAN - Park it Ri
+ ght\, Inc\, ALJ Farley
+DTSTART:20261117T160000Z
+DTEND:20261118T000000Z
+DTSTAMP:20260821T110205Z
+UID:71d67b78a8e4a8d116e5@psc-calendar
+CATEGORIES:CO,Evidentiary Hearing
+DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
+ videntiary Hearing\n\nSource: https://puc.colorado.gov/puccalendar
+LOCATION:Remote / HR A
+PRIORITY:5
+URL:https://puc.colorado.gov/puccalendar
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[CO] Remote: HRG: Pro. No. 26A-0173E\, Black Hills Colorado Electr
  ic - 2027-2029 EV Plan\, ALJ Garvey
 DTSTART;TZID=America/Denver:20261118T090000
 DTEND;TZID=America/Denver:20261118T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:ca6621ef4b01c79624a8@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E
@@ -233,7 +246,7 @@ SUMMARY:[CO] Continued HRG: 21A-0416R Greeley - UPRR -13th Street - dsgn/c
  onstr safety improvments\, ALJ Mirbaba
 DTSTART:20261118T160000Z
 DTEND:20261119T000000Z
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:a942598d5d820d114f46@psc-calendar
 CATEGORIES:CO,Evidentiary Hearing
 DESCRIPTION:Commission: Colorado Public Utilities Commission (CO)\nType: E

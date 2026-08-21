@@ -9,24 +9,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[MT] Commission Scheduling Meeting
-DTSTART;TZID=America/Denver:20260818T130000
-DTEND;TZID=America/Denver:20260818T150000
-DTSTAMP:20260820T110231Z
-UID:efbde1fb3c353be73b71@psc-calendar
-CATEGORIES:MT,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: Montana Public Service Commission (MT)\nType: Open
-  Meeting / Commission Meeting\n\nSource: https://psc.mt.gov/_docs/Current-
- Agenda.pdf
-PRIORITY:5
-URL:https://psc.mt.gov/_docs/Current-Agenda.pdf
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[MT] Commission Business Meeting
-DTSTART;TZID=America/Denver:20260818T133000
-DTEND;TZID=America/Denver:20260818T153000
-DTSTAMP:20260820T110231Z
-UID:cb3afd083bc84dd77d51@psc-calendar
+SUMMARY:[MT] On \, Montana-Dakota Utilities Co. (“MDU”) filed a motion
+  for a
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+DTSTAMP:20260821T110205Z
+UID:c8dba1e0907c1f55fb95@psc-calendar
 CATEGORIES:MT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Montana Public Service Commission (MT)\nType: Open
   Meeting / Commission Meeting\n\nSource: https://psc.mt.gov/_docs/Current-
@@ -36,10 +24,10 @@ URL:https://psc.mt.gov/_docs/Current-Agenda.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MT] Next Commission Business Meeting
-DTSTART;TZID=America/Denver:20260825T133000
-DTEND;TZID=America/Denver:20260825T153000
-DTSTAMP:20260820T110231Z
-UID:d71ee7e63b588b919849@psc-calendar
+DTSTART;TZID=America/Denver:20260908T133000
+DTEND;TZID=America/Denver:20260908T153000
+DTSTAMP:20260821T110205Z
+UID:7de9f37439c896aa5ef2@psc-calendar
 CATEGORIES:MT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Montana Public Service Commission (MT)\nType: Open
   Meeting / Commission Meeting\n\nSource: https://psc.mt.gov/_docs/Current-

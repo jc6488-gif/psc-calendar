@@ -10,28 +10,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[NOLA] Joint Utility\, Cable\, Telecommunications and Technology a
- nd Public Works\, Sanitation and Environment Committee - Jul 22\, 2026
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260723
-DTSTAMP:20260820T110231Z
-UID:fb4ea643688050574435@psc-calendar
-CATEGORIES:NOLA,Open Meeting / Commission Meeting
-DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
- \nType: Open Meeting / Commission Meeting\n\nThe agenda for Joint Utility
- \, Cable\, Telecommunications and Technology and Public Works\, Sanitation
-  and Environment Committee dated Wednesday\, 22 July 2026 has been archive
- d. Access it here: https://cityofno.granicus.com/AgendaViewer.php?view_id=
- 42&amp\;clip_id=5497\n\nSource: https://cityofno.granicus.com/AgendaViewer
- .php?view_id=42&clip_id=5497
-PRIORITY:5
-URL:https://cityofno.granicus.com/AgendaViewer.php?view_id=42&clip_id=5497
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260723T150000
 DTEND;TZID=America/Chicago:20260723T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:374b2e1e0aedfac1d09a@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -45,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] ABCB Sales Tax Hearing
 DTSTART;TZID=America/Chicago:20260729T153000
 DTEND;TZID=America/Chicago:20260729T173000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:4ddc2cedc2af749f2c1a@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -59,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] ABCB Nuisance Hearing
 DTSTART;TZID=America/Chicago:20260729T180000
 DTEND;TZID=America/Chicago:20260729T200000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:9e474e1799710b9055b8@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -73,7 +55,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260806T150000
 DTEND;TZID=America/Chicago:20260806T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:b3b75dbf744bb2eec4fd@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -87,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260820T150000
 DTEND;TZID=America/Chicago:20260820T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:0c8200df5ebb82d9533c@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -101,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260903T150000
 DTEND;TZID=America/Chicago:20260903T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:a6bdbf28a4e505c2d02c@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -115,7 +97,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20260917T150000
 DTEND;TZID=America/Chicago:20260917T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:381d4084d7c0e638f3c5@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -129,7 +111,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Special Meeting
 DTSTART;TZID=America/Chicago:20260922T150000
 DTEND;TZID=America/Chicago:20260922T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:6c5cac90013e2565b42f@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -143,7 +125,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] 2027-Proposed-Budget-Hearings (Day-5)
 DTSTART;TZID=America/Chicago:20261008T143000
 DTEND;TZID=America/Chicago:20261008T163000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:4de24775b5fdadb9bb8d@psc-calendar
 CATEGORIES:NOLA,Evidentiary Hearing
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -163,7 +145,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261015T150000
 DTEND;TZID=America/Chicago:20261015T170000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:8268108e52e2d93943af@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -177,7 +159,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261105T160000
 DTEND;TZID=America/Chicago:20261105T180000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:7f510a7a9bce00b81fce@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -191,7 +173,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261119T160000
 DTEND;TZID=America/Chicago:20261119T180000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:14fb2f8b3945a117c858@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -205,7 +187,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261201T160000
 DTEND;TZID=America/Chicago:20261201T180000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:9e4b56799c4874eb08d4@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
@@ -219,7 +201,7 @@ BEGIN:VEVENT
 SUMMARY:[NOLA] Regular Meeting
 DTSTART;TZID=America/Chicago:20261217T160000
 DTEND;TZID=America/Chicago:20261217T180000
-DTSTAMP:20260820T110231Z
+DTSTAMP:20260821T110205Z
 UID:7e1153f2e8ec6d358c17@psc-calendar
 CATEGORIES:NOLA,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: New Orleans City Council Utility Committee (NOLA)
