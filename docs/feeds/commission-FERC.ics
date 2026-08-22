@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[FERC] August 2026: 27 Notational Orders 2026-07-27 All day
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
-DTSTAMP:20260821T110205Z
+DTSTAMP:20260822T105237Z
 UID:36fc06bd095c92f7ead6@psc-calendar
 CATEGORIES:FERC,Decision / Order
 DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:[FERC] August 2026: 3 Notational Orders 2026-08-03 All day
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
-DTSTAMP:20260821T110205Z
+DTSTAMP:20260822T105237Z
 UID:c8b2e5082750f1e49220@psc-calendar
 CATEGORIES:FERC,Decision / Order
 DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
@@ -50,7 +50,7 @@ BEGIN:VEVENT
 SUMMARY:[FERC] August 2026: 10 Notational Orders 2026-08-10 All day
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
-DTSTAMP:20260821T110205Z
+DTSTAMP:20260822T105237Z
 UID:8146abe96ec00b98a18a@psc-calendar
 CATEGORIES:FERC,Decision / Order
 DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
@@ -66,14 +66,15 @@ BEGIN:VEVENT
 SUMMARY:[FERC] August 2026: 17 Notational Orders 2026-08-17 All day
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-DTSTAMP:20260821T110205Z
+DTSTAMP:20260822T105237Z
 UID:259f027a2d7d2fcfde7a@psc-calendar
 CATEGORIES:FERC,Decision / Order
 DESCRIPTION:Commission: Federal Energy Regulatory Commission (FERC)\nType:
   Decision / Order\nDocket: CP26-532\n\n16 | 17 Notational Orders 2026-08-1
  7 All day | 18 Notational Orders 2026-08-18 All day | 19 Notational Orders
   2026-08-19 All day Virtual Public Scoping Session for the Rio Grande LNG 
- Expansion Project (CP26-532-000) 7:00 - 9:00pm | 20 | 21 | 22\n\nSource: h
+ Expansion Project (CP26-532-000) 7:00 - 9:00pm | 20 Notational Orders 2026
+ -08-20 All day | 21 Notational Orders 2026-08-21 All day | 22\n\nSource: h
  ttps://www.ferc.gov/news-events/events/notational-orders-2026-08-17-081720
  26
 PRIORITY:5

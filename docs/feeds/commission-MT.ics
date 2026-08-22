@@ -13,7 +13,7 @@ SUMMARY:[MT] On \, Montana-Dakota Utilities Co. (“MDU”) filed a motion
   for a
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-DTSTAMP:20260821T110205Z
+DTSTAMP:20260822T105237Z
 UID:c8dba1e0907c1f55fb95@psc-calendar
 CATEGORIES:MT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Montana Public Service Commission (MT)\nType: Open
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:[MT] Next Commission Business Meeting
 DTSTART;TZID=America/Denver:20260908T133000
 DTEND;TZID=America/Denver:20260908T153000
-DTSTAMP:20260821T110205Z
+DTSTAMP:20260822T105237Z
 UID:7de9f37439c896aa5ef2@psc-calendar
 CATEGORIES:MT,Open Meeting / Commission Meeting
 DESCRIPTION:Commission: Montana Public Service Commission (MT)\nType: Open
